@@ -206,5 +206,3 @@ No se ve la salida del comando pero se confirma su ejecución por tiempos de res
 Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el disco del host, dando acceso de escritura como root al sistema de archivos completo.
 
 ---
-
-→

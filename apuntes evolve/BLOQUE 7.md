@@ -93,5 +93,4 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 > [!important] Flujo cíclico
 > Pivoting no es un paso único: es un ciclo repetitivo de enumeración → explotación → escalada → nuevo pivote hasta alcanzar el objetivo.
 
-→
 
