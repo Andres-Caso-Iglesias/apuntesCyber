@@ -1,4 +1,4 @@
-# SSH â€” Secure Shell
+# SSH — Secure Shell
 
 > [!info] Herramienta
 > Protocolo de acceso remoto seguro. Permite ejecutar comandos, transferir archivos y tunelizar conexiones.
@@ -375,7 +375,7 @@ chmod 600 ~/.ssh/authorized_keys
 ```
 
 > [!warning] Permisos incorrectos
-> Si los permisos son incorrectos, SSH rechazará la conexión. Esto es una medida de seguridad â€” si tu clave privada es legible por otros, la clave no sirve.
+> Si los permisos son incorrectos, SSH rechazará la conexión. Esto es una medida de seguridad — si tu clave privada es legible por otros, la clave no sirve.
 
 ---
 

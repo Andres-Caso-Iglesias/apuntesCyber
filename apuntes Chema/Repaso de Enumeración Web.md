@@ -20,7 +20,7 @@ Carlos usó un símil de análisis sintáctico para desmenuzar una URL. Tomando 
 
 | |
 |---|
-|**ℹï¸ Por qué importa esta anatomía**<br><br>Cada parte de la URL es un punto donde podemos **fuzzear**: subdominio, directorio, nombre de parámetro o valor de variable. Saber diferenciarlas es lo que permite después decidir dónde inyectar el diccionario.|
+|**ℹ⚠ Por qué importa esta anatomía**<br><br>Cada parte de la URL es un punto donde podemos **fuzzear**: subdominio, directorio, nombre de parámetro o valor de variable. Saber diferenciarlas es lo que permite después decidir dónde inyectar el diccionario.|
 
 ## **2.2. Endpoint: la pieza que lo explica todo**
 
@@ -32,7 +32,7 @@ Un **endpoint** es el receptor concreto de una petición. Este concepto es la cl
 
 | |
 |---|
-|**ℹï¸ Analogía de Carlos**<br><br>Imagina la clase con 35 alumnos. Preguntar «¿me dejas un euro?» a Mariana, a Chema, a Ã“scar... son **endpoints distintos** (personas distintas). Repetir «¿un euro? ¿un euro? ¿un euro?» a la **misma** persona es el mismo endpoint, y a la décima te cansa (te bloquea).|
+|**ℹ⚠ Analogía de Carlos**<br><br>Imagina la clase con 35 alumnos. Preguntar «¿me dejas un euro?» a Mariana, a Chema, a Ã“scar... son **endpoints distintos** (personas distintas). Repetir «¿un euro? ¿un euro? ¿un euro?» a la **misma** persona es el mismo endpoint, y a la décima te cansa (te bloquea).|
 
 ## **2.3. Códigos de estado HTTP**
 
@@ -44,7 +44,7 @@ Al lanzar peticiones interpretamos la respuesta por su código. Los básicos par
 |403|Forbidden — existe pero no autorizado|Existe, pero no nos deja entrar.|
 |404|Not Found — no existe|El recurso **no** está.|
 |301/302|Redirección|Nos manda a otra ruta (ej. /js →’ /js/).|
-|**ℹï¸ Recurso recomendado**<br><br>Carlos recuerda http.cat como chuleta visual de todos los códigos de estado HTTP.|
+|**ℹ⚠ Recurso recomendado**<br><br>Carlos recuerda http.cat como chuleta visual de todos los códigos de estado HTTP.|
 
 # **3. Fuerza bruta, password spraying y enumeración de directorios**
 
@@ -60,7 +60,7 @@ El grueso teórico de la sesión fue diferenciar estas tres cosas. Todas «lanza
 
 | |
 |---|
-|**âš ï¸ Regla de oro**<br><br>La **fuerza bruta es lo último** que hay que intentar. Es ruidosa, lenta y muy probablemente no encuentre la contraseña por caracteres especiales, longitud y aleatoriedad.|
+|**âš ⚠ Regla de oro**<br><br>La **fuerza bruta es lo último** que hay que intentar. Es ruidosa, lenta y muy probablemente no encuentre la contraseña por caracteres especiales, longitud y aleatoriedad.|
 
 ## **3.2. Password spraying**
 
@@ -87,7 +87,7 @@ Al descubrir directorios probamos /admin, /login, /uploads... es decir, **un end
 |**Password spraying →’ 1 pass a N usuarios (endpoints distintos) →’ evade rate limit**|
 |**→“**|
 |**Enumeración de directorios →’ N rutas distintas (N endpoints) →’ no salta rate limit**|
-|**ℹï¸ Matiz de Carlos sobre parámetros**<br><br>Si sobre el mismo directorio **iteras el valor** de una variable, es fuerza bruta (mismo endpoint). Si **iteras el nombre del parámetro o el directorio**, son endpoints distintos →’ se comporta como un spray. Por eso podemos enumerar parámetros ocultos sin bloqueos.|
+|**ℹ⚠ Matiz de Carlos sobre parámetros**<br><br>Si sobre el mismo directorio **iteras el valor** de una variable, es fuerza bruta (mismo endpoint). Si **iteras el nombre del parámetro o el directorio**, son endpoints distintos →’ se comporta como un spray. Por eso podemos enumerar parámetros ocultos sin bloqueos.|
 
 # **4. Rate limit, WAF y cálculo de delays**
 
@@ -105,7 +105,7 @@ Como referencia, se comentó que **NetExec lanza ~1 petición cada 0,5 s**. Con 
 
 | |
 |---|
-|**ℹï¸ Idea complementaria (añadida para aclarar el cálculo)**<br><br>**~5000 usuarios:** 5000 Ã— 0,5 s = 2500 s ≠ˆ 40 min por vuelta. Al volver al primer usuario ya ha pasado más de una hora →’ **no hace falta delay**.<br><br>**Pocos usuarios (ej. 6):** 6 Ã— 0,5 s = 3 s por vuelta, demasiado rápido →’ hay que **meter un delay** (p. ej. ~1 min por petición) para no superar el rate limit.<br><br>La regla mental: cuantos **menos usuarios**, **más delay**; cuantos más usuarios, el propio recorrido ya introduce el tiempo necesario.|
+|**ℹ⚠ Idea complementaria (añadida para aclarar el cálculo)**<br><br>**~5000 usuarios:** 5000 Ã— 0,5 s = 2500 s ≠ˆ 40 min por vuelta. Al volver al primer usuario ya ha pasado más de una hora →’ **no hace falta delay**.<br><br>**Pocos usuarios (ej. 6):** 6 Ã— 0,5 s = 3 s por vuelta, demasiado rápido →’ hay que **meter un delay** (p. ej. ~1 min por petición) para no superar el rate limit.<br><br>La regla mental: cuantos **menos usuarios**, **más delay**; cuantos más usuarios, el propio recorrido ya introduce el tiempo necesario.|
 
 ## **4.2. Tiempos de crackeo de contraseñas**
 
@@ -113,8 +113,8 @@ Se recordó la típica tabla que relaciona longitud/complejidad de contraseña c
 
 | |
 |---|
-|**âš ï¸ Por qué la fuerza bruta «está rara»**<br><br>Una contraseña de ~14 caracteres alfanuméricos con símbolos puede irse a cientos de millones de años. Y para llegar ahí primero recorres todas las longitudes menores. Por eso conviene evitarla y priorizar spraying o vectores más inteligentes.|
-|**ℹï¸ Mecanismos de bloqueo del mundo real (mencionados en clase)**<br><br>**Móviles (iOS/Android):** bloqueo progresivo tras varios fallos (10 s →’ 20 s →’ 40 s →’ minutos →’ hasta 999 min). Cada fabricante añade su propio esquema.<br><br>**Banca:** tras N fallos del código de acceso se bloquea la cuenta y hay que **desbloquear físicamente** en oficina.|
+|**âš ⚠ Por qué la fuerza bruta «está rara»**<br><br>Una contraseña de ~14 caracteres alfanuméricos con símbolos puede irse a cientos de millones de años. Y para llegar ahí primero recorres todas las longitudes menores. Por eso conviene evitarla y priorizar spraying o vectores más inteligentes.|
+|**ℹ⚠ Mecanismos de bloqueo del mundo real (mencionados en clase)**<br><br>**Móviles (iOS/Android):** bloqueo progresivo tras varios fallos (10 s →’ 20 s →’ 40 s →’ minutos →’ hasta 999 min). Cada fabricante añade su propio esquema.<br><br>**Banca:** tras N fallos del código de acceso se bloquea la cuenta y hay que **desbloquear físicamente** en oficina.|
 
 # **5. La técnica del día: Fuzzing**
 
@@ -124,7 +124,7 @@ El **fuzzing** combina lo mejor de la fuerza bruta (probar muchas combinaciones 
 |---|
 |# El marcador FUZZ se puede colocar en distintas posiciones:<br><br>https://FUZZ.dominio.es/            →’ descubrir SUBDOMINIOS<br><br>https://dominio.es/FUZZ             →’ descubrir DIRECTORIOS<br><br>https://dominio.es/admin/FUZZ.php   →’ descubrir FICHEROS/rutas (admin1, admin2...)<br><br>https://dominio.es/pagina?FUZZ=1    →’ descubrir NOMBRES de parámetros<br><br>https://dominio.es/pagina?id=FUZZ   →’ descubrir VALORES de una variable|
 |**✓ Ventaja del fuzzing**<br><br>Con **una sola herramienta** y el mismo enfoque podemos descubrir subdominios, directorios, parámetros y valores. Colocamos FUZZ donde queramos: esa flexibilidad es lo más importante de la técnica.|
-|**ℹï¸ Herramienta destacada: x8**<br><br>Carlos recomendó **x8**, una herramienta especializada en **enumerar parámetros ocultos** de una web (parámetros que no aparecen en la interfaz pero el backend sí procesa).|
+|**ℹ⚠ Herramienta destacada: x8**<br><br>Carlos recomendó **x8**, una herramienta especializada en **enumerar parámetros ocultos** de una web (parámetros que no aparecen en la interfaz pero el backend sí procesa).|
 
 ## **5.1. ¿Cuándo listar directorios y cuándo fuzzear?**
 
@@ -172,7 +172,7 @@ Antes de explotar, hay que «conocer» la aplicación, igual que no se le entra 
 |No hace fetch de origen|SSRF (Server-Side Request Forgery)|
 |Versión de PHP / software muy antigua|CVE con exploit público|
 |Plantilla HTML / CMS con versión antigua|Vulnerabilidades propias de la plantilla/CMS|
-|**ℹï¸ Buena práctica de notas**<br><br>Todo hallazgo (usuario potencial, versión, ruta interesante, tecnología) se **apunta en el bloc de notas** aunque de momento se descarte. En enumeración, cuanto más recopilas, más vectores tienes después.|
+|**ℹ⚠ Buena práctica de notas**<br><br>Todo hallazgo (usuario potencial, versión, ruta interesante, tecnología) se **apunta en el bloc de notas** aunque de momento se descarte. En enumeración, cuanto más recopilas, más vectores tienes después.|
 
 →’
 
@@ -182,14 +182,14 @@ Antes de explotar, hay que «conocer» la aplicación, igual que no se le entra 
 
 | |
 |---|
-|**ℹï¸ Nota de fidelidad**<br><br>En la transcripción la máquina suena como «Pashed»; por todos los indicios (herramienta _phpbash_, usuarios arrexel y scriptmanager, cadena test.py/test.txt con cron) se corresponde con la máquina **Bashed** de Hack The Box. Se corrige por coherencia técnica. Todo el trabajo es en un **entorno autorizado de CTF**.|
+|**ℹ⚠ Nota de fidelidad**<br><br>En la transcripción la máquina suena como «Pashed»; por todos los indicios (herramienta _phpbash_, usuarios arrexel y scriptmanager, cadena test.py/test.txt con cron) se corresponde con la máquina **Bashed** de Hack The Box. Se corrige por coherencia técnica. Todo el trabajo es en un **entorno autorizado de CTF**.|
 
 ## **7.1. Enumeración inicial**
 
 | |
 |---|
 |ping -c1 <IP>                 # comprobar ICMP / que la máquina responde<br><br>nmap -sCV -Pn <IP>            # -Pn omite descubrimiento de host (no depende de ICMP)|
-|**ℹï¸ Detalle sobre ICMP/ARP**<br><br>En máquinas alojadas en AWS un ping no devuelve nada porque **no hay ICMP ni ARP**. Ahí se usa -Pn para que Nmap no descarte el host.|
+|**ℹ⚠ Detalle sobre ICMP/ARP**<br><br>En máquinas alojadas en AWS un ping no devuelve nada porque **no hay ICMP ni ARP**. Ahí se usa -Pn para que Nmap no descarte el host.|
 
 â—      Si al abrir la web **carga**, no hay un DNS/vhost puesto a mano. Si **no carga** y da error, hay que encontrar el nombre y añadirlo a /etc/hosts.
 
@@ -216,8 +216,8 @@ Revisando el código fuente (clic derecho →’ ver código fuente) y navegando
 |/uploads|Directorio de subida →’ si logramos subir algo, posible **ejecución**.|
 |/dev|Directorio de desarrollo →’ aquí está la joya.|
 |Enlace a GitHub en el código|Apunta al **código fuente** de la herramienta instalada en el servidor.|
-|**ℹï¸ Concepto: por qué un .php se ve «vacío»**<br><br>Un .html o .js muestra su texto en el navegador. Un .php **se ejecuta** en el servidor y solo vemos el **resultado** de esa ejecución, no el código. Por eso config.php aparecía en blanco.|
-|**ℹï¸ Concepto: la extensión del directorio no limita el intérprete**<br><br>Un fichero PHP subido a /js **también se ejecuta** como PHP: el nombre de la carpeta (js) no define qué se interpreta. Si el servidor tiene PHP (Apache sobre Linux), ejecutará el .php esté donde esté.|
+|**ℹ⚠ Concepto: por qué un .php se ve «vacío»**<br><br>Un .html o .js muestra su texto en el navegador. Un .php **se ejecuta** en el servidor y solo vemos el **resultado** de esa ejecución, no el código. Por eso config.php aparecía en blanco.|
+|**ℹ⚠ Concepto: la extensión del directorio no limita el intérprete**<br><br>Un fichero PHP subido a /js **también se ejecuta** como PHP: el nombre de la carpeta (js) no define qué se interpreta. Si el servidor tiene PHP (Apache sobre Linux), ejecutará el .php esté donde esté.|
 
 ## **7.4. Explotación: webshell →’ reverse shell (www-data)**
 
@@ -241,7 +241,7 @@ Rutina de escalada: whoami y después listar qué se puede ejecutar con sudo.
 | |
 |---|
 |sudo -l<br><br># Resultado: www-data puede ejecutar comandos como 'scriptmanager' SIN contraseña.<br><br>sudo -u scriptmanager -i    # nos convertimos en scriptmanager (-i = shell interactiva)|
-|**ℹï¸ Buena práctica al cambiar de usuario**<br><br>sudo -u <usuario> -i es más limpio que sudo su. El -i (interactive) nos da una sesión con entorno del usuario destino.|
+|**ℹ⚠ Buena práctica al cambiar de usuario**<br><br>sudo -u <usuario> -i es más limpio que sudo su. El -i (interactive) nos da una sesión con entorno del usuario destino.|
 
 â—      En /home aparecen los usuarios arrexel (dueño de la máquina) y scriptmanager.
 
@@ -294,7 +294,7 @@ Como en la reverse shell no interactiva no se puede usar cómodamente vi/nano, s
 |revshells.com|Generar reverse shells|Explotación|Payloads listos|Practicada|Bash/nc/Python/PHP/perl|
 |Netcat (nc)|Listener / conexiones|Explotación|nc -lvnp <puerto>|Practicada|Recibir la reverse shell|
 |Python http.server|Servir/transferir ficheros|Post-explotación|python3 -m http.server|Introducida|Combinado con wget|
-|**ℹï¸ Nota de fidelidad**<br><br>Herramientas como **x8**, **droopescan** o **NetExec** se **mencionan** en la sesión pero no se desarrollan en profundidad en el material. Se registran para ampliarlas en sesiones futuras.
+|**ℹ⚠ Nota de fidelidad**<br><br>Herramientas como **x8**, **droopescan** o **NetExec** se **mencionan** en la sesión pero no se desarrollan en profundidad en el material. Se registran para ampliarlas en sesiones futuras.
 
 # **9. Comandos importantes**
 
@@ -307,7 +307,7 @@ Como en la reverse shell no interactiva no se puede usar cómodamente vi/nano, s
 | |
 |---|
 |**â›” Riesgos / alcance**<br><br>Todo lo practicado es sobre **laboratorios y máquinas autorizadas** (CTF de HTB / entornos de la academia). Nunca contra sistemas reales sin permiso explícito.|
-|**âš ï¸ Errores comunes**<br><br>Confundir **fuerza bruta** (mismo endpoint) con **spraying** (endpoints distintos).<br><br>Lanzar fuerza bruta como primera opción: ruidosa, lenta e improbable.<br><br>Descuadre de **puertos** entre payload y listener.<br><br>Meter la reverse shell en el fichero equivocado dentro de la cadena de escalada.|
+|**âš ⚠ Errores comunes**<br><br>Confundir **fuerza bruta** (mismo endpoint) con **spraying** (endpoints distintos).<br><br>Lanzar fuerza bruta como primera opción: ruidosa, lenta e improbable.<br><br>Descuadre de **puertos** entre payload y listener.<br><br>Meter la reverse shell en el fichero equivocado dentro de la cadena de escalada.|
 |**✓ Buenas prácticas**<br><br>Primero **listado de directorios** (dirsearch); solo si no aparece nada, **fuzzear**.<br><br>**Conocer** la web antes de explotar (analogía de la discoteca).<br><br>Apuntarlo **todo** en el bloc de notas: usuarios, versiones, rutas.<br><br>Calcular **delays** en spraying según nº de usuarios para no superar el rate limit.|
 
 # **11. Conexión con sesiones anteriores**

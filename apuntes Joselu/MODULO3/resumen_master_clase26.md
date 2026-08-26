@@ -125,7 +125,7 @@ Seleccionar la red a la que conectarse:
 
  - **Starting Point** â†’ VPN exclusiva para las mÃ¡quinas de Starting Point.
  - **Machines** â†’ VPN para el resto de mÃ¡quinas.
- - âš ï¸ Son VPNs **diferentes**.
+ - âš ⚠ Son VPNs **diferentes**.
 
 Con la de Starting Point no se accede a Machines y viceversa.
 

