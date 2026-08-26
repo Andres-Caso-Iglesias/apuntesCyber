@@ -60,7 +60,7 @@ El grueso teórico de la sesión fue diferenciar estas tres cosas. Todas «lanza
 
 | |
 |---|
-|**âš ⚠ Regla de oro**<br><br>La **fuerza bruta es lo último** que hay que intentar. Es ruidosa, lenta y muy probablemente no encuentre la contraseña por caracteres especiales, longitud y aleatoriedad.|
+|**⚠ Regla de oro**<br><br>La **fuerza bruta es lo último** que hay que intentar. Es ruidosa, lenta y muy probablemente no encuentre la contraseña por caracteres especiales, longitud y aleatoriedad.|
 
 ## **3.2. Password spraying**
 
@@ -113,7 +113,7 @@ Se recordó la típica tabla que relaciona longitud/complejidad de contraseña c
 
 | |
 |---|
-|**âš ⚠ Por qué la fuerza bruta «está rara»**<br><br>Una contraseña de ~14 caracteres alfanuméricos con símbolos puede irse a cientos de millones de años. Y para llegar ahí primero recorres todas las longitudes menores. Por eso conviene evitarla y priorizar spraying o vectores más inteligentes.|
+|**⚠ Por qué la fuerza bruta «está rara»**<br><br>Una contraseña de ~14 caracteres alfanuméricos con símbolos puede irse a cientos de millones de años. Y para llegar ahí primero recorres todas las longitudes menores. Por eso conviene evitarla y priorizar spraying o vectores más inteligentes.|
 |**ℹ⚠ Mecanismos de bloqueo del mundo real (mencionados en clase)**<br><br>**Móviles (iOS/Android):** bloqueo progresivo tras varios fallos (10 s →’ 20 s →’ 40 s →’ minutos →’ hasta 999 min). Cada fabricante añade su propio esquema.<br><br>**Banca:** tras N fallos del código de acceso se bloquea la cuenta y hay que **desbloquear físicamente** en oficina.|
 
 # **5. La técnica del día: Fuzzing**
@@ -307,7 +307,7 @@ Como en la reverse shell no interactiva no se puede usar cómodamente vi/nano, s
 | |
 |---|
 |**â›” Riesgos / alcance**<br><br>Todo lo practicado es sobre **laboratorios y máquinas autorizadas** (CTF de HTB / entornos de la academia). Nunca contra sistemas reales sin permiso explícito.|
-|**âš ⚠ Errores comunes**<br><br>Confundir **fuerza bruta** (mismo endpoint) con **spraying** (endpoints distintos).<br><br>Lanzar fuerza bruta como primera opción: ruidosa, lenta e improbable.<br><br>Descuadre de **puertos** entre payload y listener.<br><br>Meter la reverse shell en el fichero equivocado dentro de la cadena de escalada.|
+|**⚠ Errores comunes**<br><br>Confundir **fuerza bruta** (mismo endpoint) con **spraying** (endpoints distintos).<br><br>Lanzar fuerza bruta como primera opción: ruidosa, lenta e improbable.<br><br>Descuadre de **puertos** entre payload y listener.<br><br>Meter la reverse shell en el fichero equivocado dentro de la cadena de escalada.|
 |**✓ Buenas prácticas**<br><br>Primero **listado de directorios** (dirsearch); solo si no aparece nada, **fuzzear**.<br><br>**Conocer** la web antes de explotar (analogía de la discoteca).<br><br>Apuntarlo **todo** en el bloc de notas: usuarios, versiones, rutas.<br><br>Calcular **delays** en spraying según nº de usuarios para no superar el rate limit.|
 
 # **11. Conexión con sesiones anteriores**

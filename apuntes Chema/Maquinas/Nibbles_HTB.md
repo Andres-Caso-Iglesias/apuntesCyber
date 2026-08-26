@@ -211,7 +211,7 @@ cat /root/root.txt
 # FLAG ROOT
 ```
 
-> âš  **CRÍTICO** 
+> ⚠ **CRÍTICO** 
 > Usar **`>>` (append)**, nunca `>` (sobrescribe). `>` destruye el script original y podrías romper la persistencia o alertar al admin. `>>` añade al final sin tocar lo anterior.
 
 # 5. Herramientas utilizadas en la sesión
@@ -233,15 +233,15 @@ cat /root/root.txt
 
 | |
 |---|
-|âš  **AVISO**<br><br>**Comentarios HTML ≠  basura**. Son inteligencia pasiva gratis**. Siempre revisar `curl -s URL | grep "<!--"` o "Ver código fuente".|
+|⚠ **AVISO**<br><br>**Comentarios HTML ≠  basura**. Son inteligencia pasiva gratis**. Siempre revisar `curl -s URL | grep "<!--"` o "Ver código fuente".|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**File upload con warnings ≠  bloqueado**. Nibbleblog (y muchos CMS/plugins) muestran error de validación de imagen **pero guardan el fichero**. Verificar siempre accediendo a la URL resultante.|
+|⚠ **AVISO**<br><br>**File upload con warnings ≠  bloqueado**. Nibbleblog (y muchos CMS/plugins) muestran error de validación de imagen **pero guardan el fichero**. Verificar siempre accediendo a la URL resultante.|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**`>>` vs `>` en escalada**. `>` sobrescribe y rompe el script legítimo. `>>` añade al final y preserva funcionalidad original. **Siempre `>>`**.|
+|⚠ **AVISO**<br><br>**`>>` vs `>` en escalada**. `>` sobrescribe y rompe el script legítimo. `>>` añade al final y preserva funcionalidad original. **Siempre `>>`**.|
 
 | |
 |---|

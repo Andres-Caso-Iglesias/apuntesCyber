@@ -6,7 +6,7 @@ La definición rápida y correcta es: **Burp Suite es un framework de auditoría
 
 | |
 |---|
-|**âš ⚠  Error común de definición**<br><br>Decir que "Burp es un proxy" es **incompleto**. El proxy es la **funcionalidad principal y dependencia crítica** (sin proxy no se puede operar), pero Burp es mucho más: Repeater, Intruder, Decoder, Comparer, etc.|
+|**⚠  Error común de definición**<br><br>Decir que "Burp es un proxy" es **incompleto**. El proxy es la **funcionalidad principal y dependencia crítica** (sin proxy no se puede operar), pero Burp es mucho más: Repeater, Intruder, Decoder, Comparer, etc.|
 
 ## 2.2. Front vs Back: dónde tenemos el control
 
@@ -105,7 +105,7 @@ Permite hacer **fuerza bruta / fuzzing** sustituyendo uno o varios parámetros m
 
 | |
 |---|
-|**âš ⚠  Buena práctica con Intruder**<br><br>Marca y fuzzea los parámetros **de uno en uno** (Add/Clear sobre la posición en verde, entre $...$). Cada parámetro controla algo distinto en el back; fuzzear varios a la vez mezcla resultados y no sabes qué provoca qué.<br><br>Y recuerda: **sin diccionario (payload) cargado, el ataque no hace nada** ("make sense").|
+|**⚠  Buena práctica con Intruder**<br><br>Marca y fuzzea los parámetros **de uno en uno** (Add/Clear sobre la posición en verde, entre $...$). Cada parámetro controla algo distinto en el back; fuzzear varios a la vez mezcla resultados y no sabes qué provoca qué.<br><br>Y recuerda: **sin diccionario (payload) cargado, el ataque no hace nada** ("make sense").|
 
 **Tipos de ataque** (desplegable del Intruder):
 
@@ -115,7 +115,7 @@ Permite hacer **fuerza bruta / fuzzing** sustituyendo uno o varios parámetros m
 |Battering ram|El mismo payload en todas las posiciones a la vez.|
 |Pitchfork|Una lista por posición, en paralelo (1-1).|
 |Cluster bomb|Todas las combinaciones posibles entre listas ("explota todo").|
-|**âš ⚠  Limitación de la versión Community (gratuita)**<br><br>En la versión gratuita el Intruder está **throttled** (limitado en velocidad). Para fuerza bruta seria sobre WordPress es mejor **WPScan**. La versión Pro (~500 €/año) levanta esa limitación.|
+|**⚠  Limitación de la versión Community (gratuita)**<br><br>En la versión gratuita el Intruder está **throttled** (limitado en velocidad). Para fuerza bruta seria sobre WordPress es mejor **WPScan**. La versión Pro (~500 €/año) levanta esa limitación.|
 
 ## 3.5. Repeater
 
@@ -158,7 +158,7 @@ Primero localizar la IP de la máquina objetivo en la red interna:
 | |
 |---|
 |# En Kali — descubrir hosts de la red interna<br><br>netdiscover -r 192.168.1.0/24<br><br># Comprobar tu propia IP y rango primero<br><br>ip a|
-|**âš ⚠  Incidencia real con la red (Kali en NAT)**<br><br>La Kali estaba en **NAT Network** y cogía una IP rara porque el **DHCP** de esa red no estaba habilitado. Solución: habilitar el DHCP de la NAT Network (Archivo →’ Herramientas →’ Red) y/o **apagar y encender la tarjeta de red** de la VM.<br><br>Por estos problemas se decidió tirar **desde Windows** con PowerShell, curl y diccionarios de SecLists.|
+|**⚠  Incidencia real con la red (Kali en NAT)**<br><br>La Kali estaba en **NAT Network** y cogía una IP rara porque el **DHCP** de esa red no estaba habilitado. Solución: habilitar el DHCP de la NAT Network (Archivo →’ Herramientas →’ Red) y/o **apagar y encender la tarjeta de red** de la VM.<br><br>Por estos problemas se decidió tirar **desde Windows** con PowerShell, curl y diccionarios de SecLists.|
 
 ## 4.3. Enumeración web: SecLists + fuzzing de directorios
 
@@ -191,7 +191,7 @@ La máquina usa un **dominio** (academy.thl/similar). Para que el navegador resu
 |Linux|/etc/hosts|
 |Windows|C:\Windows\System32\drivers\etc\hosts|
 |# Línea a añadir en el fichero hosts (IP <TAB> dominio):<br><br>192.168.1.X    academy.thl|
-|**âš ⚠  Detalles del hosts en Windows**<br><br>Hay que abrir el Bloc de notas **como administrador** para poder guardar.<br><br>En el explorador, mostrar **todos los archivos** para ver hosts (no tiene extensión).<br><br>Tras añadir el dominio, la web confía más y empieza a servir imágenes/recursos correctamente.<br><br>Casi todas las máquinas tipo HTB requieren este paso de mapear DNS →’ IP.|
+|**⚠  Detalles del hosts en Windows**<br><br>Hay que abrir el Bloc de notas **como administrador** para poder guardar.<br><br>En el explorador, mostrar **todos los archivos** para ver hosts (no tiene extensión).<br><br>Tras añadir el dominio, la web confía más y empieza a servir imágenes/recursos correctamente.<br><br>Casi todas las máquinas tipo HTB requieren este paso de mapear DNS →’ IP.|
 
 ## 4.5. Enumeración de WordPress (HackTricks + rutas conocidas)
 
@@ -216,7 +216,7 @@ Está escrita en **Ruby**. En Kali viene/instala fácil; en Windows requiere ins
 |---|
 |# Instalación en Debian/Kali<br><br>sudo apt install -y build-essential ruby ruby-dev<br><br>gem install wpscan<br><br># Uso básico: enumerar la web objetivo<br><br>wpscan --url http://academy.thl|
 |**ℹ⚠  API Token de WPScan**<br><br>WPScan ofrece un **API token gratuito** (tras registro) que enriquece los resultados con la base de datos de vulnerabilidades. Se pasa con --api-token <TOKEN>.|
-|**âš ⚠  Estado de la práctica al cierre**<br><br>La clase terminó **instalando Ruby/WPScan en Windows** sin llegar a lanzar el escaneo completo ni a la explotación. Carlos lo dejó para la **sesión siguiente**, donde se haría la máquina entera desde Windows (vía WSL si hace falta).<br><br>**No se inventan aquí credenciales, versiones, plugins ni flags**: no aparecieron en el material.|
+|**⚠  Estado de la práctica al cierre**<br><br>La clase terminó **instalando Ruby/WPScan en Windows** sin llegar a lanzar el escaneo completo ni a la explotación. Carlos lo dejó para la **sesión siguiente**, donde se haría la máquina entera desde Windows (vía WSL si hace falta).<br><br>**No se inventan aquí credenciales, versiones, plugins ni flags**: no aparecieron en el material.|
 
 # 5. Herramientas utilizadas en la sesión
 
@@ -243,7 +243,7 @@ Está escrita en **Ruby**. En Kali viene/instala fácil; en Windows requiere ins
 
 | |
 |---|
-|**âš ⚠  Errores comunes**<br><br>Definir Burp solo como "un proxy": es un **framework**; el proxy es su núcleo.<br><br>Lanzar el **Intruder sin payload** (no hace nada) o fuzzear varios parámetros a la vez.<br><br>Olvidar **instalar el certificado de la CA de Burp** →’ las webs HTTPS fallan al interceptar.<br><br>No habilitar el **DHCP** de la NAT Network →’ la VM coge IP incorrecta.<br><br>Editar el hosts de Windows **sin permisos de administrador** →’ no deja guardar.|
+|**⚠  Errores comunes**<br><br>Definir Burp solo como "un proxy": es un **framework**; el proxy es su núcleo.<br><br>Lanzar el **Intruder sin payload** (no hace nada) o fuzzear varios parámetros a la vez.<br><br>Olvidar **instalar el certificado de la CA de Burp** →’ las webs HTTPS fallan al interceptar.<br><br>No habilitar el **DHCP** de la NAT Network →’ la VM coge IP incorrecta.<br><br>Editar el hosts de Windows **sin permisos de administrador** →’ no deja guardar.|
 |**✓  Buenas prácticas**<br><br>Usar **Target →’ Scope** para filtrar ruido al auditar.<br><br>Conocer **dónde está el control** (front local) frente a lo que corre en el servidor.<br><br>Confirmar tecnología con **Wappalyzer** antes de elegir herramienta (WordPress →’ WPScan).<br><br>Mapear siempre **dominio →’ IP** en el hosts en máquinas tipo HTB.<br><br>Tener un **plan B en Windows/PowerShell** por si la Kali falla.<br><br>Trabajar **solo en laboratorios y entornos autorizados**.|
 
 # 8. Conexión con sesiones anteriores

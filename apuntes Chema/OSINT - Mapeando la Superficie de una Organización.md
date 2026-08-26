@@ -42,7 +42,7 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 
 | | |
 |---|---|
-|**âš  FALSOS POSITIVOS**|Sherlock y Maigret solo verifican el código HTTP de respuesta (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista →’ hay que verificar manualmente los resultados clave.|
+|**⚠ FALSOS POSITIVOS**|Sherlock y Maigret solo verifican el código HTTP de respuesta (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista →’ hay que verificar manualmente los resultados clave.|
 
 # ⑤ WHOIS y DNS — Infraestructura del objetivo
 
@@ -64,7 +64,7 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 
 | |
 |---|
-|# Have I Been Pwned (HIBP) — haveibeenpwned.com<br><br># Consultar si un email o dominio tiene credenciales filtradas.<br><br># API (requiere key gratuita para dominios):<br><br>curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'<br><br># Herramientas similares:<br><br># dehashed.com (requiere suscripción)<br><br># intelx.io<br><br># hunter.io →’ correos corporativos por dominio<br><br># âš  IMPORTANTE:<br><br># Consultar HIBP = LEGAL (datos ya públicos)<br><br># Descargar/usar bases de datos robadas = ILEGAL<br><br># Usar credenciales filtradas contra sistemas = ILEGAL|
+|# Have I Been Pwned (HIBP) — haveibeenpwned.com<br><br># Consultar si un email o dominio tiene credenciales filtradas.<br><br># API (requiere key gratuita para dominios):<br><br>curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'<br><br># Herramientas similares:<br><br># dehashed.com (requiere suscripción)<br><br># intelx.io<br><br># hunter.io →’ correos corporativos por dominio<br><br># ⚠ IMPORTANTE:<br><br># Consultar HIBP = LEGAL (datos ya públicos)<br><br># Descargar/usar bases de datos robadas = ILEGAL<br><br># Usar credenciales filtradas contra sistemas = ILEGAL|
 
 | | |
 |---|---|

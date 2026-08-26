@@ -153,7 +153,7 @@ hashcat -m 0 engineer.hash /usr/share/wordlists/rockyou.txt
 
 **Resultado** (< 1 seg): `engineer:engineer123` (ejemplo; la real sale en clase).
 
-> âš  **AVISO** 
+> ⚠ **AVISO** 
 > También se intentó crackear el hash del `admin` (`5f4dcc3b5aa765d61d8327deb882cf99` — distinto al de engineer). No apareció en rockyou.txt. **No fue necesario** para completar la máquina.
 
 ## 4.6. Acceso SSH
@@ -268,15 +268,15 @@ cat /root/root.txt
 
 | |
 |---|
-|âš  **AVISO**<br><br>**Node.js Inspector en producción = root RCE local**. Si ves puerto 9229 abierto y el proceso corre como root, **escalada trivial** via CDP. Nunca dejar `--inspect` en prod, y mucho menos como root.|
+|⚠ **AVISO**<br><br>**Node.js Inspector en producción = root RCE local**. Si ves puerto 9229 abierto y el proceso corre como root, **escalada trivial** via CDP. Nunca dejar `--inspect` en prod, y mucho menos como root.|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**UUID de sesión del Inspector cambia al reiniciar el servicio**. Siempre obtenerlo en vivo (`/json/list`) antes de lanzar el exploit.|
+|⚠ **AVISO**<br><br>**UUID de sesión del Inspector cambia al reiniciar el servicio**. Siempre obtenerlo en vivo (`/json/list`) antes de lanzar el exploit.|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**React2Shell / CVE-2025-29927**: el bypass funciona porque el header `x-middleware-subrequest` **no valida origen**. Cualquier petición externa con ese header salta el middleware. Parchear: actualizar Next.js ≠¥ versión parcheada.|
+|⚠ **AVISO**<br><br>**React2Shell / CVE-2025-29927**: el bypass funciona porque el header `x-middleware-subrequest` **no valida origen**. Cualquier petición externa con ese header salta el middleware. Parchear: actualizar Next.js ≠¥ versión parcheada.|
 
 | |
 |---|

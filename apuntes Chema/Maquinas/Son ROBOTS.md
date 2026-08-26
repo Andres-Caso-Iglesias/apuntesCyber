@@ -44,7 +44,7 @@ Los permisos se leen en tres bloques — **propietario, grupo y otros** — cada
 | |
 |---|
 |**ℹ  El símil de la clase**<br><br>Aunque un libro (fichero) sea de otra persona y no puedas escribir en él, si lo puedes leer, puedes transcribirlo a tu libreta (una carpeta donde sí tienes escritura) y entonces hacer con esa copia lo que quieras.|
-|**âš   La carpeta /tmp y el sticky bit**<br><br>La carpeta /tmp tiene permisos de lectura, escritura y ejecución para todos (de ahí el color distinto en ls, por la «t» de sticky bit). Por eso se usa tanto para subir y ejecutar herramientas cuando la cuenta comprometida no tiene un /home donde escribir. Como administrador de sistemas, es una carpeta a vigilar.|
+|**⚠  La carpeta /tmp y el sticky bit**<br><br>La carpeta /tmp tiene permisos de lectura, escritura y ejecución para todos (de ahí el color distinto en ls, por la «t» de sticky bit). Por eso se usa tanto para subir y ejecutar herramientas cuando la cuenta comprometida no tiene un /home donde escribir. Como administrador de sistemas, es una carpeta a vigilar.|
 
 # Parte 1 · RickdiculouslyEasy (VulnHub)
 
@@ -79,7 +79,7 @@ El SSH real no está en el 22, sino en el 22222. Con las credenciales summer:win
 |---|
 |**Acceso interactivo**|
 |ssh summer@10.0.2.15 -p 22222<br><br># (contraseña: winter)|
-|**âš   ¿Por qué Nmap «mentía» en el puerto 22?**<br><br>Sin parámetros, Nmap muestra el servicio **esperado por defecto** en cada puerto. Con -sCV hace descubrimiento activo y muestra lo que **realmente** hay: el 22 era un servicio falso (tcpwrapped) y el SSH auténtico estaba en el 22222 (OpenSSH).|
+|**⚠  ¿Por qué Nmap «mentía» en el puerto 22?**<br><br>Sin parámetros, Nmap muestra el servicio **esperado por defecto** en cada puerto. Con -sCV hace descubrimiento activo y muestra lo que **realmente** hay: el 22 era un servicio falso (tcpwrapped) y el SSH auténtico estaba en el 22222 (OpenSSH).|
 
 ## 3. Enumeración interna («ser cotilla»)
 
@@ -101,7 +101,7 @@ Desde summer se exploran los /home de los otros usuarios. Tenemos lectura sobre 
 |---|
 |**El binario protegido**|
 |cd /home/RickSanchez/RICKS_SAFE<br><br>ls -la<br><br>file safe          # -> ejecutable (ELF)<br><br>./safe             # pide argumentos: "use good command line arguments"|
-|**âš   Permisos: por qué falló ./safe al principio**<br><br>Sobre safe como summer solo teníamos r (lectura), no x. La solución es **copiarlo** a una carpeta nuestra (origen legible + destino escribible) y trabajarlo allí.|
+|**⚠  Permisos: por qué falló ./safe al principio**<br><br>Sobre safe como summer solo teníamos r (lectura), no x. La solución es **copiarlo** a una carpeta nuestra (origen legible + destino escribible) y trabajarlo allí.|
 
 **Carpeta de Morty →’ imagen + zip**
 
@@ -126,7 +126,7 @@ La imagen no se abre en la víctima (es solo terminal) y exiftool no está insta
 |**Metadatos y strings de la imagen**|
 |exiftool Safe_Password.jpg     # metadatos: poca cosa relevante<br><br>strings Safe_Password.jpg      # cadenas embebidas -> aparece una contraseña|
 |**ℹ  strings: leer el «bajo nivel» de un fichero**<br><br>strings extrae las cadenas de texto legibles dentro de cualquier fichero (ejecutable, imagenâ€¦). En la imagen reveló una contraseña incrustada — técnica relacionada con la **esteganografía** (información escondida en píxeles que «pierden» su color, p. ej. un píxel negro).|
-|**âš   Valor de la contraseña (transcripción de audio)**<br><br>La contraseña incrustada en la imagen se citó de oído como «music / MISIC»; al ser audio, conviene confirmarla con la cadena exacta que devuelve strings en pantalla. Es la que abre el journal.txt.zip y el argumento del binario safe.|
+|**⚠  Valor de la contraseña (transcripción de audio)**<br><br>La contraseña incrustada en la imagen se citó de oído como «music / MISIC»; al ser audio, conviene confirmarla con la cadena exacta que devuelve strings en pantalla. Es la que abre el journal.txt.zip y el argumento del binario safe.|
 
 Con esa contraseña se descomprime el zip y se ejecuta el binario:
 
@@ -168,7 +168,7 @@ Aplicando la regla (mayúscula + dígito + palabra de la banda) se generó un di
 
 | |
 |---|
-|**âš   Máquina sin terminar**<br><br>Solo se hizo el reconocimiento y el comienzo de la enumeración web. La fuerza bruta del panel de WordPress se dejó corriendo y se continúa el jueves.|
+|**⚠  Máquina sin terminar**<br><br>Solo se hizo el reconocimiento y el comienzo de la enumeración web. La fuerza bruta del panel de WordPress se dejó corriendo y se continúa el jueves.|
 |**ℹ  Datos de la máquina**<br><br>IP víctima: 10.0.2.7   ·   El nombre y el «lore» de la serie Mr. Robot son pistas para adivinar usuarios.|
 
 ## 1. Reconocimiento

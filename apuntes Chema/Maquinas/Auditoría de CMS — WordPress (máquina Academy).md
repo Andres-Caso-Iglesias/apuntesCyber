@@ -67,7 +67,7 @@ Primer paso habitual en el laboratorio: localizar el host en la red con **netdis
 
 | |
 |---|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** netdiscover se usó de forma explícita en clase sobre el rango 10.0.2.0/24. El comando exacto de nmap no se detalló literalmente en la grabación; se incluye el comando de enumeración de puertos habitual del máster con un placeholder {IP_OBJETIVO}. Solo se confirmó el resultado: puertos 22 y 80 abiertos.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** netdiscover se usó de forma explícita en clase sobre el rango 10.0.2.0/24. El comando exacto de nmap no se detalló literalmente en la grabación; se incluye el comando de enumeración de puertos habitual del máster con un placeholder {IP_OBJETIVO}. Solo se confirmó el resultado: puertos 22 y 80 abiertos.|
 |**ℹ  INFORMACIÃ“N**<br><br>**Explicación complementaria.** netdiscover funciona con el protocolo **ARP**, que **no** está permitido en la infraestructura de red de AWS. Por eso no sirve para descubrir hosts en entornos cloud de Amazon.|
 
 ## **3. Enumeración web y descubrimiento del CMS**
@@ -86,7 +86,7 @@ El flag **`-r`** activa la **enumeración recursiva**: cuando encuentra /wordpre
 |---|
 |**ℹ  INFORMACIÃ“N**<br><br>**Explicación complementaria: por qué un 301.** Al acceder a /wordpress la web responde con **301 Moved Permanently** porque redirige al dominio real. La máquina usa el dominio academy.thehackerlabs, así que hay que añadirlo al fichero /etc/hosts para que resuelva:|
 |sudo nano /etc/hosts<br><br># añadir la línea:   {IP_OBJETIVO}   academy.thehackerlabs|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Error común.** Un mismo diccionario lanzado solo sobre la raíz **no** encuentra rutas que sí están bajo /wordpress (p. ej. wp-content/uploads). La palabra puede estar en el diccionario, pero si no se enumera recursivamente sobre la subruta correcta, no aparece. Distintas herramientas traen distintos diccionarios por defecto →’ distintas salidas.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Error común.** Un mismo diccionario lanzado solo sobre la raíz **no** encuentra rutas que sí están bajo /wordpress (p. ej. wp-content/uploads). La palabra puede estar en el diccionario, pero si no se enumera recursivamente sobre la subruta correcta, no aparece. Distintas herramientas traen distintos diccionarios por defecto →’ distintas salidas.|
 
 ## **4. WPScan: enumeración de la tecnología**
 
@@ -123,7 +123,7 @@ Para enumerar los plugins se usa --enumerate ap (*all plugins*). Aquí aparece l
 |---|
 |wpscan --url http://academy.thehackerlabs/wordpress --enumerate ap<br><br>wpscan --url http://academy.thehackerlabs/wordpress --enumerate vp --api-token {API_TOKEN}|
 |**ℹ  INFORMACIÃ“N**<br><br>**Explicación complementaria.** El API token **no** aporta capacidades ofensivas extra; solo es la conexión a la base de datos de vulnerabilidades de WPScan. Se obtiene gratis registrándose en el portal de WPScan (wpscan.com).|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Matiz importante de la clase: no toda vulnerabilidad listada es explotable.**<br><br>Muchas vulnerabilidades de plugins requieren estar **autenticado** o un **rol** concreto (p. ej. distribuidor), o afectan a una funcionalidad que **no está accesible/activa** en la web. Como todavía se busca el **acceso inicial**, se **descartan** temporalmente y no se pierde tiempo con ellas.<br><br>El trabajo del auditor es entender **en qué función y en qué endpoint** aplica cada CVE y si es realmente accesible. Ahí está la auditoría web de verdad.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Matiz importante de la clase: no toda vulnerabilidad listada es explotable.**<br><br>Muchas vulnerabilidades de plugins requieren estar **autenticado** o un **rol** concreto (p. ej. distribuidor), o afectan a una funcionalidad que **no está accesible/activa** en la web. Como todavía se busca el **acceso inicial**, se **descartan** temporalmente y no se pierde tiempo con ellas.<br><br>El trabajo del auditor es entender **en qué función y en qué endpoint** aplica cada CVE y si es realmente accesible. Ahí está la auditoría web de verdad.|
 
 ## **7. Enumeración de usuarios por mensajes de error (login)**
 
@@ -147,7 +147,7 @@ Solo cuando se han agotado otras vías se recurre a la fuerza bruta. WPScan pued
 | |
 |---|
 |**âœ”  OBJETIVO / BUENA PRÁCTICA**<br><br>**Buena práctica (regla de oro).** La **fuerza bruta es el último recurso**: es ruidosa y "funciona 1 de cada 10 veces". Antes conviene enumerar usuarios, reutilizar credenciales, buscar fugas de información, etc.<br><br>Para WordPress se prefiere **WPScan** frente a **Hydra** (que suele no responder bien al login de WordPress) o **Burp Intruder** (más lento). Además, el plugin **Wordfence** actúa como "antivirus/WAF" de WordPress y limita el número de intentos.|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** La transcripción recoge la credencial como "Dylan" con "password 1". Se interpreta como usuario Dylan / contraseña password1 (una entrada típica de rockyou.txt). Es un **valor de laboratorio** de esta máquina; adáptalo a tu instancia.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** La transcripción recoge la credencial como "Dylan" con "password 1". Se interpreta como usuario Dylan / contraseña password1 (una entrada típica de rockyou.txt). Es un **valor de laboratorio** de esta máquina; adáptalo a tu instancia.|
 
 ## **9. Acceso inicial: RCE por el editor de temas**
 
@@ -187,7 +187,7 @@ Se comprueba el usuario con whoami / id: somos **`www-data`**. Revisando /etc/pa
 | |
 |---|
 |**âœ”  OBJETIVO / BUENA PRÁCTICA**<br><br>**Acceso inicial conseguido:** usuario www-data en la máquina Academy.|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** La **escalada de privilegios a root quedó pendiente**. El instructor indicó que esta máquina se guarda y su escalada (descrita como "una fumada") se verá en el módulo de escalada de privilegios.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Nota (fidelidad).** La **escalada de privilegios a root quedó pendiente**. El instructor indicó que esta máquina se guarda y su escalada (descrita como "una fumada") se verá en el módulo de escalada de privilegios.|
 
 # **Flujo de trabajo de la sesión**
 
@@ -272,9 +272,9 @@ nc -lvnp 1234: pone Netcat a la escucha para recibir la conexión de vuelta. El 
 
 | |
 |---|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Apuntar al directorio equivocado.** WPScan/exploits deben lanzarse contra /wordpress (donde vive el CMS), no contra la raíz del dominio. Contra una ruta sin WordPress no obtendrás nada.|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Confiar en toda vulnerabilidad listada.** Muchas requieren autenticación, un rol concreto o una funcionalidad accesible. Verifica endpoint y contexto antes de invertir tiempo.|
-|**âš   AVISO / ERROR COMÚN**<br><br>**Lenguaje de la webshell.** Subir una shell en el lenguaje equivocado (p. ej. HTML o .aspx en un Apache/Linux) hace que no se ejecute.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Apuntar al directorio equivocado.** WPScan/exploits deben lanzarse contra /wordpress (donde vive el CMS), no contra la raíz del dominio. Contra una ruta sin WordPress no obtendrás nada.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Confiar en toda vulnerabilidad listada.** Muchas requieren autenticación, un rol concreto o una funcionalidad accesible. Verifica endpoint y contexto antes de invertir tiempo.|
+|**⚠  AVISO / ERROR COMÚN**<br><br>**Lenguaje de la webshell.** Subir una shell en el lenguaje equivocado (p. ej. HTML o .aspx en un Apache/Linux) hace que no se ejecute.|
 |**âœ”  OBJETIVO / BUENA PRÁCTICA**<br><br>**Fuerza bruta al final.** Agota antes enumeración, reutilización de credenciales y fugas de información. Es ruidosa y poco fiable.|
 |**âœ”  OBJETIVO / BUENA PRÁCTICA**<br><br>**Documenta** cada comando, su resultado y tu interpretación: no basta con lanzar herramientas, hay que entender qué devuelven y por qué.|
 |**â›”  RIESGO / EXPLOTACIÃ“N EN LABORATORIO**<br><br>**Alcance.** Todo lo anterior se aplica **solo** en laboratorios y auditorías autorizadas. La demostración de *user enumeration* sobre un sitio real la hizo el instructor sobre un **cliente propio** con permiso.|

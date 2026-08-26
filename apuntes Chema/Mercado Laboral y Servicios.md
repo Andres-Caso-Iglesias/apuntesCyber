@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-|**âš  AVISO**|Cuanto menos Metasploit, mejor. En OSCP y eCPPT está prohibido o muy limitado. Si aprendes con él, cuando te lo quiten no sabes qué pasa por debajo.|
+|**⚠ AVISO**|Cuanto menos Metasploit, mejor. En OSCP y eCPPT está prohibido o muy limitado. Si aprendes con él, cuando te lo quiten no sabes qué pasa por debajo.|
 
 | | |
 |---|---|
@@ -206,7 +206,7 @@ Prueba una sola contraseña contra todos los usuarios de la lista. Especialmente
 
 | | |
 |---|---|
-|**âš  CONTEXTO**|SMB/Samba es uno de los protocolos más utilizados en entornos corporativos (junto con LDAP) y uno de los más explotados. Eternal Blue (MS-17-010) es el ejemplo más conocido.|
+|**⚠ CONTEXTO**|SMB/Samba es uno de los protocolos más utilizados en entornos corporativos (junto con LDAP) y uno de los más explotados. Eternal Blue (MS-17-010) es el ejemplo más conocido.|
 
 | | |
 |---|---|
