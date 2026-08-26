@@ -10,15 +10,15 @@
 Se ha obtenido acceso inicial a la máquina "Academy" comprometiendo un sitio WordPress 6.5.3 mediante fuzzing recursivo, enumeración con WPScan, fuerza bruta de credenciales y explotación del editor de temas para obtener una reverse shell como `www-data`.
 
 **Vectores de ataque utilizados:**
-1. `dirsearch -r` →’ Descubrimiento de `/wordpress` →’ Configuración `/etc/hosts`
-2. WPScan →’ Enumeración de usuarios y plugins (Elementor)
-3. WPScan brute force →’ Credenciales `Dylan` / `password1`
-4. Login `/wp-admin` →’ Editor de temas →’ Reverse shell PHP en `404.php`
-5. Estabilización de shell →’ Acceso como `www-data`
+1. `dirsearch -r` → Descubrimiento de `/wordpress` → Configuración `/etc/hosts`
+2. WPScan → Enumeración de usuarios y plugins (Elementor)
+3. WPScan brute force → Credenciales `Dylan` / `password1`
+4. Login `/wp-admin` → Editor de temas → Reverse shell PHP en `404.php`
+5. Estabilización de shell → Acceso como `www-data`
 
 **Nota:** La escalada de privilegios a root quedó pendiente para un módulo posterior.
 
-**Cadena de compromiso:** WordPress →’ Dylan →’ www-data
+**Cadena de compromiso:** WordPress → Dylan → www-data
 
 ---
 
@@ -46,7 +46,7 @@ sudo nmap -sV -p- IP_DE_LA_MAQUINA
 
 ---
 
-## 3. ENUMERACIÃ“N WEB
+## 3. ENUMERACIÓN WEB
 
 ### 3.1 Fuzzing recursivo de directorios (dirsearch)
 ```bash
@@ -73,7 +73,7 @@ IP_DE_LA_MAQUINA academy.thehackerlabs
 
 ---
 
-## 4. ENUMERACIÃ“N CMS (WPScan)
+## 4. ENUMERACIÓN CMS (WPScan)
 
 ### 4.1 Detección del CMS
 ```bash
@@ -139,7 +139,7 @@ Contraseña: password1
 ### 6.2 RCE: Reverse Shell por editor de temas
 
 **Pasos:**
-1. Ir a **Apariencia →’ Editor de temas**
+1. Ir a **Apariencia → Editor de temas**
 2. Seleccionar la plantilla **`404.php`**
 3. Pegar una **reverse shell PHP**:
 
@@ -194,7 +194,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 ---
 
-## 7. ENUMERACIÃ“N POST-EXPLOTACIÃ“N
+## 7. ENUMERACIÓN POST-EXPLOTACIÓN
 
 ### 7.1 Verificación de usuario
 ```bash
@@ -212,7 +212,7 @@ id
 
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ CADENA DE EXPLOTACIÃ“N â”‚
+â”‚ CADENA DE EXPLOTACIÓN â”‚
 â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
 â”‚ â”‚
 â”‚ [1] RECONOCIMIENTO â”‚
@@ -221,19 +221,19 @@ id
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
 â”‚ â”‚ â”‚
 â”‚ â–¼ â”‚
-â”‚ [2] ENUMERACIÃ“N WEB â”‚
+â”‚ [2] ENUMERACIÓN WEB â”‚
 â”‚ â”Œâ”€ dirsearch -r â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ /wordpress (301) â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
 â”‚ â”‚ Fuzzing recursivo â”‚â”€â”€â”€â”€â–¶â”‚ Redirección a dominio â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
 â”‚ â”‚ â”‚
 â”‚ â–¼ â”‚
-â”‚ [3] CONFIGURACIÃ“N DOMINIO â”‚
+â”‚ [3] CONFIGURACIÓN DOMINIO â”‚
 â”‚ â”Œâ”€ /etc/hosts â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ academy.thehackerlabs â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ IP →’ dominio â”‚â”€â”€â”€â”€â–¶â”‚ Resolución DNS local â”‚ â”‚
+â”‚ â”‚ IP → dominio â”‚â”€â”€â”€â”€â–¶â”‚ Resolución DNS local â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
 â”‚ â”‚ â”‚
 â”‚ â–¼ â”‚
-â”‚ [4] ENUMERACIÃ“N CMS â”‚
+â”‚ [4] ENUMERACIÓN CMS â”‚
 â”‚ â”Œâ”€ WPScan â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ WordPress 6.5.3 â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
 â”‚ â”‚ Versión + plugins â”‚â”€â”€â”€â”€â–¶â”‚ Elementor detectado â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
@@ -247,17 +247,17 @@ id
 â”‚ â–¼ â”‚
 â”‚ [6] ACCESO AL PANEL â”‚
 â”‚ â”Œâ”€ /wp-admin â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ Editor de temas â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ Login con Dylan â”‚â”€â”€â”€â”€â–¶â”‚ 404.php →’ reverse shell â”‚ â”‚
+â”‚ â”‚ Login con Dylan â”‚â”€â”€â”€â”€â–¶â”‚ 404.php → reverse shell â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
 â”‚ â”‚ â”‚
 â”‚ â–¼ â”‚
 â”‚ [7] REVERSE SHELL â”‚
 â”‚ â”Œâ”€ nc -lvnp 1234 â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ www-data shell â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
-â”‚ â”‚ TCP connection â”‚â”€â”€â”€â”€â–¶â”‚ HTTP →’ TCP bypass WAF â”‚ â”‚
+â”‚ â”‚ TCP connection â”‚â”€â”€â”€â”€â–¶â”‚ HTTP → TCP bypass WAF â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
 â”‚ â”‚ â”‚
 â”‚ â–¼ â”‚
-â”‚ [8] ESTABILIZACIÃ“N â”‚
+â”‚ [8] ESTABILIZACIÓN â”‚
 â”‚ â”Œâ”€ python3 pty â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€ Shell estable â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
 â”‚ â”‚ TTY spawn â”‚â”€â”€â”€â”€â–¶â”‚ Acceso inicial logrado â”‚ â”‚
 â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
@@ -280,14 +280,14 @@ id
 |---|----------------|-----------|-----------|---------|
 | 1 | Fuerza bruta WordPress sin rate limiting | ALTA | `/wp-login.php` | Acceso al panel administrativo |
 | 2 | Contraseña débil (`password1`) | ALTA | Usuario Dylan | Cracking trivial con rockyou.txt |
-| 3 | Editor de temas sin restricción | CRÍTICA | `/wp-admin` →’ Editor de temas | RCE via reverse shell PHP |
+| 3 | Editor de temas sin restricción | CRÍTICA | `/wp-admin` → Editor de temas | RCE via reverse shell PHP |
 | 4 | Plantilla 404.php ejecuta PHP | ALTA | `/wordpress/404.php` | Vehículo para reverse shell |
 | 5 | WordPress 6.5.3 potencialmente vulnerable | MEDIA | Core de WordPress | Posibles CVEs conocidos |
-| 6 | WAF a nivel de aplicación (Wordfence) | BAJA | Plugin WordPress | Bypass via cambio de protocolo HTTP→’TCP |
+| 6 | WAF a nivel de aplicación (Wordfence) | BAJA | Plugin WordPress | Bypass via cambio de protocolo HTTP→TCP |
 
 ---
 
-## 10. RECOMENDACIONES DE MITIGACIÃ“N
+## 10. RECOMENDACIONES DE MITIGACIÓN
 
 1. **Implementar rate limiting en wp-login.php** â€” Bloquear después de N intentos fallidos
 2. **Usar contraseñas fuertes** â€” Política de complejidad; `password1` es inaceptable
@@ -351,10 +351,10 @@ stty raw -echo; fg
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚ ACCESOS LOGRADOS â”‚
 â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚ âœ“ WPScan →’ Enumeración de usuarios y plugins â”‚
-â”‚ âœ“ Brute force →’ Dylan / password1 â”‚
-â”‚ âœ“ Login wp-admin →’ Panel de administración â”‚
-â”‚ âœ“ Editor de temas →’ Reverse shell PHP en 404.php â”‚
+â”‚ âœ“ WPScan → Enumeración de usuarios y plugins â”‚
+â”‚ âœ“ Brute force → Dylan / password1 â”‚
+â”‚ âœ“ Login wp-admin → Panel de administración â”‚
+â”‚ âœ“ Editor de temas → Reverse shell PHP en 404.php â”‚
 â”‚ âœ“ Shell www-data estabilizada con python3 pty â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 
@@ -370,8 +370,8 @@ stty raw -echo; fg
 
 **FIN DEL INFORME**
 
-→’
-→’
+→
+→
 
-→’
+→
 
