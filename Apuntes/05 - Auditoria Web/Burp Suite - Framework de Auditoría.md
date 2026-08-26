@@ -5,7 +5,7 @@
 
 ---
 
-## â‘  ¿Qué es Burp Suite?
+## ① ¿Qué es Burp Suite?
 
 **Burp Suite** es un **framework de auditoría web**. El proxy es su núcleo, pero es mucho más: Repeater, Intruder, Decoder, Comparer...
 
@@ -14,14 +14,14 @@
 
 ---
 
-## â‘¡ Front vs Back "” Dónde tenemos el control
+## ② Front vs Back "” Dónde tenemos el control
 
 ```
 FRONT (tu navegador) "” TIENES EL CONTROL
  →“
 PROXY de Burp "” intercepta (texto claro, antes de TLS)
  →“
-Modificas la petición →’ saltas controles del front
+Modificas la petición → saltas controles del front
  →“
 WAF "” última defensa antes del server
  →“
@@ -33,12 +33,12 @@ BACK (servidor) "” valida integridad (o explota)
 
 ---
 
-## â‘¢ Configuración
+## ③ Configuración
 
 ### Certificado de Burp
 
-1. Con Burp abierto →’ `http://localhost:8080` →’ **CA Certificate** →’ descargar
-2. Firefox →’ Administrar certificados →’ Importar →’ seleccionar cacert
+1. Con Burp abierto → `http://localhost:8080` → **CA Certificate** → descargar
+2. Firefox → Administrar certificados → Importar → seleccionar cacert
 3. Verificar: debe aparecer **PortSwigger** como CA
 
 ### Foxy Proxy
@@ -50,11 +50,11 @@ BACK (servidor) "” valida integridad (o explota)
 | Puerto | **8080** |
 
 > [!tip] FLUJO
-> Burp levanta proxy en `127.0.0.1:8080` →’ FoxyProxy reenvía el tráfico del navegador →’ Burp lo lanza a Internet.
+> Burp levanta proxy en `127.0.0.1:8080` → FoxyProxy reenvía el tráfico del navegador → Burp lo lanza a Internet.
 
 ---
 
-## â‘£ Módulos principales
+## ④ Módulos principales
 
 ### Proxy (corazón de Burp)
 
@@ -94,7 +94,7 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 
 ---
 
-## â‘¤ Sesiones y cookies
+## ⑤ Sesiones y cookies
 
 | Concepto | Descripción |
 |---------|------------|
@@ -104,7 +104,7 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 
 ---
 
-## â‘¥ Conexión con otras áreas
+## ⑥ Conexión con otras áreas
 
 | Área | Cómo usa Burp |
 |------|--------------|
@@ -130,8 +130,8 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 
 - [[comandos/BurpSuite]] "” Cheat sheet de comandos
 
-→’
+→
 
-→’
+→
 
-→’
+→

@@ -1,12 +1,12 @@
 
 
 > [!info] Relacionado con
-> [[OWASP Top 10 - CVE CVSS CWE]] Â· [[Burp Suite - Framework de Auditoría]] Â· [[Apuntes/05 - Auditoria Web/Enumeración Web]] Â· [[Metodología de Explotación]]
-> →’
+> [[OWASP Top 10 - CVE CVSS CWE]] · [[Burp Suite - Framework de Auditoría]] · [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[Metodología de Explotación]]
+> →
 
 ---
 
-## â‘  OWASP Top 10:2025 "” Las 10 categorías
+## ① OWASP Top 10:2025 "” Las 10 categorías
 
 El **OWASP Top 10** agrupa las **10 categorías de vulnerabilidades web más frecuentes**. Se construye analizando todos los CVE publicados y clasificándolos por tipo.
 
@@ -29,14 +29,14 @@ El **OWASP Top 10** agrupa las **10 categorías de vulnerabilidades web más fre
 > [!warning] CAMBIOS vs 2021
 > Dos categorías nuevas (A03, A10), SSRF absorbido en A01, Injection y Cryptographic bajan. Si ves material con Injection en #3, es de 2021.
 
-→’
+→
 
 > [!tip] Ejercicio mental
-> Si una aplicación permite fuerza bruta porque no bloquea peticiones, ¿en qué categoría cae? No es A01 →’ es **A07**, fallo de autenticación. La ausencia de firewall/bloqueo lo habilita, pero la vulnerabilidad reportada es la enumeración/fuerza bruta.
+> Si una aplicación permite fuerza bruta porque no bloquea peticiones, ¿en qué categoría cae? No es A01 → es **A07**, fallo de autenticación. La ausencia de firewall/bloqueo lo habilita, pero la vulnerabilidad reportada es la enumeración/fuerza bruta.
 
 ---
 
-## â‘¡ CVSS, CWE y CVE "” Vocabulario de la industria
+## ② CVSS, CWE y CVE "” Vocabulario de la industria
 
 | Sigla | Significa | Qué puntúa/clasifica |
 |-------|-----------|----------------------|
@@ -59,21 +59,21 @@ El **OWASP Top 10** agrupa las **10 categorías de vulnerabilidades web más fre
 | 9.0 "“ 10.0 | **Critical** |
 
 > [!tip] Principio clave
-> Solo se categoriza como crítico/alto/medio/bajo lo que se ha **explotado**. Si solo hay indicios →’ se reporta como **informativa** (sin puntuación).
+> Solo se categoriza como crítico/alto/medio/bajo lo que se ha **explotado**. Si solo hay indicios → se reporta como **informativa** (sin puntuación).
 
 ---
 
-## â‘¢ Dos metodologías que NO hay que confundir
+## ③ Dos metodologías que NO hay que confundir
 
 | Metodología de informe / cliente | Metodología técnica del hacker |
 |---|---|
 | Lo que paga y espera el cliente | Lo que el auditor hace realmente por detrás |
-| Se basa en OWASP Top 10 y categorización | Enumeración →’ análisis →’ explotación encadenada |
+| Se basa en OWASP Top 10 y categorización | Enumeración → análisis → explotación encadenada |
 | Reporta solo el **QUÉ** (vulnerabilidad concreta) | Prueba muchas cosas, encadena fallos, descarta caminos |
 | No es un write-up paso a paso | Sí puede ser exploratoria y desordenada |
 
 > [!warning] ERROR COMÚN
-> Una auditoría real **no es un write-up** del estilo "hice nmap, luego curl, luego tal". En el informe se reporta la **vulnerabilidad concreta** (ej: enumeración de usuario →’ A07), no toda la cadena de comandos.
+> Una auditoría real **no es un write-up** del estilo "hice nmap, luego curl, luego tal". En el informe se reporta la **vulnerabilidad concreta** (ej: enumeración de usuario → A07), no toda la cadena de comandos.
 
 ### "Pruebas realizadas"
 
@@ -84,17 +84,17 @@ Apartado del informe donde se documenta **lo que se ha probado aunque no haya da
 
 ---
 
-## â‘£ Metodología de auditoría web
+## ④ Metodología de auditoría web
 
 ```
 Reconocimiento y enumeración
  →“
-Análisis de vulnerabilidades (mapeo del stack →’ CVE / exploits)
+Análisis de vulnerabilidades (mapeo del stack → CVE / exploits)
  →“
 Explotación
  →“
 Post-explotación y escalada (poco peso en web)
-→’
+→
  →“
 Documentación e informe
 ```
@@ -109,14 +109,14 @@ Documentación e informe
 | Información expuesta | La justa y necesaria | Muchísima: subdominios, datos, configuraciones |
 | Permiso | Todo está habilitado para hackear | Hay un scope y reglas que respetar |
 | Impacto de un IDOR | Suele dar igual (datos ficticios) | Crítico: ver datos, tarjetas, info de clientes reales |
-| Denegación de servicio | Te reinician el lab | Puede tirar un servicio real →’ problema grave con el cliente |
+| Denegación de servicio | Te reinician el lab | Puede tirar un servicio real → problema grave con el cliente |
 
 > [!warning] Scope y ruido importan
 > Aunque un servicio bloquee la fuerza bruta, con Burp Suite se puede simular la secuencia más lenta (tardando horas en vez de minutos) imitando a una persona haciendo clic. Pero hay que valorar siempre si la denegación de servicio entra o no en el alcance: cada cliente es un mundo.
 
 ---
 
-## â‘¤ Burp Suite "” Proxy man-in-the-middle
+## ⑤ Burp Suite "” Proxy man-in-the-middle
 
 **Burp Suite** actúa como **man in the middle** entre el navegador y el servidor: intercepta las peticiones antes de que lleguen al servidor, permite **verlas, modificarlas y decidir si pasan o no**.
 
@@ -144,7 +144,7 @@ Servidor web
 1. Activar **Intercept ON** en la pestaña Proxy
 2. Navegar en la web y dejar que Burp capture las peticiones
 3. Ir haciendo **Forward** para dejar pasar las que no interesan
-4. Cuando aparece una petición interesante →’ **clic derecho →’ Send to Repeater**
+4. Cuando aparece una petición interesante → **clic derecho → Send to Repeater**
 5. En el **Repeater**, pulsar **Send** y analizar/modificar parámetros y respuestas
 
 ### Dos formas de enrutar el tráfico
@@ -168,15 +168,15 @@ Servidor web
 
 ### Certificado de Burp (PortSwigger)
 
-1. Con Burp abierto →’ `http://localhost:8080` →’ **CA Certificate** →’ descargar
-2. Firefox →’ Administrar certificados →’ Importar →’ seleccionar cacert
+1. Con Burp abierto → `http://localhost:8080` → **CA Certificate** → descargar
+2. Firefox → Administrar certificados → Importar → seleccionar cacert
 3. Verificar: debe aparecer **PortSwigger** como CA
 
 > [!info] Si usas el navegador de HTB (VPN dentro de Kali), estás en una red interna sin internet, por lo que el ruido de terceros desaparece.
 
 ---
 
-## â‘¥ Herramientas de la sesión
+## ⑥ Herramientas de la sesión
 
 | Herramienta | Objetivo | Fase | Nivel |
 |------------|---------|------|-------|
@@ -188,7 +188,7 @@ Servidor web
 | **SQLMAP** | Automatizar SQL Injection | Explotación | Mencionada |
 | **Hydra** | Fuerza bruta de credenciales | Explotación / autenticación | Practicada |
 
-→’
+→
 
 ---
 
@@ -204,7 +204,7 @@ Servidor web
 - [ ] ¿Entiendo la diferencia entre Open Browser y FoxyProxy?
 - [ ] ¿Sé instalar el certificado de PortSwigger desde http://burpsuite/?
 
-→’
+→
 
-→’
-→’
+→
+→

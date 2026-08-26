@@ -1,12 +1,12 @@
 
 
 > [!info] Relacionado con
-> [[Burp Suite - Framework de Auditoría]] Â· [[Apuntes/05 - Auditoria Web/Enumeración Web]] Â· [[Metodología de Explotación]] Â· [[Normativa - ISO 27001, GDPR, ENS]]
-> →’
+> [[Burp Suite - Framework de Auditoría]] · [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[Metodología de Explotación]] · [[Normativa - ISO 27001, GDPR, ENS]]
+> →
 
 ---
 
-## â‘  El vocabulario de la industria
+## ① El vocabulario de la industria
 
 | Sigla | Significa | Quién lo mantiene |
 |-------|-----------|-------------------|
@@ -23,7 +23,7 @@
 
 ---
 
-## â‘¡ CWE "” Common Weakness Enumeration
+## ② CWE "” Common Weakness Enumeration
 
 Catálogo de **tipos de debilidad** genéricos (no un producto concreto).
 
@@ -37,16 +37,16 @@ Catálogo de **tipos de debilidad** genéricos (no un producto concreto).
 
 ---
 
-## â‘¢ CVE "” Common Vulnerabilities and Exposures
+## ③ CVE "” Common Vulnerabilities and Exposures
 
 El **"DNI"** de cada vulnerabilidad pública.
 
 ```
 CVE-2021-44228
- â”‚ â”‚ â”‚
- â”‚ â”‚ â””â”€â”€ Número secuencial
- â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€ Año de asignación
- â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Prefijo fijo
+ │ │ │
+ │ │ ┘── Número secuencial
+ │ ┘──────── Año de asignación
+ ┘───────────── Prefijo fijo
 ```
 
 **Ejemplo:** CVE-2021-44228 = **Log4Shell**
@@ -56,7 +56,7 @@ CVE-2021-44228
 
 ---
 
-## â‘£ CVSS "” Puntuación de severidad
+## ④ CVSS "” Puntuación de severidad
 
 | Score | Severidad |
 |-------|----------|
@@ -80,23 +80,23 @@ CVE-2021-44228
 
 ```
 CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
- â”‚ â”‚ â”‚ â”‚ â”‚ â”‚ â”‚ â”‚
- â”‚ â”‚ â”‚ â”‚ â”‚ â””â”€â”€â”´â”€â”€â”´â”€ Alto impacto CIA
- â”‚ â”‚ â”‚ â”‚ â””â”€â”€ Sin impacto en otros componentes
- â”‚ â”‚ â”‚ â””â”€â”€ Sin interacción
- â”‚ â”‚ â””â”€â”€ Sin privilegios
- â”‚ â””â”€â”€ Complejidad baja
- â””â”€â”€ Vector de red
+ │ │ │ │ │ │ │ │
+ │ │ │ │ │ ┘──┤──┤─ Alto impacto CIA
+ │ │ │ │ ┘── Sin impacto en otros componentes
+ │ │ │ ┘── Sin interacción
+ │ │ ┘── Sin privilegios
+ │ ┘── Complejidad baja
+ ┘── Vector de red
 ```
 
 ---
 
-## â‘¤ OWASP Top 10:2025
+## ⑤ OWASP Top 10:2025
 
 | # | Categoría | Notas |
 |---|----------|-------|
 | **A01** | Broken Access Control | IDOR, escalada, Path Traversal. SSRF absorbido aquí. |
-→’
+→
 | **A02** | Security Misconfiguration | Credenciales por defecto, cabeceras inseguras. Sube al #2. |
 | **A03** | Software Supply Chain Failures | **NUEVA**. Dependencias vulnerables. |
 | **A04** | Cryptographic Failures | Cifrado débil, TLS mal configurado. |
@@ -107,19 +107,19 @@ CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 | **A09** | Security Logging & Alerting | Falta de logs y alertas. |
 | **A10** | Mishandling of Exceptional Conditions | **NUEVA**. Mala gestión de errores. |
 
-→’
+→
 
 > [!warning] CAMBIOS vs 2021
 > Dos categorías nuevas (A03, A10), SSRF absorbido en A01, Injection y Cryptographic bajan. Si ves material con Injection en #3, es de 2021.
 
-→’
+→
 
 ---
 
-## â‘¥ La cascada en la auditoría
+## ⑥ La cascada en la auditoría
 
 ```
-OWASP Top 10 →’ CWE →’ CVE →’ CVSS →’ Priorización
+OWASP Top 10 → CWE → CVE → CVSS → Priorización
 ```
 
 1. **OWASP** te dice qué categorías buscar
@@ -137,9 +137,9 @@ OWASP Top 10 →’ CWE →’ CVE →’ CVSS →’ Priorización
 - [ ] ¿Distingo CWE (tipo), CVE (caso) y CVSS (puntuación)?
 - [ ] ¿Puedo nombrar las categorías OWASP 2025?
 - [ ] ¿Sé leer un vector CVSS?
-- [ ] ¿Entiendo la cascada OWASP →’ CWE →’ CVE →’ CVSS?
+- [ ] ¿Entiendo la cascada OWASP → CWE → CVE → CVSS?
 - [ ] ¿Relaciono Log4Shell con su CWE y categoría OWASP?
 
-→’
+→
 
-→’
+→

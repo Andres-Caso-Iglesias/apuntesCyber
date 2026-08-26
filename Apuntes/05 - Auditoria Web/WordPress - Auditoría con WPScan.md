@@ -1,43 +1,43 @@
 
 
 > [!info] Relacionado con
-> [[Burp Suite - Framework de Auditoría]] Â· [[Apuntes/05 - Auditoria Web/Enumeración Web]] Â· [[OWASP Top 10 - CVE CVSS CWE]] Â· [[Fuzzing Web con ffuf]]
+> [[Burp Suite - Framework de Auditoría]] · [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[OWASP Top 10 - CVE CVSS CWE]] · [[Fuzzing Web con ffuf]]
 
 ---
 
-## â‘  CMS vs Web nativa
+## ① CMS vs Web nativa
 
 | Tipo | Descripción |
 |------|------------|
 | **Web nativa** | Programada directamente (PHP, .NET, Java). SQLi, XSS directos. |
 | **CMS** | WordPress, Joomla, Drupal. Núcleo + plugins de terceros. |
 
-→’
+→
 
 > [!important] Idea central
 > El núcleo de WordPress rara vez es vulnerable (está muy revisado). Las grandes vulnerabilidades aparecen en los **plugins**, porque hay miles y **nadie audita su seguridad**.
 
 ---
 
-## â‘¡ Metodología de auditoría WordPress
+## ② Metodología de auditoría WordPress
 
 ```
-1. Enumeración web →’ /wordpress detectado
+1. Enumeración web → /wordpress detectado
  →“
-2. [[WPScan]] →’ versión, plugins, temas, usuarios
+2. [[WPScan]] → versión, plugins, temas, usuarios
  →“
 3. Enumerar usuarios (mensajes de error del login)
  →“
 4. Fuerza bruta con [[WPScan]] (ÚLTIMO recurso)
  →“
-5. Login →’ Editor de temas →’ RCE
+5. Login → Editor de temas → RCE
  →“
-6. Reverse shell →’ www-data →’ Estabilizar TTY
+6. Reverse shell → www-data → Estabilizar TTY
 ```
 
 ---
 
-## â‘¢ [[WPScan]] "” La navaja suiza
+## ③ [[WPScan]] "” La navaja suiza
 
 ```bash
 # Escaneo base (detecta versión)
@@ -71,7 +71,7 @@
 
 ---
 
-## â‘£ Enumeración de usuarios por mensajes de error
+## ④ Enumeración de usuarios por mensajes de error
 
 | Mensaje | Significado |
 |---------|-----------|
@@ -83,11 +83,11 @@
 
 ---
 
-## â‘¤ RCE por editor de temas
+## ⑤ RCE por editor de temas
 
 Con acceso al panel `/wp-admin`:
 
-1. **Apariencia →’ Editor de temas**
+1. **Apariencia → Editor de temas**
 2. Seleccionar plantilla **PHP** (ej: `404.php`)
 3. Pegar **reverse shell PHP**
 4. Guardar
@@ -97,7 +97,7 @@ Con acceso al panel `/wp-admin`:
 ```bash
 nc -lvnp 1234
 # Visitar http://OBJETIVO/wordpress/404.php
-# →’ Conexión recibida como www-data
+# → Conexión recibida como www-data
 ```
 
 > [!warning] LA PLANTILLA DEBE SER PHP
@@ -105,19 +105,19 @@ nc -lvnp 1234
 
 ---
 
-## â‘¥ Rutas WordPress a comprobar
+## ⑥ Rutas WordPress a comprobar
 
 | Ruta | Qué nos dice |
 |------|-------------|
 | `/wordpress/license.txt` | Confirma WordPress, instalación reciente |
-| `/wp-login.php` | Login →’ posible fuerza bruta |
+| `/wp-login.php` | Login → posible fuerza bruta |
 | `/wp-admin/` | Panel de administración |
-| `/wp-content/uploads/` | Subidas →’ posible file upload |
+| `/wp-content/uploads/` | Subidas → posible file upload |
 | `/xmlrpc.php` | API antigua |
 
 ---
 
-## â‘¦ Estabilización de la shell
+## ⑦ Estabilización de la shell
 
 ```bash
 # En la víctima (desde la reverse shell)
@@ -138,7 +138,7 @@ stty raw -echo; fg
 - [ ] ¿Sé enumerar versión, usuarios y plugins con [[WPScan]]?
 - [ ] ¿Conozco la diferencia entre [[WPScan]] con y sin API token?
 - [ ] ¿Sé conseguir RCE con el editor de temas?
-- [ ] ¿Entiendo la transición HTTP →’ TCP al obtener la shell?
+- [ ] ¿Entiendo la transición HTTP → TCP al obtener la shell?
 
 ---
 
@@ -146,6 +146,6 @@ stty raw -echo; fg
 
 - [[comandos/WPScan]] "” Cheat sheet de comandos
 
-→’
+→
 
-→’
+→

@@ -1,6 +1,6 @@
 
 
-> **Relacionado:** [[Blue Team - SOC e Incidentes]] Â· [[Anonimato, Ingeniería Social y Enumeración Web]]
+> **Relacionado:** [[Blue Team - SOC e Incidentes]] · [[Anonimato, Ingeniería Social y Enumeración Web]]
 
 ---
 
@@ -133,7 +133,7 @@ que se te ha configurado.
 
 > **Siguiente tema:** [[Certificaciones - ISO 27001 y eJPTv2]] "” Preparación para exámenes de certificación
 
-→’
+→
 
-→’
-→’
+→
+→

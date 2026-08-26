@@ -1,15 +1,15 @@
 
 
 > [!info] Relacionado con
-> [[Prácticas CTF - HTB y VulnHub]] Â· [[Explotación de Servicios - Linux]] Â· [[Escalada de Privilegios]] Â· [[Reverse Shells y Post-Explotación]] Â· [[Burp Suite - Framework de Auditoría]]
-> →’
+> [[Prácticas CTF - HTB y VulnHub]] · [[Explotación de Servicios - Linux]] · [[Escalada de Privilegios]] · [[Reverse Shells y Post-Explotación]] · [[Burp Suite - Framework de Auditoría]]
+> →
 
 ---
 
-## â‘  Flujo general de un CTF
+## ① Flujo general de un CTF
 
 ```
-Superficie expuesta →’ Enumeración →’ Explotación →’ Shell →’ Enumerar dentro →’ Escalada →’ Root
+Superficie expuesta → Enumeración → Explotación → Shell → Enumerar dentro → Escalada → Root
 ```
 
 > [!important] Idea central de la clase
@@ -17,12 +17,12 @@ Superficie expuesta →’ Enumeración →’ Explotación →’ Shell →’ 
 
 ---
 
-## â‘¡ RickdiculouslyEasy (VulnHub)
+## ② RickdiculouslyEasy (VulnHub)
 
 ### Cadena completa
 
 ```
-www-data (RCE web) →’ summer (SSH:22222) →’ Robo de ficheros →’ Hydra →’ RickSanchez →’ sudo su →’ root
+www-data (RCE web) → summer (SSH:22222) → Robo de ficheros → Hydra → RickSanchez → sudo su → root
 ```
 
 | Puerto | Servicio | Hallazgo |
@@ -92,7 +92,7 @@ find / -perm -4000 2>/dev/null
 
 Desde summer se exploran los `/home` de los otros usuarios. Tenemos lectura sobre sus carpetas:
 
-**Carpeta de RickSanchez →’ binario "safe"**
+**Carpeta de RickSanchez → binario "safe"**
 
 ```bash
 cd /home/RickSanchez/RICKS_SAFE
@@ -104,7 +104,7 @@ file safe # -> ejecutable (ELF)
 > [!warning] Permisos
 > Sobre `safe` como summer solo teníamos `r` (lectura), no `x`. La solución es **copiarlo** a una carpeta nuestra (origen legible + destino escribible) y trabajarlo allí.
 
-**Carpeta de Morty →’ imagen + zip**
+**Carpeta de Morty → imagen + zip**
 
 En `/home/Morty` hay un `Safe_Password.jpg` y un `journal.txt.zip` protegidos. Nos los llevamos a nuestra Kali.
 
@@ -127,7 +127,7 @@ scp -P 22222 summer@10.0.2.15:/home/Morty/journal.txt.zip .
 
 ```bash
 exiftool Safe_Password.jpg # metadatos: poca cosa relevante
-strings Safe_Password.jpg # cadenas embebidas →’ aparece una contraseña
+strings Safe_Password.jpg # cadenas embebidas → aparece una contraseña
 ```
 
 > [!tip] strings: leer el "bajo nivel" de un fichero
@@ -180,12 +180,12 @@ cat /root/*flag*
 ### Cadena completa de RickdiculouslyEasy
 
 ```
-www-data (RCE web) →’ summer (SSH:22222) →’ Robo de ficheros →’ Hydra →’ RickSanchez →’ sudo su →’ root
+www-data (RCE web) → summer (SSH:22222) → Robo de ficheros → Hydra → RickSanchez → sudo su → root
 ```
 
 ---
 
-## â‘¢ Mr. Robot (VulnHub) "” inicio
+## ③ Mr. Robot (VulnHub) "” inicio
 
 > [!warning] Máquina sin terminar
 > Solo se hizo el reconocimiento y el comienzo de la enumeración web. La fuerza bruta del panel de WordPress se dejó corriendo y se continúa en la próxima clase.
@@ -253,8 +253,8 @@ En `/wp-login.php` se observa una **fuga de información** por los mensajes de e
 
 Se usa **Burp Suite** como proxy para interceptar las peticiones:
 
-- **Proxy** →’ Intercept ON: la petición queda retenida hasta que la liberamos con Forward
-- **Repeater** (clic derecho →’ Send to Repeater): reenvía una misma petición modificándola para ver la respuesta
+- **Proxy** → Intercept ON: la petición queda retenida hasta que la liberamos con Forward
+- **Repeater** (clic derecho → Send to Repeater): reenvía una misma petición modificándola para ver la respuesta
 - **Intruder** (modo Sniper): automatiza el envío masivo cambiando un parámetro con un diccionario
 
 > [!info] Anatomía de la petición de login
@@ -266,8 +266,8 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos:
 
 | Usuario probado | Longitud respuesta | Interpretación |
 |----------------|-------------------|----------------|
-| admin / user / user1"¦ | ~4065 bytes | "Invalid username" →’ no existe |
-| **Elliot** | **~4116 bytes** | Distinta →’ "the password is incorrect" = **usuario válido** |
+| admin / user / user1"¦ | ~4065 bytes | "Invalid username" → no existe |
+| **Elliot** | **~4116 bytes** | Distinta → "the password is incorrect" = **usuario válido** |
 
 > [!tip] Resultado
 > El usuario Elliot existe (longitud de respuesta distinta y mensaje de error diferente). El siguiente paso es repetir el ataque con Intruder sobre el campo `pwd`, usando el diccionario limpio.
@@ -275,7 +275,7 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos:
 ### Cadena de Mr. Robot (hasta ahora)
 
 ```
-nmap (80/443) →’ robots.txt →’ fsocity.dic →’ Limpiar diccionario →’ Enumerar usuario: Elliot →’ Fuerza bruta pwd (pendiente)
+nmap (80/443) → robots.txt → fsocity.dic → Limpiar diccionario → Enumerar usuario: Elliot → Fuerza bruta pwd (pendiente)
 ```
 
 > [!info] Sobre versiones de WordPress
@@ -283,7 +283,7 @@ nmap (80/443) →’ robots.txt →’ fsocity.dic →’ Limpiar diccionario �
 
 ---
 
-## â‘£ Conceptos base: tipos de cuenta y permisos
+## ④ Conceptos base: tipos de cuenta y permisos
 
 ### Tipos de cuenta en un sistema
 
@@ -296,7 +296,7 @@ nmap (80/443) →’ robots.txt →’ fsocity.dic →’ Limpiar diccionario �
 > [!info] Cómo leer /etc/passwd
 > Cada línea es un usuario. Lo importante son las dos últimas columnas: el **directorio** (si es /home/x o /root es un usuario legítimo) y la **shell**. Si termina en `/bin/bash` puede usar terminal; si pone `/usr/sbin/nologin` es una cuenta de servicio sin acceso interactivo.
 
-> [!tip] FTP anónimo â‰  acceso al sistema
+> [!tip] FTP anónimo ≠  acceso al sistema
 > Que el FTP permita login anónimo no significa que el usuario ftp pueda entrar al sistema: esa cuenta solo accede a su propio servicio (su carpeta /srv/ftp), nunca a una shell.
 
 ### Permisos de fichero (owner / group / others)
@@ -304,37 +304,37 @@ nmap (80/443) →’ robots.txt →’ fsocity.dic →’ Limpiar diccionario �
 Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” cada uno con `r` (lectura), `w` (escritura) y `x` (ejecución).
 
 > [!tip] Para copiar un fichero solo se necesitan dos cosas
-> **Origen legible** →’ permiso `r` sobre el fichero que quiero copiar. **Destino escribible** →’ permiso `w` sobre la carpeta donde lo dejo.
+> **Origen legible** → permiso `r` sobre el fichero que quiero copiar. **Destino escribible** → permiso `w` sobre la carpeta donde lo dejo.
 
 > [!warning] La carpeta /tmp y el sticky bit
 > `/tmp` tiene permisos de lectura, escritura y ejecución para todos (de ahí el color distinto en `ls`, por la "t" de sticky bit). Se usa tanto para subir y ejecutar herramientas cuando la cuenta comprometida no tiene un `/home` donde escribir.
 
 ---
 
-## â‘¤ Herramientas de referencia
+## ⑤ Herramientas de referencia
 
 | Herramienta | Para qué | Uso visto en clase |
 |------------|---------|-------------------|
 | **netdiscover** | Descubrir activos en la red local | `sudo netdiscover -r 10.0.2.0/24` |
-| **nmap** | Escaneo de puertos / versiones | `nmap -sCV <ip>` Â· `nmap -p- <ip>` |
+| **nmap** | Escaneo de puertos / versiones | `nmap -sCV <ip>` · `nmap -p- <ip>` |
 | **dirsearch / feroxbuster** | Enumeración de directorios web | `dirsearch -u http://<ip>` |
 | **nc (netcat)** | Conexiones TCP crudas / shells | `nc 10.0.2.15 60000` |
 | **ssh** | Acceso remoto | `ssh user@<ip> -p 22222` |
 | **scp** | Copiar ficheros vía SSH | `scp -P 22222 user@<ip>:/ruta .` |
 | **find (SUID)** | Buscar binarios privilegiados | `find / -perm -4000 2>/dev/null` |
-| **strings / exiftool** | Inspeccionar ficheros e imágenes | `strings img.jpg` Â· `exiftool img.jpg` |
+| **strings / exiftool** | Inspeccionar ficheros e imágenes | `strings img.jpg` · `exiftool img.jpg` |
 | **hydra** | Fuerza bruta de credenciales | `hydra -l user -P dic.txt ssh://<ip>:22222` |
 | **sort | uniq** | Sanitizar diccionarios | `sort dic | uniq > dic_clean` |
 | **Burp Suite + FoxyProxy** | Auditoría web (proxy/repeater/intruder) | Enumeración por longitud de respuesta |
 
 ---
 
-## â‘¥ Resumen de máquinas
+## ⑥ Resumen de máquinas
 
 | Máquina | OS | Cadena resumida |
 |---------|----|----------------|
-| **RickdiculouslyEasy** | Linux | RCE web →’ SSH →’ Robo ficheros →’ Hydra →’ sudo su |
-| **Mr. Robot** | Linux | robots.txt →’ Diccionario →’ Enumerar usuario →’ Fuerza bruta |
+| **RickdiculouslyEasy** | Linux | RCE web → SSH → Robo ficheros → Hydra → sudo su |
+| **Mr. Robot** | Linux | robots.txt → Diccionario → Enumerar usuario → Fuerza bruta |
 
 ---
 
@@ -351,7 +351,7 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Recuerdo sanitizar diccionarios con `sort | uniq`?
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
 
-→’
+→
 
-→’
+→
 

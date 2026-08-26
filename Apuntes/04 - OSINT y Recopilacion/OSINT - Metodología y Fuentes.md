@@ -1,30 +1,30 @@
 
 
 > [!info] Relacionado con
-> [[Esteganografía y Metadatos]] Â· [[Nmap - Escaneo y Enumeración]] Â· [[apuntes Chema/Enumeración Web]] Â· [[Redes - Direccionamiento IP y DNS]]
-> →’
+> [[Esteganografía y Metadatos]] · [[Nmap - Escaneo y Enumeración]] · [[apuntes Chema/Enumeración Web]] · [[Redes - Direccionamiento IP y DNS]]
+> →
 
 ---
 
-## â‘  ¿Qué es OSINT?
+## ① ¿Qué es OSINT?
 
 **OSINT** (Open Source Intelligence) = recopilación de información **desde fuentes públicas** sin credenciales ni exploits. Primer paso de cualquier auditoría.
 
 | Estado | Descripción |
 |--------|------------|
-| âœ… Legal | WHOIS, DNS, LinkedIn, Shodan sobre IPs públicas con contrato |
-| âš ï¸ Zona gris | Bases de datos filtradas para auditoría interna |
-| âŒ Ilegal | Escanear sin autorización, usar credenciales filtradas |
+| ✓ Legal | WHOIS, DNS, LinkedIn, Shodan sobre IPs públicas con contrato |
+| ⚠️ Zona gris | Bases de datos filtradas para auditoría interna |
+| ✗ Ilegal | Escanear sin autorización, usar credenciales filtradas |
 
 > [!warning] LEGALIDAD
 > El OSINT en sí mismo es legal. El límite está en **cómo se usa**. La autorización explícita del cliente es la clave.
 
 ---
 
-## â‘¡ Metodología "” El ciclo de inteligencia
+## ② Metodología "” El ciclo de inteligencia
 
 ```
-1. Definir objetivo →’ 2. Recolección →’ 3. Procesamiento →’ 4. Análisis →’ 5. Informe
+1. Definir objetivo → 2. Recolección → 3. Procesamiento → 4. Análisis → 5. Informe
 ```
 
 > [!important] PRIMER PASO
@@ -32,7 +32,7 @@
 
 ---
 
-## â‘¢ [[Google_Dorks]]
+## ③ [[Google_Dorks]]
 
 ```bash
 site:empresa.com # solo resultados de ese dominio
@@ -56,7 +56,7 @@ site:*.empresa.com # subdominios
 
 ---
 
-## â‘£ Sherlock y Maigret "” Búsqueda por username
+## ④ Sherlock y Maigret "” Búsqueda por username
 
 ```bash
 # Sherlock: busca un username en cientos de redes sociales
@@ -70,11 +70,11 @@ maigret usuario_objetivo --report html
 ```
 
 > [!warning] FALSOS POSITIVOS
-> Solo verifican el código HTTP (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista →’ **verificar manualmente**.
+> Solo verifican el código HTTP (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista → **verificar manualmente**.
 
 ---
 
-## â‘¤ WHOIS y DNS
+## ⑤ WHOIS y DNS
 
 ```bash
 # WHOIS "” información de registro
@@ -101,7 +101,7 @@ curl -s 'https://crt.sh/?q=%.empresa.com&output=json' | jq '.[].name_value'
 
 ---
 
-## â‘¥ Shodan "” El buscador de dispositivos
+## ⑥ Shodan "” El buscador de dispositivos
 
 ```bash
 # Búsquedas en Shodan web
@@ -122,7 +122,7 @@ shodan host 1.2.3.4
 
 ---
 
-## â‘¦ HIBP "” Bases de datos filtradas
+## ⑦ HIBP "” Bases de datos filtradas
 
 ```bash
 # Have I Been Pwned "” consultar si un email tiene credenciales filtradas
@@ -131,7 +131,7 @@ curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'
 # Alternativas
 # dehashed.com (suscripción)
 # intelx.io
-# hunter.io →’ correos corporativos por dominio
+# hunter.io → correos corporativos por dominio
 ```
 
 > [!warning] LEGALIDAD
@@ -141,24 +141,24 @@ curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'
 
 ---
 
-## â‘§ LinkedIn y OSINT de personas
+## ⑧ LinkedIn y OSINT de personas
 
 ```
 LinkedIn como fuente:
-- Empleados →’ tecnologías usadas
-- Organigramas →’ estructura
-- Ofertas de trabajo →’ herramientas internas
+- Empleados → tecnologías usadas
+- Organigramas → estructura
+- Ofertas de trabajo → herramientas internas
 - Formato de email: nombre.apellido@empresa.com
 ```
 
 ### Construcción de perfil
 
-1. Nombre completo →’ variaciones
-2. Username en redes →’ Sherlock/Maigret
-3. Correos →’ hunter.io, HIBP
-4. Foto →’ búsqueda inversa (Google Lens, PimEyes)
-5. Teléfono →’ truecaller, eyecon
-6. Documentos online →’ [[Google_Dorks]]
+1. Nombre completo → variaciones
+2. Username en redes → Sherlock/Maigret
+3. Correos → hunter.io, HIBP
+4. Foto → búsqueda inversa (Google Lens, PimEyes)
+5. Teléfono → truecaller, eyecon
+6. Documentos online → [[Google_Dorks]]
 
 > [!warning] SPEAR PHISHING
 > Toda esta información se usa para construir **ataques de phishing altamente personalizados**. Un email que menciona tu jefe, tu cargo y tu proyecto tiene altísima tasa de éxito.
@@ -174,8 +174,8 @@ LinkedIn como fuente:
 - [ ] ¿Conozco Shodan y sus filtros principales?
 - [ ] ¿Distingo qué es legal y qué no en OSINT?
 
-→’
+→
 
-→’
+→
 
-→’
+→

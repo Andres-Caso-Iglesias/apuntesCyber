@@ -1,12 +1,12 @@
 
 
 > [!info] Relacionado con
-> [[Apuntes/05 - Auditoria Web/Repaso de Enumeración Web]] Â· [[Fuzzing Web con ffuf]] Â· [[Burp Suite - Framework de Auditoría]] Â· [[OSINT - Metodología y Fuentes]] Â· [[Apuntes/05 - Auditoria Web/Enumeración Web|Enumeración Web]] Â· [[Nmap - Escaneo y Enumeración]]
-> →’
+> [[Apuntes/05 - Auditoria Web/Repaso de Enumeración Web]] · [[Fuzzing Web con ffuf]] · [[Burp Suite - Framework de Auditoría]] · [[OSINT - Metodología y Fuentes]] · [[Apuntes/05 - Auditoria Web/Enumeración Web|Enumeración Web]] · [[Nmap - Escaneo y Enumeración]]
+> →
 
 ---
 
-## â‘  ¿Qué es la enumeración web?
+## ① ¿Qué es la enumeración web?
 
 Descubrir **toda la superficie** de una aplicación web: tecnologías, rutas, ficheros, subdominios y puntos de entrada. **No se explota nada todavía**, se construye el mapa.
 
@@ -15,7 +15,7 @@ Descubrir **toda la superficie** de una aplicación web: tecnologías, rutas, fi
 
 ---
 
-## â‘¡ Pasiva vs Activa
+## ② Pasiva vs Activa
 
 | Tipo | Qué hace | Toca el objetivo |
 |------|---------|-----------------|
@@ -27,10 +27,10 @@ Descubrir **toda la superficie** de una aplicación web: tecnologías, rutas, fi
 
 ---
 
-## â‘¢ Metodología en 5 fases
+## ③ Metodología en 5 fases
 
 ```
-1. Recon pasivo →’ 2. Fingerprint stack →’ 3. Subdominios →’ 4. Directorios →’ 5. Endpoints
+1. Recon pasivo → 2. Fingerprint stack → 3. Subdominios → 4. Directorios → 5. Endpoints
 ```
 
 ### Fase 1 "” Reconocimiento pasivo
@@ -50,11 +50,11 @@ curl -sI http://OBJETIVO # cabeceras HTTP
 |-------|-----------|
 | Cabecera Server | Servidor web |
 | X-Powered-By | Lenguaje/framework |
-| Cookies | PHPSESSID →’ PHP, JSESSIONID →’ Java |
+| Cookies | PHPSESSID → PHP, JSESSIONID → Java |
 | Extensiones | .php, .aspx, .jsp |
 
 > [!tip] CMS
-> Si detectas WordPress →’ el siguiente paso es **[[WPScan]]**. Cada CMS tiene rutas y vulnerabilidades típicas.
+> Si detectas WordPress → el siguiente paso es **[[WPScan]]**. Cada CMS tiene rutas y vulnerabilidades típicas.
 
 ### Fase 3 "” Subdominios
 
@@ -90,7 +90,7 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 
 ---
 
-## â‘£ Errores comunes
+## ④ Errores comunes
 
 - **Saltarse el recon pasivo**: pierdes subdominios y contexto
 - **No respetar el scope**: ilegal
@@ -107,7 +107,7 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - [ ] ¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
 - [ ] ¿Entiendo cómo descubrir parámetros ocultos?
 
-→’
+→
 
-→’
+→
 

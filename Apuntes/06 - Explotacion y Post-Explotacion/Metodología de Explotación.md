@@ -18,12 +18,12 @@ Superficie expuesta → Enumeración → Explotación → Mov. lateral → Escal
 Aplicable a **cualquier** vulnerabilidad de servicio (FTP, SMB, SSH, HTTP...).
 
 ```
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│ 01 FUENTE │ → │ 02 PROCESO │ → │ 03 PRIVILEG.│ → │ 04 DESTINO │
-│ Origen de │ │ Qué hace │ │ Con qué │ │ Qué se │
-│ la info │ │ el servicio│ │ permisos │ │ hace con │
-│ │ │ │ │ corre │ │ el resultado│
-└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
+┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+│ 01 FUENTE   │ → │ 02 PROCESO  │ → │ 03 PRIVILEG.│ → │ 04 DESTINO  │
+│ Origen de   │   │ Qué hace    │   │ Con qué     │   │ Qué se      │
+│ la info     │   │ el servicio │   │ permisos    │   │ hace con    │
+│             │   │             │   │ corre       │   │ el resultado│
+└─────────────┘   └─────────────┘   └─────────────┘   └─────────────┘
 ```
 
 ### Ejemplo: Log4Shell (CVE-2021-44228)
@@ -55,9 +55,9 @@ Aplicable a **cualquier** vulnerabilidad de servicio (FTP, SMB, SSH, HTTP...).
 
 ```
 ┌─────────────────────────────────────┐
-│ 1. Fuerza bruta │
-│ 2. Versión con CVE explotable │
-│ 3. Mala configuración │
+│ 1. Fuerza bruta                     │
+│ 2. Versión con CVE explotable       │
+│ 3. Mala configuración               │
 └─────────────────────────────────────┘
 ```
 
