@@ -1,34 +1,34 @@
 
 
 > [!info] Relacionado con
-> [[EsteganografÃ­a y Metadatos]] Â· [[Nmap - Escaneo y EnumeraciÃ³n]] Â· [[apuntes Chema/EnumeraciÃ³n Web]] Â· [[Redes - Direccionamiento IP y DNS]]
-> â†’
+> [[Esteganografía y Metadatos]] Â· [[Nmap - Escaneo y Enumeración]] Â· [[apuntes Chema/Enumeración Web]] Â· [[Redes - Direccionamiento IP y DNS]]
+> →’
 
 ---
 
-## â‘  Â¿QuÃ© es OSINT?
+## â‘  ¿Qué es OSINT?
 
-**OSINT** (Open Source Intelligence) = recopilaciÃ³n de informaciÃ³n **desde fuentes pÃºblicas** sin credenciales ni exploits. Primer paso de cualquier auditorÃ­a.
+**OSINT** (Open Source Intelligence) = recopilación de información **desde fuentes públicas** sin credenciales ni exploits. Primer paso de cualquier auditoría.
 
-| Estado | DescripciÃ³n |
+| Estado | Descripción |
 |--------|------------|
-| âœ… Legal | WHOIS, DNS, LinkedIn, Shodan sobre IPs pÃºblicas con contrato |
-| âš ï¸ Zona gris | Bases de datos filtradas para auditorÃ­a interna |
-| âŒ Ilegal | Escanear sin autorizaciÃ³n, usar credenciales filtradas |
+| âœ… Legal | WHOIS, DNS, LinkedIn, Shodan sobre IPs públicas con contrato |
+| âš ï¸ Zona gris | Bases de datos filtradas para auditoría interna |
+| âŒ Ilegal | Escanear sin autorización, usar credenciales filtradas |
 
 > [!warning] LEGALIDAD
-> El OSINT en sÃ­ mismo es legal. El lÃ­mite estÃ¡ en **cÃ³mo se usa**. La autorizaciÃ³n explÃ­cita del cliente es la clave.
+> El OSINT en sí mismo es legal. El límite está en **cómo se usa**. La autorización explícita del cliente es la clave.
 
 ---
 
-## â‘¡ MetodologÃ­a â€” El ciclo de inteligencia
+## â‘¡ Metodología "” El ciclo de inteligencia
 
 ```
-1. Definir objetivo â†’ 2. RecolecciÃ³n â†’ 3. Procesamiento â†’ 4. AnÃ¡lisis â†’ 5. Informe
+1. Definir objetivo →’ 2. Recolección →’ 3. Procesamiento →’ 4. Análisis →’ 5. Informe
 ```
 
 > [!important] PRIMER PASO
-> Antes de abrir cualquier herramienta: define **exactamente** quÃ© necesitas. Â¿Empleados? Â¿Infraestructura? Â¿Credenciales filtradas? Objetivo concreto = menos ruido.
+> Antes de abrir cualquier herramienta: define **exactamente** qué necesitas. ¿Empleados? ¿Infraestructura? ¿Credenciales filtradas? Objetivo concreto = menos ruido.
 
 ---
 
@@ -38,25 +38,25 @@
 site:empresa.com # solo resultados de ese dominio
 site:empresa.com filetype:pdf # PDFs
 site:empresa.com inurl:admin # URLs con 'admin'
-site:empresa.com intitle:login # pÃ¡ginas con 'login'
-intext:'contraseÃ±a' site:emp.com # texto especÃ­fico
+site:empresa.com intitle:login # páginas con 'login'
+intext:'contraseña' site:emp.com # texto específico
 
-# Dorks Ãºtiles en auditorÃ­as
+# Dorks útiles en auditorías
 site:empresa.com filetype:xlsx # Excel expuestos
 site:empresa.com filetype:sql # dumps de BD
 inurl:/wp-content/uploads site:emp # uploads WordPress
-site:github.com empresa.com # cÃ³digo en GitHub
+site:github.com empresa.com # código en GitHub
 site:*.empresa.com # subdominios
 ```
 
-> [!tip] EXPOSICIÃ“N
+> [!tip] EXPOSICIÓN
 > Muchas empresas tienen documentos internos, backups o paneles de admin indexados en Google por error. Los [[Google_Dorks]] los encuentran en segundos.
 
 **Recurso:** `exploit-db.com/google-hacking-database` (GHDB)
 
 ---
 
-## â‘£ Sherlock y Maigret â€” BÃºsqueda por username
+## â‘£ Sherlock y Maigret "” Búsqueda por username
 
 ```bash
 # Sherlock: busca un username en cientos de redes sociales
@@ -64,29 +64,29 @@ pip install sherlock-project
 sherlock usuario_objetivo
 sherlock usuario_objetivo --output resultados.txt
 
-# Maigret: mÃ¡s completo, genera informe HTML
+# Maigret: más completo, genera informe HTML
 pip install maigret
 maigret usuario_objetivo --report html
 ```
 
 > [!warning] FALSOS POSITIVOS
-> Solo verifican el cÃ³digo HTTP (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista â†’ **verificar manualmente**.
+> Solo verifican el código HTTP (200 vs 404). Algunas webs devuelven 200 aunque el usuario no exista →’ **verificar manualmente**.
 
 ---
 
 ## â‘¤ WHOIS y DNS
 
 ```bash
-# WHOIS â€” informaciÃ³n de registro
+# WHOIS "” información de registro
 whois empresa.com
-# Registrant, correos, telÃ©fonos, fechas
+# Registrant, correos, teléfonos, fechas
 
-# DNS â€” enumeraciÃ³n de subdominios
+# DNS "” enumeración de subdominios
 dig empresa.com ANY # todos los registros
 dig empresa.com MX # servidores de correo
 dig empresa.com NS # servidores de nombre
 
-# Transferencia de zona (si estÃ¡ mal configurada)
+# Transferencia de zona (si está mal configurada)
 dig axfr empresa.com @ns1.empresa.com
 # Si funciona: ORO. Revela todos los subdominios.
 
@@ -101,10 +101,10 @@ curl -s 'https://crt.sh/?q=%.empresa.com&output=json' | jq '.[].name_value'
 
 ---
 
-## â‘¥ Shodan â€” El buscador de dispositivos
+## â‘¥ Shodan "” El buscador de dispositivos
 
 ```bash
-# BÃºsquedas en Shodan web
+# Búsquedas en Shodan web
 org:'Nombre Empresa' # todos los activos
 net:185.12.34.0/24 # rango de IPs
 port:22 org:'empresa' # SSH expuesto
@@ -118,24 +118,24 @@ shodan host 1.2.3.4
 ```
 
 > [!tip] SHODAN
-> No solo encuentra cÃ¡maras y routers: tambiÃ©n servidores con versiones vulnerables, bases de datos abiertas y paneles sin autenticaciÃ³n.
+> No solo encuentra cámaras y routers: también servidores con versiones vulnerables, bases de datos abiertas y paneles sin autenticación.
 
 ---
 
-## â‘¦ HIBP â€” Bases de datos filtradas
+## â‘¦ HIBP "” Bases de datos filtradas
 
 ```bash
-# Have I Been Pwned â€” consultar si un email tiene credenciales filtradas
+# Have I Been Pwned "” consultar si un email tiene credenciales filtradas
 curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'
 
 # Alternativas
-# dehashed.com (suscripciÃ³n)
+# dehashed.com (suscripción)
 # intelx.io
-# hunter.io â†’ correos corporativos por dominio
+# hunter.io →’ correos corporativos por dominio
 ```
 
 > [!warning] LEGALIDAD
-> Consultar HIBP = **LEGAL** (datos ya pÃºblicos).
+> Consultar HIBP = **LEGAL** (datos ya públicos).
 > Descargar bases de datos robadas = **ILEGAL**.
 > Usar credenciales filtradas = **DELITO PENAL**.
 
@@ -145,37 +145,37 @@ curl 'https://haveibeenpwned.com/api/v3/breachedaccount/correo@empresa.com'
 
 ```
 LinkedIn como fuente:
-- Empleados â†’ tecnologÃ­as usadas
-- Organigramas â†’ estructura
-- Ofertas de trabajo â†’ herramientas internas
+- Empleados →’ tecnologías usadas
+- Organigramas →’ estructura
+- Ofertas de trabajo →’ herramientas internas
 - Formato de email: nombre.apellido@empresa.com
 ```
 
-### ConstrucciÃ³n de perfil
+### Construcción de perfil
 
-1. Nombre completo â†’ variaciones
-2. Username en redes â†’ Sherlock/Maigret
-3. Correos â†’ hunter.io, HIBP
-4. Foto â†’ bÃºsqueda inversa (Google Lens, PimEyes)
-5. TelÃ©fono â†’ truecaller, eyecon
-6. Documentos online â†’ [[Google_Dorks]]
+1. Nombre completo →’ variaciones
+2. Username en redes →’ Sherlock/Maigret
+3. Correos →’ hunter.io, HIBP
+4. Foto →’ búsqueda inversa (Google Lens, PimEyes)
+5. Teléfono →’ truecaller, eyecon
+6. Documentos online →’ [[Google_Dorks]]
 
 > [!warning] SPEAR PHISHING
-> Toda esta informaciÃ³n se usa para construir **ataques de phishing altamente personalizados**. Un email que menciona tu jefe, tu cargo y tu proyecto tiene altÃ­sima tasa de Ã©xito.
+> Toda esta información se usa para construir **ataques de phishing altamente personalizados**. Un email que menciona tu jefe, tu cargo y tu proyecto tiene altísima tasa de éxito.
 
 ---
 
 ## Checklist de repaso
 
-- [ ] Â¿SÃ© definir el objetivo antes de empezar?
-- [ ] Â¿Domino los [[Google_Dorks]] mÃ¡s comunes?
-- [ ] Â¿SÃ© usar Sherlock/Maigret para buscar usernames?
-- [ ] Â¿Entiendo la diferencia entre WHOIS y DNS?
-- [ ] Â¿Conozco Shodan y sus filtros principales?
-- [ ] Â¿Distingo quÃ© es legal y quÃ© no en OSINT?
+- [ ] ¿Sé definir el objetivo antes de empezar?
+- [ ] ¿Domino los [[Google_Dorks]] más comunes?
+- [ ] ¿Sé usar Sherlock/Maigret para buscar usernames?
+- [ ] ¿Entiendo la diferencia entre WHOIS y DNS?
+- [ ] ¿Conozco Shodan y sus filtros principales?
+- [ ] ¿Distingo qué es legal y qué no en OSINT?
 
-â†’
+→’
 
-â†’
+→’
 
-â†’
+→’

@@ -1,62 +1,62 @@
 
 
 > [!info] Relacionado con
-> [[Apuntes/05 - Auditoria Web/Repaso de EnumeraciÃ³n Web]] Â· [[Fuzzing Web con ffuf]] Â· [[Burp Suite - Framework de AuditorÃ­a]] Â· [[OSINT - MetodologÃ­a y Fuentes]] Â· [[Apuntes/05 - Auditoria Web/EnumeraciÃ³n Web|EnumeraciÃ³n Web]] Â· [[Nmap - Escaneo y EnumeraciÃ³n]]
-> â†’
+> [[Apuntes/05 - Auditoria Web/Repaso de Enumeración Web]] Â· [[Fuzzing Web con ffuf]] Â· [[Burp Suite - Framework de Auditoría]] Â· [[OSINT - Metodología y Fuentes]] Â· [[Apuntes/05 - Auditoria Web/Enumeración Web|Enumeración Web]] Â· [[Nmap - Escaneo y Enumeración]]
+> →’
 
 ---
 
-## â‘  Â¿QuÃ© es la enumeraciÃ³n web?
+## â‘  ¿Qué es la enumeración web?
 
-Descubrir **toda la superficie** de una aplicaciÃ³n web: tecnologÃ­as, rutas, ficheros, subdominios y puntos de entrada. **No se explota nada todavÃ­a**, se construye el mapa.
+Descubrir **toda la superficie** de una aplicación web: tecnologías, rutas, ficheros, subdominios y puntos de entrada. **No se explota nada todavía**, se construye el mapa.
 
 > [!important] Idea central
-> Cuanto mÃ¡s completo es el mapa, mÃ¡s superficie de ataque tienes. La mayorÃ­a de hallazgos crÃ­ticos aparecen aquÃ­, no explotando un 0-day.
+> Cuanto más completo es el mapa, más superficie de ataque tienes. La mayoría de hallazgos críticos aparecen aquí, no explotando un 0-day.
 
 ---
 
 ## â‘¡ Pasiva vs Activa
 
-| Tipo | QuÃ© hace | Toca el objetivo |
+| Tipo | Qué hace | Toca el objetivo |
 |------|---------|-----------------|
-| **Pasiva** | Recopila info sin trÃ¡fico directo | No |
-| **Activa** | InteractÃºa con el servidor | SÃ­ |
+| **Pasiva** | Recopila info sin tráfico directo | No |
+| **Activa** | Interactúa con el servidor | Sí |
 
 > [!warning] RUIDO
-> La enumeraciÃ³n activa genera trÃ¡fico que queda en logs. Puede disparar WAFs/IDS. Empieza siempre por lo pasivo.
+> La enumeración activa genera tráfico que queda en logs. Puede disparar WAFs/IDS. Empieza siempre por lo pasivo.
 
 ---
 
-## â‘¢ MetodologÃ­a en 5 fases
+## â‘¢ Metodología en 5 fases
 
 ```
-1. Recon pasivo â†’ 2. Fingerprint stack â†’ 3. Subdominios â†’ 4. Directorios â†’ 5. Endpoints
+1. Recon pasivo →’ 2. Fingerprint stack →’ 3. Subdominios →’ 4. Directorios →’ 5. Endpoints
 ```
 
-### Fase 1 â€” Reconocimiento pasivo
+### Fase 1 "” Reconocimiento pasivo
 
 - **crt.sh** (certificados TLS): revelan subdominios
 - **Wayback Machine**: rutas antiguas
 - **Google Dorks**: site:objetivo.com filetype:pdf
 
-### Fase 2 â€” Fingerprint del stack
+### Fase 2 "” Fingerprint del stack
 
 ```bash
-whatweb -a 3 http://OBJETIVO # identificar tecnologÃ­as
+whatweb -a 3 http://OBJETIVO # identificar tecnologías
 curl -sI http://OBJETIVO # cabeceras HTTP
 ```
 
-| Pista | QuÃ© revela |
+| Pista | Qué revela |
 |-------|-----------|
 | Cabecera Server | Servidor web |
 | X-Powered-By | Lenguaje/framework |
-| Cookies | PHPSESSID â†’ PHP, JSESSIONID â†’ Java |
+| Cookies | PHPSESSID →’ PHP, JSESSIONID →’ Java |
 | Extensiones | .php, .aspx, .jsp |
 
 > [!tip] CMS
-> Si detectas WordPress â†’ el siguiente paso es **[[WPScan]]**. Cada CMS tiene rutas y vulnerabilidades tÃ­picas.
+> Si detectas WordPress →’ el siguiente paso es **[[WPScan]]**. Cada CMS tiene rutas y vulnerabilidades típicas.
 
-### Fase 3 â€” Subdominios
+### Fase 3 "” Subdominios
 
 ```bash
 subfinder -d OBJETIVO.com -o subdominios.txt # fuentes pasivas
@@ -64,13 +64,13 @@ subfinder -d OBJETIVO.com -o subdominios.txt # fuentes pasivas
  -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
 ```
 
-### Fase 4 â€” Directorios y ficheros
+### Fase 4 "” Directorios y ficheros
 
 | Herramienta | Punto fuerte |
 |------------|-------------|
-| **[[Feroxbuster]]** | Recursividad automÃ¡tica |
+| **[[Feroxbuster]]** | Recursividad automática |
 | **Gobuster** | Control de extensiones (-x) |
-| **[[FFUF]]** | El mÃ¡s flexible (FUZZ keyword) |
+| **[[FFUF]]** | El más flexible (FUZZ keyword) |
 | **Dirsearch** | Diccionarios por defecto bien pensados |
 
 ```bash
@@ -78,7 +78,7 @@ subfinder -d OBJETIVO.com -o subdominios.txt # fuentes pasivas
 gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 ```
 
-### Fase 5 â€” Endpoints y parÃ¡metros
+### Fase 5 "” Endpoints y parámetros
 
 ```bash
 [[FFUF]] -u 'http://OBJETIVO/index.php?FUZZ=test' \
@@ -86,7 +86,7 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 ```
 
 > [!tip] Marco mental de 4 elementos
-> Cada parÃ¡metro descubierto es una **FUENTE** que el servidor **PROCESA**. Identificarlos aquÃ­ es localizar dÃ³nde podrÃ¡s atacar despuÃ©s.
+> Cada parámetro descubierto es una **FUENTE** que el servidor **PROCESA**. Identificarlos aquí es localizar dónde podrás atacar después.
 
 ---
 
@@ -94,20 +94,20 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 
 - **Saltarse el recon pasivo**: pierdes subdominios y contexto
 - **No respetar el scope**: ilegal
-- **Ignorar el fingerprint**: wordlists genÃ©ricas reducen hallazgos
+- **Ignorar el fingerprint**: wordlists genéricas reducen hallazgos
 - **No filtrar respuestas**: el ruido de 404 esconde lo importante
 
 ---
 
 ## Checklist de repaso
 
-- [ ] Â¿SÃ© la diferencia entre enumeraciÃ³n pasiva y activa?
-- [ ] Â¿Puedo hacer fingerprint con WhatWeb y curl?
-- [ ] Â¿SÃ© enumerar subdominios con Subfinder y [[FFUF]]?
-- [ ] Â¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
-- [ ] Â¿Entiendo cÃ³mo descubrir parÃ¡metros ocultos?
+- [ ] ¿Sé la diferencia entre enumeración pasiva y activa?
+- [ ] ¿Puedo hacer fingerprint con WhatWeb y curl?
+- [ ] ¿Sé enumerar subdominios con Subfinder y [[FFUF]]?
+- [ ] ¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
+- [ ] ¿Entiendo cómo descubrir parámetros ocultos?
 
-â†’
+→’
 
-â†’
+→’
 

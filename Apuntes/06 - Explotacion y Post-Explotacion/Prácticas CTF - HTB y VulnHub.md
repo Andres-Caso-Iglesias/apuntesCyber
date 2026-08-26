@@ -1,15 +1,15 @@
 
 
 > [!info] Relacionado con
-> [[MetodologÃ­a de ExplotaciÃ³n]] Â· [[ExplotaciÃ³n de Servicios - Linux]] Â· [[ExplotaciÃ³n de Servicios - Windows]] Â· [[Escalada de Privilegios]] Â· [[Reverse Shells y Post-ExplotaciÃ³n]]
-> â†’
+> [[Metodología de Explotación]] Â· [[Explotación de Servicios - Linux]] Â· [[Explotación de Servicios - Windows]] Â· [[Escalada de Privilegios]] Â· [[Reverse Shells y Post-Explotación]]
+> →’
 
 ---
 
 ## â‘  Flujo general de un CTF
 
 ```
-Superficie expuesta â†’ EnumeraciÃ³n â†’ ExplotaciÃ³n â†’ Shell â†’ Enumerar dentro â†’ Escalada â†’ Root
+Superficie expuesta →’ Enumeración →’ Explotación →’ Shell →’ Enumerar dentro →’ Escalada →’ Root
 ```
 
 ---
@@ -19,24 +19,24 @@ Superficie expuesta â†’ EnumeraciÃ³n â†’ ExplotaciÃ³n â†’ She
 ### Cadena completa
 
 ```
-www-data (RCE web) â†’ summer (SSH:22222) â†’ Robo de ficheros â†’ [[Hydra]] â†’ RickSanchez â†’ sudo su â†’ root
+www-data (RCE web) →’ summer (SSH:22222) →’ Robo de ficheros →’ [[Hydra]] →’ RickSanchez →’ sudo su →’ root
 ```
 
 ### Fase externa
 
 | Puerto | Servicio | Hallazgo |
 |--------|---------|---------|
-| 21 | FTP anon | Login anÃ³nimo, flag.txt |
+| 21 | FTP anon | Login anónimo, flag.txt |
 | 80 | Web | Command Injection en cgi-bin |
-| 60000 | TCP | Backdoor con shell vÃ­a nc |
-| 22222 | SSH real | El SSH autÃ©ntico |
+| 60000 | TCP | Backdoor con shell vía nc |
+| 22222 | SSH real | El SSH auténtico |
 
 ### Escalada
 
-1. **Summer â†’ SSH** con contraseÃ±a `winter` (encontrada en passwords.html)
-2. **Robo de ficheros** entre usuarios (binario safe, imagen con contraseÃ±a)
-3. **[[Hydra]]** â†’ RickSanchez: `P7Curtains`
-4. **sudo su** â†’ root (RickSanchez tiene `(ALL : ALL) ALL`)
+1. **Summer →’ SSH** con contraseña `winter` (encontrada en passwords.html)
+2. **Robo de ficheros** entre usuarios (binario safe, imagen con contraseña)
+3. **[[Hydra]]** →’ RickSanchez: `P7Curtains`
+4. **sudo su** →’ root (RickSanchez tiene `(ALL : ALL) ALL`)
 
 ---
 
@@ -45,13 +45,13 @@ www-data (RCE web) â†’ summer (SSH:22222) â†’ Robo de ficheros â†�
 ### Cadena (hasta ahora)
 
 ```
-[[Nmap]] (80/443) â†’ robots.txt â†’ fsocity.dic â†’ Limpiar diccionario â†’ Enumerar usuario: Elliot â†’ Fuerza bruta pwd (pendiente)
+[[Nmap]] (80/443) →’ robots.txt →’ fsocity.dic →’ Limpiar diccionario →’ Enumerar usuario: Elliot →’ Fuerza bruta pwd (pendiente)
 ```
 
-### TÃ©cnicas clave
+### Técnicas clave
 
-- **robots.txt** â†’ diccionario de ~858K lÃ­neas â†’ limpiar con `sort | uniq` â†’ ~11K
-- **EnumeraciÃ³n por longitud de respuesta** en Intruder de Burp
+- **robots.txt** →’ diccionario de ~858K líneas →’ limpiar con `sort | uniq` →’ ~11K
+- **Enumeración por longitud de respuesta** en Intruder de Burp
 - **Information disclosure** en login de WordPress
 
 ---
@@ -61,16 +61,16 @@ www-data (RCE web) â†’ summer (SSH:22222) â†’ Robo de ficheros â†�
 ### Cadena completa
 
 ```
-[[Nmap]] â†’ web + Ctrl+U (/cdn-cgi/login) â†’ [[Feroxbuster]] â†’ Login as guest â†’ IDOR (id=1 â†’ admin) â†’ Cookie â†’ admin â†’ Upload webshell PHP â†’ www-data + TTY â†’ user.txt â†’ db.php â†’ cred robert â†’ SSH â†’ LinPEAS â†’ grupo bugtracker â†’ root
+[[Nmap]] →’ web + Ctrl+U (/cdn-cgi/login) →’ [[Feroxbuster]] →’ Login as guest →’ IDOR (id=1 →’ admin) →’ Cookie →’ admin →’ Upload webshell PHP →’ www-data + TTY →’ user.txt →’ db.php →’ cred robert →’ SSH →’ LinPEAS →’ grupo bugtracker →’ root
 ```
 
-### TÃ©cnicas clave
+### Técnicas clave
 
-- **IDOR**: iterar `id` en la URL â†’ Access ID del admin
-- **Cookie tampering**: cambiar role/id â†’ acceso admin
-- **Web shell PHP** en uploads â†’ reverse shell
-- **ReutilizaciÃ³n de credenciales**: db.php â†’ SSH robert
-- **Escalada**: grupo `bugtracker` â†’ binario SUID
+- **IDOR**: iterar `id` en la URL →’ Access ID del admin
+- **Cookie tampering**: cambiar role/id →’ acceso admin
+- **Web shell PHP** en uploads →’ reverse shell
+- **Reutilización de credenciales**: db.php →’ SSH robert
+- **Escalada**: grupo `bugtracker` →’ binario SUID
 
 ---
 
@@ -79,15 +79,15 @@ www-data (RCE web) â†’ summer (SSH:22222) â†’ Robo de ficheros â†�
 ### Cadena completa
 
 ```
-[[Nmap]] (445, 1433) â†’ [[SMB_Impacket]] sesiÃ³n nula â†’ Credenciales en backups â†’ MSSQL â†’ xp_cmdshell â†’ Reverse shell + WinPEAS â†’ Credenciales en historial PowerShell â†’ psexec â†’ Administrator
+[[Nmap]] (445, 1433) →’ [[SMB_Impacket]] sesión nula →’ Credenciales en backups →’ MSSQL →’ xp_cmdshell →’ Reverse shell + WinPEAS →’ Credenciales en historial PowerShell →’ psexec →’ Administrator
 ```
 
-### TÃ©cnicas clave
+### Técnicas clave
 
-- **SMB sesiÃ³n nula** â†’ `smbclient -N -L //IP/`
+- **SMB sesión nula** →’ `smbclient -N -L //IP/`
 - **Archivo config** con credenciales de SQL
-- **[[SMB_Impacket]]** â†’ MSSQL â†’ sysadmin â†’ xp_cmdshell
-- **WinPEAS** â†’ historial PowerShell con contraseÃ±a de Administrator
+- **[[SMB_Impacket]]** →’ MSSQL →’ sysadmin →’ xp_cmdshell
+- **WinPEAS** →’ historial PowerShell con contraseña de Administrator
 
 ---
 
@@ -96,38 +96,38 @@ www-data (RCE web) â†’ summer (SSH:22222) â†’ Robo de ficheros â†�
 ### Cadena completa
 
 ```
-FTP anon â†’ backup.zip â†’ zip2john + [[John_Hashcat]] â†’ MD5 â†’ login admin:qwerty789 â†’ SQLi â†’ [[SQLMap]] --os-shell â†’ reverse shell â†’ dashboard.php (cred) â†’ SSH postgres â†’ sudo -l â†’ /bin/vi (GTFOBins) â†’ root
+FTP anon →’ backup.zip →’ zip2john + [[John_Hashcat]] →’ MD5 →’ login admin:qwerty789 →’ SQLi →’ [[SQLMap]] --os-shell →’ reverse shell →’ dashboard.php (cred) →’ SSH postgres →’ sudo -l →’ /bin/vi (GTFOBins) →’ root
 ```
 
-### TÃ©cnicas clave
+### Técnicas clave
 
-- **[[SQLMap]]** con cookie para bypassear autenticaciÃ³n
-- **GTFOBins**: `sudo /bin/vi` â†’ `:!/bin/bash` â†’ root
-- **ReutilizaciÃ³n de credenciales**: PostgreSQL â†’ SSH
+- **[[SQLMap]]** con cookie para bypassear autenticación
+- **GTFOBins**: `sudo /bin/vi` →’ `:!/bin/bash` →’ root
+- **Reutilización de credenciales**: PostgreSQL →’ SSH
 
 ---
 
-## â‘¦ Resumen de mÃ¡quinas
+## â‘¦ Resumen de máquinas
 
-| MÃ¡quina | OS | Cadena resumida |
+| Máquina | OS | Cadena resumida |
 |---------|----|----------------|
-| **RickdiculouslyEasy** | Linux | RCE web â†’ SSH â†’ Robo ficheros â†’ Hydra â†’ sudo su |
-| **Mr. Robot** | Linux | robots.txt â†’ Diccionario â†’ Enumerar usuario â†’ Fuerza bruta |
-| **Oopsie** | Linux | IDOR â†’ Cookie â†’ Webshell â†’ db.php â†’ bugtracker SUID |
-| **Archetype** | Windows | SMB â†’ MSSQL â†’ xp_cmdshell â†’ WinPEAS â†’ psexec |
-| **Vaccine** | Linux | FTP â†’ zip2john â†’ SQLi â†’ [[SQLMap]] â†’ GTFOBins vi |
+| **RickdiculouslyEasy** | Linux | RCE web →’ SSH →’ Robo ficheros →’ Hydra →’ sudo su |
+| **Mr. Robot** | Linux | robots.txt →’ Diccionario →’ Enumerar usuario →’ Fuerza bruta |
+| **Oopsie** | Linux | IDOR →’ Cookie →’ Webshell →’ db.php →’ bugtracker SUID |
+| **Archetype** | Windows | SMB →’ MSSQL →’ xp_cmdshell →’ WinPEAS →’ psexec |
+| **Vaccine** | Linux | FTP →’ zip2john →’ SQLi →’ [[SQLMap]] →’ GTFOBins vi |
 
-â†’
+→’
 
 ---
 
 ## Checklist de repaso
 
-- [ ] Â¿Puedo describir la cadena de explotaciÃ³n de cada mÃ¡quina?
-- [ ] Â¿SÃ© aplicar IDOR y cookie tampering?
-- [ ] Â¿Entiendo el secuestro de PATH y GTFOBins?
-- [ ] Â¿SÃ© usar [[SMB_Impacket]] sesiÃ³n nula y MSSQL con [[SMB_Impacket]]?
-- [ ] Â¿Recuerdo siempre dejar el listener antes de la reverse shell?
+- [ ] ¿Puedo describir la cadena de explotación de cada máquina?
+- [ ] ¿Sé aplicar IDOR y cookie tampering?
+- [ ] ¿Entiendo el secuestro de PATH y GTFOBins?
+- [ ] ¿Sé usar [[SMB_Impacket]] sesión nula y MSSQL con [[SMB_Impacket]]?
+- [ ] ¿Recuerdo siempre dejar el listener antes de la reverse shell?
 
-â†’
+→’
 
