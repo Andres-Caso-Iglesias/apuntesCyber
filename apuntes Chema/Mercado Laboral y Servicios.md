@@ -156,7 +156,7 @@ Aplicable a cualquier vulnerabilidad de servicio, independientemente del protoco
 
 | |
 |---|
-|ftp <IP><br><br># usuario: anonymous \| contraseÃ±a: cualquiera|
+|ftp <IP><br><br># usuario: anonymous | contraseÃ±a: cualquiera|
 
 Si estÃ¡ habilitada, da acceso sin credenciales vÃ¡lidas. Siempre verificar.
 

@@ -156,7 +156,7 @@ getcap -r / 2>/dev/null
 
 | Vector | Herramienta |
 |--------|-------------|
-| SUID binaries | [[Linux#Permisos y Propietarios\|find, chmod]] |
+| SUID binaries | [[Linux#Permisos y Propietarios|find, chmod]] |
 | Sudo abuse | `sudo -l` |
 | Cron jobs | Editar scripts ejecutados por root |
 | Kernel exploit | SearchSploit |

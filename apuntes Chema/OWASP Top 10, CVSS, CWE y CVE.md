@@ -31,7 +31,7 @@ Un **CVE** identifica una vulnerabilidad **concreta** en un producto y versión 
 
 | |
 |---|
-|CVE-2021-44228<br><br>  \|    \|     \|<br><br>  \|    \|     +--- Número secuencial dentro de ese año<br><br>  \|    +--------- Año de asignación (no siempre el de descubrimiento)<br><br>  +-------------- Prefijo fijo|
+|CVE-2021-44228<br><br>  |    |     |<br><br>  |    |     +--- Número secuencial dentro de ese año<br><br>  |    +--------- Año de asignación (no siempre el de descubrimiento)<br><br>  +-------------- Prefijo fijo|
 
 El ejemplo CVE-2021-44228 es **Log4Shell**, ya visto en la sesión 25 al aplicar el marco mental de 4 elementos. Es un caso perfecto: un CVE concreto, de tipo CWE de inyección, con un CVSS crítico.
 

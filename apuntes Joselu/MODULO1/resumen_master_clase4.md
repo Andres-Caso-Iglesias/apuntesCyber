@@ -66,7 +66,7 @@ Caso práctico: grep con comillas dobles es imprescindible cuando se busca una f
 
 | Operador | Nombre | Comportamiento |
 |---|---|---|
-| \| | Pipe | La salida del primero es la entrada del segundo ; | Punto y coma | Ejecuta ambos comandos de forma independiente siempre && | AND | Ejecuta el segundo solo si el primero tuvo éxito |
+| | | Pipe | La salida del primero es la entrada del segundo ; | Punto y coma | Ejecuta ambos comandos de forma independiente siempre && | AND | Ejecuta el segundo solo si el primero tuvo éxito |
 |---|---|---|---|---|---|---|
 
 **Analogía del pipe:** como las tuberías de Super Mario --- lo que entra por un lado sale por el otro.

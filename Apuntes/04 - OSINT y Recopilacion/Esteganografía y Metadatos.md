@@ -120,7 +120,7 @@ strings ejecutable.exe | grep -i password
 strings firmware.bin | grep -E 'http|ftp|admin'
 
 # En CTFs, buscar flags
-strings fichero | grep 'CTF{\|FLAG{'
+strings fichero | grep 'CTF{|FLAG{'
 
 # Combinado con file
 file imagen.jpg # verifica tipo real

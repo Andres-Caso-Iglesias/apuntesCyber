@@ -39,7 +39,7 @@ Bash y PowerShell son dos shells distintas que pueden abrirse dentro del mismo p
 
 **Bash** (*Bourne Again Shell*) es el intérprete de comandos presente en la gran mayoría de distribuciones Linux (Debian, Ubuntu, Kali...) y fue también el shell por defecto de macOS hasta la versión Catalina (2019), cuando fue sustituido por **Zsh** (sintaxis prácticamente idéntica).
 
-**Características principales:** - Orientado a texto: todo lo que fluye por la terminal son cadenas de caracteres. - Permite encadenar comandos con **pipes** (\|): la salida de un comando se convierte en la entrada del siguiente. - Soporta **scripting** completo: variables, condicionales (if/else), bucles y funciones. - Permite definir **alias** y funciones personalizadas para simplificar comandos complejos. - Los archivos .bashrc y .bash_profile permiten hacer persistentes los alias y las configuraciones entre sesiones.
+**Características principales:** - Orientado a texto: todo lo que fluye por la terminal son cadenas de caracteres. - Permite encadenar comandos con **pipes** (|): la salida de un comando se convierte en la entrada del siguiente. - Soporta **scripting** completo: variables, condicionales (if/else), bucles y funciones. - Permite definir **alias** y funciones personalizadas para simplificar comandos complejos. - Los archivos .bashrc y .bash_profile permiten hacer persistentes los alias y las configuraciones entre sesiones.
 
 **Cómo abrirlo:** - Ubuntu/Debian/Kali: Ctrl + Alt + T - macOS: Cmd + Espacio → escribir "Terminal" - Windows: mediante **WSL2** (Windows Subsystem for Linux), instalable desde la Microsoft Store.
 
@@ -178,7 +178,7 @@ Ejemplo real del profesor: para una campaña de phishing a 600 empleados, el Gma
 
 ## 13. Próximos temas
 
-- Encadenamiento de comandos con **pipes** (\|) y operadores (&&, \|\|).
+- Encadenamiento de comandos con **pipes** (|) y operadores (&&, ||).
 - Variables de entorno y su uso en escalada de privilegios.
 - **Alias** y funciones personalizadas en Bash.
 - Scripting básico en Bash: if/else, bucles.

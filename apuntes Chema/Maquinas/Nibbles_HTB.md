@@ -219,7 +219,7 @@ cat /root/root.txt
 | Herramienta | Objetivo | Fase | Comando / Uso | Nivel | Notas |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Nmap | Escaneo puertos + versiones | Reconocimiento | `nmap -p- -sCV --min-rate 5000 <IP>` | Recurrente | Solo 80 y 22 |
-| curl / grep | Descubrir comentario HTML | Enum. pasiva | `curl -s http://IP/ \| grep -i "<!--"` | Practicada | DescubriÃ³ `/nibbleblog/` |
+| curl / grep | Descubrir comentario HTML | Enum. pasiva | `curl -s http://IP/ | grep -i "<!--"` | Practicada | DescubriÃ³ `/nibbleblog/` |
 | Gobuster | Enum. directorios en CMS | Enum. web | `gobuster dir -u http://IP/nibbleblog/ -w common.txt -x php,txt` | Practicada | README + admin.php |
 | Nibbleblog (admin) | Login + file upload | ExplotaciÃ³n | `admin:nibbles` â†’ My Image plugin | Practicada | CVE-2015-6967 |
 | Netcat (nc) | Listener reverse shell | Acceso | `nc -lvnp 4444` | Recurrente | Base de toda shell |
@@ -233,7 +233,7 @@ cat /root/root.txt
 
 | |
 |---|
-|âš  **AVISO**<br><br>**Comentarios HTML â‰  basura**. Son inteligencia pasiva gratis**. Siempre revisar `curl -s URL \| grep "<!--"` o "Ver cÃ³digo fuente".|
+|âš  **AVISO**<br><br>**Comentarios HTML â‰  basura**. Son inteligencia pasiva gratis**. Siempre revisar `curl -s URL | grep "<!--"` o "Ver cÃ³digo fuente".|
 
 | |
 |---|
@@ -287,7 +287,7 @@ Conceptos transversales: **descubrimiento pasivo**, **CVE clÃ¡sico en CMS anti
 
 # 9. Checklist de repaso
 
-â˜ Â¿Reviso **siempre** comentarios HTML (`curl \| grep "<!--"`) en la home y pÃ¡ginas clave?
+â˜ Â¿Reviso **siempre** comentarios HTML (`curl | grep "<!--"`) en la home y pÃ¡ginas clave?
 
 â˜ Â¿SÃ© identificar **Nibbleblog** y su versiÃ³n vÃ­a `README` / `CHANGELOG` / `admin.php`?
 

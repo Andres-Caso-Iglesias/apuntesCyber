@@ -42,7 +42,7 @@ La grandísima mayoría de candidatos se queda en el mínimo (CV + LinkedIn). Un
 
 | |
 |---|
-|# Ejemplos de titulares efectivos vs inefectivos:<br><br># ❌ Malo:<br><br>"Estudiante de ciberseguridad"<br><br>"Buscando trabajo en IT"<br><br># ✅ Bueno:<br><br>"Pentester en formación \| eJPT \| CTF player \| HackTheBox Top 10%"<br><br>"Ciberseguridad ofensiva \| Bug Bounty \| Python \| Kali Linux"<br><br>"SOC Analyst \| Blue Team \| SIEM \| Threat Detection"|
+|# Ejemplos de titulares efectivos vs inefectivos:<br><br># ❌ Malo:<br><br>"Estudiante de ciberseguridad"<br><br>"Buscando trabajo en IT"<br><br># ✅ Bueno:<br><br>"Pentester en formación | eJPT | CTF player | HackTheBox Top 10%"<br><br>"Ciberseguridad ofensiva | Bug Bounty | Python | Kali Linux"<br><br>"SOC Analyst | Blue Team | SIEM | Threat Detection"|
 
 # ④ CTFs: la forma más rápida de demostrar habilidad
 

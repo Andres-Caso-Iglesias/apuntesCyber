@@ -27,10 +27,10 @@
 
 | # | MetodologÃ­a | Objetivo | Fases |
 |---|-------------|----------|-------|
-| 1 | [[MetodologÃ­a - ExplotaciÃ³n Linux\|ExplotaciÃ³n Linux]] | MÃ¡quinas Linux standalone | Recon â†’ Enum â†’ Explot â†’ Escalar |
-| 2 | [[MetodologÃ­a - ExplotaciÃ³n Windows\|ExplotaciÃ³n Windows]] | MÃ¡quinas Windows standalone | Recon â†’ Enum â†’ Explot â†’ Escalar â†’ PSExec |
-| 3 | [[Metodologia - Aplicaciones Web\|Aplicaciones Web]] | Auditar y explotar webapps | Recon â†’ Enum â†’ Fuzz â†’ SQLi/XSS/SSRF |
-| 4 | [[MetodologÃ­a - Active Directory\|Active Directory]] | Entornos AD corporativos | Enum â†’ Kerberoast â†’ DCSync â†’ Golden Ticket |
+| 1 | [[MetodologÃ­a - ExplotaciÃ³n Linux|ExplotaciÃ³n Linux]] | MÃ¡quinas Linux standalone | Recon â†’ Enum â†’ Explot â†’ Escalar |
+| 2 | [[MetodologÃ­a - ExplotaciÃ³n Windows|ExplotaciÃ³n Windows]] | MÃ¡quinas Windows standalone | Recon â†’ Enum â†’ Explot â†’ Escalar â†’ PSExec |
+| 3 | [[Metodologia - Aplicaciones Web|Aplicaciones Web]] | Auditar y explotar webapps | Recon â†’ Enum â†’ Fuzz â†’ SQLi/XSS/SSRF |
+| 4 | [[MetodologÃ­a - Active Directory|Active Directory]] | Entornos AD corporativos | Enum â†’ Kerberoast â†’ DCSync â†’ Golden Ticket |
 
 â†’
 

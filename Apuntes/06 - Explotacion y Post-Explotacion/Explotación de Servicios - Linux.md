@@ -183,8 +183,8 @@ select * from users;
 |----------|---------------|
 | `;` | Ejecuta siempre ambos |
 | `&&` | Ejecuta segundo si primero tiene éxito |
-| `\|` | Pipe: stdout → stdin |
-| `\|\|` | Ejecuta segundo si primero falla |
+| `|` | Pipe: stdout → stdin |
+| `||` | Ejecuta segundo si primero falla |
 
 ---
 

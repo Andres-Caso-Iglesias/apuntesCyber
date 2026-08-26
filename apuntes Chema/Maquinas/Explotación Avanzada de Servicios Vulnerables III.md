@@ -339,7 +339,7 @@ En DVWA (Damn Vulnerable Web App), la sección "Command Execution" permite envia
 |127.0.0.1 && cat /etc/passwd|
 ||
 |# Inyección con pipe:|
-|127.0.0.1 \| id|
+|127.0.0.1 | id|
 ||
 |# Si el resultado aparece en la web → RCE confirmado|
 |# Siguiente paso: reverse shell, crear usuario, leer /etc/shadow...|
@@ -393,7 +393,7 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 |5432 — PostgreSQL|Fuerza bruta Metasploit → postgres:postgres → exploit → shell usuario postgres|
 |8180 — Apache Tomcat|Recon auxiliar → fuerza bruta → tomcat:tomcat → upload WAR → shell usuario tomcat55|
 |3306 — MySQL|robots.txt → config.inc.php → root sin contraseña → acceso a bases de datos|
-|80 — HTTP (DVWA)|Command Injection con ; && \| → ejecución de comandos en el servidor|
+|80 — HTTP (DVWA)|Command Injection con ; && | → ejecución de comandos en el servidor|
 |80 — HTTP (DVWA)|SQL Injection con comilla → error MySQL → extracción de datos|
 
 # ⑪ Preguntas de laboratorio

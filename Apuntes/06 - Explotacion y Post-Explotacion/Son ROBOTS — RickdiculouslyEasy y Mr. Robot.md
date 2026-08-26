@@ -1,4 +1,4 @@
-﻿
+
 
 > [!info] Relacionado con
 > [[PrÃ¡cticas CTF - HTB y VulnHub]] Â· [[ExplotaciÃ³n de Servicios - Linux]] Â· [[Escalada de Privilegios]] Â· [[Reverse Shells y Post-ExplotaciÃ³n]] Â· [[Burp Suite - Framework de AuditorÃ­a]]
@@ -324,7 +324,7 @@ Los permisos se leen en tres bloques â€” **propietario, grupo y otros** â�
 | **find (SUID)** | Buscar binarios privilegiados | `find / -perm -4000 2>/dev/null` |
 | **strings / exiftool** | Inspeccionar ficheros e imÃ¡genes | `strings img.jpg` Â· `exiftool img.jpg` |
 | **hydra** | Fuerza bruta de credenciales | `hydra -l user -P dic.txt ssh://<ip>:22222` |
-| **sort \| uniq** | Sanitizar diccionarios | `sort dic \| uniq > dic_clean` |
+| **sort | uniq** | Sanitizar diccionarios | `sort dic | uniq > dic_clean` |
 | **Burp Suite + FoxyProxy** | AuditorÃ­a web (proxy/repeater/intruder) | EnumeraciÃ³n por longitud de respuesta |
 
 ---

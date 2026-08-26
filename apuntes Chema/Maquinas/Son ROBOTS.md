@@ -214,8 +214,8 @@ El fsocity.dic tiene ~858.000 lÃ­neas, muchas repetidas. Antes de una fuerza b
 
 | |
 |---|
-|**Limpieza con sort \| uniq**|
-|wc -l fsocity.dicÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  # ~858.000 lineas<br><br>sort fsocity.dic \| uniq > fsocity_clean.dic<br><br>wc -l fsocity_clean.dicÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  # ~11.452 lineas unicas|
+|**Limpieza con sort | uniq**|
+|wc -l fsocity.dicÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  # ~858.000 lineas<br><br>sort fsocity.dic | uniq > fsocity_clean.dic<br><br>wc -l fsocity_clean.dicÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  # ~11.452 lineas unicas|
 |**âœ“Â  Por quÃ© importa**<br><br>Pasar de 858.000 a 11.452 lÃ­neas (~80 veces menos) reduce drÃ¡sticamente el tiempo de la fuerza bruta. Sanitizar siempre los diccionarios que saquemos de una mÃ¡quina es una buena prÃ¡ctica.|
 
 ## 4. WordPress + information disclosure
@@ -273,7 +273,7 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 |find (SUID)|Buscar binarios privilegiados|find / -perm -4000 2>/dev/null|
 |strings / exiftool|Inspeccionar ficheros e imÃ¡genes|strings img.jpg Â· exiftool img.jpg|
 |hydra|Fuerza bruta de credenciales|hydra -l user -P dic.txt ssh://<ip>:22222|
-|sort \| uniq|Sanitizar diccionarios|sort dic \| uniq > dic_clean|
+|sort | uniq|Sanitizar diccionarios|sort dic | uniq > dic_clean|
 |Burp Suite + FoxyProxy|AuditorÃ­a web (proxy/repeater/intruder)|EnumeraciÃ³n por longitud de respuesta|
 
 # Pendiente para la prÃ³xima clase

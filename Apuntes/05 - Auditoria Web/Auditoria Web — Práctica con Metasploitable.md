@@ -181,8 +181,8 @@ En el directorio `cgi-bin` hay una página que implementa un traceroute: el usua
 |----------|----------------------|------------------------|
 | `;` | Ejecuta siempre ambos comandos | El más común. Funciona aunque el primer comando falle. |
 | `&&` | Ejecuta el segundo solo si el primero tiene éxito | Útil cuando el primer comando debe completarse. |
-| `\|` | Pipe: stdout del primero → stdin del segundo | Para filtrar o procesar la salida. |
-| `\|\|` | Ejecuta el segundo solo si el primero falla | Útil para bypass de validaciones. |
+| `|` | Pipe: stdout del primero → stdin del segundo | Para filtrar o procesar la salida. |
+| `||` | Ejecuta el segundo solo si el primero falla | Útil para bypass de validaciones. |
 
 > [!info] La solución al Command Injection
 > Misma que para SQL Injection: validación estricta del input. Si esperas una IP, valida que el campo contenga exactamente 4 grupos numéricos separados por puntos y rechaza cualquier otro carácter.

@@ -160,7 +160,7 @@ netsh advfirewall show allprofiles
 
 | Vector | Herramienta |
 |--------|-------------|
-| Token impersonation | [[Metasploit#Meterpreter — Sistema\|getsystem]] |
+| Token impersonation | [[Metasploit#Meterpreter — Sistema|getsystem]] |
 | Service abuse | sc config, sc start |
 | AlwaysInstallElevated | MSI installer |
 | Unquoted service path | Buscar rutas sin comillas |

@@ -184,7 +184,7 @@ Antes de explotar, hay que Â«conocerÂ» la aplicaciÃ³n. El **WAF es el port
 
 | SeÃ±al encontrada en la web | Vulnerabilidad potencial a investigar |
 |---------------------------|--------------------------------------|
-| Buscador / campo de bÃºsqueda | [[OWASP Top 10 - CVE CVSS CWE\|SQL Injection]] (interactÃºa con BD) |
+| Buscador / campo de bÃºsqueda | [[OWASP Top 10 - CVE CVSS CWE|SQL Injection]] (interactÃºa con BD) |
 | Formulario de registro o de contacto | SQL Injection (comunicaciÃ³n con el backend) |
 | Blog / foro / comentarios | Cross-Site Scripting (XSS) |
 | Directorio `/uploads` o de subida de ficheros | Subida de ficheros â†’ posible ejecuciÃ³n (webshell) |
@@ -339,9 +339,9 @@ nc -lvnp 4440
 | **Gobuster / dirb / [[Feroxbuster]]** | Listar directorios | Enum. web | Practicada | Unas con recursivo, otras no |
 | **x8** | Enumerar parÃ¡metros ocultos | Enum. web | Mencionada | Nueva en el registro |
 | **Wappalyzer** | Fingerprint de tecnologÃ­as | Enum. web | Introducida | Detecta Apache/PHP/CMS |
-| **[[WordPress - AuditorÃ­a con WPScan\|WPScan]]** / droopescan | AuditorÃ­a de CMS | Enum. web | Introducida | WP y Drupal respectivamente |
+| **[[WordPress - AuditorÃ­a con WPScan|WPScan]]** / droopescan | AuditorÃ­a de CMS | Enum. web | Introducida | WP y Drupal respectivamente |
 | **NetExec** | Spraying/auth en AD | Enum./Acceso | Introducida | ~1 req / 0,5 s |
-| **[[Burp Suite - Framework de AuditorÃ­a\|Burp Suite]]** | Interceptar/saltar front | ExplotaciÃ³n | Practicada | Saltar validaciones de front |
+| **[[Burp Suite - Framework de AuditorÃ­a|Burp Suite]]** | Interceptar/saltar front | ExplotaciÃ³n | Practicada | Saltar validaciones de front |
 | **revshells.com** | Generar reverse shells | ExplotaciÃ³n | Practicada | Bash/nc/Python/PHP/perl |
 | **Netcat (nc)** | Listener / conexiones | ExplotaciÃ³n | Practicada | Recibir la reverse shell |
 | **Python http.server** | Servir/transferir ficheros | Post-explotaciÃ³n | Introducida | Combinado con wget |

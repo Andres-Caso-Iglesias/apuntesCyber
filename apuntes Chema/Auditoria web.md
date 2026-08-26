@@ -178,8 +178,8 @@ En el directorio cgi-bin hay una página que implementa un traceroute: el usuari
 |**Operador**|**Comportamiento en bash**|**Uso en Command Injection**|
 |;|Ejecuta siempre ambos comandos|El más común. Funciona aunque el primer comando falle.|
 |&&|Ejecuta el segundo solo si el primero tiene éxito|Útil cuando el primer comando debe completarse.|
-|\||Ejecuta el segundo solo si el primero falla|Útil para bypass de validaciones.|
-|\||Pipe: stdout del primero → stdin del segundo|Para filtrar o procesar la salida.|
+|||Ejecuta el segundo solo si el primero falla|Útil para bypass de validaciones.|
+|||Pipe: stdout del primero → stdin del segundo|Para filtrar o procesar la salida.|
 
 | |
 |---|

@@ -9,8 +9,8 @@ La redirección controla a dónde van la entrada y salida de los comandos. Funda
 |<|Usar fichero como stdin|sort < lista.txt|
 |2>|Redirigir stderr (errores)|find / -name x 2> /dev/null|
 |2>&1|Mezclar stderr con stdout|cmd > todo.txt 2>&1|
-|\||Pipe: stdout → stdin del siguiente|cat /etc/passwd \| grep bash|
-|\||OR lógico: ejecutar si el anterior falla|cmd1 \| cmd2|
+|||Pipe: stdout → stdin del siguiente|cat /etc/passwd | grep bash|
+|||OR lógico: ejecutar si el anterior falla|cmd1 | cmd2|
 |&&|AND lógico: ejecutar si el anterior tuvo éxito|apt update && apt upgrade|
 |;|Ejecutar en secuencia independiente|cmd1; cmd2; cmd3|
 
@@ -22,13 +22,13 @@ La redirección controla a dónde van la entrada y salida de los comandos. Funda
 
 | |
 |---|
-|# AND (&&) — ejecutar solo si el anterior tiene éxito:<br><br>mkdir proyecto && cd proyecto && touch README.md<br><br>nmap -sV 192.168.1.1 && echo 'Scan completado'<br><br># OR (\|) — ejecutar solo si el anterior falla:<br><br>ping -c1 8.8.8.8 \| echo 'Sin conectividad'<br><br>cat fichero.txt \| echo 'Fichero no existe'<br><br># Punto y coma (;) — siempre ejecuta ambos:<br><br>echo 'inicio'; whoami; id; uname -a<br><br># Encadenamiento típico en pentesting:<br><br>nmap -p- IP 2>/dev/null \| grep open \| tee puertos.txt && echo 'Done'|
+|# AND (&&) — ejecutar solo si el anterior tiene éxito:<br><br>mkdir proyecto && cd proyecto && touch README.md<br><br>nmap -sV 192.168.1.1 && echo 'Scan completado'<br><br># OR (|) — ejecutar solo si el anterior falla:<br><br>ping -c1 8.8.8.8 | echo 'Sin conectividad'<br><br>cat fichero.txt | echo 'Fichero no existe'<br><br># Punto y coma (;) — siempre ejecuta ambos:<br><br>echo 'inicio'; whoami; id; uname -a<br><br># Encadenamiento típico en pentesting:<br><br>nmap -p- IP 2>/dev/null | grep open | tee puertos.txt && echo 'Done'|
 
 # ③ grep — Búsqueda de patrones
 
 | |
 |---|
-|grep 'patrón' fichero.txt          # búsqueda básica<br><br>grep -i 'patrón' fichero.txt       # ignorar mayúsculas<br><br>grep -r 'patrón' /directorio/      # recursivo<br><br>grep -v 'patrón' fichero.txt       # líneas que NO contienen<br><br>grep -n 'patrón' fichero.txt       # mostrar número de línea<br><br>grep -c 'patrón' fichero.txt       # contar coincidencias<br><br>grep -o 'patrón' fichero.txt       # mostrar solo la parte que coincide<br><br>grep -E 'pat1\|pat2' fichero.txt    # regex extendida (OR)<br><br>grep -A3 'patrón' fichero.txt      # 3 líneas después de la coincidencia<br><br>grep -B3 'patrón' fichero.txt      # 3 líneas antes<br><br># Ejemplos en pentesting:<br><br>grep 'open' nmap_result.txt        # filtrar puertos abiertos<br><br>grep -r 'password' /var/www/       # buscar passwords en código fuente<br><br>cat /etc/passwd \| grep '/bin/bash' # usuarios con bash|
+|grep 'patrón' fichero.txt          # búsqueda básica<br><br>grep -i 'patrón' fichero.txt       # ignorar mayúsculas<br><br>grep -r 'patrón' /directorio/      # recursivo<br><br>grep -v 'patrón' fichero.txt       # líneas que NO contienen<br><br>grep -n 'patrón' fichero.txt       # mostrar número de línea<br><br>grep -c 'patrón' fichero.txt       # contar coincidencias<br><br>grep -o 'patrón' fichero.txt       # mostrar solo la parte que coincide<br><br>grep -E 'pat1|pat2' fichero.txt    # regex extendida (OR)<br><br>grep -A3 'patrón' fichero.txt      # 3 líneas después de la coincidencia<br><br>grep -B3 'patrón' fichero.txt      # 3 líneas antes<br><br># Ejemplos en pentesting:<br><br>grep 'open' nmap_result.txt        # filtrar puertos abiertos<br><br>grep -r 'password' /var/www/       # buscar passwords en código fuente<br><br>cat /etc/passwd | grep '/bin/bash' # usuarios con bash|
 
 # ④ find — Búsqueda de ficheros
 
@@ -44,7 +44,7 @@ La redirección controla a dónde van la entrada y salida de los comandos. Funda
 
 | |
 |---|
-|# sort — ordenar líneas:<br><br>sort fichero.txt                   # orden alfabético<br><br>sort -n fichero.txt                # orden numérico<br><br>sort -r fichero.txt                # orden inverso<br><br>sort -k2 fichero.txt               # ordenar por columna 2<br><br>sort -u fichero.txt                # eliminar duplicados al ordenar<br><br># uniq — eliminar duplicados (requiere input ordenado):<br><br>sort passwords.txt \| uniq<br><br>sort passwords.txt \| uniq -c       # contar repeticiones<br><br># cut — extraer columnas:<br><br>cut -d: -f1 /etc/passwd            # primer campo del /etc/passwd<br><br>cut -d',' -f2,4 datos.csv          # columnas 2 y 4 de CSV<br><br># awk — procesado más potente:<br><br>awk '{print $1}' fichero.txt       # primera columna<br><br>awk -F: '{print $1,$3}' /etc/passwd# usuario y UID<br><br># wc — contar:<br><br>wc -l fichero.txt                  # contar líneas<br><br>wc -w fichero.txt                  # contar palabras|
+|# sort — ordenar líneas:<br><br>sort fichero.txt                   # orden alfabético<br><br>sort -n fichero.txt                # orden numérico<br><br>sort -r fichero.txt                # orden inverso<br><br>sort -k2 fichero.txt               # ordenar por columna 2<br><br>sort -u fichero.txt                # eliminar duplicados al ordenar<br><br># uniq — eliminar duplicados (requiere input ordenado):<br><br>sort passwords.txt | uniq<br><br>sort passwords.txt | uniq -c       # contar repeticiones<br><br># cut — extraer columnas:<br><br>cut -d: -f1 /etc/passwd            # primer campo del /etc/passwd<br><br>cut -d',' -f2,4 datos.csv          # columnas 2 y 4 de CSV<br><br># awk — procesado más potente:<br><br>awk '{print $1}' fichero.txt       # primera columna<br><br>awk -F: '{print $1,$3}' /etc/passwd# usuario y UID<br><br># wc — contar:<br><br>wc -l fichero.txt                  # contar líneas<br><br>wc -w fichero.txt                  # contar palabras|
 
 # ⑥ echo y creación de ficheros
 

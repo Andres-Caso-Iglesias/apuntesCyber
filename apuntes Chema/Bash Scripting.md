@@ -14,7 +14,7 @@ Un script es un fichero de texto con comandos Bash que se ejecutan secuencialmen
 
 | |
 |---|
-|#!/bin/bash<br><br># Asignar variables (sin espacios alrededor del =):<br><br>nombre='Kali'<br><br>ip='192.168.1.1'<br><br>contador=0<br><br># Usar variables (con $):<br><br>echo "Hola $nombre"<br><br>echo "Escaneando: $ip"<br><br># Variables especiales:<br><br>$0    # nombre del script<br><br>$1    # primer argumento<br><br>$2    # segundo argumento<br><br>$#    # número de argumentos<br><br>$@    # todos los argumentos<br><br>$?    # código de retorno del último comando (0=éxito)<br><br>$$    # PID del script actual<br><br># Capturar salida de un comando:<br><br>fecha=$(date)<br><br>usuarios=$(cat /etc/passwd \| grep bash \| cut -d: -f1)<br><br>echo "Fecha: $fecha"|
+|#!/bin/bash<br><br># Asignar variables (sin espacios alrededor del =):<br><br>nombre='Kali'<br><br>ip='192.168.1.1'<br><br>contador=0<br><br># Usar variables (con $):<br><br>echo "Hola $nombre"<br><br>echo "Escaneando: $ip"<br><br># Variables especiales:<br><br>$0    # nombre del script<br><br>$1    # primer argumento<br><br>$2    # segundo argumento<br><br>$#    # número de argumentos<br><br>$@    # todos los argumentos<br><br>$?    # código de retorno del último comando (0=éxito)<br><br>$$    # PID del script actual<br><br># Capturar salida de un comando:<br><br>fecha=$(date)<br><br>usuarios=$(cat /etc/passwd | grep bash | cut -d: -f1)<br><br>echo "Fecha: $fecha"|
 
 | | |
 |---|---|

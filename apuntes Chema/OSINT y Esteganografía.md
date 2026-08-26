@@ -65,7 +65,7 @@ La esteganografía oculta información **dentro** de otro fichero (imagen, audio
 
 | |
 |---|
-|# strings extrae cadenas de texto legibles de cualquier fichero binario<br><br>strings imagen.jpg<br><br>strings ejecutable.exe \| grep -i password<br><br>strings firmware.bin \| grep -E 'http\|ftp\|admin'<br><br># Filtrar solo strings relevantes:<br><br>strings fichero \| grep -i 'pass\\|user\\|key\\|secret\\|token'<br><br># En CTFs, buscar flags:<br><br>strings fichero \| grep 'CTF{\\|FLAG{'<br><br># Combinado con file para identificar primero el tipo:<br><br>file imagen.jpg      # verifica si es realmente una imagen<br><br>xxd imagen.jpg \| head -20  # ver bytes en hex (magic bytes)|
+|# strings extrae cadenas de texto legibles de cualquier fichero binario<br><br>strings imagen.jpg<br><br>strings ejecutable.exe | grep -i password<br><br>strings firmware.bin | grep -E 'http|ftp|admin'<br><br># Filtrar solo strings relevantes:<br><br>strings fichero | grep -i 'pass|user|key|secret|token'<br><br># En CTFs, buscar flags:<br><br>strings fichero | grep 'CTF{|FLAG{'<br><br># Combinado con file para identificar primero el tipo:<br><br>file imagen.jpg      # verifica si es realmente una imagen<br><br>xxd imagen.jpg | head -20  # ver bytes en hex (magic bytes)|
 
 # ⑦ Shodan para OSINT de cámaras e IoT
 

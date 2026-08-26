@@ -279,8 +279,8 @@ hashcat -m 500 hashes.txt --show
 
 | Herramienta | Ventaja | Cuándo usarla |
 |-------------|---------|---------------|
-| **[[John_Hashcat\|John]]** | Más sencillo, detecta formato automáticamente | Hashes rápidos, uso general |
-| **[[John_Hashcat\|Hashcat]]** | Más rápido (GPU), más modos, reglas avanzadas | Hashes difíciles, entornos reales |
+| **[[John_Hashcat|John]]** | Más sencillo, detecta formato automáticamente | Hashes rápidos, uso general |
+| **[[John_Hashcat|Hashcat]]** | Más rápido (GPU), más modos, reglas avanzadas | Hashes difíciles, entornos reales |
 
 > [!tip] PRÁCTICA
 > Contraseñas rotas en esta sesión: `sys → batman` · `klog → 123456789` · `service → service`.

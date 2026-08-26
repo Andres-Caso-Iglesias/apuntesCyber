@@ -94,8 +94,8 @@ hashcat -m 500 hashes.txt --show
 
 | Herramienta | Cuándo usar |
 |-------------|------------|
-| **[[John_Hashcat\|John]]** | Más sencillo, detecta formato automáticamente. Labs. |
-| **[[John_Hashcat\|Hashcat]]** | Usa GPU → mucho más rápido. Entornos reales. |
+| **[[John_Hashcat|John]]** | Más sencillo, detecta formato automáticamente. Labs. |
+| **[[John_Hashcat|Hashcat]]** | Usa GPU → mucho más rápido. Entornos reales. |
 
 > [!tip] PRÁCTICA
 > Contraseñas rotas en esta sesión: `sys → batman` · `klog → 123456789` · `service → service`.
@@ -317,7 +317,7 @@ feroxbuster --url http://<IP>/ --status-codes 200
 
 | Herramienta | Diferencia principal |
 |-------------|---------------------|
-| [[FFUF\|ffuf]] | Rápido, muy flexible, no recursivo por defecto. Ideal para un nivel. |
+| [[FFUF|ffuf]] | Rápido, muy flexible, no recursivo por defecto. Ideal para un nivel. |
 | **[[Feroxbuster]]** | Recursivo de forma nativa. Encuentra sub-subdirectorios automáticamente. |
 | dirb | Legacy. Más lento. Útil con diccionarios pequeños. |
 
@@ -352,8 +352,8 @@ En DVWA (Damn Vulnerable Web App), la sección "Command Execution" permite envia
 |-----------|---------------|
 | `;` | Ejecuta siempre ambos |
 | `&&` | Ejecuta segundo si primero tiene éxito |
-| `\|` | Pipe: stdout → stdin |
-| `\|\|` | Ejecuta segundo si primero falla |
+| `|` | Pipe: stdout → stdin |
+| `||` | Ejecuta segundo si primero falla |
 
 ### Command Execution vs RCE
 
@@ -406,7 +406,7 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 | 5432 — PostgreSQL | Fuerza bruta Metasploit → `postgres:postgres` → exploit → shell usuario postgres |
 | 8180 — Apache Tomcat | Recon auxiliar → fuerza bruta → `tomcat:tomcat` → upload WAR → shell usuario tomcat55 |
 | 3306 — MySQL | `robots.txt` → `config.inc.php` → root sin contraseña → acceso a bases de datos |
-| 80 — HTTP (DVWA) | Command Injection con `; && \|` → ejecución de comandos en el servidor |
+| 80 — HTTP (DVWA) | Command Injection con `; && |` → ejecución de comandos en el servidor |
 | 80 — HTTP (DVWA) | SQL Injection con comilla → error MySQL → extracción de datos |
 
 ---

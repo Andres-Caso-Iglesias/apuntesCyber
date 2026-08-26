@@ -61,11 +61,11 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 
 | |
 |---|
-|comando > fichero.txt   # redirigir stdout a fichero (sobreescribe)<br><br>comando >> fichero.txt  # redirigir stdout añadiendo al final<br><br>comando 2> errores.txt  # redirigir stderr<br><br>comando 2>/dev/null     # descartar errores<br><br>comando < entrada.txt   # usar fichero como stdin<br><br>cmd1 \| cmd2             # pipe: stdout de cmd1 → stdin de cmd2<br><br># Ejemplos prácticos:<br><br>nmap -sV 192.168.1.1 \| grep open > puertos_abiertos.txt<br><br>cat /etc/passwd \| grep bash<br><br>ls -la \| sort -k5 -n    # ordenar por tamaño|
+|comando > fichero.txt   # redirigir stdout a fichero (sobreescribe)<br><br>comando >> fichero.txt  # redirigir stdout añadiendo al final<br><br>comando 2> errores.txt  # redirigir stderr<br><br>comando 2>/dev/null     # descartar errores<br><br>comando < entrada.txt   # usar fichero como stdin<br><br>cmd1 | cmd2             # pipe: stdout de cmd1 → stdin de cmd2<br><br># Ejemplos prácticos:<br><br>nmap -sV 192.168.1.1 | grep open > puertos_abiertos.txt<br><br>cat /etc/passwd | grep bash<br><br>ls -la | sort -k5 -n    # ordenar por tamaño|
 
 | | |
 |---|---|
-|**💡 PIPE**|El pipe \| es la herramienta más potente de la terminal. Encadena comandos sin ficheros intermedios. Fundamental en bash scripting.|
+|**💡 PIPE**|El pipe | es la herramienta más potente de la terminal. Encadena comandos sin ficheros intermedios. Fundamental en bash scripting.|
 
 # ⑥ Búsqueda: grep, find y which
 
@@ -77,7 +77,7 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 
 | |
 |---|
-|ps aux                 # listar todos los procesos<br><br>ps aux \| grep nginx    # buscar proceso concreto<br><br>top                    # monitor de procesos en tiempo real<br><br>htop                   # monitor visual (más cómodo)<br><br>kill -9 PID            # matar proceso por ID<br><br>killall nombre         # matar todos los procesos con ese nombre<br><br>jobs                   # listar procesos en background de esta sesión<br><br>comando &              # lanzar proceso en background<br><br>fg                     # traer último proceso background al frente|
+|ps aux                 # listar todos los procesos<br><br>ps aux | grep nginx    # buscar proceso concreto<br><br>top                    # monitor de procesos en tiempo real<br><br>htop                   # monitor visual (más cómodo)<br><br>kill -9 PID            # matar proceso por ID<br><br>killall nombre         # matar todos los procesos con ese nombre<br><br>jobs                   # listar procesos en background de esta sesión<br><br>comando &              # lanzar proceso en background<br><br>fg                     # traer último proceso background al frente|
 
 | | |
 |---|---|
@@ -93,7 +93,7 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 
 | |
 |---|
-|history                # ver historial de comandos<br><br>history \| grep nmap    # buscar en el historial<br><br>!42                    # re-ejecutar el comando número 42<br><br>!!                     # re-ejecutar el último comando<br><br>Ctrl+R                 # búsqueda reversa en el historial<br><br># Limpiar rastros:<br><br>history -c             # limpiar historial en memoria<br><br>cat /dev/null > ~/.bash_history   # vaciar fichero de historial<br><br>export HISTFILE=/dev/null         # deshabilitar historial en esta sesión|
+|history                # ver historial de comandos<br><br>history | grep nmap    # buscar en el historial<br><br>!42                    # re-ejecutar el comando número 42<br><br>!!                     # re-ejecutar el último comando<br><br>Ctrl+R                 # búsqueda reversa en el historial<br><br># Limpiar rastros:<br><br>history -c             # limpiar historial en memoria<br><br>cat /dev/null > ~/.bash_history   # vaciar fichero de historial<br><br>export HISTFILE=/dev/null         # deshabilitar historial en esta sesión|
 
 | | |
 |---|---|
