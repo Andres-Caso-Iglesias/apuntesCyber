@@ -406,4 +406,3 @@ ssh-keygen -t ed25519
 # Copiar clave
 ssh-copy-id user@host
 ```
-

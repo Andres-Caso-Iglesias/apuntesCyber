@@ -419,5 +419,3 @@ run post/windows/manage/persistence_exe
 - [ ] Meterpreter: sysinfo, getuid, hashdump
 - [ ] Pivoting con autoroute y portfwd
 - [ ] Post-explotación con módulos post/
-
-

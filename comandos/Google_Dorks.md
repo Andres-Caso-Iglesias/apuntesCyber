@@ -111,4 +111,3 @@ site:ejemplo.com intext:"PHP Error"
 - [ ] Dorks de seguridad practicados
 - [ ] Combinaciones de operadores dominadas
 - [ ] Ética de uso recordada
-

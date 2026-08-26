@@ -61,4 +61,3 @@
 - [ ] Herramienta según objetivo identificada
 - [ ] Flujo de pentest comprendido
 - [ ] Wiki-links funcionando
-

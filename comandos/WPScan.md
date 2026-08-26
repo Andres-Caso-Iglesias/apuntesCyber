@@ -181,4 +181,3 @@ wpscan --url http://target --cookie-string "session=abc"
 - [ ] Usuarios enumerados
 - [ ] Brute force intentado
 - [ ] XML-RPC verificado
-
