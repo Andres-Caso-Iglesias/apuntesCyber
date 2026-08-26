@@ -1,4 +1,4 @@
-﻿# Índice de Comandos — Cheat Sheets
+# Índice de Comandos — Cheat Sheets
 
 > [!info] Propósito
 > Referencia rápida de todas las herramientas disponibles. Elegí la herramienta según lo que necesités hacer.

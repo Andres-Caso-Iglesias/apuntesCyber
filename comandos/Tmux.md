@@ -1,4 +1,4 @@
-﻿# Tmux — Terminal Multiplexer
+# Tmux — Terminal Multiplexer
 
 > [!info] Herramienta
 > Multiplexor de terminales: sesiones persistentes, paneles, ventanas y copy mode.

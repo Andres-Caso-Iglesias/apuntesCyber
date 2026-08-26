@@ -1,4 +1,4 @@
-﻿| **Campo** | **Detalle** |
+| **Campo** | **Detalle** |
 | ------------- | -------------------------------------------------------------------- |
 | SesiÃ³n | Vulnerabilidades Web â€” OWASP Top 10 2025 + IntroducciÃ³n a Burp Suite |
 

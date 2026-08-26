@@ -1,4 +1,4 @@
-﻿# SMB / Impacket — Enumeración y Explotación Windows
+# SMB / Impacket — Enumeración y Explotación Windows
 
 > [!info] Herramientas
 > SMB para compartir archivos en red. Impacket para explotación de servicios Windows (PSExec, WMIExec, SecretsDump).

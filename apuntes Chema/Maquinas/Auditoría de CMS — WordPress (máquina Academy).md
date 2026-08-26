@@ -1,4 +1,4 @@
-﻿# **Contexto de la sesiÃ³n**
+# **Contexto de la sesiÃ³n**
 
 La sesiÃ³n continÃºa el bloque de **auditorÃ­a web**. Tras haber visto en clases anteriores el **OWASP Top 10** y **Burp Suite**, se aplica ahora la metodologÃ­a a un tipo concreto de aplicaciÃ³n: los **CMS** (gestores de contenidos), usando **WordPress** como caso prÃ¡ctico sobre la mÃ¡quina **Academy** de TheHackerLabs.
 

@@ -1,4 +1,4 @@
-﻿# Burp Suite — Testing Web
+# Burp Suite — Testing Web
 
 > [!info] Herramienta
 > Suite de testing de seguridad web. Proxy interceptivo, scanner de vulnerabilidades, fuzzing y más. La herramienta estándar para pentesting web.

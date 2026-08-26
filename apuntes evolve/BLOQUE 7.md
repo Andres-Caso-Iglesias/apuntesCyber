@@ -1,4 +1,4 @@
-﻿> [!info] Ficha tÃ©cnica
+> [!info] Ficha tÃ©cnica
 > **Programa:** MÃ¡ster en Ciberseguridad â€” Evolve Academy
 > **Bloque:** 07 â€” Pivoting y movilidad lateral
 > **Contenido:** TÃºneles SSH (local/remote/dynamic), ProxyChains, socat, port forwarding con RDP

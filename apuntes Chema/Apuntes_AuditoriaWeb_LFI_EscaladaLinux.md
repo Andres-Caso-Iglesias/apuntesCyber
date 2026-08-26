@@ -1,10 +1,10 @@
-| **Campo** | **Detalle** |
-| --- | --- |
-| Sesión | Auditoría web y escalada de privilegios en Linux |
-| Instructor | Carlos Gómez Pintado |
-| Fecha | 08/07/2026 |
-| Bloque | Repaso práctico de auditoría web + adelanto de escalada Linux |
-| Tipo de clase | Práctica end-to-end sobre máquina real (TheHackerLabs) |
+| **Campo**     | **Detalle**                                                   |
+| ------------- | ------------------------------------------------------------- |
+| Sesión        | Auditoría web y escalada de privilegios en Linux              |
+| Instructor    | Carlos Gómez Pintado                                          |
+| Fecha         | 08/07/2026                                                    |
+| Bloque        | Repaso práctico de auditoría web + adelanto de escalada Linux |
+| Tipo de clase | Práctica end-to-end sobre máquina real (TheHackerLabs)        |
 
 | |
 |---|

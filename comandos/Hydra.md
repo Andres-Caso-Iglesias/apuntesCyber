@@ -1,4 +1,4 @@
-﻿# Hydra — Fuerza Bruta de Credenciales
+# Hydra — Fuerza Bruta de Credenciales
 
 > [!info] Herramienta
 > Fuerza bruta de credenciales en múltiples servicios: HTTP, SSH, FTP, SMB, RDP, MySQL, etc.

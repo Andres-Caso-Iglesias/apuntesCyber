@@ -1,4 +1,4 @@
-﻿> [!info] Ficha tÃ©cnica
+> [!info] Ficha tÃ©cnica
 > **Programa:** MÃ¡ster en Ciberseguridad â€” Evolve Academy
 > **Bloque:** 13 â€” IA en Ciberseguridad
 > **Contenido:** Machine Learning y Deep Learning aplicados a detecciÃ³n, LLMs en el SOC, IA ofensiva â€” con ejemplos de cÃ³digo

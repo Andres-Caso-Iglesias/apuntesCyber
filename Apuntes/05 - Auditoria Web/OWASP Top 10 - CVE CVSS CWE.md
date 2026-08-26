@@ -1,4 +1,4 @@
-﻿
+
 
 > [!info] Relacionado con
 > [[Burp Suite - Framework de AuditorÃ­a]] Â· [[Apuntes/05 - Auditoria Web/EnumeraciÃ³n Web]] Â· [[MetodologÃ­a de ExplotaciÃ³n]] Â· [[Normativa - ISO 27001, GDPR, ENS]]

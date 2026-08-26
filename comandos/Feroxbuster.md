@@ -1,4 +1,4 @@
-﻿# Feroxbuster — Fuzzing Directorios
+# Feroxbuster — Fuzzing Directorios
 
 > [!info] Herramienta
 > Fuzzing de directorios y archivos ocultos en servidores web. Escrit en Rust, rápido y con recursión.

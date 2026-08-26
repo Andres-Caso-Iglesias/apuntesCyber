@@ -1,4 +1,4 @@
-﻿> [!info] Ficha tÃ©cnica
+> [!info] Ficha tÃ©cnica
 > **Programa:** MÃ¡ster en Ciberseguridad â€” Evolve Academy
 > **Bloque:** 15 â€” Examen eJPTv2
 > **Contenido:** QuÃ© evalÃºa el examen, cÃ³mo estudiarlo, cÃ³mo practicar en laboratorios reales, metodologÃ­a de examen y errores frecuentes

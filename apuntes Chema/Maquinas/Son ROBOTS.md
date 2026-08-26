@@ -1,4 +1,4 @@
-﻿# Resumen de la sesiÃ³n
+# Resumen de la sesiÃ³n
 
 SesiÃ³n de tipo Â«repaso dinÃ¡micoÂ» centrada en la **auditorÃ­a interna**: una vez se ha conseguido un primer acceso a la mÃ¡quina, Â¿cÃ³mo nos movemos por dentro hasta ser administradores? Se trabajaron dos mÃ¡quinas tipo CTF:
 

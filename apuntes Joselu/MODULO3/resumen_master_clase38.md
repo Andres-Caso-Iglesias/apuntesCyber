@@ -1,4 +1,4 @@
-﻿> [!info] Ficha tÃ©cnica
+> [!info] Ficha tÃ©cnica
 > **MÃ¡ster de Ciberseguridad e Inteligencia Artificial** Â· **Clase 38**
 > **MÃ³dulo:** MODULO3
 > **Tema:** Clase 38

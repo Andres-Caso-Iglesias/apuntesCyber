@@ -1,4 +1,4 @@
-﻿# SQLMap — Automatización de Inyección SQL
+# SQLMap — Automatización de Inyección SQL
 
 > [!info] Herramienta
 > Automatiza la detección y explotación de inyecciones SQL en aplicaciones web.

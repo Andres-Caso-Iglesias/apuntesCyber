@@ -1,4 +1,4 @@
-﻿# **2. Conceptos clave**
+# **2. Conceptos clave**
 
 > â†’
 

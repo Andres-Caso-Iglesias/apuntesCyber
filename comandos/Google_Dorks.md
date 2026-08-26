@@ -1,4 +1,4 @@
-﻿# Google Dorks — Búsquedas Web Avanzadas
+# Google Dorks — Búsquedas Web Avanzadas
 
 > [!info] Herramienta
 > Técnicas de búsqueda avanzada en Google para descubrir información sensible, vulnerabilidades y archivos ocultos.

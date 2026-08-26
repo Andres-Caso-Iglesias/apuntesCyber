@@ -1,4 +1,4 @@
-﻿# Telnet — Testing de Puertos y Protocolos
+# Telnet — Testing de Puertos y Protocolos
 
 > [!info] Herramienta
 > Cliente TCP para testing manual de puertos, debugging de protocolos y testing de conectividad.

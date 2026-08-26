@@ -1,4 +1,4 @@
-﻿# Comandos Windows (CMD y PowerShell)
+# Comandos Windows (CMD y PowerShell)
 
 > [!info] Herramienta
 > Referencia completa de comandos Windows: CMD (clásico) y PowerShell (moderno).

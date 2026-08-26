@@ -1,4 +1,4 @@
-﻿# â‘  Nota sobre Metasploit
+# â‘  Nota sobre Metasploit
 
 > â†’
 

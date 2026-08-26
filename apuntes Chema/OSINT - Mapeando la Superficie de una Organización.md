@@ -1,4 +1,4 @@
-﻿# â‘  Â¿QuÃ© es OSINT y marco legal?
+# â‘  Â¿QuÃ© es OSINT y marco legal?
 
 OSINT (Open Source Intelligence) es la recopilaciÃ³n de informaciÃ³n **desde fuentes pÃºblicas** sin necesitar credenciales ni exploits. Es el primer paso de cualquier auditorÃ­a.
 

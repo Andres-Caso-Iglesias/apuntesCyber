@@ -1,4 +1,4 @@
-﻿
+
 
 > [!info] Relacionado con
 > [[OWASP Top 10 - CVE CVSS CWE]] Â· [[Burp Suite - Framework de AuditorÃ­a]] Â· [[Apuntes/05 - Auditoria Web/EnumeraciÃ³n Web]] Â· [[MetodologÃ­a de ExplotaciÃ³n]]

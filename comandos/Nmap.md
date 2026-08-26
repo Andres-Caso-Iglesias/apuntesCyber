@@ -1,4 +1,4 @@
-﻿# Nmap — Escaneo de Red
+# Nmap — Escaneo de Red
 
 > [!info] Herramienta
 > Network Mapper — escaneo de puertos, descubrimiento de hosts, detección de servicios y OS, scripts NSE.

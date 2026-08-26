@@ -1,4 +1,4 @@
-﻿Bloque
+Bloque
 06
 
 BL OQUE 6 Â· ESC AL AD A DE PRIVILEGIOSEsc alada de privilegiosChecklist completa de comandos para Linux y Windo ws: SUID , cr onjobs, sudo -l, capabilities, t ok ens, JuicyP otat o y 

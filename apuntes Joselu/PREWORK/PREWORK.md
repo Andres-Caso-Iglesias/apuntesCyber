@@ -1,4 +1,4 @@
-﻿> [!info] Ficha tÃ©cnica
+> [!info] Ficha tÃ©cnica
 > **MÃ¡ster de Ciberseguridad e Inteligencia Artificial** Â· **Clase ?**
 > **MÃ³dulo:** PREWORK
 > **Tema:** Prework

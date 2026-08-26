@@ -1,4 +1,4 @@
-﻿# Comandos Linux y Editor vi
+# Comandos Linux y Editor vi
 
 > [!info] Herramienta
 > Referencia completa de comandos Linux: navegación, archivos, permisos, procesos, red, texto, forense y editores.

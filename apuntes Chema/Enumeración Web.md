@@ -1,4 +1,4 @@
-﻿# â‘¡ Conceptos clave
+# â‘¡ Conceptos clave
 
 La **enumeraciÃ³n web** es el proceso de descubrir toda la superficie de una aplicaciÃ³n web: quÃ© tecnologÃ­as usa, quÃ© rutas existen, quÃ© ficheros estÃ¡n expuestos, quÃ© subdominios hay y quÃ© puntos de entrada (inputs) acepta. Es **reconocimiento dirigido**: no se explota nada todavÃ­a, se construye el mapa.
 

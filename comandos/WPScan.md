@@ -1,4 +1,4 @@
-﻿# WPScan — Auditoría WordPress
+# WPScan — Auditoría WordPress
 
 > [!info] Herramienta
 > Escaneo de vulnerabilidades en sitios WordPress: plugins, themes, usuarios y brute force.

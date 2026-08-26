@@ -1,4 +1,4 @@
-﻿# FFUF — Web Fuzzer
+# FFUF — Web Fuzzer
 
 > [!info] Herramienta
 > Fuzzing rápido de directorios, parámetros, subdominios y formularios HTTP.

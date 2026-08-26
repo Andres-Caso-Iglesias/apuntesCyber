@@ -1,4 +1,4 @@
-﻿| **Campo** | **Detalle** |
+| **Campo** | **Detalle** |
 | --- | --- |
 | **SesiÃ³n** | 27 â€” XXE â†’ LFI y escaladas encadenadas |
 | **Instructor** | Carlos Castillo |
