@@ -12,7 +12,6 @@
 | **Web nativa** | Programada directamente (PHP, .NET, Java). SQLi, XSS directos. |
 | **CMS** | WordPress, Joomla, Drupal. Núcleo + plugins de terceros. |
 
-→
 
 > [!important] Idea central
 > El núcleo de WordPress rara vez es vulnerable (está muy revisado). Las grandes vulnerabilidades aparecen en los **plugins**, porque hay miles y **nadie audita su seguridad**.
@@ -145,7 +144,3 @@ stty raw -echo; fg
 ## Enlaces relacionados
 
 - [[comandos/WPScan]] "” Cheat sheet de comandos
-
-→
-
-→

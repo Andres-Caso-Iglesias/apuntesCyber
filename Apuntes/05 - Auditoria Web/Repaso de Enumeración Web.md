@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[Fuzzing Web con ffuf]] · [[Burp Suite - Framework de Auditoría]] · [[Nmap - Escaneo y Enumeración]]
-> →
+> 
 
 ---
 
@@ -193,9 +193,6 @@ Antes de explotar, hay que «conocer» la aplicación. El **WAF es el portero**:
 | Versión de PHP / software muy antigua | CVE con exploit público |
 | Plantilla HTML / CMS con versión antigua | Vulnerabilidades propias de la plantilla/CMS |
 
-→
-
-→
 
 > [!tip] Buena práctica de notas
 > Todo hallazgo (usuario potencial, versión, ruta interesante, tecnología) se **apunta en el bloc de notas** aunque de momento se descarte. En enumeración, cuanto más recopilas, más vectores tienes después.
@@ -421,7 +418,6 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - [ ] Reproduzco la cadena de Bashed: phpbash → www-data → scriptmanager → root
 - [ ] Sé transferir ficheros con http.server + wget y montar reverse shells con nc
 
-→
 
 ---
 
@@ -443,12 +439,3 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - **Cálculo de delays** frente al rate limit (referencia: NetExec ~1 req/0,5 s)
 - **Escalada por cron + fichero escribible** ejecutado como root
 - Mapa de **recon web → vulnerabilidad** (analogía de la discoteca)
-
-→
-
-→
-
-→
-
-→
-→

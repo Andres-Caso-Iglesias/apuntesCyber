@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Burp Suite - Framework de Auditoría]] · [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[Metodología de Explotación]] · [[Normativa - ISO 27001, GDPR, ENS]]
-> →
+> 
 
 ---
 
@@ -96,7 +96,7 @@ CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 | # | Categoría | Notas |
 |---|----------|-------|
 | **A01** | Broken Access Control | IDOR, escalada, Path Traversal. SSRF absorbido aquí. |
-→
+
 | **A02** | Security Misconfiguration | Credenciales por defecto, cabeceras inseguras. Sube al #2. |
 | **A03** | Software Supply Chain Failures | **NUEVA**. Dependencias vulnerables. |
 | **A04** | Cryptographic Failures | Cifrado débil, TLS mal configurado. |
@@ -107,12 +107,10 @@ CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 | **A09** | Security Logging & Alerting | Falta de logs y alertas. |
 | **A10** | Mishandling of Exceptional Conditions | **NUEVA**. Mala gestión de errores. |
 
-→
 
 > [!warning] CAMBIOS vs 2021
 > Dos categorías nuevas (A03, A10), SSRF absorbido en A01, Injection y Cryptographic bajan. Si ves material con Injection en #3, es de 2021.
 
-→
 
 ---
 
@@ -139,7 +137,3 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [ ] ¿Sé leer un vector CVSS?
 - [ ] ¿Entiendo la cascada OWASP → CWE → CVE → CVSS?
 - [ ] ¿Relaciono Log4Shell con su CWE y categoría OWASP?
-
-→
-
-→

@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Metodología de Explotación]] · [[Explotación de Servicios - Linux]] · [[Explotación de Servicios - Windows]] · [[Escalada de Privilegios]] · [[Reverse Shells y Post-Explotación]]
-> →
+> 
 
 ---
 
@@ -117,8 +117,6 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 | **Archetype** | Windows | SMB → MSSQL → xp_cmdshell → WinPEAS → psexec |
 | **Vaccine** | Linux | FTP → zip2john → SQLi → [[SQLMap]] → GTFOBins vi |
 
-→
-
 ---
 
 ## Checklist de repaso
@@ -128,6 +126,3 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 - [ ] ¿Entiendo el secuestro de PATH y GTFOBins?
 - [ ] ¿Sé usar [[SMB_Impacket]] sesión nula y MSSQL con [[SMB_Impacket]]?
 - [ ] ¿Recuerdo siempre dejar el listener antes de la reverse shell?
-
-→
-

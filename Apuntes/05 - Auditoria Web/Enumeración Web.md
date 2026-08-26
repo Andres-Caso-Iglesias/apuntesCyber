@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Apuntes/05 - Auditoria Web/Repaso de Enumeración Web]] · [[Fuzzing Web con ffuf]] · [[Burp Suite - Framework de Auditoría]] · [[OSINT - Metodología y Fuentes]] · [[Apuntes/05 - Auditoria Web/Enumeración Web|Enumeración Web]] · [[Nmap - Escaneo y Enumeración]]
-> →
+> 
 
 ---
 
@@ -106,8 +106,3 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - [ ] ¿Sé enumerar subdominios con Subfinder y [[FFUF]]?
 - [ ] ¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
 - [ ] ¿Entiendo cómo descubrir parámetros ocultos?
-
-→
-
-→
-

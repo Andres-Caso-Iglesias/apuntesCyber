@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Esteganografía y Metadatos]] · [[Nmap - Escaneo y Enumeración]] · [[apuntes Chema/Enumeración Web]] · [[Redes - Direccionamiento IP y DNS]]
-> →
+> 
 
 ---
 
@@ -173,9 +173,3 @@ LinkedIn como fuente:
 - [ ] ¿Entiendo la diferencia entre WHOIS y DNS?
 - [ ] ¿Conozco Shodan y sus filtros principales?
 - [ ] ¿Distingo qué es legal y qué no en OSINT?
-
-→
-
-→
-
-→

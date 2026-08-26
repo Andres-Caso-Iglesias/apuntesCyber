@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[Prácticas CTF - HTB y VulnHub]] · [[Explotación de Servicios - Linux]] · [[Escalada de Privilegios]] · [[Reverse Shells y Post-Explotación]] · [[Burp Suite - Framework de Auditoría]]
-> →
+> 
 
 ---
 
@@ -350,8 +350,3 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Entiendo cómo Burp Suite Intruder enumera usuarios por longitud de respuesta?
 - [ ] ¿Recuerdo sanitizar diccionarios con `sort | uniq`?
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
-
-→
-
-→
-

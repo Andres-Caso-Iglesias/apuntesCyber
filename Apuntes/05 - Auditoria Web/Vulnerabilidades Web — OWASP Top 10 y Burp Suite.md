@@ -2,7 +2,7 @@
 
 > [!info] Relacionado con
 > [[OWASP Top 10 - CVE CVSS CWE]] · [[Burp Suite - Framework de Auditoría]] · [[Apuntes/05 - Auditoria Web/Enumeración Web]] · [[Metodología de Explotación]]
-> →
+> 
 
 ---
 
@@ -29,7 +29,7 @@ El **OWASP Top 10** agrupa las **10 categorías de vulnerabilidades web más fre
 > [!warning] CAMBIOS vs 2021
 > Dos categorías nuevas (A03, A10), SSRF absorbido en A01, Injection y Cryptographic bajan. Si ves material con Injection en #3, es de 2021.
 
-→
+
 
 > [!tip] Ejercicio mental
 > Si una aplicación permite fuerza bruta porque no bloquea peticiones, ¿en qué categoría cae? No es A01 → es **A07**, fallo de autenticación. La ausencia de firewall/bloqueo lo habilita, pero la vulnerabilidad reportada es la enumeración/fuerza bruta.
@@ -188,7 +188,6 @@ Servidor web
 | **SQLMAP** | Automatizar SQL Injection | Explotación | Mencionada |
 | **Hydra** | Fuerza bruta de credenciales | Explotación / autenticación | Practicada |
 
-→
 
 ---
 
@@ -203,8 +202,3 @@ Servidor web
 - [ ] ¿Sé interceptar, hacer Forward y enviar una petición al Repeater?
 - [ ] ¿Entiendo la diferencia entre Open Browser y FoxyProxy?
 - [ ] ¿Sé instalar el certificado de PortSwigger desde http://burpsuite/?
-
-→
-
-→
-→
