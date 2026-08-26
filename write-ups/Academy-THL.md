@@ -1,7 +1,5 @@
 # Write-Up: Academy - The Hackers Labs
 
->
-
 ## Información General
 
 - **Nombre de la máquina**: Academy
