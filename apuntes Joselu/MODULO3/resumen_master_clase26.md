@@ -151,7 +151,7 @@ Cuando aparece `Initialization Sequence Completed` la conexiÃ³n es exitosa.
 
 **Verificar la conexiÃ³n:**
 
-ifconfig # Buscar el adaptador tun0 â€” esa es la IP de HTB
+ifconfig # Buscar el adaptador tun0 — esa es la IP de HTB
 
 El adaptador **tun0** es la identidad del atacante dentro de la red de HTB.
 
@@ -223,7 +223,7 @@ telnet IP_OBJETIVO
 
 # Login: root
 
-# Password: (vacÃ­o â€” solo Enter)
+# Password: (vacÃ­o — solo Enter)
 
 Una vez dentro:
 

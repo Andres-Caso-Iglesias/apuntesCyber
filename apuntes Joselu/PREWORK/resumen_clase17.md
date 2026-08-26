@@ -12,7 +12,7 @@
 ---
 
 --
-Resumen â€“ Clase 17: Principales Herramientas de Ciberseguridad Ofensiva en Kali Linux MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 17: Principales Herramientas de Ciberseguridad Ofensiva en Kali Linux MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: Kali Linux como sistema operativo del pentester Kali Linux es la distribuciÃ³n Linux de referencia para la ciberseguridad ofensiva.
 
@@ -48,7 +48,7 @@ Recopila automÃ¡ticamente informaciÃ³n de fuentes abiertas (dominios, IPs, c
 
 Muy potente pero genera muchos resultados, incluidos falsos positivos, que requieren filtrado manual.
 
-> [!important] Importante: tiene un modo mixto (activo+pasivo) y un modo solo pasivo â€” siempre verificar 1
+> [!important] Importante: tiene un modo mixto (activo+pasivo) y un modo solo pasivo — siempre verificar 1
 
 cuÃ¡l estÃ¡ activo antes de lanzarlo en clientes sensibles.
 
@@ -120,7 +120,7 @@ SQLite Browser Visor de bases de datos SQLite.
 
 Necesario cuando se extrae una base de datos .db de una aplicaciÃ³n para examinar su contenido. robots.txt No es una herramienta sino un archivo estÃ¡ndar de cualquier servidor web que indica a los motores de bÃºsqueda quÃ© rutas no deben indexar.
 
-Para un auditor es muy valioso porque revela rutas ocultas que el administrador no quiere que se encuentren â€” paradÃ³jicamente, es uno de los mejores puntos de partida del fuzzing. 5.
+Para un auditor es muy valioso porque revela rutas ocultas que el administrador no quiere que se encuentren — paradÃ³jicamente, es uno de los mejores puntos de partida del fuzzing. 5.
 
 CategorÃ­a 4: Password Attacks (Ataques a contraseÃ±as) Hashcat Herramienta de cracking de hashes basada en GPU.
 
@@ -226,9 +226,9 @@ Resumen por fase de auditorÃ­a Fase Herramientas principales EnumeraciÃ³n pa
 
 â†’
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Neva / En el map Nmap â€“ herramienta de escaneo de puertos y servicios SpiderFood / Sparehood SpiderFoot â€“ framework de OSINT y recopilaciÃ³n de fuentes abiertas Recone NG Recon-ng â€“ framework modular de reconocimiento y OSINT en un forlinus / en un forlinux enum4linux â€“ herramienta de enumeraciÃ³n SMB/Samba en Linux de Harvester / de hecho de Harvester theHarvester â€“ herramienta de enumeraciÃ³n de subdominios y correos UWP Scan / UWFood WPScan / WFuzz â€“ escÃ¡ner de WordPress / herramienta de fuzzing web CFFood / Glores Gobuster / DirBuster â€“ herramientas de fuzzing de directorios y rutas DeepBuster / DeepSearch DirBuster / Dirsearch â€“ herramientas de descubrimiento de rutas web Bursuit / Bursui Burp Suite â€“ proxy de interceptaciÃ³n para auditorÃ­as web CrabMapSEQ CrackMapExec (CME) â€“ suite de post- explotaciÃ³n para entornos Windows/AD EviWinMR Evil-WinRM â€“ shell remota vÃ­a WinRM 8
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Neva / En el map Nmap “ herramienta de escaneo de puertos y servicios SpiderFood / Sparehood SpiderFoot “ framework de OSINT y recopilaciÃ³n de fuentes abiertas Recone NG Recon-ng “ framework modular de reconocimiento y OSINT en un forlinus / en un forlinux enum4linux “ herramienta de enumeraciÃ³n SMB/Samba en Linux de Harvester / de hecho de Harvester theHarvester “ herramienta de enumeraciÃ³n de subdominios y correos UWP Scan / UWFood WPScan / WFuzz “ escÃ¡ner de WordPress / herramienta de fuzzing web CFFood / Glores Gobuster / DirBuster “ herramientas de fuzzing de directorios y rutas DeepBuster / DeepSearch DirBuster / Dirsearch “ herramientas de descubrimiento de rutas web Bursuit / Bursui Burp Suite “ proxy de interceptaciÃ³n para auditorÃ­as web CrabMapSEQ CrackMapExec (CME) “ suite de post- explotaciÃ³n para entornos Windows/AD EviWinMR Evil-WinRM “ shell remota vÃ­a WinRM 8
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n InPacket Impacket â€“ colecciÃ³n de scripts para protocolos Windows NetSEQ NetExec â€“ herramienta de explotaciÃ³n de protocolos de red corporativos Max Sanger MacChanger â€“ herramienta para cambiar la direcciÃ³n MAC iCrack Aircrack-ng â€“ suite de auditorÃ­a de redes Wi- Fi Wi-Fi-T WiFite â€“ herramienta automatizada de ataques Wi-Fi mining the middles Man-in-the-Middle (MitM) â€“ ataque de interceptaciÃ³n de comunicaciones ProxyChange ProxyChains â€“ herramienta de encadenamiento de proxies BingWall Binwalk â€“ herramienta de anÃ¡lisis de firmware Set Toolkit SET (Social Engineering Toolkit) â€“ framework de ingenierÃ­a social SearchSploit SearchSploit â€“ buscador local de exploits en Exploit-DB Hydra / Aydra Hydra â€“ herramienta de fuerza bruta en protocolos de autenticaciÃ³n Cvless CeWL â€“ generador de wordlists a partir del contenido web WAF00F / WAF wafw00f â€“ herramienta de fingerprinting de WAF curr en ese lookup curl + nslookup â€“ herramientas de resoluciÃ³n DNS e inspecciÃ³n HTTP LJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n objetivo del mÃ¡ster DSMB SMBMap â€“ herramienta de enumeraciÃ³n de recursos SMB compartidos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 9
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n InPacket Impacket “ colecciÃ³n de scripts para protocolos Windows NetSEQ NetExec “ herramienta de explotaciÃ³n de protocolos de red corporativos Max Sanger MacChanger “ herramienta para cambiar la direcciÃ³n MAC iCrack Aircrack-ng “ suite de auditorÃ­a de redes Wi- Fi Wi-Fi-T WiFite “ herramienta automatizada de ataques Wi-Fi mining the middles Man-in-the-Middle (MitM) “ ataque de interceptaciÃ³n de comunicaciones ProxyChange ProxyChains “ herramienta de encadenamiento de proxies BingWall Binwalk “ herramienta de anÃ¡lisis de firmware Set Toolkit SET (Social Engineering Toolkit) “ framework de ingenierÃ­a social SearchSploit SearchSploit “ buscador local de exploits en Exploit-DB Hydra / Aydra Hydra “ herramienta de fuerza bruta en protocolos de autenticaciÃ³n Cvless CeWL “ generador de wordlists a partir del contenido web WAF00F / WAF wafw00f “ herramienta de fingerprinting de WAF curr en ese lookup curl + nslookup “ herramientas de resoluciÃ³n DNS e inspecciÃ³n HTTP LJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n objetivo del mÃ¡ster DSMB SMBMap “ herramienta de enumeraciÃ³n de recursos SMB compartidos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 9
 
 â†’
 

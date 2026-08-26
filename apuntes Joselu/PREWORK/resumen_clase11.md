@@ -12,7 +12,7 @@
 ---
 
 --
-Resumen â€“ Clase 11: Purple Team â€“ DeFIR, Forense Digital, DevSecOps y FormaciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1. Â¿QuÃ© es el Purple Team?
+Resumen “ Clase 11: Purple Team “ DeFIR, Forense Digital, DevSecOps y FormaciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1. Â¿QuÃ© es el Purple Team?
 
 El Purple Team es el equipo que une las perspectivas del Red Team (ofensiva) y el Blue Team (defensiva) para maximizar la eficacia de la seguridad organizacional.
 
@@ -26,7 +26,7 @@ Si el Red Team usa una tÃ©cnica que evade la detecciÃ³n, el Purple Team ayud
 
 No existe una estandarizaciÃ³n universal; cada empresa y profesional puede decidir quÃ© pertenece a quÃ© equipo.
 
-Purple Team como â€œoficina de seguridadâ€ Un modelo de Purple Team muy comÃºn en las administraciones pÃºblicas son las oficinas de ciberseguridad: la empresa proveedora asume la gestiÃ³n integral de seguridad del cliente â€” perfiles normativos, auditores tÃ©cnicos de Red Team, especialistas de Blue Team para remediar hallazgos y un equipo de monitorizaciÃ³n y respuesta ante incidentes â€” de modo que la organizaciÃ³n puede despreocuparse por completo de la ciberseguridad.
+Purple Team como â€œoficina de seguridadâ€ Un modelo de Purple Team muy comÃºn en las administraciones pÃºblicas son las oficinas de ciberseguridad: la empresa proveedora asume la gestiÃ³n integral de seguridad del cliente — perfiles normativos, auditores tÃ©cnicos de Red Team, especialistas de Blue Team para remediar hallazgos y un equipo de monitorizaciÃ³n y respuesta ante incidentes — de modo que la organizaciÃ³n puede despreocuparse por completo de la ciberseguridad.
 
 > [!important] ### Elemento clave: comunicaciÃ³n constante La comunicaciÃ³n continua entre Red Team y Blue Team es imprescindible.
 
@@ -38,7 +38,7 @@ Se repite el ciclo, aumentando continuamente la dificultad. 1
 
 ## 2.
 
-Servicio 1: DeFIR â€“ Digital Forensics and Incident Response Â¿QuÃ© es el DeFIR?
+Servicio 1: DeFIR “ Digital Forensics and Incident Response Â¿QuÃ© es el DeFIR?
 
 El DeFIR (Digital Forensics and Incident Response ) es la unidad especializada en gestionar los aspectos crÃ­ticos de la respuesta a incidentes de ciberseguridad y la investigaciÃ³n forense digital.
 
@@ -70,7 +70,7 @@ Incluye: - InvestigaciÃ³n de ransomware, macrovirus o reversing de malware. - 
 
 Los peritos forenses con la certificaciÃ³n adecuada pueden testificar ante el juez, quien carece de conocimiento tÃ©cnico para interpretar los hechos por sÃ­ mismo. 3.
 
-Servicio 2: DevSecOps â€“ Desarrollo Seguro de Aplicaciones Â¿QuÃ© es DevSecOps?
+Servicio 2: DevSecOps “ Desarrollo Seguro de Aplicaciones Â¿QuÃ© es DevSecOps?
 
 DevSecOps integra la seguridad ( Sec) en cada etapa del ciclo de vida del desarrollo de software, combinando Dev (Development), Ops (Operations) y Sec (Security).
 
@@ -138,9 +138,9 @@ Cierre del mÃ³dulo de lÃ­neas de ciberseguridad Con esta sesiÃ³n concluye 
 
 La prÃ³xima sesiÃ³n abordarÃ¡ los tipos de hackers y, tras ello, se pasarÃ¡ definitivamente a la parte prÃ¡ctica del mÃ¡ster. 6.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n parper team / parpel team Purple Team â€“ equipo colaborativo entre Red y Blue Team equipo de decir / decir / de fir DeFIR (Digital Forensics and Incident Response) â€“ equipo de forense y respuesta ante incidentes fornse / fornise / forense digital Forense digital â€“ disciplina de investigaciÃ³n de evidencias digitales de secops / depth sec ops DevSecOps â€“ integraciÃ³n de seguridad en el ciclo de vida del desarrollo software de de box / de de ops DevOps â€“ metodologÃ­a de desarrollo y operaciones pipelines de c y cd Pipelines de CI/CD (Continuous Integration / Continuous Deployment ) â€“ integraciÃ³n y despliegue continuos sas / sars SAST (Static Application Security Testing ) â€“ anÃ¡lisis estÃ¡tico de seguridad de aplicaciones das / dust DAST (Dynamic Application Security Testing ) 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n parper team / parpel team Purple Team “ equipo colaborativo entre Red y Blue Team equipo de decir / decir / de fir DeFIR (Digital Forensics and Incident Response) “ equipo de forense y respuesta ante incidentes fornse / fornise / forense digital Forense digital “ disciplina de investigaciÃ³n de evidencias digitales de secops / depth sec ops DevSecOps “ integraciÃ³n de seguridad en el ciclo de vida del desarrollo software de de box / de de ops DevOps “ metodologÃ­a de desarrollo y operaciones pipelines de c y cd Pipelines de CI/CD (Continuous Integration / Continuous Deployment ) “ integraciÃ³n y despliegue continuos sas / sars SAST (Static Application Security Testing ) “ anÃ¡lisis estÃ¡tico de seguridad de aplicaciones das / dust DAST (Dynamic Application Security Testing ) 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n â€“ anÃ¡lisis dinÃ¡mico de seguridad de aplicaciones sonar cube SonarQube â€“ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo blackdak / black duck Black Duck (Synopsys) â€“ herramienta de anÃ¡lisis de composiciÃ³n de software cover / coverity Coverity (Synopsys) â€“ herramienta de anÃ¡lisis estÃ¡tico avanzado checkmark Checkmarx â€“ escÃ¡ner de vulnerabilidades en cÃ³digo a yam / ayam IAM (Identity and Access Management ) â€“ gestiÃ³n de identidades y accesos yam / haces Referencias a YAML e IaC (Infrastructure as Code) â€“ infraestructura como cÃ³digo cÃ­clic haunting Threat Hunting â€“ bÃºsqueda proactiva de amenazas tiberegu TIBER-EU â€“ marco europeo de ejercicios de Red Team para banca y seguros mÃ­mica / mÃ­mica 100% Mimikatz â€“ herramienta de volcado de credenciales de memoria en Windows macrovirus Macro-virus â€“ malware embebido en documentos de Office cadena de custodio Cadena de custodia â€“ protocolo forense para garantizar la integridad de las evidencias vision querying sin 20 Vishing / Quishing / Smishing â€“ variantes de ingenierÃ­a social por voz, QR y SMS log 4g Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en librerÃ­a Java xdr XDR (Extended Detection and Response ) â€“ soluciÃ³n de detecciÃ³n y respuesta extendida FNS DeFIR o DFIR â€“ Digital Forensics and Incident Response (siglas usadas indistintamente) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n “ anÃ¡lisis dinÃ¡mico de seguridad de aplicaciones sonar cube SonarQube “ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo blackdak / black duck Black Duck (Synopsys) “ herramienta de anÃ¡lisis de composiciÃ³n de software cover / coverity Coverity (Synopsys) “ herramienta de anÃ¡lisis estÃ¡tico avanzado checkmark Checkmarx “ escÃ¡ner de vulnerabilidades en cÃ³digo a yam / ayam IAM (Identity and Access Management ) “ gestiÃ³n de identidades y accesos yam / haces Referencias a YAML e IaC (Infrastructure as Code) “ infraestructura como cÃ³digo cÃ­clic haunting Threat Hunting “ bÃºsqueda proactiva de amenazas tiberegu TIBER-EU “ marco europeo de ejercicios de Red Team para banca y seguros mÃ­mica / mÃ­mica 100% Mimikatz “ herramienta de volcado de credenciales de memoria en Windows macrovirus Macro-virus “ malware embebido en documentos de Office cadena de custodio Cadena de custodia “ protocolo forense para garantizar la integridad de las evidencias vision querying sin 20 Vishing / Quishing / Smishing “ variantes de ingenierÃ­a social por voz, QR y SMS log 4g Log4Shell / Log4j “ vulnerabilidad crÃ­tica en librerÃ­a Java xdr XDR (Extended Detection and Response ) “ soluciÃ³n de detecciÃ³n y respuesta extendida FNS DeFIR o DFIR “ Digital Forensics and Incident Response (siglas usadas indistintamente) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 â†’
 â†’
 â†’

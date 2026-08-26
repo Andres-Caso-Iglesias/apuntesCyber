@@ -154,9 +154,9 @@ Reconocimiento y enumeraciÃ³n (subdominios, tecnologÃ­as, versiones, superfi
 
 AnÃ¡lisis de vulnerabilidades (mapear quÃ© aplica segÃºn el stack tecnolÃ³gico: Â¿hay login? â†’ probar autenticaciÃ³n Â¿hay buscador? â†’ probar SQLi Â¿hay subida de ficheros? â†’ probar file upload Â¿hay parÃ¡metros de ID? â†’ probar IDOR) â†“ 3.
 
-ExplotaciÃ³n (si no se explota, no hay vulnerabilidad â€” solo indicio) â†“ 4.
+ExplotaciÃ³n (si no se explota, no hay vulnerabilidad — solo indicio) â†“ 4.
 
-Post-explotaciÃ³n y escalada (se ve muy poco en auditorÃ­as web reales â€” RCE en producciÃ³n es raro y valioso) â†“ 5.
+Post-explotaciÃ³n y escalada (se ve muy poco en auditorÃ­as web reales — RCE en producciÃ³n es raro y valioso) â†“ 5.
 
 DocumentaciÃ³n e informe (lo que no se documenta, no existe)
 

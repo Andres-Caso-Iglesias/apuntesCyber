@@ -68,7 +68,7 @@ Arquitectura cliente-servidor y por quÃ© Burp puede interceptar
 
 Dani explica con un Paint en vivo la arquitectura web:
 
-[FRONT â€” corre en TU ordenador] â†’ [peticiÃ³n HTTP] â†’ [BACK â€” en el servidor] (navegador) (PHP, base de datos...)
+[FRONT — corre en TU ordenador] â†’ [peticiÃ³n HTTP] â†’ [BACK — en el servidor] (navegador) (PHP, base de datos...)
 
 > [!important] **Concepto clave:** el frontend corre en tu ordenador.
 

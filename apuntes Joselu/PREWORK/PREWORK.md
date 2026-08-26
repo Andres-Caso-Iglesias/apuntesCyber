@@ -12,7 +12,7 @@
 ---
 
 --
-Resumen â€“ Clase 1: IntroducciÃ³n a la Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 1: IntroducciÃ³n a la Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 PresentaciÃ³n y filosofÃ­a del mÃ³dulo El profesor abre la sesiÃ³n subrayando que conocer la historia de la ciberseguridad es imprescindible para cualquier profesional del sector.
 
@@ -36,7 +36,7 @@ Estructura de la sesiÃ³n La clase se organiza en tres grandes bloques: 1.Histo
 
 3.Ciberseguridad hoy : cÃ³mo trabaja un equipo profesional real, quÃ© perfiles existen y cÃ³mo se organizan las auditorÃ­as. 4.
 
-Historia de la ciberseguridad por dÃ©cadas DÃ©cada de 1960 â€“ Los orÃ­genes
+Historia de la ciberseguridad por dÃ©cadas DÃ©cada de 1960 “ Los orÃ­genes
 - Los sistemas informÃ¡ticos estaban restringidos a universidades, gobiernos y grandes
 corporaciones.
 
@@ -52,7 +52,7 @@ denominamos insider threat).
 
 Este vector sigue vigente: el profesor menciona un ejercicio reciente de Red Team en que accediÃ³ fÃ­sicamente a las instalaciones de un cliente para implantar malware en un equipo.
 
-DÃ©cada de 1970 â€“ Los fundamentos de la seguridad
+DÃ©cada de 1970 “ Los fundamentos de la seguridad
 - En 1971 aparece Creeper, considerado el primer malware de la historia.
 
 Fue creado
@@ -66,7 +66,7 @@ Minecraft, cuyo diseÃ±o surgiÃ³ accidentalmente de un error en el cÃ³digo 
 UU. comienza a implementar controles de
 seguridad ante la evidencia de que sus sistemas clasificados podÃ­an ser comprometidos.
 
-DÃ©cada de 1980 â€“ ExpansiÃ³n de redes y primeras grandes amenazas
+DÃ©cada de 1980 “ ExpansiÃ³n de redes y primeras grandes amenazas
 - Con la comercializaciÃ³n del ordenador personal (ej.
 
 Apple II), la informÃ¡tica se
@@ -111,9 +111,9 @@ Plataformas y recursos de prÃ¡ctica recomendados El profesor insiste en que la
 
 ## 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n HackDebox Hack The Box (HTB) â€“ plataforma de prÃ¡ctica de pentesting TreHackMe TryHackMe â€“ plataforma de aprendizaje de ciberseguridad Bullhub VulnHub â€“ plataforma de mÃ¡quinas vulnerables para prÃ¡ctica EJPTV2 eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n de nivel entrada MULTIX MULTICS (Multiplexed Information and Computing Service ) â€“ sistema operativo pionero password warning Pass-the-Hash o tÃ©cnica similar de reutilizaciÃ³n de credenciales rÃ©ptil avanzado Red Team avanzado â€“ ejercicio de simulaciÃ³n de ataque real cloner (1982) Elk Cloner â€“ virus para Apple II Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 4
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n HackDebox Hack The Box (HTB) “ plataforma de prÃ¡ctica de pentesting TreHackMe TryHackMe “ plataforma de aprendizaje de ciberseguridad Bullhub VulnHub “ plataforma de mÃ¡quinas vulnerables para prÃ¡ctica EJPTV2 eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n de nivel entrada MULTIX MULTICS (Multiplexed Information and Computing Service ) “ sistema operativo pionero password warning Pass-the-Hash o tÃ©cnica similar de reutilizaciÃ³n de credenciales rÃ©ptil avanzado Red Team avanzado “ ejercicio de simulaciÃ³n de ataque real cloner (1982) Elk Cloner “ virus para Apple II Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 4
 
-Resumen â€“ Clase 2: Historia de la Ciberseguridad (ContinuaciÃ³n) y Ciberseguridad Moderna MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 2: Historia de la Ciberseguridad (ContinuaciÃ³n) y Ciberseguridad Moderna MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: la globalizaciÃ³n de Internet como punto de inflexiÃ³n La clase arranca retomando el hilo de la sesiÃ³n anterior y situando el auge de Internet como el mayor catalizador de la ciberseguridad moderna.
 
@@ -121,7 +121,7 @@ Sin Internet no existirÃ­an la educaciÃ³n online, la interconexiÃ³n global
 
 Se invita a reflexionar sobre la seguridad de los dispositivos IoT, anticipando que serÃ¡n una de las superficies de ataque mÃ¡s relevantes para los auditores del futuro. 2.
 
-DÃ©cada de 1990 â€“ La era de Internet y las primeras amenazas masivas IngenierÃ­a social y phishing Con la popularizaciÃ³n de Internet aparece la ingenierÃ­a social y, concretamente, el phishing.
+DÃ©cada de 1990 “ La era de Internet y las primeras amenazas masivas IngenierÃ­a social y phishing Con la popularizaciÃ³n de Internet aparece la ingenierÃ­a social y, concretamente, el phishing.
 
 Se estima que esta tÃ©cnica estÃ¡ detrÃ¡s del 80 % de los accesos no autorizados registrados hasta la fecha.
 
@@ -152,7 +152,7 @@ ApariciÃ³n de los primeros firewalls En 1990 nacen tambiÃ©n los primeros fir
 
 Malware Michelangelo (1992) El virus Michelangelo (1992) representÃ³ un salto cualitativo en cuanto al impacto sobre los datos de los usuarios, consolidando la tendencia de que cada generaciÃ³n de malware es mÃ¡s daÃ±ina que la anterior. 3.
 
-DÃ©cada de 2000 â€“ La ciberseguridad moderna toma forma Grupos criminales organizados Igual que las mafias tradicionales se organizan en estructuras con roles especializados, aparecen los primeros grupos organizados de ciberdelincuentes .
+DÃ©cada de 2000 “ La ciberseguridad moderna toma forma Grupos criminales organizados Igual que las mafias tradicionales se organizan en estructuras con roles especializados, aparecen los primeros grupos organizados de ciberdelincuentes .
 
 Comercializan datos bancarios robados, comparten herramientas y malware, y se dividen tareas, lo que multiplica exponencialmente su eficacia frente a defensores individuales.
 
@@ -180,7 +180,7 @@ el tratamiento de datos personales y establece las multas que hoy utilizan los g
 
 Hasta 2002 muchos ataques de robo y espionaje de datos quedaron completamente impunes por ausencia de marco legal aplicable. 4.
 
-DÃ©cada de 2010 â€“ La ciberseguridad como asunto geopolÃ­tico Stuxnet: la guerra digital El gusano Stuxnet (2010), presuntamente desarrollado por Estados Unidos e Israel, fue el primer ciberarma conocida dirigida a infraestructura fÃ­sica: atacÃ³ las centrifugadoras del programa nuclear iranÃ­.
+DÃ©cada de 2010 “ La ciberseguridad como asunto geopolÃ­tico Stuxnet: la guerra digital El gusano Stuxnet (2010), presuntamente desarrollado por Estados Unidos e Israel, fue el primer ciberarma conocida dirigida a infraestructura fÃ­sica: atacÃ³ las centrifugadoras del programa nuclear iranÃ­.
 
 A partir de este momento los gobiernos empiezan a crear sus propios ciberejÃ©rcitos e inyectan grandes presupuestos en operaciones ofensivas y defensivas.
 
@@ -224,7 +224,7 @@ Inteligencia Artificial y Machine Learning En la dÃ©cada de 2010 el Machine Le
 
 Sin embargo, las mismas herramientas sirven para los atacantes: deepfakes en tiempo real, clonaciÃ³n de voz, suplantaciÃ³n de nÃºmero de telÃ©fono o generaciÃ³n de textos personalizados para phishing, todo con un solo clic. 5.
 
-DÃ©cada de 2020 â€“ La ciberseguridad en el centro COVID-19 y la expansiÃ³n del teletrabajo La pandemia acelerÃ³ la transformaciÃ³n digital y disparÃ³ los ciberataques.
+DÃ©cada de 2020 “ La ciberseguridad en el centro COVID-19 y la expansiÃ³n del teletrabajo La pandemia acelerÃ³ la transformaciÃ³n digital y disparÃ³ los ciberataques.
 
 Las empresas abrieron masivamente VPNs, accesos RDP (Remote Desktop Protocol ) y soluciones de acceso remoto sin 4
 
@@ -260,9 +260,9 @@ La prÃ³xima sesiÃ³n abordarÃ¡ en detalle las diferentes lÃ­neas de la ci
 
 ## 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n botnet Mirei Botnet Mirai â€“ botnet masiva basada en dispositivos IoT CVS CVE (Common Vulnerabilities and Exposures ) â€“ identificador estÃ¡ndar de vulnerabilidades Lock4G Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en la librerÃ­a Apache Log4j (2021) Vista (gusano 2003) Blaster â€“ gusano de 2003 que afectÃ³ a millones de equipos Windows NSA (empresa israelÃ­) NSO Group â€“ empresa privada israelÃ­ creadora de Pegasus (distinta de la NSA estadounidense) Transunware Ransomware â€“ software de secuestro y cifrado de datos WebSphere de Java Probable referencia a vulnerabilidades en Log4j (librerÃ­a Java) o en Apache Struts Vedrola / Enaga Iberdrola y EnagÃ¡s â€“ empresas energÃ©ticas espaÃ±olas afectadas por la vulnerabilidad de Fortinet NIDS o Team Bware TeamViewer / AnyDesk â€“ herramientas de acceso remoto corporativo CHAP GPT ChatGPT â€“ modelo de lenguaje de OpenAI jactivismo Hacktivismo â€“ uso del hacking como activismo polÃ­tico o social Blueteam / Redteam Blue Team / Red Team â€“ equipos de defensa y ataque en ciberseguridad Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n botnet Mirei Botnet Mirai “ botnet masiva basada en dispositivos IoT CVS CVE (Common Vulnerabilities and Exposures ) “ identificador estÃ¡ndar de vulnerabilidades Lock4G Log4Shell / Log4j “ vulnerabilidad crÃ­tica en la librerÃ­a Apache Log4j (2021) Vista (gusano 2003) Blaster “ gusano de 2003 que afectÃ³ a millones de equipos Windows NSA (empresa israelÃ­) NSO Group “ empresa privada israelÃ­ creadora de Pegasus (distinta de la NSA estadounidense) Transunware Ransomware “ software de secuestro y cifrado de datos WebSphere de Java Probable referencia a vulnerabilidades en Log4j (librerÃ­a Java) o en Apache Struts Vedrola / Enaga Iberdrola y EnagÃ¡s “ empresas energÃ©ticas espaÃ±olas afectadas por la vulnerabilidad de Fortinet NIDS o Team Bware TeamViewer / AnyDesk “ herramientas de acceso remoto corporativo CHAP GPT ChatGPT “ modelo de lenguaje de OpenAI jactivismo Hacktivismo “ uso del hacking como activismo polÃ­tico o social Blueteam / Redteam Blue Team / Red Team “ equipos de defensa y ataque en ciberseguridad Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 3: LÃ­neas de Ciberseguridad y AuditorÃ­as de Redes Internas MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 3: LÃ­neas de Ciberseguridad y AuditorÃ­as de Redes Internas MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: los tres equipos de ciberseguridad La ciberseguridad profesional se organiza en torno a tres grandes equipos: Red Team (equipo ofensivo): realiza ataques controlados contra la infraestructura del cliente para detectar vulnerabilidades, intentar acceder a la red interna, exfiltrar datos o comprometer el controlador de dominio.
 
@@ -274,7 +274,7 @@ Tiene menos especializaciÃ³n en cada Ã¡rea, pero resulta idÃ³neo para role
 
 El profesor defiende que los mejores perfiles forenses provienen de equipos ofensivos, porque conocen de primera mano la metodologÃ­a de los atacantes y sus tÃ©cnicas de ocultaciÃ³n.
 
-La colaboraciÃ³n Red Team â€“ Blue Team genera un modelo de cross-selling: una auditorÃ­a detecta vulnerabilidades (Red) y abre la venta de un servicio de remediaciÃ³n (Blue), y viceversa. 2.
+La colaboraciÃ³n Red Team “ Blue Team genera un modelo de cross-selling: una auditorÃ­a detecta vulnerabilidades (Red) y abre la venta de un servicio de remediaciÃ³n (Blue), y viceversa. 2.
 
 Servicios y tipologÃ­as de auditorÃ­a Red Team (mÃ¡s de 21 servicios) Los siete principales tratados en la sesiÃ³n son: 1.AuditorÃ­as de redes internas 2.AuditorÃ­as de redes externas 3.AuditorÃ­as de aplicaciones web 4.AuditorÃ­as de redes Wi-Fi / inalÃ¡mbricas 5.Ejercicios de Red Team avanzado 6.Ejercicios TIBER-EU (marco europeo para banca y aseguradoras, ligado a la normativa DORA) 7.AuditorÃ­as de car hacking (vehÃ­culos conectados) Otros servicios: auditorÃ­as de dispositivos IoT, frecuencias de radio (Airfeed), Bluetooth, 1
 
@@ -381,11 +381,11 @@ El objetivo de Wolf Academy es que los alumnos puedan ingresar directamente en e
 
 ## 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n ejercicios tiber.eu TIBER-EU â€“ marco europeo de pruebas de ciberresiliencia para banca y seguros virginacia digital Vigilancia digital â€“ monitorizaciÃ³n de amenazas e imagen de marca en la red equipo de defir DeFIR (Digital Forensics and Incident Response) â€“ equipo de forense y respuesta ante incidentes hackinÃ©tico / haka en Ã©tico Hacker Ã©tico â€“ profesional de seguridad ofensiva autorizado bruce aÃºn BloodHound â€“ herramienta de anÃ¡lisis y mapeo del Active Directory nesus / open bus Nessus y OpenV AS â€“ escÃ¡neres de vulnerabilidades acu netics Acunetix â€“ escÃ¡ner de vulnerabilidades web eje o tapete eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n de entrada en pentesting sniper Referencia al uso de Responder para captura de hashes NTLM Mac Fluid MAC Flooding â€“ tÃ©cnica de saturaciÃ³n de tablas CAM en switches LANIS 2 NIS 2 â€“ Directiva europea de seguridad de redes e informaciÃ³n wonder eyes Probablemente OneDrive u otra herramienta de comparticiÃ³n de archivos â€œfreezhuntingâ€ Threat Hunting â€“ bÃºsqueda proactiva de amenazas en la red PCI DSS PCI DSS (Payment Card Industry Data Security Standard) â€“ norma de seguridad para datos de tarjetas de pago Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n ejercicios tiber.eu TIBER-EU “ marco europeo de pruebas de ciberresiliencia para banca y seguros virginacia digital Vigilancia digital “ monitorizaciÃ³n de amenazas e imagen de marca en la red equipo de defir DeFIR (Digital Forensics and Incident Response) “ equipo de forense y respuesta ante incidentes hackinÃ©tico / haka en Ã©tico Hacker Ã©tico “ profesional de seguridad ofensiva autorizado bruce aÃºn BloodHound “ herramienta de anÃ¡lisis y mapeo del Active Directory nesus / open bus Nessus y OpenV AS “ escÃ¡neres de vulnerabilidades acu netics Acunetix “ escÃ¡ner de vulnerabilidades web eje o tapete eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n de entrada en pentesting sniper Referencia al uso de Responder para captura de hashes NTLM Mac Fluid MAC Flooding “ tÃ©cnica de saturaciÃ³n de tablas CAM en switches LANIS 2 NIS 2 “ Directiva europea de seguridad de redes e informaciÃ³n wonder eyes Probablemente OneDrive u otra herramienta de comparticiÃ³n de archivos â€œfreezhuntingâ€ Threat Hunting “ bÃºsqueda proactiva de amenazas en la red PCI DSS PCI DSS (Payment Card Industry Data Security Standard) “ norma de seguridad para datos de tarjetas de pago Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 5
 
-Resumen â€“ Clase 4: AuditorÃ­as de Redes Externas MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 4: AuditorÃ­as de Redes Externas MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
-IntroducciÃ³n: las auditorÃ­as de redes externas Tras repasar las redes internas â€”â€œla reinaâ€ de las auditorÃ­asâ€” la sesiÃ³n se centra en las auditorÃ­as de redes externas , consideradas la segunda tipologÃ­a mÃ¡s importante.
+IntroducciÃ³n: las auditorÃ­as de redes externas Tras repasar las redes internas —â€œla reinaâ€ de las auditorÃ­as— la sesiÃ³n se centra en las auditorÃ­as de redes externas , consideradas la segunda tipologÃ­a mÃ¡s importante.
 
 Su objetivo es evaluar todos los activos de una organizaciÃ³n que estÃ¡n expuestos a internet, detectar vulnerabilidades y reducir la superficie de ataque visible desde el exterior.
 
@@ -419,7 +419,7 @@ Vulnerabilidades en dispositivos: versiones obsoletas de software, configuracion
 
 Seguridad de las comunicaciones: evaluaciÃ³n de protocolos de cifrado y configuraciones web (por ejemplo, uso de HTTP en lugar de HTTPS, cabeceras de seguridad ausentes, ausencia de doble factor de autenticaciÃ³n). 4.
 
-MetodologÃ­a de la auditorÃ­a de redes externas Al igual que en toda auditorÃ­a de pentesting, las fases son siempre las mismas: Fase 1 â€“ Reconocimiento y enumeraciÃ³n (fingerprinting) El auditor identifica y categoriza todos los activos expuestos ligados al dominio o a la organizaciÃ³n objetivo.
+MetodologÃ­a de la auditorÃ­a de redes externas Al igual que en toda auditorÃ­a de pentesting, las fases son siempre las mismas: Fase 1 “ Reconocimiento y enumeraciÃ³n (fingerprinting) El auditor identifica y categoriza todos los activos expuestos ligados al dominio o a la organizaciÃ³n objetivo.
 
 La informaciÃ³n que se puede obtener incluye: subdominios, pÃ¡ginas web y sus directorios, usuarios y correos electrÃ³nicos, contraseÃ±as filtradas, rangos de IP, CDN y servicios de terceros relacionados.
 
@@ -444,11 +444,11 @@ Puertos y servicios mÃ¡s relevantes a identificar: Puerto Protocolo/Servicio 8
 
 Puerto Protocolo/Servicio 3389 RDP (Remote Desktop Protocol) 445 SMB / Samba 1433 / 3306 SQL Server / MariaDB Los portales de acceso remoto (RDP, SSH, VPN, Citrix, TeamViewer) son la prioridad absoluta en la categorizaciÃ³n de activos, ya que representan la vÃ­a mÃ¡s directa hacia la red interna.
 
-Fase 2 â€“ DetecciÃ³n de vulnerabilidades Con la superficie de exposiciÃ³n definida, se utilizan escÃ¡neres automatizados (Nessus, OpenV AS, Qualys) para detectar vulnerabilidades conocidas en versiones de software desactualizadas y configuraciones dÃ©biles.
+Fase 2 “ DetecciÃ³n de vulnerabilidades Con la superficie de exposiciÃ³n definida, se utilizan escÃ¡neres automatizados (Nessus, OpenV AS, Qualys) para detectar vulnerabilidades conocidas en versiones de software desactualizadas y configuraciones dÃ©biles.
 
 Al igual que en las auditorÃ­as internas, los falsos positivos deben validarse manualmente, priorizando las vulnerabilidades crÃ­ticas y altas.
 
-Fase 3 â€“ VerificaciÃ³n de credenciales filtradas Se consultan bases de datos de credenciales robadas (accesibles por unos pocos euros al mes) para comprobar si existen credenciales vigentes asociadas a la organizaciÃ³n objetivo.
+Fase 3 “ VerificaciÃ³n de credenciales filtradas Se consultan bases de datos de credenciales robadas (accesibles por unos pocos euros al mes) para comprobar si existen credenciales vigentes asociadas a la organizaciÃ³n objetivo.
 
 El valor de estas credenciales va mÃ¡s allÃ¡ del acceso directo:
 - Revelan la polÃ­tica de contraseÃ±as implÃ­cita de la organizaciÃ³n (longitud, uso de
@@ -464,13 +464,13 @@ minÃºsculas, nÃºmeros y sÃ­mbolos puede romperse en menos de 30 segundos c
 
 Utilizarlas sin permiso para acceder a cuentas de terceros es ilegal y conlleva penas de prisiÃ³n.
 
-Fase 4 â€“ EvaluaciÃ³n de la seguridad de las comunicaciones Se analizan los protocolos de cifrado y las configuraciones web.
+Fase 4 “ EvaluaciÃ³n de la seguridad de las comunicaciones Se analizan los protocolos de cifrado y las configuraciones web.
 
 Un sitio que funciona en HTTP (sin cifrado) es vulnerable a ataques de Man-in-the-Middle (MitM) , lo que permite interceptar credenciales en trÃ¡nsito.
 
 La ausencia de cabeceras de seguridad bÃ¡sicas o de doble factor de autenticaciÃ³n (2FA) son indicadores de una postura de seguridad deficiente en toda la organizaciÃ³n.
 
-Fase 5 â€“ ExplotaciÃ³n controlada y reporte Se explotan de forma controlada las vulnerabilidades verificadas para demostrar su impacto real al cliente.
+Fase 5 “ ExplotaciÃ³n controlada y reporte Se explotan de forma controlada las vulnerabilidades verificadas para demostrar su impacto real al cliente.
 
 Se elabora un informe tÃ©cnico y ejecutivo con los hallazgos confirmados, su criticidad y las recomendaciones de remediaciÃ³n. 3
 
@@ -482,11 +482,11 @@ Tal y como se vio en la demostraciÃ³n con Repsol, donde aparecÃ­an TelefÃ³
 
 Diferencias clave entre auditorÃ­as externas e internas Aspecto AuditorÃ­a interna AuditorÃ­a externa Tipo de caja Gris (acceso VPN inicial) Negra (sin informaciÃ³n previa) Enfoque principal Active Directory, Kerberos, SMBSuperficie de exposiciÃ³n en internet Punto de partida Dentro de la red corporativa Desde internet, como un atacante externo Herramientas clave BloodHound, Responder, NmapShodan, Censys, Nmap, Google Dorking Mayor riesgo detectado ConfiguraciÃ³n del AD, escalada de privilegiosServicios con versiones obsoletas, credenciales filtradas 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n census / censis search Censys â€“ motor de bÃºsqueda de activos expuestos en internet en el map Nmap â€“ herramienta de escaneo de puertos y servicios CVS CVE (Common Vulnerabilities and Exposures) â€“ identificador estÃ¡ndar de vulnerabilidades OpenBus OpenV AS â€“ escÃ¡ner de vulnerabilidades de cÃ³digo abierto money in the middle Man-in-the-Middle (MitM) â€“ ataque de interceptaciÃ³n de comunicaciones VPNs propagativas Probablemente VPNs corporativas o soluciones como Pulse Secure / GlobalProtect NIDS, 10Bware TeamViewer / AnyDesk â€“ herramientas de acceso remoto corporativo shonan Shodan â€“ motor de bÃºsqueda de dispositivos 4
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n census / censis search Censys “ motor de bÃºsqueda de activos expuestos en internet en el map Nmap “ herramienta de escaneo de puertos y servicios CVS CVE (Common Vulnerabilities and Exposures) “ identificador estÃ¡ndar de vulnerabilidades OpenBus OpenV AS “ escÃ¡ner de vulnerabilidades de cÃ³digo abierto money in the middle Man-in-the-Middle (MitM) “ ataque de interceptaciÃ³n de comunicaciones VPNs propagativas Probablemente VPNs corporativas o soluciones como Pulse Secure / GlobalProtect NIDS, 10Bware TeamViewer / AnyDesk “ herramientas de acceso remoto corporativo shonan Shodan “ motor de bÃºsqueda de dispositivos 4
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n conectados a internet mariade ve MariaDB â€“ sistema de gestiÃ³n de bases de datos poc PoC (Proof of Concept) â€“ prueba de concepto de explotaciÃ³n de una vulnerabilidad google docking Google Dorking â€“ uso de operadores avanzados de Google para encontrar informaciÃ³n sensible 4.4.3 / HTTPS Puerto 443 â€“ HTTPS 3.3.8.9 / RDP Puerto 3389 â€“ RDP (Remote Desktop Protocol) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 5
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n conectados a internet mariade ve MariaDB “ sistema de gestiÃ³n de bases de datos poc PoC (Proof of Concept) “ prueba de concepto de explotaciÃ³n de una vulnerabilidad google docking Google Dorking “ uso de operadores avanzados de Google para encontrar informaciÃ³n sensible 4.4.3 / HTTPS Puerto 443 “ HTTPS 3.3.8.9 / RDP Puerto 3389 “ RDP (Remote Desktop Protocol) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 5
 
-Resumen â€“ Clase 5: AuditorÃ­as de Aplicaciones Web y Redes Wi-Fi MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy PARTE I: AuditorÃ­as de Aplicaciones Web 1.
+Resumen “ Clase 5: AuditorÃ­as de Aplicaciones Web y Redes Wi-Fi MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy PARTE I: AuditorÃ­as de Aplicaciones Web 1.
 
 Por quÃ© son necesarias Cada vez mÃ¡s empresas tienen aplicaciones propias expuestas a internet (pÃ¡ginas corporativas, portales de gestiÃ³n, acceso en teletrabajo), lo que amplÃ­a continuamente la superficie de ataque.
 
@@ -616,11 +616,11 @@ El examen requiere vulnerar tres mÃ¡quinas: una con WEP, una con WPA2 y una co
 
 Plataforma de prÃ¡ctica recomendada: Wi-Fi Labs, entorno virtual que simula antenas y comunicaciones inalÃ¡mbricas para practicar sin necesidad de hardware real. 12.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n log4g Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en librerÃ­a Java (2021) bursuit / bullshit Burp Suite â€“ proxy de interceptaciÃ³n para auditorÃ­as web cross-side script Cross-Site Scripting (XSS) â€“ inyecciÃ³n de cÃ³digo JavaScript en pÃ¡ginas web cross site request forgy CSRF (Cross-Site Request Forgery ) â€“ falsificaciÃ³n de solicitudes entre sitios sidos / sids IDOR (Insecure Direct Object Reference ) â€“ iteraciÃ³n de parÃ¡metros de objetos en APIs no was top ten / owas OWASP Top 10 â€“ estÃ¡ndar de vulnerabilidades en aplicaciones web owas wifi testing guide OWASP Wi-Fi Testing Guide â€“ estÃ¡ndar de auditorÃ­as de redes inalÃ¡mbricas caice CachÃ© o referencia a validaciÃ³n de cachÃ© en la 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n log4g Log4Shell / Log4j “ vulnerabilidad crÃ­tica en librerÃ­a Java (2021) bursuit / bullshit Burp Suite “ proxy de interceptaciÃ³n para auditorÃ­as web cross-side script Cross-Site Scripting (XSS) “ inyecciÃ³n de cÃ³digo JavaScript en pÃ¡ginas web cross site request forgy CSRF (Cross-Site Request Forgery ) “ falsificaciÃ³n de solicitudes entre sitios sidos / sids IDOR (Insecure Direct Object Reference ) “ iteraciÃ³n de parÃ¡metros de objetos en APIs no was top ten / owas OWASP Top 10 “ estÃ¡ndar de vulnerabilidades en aplicaciones web owas wifi testing guide OWASP Wi-Fi Testing Guide “ estÃ¡ndar de auditorÃ­as de redes inalÃ¡mbricas caice CachÃ© o referencia a validaciÃ³n de cachÃ© en la 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n aplicaciÃ³n foca de ser FOCA â€“ herramienta de extracciÃ³n de metadatos de documentos webgoat WebGoat â€“ aplicaciÃ³n vulnerable deliberadamente para prÃ¡ctica de pentesting web querberos / querberos Kerberos â€“ protocolo de autenticaciÃ³n en redes corporativas servidor de radios Servidor RADIUS â€“ servidor de autenticaciÃ³n para redes Wi-Fi empresariales crack (ataque wpa2) KRACK (Key Reinstallation Attack ) â€“ ataque al handshake de WPA2 kiss me Kismet â€“ herramienta de detecciÃ³n de redes y dispositivos inalÃ¡mbricos oswp / ofensiv security wireless pen test OSWP (Offensive Security Wireless Professional) â€“ certificaciÃ³n de redes Wi-Fi wifi labs Wi-Fi Labs â€“ plataforma virtual de prÃ¡ctica en auditorÃ­as Wi-Fi rc de RCE (Remote Code Execution ) â€“ ejecuciÃ³n remota de cÃ³digo emt guiÃ³n bajo madrid EMT_Madrid â€“ SSID de la red Wi-Fi gratuita de los autobuses de Madrid Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n aplicaciÃ³n foca de ser FOCA “ herramienta de extracciÃ³n de metadatos de documentos webgoat WebGoat “ aplicaciÃ³n vulnerable deliberadamente para prÃ¡ctica de pentesting web querberos / querberos Kerberos “ protocolo de autenticaciÃ³n en redes corporativas servidor de radios Servidor RADIUS “ servidor de autenticaciÃ³n para redes Wi-Fi empresariales crack (ataque wpa2) KRACK (Key Reinstallation Attack ) “ ataque al handshake de WPA2 kiss me Kismet “ herramienta de detecciÃ³n de redes y dispositivos inalÃ¡mbricos oswp / ofensiv security wireless pen test OSWP (Offensive Security Wireless Professional) “ certificaciÃ³n de redes Wi-Fi wifi labs Wi-Fi Labs “ plataforma virtual de prÃ¡ctica en auditorÃ­as Wi-Fi rc de RCE (Remote Code Execution ) “ ejecuciÃ³n remota de cÃ³digo emt guiÃ³n bajo madrid EMT_Madrid “ SSID de la red Wi-Fi gratuita de los autobuses de Madrid Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 6: AuditorÃ­as de CÃ³digo, IoT, Cloud y Bastionado MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 6: AuditorÃ­as de CÃ³digo, IoT, Cloud y Bastionado MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n Esta sesiÃ³n repasa cuatro tipologÃ­as de auditorÃ­a del Red Team menos comunes que las anteriores pero con gran potencial de especializaciÃ³n: auditorÃ­a de cÃ³digo, auditorÃ­a IoT, auditorÃ­a Cloud y bastionado.
 
@@ -757,21 +757,21 @@ ConfiguraciÃ³n de red y firewall: - PolÃ­tica whitelist: solo permitir las c
 
 Registros y monitorizaciÃ³n: - Registrar todos los eventos importantes: accesos fallidos, cambios de configuraciÃ³n, actividad en puertos crÃ­ticos. - RetenciÃ³n de logs durante 3 aÃ±os como mÃ­nimo segÃºn normativa. - IntegraciÃ³n con SIEM para anÃ¡lisis en tiempo real. - Un sistema bastionado bien monitorizado puede usarse como honeypot para estudiar el comportamiento de los atacantes con total seguridad. 11.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n WAPTOP10 / no was top ten OWASP Top 10 â€“ estÃ¡ndar de vulnerabilidades en aplicaciones web Source Sonar Cube SonarQube â€“ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo Checkmark Checkmarx â€“ herramienta de anÃ¡lisis de seguridad en cÃ³digo fuente Coverti de sinopsis / BlackDuck Coverity + Black Duck (Synopsys) â€“ herramientas de anÃ¡lisis de composiciÃ³n de software Log4G Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en librerÃ­a Java bing walk / firm analyzer Binwalk y Firmwalker â€“ herramientas de anÃ¡lisis de firmware IoT jota tajos los guard JTAG â€“ puerto de depuraciÃ³n hardware utilizado para extraer firmware finware / fin de Firmware â€“ software embebido que controla el hardware de un dispositivo anti tamper Anti-tamper â€“ mecanismos de resistencia a manipulaciones fÃ­sicas UAV UA V (Unmanned Aerial Vehicle ) â€“ vehÃ­culo aÃ©reo no tripulado / dron de reconocimiento ayam / iam IAM (Identity and Access Management ) â€“ gestiÃ³n de identidades en entornos cloud vpc VPC (Virtual Private Cloud ) â€“ red privada virtual en entornos cloud es plan Splunk â€“ plataforma SIEM de anÃ¡lisis de logs cloud watch AWS CloudWatch â€“ servicio de 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n WAPTOP10 / no was top ten OWASP Top 10 “ estÃ¡ndar de vulnerabilidades en aplicaciones web Source Sonar Cube SonarQube “ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo Checkmark Checkmarx “ herramienta de anÃ¡lisis de seguridad en cÃ³digo fuente Coverti de sinopsis / BlackDuck Coverity + Black Duck (Synopsys) “ herramientas de anÃ¡lisis de composiciÃ³n de software Log4G Log4Shell / Log4j “ vulnerabilidad crÃ­tica en librerÃ­a Java bing walk / firm analyzer Binwalk y Firmwalker “ herramientas de anÃ¡lisis de firmware IoT jota tajos los guard JTAG “ puerto de depuraciÃ³n hardware utilizado para extraer firmware finware / fin de Firmware “ software embebido que controla el hardware de un dispositivo anti tamper Anti-tamper “ mecanismos de resistencia a manipulaciones fÃ­sicas UAV UA V (Unmanned Aerial Vehicle ) “ vehÃ­culo aÃ©reo no tripulado / dron de reconocimiento ayam / iam IAM (Identity and Access Management ) “ gestiÃ³n de identidades en entornos cloud vpc VPC (Virtual Private Cloud ) “ red privada virtual en entornos cloud es plan Splunk “ plataforma SIEM de anÃ¡lisis de logs cloud watch AWS CloudWatch “ servicio de 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n monitorizaciÃ³n de Amazon Web Services sien SIEM (Security Information and Event Management) â€“ sistema de gestiÃ³n de eventos de seguridad CCN / guÃ­as de CCN CCN-CERT â€“ Centro CriptolÃ³gico Nacional, organismo de ciberseguridad del CNI espaÃ±ol nesus open bar Nessus y OpenV AS â€“ escÃ¡neres de vulnerabilidades aura ring Oura Ring â€“ dispositivo IoT de monitorizaciÃ³n de salud tpv / atm TPV (Terminal Punto de Venta) / ATM (cajero automÃ¡tico) ya war / type x type f Jaguar F-Type / I-Pace â€“ vehÃ­culos elÃ©ctricos conectados mencionados como ejemplo de hackeo Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n monitorizaciÃ³n de Amazon Web Services sien SIEM (Security Information and Event Management) “ sistema de gestiÃ³n de eventos de seguridad CCN / guÃ­as de CCN CCN-CERT “ Centro CriptolÃ³gico Nacional, organismo de ciberseguridad del CNI espaÃ±ol nesus open bar Nessus y OpenV AS “ escÃ¡neres de vulnerabilidades aura ring Oura Ring “ dispositivo IoT de monitorizaciÃ³n de salud tpv / atm TPV (Terminal Punto de Venta) / ATM (cajero automÃ¡tico) ya war / type x type f Jaguar F-Type / I-Pace “ vehÃ­culos elÃ©ctricos conectados mencionados como ejemplo de hackeo Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 7: Ejercicios de Red Team, TIBER-EU y Car Hacking MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 7: Ejercicios de Red Team, TIBER-EU y Car Hacking MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: el Red Team como cumbre de la ciberseguridad ofensiva Los ejercicios de Red Team representan la auditorÃ­a mÃ¡xima dentro de la ciberseguridad ofensiva.
 
-A diferencia de un pentesting estÃ¡ndar â€”que audita activos concretos con alcance limitadoâ€”, un ejercicio de Red Team simula un ataque real y completo de un grupo de ciberdelincuentes sin limitaciones iniciales: ingenierÃ­a social, intrusiones fÃ­sicas, robo de equipos, uso de ganzÃºas, manipulaciÃ³n de cÃ¡maras, explotaciÃ³n de vulnerabilidades externas e internas, todo integrado en un Ãºnico ejercicio.
+A diferencia de un pentesting estÃ¡ndar —que audita activos concretos con alcance limitado—, un ejercicio de Red Team simula un ataque real y completo de un grupo de ciberdelincuentes sin limitaciones iniciales: ingenierÃ­a social, intrusiones fÃ­sicas, robo de equipos, uso de ganzÃºas, manipulaciÃ³n de cÃ¡maras, explotaciÃ³n de vulnerabilidades externas e internas, todo integrado en un Ãºnico ejercicio.
 
 Combinan todas las auditorÃ­as vistas anteriormente (redes internas, externas, web, Wi-Fi, IoT, cloud, bastionado) adaptÃ¡ndose dinÃ¡micamente a las circunstancias que surgen durante el ejercicio.
 
-Los ejercicios de Red Team estÃ¡n pensados para organizaciones con un nivel de madurez en ciberseguridad alto y su coste ronda los 150 000 â€“ 250 000 â‚¬ , con equipos de tres o mÃ¡s perfiles trabajando durante al menos tres meses. 2.
+Los ejercicios de Red Team estÃ¡n pensados para organizaciones con un nivel de madurez en ciberseguridad alto y su coste ronda los 150 000 “ 250 000 â‚¬ , con equipos de tres o mÃ¡s perfiles trabajando durante al menos tres meses. 2.
 
-Fases de un ejercicio de Red Team Fase 1 â€“ Reconocimiento amplio (primer mes completo) Es la fase mÃ¡s importante para el Ã©xito del ejercicio.
+Fases de un ejercicio de Red Team Fase 1 “ Reconocimiento amplio (primer mes completo) Es la fase mÃ¡s importante para el Ã©xito del ejercicio.
 
 Se construye un mapa completo de la organizaciÃ³n usando:
 - OSINT (Open Source Intelligence ): identificaciÃ³n de correos electrÃ³nicos, dominios,
@@ -783,7 +783,7 @@ foco de ataque por la cadena de suministro.
 - Especial atenciÃ³n a los portales de acceso remoto (Citrix, Outlook, WPAdmin, VPN,
 RDP) como vectores de entrada prioritarios. 1
 
-Fase 2 â€“ AnÃ¡lisis de la superficie de ataque Con la informaciÃ³n del reconocimiento se priorizan y categorizan los vectores de entrada:
+Fase 2 “ AnÃ¡lisis de la superficie de ataque Con la informaciÃ³n del reconocimiento se priorizan y categorizan los vectores de entrada:
 - Credenciales filtradas en bases de datos pÃºblicas y de la dark web (BreachForums, etc.).
 - Configuraciones inseguras y accesos remotos expuestos.
 - AnÃ¡lisis de las polÃ­ticas de contraseÃ±as deducibles de las credenciales filtradas para crear
@@ -791,7 +791,7 @@ diccionarios personalizados.
 
 ### Caso real: compromiso completo de una organizaciÃ³n a travÃ©s de un portal Citrix con credenciales obtenidas por phishing y reutilizaciÃ³n de contraseÃ±as no conectadas por LDAP al Active Directory.
 
-Fase 3 â€“ ExplotaciÃ³n inicial (acceso a la red interna) Los tres vectores principales para conseguir el acceso inicial son:
+Fase 3 “ ExplotaciÃ³n inicial (acceso a la red interna) Los tres vectores principales para conseguir el acceso inicial son:
 - Phishing avanzado / ingenierÃ­a social : robo de credenciales para reutilizarlas en
 portales corporativos.
 - ExplotaciÃ³n de vulnerabilidades conocidas : servicios desactualizados identificados en
@@ -799,7 +799,7 @@ la fase de reconocimiento.
 - Compromiso de proveedores o socios con acceso a la organizaciÃ³n (cadena de
 suministro).
 
-Fase 4 â€“ Movimiento lateral y escalada de privilegios Una vez dentro de la red interna:
+Fase 4 “ Movimiento lateral y escalada de privilegios Una vez dentro de la red interna:
 - Escaneo interno para identificar servidores, bases de datos y estaciones de trabajo
 administrativas.
 - Uso de Mimikatz para volcar credenciales de la memoria RAM de Windows (hashes y
@@ -811,7 +811,7 @@ en claro.
 - CreaciÃ³n de backdoors y cuentas ocultas para mantener persistencia y acceso continuo
 aunque se detecte alguno de los vectores.
 
-Fase 5 â€“ ExfiltraciÃ³n de datos y simulaciÃ³n del impacto Un Red Team debe demostrar el daÃ±o real posible, no solo el acceso:
+Fase 5 “ ExfiltraciÃ³n de datos y simulaciÃ³n del impacto Un Red Team debe demostrar el daÃ±o real posible, no solo el acceso:
 - ExfiltraciÃ³n de datos crÃ­ticos usando canales cifrados y protocolos no convencionales
 para evadir los controles de seguridad.
 - SimulaciÃ³n de ransomware real (controlado): el equipo ha llegado a cifrar empresas
@@ -819,7 +819,7 @@ enteras y paralizar su producciÃ³n durante dos dÃ­as para demostrar el impac
 - DemostraciÃ³n de la posibilidad de cifrar todos los servidores y exfiltrar datos sensibles
 (ej. expedientes de clientes en sector legal).
 
-Fase 6 â€“ DetecciÃ³n, evasiÃ³n y generaciÃ³n de IOCs
+Fase 6 “ DetecciÃ³n, evasiÃ³n y generaciÃ³n de IOCs
 - Se evalÃºan las capacidades de detecciÃ³n del Blue Team.
 
 Solo el responsable mÃ¡ximo del
@@ -918,11 +918,11 @@ Es posible falsificar sus lecturas (ej. emitir ondas que engaÃ±en al sensor de
 
 Cierre: resumen de auditorÃ­as del Red Team El profesor hace balance de las diez tipologÃ­as cubiertas en el mÃ³dulo de Red Team: 1.AuditorÃ­a de redes internas 2.AuditorÃ­a de redes externas 3.AuditorÃ­a de aplicaciones web 4.AuditorÃ­a de cÃ³digo 5.AuditorÃ­a de redes Wi-Fi 6.AuditorÃ­as IoT 7.AuditorÃ­as Cloud 8.Bastionado 9.Ejercicios de Red Team avanzado y TIBER-EU 10.Car Hacking La siguiente sesiÃ³n se dedicarÃ¡ al Blue Team (arquitecturas seguras, monitorizaciÃ³n 24/7, normativa) y al Purple Team (forense, DevSecOps, respuesta a incidentes). 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n auditorio de ciberseguridad Auditor de ciberseguridad CVs CVEs (Common Vulnerabilities and Exposures) â€“ identificadores de vulnerabilidades Mimikatz Mimikatz â€“ herramienta correcta; extrae credenciales y hashes de la memoria de Windows pass de hash Pass-the-Hash â€“ tÃ©cnica de reutilizaciÃ³n de hashes de contraseÃ±as sin conocerlas en claro Active Domain Admits Active Directory Domain Admins â€“ administradores de dominio en Active Directory IOCs IOCs (Indicators of Compromise ) â€“ indicadores de compromiso para detecciÃ³n futura tiberego / tiberiu / tiber.eu TIBER-EU â€“ marco del BCE para pruebas de ciberresiliencia en banca y seguros Assummed Bridge / Bridge Asylum Assumed Breach â€“ escenario en que se asume que el atacante ya tiene acceso inicial summit bridge Assumed Breach â€“ mismo concepto C4G / Log4G Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en librerÃ­a Java APTs APTs (Advanced Persistent Threats ) â€“ grupos 6
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n auditorio de ciberseguridad Auditor de ciberseguridad CVs CVEs (Common Vulnerabilities and Exposures) “ identificadores de vulnerabilidades Mimikatz Mimikatz “ herramienta correcta; extrae credenciales y hashes de la memoria de Windows pass de hash Pass-the-Hash “ tÃ©cnica de reutilizaciÃ³n de hashes de contraseÃ±as sin conocerlas en claro Active Domain Admits Active Directory Domain Admins “ administradores de dominio en Active Directory IOCs IOCs (Indicators of Compromise ) “ indicadores de compromiso para detecciÃ³n futura tiberego / tiberiu / tiber.eu TIBER-EU “ marco del BCE para pruebas de ciberresiliencia en banca y seguros Assummed Bridge / Bridge Asylum Assumed Breach “ escenario en que se asume que el atacante ya tiene acceso inicial summit bridge Assumed Breach “ mismo concepto C4G / Log4G Log4Shell / Log4j “ vulnerabilidad crÃ­tica en librerÃ­a Java APTs APTs (Advanced Persistent Threats ) “ grupos 6
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n de atacantes avanzados y persistentes TTPs TTPs (Tactics, Techniques and Procedures ) â€“ tÃ¡cticas, tÃ©cnicas y procedimientos de los atacantes CAN Bus / Cambus CAN Bus (Controller Area Network ) â€“ bus de datos interno del vehÃ­culo ECUs / EQUUS ECUs (Electronic Control Units ) â€“ centralitas electrÃ³nicas del vehÃ­culo ADAS ADAS (Advanced Driver Assistance Systems ) â€“ sistemas avanzados de asistencia a la conducciÃ³n OTA OTA (Over-the-Air) â€“ actualizaciones remotas de firmware en vehÃ­culos OBD2 OBD2 (On-Board Diagnostics II ) â€“ puerto de diagnÃ³stico estÃ¡ndar de los vehÃ­culos fliper 0 Flipper Zero â€“ dispositivo de hacking de radiofrecuencia y protocolos inalÃ¡mbricos Blueborn BlueBorne â€“ ataque de RCE a travÃ©s del protocolo Bluetooth Bluetooth BLE Bluetooth Low Energy (BLE) â€“ versiÃ³n de Bluetooth optimizada para IoT sniping / snifar Sniffing â€“ captura y anÃ¡lisis de trÃ¡fico de red o bus de datos fuzzing de protocolos Protocol Fuzzing â€“ tÃ©cnica de inyecciÃ³n de datos malformados para encontrar vulnerabilidades reversing Reverse Engineering â€“ ingenierÃ­a inversa de software o firmware EDR EDR (Endpoint Detection and Response ) â€“ soluciÃ³n de seguridad en endpoints Tarlogic Tarlogic â€“ empresa espaÃ±ola de ciberseguridad destacada en Red Team Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 7
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n de atacantes avanzados y persistentes TTPs TTPs (Tactics, Techniques and Procedures ) “ tÃ¡cticas, tÃ©cnicas y procedimientos de los atacantes CAN Bus / Cambus CAN Bus (Controller Area Network ) “ bus de datos interno del vehÃ­culo ECUs / EQUUS ECUs (Electronic Control Units ) “ centralitas electrÃ³nicas del vehÃ­culo ADAS ADAS (Advanced Driver Assistance Systems ) “ sistemas avanzados de asistencia a la conducciÃ³n OTA OTA (Over-the-Air) “ actualizaciones remotas de firmware en vehÃ­culos OBD2 OBD2 (On-Board Diagnostics II ) “ puerto de diagnÃ³stico estÃ¡ndar de los vehÃ­culos fliper 0 Flipper Zero “ dispositivo de hacking de radiofrecuencia y protocolos inalÃ¡mbricos Blueborn BlueBorne “ ataque de RCE a travÃ©s del protocolo Bluetooth Bluetooth BLE Bluetooth Low Energy (BLE) “ versiÃ³n de Bluetooth optimizada para IoT sniping / snifar Sniffing “ captura y anÃ¡lisis de trÃ¡fico de red o bus de datos fuzzing de protocolos Protocol Fuzzing “ tÃ©cnica de inyecciÃ³n de datos malformados para encontrar vulnerabilidades reversing Reverse Engineering “ ingenierÃ­a inversa de software o firmware EDR EDR (Endpoint Detection and Response ) “ soluciÃ³n de seguridad en endpoints Tarlogic Tarlogic “ empresa espaÃ±ola de ciberseguridad destacada en Red Team Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 7
 
-Resumen â€“ Clase 8: Blue Team â€“ Arquitecturas Seguras y MonitorizaciÃ³n SOC 24/7 MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 8: Blue Team “ Arquitecturas Seguras y MonitorizaciÃ³n SOC 24/7 MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n al Blue Team El Blue Team es el equipo encargado de la defensa dentro de una organizaciÃ³n.
 
@@ -1008,7 +1008,7 @@ Las fuentes de datos que analiza un SOC incluyen: endpoints (equipos de trabajo 
 
 No basta con monitorizar solo el perÃ­metro externo: es fundamental monitorizar tambiÃ©n el interior (Assumed Breach). 6.
 
-Los tres perfiles del SOC: N1, N2 y N3 Perfil N1 â€“ Analista Junior: Perfil de inicio, sin experiencia previa.
+Los tres perfiles del SOC: N1, N2 y N3 Perfil N1 “ Analista Junior: Perfil de inicio, sin experiencia previa.
 
 Gestiona el mayor volumen de alertas siguiendo hojas de ruta (playbooks) predefinidas para cada tipo de incidente.
 
@@ -1016,13 +1016,13 @@ ActÃºa como filtro: analiza la alerta, aplica el procedimiento establecido y l
 
 Aunque el trabajo parece mecÃ¡nico, proporciona una visibilidad enorme sobre los patrones de ataque reales (quÃ© IPs atacan, quÃ© tÃ©cnicas usan, quÃ© formularios web son objetivos frecuentes de SQL Injection, etc.).
 
-Perfil N2 â€“ Analista Senior: Perfil mÃ¡s autÃ³nomo.
+Perfil N2 “ Analista Senior: Perfil mÃ¡s autÃ³nomo.
 
 No solo sigue el playbook sino que actÃºa directamente sobre las tecnologÃ­as: configura reglas en firewalls (Fortinet, Palo Alto, Check Point, Microsoft Defender), bloquea geolocalizaciones, investiga alertas complejas.
 
 Trabaja directamente con la tecnologÃ­a de seguridad, lo que le da un conocimiento muy valioso para el hacking ofensivo posterior (quien sabe configurar y desactivar un Fortinet sabe cÃ³mo atacarlo).
 
-Perfil N3 â€“ Experto / Respuesta ante Incidentes: El nivel mÃ¡s alto.
+Perfil N3 “ Experto / Respuesta ante Incidentes: El nivel mÃ¡s alto.
 
 Perfil hÃ­brido ofensivo- defensivo-forense con varios aÃ±os de experiencia.
 
@@ -1066,27 +1066,27 @@ Es el equipo que, en los ejercicios TIBER-EU, proporciona al Red Team toda la su
 
 ## 10.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Loitek / PemegÃ© Deloitte y PwC â€“ consultoras de ciberseguridad (Big Four) shock / soc SOC (Security Operations Center ) â€“ centro de operaciones de seguridad white shark Wireshark â€“ herramienta de anÃ¡lisis de paquetes de red soars SOAR (Security Orchestration, Automation and Response) â€“ automatizaciÃ³n de respuesta a incidentes street intelligence Threat Intelligence â€“ inteligencia de amenazas si en edr / si en soar SIEM (Security Information and Event Management) + EDR (Endpoint Detection and Response) ndr sensi mc en ips NDR (Network Detection and Response ), UEBA, IPS â€“ tecnologÃ­as de detecciÃ³n de red gerberos / que veros Kerberos â€“ protocolo de autenticaciÃ³n en redes corporativas Kibana Kibana â€“ plataforma de visualizaciÃ³n de datos y logs (parte del stack ELK) capÃ©is / capeis KPIs (Key Performance Indicators ) â€“ indicadores clave de rendimiento s la / sla SLA (Service Level Agreement ) â€“ acuerdo de nivel de servicio / tiempo lÃ­mite de actuaciÃ³n ae 256 AES-256 â€“ algoritmo de cifrado simÃ©trico estÃ¡ndar teles 1.2 o 1.3 TLS 1.2 / TLS 1.3 â€“ protocolos de cifrado de comunicaciones jaseo Hashing â€“ funciÃ³n de resumen criptogrÃ¡fico (ej.
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Loitek / PemegÃ© Deloitte y PwC “ consultoras de ciberseguridad (Big Four) shock / soc SOC (Security Operations Center ) “ centro de operaciones de seguridad white shark Wireshark “ herramienta de anÃ¡lisis de paquetes de red soars SOAR (Security Orchestration, Automation and Response) “ automatizaciÃ³n de respuesta a incidentes street intelligence Threat Intelligence “ inteligencia de amenazas si en edr / si en soar SIEM (Security Information and Event Management) + EDR (Endpoint Detection and Response) ndr sensi mc en ips NDR (Network Detection and Response ), UEBA, IPS “ tecnologÃ­as de detecciÃ³n de red gerberos / que veros Kerberos “ protocolo de autenticaciÃ³n en redes corporativas Kibana Kibana “ plataforma de visualizaciÃ³n de datos y logs (parte del stack ELK) capÃ©is / capeis KPIs (Key Performance Indicators ) “ indicadores clave de rendimiento s la / sla SLA (Service Level Agreement ) “ acuerdo de nivel de servicio / tiempo lÃ­mite de actuaciÃ³n ae 256 AES-256 “ algoritmo de cifrado simÃ©trico estÃ¡ndar teles 1.2 o 1.3 TLS 1.2 / TLS 1.3 “ protocolos de cifrado de comunicaciones jaseo Hashing “ funciÃ³n de resumen criptogrÃ¡fico (ej.
 
-SHA-256) ids y vps IDS/IPS (Intrusion Detection/Prevention Systems) â€“ sistemas de detecciÃ³n y prevenciÃ³n de intrusiones dmc / DMZ DMZ (Demilitarized Zone ) â€“ zona desmilitarizada, segmento de red entre internet y la red interna dockers Docker â€“ plataforma de contenedores para despliegue de aplicaciones on premio / un premio On-premise â€“ infraestructura tecnolÃ³gica alojada en las instalaciones propias de la empresa pc y dss PCI DSS (Payment Card Industry Data Security Standard) â€“ norma de seguridad para 5
+SHA-256) ids y vps IDS/IPS (Intrusion Detection/Prevention Systems) “ sistemas de detecciÃ³n y prevenciÃ³n de intrusiones dmc / DMZ DMZ (Demilitarized Zone ) “ zona desmilitarizada, segmento de red entre internet y la red interna dockers Docker “ plataforma de contenedores para despliegue de aplicaciones on premio / un premio On-premise “ infraestructura tecnolÃ³gica alojada en las instalaciones propias de la empresa pc y dss PCI DSS (Payment Card Industry Data Security Standard) “ norma de seguridad para 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n datos de tarjetas n map Nmap â€“ herramienta de escaneo de puertos y servicios Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n datos de tarjetas n map Nmap “ herramienta de escaneo de puertos y servicios Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 9: Normativas de Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 9: Normativas de Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: por quÃ© importan las normativas Las normativas de ciberseguridad son el motor que obliga a las empresas a invertir en protecciÃ³n digital.
 
-Sin obligaciÃ³n legal, la gran mayorÃ­a no invertirÃ­a en ciberseguridad, al considerarla un gasto innecesario â€” hasta que sufren un ataque.
+Sin obligaciÃ³n legal, la gran mayorÃ­a no invertirÃ­a en ciberseguridad, al considerarla un gasto innecesario — hasta que sufren un ataque.
 
 Para los profesionales del sector, cada nueva normativa es una oportunidad de negocio directa: genera demanda de auditorÃ­as tÃ©cnicas, vigilancia digital, monitorizaciÃ³n, formaciÃ³n y adecuaciÃ³n normativa.
 
-Estrategia comercial clave del profesor: el primer servicio que se vende a un nuevo cliente es un anÃ¡lisis GAP normativo â€” un diagnÃ³stico de los controles que la empresa incumple â€” que despuÃ©s se convierte en el punto de entrada para vender todos los demÃ¡s servicios tÃ©cnicos y de adecuaciÃ³n (cross-selling).
+Estrategia comercial clave del profesor: el primer servicio que se vende a un nuevo cliente es un anÃ¡lisis GAP normativo — un diagnÃ³stico de los controles que la empresa incumple — que despuÃ©s se convierte en el punto de entrada para vender todos los demÃ¡s servicios tÃ©cnicos y de adecuaciÃ³n (cross-selling).
 
 La normativa tambiÃ©n crea fidelizaciÃ³n: las certificaciones requieren mantenimiento anual, lo que garantiza contratos recurrentes.
 
 Las normativas de ciberseguridad establecen un conjunto de polÃ­ticas, estÃ¡ndares y lineamientos diseÃ±ados para proteger la trÃ­ada CIA: Confidencialidad, Integridad y Disponibilidad de los sistemas y los datos. 2.
 
-ISO/IEC 27001 â€“ Sistema de GestiÃ³n de la Seguridad de la InformaciÃ³n (SGSI) Â¿QuÃ© es?
+ISO/IEC 27001 “ Sistema de GestiÃ³n de la Seguridad de la InformaciÃ³n (SGSI) Â¿QuÃ© es?
 
 EstÃ¡ndar internacional para la gestiÃ³n de la seguridad de la informaciÃ³n.
 
@@ -1104,7 +1104,7 @@ Una empresa que dice hacer auditorÃ­as pero no tiene informe de una empresa te
 
 ## 3.
 
-RGPD / GDPR â€“ Reglamento General de ProtecciÃ³n de Datos Â¿QuÃ© es?
+RGPD / GDPR “ Reglamento General de ProtecciÃ³n de Datos Â¿QuÃ© es?
 
 RegulaciÃ³n de la UniÃ³n Europea sobre protecciÃ³n de datos personales.
 
@@ -1122,7 +1122,7 @@ En la prÃ¡ctica, casi cualquier negocio (e-commerce, consultorÃ­a, hosteler�
 
 Realidad: segÃºn el profesor, es la norma que peor se cumple a nivel europeo, lo que explica el elevado nÃºmero de brechas de seguridad. 4.
 
-PCI DSS â€“ EstÃ¡ndar de Seguridad de Datos para Tarjetas de Pago Â¿QuÃ© es?
+PCI DSS “ EstÃ¡ndar de Seguridad de Datos para Tarjetas de Pago Â¿QuÃ© es?
 
 EstÃ¡ndar para la protecciÃ³n de datos en transacciones de pago con tarjeta.
 
@@ -1142,7 +1142,7 @@ Especialmente relevante para el sector bancario y empresas de desarrollo de soft
 
 En foros de la dark web se venden constantemente datos de tarjetas para este fin. 5.
 
-ENS â€“ Esquema Nacional de Seguridad Â¿QuÃ© es?
+ENS “ Esquema Nacional de Seguridad Â¿QuÃ© es?
 
 Marco normativo espaÃ±ol que establece los principios y requisitos de seguridad para proteger los sistemas de informaciÃ³n de las administraciones pÃºblicas espaÃ±olas y sus 2
 
@@ -1160,7 +1160,7 @@ AdemÃ¡s, el ENS requiere mantenimiento anual (monitorizaciÃ³n, vigilancia di
 
 Salidas profesionales vinculadas: responsable de ciberseguridad interno en administraciones pÃºblicas, y perfiles que se especializan y luego opositan a cuerpos de seguridad del Estado (PolicÃ­a Nacional, Guardia Civil, EjÃ©rcito) para desempeÃ±ar labores de ciberseguridad. 6.
 
-DORA â€“ Digital Operational Resilience Act Â¿QuÃ© es?
+DORA “ Digital Operational Resilience Act Â¿QuÃ© es?
 
 Normativa de la UniÃ³n Europea que regula la resiliencia operativa digital del sector financiero.
 
@@ -1186,7 +1186,7 @@ EntrÃ³ en vigor en 2025.
 
 Las pymes proveedoras de bancos tambiÃ©n estÃ¡n obligadas a cumplirla bajo riesgo de perder a su Ãºnico cliente. 7.
 
-NIS 2 â€“ Network and Information Security Directive (versiÃ³n 2) Â¿QuÃ© es?
+NIS 2 “ Network and Information Security Directive (versiÃ³n 2) Â¿QuÃ© es?
 
 ActualizaciÃ³n de la Directiva NIS de la UE, que establece requisitos de ciberseguridad para entidades que operan en sectores crÃ­ticos.
 
@@ -1212,11 +1212,11 @@ Normativa Ãmbito geogrÃ¡ficoSector Obligatoriedad Enfoque principal prÃ¡c
 
 Banco Santander o BBV A con contratos pÃºblicos): obligado a cumplir simultÃ¡neamente con NIS 2 + DORA + ENS + ISO 27001 (esta Ãºltima voluntaria pero prÃ¡cticamente obligatoria en la prÃ¡ctica). 9.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Ciudad de Seguridad Ciberseguridad threat haunting Threat Hunting â€“ bÃºsqueda proactiva de amenazas en redes y sistemas mis dos / la mis dos / niz 2 NIS 2 â€“ Directiva europea de seguridad de redes e informaciÃ³n (versiÃ³n 2) dora 2 DORA (Digital Operational Resilience Act ) â€“ normativa de resiliencia digital para banca y seguros sgs y SGSI (Sistema de GestiÃ³n de la Seguridad de la InformaciÃ³n) â€“ marco de gestiÃ³n de ISO 27001 log lo gp / ley y el cumplimiento de protecciÃ³n de datosLOPD (antigua Ley OrgÃ¡nica de ProtecciÃ³n de Datos, sustituida por el RGPD/GDPR) trÃ­ada del cia TrÃ­ada CIA â€“ Confidencialidad, Integridad y Disponibilidad anÃ¡lisis gap AnÃ¡lisis GAP â€“ diagnÃ³stico de brechas entre el estado actual y los requisitos normativos 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Ciudad de Seguridad Ciberseguridad threat haunting Threat Hunting “ bÃºsqueda proactiva de amenazas en redes y sistemas mis dos / la mis dos / niz 2 NIS 2 “ Directiva europea de seguridad de redes e informaciÃ³n (versiÃ³n 2) dora 2 DORA (Digital Operational Resilience Act ) “ normativa de resiliencia digital para banca y seguros sgs y SGSI (Sistema de GestiÃ³n de la Seguridad de la InformaciÃ³n) “ marco de gestiÃ³n de ISO 27001 log lo gp / ley y el cumplimiento de protecciÃ³n de datosLOPD (antigua Ley OrgÃ¡nica de ProtecciÃ³n de Datos, sustituida por el RGPD/GDPR) trÃ­ada del cia TrÃ­ada CIA “ Confidencialidad, Integridad y Disponibilidad anÃ¡lisis gap AnÃ¡lisis GAP “ diagnÃ³stico de brechas entre el estado actual y los requisitos normativos 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n cross selling / lab selling Cross-selling â€“ venta cruzada de servicios complementarios tiber ewe TIBER-EU â€“ marco europeo de pruebas de Red Team para banca y seguros carding Carding â€“ fraude basado en la duplicaciÃ³n y uso ilÃ­cito de datos de tarjetas de crÃ©dito bank inter / banquinter Bankinter â€“ entidad bancaria espaÃ±ola bb vea BBV A â€“ entidad bancaria espaÃ±ola ccn CCN-CERT (Centro CriptolÃ³gico Nacional) â€“ organismo espaÃ±ol de ciberseguridad del CNI aiso / iso ISO/IEC 27001 â€“ estÃ¡ndar internacional de seguridad de la informaciÃ³n kit digital consulting Kit Digital â€“ programa de ayudas de la UE para la digitalizaciÃ³n de pymes pc y dss PCI DSS (Payment Card Industry Data Security Standard) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n cross selling / lab selling Cross-selling “ venta cruzada de servicios complementarios tiber ewe TIBER-EU “ marco europeo de pruebas de Red Team para banca y seguros carding Carding “ fraude basado en la duplicaciÃ³n y uso ilÃ­cito de datos de tarjetas de crÃ©dito bank inter / banquinter Bankinter “ entidad bancaria espaÃ±ola bb vea BBV A “ entidad bancaria espaÃ±ola ccn CCN-CERT (Centro CriptolÃ³gico Nacional) “ organismo espaÃ±ol de ciberseguridad del CNI aiso / iso ISO/IEC 27001 “ estÃ¡ndar internacional de seguridad de la informaciÃ³n kit digital consulting Kit Digital “ programa de ayudas de la UE para la digitalizaciÃ³n de pymes pc y dss PCI DSS (Payment Card Industry Data Security Standard) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 10: Bastionado de Equipos, SegmentaciÃ³n de Redes, Firewalls y WAF MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 10: Bastionado de Equipos, SegmentaciÃ³n de Redes, Firewalls y WAF MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n Esta sesiÃ³n cierra la parte de Blue Team abordando tres servicios estrechamente relacionados: el bastionado de equipos , la segmentaciÃ³n de redes y la implementaciÃ³n de firewalls y WAF.
 
@@ -1377,11 +1377,11 @@ bastionado de equipos, segmentaciÃ³n de redes, firewalls y WAF.
 
 La siguiente sesiÃ³n abordarÃ¡ el Purple Team: forense, DevSecOps, respuesta ante incidentes y formaciÃ³n. 10.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n caud Ticket â€“ solicitud formal al servicio de soporte de IT (helpdesk) CEMS SIEM (Security Information and Event Management) â€“ sistema de gestiÃ³n de eventos de seguridad DSIPS IDS/IPS (Intrusion Detection/Prevention System) â€“ sistemas de detecciÃ³n y prevenciÃ³n de intrusiones pipotein / pipoting Pivoting â€“ tÃ©cnica de salto entre segmentos de red a travÃ©s de un equipo con doble interfaz WAV / web WAF (Web Application Firewall ) â€“ cortafuegos para aplicaciones web OAV Top 10 OWASP Top 10 â€“ estÃ¡ndar de vulnerabilidades web webWAF wafw00f â€“ herramienta de fingerprinting para identificar tecnologÃ­as de WAF cross-site script XSS (Cross-Site Scripting ) â€“ inyecciÃ³n de cÃ³digo JavaScript en aplicaciones web NG firewalls / new generation NGFW (Next-Generation Firewall ) â€“ firewall de nueva generaciÃ³n con DPI e IPS DPI DPI (Deep Packet Inspection ) â€“ inspecciÃ³n profunda del contenido de los paquetes de red any any Regla de firewall que permite todo el trÃ¡fico entrante y saliente, anulando toda la segmentaciÃ³n configurada CCN CERT CCN-CERT â€“ Centro CriptolÃ³gico Nacional, organismo de ciberseguridad del CNI espaÃ±ol Obscura Obscura â€“ tecnologÃ­a de proxy-firewall que invisibiliza segmentos de red legacy frente a escaneos Modbus Modbus â€“ protocolo de comunicaciÃ³n industrial estÃ¡ndar en redes OT/SCADA reversal Reverse shell â€“ conexiÃ³n de retorno desde el equipo comprometido al servidor del atacante rig de minerÃ­a Rig de cracking â€“ clÃºster de GPUs usado para romper hashes de contraseÃ±as RTX 3080 en serie Referencia a GPUs NVIDIA RTX 3080 usadas 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n caud Ticket “ solicitud formal al servicio de soporte de IT (helpdesk) CEMS SIEM (Security Information and Event Management) “ sistema de gestiÃ³n de eventos de seguridad DSIPS IDS/IPS (Intrusion Detection/Prevention System) “ sistemas de detecciÃ³n y prevenciÃ³n de intrusiones pipotein / pipoting Pivoting “ tÃ©cnica de salto entre segmentos de red a travÃ©s de un equipo con doble interfaz WAV / web WAF (Web Application Firewall ) “ cortafuegos para aplicaciones web OAV Top 10 OWASP Top 10 “ estÃ¡ndar de vulnerabilidades web webWAF wafw00f “ herramienta de fingerprinting para identificar tecnologÃ­as de WAF cross-site script XSS (Cross-Site Scripting ) “ inyecciÃ³n de cÃ³digo JavaScript en aplicaciones web NG firewalls / new generation NGFW (Next-Generation Firewall ) “ firewall de nueva generaciÃ³n con DPI e IPS DPI DPI (Deep Packet Inspection ) “ inspecciÃ³n profunda del contenido de los paquetes de red any any Regla de firewall que permite todo el trÃ¡fico entrante y saliente, anulando toda la segmentaciÃ³n configurada CCN CERT CCN-CERT “ Centro CriptolÃ³gico Nacional, organismo de ciberseguridad del CNI espaÃ±ol Obscura Obscura “ tecnologÃ­a de proxy-firewall que invisibiliza segmentos de red legacy frente a escaneos Modbus Modbus “ protocolo de comunicaciÃ³n industrial estÃ¡ndar en redes OT/SCADA reversal Reverse shell “ conexiÃ³n de retorno desde el equipo comprometido al servidor del atacante rig de minerÃ­a Rig de cracking “ clÃºster de GPUs usado para romper hashes de contraseÃ±as RTX 3080 en serie Referencia a GPUs NVIDIA RTX 3080 usadas 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n en paralelo para cracking de hashes eJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n de entrada en pentesting Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n en paralelo para cracking de hashes eJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n de entrada en pentesting Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 11: Purple Team â€“ DeFIR, Forense Digital, DevSecOps y FormaciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1. Â¿QuÃ© es el Purple Team?
+Resumen “ Clase 11: Purple Team “ DeFIR, Forense Digital, DevSecOps y FormaciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1. Â¿QuÃ© es el Purple Team?
 
 El Purple Team es el equipo que une las perspectivas del Red Team (ofensiva) y el Blue Team (defensiva) para maximizar la eficacia de la seguridad organizacional.
 
@@ -1395,7 +1395,7 @@ Si el Red Team usa una tÃ©cnica que evade la detecciÃ³n, el Purple Team ayud
 
 No existe una estandarizaciÃ³n universal; cada empresa y profesional puede decidir quÃ© pertenece a quÃ© equipo.
 
-Purple Team como â€œoficina de seguridadâ€ Un modelo de Purple Team muy comÃºn en las administraciones pÃºblicas son las oficinas de ciberseguridad: la empresa proveedora asume la gestiÃ³n integral de seguridad del cliente â€” perfiles normativos, auditores tÃ©cnicos de Red Team, especialistas de Blue Team para remediar hallazgos y un equipo de monitorizaciÃ³n y respuesta ante incidentes â€” de modo que la organizaciÃ³n puede despreocuparse por completo de la ciberseguridad.
+Purple Team como â€œoficina de seguridadâ€ Un modelo de Purple Team muy comÃºn en las administraciones pÃºblicas son las oficinas de ciberseguridad: la empresa proveedora asume la gestiÃ³n integral de seguridad del cliente — perfiles normativos, auditores tÃ©cnicos de Red Team, especialistas de Blue Team para remediar hallazgos y un equipo de monitorizaciÃ³n y respuesta ante incidentes — de modo que la organizaciÃ³n puede despreocuparse por completo de la ciberseguridad.
 
 > [!important] ### Elemento clave: comunicaciÃ³n constante La comunicaciÃ³n continua entre Red Team y Blue Team es imprescindible.
 
@@ -1407,7 +1407,7 @@ Se repite el ciclo, aumentando continuamente la dificultad. 1
 
 ## 2.
 
-Servicio 1: DeFIR â€“ Digital Forensics and Incident Response Â¿QuÃ© es el DeFIR?
+Servicio 1: DeFIR “ Digital Forensics and Incident Response Â¿QuÃ© es el DeFIR?
 
 El DeFIR (Digital Forensics and Incident Response ) es la unidad especializada en gestionar los aspectos crÃ­ticos de la respuesta a incidentes de ciberseguridad y la investigaciÃ³n forense digital.
 
@@ -1439,7 +1439,7 @@ Incluye: - InvestigaciÃ³n de ransomware, macrovirus o reversing de malware. - 
 
 Los peritos forenses con la certificaciÃ³n adecuada pueden testificar ante el juez, quien carece de conocimiento tÃ©cnico para interpretar los hechos por sÃ­ mismo. 3.
 
-Servicio 2: DevSecOps â€“ Desarrollo Seguro de Aplicaciones Â¿QuÃ© es DevSecOps?
+Servicio 2: DevSecOps “ Desarrollo Seguro de Aplicaciones Â¿QuÃ© es DevSecOps?
 
 DevSecOps integra la seguridad ( Sec) en cada etapa del ciclo de vida del desarrollo de software, combinando Dev (Development), Ops (Operations) y Sec (Security).
 
@@ -1507,17 +1507,17 @@ Cierre del mÃ³dulo de lÃ­neas de ciberseguridad Con esta sesiÃ³n concluye 
 
 La prÃ³xima sesiÃ³n abordarÃ¡ los tipos de hackers y, tras ello, se pasarÃ¡ definitivamente a la parte prÃ¡ctica del mÃ¡ster. 6.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n parper team / parpel team Purple Team â€“ equipo colaborativo entre Red y Blue Team equipo de decir / decir / de fir DeFIR (Digital Forensics and Incident Response) â€“ equipo de forense y respuesta ante incidentes fornse / fornise / forense digital Forense digital â€“ disciplina de investigaciÃ³n de evidencias digitales de secops / depth sec ops DevSecOps â€“ integraciÃ³n de seguridad en el ciclo de vida del desarrollo software de de box / de de ops DevOps â€“ metodologÃ­a de desarrollo y operaciones pipelines de c y cd Pipelines de CI/CD (Continuous Integration / Continuous Deployment ) â€“ integraciÃ³n y despliegue continuos sas / sars SAST (Static Application Security Testing ) â€“ anÃ¡lisis estÃ¡tico de seguridad de aplicaciones das / dust DAST (Dynamic Application Security Testing ) 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n parper team / parpel team Purple Team “ equipo colaborativo entre Red y Blue Team equipo de decir / decir / de fir DeFIR (Digital Forensics and Incident Response) “ equipo de forense y respuesta ante incidentes fornse / fornise / forense digital Forense digital “ disciplina de investigaciÃ³n de evidencias digitales de secops / depth sec ops DevSecOps “ integraciÃ³n de seguridad en el ciclo de vida del desarrollo software de de box / de de ops DevOps “ metodologÃ­a de desarrollo y operaciones pipelines de c y cd Pipelines de CI/CD (Continuous Integration / Continuous Deployment ) “ integraciÃ³n y despliegue continuos sas / sars SAST (Static Application Security Testing ) “ anÃ¡lisis estÃ¡tico de seguridad de aplicaciones das / dust DAST (Dynamic Application Security Testing ) 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n â€“ anÃ¡lisis dinÃ¡mico de seguridad de aplicaciones sonar cube SonarQube â€“ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo blackdak / black duck Black Duck (Synopsys) â€“ herramienta de anÃ¡lisis de composiciÃ³n de software cover / coverity Coverity (Synopsys) â€“ herramienta de anÃ¡lisis estÃ¡tico avanzado checkmark Checkmarx â€“ escÃ¡ner de vulnerabilidades en cÃ³digo a yam / ayam IAM (Identity and Access Management ) â€“ gestiÃ³n de identidades y accesos yam / haces Referencias a YAML e IaC (Infrastructure as Code) â€“ infraestructura como cÃ³digo cÃ­clic haunting Threat Hunting â€“ bÃºsqueda proactiva de amenazas tiberegu TIBER-EU â€“ marco europeo de ejercicios de Red Team para banca y seguros mÃ­mica / mÃ­mica 100% Mimikatz â€“ herramienta de volcado de credenciales de memoria en Windows macrovirus Macro-virus â€“ malware embebido en documentos de Office cadena de custodio Cadena de custodia â€“ protocolo forense para garantizar la integridad de las evidencias vision querying sin 20 Vishing / Quishing / Smishing â€“ variantes de ingenierÃ­a social por voz, QR y SMS log 4g Log4Shell / Log4j â€“ vulnerabilidad crÃ­tica en librerÃ­a Java xdr XDR (Extended Detection and Response ) â€“ soluciÃ³n de detecciÃ³n y respuesta extendida FNS DeFIR o DFIR â€“ Digital Forensics and Incident Response (siglas usadas indistintamente) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n “ anÃ¡lisis dinÃ¡mico de seguridad de aplicaciones sonar cube SonarQube “ herramienta de anÃ¡lisis estÃ¡tico de cÃ³digo blackdak / black duck Black Duck (Synopsys) “ herramienta de anÃ¡lisis de composiciÃ³n de software cover / coverity Coverity (Synopsys) “ herramienta de anÃ¡lisis estÃ¡tico avanzado checkmark Checkmarx “ escÃ¡ner de vulnerabilidades en cÃ³digo a yam / ayam IAM (Identity and Access Management ) “ gestiÃ³n de identidades y accesos yam / haces Referencias a YAML e IaC (Infrastructure as Code) “ infraestructura como cÃ³digo cÃ­clic haunting Threat Hunting “ bÃºsqueda proactiva de amenazas tiberegu TIBER-EU “ marco europeo de ejercicios de Red Team para banca y seguros mÃ­mica / mÃ­mica 100% Mimikatz “ herramienta de volcado de credenciales de memoria en Windows macrovirus Macro-virus “ malware embebido en documentos de Office cadena de custodio Cadena de custodia “ protocolo forense para garantizar la integridad de las evidencias vision querying sin 20 Vishing / Quishing / Smishing “ variantes de ingenierÃ­a social por voz, QR y SMS log 4g Log4Shell / Log4j “ vulnerabilidad crÃ­tica en librerÃ­a Java xdr XDR (Extended Detection and Response ) “ soluciÃ³n de detecciÃ³n y respuesta extendida FNS DeFIR o DFIR “ Digital Forensics and Incident Response (siglas usadas indistintamente) Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 12: IntroducciÃ³n a Redes MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 12: IntroducciÃ³n a Redes MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n y objetivos Esta sesiÃ³n introduce los fundamentos de redes necesarios para comprender las auditorÃ­as tÃ©cnicas.
 
 No se busca un dominio profundo (eso corresponde a ingenieros de redes), sino una base conceptual que permita identificar la infraestructura durante una auditorÃ­a, entender los protocolos que se explotan y correlacionar los conceptos con las herramientas que se usarÃ¡n a lo largo del mÃ¡ster.
 
-El triplete fundamental del mÃ¡ster que se introduce en esta sesiÃ³n es: Puerto â€“ Protocolo â€“ Servicio (PPS), que estarÃ¡ presente en el 98 % de las prÃ¡cticas de hacking ofensivo. 2.
+El triplete fundamental del mÃ¡ster que se introduce en esta sesiÃ³n es: Puerto “ Protocolo “ Servicio (PPS), que estarÃ¡ presente en el 98 % de las prÃ¡cticas de hacking ofensivo. 2.
 
 Tipos de redes Redes externas (Internet) Una organizaciÃ³n se comunica con Internet a travÃ©s de un Gateway, que es la puerta de salida de la red interna hacia el exterior.
 
@@ -1594,7 +1594,7 @@ Los ataques DoS mÃ¡s habituales actÃºan en capas 4 y 7. 4.
 Datagramas Un datagrama es la unidad de informaciÃ³n que viaja por Internet.
 
 Su estructura es:
-- Cabecera (Header) : contiene metadatos â€” IP de origen, IP de destino, tipo de
+- Cabecera (Header) : contiene metadatos — IP de origen, IP de destino, tipo de
 datagrama, etc.
 - Carga Ãºtil (Payload) : el contenido real del mensaje.
 
@@ -1629,11 +1629,11 @@ FTP) define la forma de comunicaciÃ³n; el servicio (ej.
 
 SFTP v1.3) es la implementaciÃ³n concreta que usa ese protocolo en un puerto dado. 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n IPS (empresa de telecomunicaciones) ISP (Internet Service Provider ) â€“ proveedor de servicios de Internet MTEU MTU (Maximum Transmission Unit ) â€“ tamaÃ±o mÃ¡ximo de un datagrama (1500 bytes) Abatel Adamo o Avatel â€“ operadora de telecomunicaciones espaÃ±ola multa Mullvad â€“ servicio VPN orientado al anonimato ck y el sÃ­ / ack sÃ­ SYN / SYN-ACK / ACK â€“ three-way handshake de TCP modelo o si / o si Modelo OSI (Open Systems Interconnection ) htps / htp HTTPS / HTTP â€“ protocolos web sh SSH (Secure Shell) â€“ protocolo de acceso remoto seguro y cubo W3C (World Wide Web Consortium ) â€“ organizaciÃ³n que estandariza protocolos web mÃ­mica Mimikatz â€“ herramienta de volcado de credenciales en Windows RJ45 RJ-45 â€“ conector estÃ¡ndar de cable Ethernet redes en anillo circular TopologÃ­a en anillo (ring topology) point to point TopologÃ­a punto a punto (point-to-point) red NATeada / NATeo Red NAT (Network Address Translation ) â€“ red con traducciÃ³n de direcciones de secops DevSecOps (mencionado de forma tangencial) 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n IPS (empresa de telecomunicaciones) ISP (Internet Service Provider ) “ proveedor de servicios de Internet MTEU MTU (Maximum Transmission Unit ) “ tamaÃ±o mÃ¡ximo de un datagrama (1500 bytes) Abatel Adamo o Avatel “ operadora de telecomunicaciones espaÃ±ola multa Mullvad “ servicio VPN orientado al anonimato ck y el sÃ­ / ack sÃ­ SYN / SYN-ACK / ACK “ three-way handshake de TCP modelo o si / o si Modelo OSI (Open Systems Interconnection ) htps / htp HTTPS / HTTP “ protocolos web sh SSH (Secure Shell) “ protocolo de acceso remoto seguro y cubo W3C (World Wide Web Consortium ) “ organizaciÃ³n que estandariza protocolos web mÃ­mica Mimikatz “ herramienta de volcado de credenciales en Windows RJ45 RJ-45 “ conector estÃ¡ndar de cable Ethernet redes en anillo circular TopologÃ­a en anillo (ring topology) point to point TopologÃ­a punto a punto (point-to-point) red NATeada / NATeo Red NAT (Network Address Translation ) “ red con traducciÃ³n de direcciones de secops DevSecOps (mencionado de forma tangencial) 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n data link y physical layer Capa de enlace de datos (L2) y capa fÃ­sica (L1) del modelo OSI Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n data link y physical layer Capa de enlace de datos (L2) y capa fÃ­sica (L1) del modelo OSI Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 13: Conceptos de la InformÃ¡tica Moderna MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 13: Conceptos de la InformÃ¡tica Moderna MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n Esta sesiÃ³n cubre tres bloques esenciales para el hacking ofensivo: los tres pilares de la informÃ¡tica moderna (Cloud, computaciÃ³n cuÃ¡ntica y GPUs), los conceptos clave de Windows (registros de memoria, buffer overflow y gestiÃ³n de usuarios) y los permisos y grupos en Linux (el sistema rwx).
 
@@ -1733,7 +1733,7 @@ El comando ls -la muestra estos permisos a la izquierda de cada archivo con el f
 
 Sistema de ponderaciÃ³n numÃ©rica (octal): NÃºmero Binario Permisos 4 100 Solo lectura (r) 5 101 Lectura + ejecuciÃ³n (r-x) 6 110 Lectura + escritura (rw-) 7 111 Lectura + escritura + ejecuciÃ³n (rwx) Ejemplo: chmod 777 fichero asigna todos los permisos (rwx) a los tres grupos. chmod 640 fichero asigna rw al propietario, r al grupo y ningÃºn permiso a otros.
 
-Ejemplo prÃ¡ctico (Carlos y Yuba): Permisos rw-r-xr--: - Group (Evolve, del que es miembro Carlos): rw- â†’ puede leer y escribir, pero NO ejecutar. - Owner: r-x â†’ puede leer y ejecutar, pero NO escribir. - Others (Yuba): râ€“ â†’ solo puede leer. 9.
+Ejemplo prÃ¡ctico (Carlos y Yuba): Permisos rw-r-xr--: - Group (Evolve, del que es miembro Carlos): rw- â†’ puede leer y escribir, pero NO ejecutar. - Owner: r-x â†’ puede leer y ejecutar, pero NO escribir. - Others (Yuba): r“ â†’ solo puede leer. 9.
 
 Por quÃ© los permisos de Linux son crÃ­ticos para escalada de privilegios Muchas escaladas de privilegios en Linux explotan configuraciones de permisos incorrectas:
 - Si un archivo ejecutable pertenece a root y tiene el bit SUID activado (o si others puede
@@ -1750,13 +1750,13 @@ El comando para modificar permisos es chmod (change mode).
 
 La enumeraciÃ³n de permisos se realizarÃ¡ con ls -la y otras herramientas durante las sesiones prÃ¡cticas del mÃ¡ster. 10.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n geneus / gneus GPUs (Graphics Processing Units ) â€“ unidades de procesamiento grÃ¡fico; usadas para cracking de hashes e IA mimi cats / mÃ­mica Mimikatz â€“ herramienta de volcado de credenciales y hashes de la memoria de Windows ntds punto dit ntds.dit â€“ base de datos del Active Directory que contiene todos los usuarios y hashes de contraseÃ±as hases / has rate Hashes / Hash rate â€“ resultado de una funciÃ³n criptogrÃ¡fica / velocidad de cÃ³mputo de hashes SHA256 / SHA512 / SHA128 SHA-256 / SHA-512 / SHA-128 â€“ algoritmos de hash criptogrÃ¡fico SSLTLS SSL/TLS â€“ protocolos de cifrado de comunicaciones web (el â€œcandadoâ€ HTTPS) bo buffer overflow Buffer Overflow â€“ desbordamiento de buffer, tÃ©cnica de escalada de privilegios y RCE threads / 3 Threads (hilos de ejecuciÃ³n) â€“ unidades de procesamiento paralelo de x dÃ­a dxdiag â€“ herramienta de diagnÃ³stico del sistema en Windows salto la rana / en fifo / en lifo Algoritmos de recorrido de hashes : FIFO (First In, First Out), LIFO (Last In, First Out) CGI de Linux CLI de Linux (Command Line Interface ) â€“ interfaz de lÃ­nea de comandos; el intÃ©rprete se llama Bash loaner Owner â€“ propietario de un archivo en Linux Change Mod chmod (change mode) â€“ comando Linux para cambiar permisos de archivos rig de cracking Cracking rig â€“ clÃºster de GPUs para romper hashes de contraseÃ±as (idÃ©ntico hardware a un rig de minerÃ­a) 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n geneus / gneus GPUs (Graphics Processing Units ) “ unidades de procesamiento grÃ¡fico; usadas para cracking de hashes e IA mimi cats / mÃ­mica Mimikatz “ herramienta de volcado de credenciales y hashes de la memoria de Windows ntds punto dit ntds.dit “ base de datos del Active Directory que contiene todos los usuarios y hashes de contraseÃ±as hases / has rate Hashes / Hash rate “ resultado de una funciÃ³n criptogrÃ¡fica / velocidad de cÃ³mputo de hashes SHA256 / SHA512 / SHA128 SHA-256 / SHA-512 / SHA-128 “ algoritmos de hash criptogrÃ¡fico SSLTLS SSL/TLS “ protocolos de cifrado de comunicaciones web (el â€œcandadoâ€ HTTPS) bo buffer overflow Buffer Overflow “ desbordamiento de buffer, tÃ©cnica de escalada de privilegios y RCE threads / 3 Threads (hilos de ejecuciÃ³n) “ unidades de procesamiento paralelo de x dÃ­a dxdiag “ herramienta de diagnÃ³stico del sistema en Windows salto la rana / en fifo / en lifo Algoritmos de recorrido de hashes : FIFO (First In, First Out), LIFO (Last In, First Out) CGI de Linux CLI de Linux (Command Line Interface ) “ interfaz de lÃ­nea de comandos; el intÃ©rprete se llama Bash loaner Owner “ propietario de un archivo en Linux Change Mod chmod (change mode) “ comando Linux para cambiar permisos de archivos rig de cracking Cracking rig “ clÃºster de GPUs para romper hashes de contraseÃ±as (idÃ©ntico hardware a un rig de minerÃ­a) 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n azul Azure â€“ plataforma cloud de Microsoft blockchain Blockchain â€“ cadena de bloques; tecnologÃ­a base de las criptomonedas on premise / on-premise On-premise â€“ infraestructura tecnolÃ³gica alojada fÃ­sicamente en las instalaciones propias Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n azul Azure “ plataforma cloud de Microsoft blockchain Blockchain “ cadena de bloques; tecnologÃ­a base de las criptomonedas on premise / on-premise On-premise “ infraestructura tecnolÃ³gica alojada fÃ­sicamente en las instalaciones propias Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 14: MetodologÃ­as de Pentesting y EnumeraciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 14: MetodologÃ­as de Pentesting y EnumeraciÃ³n MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
-IntroducciÃ³n: las cinco fases de la auditorÃ­a tÃ©cnica La metodologÃ­a estÃ¡ndar del pentesting se articula en cinco fases: 1.EnumeraciÃ³n (reconocimiento e informaciÃ³n) 2.ExplotaciÃ³n 3.Escalada de privilegios 4.Post-explotaciÃ³n 5.Reporte Esta sesiÃ³n se centra en la primera fase â€”la enumeraciÃ³nâ€” con Ã©nfasis en la parte pasiva y en Google Dorking.
+IntroducciÃ³n: las cinco fases de la auditorÃ­a tÃ©cnica La metodologÃ­a estÃ¡ndar del pentesting se articula en cinco fases: 1.EnumeraciÃ³n (reconocimiento e informaciÃ³n) 2.ExplotaciÃ³n 3.Escalada de privilegios 4.Post-explotaciÃ³n 5.Reporte Esta sesiÃ³n se centra en la primera fase —la enumeraciÃ³n— con Ã©nfasis en la parte pasiva y en Google Dorking.
 
 La parte activa se verÃ¡ en las sesiones prÃ¡cticas con Kali Linux y Nmap.
 
@@ -1792,7 +1792,7 @@ Sus fases principales son:
 - Descubrimiento (Discovery)
 - Movimiento lateral ( Lateral Movement)
 - RecolecciÃ³n (Collection)
-- Comando y control ( Command and Control ) â€” cuando se inyecta una shell con acceso
+- Comando y control ( Command and Control ) — cuando se inyecta una shell con acceso
 remoto
 - ExfiltraciÃ³n (Exfiltration)
 - Impacto (Impact)
@@ -1862,11 +1862,11 @@ contengan la palabra password. 4
 
 Flujo completo de enumeraciÃ³n pasiva El flujo que se sigue en una auditorÃ­a real es: 1.Buscar el dominio en Shodan â†’ obtener IPs y tecnologÃ­as. 2.Buscar el dominio en Censys â†’ ampliar la lista de IPs y servicios. 3.Enumerar subdominios con Sublist3r o fuzzing. 4.Usar Google Dorking sobre todos los dominios y subdominios encontrados. 5.Consultar Dehashed / Intelligence X para credenciales filtradas. 6.Revisar foros de la dark web para informaciÃ³n sobre la organizaciÃ³n. 7.Consolidar todo en un listado de IPs y subdominios objetivo â†’ base para la enumeraciÃ³n activa con Nmap. 8.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n weldorking / vueldo aquÃ­ / weld orking / google dos quinGoogle Dorking â€“ uso de operadores avanzados de Google para bÃºsquedas de reconocimiento was top ten / o was top ten OWASP Top 10 â€“ estÃ¡ndar de vulnerabilidades en aplicaciones web OSSTMM OSSTMM (Open Source Security Testing Methodology Manual ) â€“ metodologÃ­a de auditorÃ­a de redes mitra attack / mitre MITRE ATT&CK â€“ matriz de tÃ¡cticas y tÃ©cnicas de ciberdelincuentes reales attack punto mitre punto or attack.mitre.org â€“ web oficial de la matriz MITRE ATT&CK de hashed e inteligencia x Dehashed e Intelligence X â€“ plataformas de credenciales filtradas census / censi search Censys (search.censys.io) â€“ motor de bÃºsqueda de activos expuestos su blister Sublist3r â€“ herramienta de enumeraciÃ³n de subdominios 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n weldorking / vueldo aquÃ­ / weld orking / google dos quinGoogle Dorking “ uso de operadores avanzados de Google para bÃºsquedas de reconocimiento was top ten / o was top ten OWASP Top 10 “ estÃ¡ndar de vulnerabilidades en aplicaciones web OSSTMM OSSTMM (Open Source Security Testing Methodology Manual ) “ metodologÃ­a de auditorÃ­a de redes mitra attack / mitre MITRE ATT&CK “ matriz de tÃ¡cticas y tÃ©cnicas de ciberdelincuentes reales attack punto mitre punto or attack.mitre.org “ web oficial de la matriz MITRE ATT&CK de hashed e inteligencia x Dehashed e Intelligence X “ plataformas de credenciales filtradas census / censi search Censys (search.censys.io) “ motor de bÃºsqueda de activos expuestos su blister Sublist3r “ herramienta de enumeraciÃ³n de subdominios 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n cherry tree CherryTree â€“ herramienta de gestiÃ³n de notas y evidencias de auditorÃ­as obsidian Obsidian â€“ herramienta de gestiÃ³n de notas en formato markdown go anywhere GoAnywhere MFT â€“ plataforma de transferencia segura de archivos (detectable en Shodan) comandante control Command and Control (C2) â€“ infraestructura de control remoto del atacante cepsa / mueve Cepsa / Moeve â€“ empresa energÃ©tica espaÃ±ola usada como ejemplo de auditorÃ­a intracepsa / club front Intranet / Cloudfront â€“ portal interno y CDN de AWS not rl inurl: â€“ operador de Google Dorking para bÃºsqueda en URLs play work Prework â€“ contenido previo al inicio del mÃ¡ster estÃ© un 3 / es 3 Kali Linux â€“ distribuciÃ³n Linux orientada a pentesting Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n cherry tree CherryTree “ herramienta de gestiÃ³n de notas y evidencias de auditorÃ­as obsidian Obsidian “ herramienta de gestiÃ³n de notas en formato markdown go anywhere GoAnywhere MFT “ plataforma de transferencia segura de archivos (detectable en Shodan) comandante control Command and Control (C2) “ infraestructura de control remoto del atacante cepsa / mueve Cepsa / Moeve “ empresa energÃ©tica espaÃ±ola usada como ejemplo de auditorÃ­a intracepsa / club front Intranet / Cloudfront “ portal interno y CDN de AWS not rl inurl: “ operador de Google Dorking para bÃºsqueda en URLs play work Prework “ contenido previo al inicio del mÃ¡ster estÃ© un 3 / es 3 Kali Linux “ distribuciÃ³n Linux orientada a pentesting Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 15: MetodologÃ­as de Pentesting â€“ Deep Web y Dark Web MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 15: MetodologÃ­as de Pentesting “ Deep Web y Dark Web MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: la Deep Web como enumeraciÃ³n pasiva avanzada La Deep Web (y por extensiÃ³n la Dark Web) es la continuaciÃ³n natural de la fase de enumeraciÃ³n pasiva vista en la sesiÃ³n anterior.
 
@@ -1900,7 +1900,7 @@ Cada nodo conoce Ãºnicamente el nodo anterior y el siguiente, nunca el origen 
 
 ### Sin embargo: - Los nodos de salida (el Ãºltimo salto antes de llegar al destino en Internet) pueden desencriptar el contenido del paquete. - Muchos de estos nodos de salida estÃ¡n controlados por agencias gubernamentales (FBI, etc.). - Por tanto, el anonimato en TOR no es absoluto y no debe usarse para actividades ilegales.
 
-Buscador dentro de TOR: DuckDuckGo â€” permite buscar sin dejar rastro de cookies ni historial.
+Buscador dentro de TOR: DuckDuckGo — permite buscar sin dejar rastro de cookies ni historial.
 
 Las pÃ¡ginas .onion no estÃ¡n indexadas en ningÃºn motor de bÃºsqueda convencional; solo son accesibles con la URL exacta. 4.
 
@@ -1950,17 +1950,17 @@ Este es precisamente el tipo de automatizaciÃ³n que se construirÃ¡ a lo larg
 
 PrÃ³xima sesiÃ³n La siguiente sesiÃ³n abordarÃ¡ la fase de explotaciÃ³n (la segunda de las cinco fases), con una introducciÃ³n a las tÃ©cnicas de OPSEC (Operational Security ), seguida de la escalada de privilegios, la post-explotaciÃ³n y el reporte, completando asÃ­ el ciclo metodolÃ³gico completo. 8.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n DIG web / adic web / di web Deep Web â€“ parte no indexada de Internet; accesible sin TOR en su mayor parte DART web Dark Web â€“ subconjunto de la Deep Web accesible solo a travÃ©s de TOR/proxies; dominio .onion bridge forums / the bridge forums BreachForums â€“ foro principal de la Deep Web para filtraciÃ³n y venta de bases de datos robadas hayden Hidden â€“ referencia a hidden services (servicios ocultos) de la red TOR tor project / tor TOR (The Onion Router) â€“ red y navegador de acceso anÃ³nimo a la Deep/Dark Web dac dac go DuckDuckGo â€“ motor de bÃºsqueda sin rastreo, el mÃ¡s usado dentro del navegador TOR de haces / hashet Dehashed â€“ plataforma de bÃºsqueda de credenciales filtradas 4
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n DIG web / adic web / di web Deep Web “ parte no indexada de Internet; accesible sin TOR en su mayor parte DART web Dark Web “ subconjunto de la Deep Web accesible solo a travÃ©s de TOR/proxies; dominio .onion bridge forums / the bridge forums BreachForums “ foro principal de la Deep Web para filtraciÃ³n y venta de bases de datos robadas hayden Hidden “ referencia a hidden services (servicios ocultos) de la red TOR tor project / tor TOR (The Onion Router) “ red y navegador de acceso anÃ³nimo a la Deep/Dark Web dac dac go DuckDuckGo “ motor de bÃºsqueda sin rastreo, el mÃ¡s usado dentro del navegador TOR de haces / hashet Dehashed “ plataforma de bÃºsqueda de credenciales filtradas 4
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n intelligence ex / inteligencia ex Intelligence X â€“ plataforma de bÃºsqueda de datos e informaciÃ³n filtrada loc bit LockBit â€“ grupo de ransomware de alto impacto mundial xss.its XSS.is â€“ foro especializado en hacking ofensivo en la Deep Web carding Carding â€“ fraude mediante clonaciÃ³n y uso ilÃ­cito de datos de tarjetas de crÃ©dito robadas con vos list Wordlists â€“ diccionarios de contraseÃ±as usados para ataques de fuerza bruta y cracking OPSEC OPSEC (Operational Security ) â€“ tÃ©cnicas para mantener el anonimato y evitar ser detectado durante una operaciÃ³n obsec OPSEC â€“ misma correcciÃ³n, variante de transcripciÃ³n volve Wolf (Academy) â€“ plataforma del mÃ¡ster nodos de salida Exit nodes â€“ Ãºltimos nodos de la cadena TOR antes de salir a Internet; los mÃ¡s monitorizados por agencias gubernamentales Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 5
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n intelligence ex / inteligencia ex Intelligence X “ plataforma de bÃºsqueda de datos e informaciÃ³n filtrada loc bit LockBit “ grupo de ransomware de alto impacto mundial xss.its XSS.is “ foro especializado en hacking ofensivo en la Deep Web carding Carding “ fraude mediante clonaciÃ³n y uso ilÃ­cito de datos de tarjetas de crÃ©dito robadas con vos list Wordlists “ diccionarios de contraseÃ±as usados para ataques de fuerza bruta y cracking OPSEC OPSEC (Operational Security ) “ tÃ©cnicas para mantener el anonimato y evitar ser detectado durante una operaciÃ³n obsec OPSEC “ misma correcciÃ³n, variante de transcripciÃ³n volve Wolf (Academy) “ plataforma del mÃ¡ster nodos de salida Exit nodes “ Ãºltimos nodos de la cadena TOR antes de salir a Internet; los mÃ¡s monitorizados por agencias gubernamentales Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 5
 
-Resumen â€“ Clase 16: MetodologÃ­a de Pentesting â€“ Fases de la AuditorÃ­a TÃ©cnica MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 16: MetodologÃ­a de Pentesting “ Fases de la AuditorÃ­a TÃ©cnica MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n Esta sesiÃ³n cierra el bloque de metodologÃ­a, completando las cuatro fases que faltaban del ciclo de auditorÃ­a tÃ©cnica: explotaciÃ³n, escalada de privilegios, pivoting/post-explotaciÃ³n y reporte .
 
 Se abordan de forma conceptual porque son el nÃºcleo de la parte prÃ¡ctica del mÃ¡ster, donde se verÃ¡n en profundidad a lo largo de los seis meses. 2.
 
-Fase 2 â€“ ExplotaciÃ³n Â¿QuÃ© es la explotaciÃ³n?
+Fase 2 “ ExplotaciÃ³n Â¿QuÃ© es la explotaciÃ³n?
 
 La explotaciÃ³n consiste en conseguir un acceso no autorizado a un sistema explotando una vulnerabilidad conocida (CVE).
 
@@ -1983,7 +1983,7 @@ En una auditorÃ­a tÃ©cnica estÃ¡ndar el ruido no es problema: el auditor p
 
 ## 3.
 
-Fase 3 â€“ Escalada de Privilegios Concepto y objetivo Tras una explotaciÃ³n exitosa se suele obtener acceso con un usuario estÃ¡ndar sin privilegios de root/administrador .
+Fase 3 “ Escalada de Privilegios Concepto y objetivo Tras una explotaciÃ³n exitosa se suele obtener acceso con un usuario estÃ¡ndar sin privilegios de root/administrador .
 
 La escalada de privilegios es el proceso de pasar de ese usuario de bajo privilegio a root (Linux) o SYSTEM/Domain Admin (Windows).
 
@@ -2005,7 +2005,7 @@ Sigue metodologÃ­as propias cubiertas en certificaciones como CRTP (Certified 
 
 Durante el mÃ¡ster se parte de mÃ¡quinas standalone para construir la base. 4.
 
-Fase 4 â€“ Pivoting y Post-ExplotaciÃ³n Pivoting: movimiento lateral entre segmentos de red El pivoting es la tÃ©cnica de saltar entre mÃ¡quinas de distintos segmentos de red para alcanzar activos que no son directamente accesibles desde el punto de entrada inicial.
+Fase 4 “ Pivoting y Post-ExplotaciÃ³n Pivoting: movimiento lateral entre segmentos de red El pivoting es la tÃ©cnica de saltar entre mÃ¡quinas de distintos segmentos de red para alcanzar activos que no son directamente accesibles desde el punto de entrada inicial.
 
 Ejemplo: una red segmentada en tres subredes (10.0.1.x, 10.0.2.x, 10.0.3.x).
 
@@ -2043,7 +2043,7 @@ El equipo del profesor mantiene accesos a activos comprometidos con mÃ¡s de ci
 
 ## 5.
 
-Fase 5 â€“ Reporte Por quÃ© el reporte es tan importante como la enumeraciÃ³n El cliente nunca ve las horas de trabajo frente a la pantalla, los diccionarios probados, la investigaciÃ³n en la Deep Web ni los exploits fallidos.
+Fase 5 “ Reporte Por quÃ© el reporte es tan importante como la enumeraciÃ³n El cliente nunca ve las horas de trabajo frente a la pantalla, los diccionarios probados, la investigaciÃ³n en la Deep Web ni los exploits fallidos.
 
 Lo Ãºnico que ve es el informe.
 
@@ -2059,11 +2059,11 @@ Los dos tipos de informe Informe tÃ©cnico: - Dirigido a los tÃ©cnicos de la 
 
 ## 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Ciudad de Seguridad Defensiva Ciberseguridad â€“ tÃ©rmino mal transcrito OBSSEC / off-sec OPSEC (Operational Security ) â€“ tÃ©cnicas de sigilo y evasiÃ³n; Offensive Security (empresa de certificaciones) OSEP OSEP (Offensive Security Experienced Penetration Tester) â€“ certificaciÃ³n avanzada de Offensive Security OSCP OSCP (Offensive Security Certified Professional) â€“ certificaciÃ³n estÃ¡ndar de pentesting Unix for Linux / WinPyth LinPEAS y WinPEAS â€“ scripts de enumeraciÃ³n para escalada de privilegios en Linux y Windows Deartico Dirty COW (Dirty Copy-On-Write , CVE-2016-5195) â€“ exploit de escalada de privilegios en kernels Linux antiguos CRTP / CRTO CRTP (Certified Red Team Professional ) y CRTO (Certified Red Team Operator ) â€“ certificaciones de Active Directory ligolo Ligolo-ng â€“ herramienta de pivoting mediante interfaces de red virtualizadas mimi cats / Mimikatz Mimikatz â€“ herramienta de volcado de credenciales y hashes de memoria Windows john de ripper / has cat John the Ripper y Hashcat â€“ herramientas de cracking de hashes pas de has Pass-the-Hash (PtH) â€“ tÃ©cnica de autenticaciÃ³n con el hash sin conocer la contraseÃ±a en claro blowfish Bcrypt/Blowfish â€“ algoritmo de hashing de contraseÃ±as usado en muchas aplicaciones web has / hases Hash / hashes â€“ resultado de una funciÃ³n criptogrÃ¡fica aplicada a una contraseÃ±a gneus / geneo GPUs (Graphics Processing Units ) â€“ tarjetas grÃ¡ficas usadas para cracking masivo de hashes entro vuelco Referencia al ciclo â€œ entro â†’ vuelco hashes â†’ rompo â†’ accedo a siguiente mÃ¡quina â€ de los movimientos laterales reversal Reverse shell â€“ conexiÃ³n de retorno desde el equipo comprometido al servidor del atacante stand alone Standalone â€“ mÃ¡quina independiente, no integrada en un dominio Active Directory metasploit Metasploit Framework â€“ framework de 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Ciudad de Seguridad Defensiva Ciberseguridad “ tÃ©rmino mal transcrito OBSSEC / off-sec OPSEC (Operational Security ) “ tÃ©cnicas de sigilo y evasiÃ³n; Offensive Security (empresa de certificaciones) OSEP OSEP (Offensive Security Experienced Penetration Tester) “ certificaciÃ³n avanzada de Offensive Security OSCP OSCP (Offensive Security Certified Professional) “ certificaciÃ³n estÃ¡ndar de pentesting Unix for Linux / WinPyth LinPEAS y WinPEAS “ scripts de enumeraciÃ³n para escalada de privilegios en Linux y Windows Deartico Dirty COW (Dirty Copy-On-Write , CVE-2016-5195) “ exploit de escalada de privilegios en kernels Linux antiguos CRTP / CRTO CRTP (Certified Red Team Professional ) y CRTO (Certified Red Team Operator ) “ certificaciones de Active Directory ligolo Ligolo-ng “ herramienta de pivoting mediante interfaces de red virtualizadas mimi cats / Mimikatz Mimikatz “ herramienta de volcado de credenciales y hashes de memoria Windows john de ripper / has cat John the Ripper y Hashcat “ herramientas de cracking de hashes pas de has Pass-the-Hash (PtH) “ tÃ©cnica de autenticaciÃ³n con el hash sin conocer la contraseÃ±a en claro blowfish Bcrypt/Blowfish “ algoritmo de hashing de contraseÃ±as usado en muchas aplicaciones web has / hases Hash / hashes “ resultado de una funciÃ³n criptogrÃ¡fica aplicada a una contraseÃ±a gneus / geneo GPUs (Graphics Processing Units ) “ tarjetas grÃ¡ficas usadas para cracking masivo de hashes entro vuelco Referencia al ciclo â€œ entro â†’ vuelco hashes â†’ rompo â†’ accedo a siguiente mÃ¡quina â€ de los movimientos laterales reversal Reverse shell “ conexiÃ³n de retorno desde el equipo comprometido al servidor del atacante stand alone Standalone “ mÃ¡quina independiente, no integrada en un dominio Active Directory metasploit Metasploit Framework “ framework de 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n explotaciÃ³n y post-explotaciÃ³n bridge forums BreachForums â€“ foro de la Deep Web para filtraciÃ³n de bases de datos de haced Dehashed â€“ plataforma de bÃºsqueda de credenciales filtradas Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n explotaciÃ³n y post-explotaciÃ³n bridge forums BreachForums “ foro de la Deep Web para filtraciÃ³n de bases de datos de haced Dehashed “ plataforma de bÃºsqueda de credenciales filtradas Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
-Resumen â€“ Clase 17: Principales Herramientas de Ciberseguridad Ofensiva en Kali Linux MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 17: Principales Herramientas de Ciberseguridad Ofensiva en Kali Linux MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n: Kali Linux como sistema operativo del pentester Kali Linux es la distribuciÃ³n Linux de referencia para la ciberseguridad ofensiva.
 
@@ -2099,7 +2099,7 @@ Recopila automÃ¡ticamente informaciÃ³n de fuentes abiertas (dominios, IPs, c
 
 Muy potente pero genera muchos resultados, incluidos falsos positivos, que requieren filtrado manual.
 
-> [!important] Importante: tiene un modo mixto (activo+pasivo) y un modo solo pasivo â€” siempre verificar 1
+> [!important] Importante: tiene un modo mixto (activo+pasivo) y un modo solo pasivo — siempre verificar 1
 
 cuÃ¡l estÃ¡ activo antes de lanzarlo en clientes sensibles.
 
@@ -2171,7 +2171,7 @@ SQLite Browser Visor de bases de datos SQLite.
 
 Necesario cuando se extrae una base de datos .db de una aplicaciÃ³n para examinar su contenido. robots.txt No es una herramienta sino un archivo estÃ¡ndar de cualquier servidor web que indica a los motores de bÃºsqueda quÃ© rutas no deben indexar.
 
-Para un auditor es muy valioso porque revela rutas ocultas que el administrador no quiere que se encuentren â€” paradÃ³jicamente, es uno de los mejores puntos de partida del fuzzing. 5.
+Para un auditor es muy valioso porque revela rutas ocultas que el administrador no quiere que se encuentren — paradÃ³jicamente, es uno de los mejores puntos de partida del fuzzing. 5.
 
 CategorÃ­a 4: Password Attacks (Ataques a contraseÃ±as) Hashcat Herramienta de cracking de hashes basada en GPU.
 
@@ -2277,11 +2277,11 @@ Resumen por fase de auditorÃ­a Fase Herramientas principales EnumeraciÃ³n pa
 
 â†’
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Neva / En el map Nmap â€“ herramienta de escaneo de puertos y servicios SpiderFood / Sparehood SpiderFoot â€“ framework de OSINT y recopilaciÃ³n de fuentes abiertas Recone NG Recon-ng â€“ framework modular de reconocimiento y OSINT en un forlinus / en un forlinux enum4linux â€“ herramienta de enumeraciÃ³n SMB/Samba en Linux de Harvester / de hecho de Harvester theHarvester â€“ herramienta de enumeraciÃ³n de subdominios y correos UWP Scan / UWFood WPScan / WFuzz â€“ escÃ¡ner de WordPress / herramienta de fuzzing web CFFood / Glores Gobuster / DirBuster â€“ herramientas de fuzzing de directorios y rutas DeepBuster / DeepSearch DirBuster / Dirsearch â€“ herramientas de descubrimiento de rutas web Bursuit / Bursui Burp Suite â€“ proxy de interceptaciÃ³n para auditorÃ­as web CrabMapSEQ CrackMapExec (CME) â€“ suite de post- explotaciÃ³n para entornos Windows/AD EviWinMR Evil-WinRM â€“ shell remota vÃ­a WinRM 8
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Neva / En el map Nmap “ herramienta de escaneo de puertos y servicios SpiderFood / Sparehood SpiderFoot “ framework de OSINT y recopilaciÃ³n de fuentes abiertas Recone NG Recon-ng “ framework modular de reconocimiento y OSINT en un forlinus / en un forlinux enum4linux “ herramienta de enumeraciÃ³n SMB/Samba en Linux de Harvester / de hecho de Harvester theHarvester “ herramienta de enumeraciÃ³n de subdominios y correos UWP Scan / UWFood WPScan / WFuzz “ escÃ¡ner de WordPress / herramienta de fuzzing web CFFood / Glores Gobuster / DirBuster “ herramientas de fuzzing de directorios y rutas DeepBuster / DeepSearch DirBuster / Dirsearch “ herramientas de descubrimiento de rutas web Bursuit / Bursui Burp Suite “ proxy de interceptaciÃ³n para auditorÃ­as web CrabMapSEQ CrackMapExec (CME) “ suite de post- explotaciÃ³n para entornos Windows/AD EviWinMR Evil-WinRM “ shell remota vÃ­a WinRM 8
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n InPacket Impacket â€“ colecciÃ³n de scripts para protocolos Windows NetSEQ NetExec â€“ herramienta de explotaciÃ³n de protocolos de red corporativos Max Sanger MacChanger â€“ herramienta para cambiar la direcciÃ³n MAC iCrack Aircrack-ng â€“ suite de auditorÃ­a de redes Wi- Fi Wi-Fi-T WiFite â€“ herramienta automatizada de ataques Wi-Fi mining the middles Man-in-the-Middle (MitM) â€“ ataque de interceptaciÃ³n de comunicaciones ProxyChange ProxyChains â€“ herramienta de encadenamiento de proxies BingWall Binwalk â€“ herramienta de anÃ¡lisis de firmware Set Toolkit SET (Social Engineering Toolkit) â€“ framework de ingenierÃ­a social SearchSploit SearchSploit â€“ buscador local de exploits en Exploit-DB Hydra / Aydra Hydra â€“ herramienta de fuerza bruta en protocolos de autenticaciÃ³n Cvless CeWL â€“ generador de wordlists a partir del contenido web WAF00F / WAF wafw00f â€“ herramienta de fingerprinting de WAF curr en ese lookup curl + nslookup â€“ herramientas de resoluciÃ³n DNS e inspecciÃ³n HTTP LJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n objetivo del mÃ¡ster DSMB SMBMap â€“ herramienta de enumeraciÃ³n de recursos SMB compartidos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 9
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n InPacket Impacket “ colecciÃ³n de scripts para protocolos Windows NetSEQ NetExec “ herramienta de explotaciÃ³n de protocolos de red corporativos Max Sanger MacChanger “ herramienta para cambiar la direcciÃ³n MAC iCrack Aircrack-ng “ suite de auditorÃ­a de redes Wi- Fi Wi-Fi-T WiFite “ herramienta automatizada de ataques Wi-Fi mining the middles Man-in-the-Middle (MitM) “ ataque de interceptaciÃ³n de comunicaciones ProxyChange ProxyChains “ herramienta de encadenamiento de proxies BingWall Binwalk “ herramienta de anÃ¡lisis de firmware Set Toolkit SET (Social Engineering Toolkit) “ framework de ingenierÃ­a social SearchSploit SearchSploit “ buscador local de exploits en Exploit-DB Hydra / Aydra Hydra “ herramienta de fuerza bruta en protocolos de autenticaciÃ³n Cvless CeWL “ generador de wordlists a partir del contenido web WAF00F / WAF wafw00f “ herramienta de fingerprinting de WAF curr en ese lookup curl + nslookup “ herramientas de resoluciÃ³n DNS e inspecciÃ³n HTTP LJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n objetivo del mÃ¡ster DSMB SMBMap “ herramienta de enumeraciÃ³n de recursos SMB compartidos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 9
 
-Resumen â€“ Clase 18: Diccionarios, Credenciales y Ataques de Fuerza Bruta MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 18: Diccionarios, Credenciales y Ataques de Fuerza Bruta MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 IntroducciÃ³n Esta sesiÃ³n cubre cinco bloques interrelacionados: el concepto y uso de los diccionarios en pentesting, los ataques de fuerza bruta, los mecanismos de autenticaciÃ³n y el concepto de credenciales, los gestores de contraseÃ±as y, finalmente, las principales colecciones de diccionarios y la herramienta de generaciÃ³n personalizada CUPP. 2.
 
@@ -2412,9 +2412,9 @@ Por quÃ© es poderoso: los datos de OSINT permiten construir listas muy ajustad
 
 Flujo de trabajo completo con diccionarios en una auditorÃ­a 1.Obtener el hash: desde el fichero ntds.dit del Active Directory (Mimikatz), desde una base de datos web comprometida o desde un formulario de login capturado. 2.Elegir el diccionario adecuado: RockYou para CTF/laboratorio; Kaonashi o wordlist personalizada (CUPP) para auditorÃ­as corporativas reales. 3.Aplicar reglas de transformaciÃ³n (Hashcat rules): derivar variantes automÃ¡ticas de las palabras base del diccionario. 4.Lanzar el cracking con Hashcat (GPU) o John the Ripper (CPU). 5.Obtener la contraseÃ±a en claro â†’ usarla para pivoting, acceso a mÃ¡s mÃ¡quinas o demostraciÃ³n de impacto en el reporte. 10.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Half-Iâ€™ve-Been-Pwned Have I Been Pwned (haveibeenpwned.com) â€“ servicio de comprobaciÃ³n de filtraciones Kipas / KeePass PowerSafe KeePass â€“ gestor de contraseÃ±as local con fichero .kdbx Laspas LastPass â€“ gestor de contraseÃ±as cloud Ball Ward / Valwarden Vaultwarden / Bitwarden â€“ gestor de contraseÃ±as cloud open source 5
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n Half-Iâ€™ve-Been-Pwned Have I Been Pwned (haveibeenpwned.com) “ servicio de comprobaciÃ³n de filtraciones Kipas / KeePass PowerSafe KeePass “ gestor de contraseÃ±as local con fichero .kdbx Laspas LastPass “ gestor de contraseÃ±as cloud Ball Ward / Valwarden Vaultwarden / Bitwarden “ gestor de contraseÃ±as cloud open source 5
 
-TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n KDBX .kdbx â€“ formato de fichero cifrado de KeePass Open Pass Word in Horizon Password Generator â€“ generador de contraseÃ±as integrado en KeePass Perform Auto Type Auto-Type â€“ funciÃ³n de KeePass para rellenar credenciales automÃ¡ticamente ntds.d / ntds punto dit ntds.dit â€“ base de datos del Active Directory con todos los hashes del dominio CAP / cap.pi CUPP (Common User Password Profiler ) â€“ generador de diccionarios personalizados Cognasi / Kaonasi Kaonashi â€“ colecciÃ³n de diccionarios para cracking de hashes en entornos corporativos Seclis / Seclix SecLists â€“ colecciÃ³n masiva de wordlists para mÃºltiples propÃ³sitos de pentesting RockU RockYou / rockyou.txt â€“ wordlist clÃ¡sica de 14M contraseÃ±as reales setCadMapS / setWorldList setxkbmap (cambio de teclado) + ruta /usr/share/wordlists/ â€“ directorio de diccionarios en Kali HashCut Hashcat â€“ herramienta de cracking de hashes con GPU padwalk cracking Password cracking â€“ proceso de ruptura de contraseÃ±as hasheadas OSIN OSINT (Open Source Intelligence ) â€“ inteligencia de fuentes abiertas Bird Suite Burp Suite â€“ proxy de interceptaciÃ³n para auditorÃ­as web RTX 4090 NVIDIA GeForce RTX 4090 â€“ tarjeta grÃ¡fica de gama alta usada para cracking de hashes VTF CTF (Capture The Flag) â€“ competiciones de hacking Town of Salem Town of Salem â€“ videojuego online que sufriÃ³ una brecha en 2018 Cambas Canva â€“ plataforma de diseÃ±o grÃ¡fico que sufriÃ³ una filtraciÃ³n de datos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 6
+TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n KDBX .kdbx “ formato de fichero cifrado de KeePass Open Pass Word in Horizon Password Generator “ generador de contraseÃ±as integrado en KeePass Perform Auto Type Auto-Type “ funciÃ³n de KeePass para rellenar credenciales automÃ¡ticamente ntds.d / ntds punto dit ntds.dit “ base de datos del Active Directory con todos los hashes del dominio CAP / cap.pi CUPP (Common User Password Profiler ) “ generador de diccionarios personalizados Cognasi / Kaonasi Kaonashi “ colecciÃ³n de diccionarios para cracking de hashes en entornos corporativos Seclis / Seclix SecLists “ colecciÃ³n masiva de wordlists para mÃºltiples propÃ³sitos de pentesting RockU RockYou / rockyou.txt “ wordlist clÃ¡sica de 14M contraseÃ±as reales setCadMapS / setWorldList setxkbmap (cambio de teclado) + ruta /usr/share/wordlists/ “ directorio de diccionarios en Kali HashCut Hashcat “ herramienta de cracking de hashes con GPU padwalk cracking Password cracking “ proceso de ruptura de contraseÃ±as hasheadas OSIN OSINT (Open Source Intelligence ) “ inteligencia de fuentes abiertas Bird Suite Burp Suite “ proxy de interceptaciÃ³n para auditorÃ­as web RTX 4090 NVIDIA GeForce RTX 4090 “ tarjeta grÃ¡fica de gama alta usada para cracking de hashes VTF CTF (Capture The Flag) “ competiciones de hacking Town of Salem Town of Salem “ videojuego online que sufriÃ³ una brecha en 2018 Cambas Canva “ plataforma de diseÃ±o grÃ¡fico que sufriÃ³ una filtraciÃ³n de datos Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 6
 
 â†’
 

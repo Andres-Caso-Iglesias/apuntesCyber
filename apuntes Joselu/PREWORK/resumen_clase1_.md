@@ -12,7 +12,7 @@
 ---
 
 --
-Resumen â€“ Clase 1: IntroducciÃ³n a la Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Evolve Academy 1.
+Resumen “ Clase 1: IntroducciÃ³n a la Ciberseguridad MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Evolve Academy 1.
 
 PresentaciÃ³n y filosofÃ­a del mÃ³dulo El profesor abre la sesiÃ³n subrayando que conocer la historia de la ciberseguridad es imprescindible para cualquier profesional del sector.
 
@@ -36,7 +36,7 @@ Estructura de la sesiÃ³n La clase se organiza en tres grandes bloques: 1.Histo
 
 3.Ciberseguridad hoy : cÃ³mo trabaja un equipo profesional real, quÃ© perfiles existen y cÃ³mo se organizan las auditorÃ­as. 4.
 
-Historia de la ciberseguridad por dÃ©cadas DÃ©cada de 1960 â€“ Los orÃ­genes
+Historia de la ciberseguridad por dÃ©cadas DÃ©cada de 1960 “ Los orÃ­genes
 - Los sistemas informÃ¡ticos estaban restringidos a universidades, gobiernos y grandes
 corporaciones.
 
@@ -52,7 +52,7 @@ denominamos insider threat).
 
 Este vector sigue vigente: el profesor menciona un ejercicio reciente de Red Team en que accediÃ³ fÃ­sicamente a las instalaciones de un cliente para implantar malware en un equipo.
 
-DÃ©cada de 1970 â€“ Los fundamentos de la seguridad
+DÃ©cada de 1970 “ Los fundamentos de la seguridad
 - En 1971 aparece Creeper, considerado el primer malware de la historia.
 
 Fue creado
@@ -66,7 +66,7 @@ Minecraft, cuyo diseÃ±o surgiÃ³ accidentalmente de un error en el cÃ³digo 
 UU. comienza a implementar controles de
 seguridad ante la evidencia de que sus sistemas clasificados podÃ­an ser comprometidos.
 
-DÃ©cada de 1980 â€“ ExpansiÃ³n de redes y primeras grandes amenazas
+DÃ©cada de 1980 “ ExpansiÃ³n de redes y primeras grandes amenazas
 - Con la comercializaciÃ³n del ordenador personal (ej.
 
 Apple II), la informÃ¡tica se
@@ -111,7 +111,7 @@ Plataformas y recursos de prÃ¡ctica recomendados El profesor insiste en que la
 
 ## 7.
 
-Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n HackDebox Hack The Box (HTB) â€“ plataforma de prÃ¡ctica de pentesting TreHackMe TryHackMe â€“ plataforma de aprendizaje de ciberseguridad Bullhub VulnHub â€“ plataforma de mÃ¡quinas vulnerables para prÃ¡ctica EJPTV2 eJPT v2 (eLearnSecurity Junior Penetration Tester) â€“ certificaciÃ³n de nivel entrada MULTIX MULTICS (Multiplexed Information and Computing Service ) â€“ sistema operativo pionero password warning Pass-the-Hash o tÃ©cnica similar de reutilizaciÃ³n de credenciales rÃ©ptil avanzado Red Team avanzado â€“ ejercicio de simulaciÃ³n de ataque real cloner (1982) Elk Cloner â€“ virus para Apple II Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial â€“ Wolf Academy. 4
+Conceptos y tÃ©rminos clave corregidos TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n HackDebox Hack The Box (HTB) “ plataforma de prÃ¡ctica de pentesting TreHackMe TryHackMe “ plataforma de aprendizaje de ciberseguridad Bullhub VulnHub “ plataforma de mÃ¡quinas vulnerables para prÃ¡ctica EJPTV2 eJPT v2 (eLearnSecurity Junior Penetration Tester) “ certificaciÃ³n de nivel entrada MULTIX MULTICS (Multiplexed Information and Computing Service ) “ sistema operativo pionero password warning Pass-the-Hash o tÃ©cnica similar de reutilizaciÃ³n de credenciales rÃ©ptil avanzado Red Team avanzado “ ejercicio de simulaciÃ³n de ataque real cloner (1982) Elk Cloner “ virus para Apple II Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inteligencia Artificial “ Wolf Academy. 4
 
 â†’
 

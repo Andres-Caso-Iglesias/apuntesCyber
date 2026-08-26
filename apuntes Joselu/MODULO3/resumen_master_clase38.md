@@ -82,11 +82,11 @@ Si lo lanzas a la raÃ­z, responderÃ¡ el servidor genÃ©rico que no tiene Wo
 
 **Esto es crÃ­tico en exÃ¡menes de certificaciÃ³n (OSCP, eJPT):** mucha gente falla porque lanza WPScan o un exploit a la URL raÃ­z cuando WordPress estÃ¡ en un subdirectorio.
 
-# MAL â€” lanza WPScan contra la raÃ­z:
+# MAL — lanza WPScan contra la raÃ­z:
 
 wpscan --url http://academy.th1/
 
-# BIEN â€” lanza WPScan contra donde estÃ¡ el WordPress:
+# BIEN — lanza WPScan contra donde estÃ¡ el WordPress:
 
 wpscan --url http://academy.th1/wordpress/
 
