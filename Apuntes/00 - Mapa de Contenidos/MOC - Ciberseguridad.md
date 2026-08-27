@@ -451,7 +451,7 @@
 | [[apuntes Andres/15.07.2026 IA Introducción y Vibe Coding]] | Vibe Coding, agentes IA |
 | [[apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] | Path Traversal |
 | [[apuntes Andres/20.07.2026 PortSwigger SSRF]] | SSRF |
-| [[apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] | IA profunda |
+| [[apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] | IA profunda |
 | [[apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] | SSRF avanzado, SSTI |
 | [[apuntes Andres/24.07.2026 Repaso Semanal III]] | Repaso semanal |
 
@@ -555,7 +555,7 @@
 
 ### Junio
 
-- [[transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]]
+- [[16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]]
 - [[transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web]]
 - [[transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]]
 - [[transcripciones/Junio/30.06.2026 Explotación web Port Swinger]]
