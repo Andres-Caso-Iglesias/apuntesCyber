@@ -197,3 +197,23 @@ dirsearch -u http://target --delay 2 --random-agents --quiet
 - [ ] Recursión explorada
 - [ ] Headers personalizados probados
 - [ ] Proxy configurado si es necesario
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[FFUF.md|FFUF]— FFUF
+- [[Feroxbuster.md|Feroxbuster]— FFUF
+- [[GoBuster.md|GoBuster]— FFUF
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— DirSearch, FFUF
+- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— DirSearch, FFUF
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— FFUF
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/FFUF|FFUF]]
+
+> #dirsearch #ffuf

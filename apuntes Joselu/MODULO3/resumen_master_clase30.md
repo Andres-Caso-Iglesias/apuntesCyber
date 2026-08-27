@@ -359,3 +359,29 @@ Término en la transcripción Corrección / Aclaración
  *la banda de Rick / Freshie / Presute Inves* **nombre de la banda de Rick Sanchez** -- dato necesario para generar el diccionario de contraseñas
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
+- [[../../informes/Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #escalada-privilegios #esteganografia #hydra #ia #kali #linux #netcat #nmap #pentest #post-explotacion #redes #ssh

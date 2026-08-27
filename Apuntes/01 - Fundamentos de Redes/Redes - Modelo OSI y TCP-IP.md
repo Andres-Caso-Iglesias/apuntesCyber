@@ -124,3 +124,28 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 - [ ] ¿Sé describir el Three-Way Handshake?
 - [ ] ¿Relaciono ataques con su capa OSI?
 - [ ] ¿Distingo el modelo OSI del TCP/IP?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]— SSH, WiFi / Hardware, XSS
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]— SSH, WiFi / Hardware, XSS
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Redes, SSH, XSS
+- [[../../apuntes Chema/Wireshark.md|Wireshark]— Redes, SSH, Wireshark
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]— Redes, WiFi / Hardware, Wireshark
+- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]— Redes, WiFi / Hardware, Wireshark
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #nmap #redes #sqli #ssh #wifi #wireshark #xss

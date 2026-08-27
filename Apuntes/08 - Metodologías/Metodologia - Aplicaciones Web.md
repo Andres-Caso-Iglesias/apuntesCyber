@@ -121,3 +121,39 @@
 - PortSwigger Web Security Academy
 - HackTricks Web
 - PayloadsAllTheThings
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]— Post-Explotación, RFI, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]— SSH, SSTI, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]— GoBuster, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, SSRF, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #idor #lfi #osint #pentest #pivoting #post-explotacion #rfi #sqli #sqlmap #ssh #ssrf #ssti #xss #xxe

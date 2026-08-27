@@ -219,3 +219,26 @@ sqlmap -u "URL" --os-pwn
 - [ ] Enumerar bases de datos
 - [ ] Extraer datos sensibles
 - [ ] Intentar acceso al sistema
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Linux, SQL Injection, Windows
+- [[../apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Linux, SQL Injection, SQLMap
+- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Linux, Post-Explotación, Windows
+- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Post-Explotación, SQL Injection, Windows
+- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]— Linux, SQL Injection, SQLMap
+- [[Metasploit.md|Metasploit]— Linux, Post-Explotación, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #linux #post-explotacion #sqli #sqlmap #windows

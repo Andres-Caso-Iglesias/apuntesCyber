@@ -411,3 +411,29 @@ Término en la transcripción Corrección / Aclaración
  *rover / Robert* **robert** -- usuario de la máquina Oopsie cuyas credenciales se reutilizaban en la base de datos
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
+- [[resumen_master_clase33.md|resumen_master_clase33]— Hack The Box, Kali Linux, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #escalada-privilegios #feroxbuster #hack-the-box #ia #idor #kali #linux #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #windows

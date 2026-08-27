@@ -322,3 +322,30 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
  *Claudia / Claude / la IA* **Claude** (Anthropic) -- IA usada por los alumnos para buscar payloads y resolver dudas durante la clase
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— Hack The Box, Pivoting / Movilidad Lateral, SSTI
+- [[resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSH, SSTI
+- [[resumen_master_clase43.md|resumen_master_clase43]— Command Injection / RCE, SQL Injection, SSH
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Command Injection / RCE, Pivoting / Movilidad Lateral, SSH
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Command Injection / RCE, SQL Injection, SSTI
+- [[resumen_master_clase47.md|resumen_master_clase47]— Hack The Box, Pivoting / Movilidad Lateral, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+
+> #burpsuite #command-injection #hack-the-box #ia #netcat #pentest #pivoting #reverse-shell #sqli #ssh #ssti

@@ -220,3 +220,31 @@ credenciales filtradas → acceso SSH al servidor
 
 > [!important] Objetivo
 > Practicar esta cadena completa — desde la enumeración inicial hasta la explotación final — es el objetivo de los laboratorios integrales de web de este bloque.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— SQL Injection, SSRF, XSS
+- [[../Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE — XML External Entity]— File Upload, SSRF, XXE
+- [[../Apuntes/08 - Metodologías/Metodologia - Aplicaciones Web.md|Metodologia - Aplicaciones Web]— SSRF, XSS, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]— SQL Injection, SSRF, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]— SSRF, XSS, XXE
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]— SQL Injection, SSRF, XXE
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #file-upload #lfi #pentest #sqli #sqlmap #ssrf #windows #xss #xxe

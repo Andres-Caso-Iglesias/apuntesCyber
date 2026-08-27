@@ -189,3 +189,22 @@ Proceso completo en menos de 5 minutos una vez se tienen los archivos localizado
 •      Ignorar el aviso del dispositivo SATA (clic en No)
 
 •      Usar red Host-only para máquinas CTF / laboratorio
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Bash y PowerShell.md|Bash y PowerShell]— Linux, Nmap, Redes
+- [[Bash Scripting.md|Bash Scripting]— Linux, Nmap, Redes
+- [[../informes/Informe_Banco.md|Informe_Banco]— Linux, Nmap, Redes
+- [[../informes/Informe_Nike.md|Informe_Nike]— Linux, Nmap, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]— Kali Linux, Linux, Redes
+- [[Fundamentos de Linux.md|Fundamentos de Linux]— Kali Linux, Linux, Nmap
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #kali #linux #nmap #redes

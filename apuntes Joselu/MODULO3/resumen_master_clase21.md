@@ -362,3 +362,37 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 
 â†’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase39.md|resumen_master_clase39]— GoBuster, Kali Linux, SSH
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]— Escalada de Privilegios, GoBuster, SSH
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Escalada de Privilegios, GoBuster, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress

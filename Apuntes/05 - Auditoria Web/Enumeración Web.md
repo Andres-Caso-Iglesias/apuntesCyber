@@ -106,3 +106,29 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - [ ] ¿Sé enumerar subdominios con Subfinder y [[FFUF]]?
 - [ ] ¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
 - [ ] ¿Entiendo cómo descubrir parámetros ocultos?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]— Feroxbuster, GoBuster, Google Dorks
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Feroxbuster, GoBuster, WPScan
+- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Feroxbuster, GoBuster, WPScan
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, Metodología Pentest, Nmap
+- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— DirSearch, Feroxbuster, GoBuster
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]— DirSearch, Feroxbuster, GoBuster
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/WPScan|WPScan]]
+
+> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #google-dorks #nmap #osint #pentest #wordpress #wpscan

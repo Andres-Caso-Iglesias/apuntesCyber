@@ -201,3 +201,25 @@ Patrón común a todas: enumerar con Nmap → identificar el servicio → invest
 | | |
 |---|---|
 |**💡 RUTA**|Primero las bases sin IA. Una vez resuelta una máquina manualmente, repítela automatizándola con un script propio. Repasa y repite las máquinas: son tu laboratorio.|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, SSH, Telnet
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, SSH, Telnet
+- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Redes, SMB / Impacket, SSH
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Hack The Box, Kali Linux, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, OSINT, SSH
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase7.md|resumen_master_clase7]— Hack The Box, Kali Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+> #blue-team #certificaciones #forense #hack-the-box #kali #linux #metasploitable #nmap #osint #pentest #pivoting #redes #smb-impacket #ssh #telnet #windows

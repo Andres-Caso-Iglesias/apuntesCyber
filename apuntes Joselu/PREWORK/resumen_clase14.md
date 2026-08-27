@@ -123,3 +123,26 @@ Flujo completo de enumeración pasiva El flujo que se sigue en una auditoría re
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración weldorking / vueldo aquí / weld orking / google dos quinGoogle Dorking – uso de operadores avanzados de Google para búsquedas de reconocimiento was top ten / o was top ten OWASP Top 10 – estándar de vulnerabilidades en aplicaciones web OSSTMM OSSTMM (Open Source Security Testing Methodology Manual ) – metodología de auditoría de redes mitra attack / mitre MITRE ATT&CK – matriz de tácticas y técnicas de ciberdelincuentes reales attack punto mitre punto or attack.mitre.org – web oficial de la matriz MITRE ATT&CK de hashed e inteligencia x Dehashed e Intelligence X – plataformas de credenciales filtradas census / censi search Censys (search.censys.io) – motor de búsqueda de activos expuestos su blister Sublist3r – herramienta de enumeración de subdominios 5
 
 Término en la transcripción Corrección / Aclaración cherry tree CherryTree – herramienta de gestión de notas y evidencias de auditorías obsidian Obsidian – herramienta de gestión de notas en formato markdown go anywhere GoAnywhere MFT – plataforma de transferencia segura de archivos (detectable en Shodan) comandante control Command and Control (C2) – infraestructura de control remoto del atacante cepsa / mueve Cepsa / Moeve – empresa energética española usada como ejemplo de auditoría intracepsa / club front Intranet / Cloudfront – portal interno y CDN de AWS not rl inurl: – operador de Google Dorking para búsqueda en URLs play work Prework – contenido previo al inicio del máster esté un 3 / es 3 Kali Linux – distribución Linux orientada a pentesting Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Escalada de Privilegios, Google Dorks, Post-Explotación
+- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Kali Linux, Redes
+- [[../MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Escalada de Privilegios, Kali Linux, Post-Explotación
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Kali Linux, Post-Explotación
+- [[resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Post-Explotación, Redes
+- [[resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Post-Explotación, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #blue-team #escalada-privilegios #google-dorks #ia #idor #kali #linux #nmap #osint #pentest #post-explotacion #redes

@@ -150,3 +150,24 @@ chmod +x linpeas.sh
 
 - [[comandos/Linux]] — Comandos de referencia
 - [[Prácticas CTF - HTB y VulnHub]] — Walkthroughs con escalada
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Hack The Box, Post-Explotación, VulnHub
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Hack The Box, Post-Explotación, SMB / Impacket
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, VulnHub
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, VulnHub
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+> #forense #hack-the-box #linux #netcat #pivoting #post-explotacion #reverse-shell #smb-impacket #ssh #vulnhub #windows

@@ -152,3 +152,26 @@ Registros y monitorización: - Registrar todos los eventos importantes: accesos 
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración WAPTOP10 / no was top ten OWASP Top 10 – estándar de vulnerabilidades en aplicaciones web Source Sonar Cube SonarQube – herramienta de análisis estático de código Checkmark Checkmarx – herramienta de análisis de seguridad en código fuente Coverti de sinopsis / BlackDuck Coverity + Black Duck (Synopsys) – herramientas de análisis de composición de software Log4G Log4Shell / Log4j – vulnerabilidad crítica en librería Java bing walk / firm analyzer Binwalk y Firmwalker – herramientas de análisis de firmware IoT jota tajos los guard JTAG – puerto de depuración hardware utilizado para extraer firmware finware / fin de Firmware – software embebido que controla el hardware de un dispositivo anti tamper Anti-tamper – mecanismos de resistencia a manipulaciones físicas UAV UA V (Unmanned Aerial Vehicle ) – vehículo aéreo no tripulado / dron de reconocimiento ayam / iam IAM (Identity and Access Management ) – gestión de identidades en entornos cloud vpc VPC (Virtual Private Cloud ) – red privada virtual en entornos cloud es plan Splunk – plataforma SIEM de análisis de logs cloud watch AWS CloudWatch – servicio de 5
 
 Término en la transcripción Corrección / Aclaración monitorización de Amazon Web Services sien SIEM (Security Information and Event Management) – sistema de gestión de eventos de seguridad CCN / guías de CCN CCN-CERT – Centro Criptológico Nacional, organismo de ciberseguridad del CNI español nesus open bar Nessus y OpenV AS – escáneres de vulnerabilidades aura ring Oura Ring – dispositivo IoT de monitorización de salud tpv / atm TPV (Terminal Punto de Venta) / ATM (cajero automático) ya war / type x type f Jaguar F-Type / I-Pace – vehículos eléctricos conectados mencionados como ejemplo de hackeo Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase2.md|resumen_clase2]— Normativa / GRC, Redes, Windows
+- [[resumen_clase11.md|resumen_clase11]— Hydra, Normativa / GRC, Redes
+- [[resumen_clase7.md|resumen_clase7]— Normativa / GRC, Redes, Windows
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Hydra, Normativa / GRC, Redes
+- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #command-injection #esteganografia #hydra #ia #normativa #pentest #redes #windows

@@ -281,3 +281,30 @@ Término en la transcripción Corrección / Aclaración
  *Claudia / Claude / la IA* **Claude** -- usado para generar el diccionario de puertos probables para el scan de SSRF
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, SSH, SSTI
+- [[resumen_master_clase53.md|resumen_master_clase53]— Open Redirect, Redes, SSRF
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Open Redirect, SSRF, SSTI
+- [[resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSH, SSTI
+- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hack The Box, SSH, SSTI
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]— SSH, SSRF, SSTI
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+
+> #blue-team #burpsuite #empleabilidad #hack-the-box #ia #lfi #nmap #open-redirect #pentest #redes #ssh #ssrf #ssti

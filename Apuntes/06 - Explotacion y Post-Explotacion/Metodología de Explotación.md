@@ -111,3 +111,29 @@ mkdir exploits
 - [ ] ¿Sé aplicar el marco de 4 elementos a una vulnerabilidad?
 - [ ] ¿Entiendo los 3 vectores de ataque a servicios con login?
 - [ ] ¿Sé estructurar el trabajo en carpetas?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Hack The Box, SSH, VulnHub
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, Redes, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, Redes, SSH
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, SSH, VulnHub
+- [[../../comandos/Metasploit.md|Metasploit]— Pivoting / Movilidad Lateral, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #command-injection #dirsearch #hack-the-box #linux #nmap #pentest #pivoting #redes #ssh #vulnhub #windows

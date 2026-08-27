@@ -147,3 +147,22 @@ ffuf -u http://target/FUZZ -w wordlist.txt -recursion -recursion-depth 2
 - [ ] Filtros aplicados (fc, fs, fw)
 - [ ] Headers custom si es necesario
 - [ ] Output guardado para análisis
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[DirSearch.md|DirSearch]— FFUF
+- [[Feroxbuster.md|Feroxbuster]— FFUF
+- [[GoBuster.md|GoBuster]— FFUF
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— FFUF
+- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— FFUF
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— FFUF
+
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+
+> #ffuf

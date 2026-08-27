@@ -137,3 +137,18 @@ que se te ha configurado.
 
 →
 →
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, Normativa / GRC, Redes
+- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]— Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase2.md|resumen_clase2]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]— Certificaciones, Normativa / GRC, Redes
+
+> #blue-team #certificaciones #ia #normativa #redes

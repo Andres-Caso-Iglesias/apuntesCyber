@@ -202,3 +202,32 @@ Servidor web
 - [ ] ¿Sé interceptar, hacer Forward y enviar una petición al Repeater?
 - [ ] ¿Entiendo la diferencia entre Open Browser y FoxyProxy?
 - [ ] ¿Sé instalar el certificado de PortSwigger desde http://burpsuite/?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Redes, SSRF, XSS
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Hack The Box, VulnHub, XSS
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— Hack The Box, Kali Linux, SSRF
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]— Hack The Box, SSRF, XSS
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— Hack The Box, Kali Linux, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSRF, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+
+> #burpsuite #command-injection #forense #hack-the-box #hydra #idor #kali #lfi #nmap #pentest #redes #sqli #sqlmap #ssrf #vulnhub #xss

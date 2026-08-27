@@ -172,3 +172,25 @@ La prÃ³xima sesiÃ³n entrarÃ¡ en el modelo OSI y en Wireshark, donde todo l
 â†’
 
 â†’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Empleabilidad, Redes, WiFi / Hardware
+- [[resumen_master_clase9.md|resumen_master_clase9]— Empleabilidad, Redes, WiFi / Hardware
+- [[resumen_master_clase11.md|resumen_master_clase11]— Empleabilidad, Redes, Wireshark
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]— Redes, WiFi / Hardware, Wireshark
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]— Command Injection / RCE, Redes, Wireshark
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Empleabilidad, Redes, WiFi / Hardware
+
+### 🛠️ Herramientas
+
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #empleabilidad #ia #osint #redes #wifi #wireshark #wordpress

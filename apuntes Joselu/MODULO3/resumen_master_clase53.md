@@ -77,3 +77,26 @@ Término Corrección
 > [!note] *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.* *Nota: Esta clase es la repetición de la Clase 52 para la segunda convocatoria del máster.
 
 El resumen detallado está en el documento de la Clase 52.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]— Burp Suite, Open Redirect, SSRF
+- [[resumen_master_clase48.md|resumen_master_clase48]— Open Redirect, Redes, SSRF
+- [[resumen_master_clase52.md|resumen_master_clase52]— Open Redirect, Redes, SSRF
+- [[../PREWORK/resumen_clase5.md|resumen_clase5]— Burp Suite, Redes, SSRF
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Open Redirect, Redes, SSRF
+- [[../MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Burp Suite, Redes, SSRF
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+
+> #burpsuite #ia #open-redirect #pentest #redes #ssrf

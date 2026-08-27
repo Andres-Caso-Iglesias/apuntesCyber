@@ -217,3 +217,24 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 ---
 
 > **Siguiente tema:** [[Normativa - ISO 27001, GDPR, ENS]] — Marco regulatorio y gestión de riesgos
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Redes, SMB / Impacket, SSH
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Redes, SMB / Impacket, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]— Normativa / GRC, Post-Explotación, Redes
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Redes, Windows, Wireshark
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Normativa / GRC, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase16.md|resumen_master_clase16]— Post-Explotación, Redes, SMB / Impacket
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+> #blue-team #forense #linux #nmap #normativa #osint #pentest #post-explotacion #redes #smb-impacket #ssh #windows #wireshark

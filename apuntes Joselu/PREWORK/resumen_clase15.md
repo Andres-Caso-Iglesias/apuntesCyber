@@ -99,3 +99,26 @@ Próxima sesión La siguiente sesión abordará la fase de explotación (la segu
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración DIG web / adic web / di web Deep Web – parte no indexada de Internet; accesible sin TOR en su mayor parte DART web Dark Web – subconjunto de la Deep Web accesible solo a través de TOR/proxies; dominio .onion bridge forums / the bridge forums BreachForums – foro principal de la Deep Web para filtración y venta de bases de datos robadas hayden Hidden – referencia a hidden services (servicios ocultos) de la red TOR tor project / tor TOR (The Onion Router) – red y navegador de acceso anónimo a la Deep/Dark Web dac dac go DuckDuckGo – motor de búsqueda sin rastreo, el más usado dentro del navegador TOR de haces / hashet Dehashed – plataforma de búsqueda de credenciales filtradas 4
 
 Término en la transcripción Corrección / Aclaración intelligence ex / inteligencia ex Intelligence X – plataforma de búsqueda de datos e información filtrada loc bit LockBit – grupo de ransomware de alto impacto mundial xss.its XSS.is – foro especializado en hacking ofensivo en la Deep Web carding Carding – fraude mediante clonación y uso ilícito de datos de tarjetas de crédito robadas con vos list Wordlists – diccionarios de contraseñas usados para ataques de fuerza bruta y cracking OPSEC OPSEC (Operational Security ) – técnicas para mantener el anonimato y evitar ser detectado durante una operación obsec OPSEC – misma corrección, variante de transcripción volve Wolf (Academy) – plataforma del máster nodos de salida Exit nodes – últimos nodos de la cadena TOR antes de salir a Internet; los más monitorizados por agencias gubernamentales Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Escalada de Privilegios, Hydra, Redes
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Escalada de Privilegios, Redes, Windows
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Linux, Redes, Windows
+- [[resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Post-Explotación, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #blue-team #escalada-privilegios #hydra #ia #linux #post-explotacion #redes #windows #xss

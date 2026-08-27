@@ -218,3 +218,23 @@ impacket-psexec -k -no-pass domain/user@target
 - [ ] PSExec/WMIExec intentado
 - [ ] SecretsDump para hashes
 - [ ] Pass-the-Hash probado
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Redes, SMB / Impacket, Windows
+- [[Windows.md|Windows]— Redes, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]— Redes, SMB / Impacket, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Redes, Windows
+- [[Nmap.md|Nmap]— Nmap, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]— Nmap, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+
+> #nmap #redes #smb-impacket #windows

@@ -353,3 +353,35 @@ Término en la transcripción Corrección / Aclaración
 animab / N más **Nmap** -- escáner de puertos y servicios Metrasploid / MetaSprout / MetaExplotado Metasploit Framework / Metasploitable 2 FSUF / FFF / f f uf **FFUF** (*Fuzz Faster U Fool*) -- herramienta de fuzzing web footing / foozing / fuzzy **Fuzzing** -- técnica de enumeración web por fuerza bruta de rutas sek list / Saglists / selleris **SecLists** -- colección de diccionarios para pentesting RockJue / rugby **RockYou (rockyou.txt)** -- diccionario de contraseñas DealBuster / DirectBuster **DirBuster** -- herramienta y diccionario de fuzzing web ports MTP / ports SMP **SMTP** (*Simple Mail Transfer Protocol*) -- protocolo de correo hello **EHLO / VRFY** -- comandos SMTP para saludo e identificación de usuarios r login / RSEC / ARCH **rlogin / rsh / rexec** -- servicios R de acceso remoto sin autenticación punto rhost / R Host .rhosts -- archivo de configuración que define hosts de confianza para servicios R Network Fire System **NFS** (*Network File System*) -- protocolo para compartir carpetas Linux en red show month / show mount **showmount** -- comando para listar recursos NFS compartidos hash identifyer / hash identifier **hashid / hash-identifier** -- herramienta para identificar el tipo de hash John y hascart **John the Ripper** y **Hashcat** -- herramientas de cracking de hashes unshadow **unshadow** -- combina /etc/passwd y /etc/shadow para John the Ripper permisos de gestación **chmod 600** -- permisos correctos para una clave privada SSH autoridad de un keys / authority on keys \~/.ssh/authorized_keys -- archivo donde se guardan las claves públicas SSH autorizadas UNC / VNF **VNC** (*Virtual Network Computing*) -- protocolo de escritorio remoto VNC Piware **VNC Viewer** -- cliente para conectarse a servidores VNC Wap Palaiser / Wappalizer **Wappalyzer** -- extensión del navegador que detecta tecnologías web FoxyCloxi / Foxy proxy **FoxyProxy** -- extensión para gestionar proxies en el navegador Booth / Burp suit **Burp Suite** -- proxy de interceptación para auditorías web UCI / RCH / una clave **RCE** (*Remote Code Execution*) -- ejecución remota de código CDMX / CMD punto EX **cmd.exe** -- intérprete de comandos de Windows PHP Miami / HP MyAdmint **phpMyAdmin** -- interfaz web de administración de bases de datos MySQL DVWA / base de web **DVWA** (*Damn Vulnerable Web Application*) -- aplicación web vulnerable para práctica
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, Metasploit, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase21.md|resumen_master_clase21]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #burpsuite #command-injection #escalada-privilegios #ffuf #hydra #ia #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #smb-impacket #ssh #telnet #windows

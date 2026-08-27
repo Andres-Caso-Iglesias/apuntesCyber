@@ -208,3 +208,27 @@ Se mencionan por primera vez las herramientas de escalada de privilegios automá
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../apuntes Chema/Maquinas/Reactor_HTB.md|Reactor_HTB]— Hack The Box, Post-Explotación, SSH
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Hack The Box, Redes, Windows
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, Kali Linux, SSH
+- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]— Escalada de Privilegios, Hack The Box, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #command-injection #escalada-privilegios #forense #hack-the-box #ia #kali #linux #metasploitable #post-explotacion #redes #sqli #ssh #windows

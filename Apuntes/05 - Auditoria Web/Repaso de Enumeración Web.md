@@ -439,3 +439,39 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - **Cálculo de delays** frente al rate limit (referencia: NetExec ~1 req/0,5 s)
 - **Escalada por cron + fichero escribible** ejecutado como root
 - Mapa de **recon web → vulnerabilidad** (analogía de la discoteca)
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Escalada de Privilegios, GoBuster, XSS
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]— Feroxbuster, GoBuster, XSS
+- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Escalada de Privilegios, Windows, XSS
+- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Escalada de Privilegios, Hack The Box, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #blue-team #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hack-the-box #hydra #linux #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssrf #windows #wordpress #wpscan #xss #xxe

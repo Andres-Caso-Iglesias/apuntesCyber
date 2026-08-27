@@ -179,3 +179,23 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 ---
 
 > **Siguiente tema:** Forense Digital — Adquisición de memoria y análisis con Volatility
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Nmap, Redes, Wireshark
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Nmap, Redes, Wireshark
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]— Forense Digital, Hydra, Redes
+- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Hydra, OSINT, WiFi / Hardware
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Hydra, Redes, WiFi / Hardware
+- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Hydra, Nmap, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+
+> #forense #hydra #nmap #osint #pentest #redes #wifi #wireshark

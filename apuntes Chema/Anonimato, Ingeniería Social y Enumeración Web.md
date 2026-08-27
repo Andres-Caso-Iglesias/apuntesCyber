@@ -370,3 +370,27 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 | Monero (XMR) | Alta (cripto de privacidad) | Mencionada |
 | Tor | Alta/repaso (red cebolla) | Mencionada |
 | Lovable / Emergent (IA) | Alta (clonado de UI) | Mencionada |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— GoBuster, Kali Linux, SSH
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— GoBuster, Kali Linux, SSH
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— GoBuster, Kali Linux, SSH
+- [[Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— GoBuster, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #kali #linux #nmap #pentest #redes #ssh #windows

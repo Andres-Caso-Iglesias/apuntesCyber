@@ -61,3 +61,30 @@
 - [ ] Herramienta según objetivo identificada
 - [ ] Flujo de pentest comprendido
 - [ ] Wiki-links funcionando
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Kali Linux, Post-Explotación
+- [[../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— GoBuster, Hydra, Kali Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— GoBuster, Hydra, Kali Linux
+- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— GoBuster, Kali Linux, Redes
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, Redes
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— GoBuster, Hydra, Kali Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #feroxbuster #ffuf #gobuster #hydra #john #kali #linux #pentest #pivoting #post-explotacion #redes #sqli #windows #wordpress

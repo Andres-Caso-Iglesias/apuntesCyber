@@ -172,3 +172,26 @@ Cierre: resumen de auditorías del Red Team El profesor hace balance de las diez
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración auditorio de ciberseguridad Auditor de ciberseguridad CVs CVEs (Common Vulnerabilities and Exposures) – identificadores de vulnerabilidades Mimikatz Mimikatz – herramienta correcta; extrae credenciales y hashes de la memoria de Windows pass de hash Pass-the-Hash – técnica de reutilización de hashes de contraseñas sin conocerlas en claro Active Domain Admits Active Directory Domain Admins – administradores de dominio en Active Directory IOCs IOCs (Indicators of Compromise ) – indicadores de compromiso para detección futura tiberego / tiberiu / tiber.eu TIBER-EU – marco del BCE para pruebas de ciberresiliencia en banca y seguros Assummed Bridge / Bridge Asylum Assumed Breach – escenario en que se asume que el atacante ya tiene acceso inicial summit bridge Assumed Breach – mismo concepto C4G / Log4G Log4Shell / Log4j – vulnerabilidad crítica en librería Java APTs APTs (Advanced Persistent Threats ) – grupos 6
 
 Término en la transcripción Corrección / Aclaración de atacantes avanzados y persistentes TTPs TTPs (Tactics, Techniques and Procedures ) – tácticas, técnicas y procedimientos de los atacantes CAN Bus / Cambus CAN Bus (Controller Area Network ) – bus de datos interno del vehículo ECUs / EQUUS ECUs (Electronic Control Units ) – centralitas electrónicas del vehículo ADAS ADAS (Advanced Driver Assistance Systems ) – sistemas avanzados de asistencia a la conducción OTA OTA (Over-the-Air) – actualizaciones remotas de firmware en vehículos OBD2 OBD2 (On-Board Diagnostics II ) – puerto de diagnóstico estándar de los vehículos fliper 0 Flipper Zero – dispositivo de hacking de radiofrecuencia y protocolos inalámbricos Blueborn BlueBorne – ataque de RCE a través del protocolo Bluetooth Bluetooth BLE Bluetooth Low Energy (BLE) – versión de Bluetooth optimizada para IoT sniping / snifar Sniffing – captura y análisis de tráfico de red o bus de datos fuzzing de protocolos Protocol Fuzzing – técnica de inyección de datos malformados para encontrar vulnerabilidades reversing Reverse Engineering – ingeniería inversa de software o firmware EDR EDR (Endpoint Detection and Response ) – solución de seguridad en endpoints Tarlogic Tarlogic – empresa española de ciberseguridad destacada en Red Team Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 7
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Normativa / GRC, Redes
+- [[resumen_clase2.md|resumen_clase2]— Normativa / GRC, Redes, Windows
+- [[resumen_clase8.md|resumen_clase8]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Command Injection / RCE, Redes, Windows
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]— Normativa / GRC, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #command-injection #escalada-privilegios #forense #ia #nmap #normativa #osint #redes #windows

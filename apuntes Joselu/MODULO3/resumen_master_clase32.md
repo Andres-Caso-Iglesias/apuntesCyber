@@ -343,3 +343,33 @@ Término en la transcripción Corrección / Aclaración
  *la extensión de Claude Mythos* **Claude Mythos** -- modelo avanzado de Anthropic con capacidades de ciberseguridad; muy pocos tienen acceso
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hack The Box, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, SSH, XSS
+- [[resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Escalada de Privilegios, Hack The Box, SSH
+- [[../PREWORK/resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, SSH, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #csrf #escalada-privilegios #hack-the-box #ia #john #kali #lfi #linux #netcat #nmap #pivoting #redes #reverse-shell #sqli #sqlmap #ssh #windows #xss #xxe

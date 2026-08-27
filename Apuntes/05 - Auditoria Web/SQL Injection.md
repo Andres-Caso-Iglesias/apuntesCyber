@@ -230,3 +230,29 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 ## Tags
 
 #web #sqli #owasp #injection #prepared-statements #sqlmap #blue-team
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]— Escalada de Privilegios, Redes, XXE
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Redes, XXE
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Redes, SQL Injection
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]— Escalada de Privilegios, Redes, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Redes, XXE
+- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— Escalada de Privilegios, Redes, XXE
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #blue-team #command-injection #escalada-privilegios #lfi #linux #netcat #redes #reverse-shell #sqli #sqlmap #xxe

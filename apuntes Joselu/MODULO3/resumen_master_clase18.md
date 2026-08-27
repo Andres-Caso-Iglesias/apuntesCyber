@@ -154,3 +154,26 @@ Sabemos que construir herramientas útiles con IA no requiere ser programador, s
 Y hemos cerrado el análisis forense del laboratorio web entendiendo por qué un 500 Intern al Server Error tras una comilla simple es una bandera roja, por qué OR 1=1 siempre devuelve verdadero, y cómo un atacante pasa de un indicio a una exfiltración completa de base de datos.
 
 La próxima sesión arranca con Metasploitable y las primeras explotac iones reales.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]— Normativa / GRC, SQL Injection, Wireshark
+- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]— SQL Injection, SQLMap, Wireshark
+- [[../MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Metasploitable / DVWA, SQL Injection, Wireshark
+- [[resumen_master_clase22.md|resumen_master_clase22]— Forense Digital, IA en Ciberseguridad, Wireshark
+- [[../PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Forense Digital, Linux, SQL Injection
+
+### 🛠️ Herramientas
+
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #certificaciones #forense #ia #linux #metasploitable #normativa #sqli #sqlmap #wireshark

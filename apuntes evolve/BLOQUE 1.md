@@ -164,3 +164,27 @@ El sector afronta una escasez global de profesionales.
 | **Entrada** | eJPT (INE) | Certificación de referencia de este máster |
 | **Web** | BSCP (Burp Suite) | Avala explotación de XSS y SQLi con Burp Suite |
 | **Active Directory** | CRTP (Altered Security) | Retos avanzados de ataques a AD |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Normativa / GRC, Post-Explotación, XSS
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]— Normativa / GRC, Post-Explotación, Redes
+- [[../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Post-Explotación, Redes, XSS
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Empleabilidad, Normativa / GRC, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]— Normativa / GRC, Redes, Windows
+- [[../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Post-Explotación, Redes, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #blue-team #burpsuite #certificaciones #empleabilidad #forense #normativa #pentest #post-explotacion #redes #sqli #wifi #windows #xss

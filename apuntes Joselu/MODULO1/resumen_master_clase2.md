@@ -192,3 +192,22 @@ Ejemplo real del profesor: para una campaña de phishing a 600 empleados, el Gma
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase5.md|resumen_master_clase5]— Escalada de Privilegios, Kali Linux, Normativa / GRC
+- [[resumen_master_clase4.md|resumen_master_clase4]— Escalada de Privilegios, Kali Linux, Normativa / GRC
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Redes, Windows
+- [[../PREWORK/resumen_clase10.md|resumen_clase10]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Kali Linux, Redes
+- [[resumen_master_clase1.md|resumen_master_clase1]— Kali Linux, Normativa / GRC, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+
+> #blue-team #escalada-privilegios #forense #ia #kali #linux #netcat #normativa #pivoting #redes #reverse-shell #windows

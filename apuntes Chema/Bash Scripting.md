@@ -69,3 +69,22 @@ Un script es un fichero de texto con comandos Bash que se ejecutan secuencialmen
 ## Enlaces relacionados
 
 - [[comandos/Linux]] — Comandos de referencia
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+- [[Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Nmap, Redes
+- [[Fundamentos de Linux.md|Fundamentos de Linux]— Forense Digital, Kali Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Blue Team / SOC, Forense Digital, Linux
+- [[../informes/Informe_Banco.md|Informe_Banco]— Kali Linux, Nmap, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #blue-team #forense #kali #linux #nmap #redes

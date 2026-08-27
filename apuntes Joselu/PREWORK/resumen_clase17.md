@@ -239,3 +239,36 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 →’
 →’
 →’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[PREWORK.md|PREWORK]— GoBuster, SSH, WiFi / Hardware
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— GoBuster, SSH, WiFi / Hardware
+- [[../../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]— GoBuster, SSH, WiFi / Hardware
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Metasploit, SSH, WiFi / Hardware
+- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]— Hydra, Metasploit, SSH
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Kali Linux, Post-Explotación, WiFi / Hardware
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #certificaciones #dirsearch #empleabilidad #esteganografia #forense #gobuster #hydra #ia #john #kali #linux #metasploit #nmap #osint #pivoting #post-explotacion #redes #smb-impacket #sqli #sqlmap #ssh #wifi #windows #wireshark #wordpress #wpscan

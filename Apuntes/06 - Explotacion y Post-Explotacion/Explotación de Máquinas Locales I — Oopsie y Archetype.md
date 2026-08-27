@@ -346,3 +346,32 @@ impacket-psexec administrator:'PASS'@IP
 - [ ] ¿Sé transferir Netcat/WinPEAS con `python http.server` + `wget` de PowerShell?
 - [ ] ¿Sé interpretar el informe de WinPEAS/LinPEAS (prioridad a lo rojo)?
 - [ ] ¿Sé usar `psexec.py` o `evil-winrm` con credenciales de Administrator?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Post-Explotación, SSH
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #dirsearch #escalada-privilegios #feroxbuster #gobuster #hack-the-box #hydra #idor #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows

@@ -145,3 +145,30 @@ El fuzzing web automatiza el descubrimiento sustituyendo una parte de la petici�
 
 - [[comandos/FFUF]] — Cheat sheet de comandos
 - [[comandos/Feroxbuster]] — Cheat sheet de comandos
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— Feroxbuster, Hack The Box, Hydra
+- [[Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— Hack The Box, Hydra, Kali Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— Hack The Box, Hydra, Kali Linux
+- [[Enumeración Web.md|Enumeración Web]— Feroxbuster, Hack The Box, SQL Injection
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Hydra, Kali Linux
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hack The Box, Hydra, Kali Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #feroxbuster #ffuf #hack-the-box #hydra #kali #lfi #pentest #sqli

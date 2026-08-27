@@ -532,3 +532,29 @@ cat /root/root.txt
 ---
 
 *Write-up creado el 13 de Julio de 2026*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]— Escalada de Privilegios, Redes, SSH
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— Escalada de Privilegios, Redes, SSH
+- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, Redes, SSH
+- [[Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Redes, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]— Escalada de Privilegios, Redes, SSH
+- [[../apuntes Chema/Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]— Escalada de Privilegios, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #burpsuite #escalada-privilegios #hydra #lfi #linux #nmap #redes #ssh

@@ -201,3 +201,26 @@ Explotación inicial (servicio vulnerable) → Shell regular → Escalada local 
 
 > [!warning] Cada sistema tiene su propio camino
 > No hay una sola técnica universal — la clave es entender el sistema y encontrar las debilidades específicas de cada configuración.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Escalada de Privilegios, Hack The Box, Metasploit
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+
+> #escalada-privilegios #hack-the-box #hydra #john #linux #metasploit #netcat #pentest #post-explotacion #reverse-shell #smb-impacket #windows

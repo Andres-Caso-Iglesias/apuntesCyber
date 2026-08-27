@@ -443,3 +443,22 @@ steghide extract -sf imagen.jpg
 - [ ] Red con `ip`, `ping`, `curl`, `ssh` configurada
 - [ ] Texto con `grep`, `sed`, `awk` procesado
 - [ ] vi/vim con modos NORMAL, INSERT, COMMAND dominado
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, Redes
+- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]— Esteganografía, Forense Digital, Linux
+- [[../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Forense Digital, Linux, SSH
+- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]— Forense Digital, Linux, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Forense Digital, Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+
+> #esteganografia #forense #linux #redes #ssh

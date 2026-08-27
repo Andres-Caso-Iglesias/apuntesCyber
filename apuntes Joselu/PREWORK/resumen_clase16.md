@@ -120,3 +120,31 @@ Los dos tipos de informe Informe técnico: - Dirigido a los técnicos de la orga
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración Ciudad de Seguridad Defensiva Ciberseguridad – término mal transcrito OBSSEC / off-sec OPSEC (Operational Security ) – técnicas de sigilo y evasión; Offensive Security (empresa de certificaciones) OSEP OSEP (Offensive Security Experienced Penetration Tester) – certificación avanzada de Offensive Security OSCP OSCP (Offensive Security Certified Professional) – certificación estándar de pentesting Unix for Linux / WinPyth LinPEAS y WinPEAS – scripts de enumeración para escalada de privilegios en Linux y Windows Deartico Dirty COW (Dirty Copy-On-Write , CVE-2016-5195) – exploit de escalada de privilegios en kernels Linux antiguos CRTP / CRTO CRTP (Certified Red Team Professional ) y CRTO (Certified Red Team Operator ) – certificaciones de Active Directory ligolo Ligolo-ng – herramienta de pivoting mediante interfaces de red virtualizadas mimi cats / Mimikatz Mimikatz – herramienta de volcado de credenciales y hashes de memoria Windows john de ripper / has cat John the Ripper y Hashcat – herramientas de cracking de hashes pas de has Pass-the-Hash (PtH) – técnica de autenticación con el hash sin conocer la contraseña en claro blowfish Bcrypt/Blowfish – algoritmo de hashing de contraseñas usado en muchas aplicaciones web has / hases Hash / hashes – resultado de una función criptográfica aplicada a una contraseña gneus / geneo GPUs (Graphics Processing Units ) – tarjetas gráficas usadas para cracking masivo de hashes entro vuelco Referencia al ciclo “ entro → vuelco hashes → rompo → accedo a siguiente máquina ” de los movimientos laterales reversal Reverse shell – conexión de retorno desde el equipo comprometido al servidor del atacante stand alone Standalone – máquina independiente, no integrada en un dominio Active Directory metasploit Metasploit Framework – framework de 5
 
 Término en la transcripción Corrección / Aclaración explotación y post-explotación bridge forums BreachForums – foro de la Deep Web para filtración de bases de datos de haced Dehashed – plataforma de búsqueda de credenciales filtradas Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Post-Explotación, SSH, XSS
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]— Escalada de Privilegios, SSH, XSS
+- [[PREWORK.md|PREWORK]— Escalada de Privilegios, SSH, XSS
+- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]— Escalada de Privilegios, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #blue-team #certificaciones #escalada-privilegios #ia #idor #john #linux #metasploit #netcat #nmap #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xss

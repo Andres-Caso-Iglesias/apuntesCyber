@@ -160,3 +160,22 @@ La próxima sesión abordará en detalle las diferentes líneas de la cibersegur
 ## 7.
 
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración botnet Mirei Botnet Mirai – botnet masiva basada en dispositivos IoT CVS CVE (Common Vulnerabilities and Exposures ) – identificador estándar de vulnerabilidades Lock4G Log4Shell / Log4j – vulnerabilidad crítica en la librería Apache Log4j (2021) Vista (gusano 2003) Blaster – gusano de 2003 que afectó a millones de equipos Windows NSA (empresa israelí) NSO Group – empresa privada israelí creadora de Pegasus (distinta de la NSA estadounidense) Transunware Ransomware – software de secuestro y cifrado de datos WebSphere de Java Probable referencia a vulnerabilidades en Log4j (librería Java) o en Apache Struts Vedrola / Enaga Iberdrola y Enagás – empresas energéticas españolas afectadas por la vulnerabilidad de Fortinet NIDS o Team Bware TeamViewer / AnyDesk – herramientas de acceso remoto corporativo CHAP GPT ChatGPT – modelo de lenguaje de OpenAI jactivismo Hacktivismo – uso del hacking como activismo político o social Blueteam / Redteam Blue Team / Red Team – equipos de defensa y ataque en ciberseguridad Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase6.md|resumen_clase6]— Normativa / GRC, Redes, Windows
+- [[resumen_clase7.md|resumen_clase7]— Normativa / GRC, Redes, Windows
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]— Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../MODULO3/resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../MODULO3/resumen_master_clase51.md|resumen_master_clase51]— IA en Ciberseguridad, Redes, Windows
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #command-injection #ia #normativa #redes #windows

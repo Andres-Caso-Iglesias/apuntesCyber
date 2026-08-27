@@ -318,3 +318,34 @@ Cambios respecto a sesiones anteriores tras esta clase:
 •     **Reaparecen:** Nmap, wget/curl, ssh, reverse shells PHP — consolidando la metodología base.
 
 •     **Pendiente para el lunes:** subida de archivos + webshell sobre la máquina con IDOR (continuación del Tier 2).
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Escalada de Privilegios, Post-Explotación, SSH
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Kali Linux, Post-Explotación, SSH
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #escalada-privilegios #feroxbuster #ffuf #file-upload #idor #john #kali #lfi #linux #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows

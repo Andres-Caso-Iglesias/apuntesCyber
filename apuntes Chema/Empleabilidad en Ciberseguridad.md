@@ -119,3 +119,24 @@ La visibilidad en la comunidad de ciberseguridad es un multiplicador de oportuni
 |Septiembre-Octubre|Vuelta de vacaciones. Segundo pico de contratación.|
 |Ferias / conferencias|Networking presencial. Entrega tarjeta, conecta en LinkedIn ese mismo día.|
 |Evitar|Agosto (vacaciones) y Diciembre (cierre de año). Menor actividad de RRHH.|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, XSS
+- [[../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, XSS
+- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]— Hack The Box, VulnHub, XSS
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, Kali Linux, Path Traversal / LFI
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— Hack The Box, Path Traversal / LFI, XSS
+- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— Hack The Box, Kali Linux, XSS
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #blue-team #certificaciones #empleabilidad #hack-the-box #kali #lfi #linux #pentest #sqli #vulnhub #xss

@@ -180,3 +180,26 @@ Sabemos que los atacantes no siempre traen sus propias herramientas: a menudo us
 Sabemos diferenciar entre bind shell y reverse shell, y entendemos por qué la segunda es la técnica preferida: los firewalls rara vez bloquean tráfico saliente.
 
 Y tenemos ya instalado Metasploitable 2, que será el campo de entrenamiento de las próximas sesiones cuando arranque en serio la fase ofensiva del máster.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Redes
+- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Escalada de Privilegios, Hack The Box, Redes
+- [[resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Redes, Windows
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Redes, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #escalada-privilegios #file-upload #forense #hack-the-box #ia #linux #metasploitable #netcat #nmap #pentest #redes #reverse-shell #windows #wireshark

@@ -338,3 +338,33 @@ Sección lista para copiar a la base de conocimiento del proyecto. Cambios de ni
 | |
 |---|
 |**Nuevas técnicas para el registro conceptual**<br><br>IDOR (OWASP A01:2021) — control de acceso roto vía manipulación de id/cookie.<br><br>Secuestro de PATH sobre binario que se ejecuta como root con comando relativo.<br><br>Activación de xp_cmdshell en MSSQL con rol sysadmin (sp_configure + RECONFIGURE).<br><br>Credenciales en historial de PowerShell como vector de escalada en Windows.|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Post-Explotación, SSH
+- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— GoBuster, Kali Linux, SSH
+- [[Nibbles_HTB.md|Nibbles_HTB]— Hack The Box, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #idor #kali #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #ssh #windows

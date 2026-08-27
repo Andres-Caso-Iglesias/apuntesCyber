@@ -274,3 +274,33 @@ Una vez recibida la shell, se «trata» para que sea interactiva y no se rompa. 
 •     **Concepto nuevo afianzado:** estabilización de TTY y lógica manual de SQL Injection (se profundizará en el módulo web).
 
 •     **Pendiente próxima clase (Yuba):** cierre de Vaccine con la escalada de privilegios; después, la máquina **Oopsie** (IDOR).
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, SSH
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Post-Explotación, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase32.md|resumen_master_clase32]— Hack The Box, SSH, XSS
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hack The Box, SSH, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #certificaciones #escalada-privilegios #file-upload #hack-the-box #hydra #idor #john #kali #linux #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows #xss

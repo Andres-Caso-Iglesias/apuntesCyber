@@ -104,3 +104,22 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 ## Enlaces relacionados
 
 - [[comandos/Linux]] — Cheat sheet de comandos
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Bash Scripting.md|Bash Scripting]— Forense Digital, Kali Linux, Nmap
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Escalada de Privilegios, Forense Digital, Linux
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Kali Linux, Linux, Nmap
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Forense Digital, Linux, Nmap
+- [[Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Linux, Nmap
+- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]— Escalada de Privilegios, Kali Linux, Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #escalada-privilegios #forense #kali #linux #nmap

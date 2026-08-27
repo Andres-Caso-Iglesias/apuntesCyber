@@ -172,3 +172,29 @@ SSRF completa el cuadro de vulnerabilidades que convierten al servidor en aliado
 Los tres vectores comparten la misma raíz: **una función del servidor acepta entrada de usuario sin validar y la usa para acceder a un recurso.**
 
 La semana que viene se entra en **SQL Injection**, siguiendo la misma estructura progresiva: desde los casos más simples hasta blind SQLi y técnicas out-of-band.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase53.md|resumen_master_clase53]— Open Redirect, Redes, SSRF
+- [[resumen_master_clase49.md|resumen_master_clase49]— SQL Injection, SSRF, XXE
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— Open Redirect, SSRF, XXE
+- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]— Burp Suite, Open Redirect, SSRF
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]— Redes, SSRF, XXE
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Redes, SQL Injection, XXE
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #ia #lfi #open-redirect #redes #sqli #ssrf #xxe

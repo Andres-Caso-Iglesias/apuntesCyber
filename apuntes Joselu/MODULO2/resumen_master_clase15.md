@@ -87,3 +87,30 @@ python3 -m http.server 8080
 acceso a esa red y Wireshark abierto puede captu rar las credenciales de cualquier usuario que inicie sesión. No hace falta explotar nada. Solo escuchar
 
 Recapitulación integrada Con esta sesión cerramos el modelo OSI. Sabemos que cada capa tiene su responsabilidad y sus vulnerabilidades, que un ataque r eal encadena capas distintas, y que la defensa funciona solo si es también por capas. Hemos visto el cifrado TLS como el mecanismo que protege la capa de presentación, las sesiones y tokens como solución al problema de memoria de HTTP, y hemos comprobado e n vivo con Wireshark que la diferencia entre HTTP y HTTPS no es teórica: es la diferencia entre ver unas credenciales en texto claro o ver datos ilegibles. A partir de aquí arranca la fase activa: Metasploitable, enumeración de servicios y las primeras máq uinas vulnerables.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase14.md|resumen_master_clase14]— Redes, SSH, XSS
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]— Redes, SSH, XSS
+- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Redes, SSH, XSS
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Redes, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Redes, SSH, XSS
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]— Redes, SSH, Wireshark
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #ia #linux #metasploitable #nmap #redes #sqli #ssh #ssrf #wireshark #xss

@@ -116,3 +116,18 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 →’
 
 →’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase11.md|resumen_clase11]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Hack The Box, Normativa / GRC, VulnHub
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Metodología Pentest, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]— Metodología Pentest, Normativa / GRC, Redes
+- [[resumen_clase9.md|resumen_clase9]— Certificaciones, Normativa / GRC, Redes
+- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+
+> #certificaciones #hack-the-box #ia #normativa #pentest #pivoting #redes #vulnhub #windows

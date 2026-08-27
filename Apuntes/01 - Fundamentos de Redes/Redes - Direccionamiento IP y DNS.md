@@ -109,3 +109,22 @@ host google.com # simple y rápido
 - [ ] ¿Entiendo la función de cada registro DNS?
 - [ ] ¿Sé usar dig y nslookup?
 - [ ] ¿Relaciono el DNS con el OSINT y la enumeración web?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Nmap, Redes, Wireshark
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Nmap, Redes, Wireshark
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Metodología Pentest, Nmap, Redes
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Metodología Pentest, Nmap, Redes
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]— Metodología Pentest, Nmap, OSINT
+- [[../../apuntes Chema/Wireshark.md|Wireshark]— Nmap, Redes, Wireshark
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #nmap #osint #pentest #redes #wireshark

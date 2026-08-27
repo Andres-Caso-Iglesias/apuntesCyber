@@ -146,3 +146,22 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 
 â†’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, Kali Linux, Redes
+- [[resumen_master_clase1.md|resumen_master_clase1]— Hack The Box, Kali Linux, Redes
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, Kali Linux, Redes
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, Kali Linux, Redes
+- [[../MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Esteganografía, Redes, Windows
+- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Hydra, Kali Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+> #certificaciones #esteganografia #hack-the-box #hydra #ia #kali #linux #metasploitable #osint #pivoting #redes #windows

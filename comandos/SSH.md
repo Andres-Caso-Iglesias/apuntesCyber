@@ -406,3 +406,23 @@ ssh-keygen -t ed25519
 # Copiar clave
 ssh-copy-id user@host
 ```
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Hydra.md|Hydra]— Hydra, Redes, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Hydra, Redes, SSH
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Hydra, Redes, SSH
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Metodología Pentest, Redes, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Hydra, Metodología Pentest, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]— Hydra, Metodología Pentest, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SSH|SSH]]
+
+> #hydra #pentest #pivoting #redes #ssh

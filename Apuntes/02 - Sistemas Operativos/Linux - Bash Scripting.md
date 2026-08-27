@@ -204,3 +204,22 @@ shred -u ~/.bash_history # borrado seguro
 - [ ] ¿Sé usar if/elif/else con comparaciones numéricas y de strings?
 - [ ] ¿Domino los bucles for y while?
 - [ ] ¿Puedo escribir una función con retorno?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Blue Team / SOC, Forense Digital, Linux
+- [[Linux - Fundamentos.md|Linux - Fundamentos]— Forense Digital, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]— Forense Digital, Linux, Nmap
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Blue Team / SOC, Forense Digital, Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #blue-team #forense #linux #nmap #windows

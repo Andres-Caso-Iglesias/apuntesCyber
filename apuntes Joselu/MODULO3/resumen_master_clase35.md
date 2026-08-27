@@ -353,3 +353,28 @@ Robot
 
 â†’
 
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, Kali Linux, Redes
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Escalada de Privilegios, Hack The Box, Kali Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #command-injection #escalada-privilegios #file-upload #hack-the-box #hydra #ia #kali #linux #netcat #nmap #redes #reverse-shell #windows #wordpress

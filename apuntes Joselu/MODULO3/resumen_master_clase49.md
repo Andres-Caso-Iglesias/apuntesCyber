@@ -172,3 +172,31 @@ SSTI cierra el ciclo de vulnerabilidades de inyección del lado del servidor con
 El mapa mental que queda: **encontrar el parámetro → identificar el motor → buscar el payload en PayloadsAllTheThings o HackTricks para ese motor → confirmar ejecución → escalar a RCE.**
 
 La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bloque web y el que más variantes tiene en entornos reales.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE — XML External Entity]— SSRF, SSTI, XXE
+- [[resumen_master_clase48.md|resumen_master_clase48]— SQL Injection, SSRF, XXE
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— SSRF, SSTI, XXE
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]— SSRF, SSTI, XXE
+- [[../../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]— Command Injection / RCE, SSRF, SSTI
+- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]— Command Injection / RCE, Empleabilidad, SQL Injection
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #command-injection #empleabilidad #ia #lfi #sqli #ssrf #ssti #xxe

@@ -146,3 +146,30 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 - [[comandos/Metasploit]] — Cheat sheet de comandos
 - [[comandos/Hydra]] — Cheat sheet de comandos
 - [[comandos/SQLMap]] — Cheat sheet de comandos
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase33.md|resumen_master_clase33]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Hack The Box, SSH
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Kali Linux, Metasploit, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #escalada-privilegios #hack-the-box #hydra #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub

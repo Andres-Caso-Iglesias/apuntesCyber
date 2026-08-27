@@ -298,3 +298,21 @@ Término en la transcripción Corrección / Aclaración
 Wizark / Wizar **Wireshark** -- analizador de tráfico de red volátil / estático / bolatility **Volatility** -- herramienta de análisis de memoria RAM forense la memoria volátil de Linux **LIME** (*Linux Memory Extractor*) -- herramienta de extracción de volcados de RAM en Linux Autopsi **Autopsy** -- herramienta de análisis forense de discos duros e imágenes ios / IOC **IOC** (*Indicator of Compromise*) -- indicador de compromiso (hash, IP, nombre de fichero...) CDR / EDR / DDR **EDR** (*Endpoint Detection and Response*) -- sistema de detección y respuesta en endpoints DLC / DLL / LLL **DLL** (*Dynamic Link Library*) -- librería dinámica de funciones en Windows cloud decode / Claudia / Claude **Claude** (Anthropic) -- IA usada para resolver dudas durante la práctica annie punto ran / lenny run **Any.run** -- sandbox de análisis dinámico de malware online ciberdefender / Cyberdefender **CyberDefenders** -- plataforma de laboratorios Blue Team RC 4 / más de 4 **RC4** (*Rivest Cipher 4*) -- algoritmo de cifrado de flujo ligero, frecuente en malware la patricia Mitre / Mitre **MITRE ATT&CK** -- matriz de tácticas y técnicas de ataque con IDs estandarizados Yellow Coco tu Rat / Yellow Cocatoo **Yellow Cockatoo RAT** -- nombre del malware analizado en el laboratorio (Remote Access Trojan) steel / steal **Credential Stealer** -- tipo de malware que roba credenciales almacenadas password stop **Password Stores** -- almacenamiento de contraseñas del sistema (técnica T1555 de MITRE) Rust tiempo muerto **timeout /t 5** -- comando Windows que espera N segundos antes de ejecutar el siguiente comando in the wild **In the wild** -- término del sector que indica que el malware ha sido detectado en uso real fuera de entornos controlados FOCA de Chema Alonso **FOCA** -- herramienta de extracción y análisis de metadatos de documentos públicos S21 red / On Red Tribal **S21sec** -- empresa española de ciberseguridad que colabora con Guardia Civil, Policía Nacional y CNI INCIBE **INCIBE** -- Instituto Nacional de Ciberseguridad de España; agrega y deriva alertas a los cuerpos competentes (no investiga directamente) CCN / CNI **CCN-CERT** / **CNI** -- Centro Criptológico Nacional / Centro Nacional de Inteligencia Charcha / Charchas Apodo para el alumno que compartió pantalla en la práctica (Chema)
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Redes, Windows, Wireshark
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Redes, Windows, Wireshark
+- [[../MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Linux, Redes, Windows
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]— Forense Digital, Redes, Wireshark
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+
+### 🛠️ Herramientas
+
+
+> #blue-team #forense #ia #linux #redes #windows #wireshark

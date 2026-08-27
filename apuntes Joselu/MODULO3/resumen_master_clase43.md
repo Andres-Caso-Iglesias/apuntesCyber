@@ -316,3 +316,33 @@ Término en la transcripción Corrección / Aclaración
  *Claudia / Claude / La IA* **Claude** (Anthropic) -- IA usada por los alumnos para resolver dudas y generar payloads durante la clase
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, GoBuster, SSH
+- [[resumen_master_clase44.md|resumen_master_clase44]— Escalada de Privilegios, GoBuster, SSH
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Escalada de Privilegios, GoBuster, SSH
+- [[resumen_master_clase45.md|resumen_master_clase45]— Escalada de Privilegios, GoBuster, SSH
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Escalada de Privilegios, SSH, XXE
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]— Escalada de Privilegios, GoBuster, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #command-injection #escalada-privilegios #ffuf #gobuster #ia #lfi #linux #netcat #redes #reverse-shell #sqli #ssh #windows #xxe

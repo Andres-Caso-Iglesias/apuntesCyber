@@ -155,3 +155,18 @@ Banco Santander o BBV A con contratos públicos): obligado a cumplir simultánea
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración Ciudad de Seguridad Ciberseguridad threat haunting Threat Hunting – búsqueda proactiva de amenazas en redes y sistemas mis dos / la mis dos / niz 2 NIS 2 – Directiva europea de seguridad de redes e información (versión 2) dora 2 DORA (Digital Operational Resilience Act ) – normativa de resiliencia digital para banca y seguros sgs y SGSI (Sistema de Gestión de la Seguridad de la Información) – marco de gestión de ISO 27001 log lo gp / ley y el cumplimiento de protección de datosLOPD (antigua Ley Orgánica de Protección de Datos, sustituida por el RGPD/GDPR) tríada del cia Tríada CIA – Confidencialidad, Integridad y Disponibilidad análisis gap Análisis GAP – diagnóstico de brechas entre el estado actual y los requisitos normativos 5
 
 Término en la transcripción Corrección / Aclaración cross selling / lab selling Cross-selling – venta cruzada de servicios complementarios tiber ewe TIBER-EU – marco europeo de pruebas de Red Team para banca y seguros carding Carding – fraude basado en la duplicación y uso ilícito de datos de tarjetas de crédito bank inter / banquinter Bankinter – entidad bancaria española bb vea BBV A – entidad bancaria española ccn CCN-CERT (Centro Criptológico Nacional) – organismo español de ciberseguridad del CNI aiso / iso ISO/IEC 27001 – estándar internacional de seguridad de la información kit digital consulting Kit Digital – programa de ayudas de la UE para la digitalización de pymes pc y dss PCI DSS (Payment Card Industry Data Security Standard) Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Certificaciones, Normativa / GRC, Redes
+- [[../MODULO3/resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]— Certificaciones, Normativa / GRC, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Certificaciones, Normativa / GRC, Redes
+- [[resumen_clase1_.md|resumen_clase1_]— Certificaciones, Normativa / GRC, Redes
+- [[resumen_clase2.md|resumen_clase2]— IA en Ciberseguridad, Normativa / GRC, Redes
+
+> #certificaciones #ia #normativa #redes

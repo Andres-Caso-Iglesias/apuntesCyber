@@ -157,3 +157,29 @@ Recapitulación integrada Al cerrar esta sesión hemos montado por primera vez u
 Sabemos que ir por fases genera menos ruido que lanzar todo de golpe, que la reutilización de cre denciales entre servicios es un fallo real y frecuente, y que documentar los fallos es tan importante como documentar los éxitos.
 
 La próxima sesión continúa con la explotación de los servicios restantes de Metasploitable y la escalada de privilegios.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase29.md|resumen_master_clase29]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase26.md|resumen_master_clase26]— Kali Linux, OSINT, SSH
+- [[resumen_master_clase30.md|resumen_master_clase30]— Escalada de Privilegios, Kali Linux, SSH
+- [[resumen_master_clase20.md|resumen_master_clase20]— Kali Linux, Redes, SSH
+- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #certificaciones #command-injection #escalada-privilegios #hydra #ia #kali #linux #metasploit #metasploitable #nmap #osint #pentest #redes #ssh

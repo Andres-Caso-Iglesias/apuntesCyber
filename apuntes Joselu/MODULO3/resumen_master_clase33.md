@@ -319,3 +319,31 @@ Término en la transcripción Corrección / Aclaración
 *hacerme admin con la accesibilidad* **cookie manipulation** -- modificar el valor de la cookie de sesión en el Storage del navegador para cambiar el rol del usuario
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase34.md|resumen_master_clase34]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Kali Linux, Metasploit, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #redes #reverse-shell #sqli #sqlmap #ssh

@@ -302,3 +302,30 @@ Término en la transcripción Corrección / Aclaración
  *Satek / Saket* **Satek** -- empresa especializada en Bluetooth, cuyo responsable Edu impartirá el módulo de BLE
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, RFI, XSS
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— CSRF, RFI, XSS
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— CSRF, Hack The Box, XSS
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, XSS
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hack The Box, RFI, XSS
+- [[resumen_master_clase36.md|resumen_master_clase36]— CSRF, Hack The Box, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #pentest #pivoting #post-explotacion #redes #rfi #sqli #ssh #xss

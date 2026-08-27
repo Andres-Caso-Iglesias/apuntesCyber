@@ -197,3 +197,18 @@ Sabemos usar file para verificar que un archivo es lo que dice ser, strings para
 Y sabemos que los metadatos GPS de una imagen pueden llevar, en combinación con OSINT sobre redes WiFi, desde una foto anónima hasta la dirección donde vive su autor.
 
 A partir de la próxima sesión arranca el hacking activo: enumeración de servicios, puertos y las primeras m áquinas vulnerables.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]— Redes, WiFi / Hardware, Windows
+- [[resumen_master_clase9.md|resumen_master_clase9]— Redes, WiFi / Hardware, Windows
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Linux, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
+- [[resumen_master_clase8.md|resumen_master_clase8]— Forense Digital, Linux, Redes
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]— Forense Digital, Linux, OSINT
+
+> #esteganografia #forense #ia #linux #osint #redes #wifi #windows

@@ -482,3 +482,29 @@ bash -p
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— GoBuster, Kali Linux, SSH
+- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Post-Explotación, SSH
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
+- [[../write-ups/Banco-THL.md|Banco-THL]— Escalada de Privilegios, Redes, SSH
+- [[Informe_Castor.md|Informe_Castor]— Kali Linux, Post-Explotación, SSH
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #escalada-privilegios #gobuster #hydra #kali #lfi #linux #nmap #post-explotacion #redes #ssh

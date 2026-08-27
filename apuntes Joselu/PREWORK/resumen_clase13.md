@@ -132,3 +132,27 @@ La enumeración de permisos se realizará con ls -la y otras herramientas durant
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración geneus / gneus GPUs (Graphics Processing Units ) – unidades de procesamiento gráfico; usadas para cracking de hashes e IA mimi cats / mímica Mimikatz – herramienta de volcado de credenciales y hashes de la memoria de Windows ntds punto dit ntds.dit – base de datos del Active Directory que contiene todos los usuarios y hashes de contraseñas hases / has rate Hashes / Hash rate – resultado de una función criptográfica / velocidad de cómputo de hashes SHA256 / SHA512 / SHA128 SHA-256 / SHA-512 / SHA-128 – algoritmos de hash criptográfico SSLTLS SSL/TLS – protocolos de cifrado de comunicaciones web (el “candado” HTTPS) bo buffer overflow Buffer Overflow – desbordamiento de buffer, técnica de escalada de privilegios y RCE threads / 3 Threads (hilos de ejecución) – unidades de procesamiento paralelo de x día dxdiag – herramienta de diagnóstico del sistema en Windows salto la rana / en fifo / en lifo Algoritmos de recorrido de hashes : FIFO (First In, First Out), LIFO (Last In, First Out) CGI de Linux CLI de Linux (Command Line Interface ) – interfaz de línea de comandos; el intérprete se llama Bash loaner Owner – propietario de un archivo en Linux Change Mod chmod (change mode) – comando Linux para cambiar permisos de archivos rig de cracking Cracking rig – clúster de GPUs para romper hashes de contraseñas (idéntico hardware a un rig de minería) 5
 
 Término en la transcripción Corrección / Aclaración azul Azure – plataforma cloud de Microsoft blockchain Blockchain – cadena de bloques; tecnología base de las criptomonedas on premise / on-premise On-premise – infraestructura tecnológica alojada físicamente en las instalaciones propias Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../comandos/John_Hashcat.md|John_Hashcat]— Hydra, John / Hashcat, Linux
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]— Command Injection / RCE, Escalada de Privilegios, Linux
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Escalada de Privilegios, Hydra, Windows
+- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, Hydra, John / Hashcat
+- [[resumen_clase15.md|resumen_clase15]— Escalada de Privilegios, Hydra, Windows
+- [[resumen_clase4.md|resumen_clase4]— Escalada de Privilegios, Hydra, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #escalada-privilegios #hydra #ia #john #linux #pentest #windows

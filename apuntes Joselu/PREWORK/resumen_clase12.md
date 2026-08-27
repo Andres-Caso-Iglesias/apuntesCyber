@@ -133,3 +133,27 @@ SFTP v1.3) es la implementación concreta que usa ese protocolo en un puerto dad
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración IPS (empresa de telecomunicaciones) ISP (Internet Service Provider ) – proveedor de servicios de Internet MTEU MTU (Maximum Transmission Unit ) – tamaño máximo de un datagrama (1500 bytes) Abatel Adamo o Avatel – operadora de telecomunicaciones española multa Mullvad – servicio VPN orientado al anonimato ck y el sí / ack sí SYN / SYN-ACK / ACK – three-way handshake de TCP modelo o si / o si Modelo OSI (Open Systems Interconnection ) htps / htp HTTPS / HTTP – protocolos web sh SSH (Secure Shell) – protocolo de acceso remoto seguro y cubo W3C (World Wide Web Consortium ) – organización que estandariza protocolos web mímica Mimikatz – herramienta de volcado de credenciales en Windows RJ45 RJ-45 – conector estándar de cable Ethernet redes en anillo circular Topología en anillo (ring topology) point to point Topología punto a punto (point-to-point) red NATeada / NATeo Red NAT (Network Address Translation ) – red con traducción de direcciones de secops DevSecOps (mencionado de forma tangencial) 5
 
 Término en la transcripción Corrección / Aclaración data link y physical layer Capa de enlace de datos (L2) y capa física (L1) del modelo OSI Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Redes, SSH, Windows
+- [[../../apuntes Chema/Wireshark.md|Wireshark]— Redes, SSH, Wireshark
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— IA en Ciberseguridad, Redes, SSH
+- [[../MODULO2/resumen_master_clase14.md|resumen_master_clase14]— Redes, SSH, Wireshark
+- [[resumen_clase4.md|resumen_clase4]— Redes, SSH, Windows
+- [[resumen_clase2.md|resumen_clase2]— Command Injection / RCE, IA en Ciberseguridad, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #ia #nmap #redes #ssh #windows #wireshark

@@ -125,3 +125,18 @@ pip install herramienta # paquetes Python
 - [ ] ¿Conozco las equivalencias Bash → PowerShell?
 - [ ] ¿Sé configurar una VM con red Host-Only?
 - [ ] ¿Entiendo por qué la CLI es preferible al GUI en pentesting?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Kali Linux, Redes, Windows
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Kali Linux, Linux, Redes
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Linux, Redes, Windows
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Linux, Metodología Pentest, Redes
+- [[../../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Linux, Redes
+- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— Kali Linux, Redes, Windows
+
+> #kali #linux #pentest #redes #windows

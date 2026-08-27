@@ -350,3 +350,32 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Entiendo cómo Burp Suite Intruder enumera usuarios por longitud de respuesta?
 - [ ] ¿Recuerdo sanitizar diccionarios con `sort | uniq`?
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Hack The Box, SSH, VulnHub
+- [[../../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../informes/Informe_Academy.md|Informe_Academy]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress

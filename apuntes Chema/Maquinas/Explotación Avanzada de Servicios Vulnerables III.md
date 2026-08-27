@@ -453,3 +453,34 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 •       ; (punto y coma)  &&  (AND)  | (pipe)  || (OR).
 
 •       www-data. Siguiente paso: buscar escalada de privilegios con sudo -l, ficheros SUID, credenciales expuestas.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, SSH, XSS
+- [[../Auditoria web.md|Auditoria web]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, SSH, XSS
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, SSH, XSS
+- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]— Kali Linux, Metasploit, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #redes #reverse-shell #sqli #ssh #xss

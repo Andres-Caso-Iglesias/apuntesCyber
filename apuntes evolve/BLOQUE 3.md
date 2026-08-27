@@ -152,3 +152,23 @@ curl -s 'https://crt.sh/?q=empresa.com&output=json' | head # certs TLS
 
 > [!important] Habilidad clave
 > El seguimiento de auditorías (bitácora detallada de cada acción) permite justificar decisiones ante un cliente y detectar errores rápidamente — y es una de las habilidades "blandas" más valoradas en las entrevistas de trabajo del sector.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]— Escalada de Privilegios, Google Dorks, Post-Explotación
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, Metodología Pentest, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Metodología Pentest, Nmap, Redes
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Post-Explotación, Redes
+- [[BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Pivoting / Movilidad Lateral, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Escalada de Privilegios, Nmap, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Nmap|Nmap]]
+
+> #escalada-privilegios #google-dorks #nmap #osint #pentest #pivoting #post-explotacion #redes

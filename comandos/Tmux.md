@@ -172,3 +172,23 @@ bind -n M-Down select-pane -D
 - [ ] Ventanas con `Ctrl+b c` gestionadas
 - [ ] Copy mode con `Ctrl+b [` explorado
 - [ ] Configuración personalizada en `.tmux.conf`
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Telnet.md|Telnet]— SSH
+- [[../Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]— SSH
+- [[Hydra.md|Hydra]— SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— SSH
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]— SSH
+- [[../apuntes Chema/Wireshark.md|Wireshark]— SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
+
+> #ssh #tmux

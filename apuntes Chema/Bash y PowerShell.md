@@ -73,3 +73,23 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 | |
 |---|
 |ip a                    # ver interfaces de red (moderno)<br><br>ifconfig                # ver interfaces (legacy, aún disponible en Kali)<br><br>ip route                # tabla de rutas<br><br>ss -tulnp               # puertos abiertos y procesos (moderno)<br><br>netstat -tulnp          # igual pero legacy<br><br>ping -c4 8.8.8.8        # test de conectividad<br><br>curl ifconfig.me        # ver IP pública<br><br>wget URL                # descargar fichero<br><br>curl -s URL             # petición HTTP silenciosa<br><br># Netcat — navaja suiza de red:<br><br>nc -lvnp 4444           # escuchar en puerto 4444<br><br>nc IP 4444              # conectar a IP:4444<br><br>nc -z IP 80             # comprobar si puerto está abierto|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
+- [[../informes/Informe_Nike.md|Informe_Nike]— Kali Linux, Linux, Redes
+- [[Bash Scripting.md|Bash Scripting]— Kali Linux, Nmap, Redes
+- [[../write-ups/Nike-THL.md|Nike-THL]— Kali Linux, Linux, Redes
+- [[../informes/Informe_Banco.md|Informe_Banco]— Kali Linux, Nmap, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]— Kali Linux, Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+
+> #kali #linux #netcat #nmap #redes

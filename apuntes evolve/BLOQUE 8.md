@@ -170,3 +170,22 @@ impacket-psexec dominio.local/usuario:contrasena@<IP>
 ```bash
 impacket-secretsdump dominio.local/administrador:contrasena@<IP_DC>
 ```
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]— Redes, SMB / Impacket, Windows
+- [[../comandos/Windows.md|Windows]— Redes, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]— Redes, SMB / Impacket, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Redes, Windows
+- [[BLOQUE 10.md|BLOQUE 10]— Redes, Windows
+- [[BLOQUE 11.md|BLOQUE 11]— Redes, SMB / Impacket, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+
+> #redes #smb-impacket #windows

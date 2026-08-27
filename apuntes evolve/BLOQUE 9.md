@@ -133,3 +133,22 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 > [!warning] Casos reales
 > Interceptación de señales de llaves electrónicas para desbloquear vehículos (BMW en Alemania), y manipulación de sensores para provocar frenadas automáticas. El impacto no es solo económico: pone en riesgo directo la vida de las personas.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Hydra, Redes, WiFi / Hardware
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]— Redes, WiFi / Hardware
+- [[../comandos/Nmap.md|Nmap]— Hydra, Redes
+- [[../comandos/Hydra.md|Hydra]— Hydra, Redes
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Hydra, Redes, WiFi / Hardware
+- [[../comandos/SSH.md|SSH]— Hydra, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+> #hydra #redes #wifi

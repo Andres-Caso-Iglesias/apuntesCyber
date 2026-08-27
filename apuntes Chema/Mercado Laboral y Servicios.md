@@ -221,3 +221,32 @@ Prueba una sola contraseña contra todos los usuarios de la lista. Especialmente
 →’
 →’
 
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]— Burp Suite, Metasploit, SSH
+- [[Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]— Hydra, Metasploit, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase17.md|resumen_clase17]— Metasploit, SSH, WiFi / Hardware
+- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— Metasploit, SSH, WiFi / Hardware
+- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hydra, SSH, WiFi / Hardware
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Redes, SSH, WiFi / Hardware
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #certificaciones #command-injection #empleabilidad #hydra #ia #metasploit #nmap #osint #pentest #pivoting #redes #smb-impacket #ssh #tmux #wifi #windows #wordpress #wpscan

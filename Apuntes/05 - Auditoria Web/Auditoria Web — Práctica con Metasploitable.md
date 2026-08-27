@@ -302,3 +302,35 @@ nc 10.0.2.15 60000
 - [ ] ¿Sé que el SSH puede estar en puertos no estándar y siempre escaneo -p-?
 - [ ] ¿Identifico un rabbit hole y sé cuándo dejar de invertir tiempo?
 - [ ] ¿Recuerdo siempre guardar TODO: usuarios, contraseñas, hashes, rutas?
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]— GoBuster, Kali Linux, SSH
+- [[../../write-ups/Academy-THL.md|Academy-THL]— GoBuster, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #kali #linux #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh

@@ -172,3 +172,22 @@ sha256sum ./exhibits/malware.exe
 ---
 
 > **Siguiente tema:** [[Blue Team - SOC e Incidentes]] — SOC, SIEM, MITRE ATT&CK, Wazuh, SOAR
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Redes, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Redes, Windows, Wireshark
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase17.md|resumen_master_clase17]— Escalada de Privilegios, Redes, Windows
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Escalada de Privilegios, Redes, Windows
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Redes, Windows, Wireshark
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+
+> #blue-team #escalada-privilegios #forense #linux #netcat #post-explotacion #redes #reverse-shell #windows #wireshark

@@ -185,3 +185,26 @@ Se aplicó `x8_lite.py` sobre `index.php` (POST) de la máquina rockstar. El scr
 |-------------|-------|
 | x8 / x8_lite.py | Practicada (antes: Mencionada) |
 | valfuzz.py | Introducida (nueva) |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]— GoBuster, Hydra, Kali Linux
+- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— Feroxbuster, Hack The Box, Hydra
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— GoBuster, Hack The Box, Kali Linux
+- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— GoBuster, Kali Linux, Redes
+- [[../Fuzzing Web.md|Fuzzing Web]— Hack The Box, Hydra, Kali Linux
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— GoBuster, Hack The Box, Kali Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+
+> #burpsuite #feroxbuster #ffuf #gobuster #hack-the-box #hydra #kali #linux #redes #windows

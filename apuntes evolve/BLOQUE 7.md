@@ -93,4 +93,23 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 > [!important] Flujo cíclico
 > Pivoting no es un paso único: es un ciclo repetitivo de enumeración → explotación → escalada → nuevo pivote hasta alcanzar el objetivo.
 
+---
 
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Redes, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Escalada de Privilegios, Redes, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Redes, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Redes, Windows
+- [[../write-ups/Nike-THL.md|Nike-THL]— Escalada de Privilegios, Redes, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+> #escalada-privilegios #netcat #nmap #pentest #pivoting #redes #reverse-shell #ssh #windows

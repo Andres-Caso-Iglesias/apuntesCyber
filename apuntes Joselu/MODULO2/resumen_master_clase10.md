@@ -182,3 +182,18 @@ Recapitulación integrada Al cerrar esta sesión, sabemos que una investigación
 El script de unificación que hemos construido es el primer paso hacia una herramienta propia de vigilancia digital: recibe un username, lanza múltiples fuentes en paralelo y entrega un único resultado limpio.
 
 La práctica 1 del máster consistirá en construir una herramienta de est e tipo, elegida libremente, que demuestre la capacidad de automatizar un flujo completo de ciberseguridad con IA y código.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]— IA en Ciberseguridad, Kali Linux, Linux
+- [[resumen_master_clase9.md|resumen_master_clase9]— IA en Ciberseguridad, Kali Linux, Linux
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]— IA en Ciberseguridad, Kali Linux, Linux
+- [[resumen_master_clase13.md|resumen_master_clase13]— IA en Ciberseguridad, Linux, OSINT
+- [[resumen_master_clase8.md|resumen_master_clase8]— IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Kali Linux, Linux
+
+> #ia #kali #linux #osint

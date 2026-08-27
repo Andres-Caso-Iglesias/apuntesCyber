@@ -488,3 +488,34 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 13. `robots.txt` dice a los buscadores qué no indexar. Para un pentester: directorios privados, paneles de administración, archivos de configuración → los más interesantes.
 14. `www-data`, porque es el usuario que ejecuta Apache. Siguiente paso: escalar a un usuario local y después a root con `sudo -l` o GTFOBins.
 15. Hashcat usa la **GPU** (millones de operaciones en paralelo). John usa principalmente la CPU.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, SSH, XSS
+- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, SSH, XSS
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, SSH, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #certificaciones #escalada-privilegios #ffuf #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #sqli #ssh #windows #xss

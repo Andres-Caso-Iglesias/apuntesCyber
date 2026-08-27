@@ -230,3 +230,23 @@ Término en la transcripción Corrección / Aclaración
 Oisin / o Sint / o cintas **OSINT** (*Open Source Intelligence*) Ossint / Ossinting **OSINT** -- inteligencia en fuentes abiertas Hossin / hosting En este contexto, el profesor usa "hosting" para referirse a **OSINT pasivo** (buscar información sin interactuar con la infraestructura) Haffa Bean Pounder / HuffaBeenPounded **Have I Been Pwned** (haveibeenpwned.com) Haset / Hese **Dehashed** -- plataforma de contraseñas filtradas LickRadar / Leak Radar **LeakRadar** (leakradar.io) -- herramienta de credenciales filtradas Bridge Forums / Dark Forums **BreachForums** -- foro principal de la Deep Web Haidenwiki / Heidenwiki **HiddenWiki** (hiddenwiki.org) -- directorio de páginas .onion Mulbat / mullbat **Mullvad** -- VPN recomendada por privacidad Monero **Monero (XMR)** -- criptomoneda de privacidad; no rastreable Adyweb / AdiWeb **Dark Web** -- parte de la Deep Web accesible solo por TOR Bellincat / Bellingcat **Bellingcat** -- grupo de investigación periodística con OSINT GRU **GRU** -- Inteligencia militar rusa (Главное Разведывательное Управление) PIR / Pir **PIR** (*Priority Intelligence Requirements*) -- objetivos prioritarios de inteligencia WordDocs / Weldorks **Google Dorks** -- operadores avanzados de búsqueda en motores de búsqueda FileType / file type filetype: -- operador de Google Dorks para buscar ficheros por extensión FOCA de Eche Malonso **FOCA** (Fingerprinting Organizations with Collected Archives) -- herramienta de análisis de metadatos de **Chema Alonso** Wayback Machine **Wayback Machine** (web.archive.org) -- archivo histórico de páginas web timestamp **Timestamp** -- marca de tiempo que indica cuándo se creó o modificó un fichero o evidencia SHA-128 **SHA-1 (SHA-128)** -- algoritmo de hash roto a nivel teórico UCO **UCO** (Unidad Central Operativa) -- unidad de investigación de la Guardia Civil española BADU **Badoo** -- red social de citas donde se filtraron credenciales corporativas por uso del correo de empresa
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, Redes
+- [[resumen_master_clase9.md|resumen_master_clase9]— Google Dorks, Linux, Redes
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]— Google Dorks, Linux, Redes
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]— Forense Digital, Linux, Redes
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Hack The Box, IA en Ciberseguridad, Redes
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Forense Digital, Nmap, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Nmap|Nmap]]
+
+> #forense #google-dorks #hack-the-box #ia #linux #nmap #osint #redes

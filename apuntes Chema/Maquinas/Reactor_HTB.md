@@ -358,3 +358,29 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 →’
 
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Hack The Box, Redes, SSH
+- [[../../informes/Informe_Castor.md|Informe_Castor]— Post-Explotación, Redes, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Hack The Box, Post-Explotación, SSH
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Post-Explotación, Redes, SSH
+- [[Vaccine.md|Vaccine]— Hack The Box, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #command-injection #hack-the-box #hydra #john #linux #metasploitable #nmap #post-explotacion #redes #sqli #ssh #wordpress

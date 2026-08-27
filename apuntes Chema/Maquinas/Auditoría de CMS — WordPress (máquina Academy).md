@@ -359,3 +359,37 @@ Cambios de nivel derivados de esta sesión (para copiar a la base de conocimient
 →’
 →’
 →’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, Reverse Shells, SSH
+- [[../Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, SSH, XSS
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, GoBuster, XSS
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Kali Linux, SSH
+- [[../Auditoria web.md|Auditoria web]— Escalada de Privilegios, GoBuster, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]— GoBuster, SSH, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #forense #gobuster #hydra #kali #linux #netcat #nmap #pentest #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan #xss

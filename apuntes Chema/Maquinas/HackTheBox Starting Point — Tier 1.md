@@ -199,3 +199,33 @@ Three introduce el fuzzing de subdominios y el acceso a buckets de AWS S3 mal co
 | | |
 |---|---|
 |**💡 INFO**|Instalar SecLists es prioritario: sudo git clone https://github.com/danielmiessler/SecLists /usr/share/seclists. Es el diccionario de referencia para fuzzing web, subdominios, usuarios y contraseñas.|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Escalada de Privilegios, Kali Linux, SSH
+- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, Redes, SSH
+- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploitable #nmap #pentest #redes #rfi #sqli #ssh #telnet #windows

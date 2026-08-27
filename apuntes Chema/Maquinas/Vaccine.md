@@ -231,3 +231,30 @@ PayloadsAllTheThings — Reverse shells:
 HackTricks — Guías de pentesting:
 
   https://boo
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase32.md|resumen_master_clase32]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Escalada de Privilegios, Hack The Box, SSH
+- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase33.md|resumen_master_clase33]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Escalada de Privilegios, Hack The Box, SSH
+- [[../../write-ups/Nike-THL.md|Nike-THL]— Escalada de Privilegios, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #escalada-privilegios #hack-the-box #john #linux #netcat #nmap #redes #reverse-shell #sqli #sqlmap #ssh

@@ -143,3 +143,29 @@ Plataforma de práctica recomendada: Wi-Fi Labs, entorno virtual que simula ante
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración log4g Log4Shell / Log4j – vulnerabilidad crítica en librería Java (2021) bursuit / bullshit Burp Suite – proxy de interceptación para auditorías web cross-side script Cross-Site Scripting (XSS) – inyección de código JavaScript en páginas web cross site request forgy CSRF (Cross-Site Request Forgery ) – falsificación de solicitudes entre sitios sidos / sids IDOR (Insecure Direct Object Reference ) – iteración de parámetros de objetos en APIs no was top ten / owas OWASP Top 10 – estándar de vulnerabilidades en aplicaciones web owas wifi testing guide OWASP Wi-Fi Testing Guide – estándar de auditorías de redes inalámbricas caice Caché o referencia a validación de caché en la 5
 
 Término en la transcripción Corrección / Aclaración aplicación foca de ser FOCA – herramienta de extracción de metadatos de documentos webgoat WebGoat – aplicación vulnerable deliberadamente para práctica de pentesting web querberos / querberos Kerberos – protocolo de autenticación en redes corporativas servidor de radios Servidor RADIUS – servidor de autenticación para redes Wi-Fi empresariales crack (ataque wpa2) KRACK (Key Reinstallation Attack ) – ataque al handshake de WPA2 kiss me Kismet – herramienta de detección de redes y dispositivos inalámbricos oswp / ofensiv security wireless pen test OSWP (Offensive Security Wireless Professional) – certificación de redes Wi-Fi wifi labs Wi-Fi Labs – plataforma virtual de práctica en auditorías Wi-Fi rc de RCE (Remote Code Execution ) – ejecución remota de código emt guión bajo madrid EMT_Madrid – SSID de la red Wi-Fi gratuita de los autobuses de Madrid Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Metodología Pentest, SSRF, XSS
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Redes, WiFi / Hardware, XSS
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— CSRF, Metodología Pentest, SSRF
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— CSRF, SSRF, XSS
+- [[../MODULO3/resumen_master_clase36.md|resumen_master_clase36]— CSRF, SSRF, XSS
+- [[../MODULO3/resumen_master_clase47.md|resumen_master_clase47]— CSRF, Redes, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #certificaciones #command-injection #csrf #ia #idor #netcat #pentest #redes #reverse-shell #ssrf #wifi #windows #xss

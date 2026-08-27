@@ -375,3 +375,34 @@ Término en la transcripción Corrección / Aclaración
  *IDS / la herramienta que detecta Nmap* **IDS** (*Intrusion Detection System*) -- sistema de detección de intrusiones
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase26.md|resumen_master_clase26]— Kali Linux, Metodología Pentest, SSH
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
+- [[resumen_master_clase25.md|resumen_master_clase25]— Hydra, Metasploit, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #nmap #normativa #osint #pentest #redes #ssh #telnet

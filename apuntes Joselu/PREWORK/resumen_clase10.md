@@ -176,3 +176,28 @@ La siguiente sesión abordará el Purple Team: forense, DevSecOps, respuesta ant
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración caud Ticket – solicitud formal al servicio de soporte de IT (helpdesk) CEMS SIEM (Security Information and Event Management) – sistema de gestión de eventos de seguridad DSIPS IDS/IPS (Intrusion Detection/Prevention System) – sistemas de detección y prevención de intrusiones pipotein / pipoting Pivoting – técnica de salto entre segmentos de red a través de un equipo con doble interfaz WAV / web WAF (Web Application Firewall ) – cortafuegos para aplicaciones web OAV Top 10 OWASP Top 10 – estándar de vulnerabilidades web webWAF wafw00f – herramienta de fingerprinting para identificar tecnologías de WAF cross-site script XSS (Cross-Site Scripting ) – inyección de código JavaScript en aplicaciones web NG firewalls / new generation NGFW (Next-Generation Firewall ) – firewall de nueva generación con DPI e IPS DPI DPI (Deep Packet Inspection ) – inspección profunda del contenido de los paquetes de red any any Regla de firewall que permite todo el tráfico entrante y saliente, anulando toda la segmentación configurada CCN CERT CCN-CERT – Centro Criptológico Nacional, organismo de ciberseguridad del CNI español Obscura Obscura – tecnología de proxy-firewall que invisibiliza segmentos de red legacy frente a escaneos Modbus Modbus – protocolo de comunicación industrial estándar en redes OT/SCADA reversal Reverse shell – conexión de retorno desde el equipo comprometido al servidor del atacante rig de minería Rig de cracking – clúster de GPUs usado para romper hashes de contraseñas RTX 3080 en serie Referencia a GPUs NVIDIA RTX 3080 usadas 5
 
 Término en la transcripción Corrección / Aclaración en paralelo para cracking de hashes eJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) – certificación de entrada en pentesting Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase11.md|resumen_clase11]— Hydra, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Hydra, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase4.md|resumen_master_clase4]— Normativa / GRC, Redes, Windows
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
+- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #blue-team #certificaciones #forense #hydra #ia #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss

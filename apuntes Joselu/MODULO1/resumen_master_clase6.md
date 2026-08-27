@@ -128,3 +128,28 @@ Valor práctico para el hacker hoy: **bypass de firewall**. Si un servidor tiene
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]— Redes, SSH, Windows
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]— Empleabilidad, Redes, WiFi / Hardware
+- [[../PREWORK/resumen_clase4.md|resumen_clase4]— Hydra, Redes, SSH
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Redes, SSH, WiFi / Hardware
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Command Injection / RCE, Redes, Windows
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hydra, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #command-injection #empleabilidad #hydra #ia #nmap #osint #redes #ssh #wifi #windows #wireshark

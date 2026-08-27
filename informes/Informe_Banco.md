@@ -420,3 +420,27 @@ ls -la /bin/bash
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
+- [[Informe_Castor.md|Informe_Castor]— Kali Linux, Post-Explotación, SSH
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— Kali Linux, Redes, SSH
+- [[../comandos/Metasploit.md|Metasploit]— Post-Explotación, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #kali #lfi #linux #nmap #post-explotacion #redes #ssh

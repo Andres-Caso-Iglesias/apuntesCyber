@@ -126,3 +126,18 @@ que se te ha configurado.
 > Este es un campo emergente con metodologías de auditoría aún en desarrollo, pero con casos reales ya documentados.
 
 →
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase2.md|resumen_clase2]— Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]— IA en Ciberseguridad, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— IA en Ciberseguridad, Redes
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Blue Team / SOC, IA en Ciberseguridad, Redes
+
+> #blue-team #ia #redes

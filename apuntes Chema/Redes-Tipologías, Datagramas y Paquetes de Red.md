@@ -90,3 +90,22 @@ Los metadatos (EXIF) de imágenes pueden revelar información crítica para OSIN
 | | |
 |---|---|
 |**💡 OSINT**|Una foto de LinkedIn puede contener coordenadas GPS si fue tomada con móvil sin desactivar ubicación. Fundamental verificarlo antes de publicar.|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Redes, WiFi / Hardware, Windows
+- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Linux, Redes, Windows
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]— Empleabilidad, Esteganografía, OSINT
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Redes, WiFi / Hardware, Windows
+- [[../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]— Redes, WiFi / Hardware, Windows
+- [[Introducción a Redes.md|Introducción a Redes]— Redes, WiFi / Hardware, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #empleabilidad #esteganografia #linux #nmap #osint #redes #wifi #windows

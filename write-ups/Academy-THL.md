@@ -376,3 +376,34 @@ cat /root/root.txt
 ---
 
 *Write-up creado el 13 de Julio de 2026*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../informes/Informe_Academy.md|Informe_Academy]— Kali Linux, Reverse Shells, SSH
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Escalada de Privilegios, Reverse Shells, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Escalada de Privilegios, Kali Linux, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Kali Linux, Redes
+- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Escalada de Privilegios, Kali Linux, SSH
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, GoBuster, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #gobuster #hydra #kali #linux #netcat #nmap #redes #reverse-shell #ssh #windows #wordpress #wpscan

@@ -301,3 +301,23 @@ paros # Alternativa ligera
 - [ ] Fuzzing completado con Intruder
 - [ ] Vulnerabilidades documentadas
 - [ ] Control de acceso testeado
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Chema/Fuzzing Web.md|Fuzzing Web]— Burp Suite, Hydra, Metodología Pentest
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— Burp Suite, Hydra
+- [[SSH.md|SSH]— Hydra, Metodología Pentest
+- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]— Burp Suite, Metodología Pentest
+- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]— Burp Suite, Hydra, Metodología Pentest
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Burp Suite, Hydra, Metodología Pentest
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+
+> #burpsuite #hydra #pentest

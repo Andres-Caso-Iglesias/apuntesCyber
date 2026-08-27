@@ -156,3 +156,27 @@ El profesor demuestra en directo cómo crear scripts complejos sin saber program
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase5.md|resumen_master_clase5]— Escalada de Privilegios, Kali Linux, Normativa / GRC
+- [[resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Kali Linux, Normativa / GRC
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Kali Linux, Redes
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]— Kali Linux, Normativa / GRC, Path Traversal / LFI
+- [[../PREWORK/resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Normativa / GRC, Redes
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Escalada de Privilegios, Kali Linux, Path Traversal / LFI
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #blue-team #certificaciones #escalada-privilegios #ia #kali #lfi #linux #netcat #nmap #normativa #redes #reverse-shell #windows

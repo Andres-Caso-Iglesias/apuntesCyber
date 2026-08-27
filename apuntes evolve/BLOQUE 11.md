@@ -210,3 +210,24 @@ Un playbook combina: **disparador** (la alerta inicial) → **clasificador** (qu
 El EDR vigila directamente el endpoint, lo que resulta crítico en teletrabajo: si un usuario no pasa por la red corporativa, el firewall no ve su tráfico, pero el EDR sí acompaña al dispositivo.
 
 Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del sistema (PowerShell, certutil, mshta) reutilizadas con fines maliciosos precisamente para evitar levantar sospechas — el análisis de procesos debe distinguir siempre entre un uso legítimo y un uso anómalo de estas mismas herramientas.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Redes, Windows, Wireshark
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Redes, SMB / Impacket, SSH
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Redes, Windows, Wireshark
+- [[BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Hydra, Redes, SSH
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+
+> #blue-team #forense #hydra #linux #redes #smb-impacket #ssh #windows #wireshark

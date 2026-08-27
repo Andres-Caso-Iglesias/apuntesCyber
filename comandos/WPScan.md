@@ -181,3 +181,23 @@ wpscan --url http://target --cookie-string "session=abc"
 - [ ] Usuarios enumerados
 - [ ] Brute force intentado
 - [ ] XML-RPC verificado
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— Hydra, WPScan, WordPress
+- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]— Hydra, WPScan, WordPress
+- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]— Hydra, WPScan, WordPress
+- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]— Hydra, WPScan, WordPress
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]— Hydra
+- [[BurpSuite.md|BurpSuite]— Hydra
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/WPScan|WPScan]]
+
+> #hydra #wordpress #wpscan

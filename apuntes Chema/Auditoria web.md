@@ -320,3 +320,35 @@ Con los usuarios extraídos de /etc/passwd y la contraseña encontrada en passwo
 - [[Vulnerabilidades Web]] — Vulnerabilidades web comunes
 - [[OWASP Top 10 - CVE CVSS CWE]] — Marco de referencia
 - [[Explotación de Servicios - Linux]] — Explotación SSH y servicios
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Kali Linux, SSH
+- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Escalada de Privilegios, GoBuster, SSH
+- [[Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Escalada de Privilegios, GoBuster, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]— Escalada de Privilegios, GoBuster, SSH
+- [[../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, GoBuster, SSH
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, GoBuster, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hydra #kali #linux #metasploit #netcat #nmap #pentest #pivoting #redes #reverse-shell #sqli #ssh

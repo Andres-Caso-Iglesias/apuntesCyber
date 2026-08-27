@@ -94,3 +94,33 @@
 - [ ] Herramientas instaladas
 - [ ] Wordlists preparadas
 - [ ] Entorno de testing configurado
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— SSH, SSRF, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Hydra, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Hydra, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Hydra, SSRF, XSS
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hydra, SMB / Impacket, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]— SSH, SSRF, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #feroxbuster #hydra #linux #pentest #smb-impacket #sqli #sqlmap #ssh #ssrf #windows #wordpress #wpscan #xss

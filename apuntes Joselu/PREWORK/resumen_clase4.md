@@ -114,3 +114,24 @@ Diferencias clave entre auditorías externas e internas Aspecto Auditoría inter
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración census / censis search Censys – motor de búsqueda de activos expuestos en internet en el map Nmap – herramienta de escaneo de puertos y servicios CVS CVE (Common Vulnerabilities and Exposures) – identificador estándar de vulnerabilidades OpenBus OpenV AS – escáner de vulnerabilidades de código abierto money in the middle Man-in-the-Middle (MitM) – ataque de interceptación de comunicaciones VPNs propagativas Probablemente VPNs corporativas o soluciones como Pulse Secure / GlobalProtect NIDS, 10Bware TeamViewer / AnyDesk – herramientas de acceso remoto corporativo shonan Shodan – motor de búsqueda de dispositivos 4
 
 Término en la transcripción Corrección / Aclaración conectados a internet mariade ve MariaDB – sistema de gestión de bases de datos poc PoC (Proof of Concept) – prueba de concepto de explotación de una vulnerabilidad google docking Google Dorking – uso de operadores avanzados de Google para encontrar información sensible 4.4.3 / HTTPS Puerto 443 – HTTPS 3.3.8.9 / RDP Puerto 3389 – RDP (Remote Desktop Protocol) Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Hydra, Redes, SSH
+- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Hydra, SSH
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Hydra, Redes, SSH
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Redes, SSH
+- [[../MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Escalada de Privilegios, Hydra, SSH
+- [[resumen_clase7.md|resumen_clase7]— Escalada de Privilegios, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+> #escalada-privilegios #hydra #ia #nmap #osint #pentest #redes #ssh #windows

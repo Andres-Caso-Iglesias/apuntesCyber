@@ -111,3 +111,22 @@ site:ejemplo.com intext:"PHP Error"
 - [ ] Dorks de seguridad practicados
 - [ ] Combinaciones de operadores dominadas
 - [ ] Ética de uso recordada
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, OSINT, WordPress
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— Google Dorks, OSINT, WordPress
+- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Google Dorks, OSINT
+- [[../apuntes Joselu/MODULO2/resumen_master_clase12.md|resumen_master_clase12]— OSINT, WordPress
+- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]— Google Dorks, OSINT
+- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]— Google Dorks, OSINT, WordPress
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+
+> #google-dorks #osint #wordpress

@@ -547,3 +547,28 @@ find / -perm -u=s 2>/dev/null
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../write-ups/Nike-THL.md|Nike-THL]— Kali Linux, SSH, XXE
+- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Linux, Redes
+- [[Informe_Castor.md|Informe_Castor]— Kali Linux, SSH, XXE
+- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Redes, SSH
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Linux, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #kali #linux #netcat #nmap #redes #reverse-shell #ssh #xxe

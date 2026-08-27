@@ -179,3 +179,29 @@ La teoría de este máster (Bloques 2 a 10) te da la base, pero el eJPT se aprue
 
 →
 →
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]— Hack The Box, Normativa / GRC, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, SSH
+- [[../comandos/Metasploit.md|Metasploit]— Metasploit, Post-Explotación, SSH
+- [[../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, Metodología Pentest, SSH
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Normativa / GRC, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #certificaciones #escalada-privilegios #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #sqli #sqlmap #ssh #windows

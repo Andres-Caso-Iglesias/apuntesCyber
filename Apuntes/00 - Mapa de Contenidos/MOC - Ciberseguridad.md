@@ -2,7 +2,15 @@
 
 > **Tu red neuronal de ciberseguridad.** Cada nodo es un apunte. Cada enlace es una sinapsis. Navega por temas, conceptos o máquinas.
 
-> **Archivos:** 243 .md | **Última actualización:** 25 de Agosto 2026
+> **Archivos:** 244 .md | **Enlaces:** 2095 | **Conceptos:** 52 | **Densidad:** 8.3 enlaces/archivo | **Última actualización:** 27 de Agosto 2026
+
+> [!tip] Cómo funciona la red neuronal
+> Cada archivo tiene una sección `## 🔗 Red de Conocimiento` al final que enlaza con documentos relacionados, herramientas y vulnerabilidades. Los enlaces son bidireccionales: si A enlaza a B, B también enlaza a A.
+>
+> **Scripts de automatización:**
+> - `neural_linker.py` — Analiza conceptos y genera enlaces
+> - `inject_links.py` — Inyecta enlaces en cada archivo
+> - `validate_neural.py` — Valida enlaces rotos
 
 ---
 
@@ -60,33 +68,33 @@
 
 ## 🌍 05 — Auditoría Web
 
-| Apunte | Tema clave |
-|--------|-----------|
-| [[OWASP Top 10 - CVE CVSS CWE]] | Los 4 marcos de referencia y la cascada |
-| [[Burp Suite - Framework de Auditoría]] | Proxy, Repeater, Intruder, configuración |
-| [[Enumeración Web]] | Fases: recon pasivo → fingerprint → subdominios → directorios |
-| [[apuntes Chema/Repaso de Enumeración Web]] | Repaso práctico: URLs, endpoints, spraying, fuzzing, caso Bashed |
-| [[Fuzzing Web con ffuf]] | FUZZ keyword, wordlists, filtrado de respuestas |
-| [[WordPress - Auditoría con WPScan]] | CMS, plugins, fuerza bruta, RCE por editor de temas |
-| [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] | OWASP 2025, CVSS/CWE/CVE, Burp Suite desde cero |
-| [[Auditoria Web — Práctica con Metasploitable]] | FTP anon, Command Injection, robots.txt, SSH no estándar |
-| [[Fuzzing de parámetros con x8 — Rockstar]] | Motor x8: learn/batch/bisect, parámetro backdoor |
-| [[Anonimato, Ingeniería Social y Enumeración Web]] | VPN/Monero/Tor, QRishing, RaaS, enum web Rockstar |
-| [[apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress|Andrés — WordPress Academy]] | WPScan, file upload, reverse shell |
-| [[apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking|Andrés — Fuzzing + Script Hijacking]] | Fuzzing, directory listing, script hijacking |
-| [[06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato|Andrés — Fuzzing params + OSINT]] | Fuzzing de parámetros, OSINT, anonimato |
-| [[09.07.2026 XXE - XML External Entity y Máquina Castor|Andrés — XXE + Castor]] | XXE, máquina Castor |
-| [[apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor|Andrés — XXE avanzado + Nike/Castor]] | XXE avanzado, Nike, Castor |
-| [[11.07.2026 Owasp Top 10 XXE Labs II|Andrés — XXE Labs II]] | XXE labs OWASP |
-| [[apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)|Andrés — SQLi + Injected]] | SQLi, máquina Injected |
-| [[17.07.2026 PortSwigger Intro y 6 Casos Path Traversal|Andrés — Path Traversal 6 casos]] | Path Traversal, PortSwigger |
-| [[20.07.2026 PortSwigger SSRF|Andrés — SSRF]] | SSRF, PortSwigger |
-| [[21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI|Andrés — SSRF avanzado + SSTI]] | SSRF avanzado, SSTI |
-| [[SSRF — Server-Side Request Forgery]] | SSRF: definición, bypasses, Blind SSRF, checklist |
-| [[SSTI — Server-Side Template Injection]] | SSTI: detección, motores, RCE, labs |
-| [[XXE — XML External Entity]] | XXE: XML, SYSTEM entity, lectura ficheros, 4 file upload |
-| [[Path Traversal — 6 Casos y Bypasses]] | Path Traversal: 6 casos, bypasses, flowchart |
-| [[SQL Injection]] | SQLi: definición, técnicas (UNION/error/blind), SQLMap, prepared statements, máquina Injected |
+| Apunte                                                                                        | Tema clave                                                                                    |                                              |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| [[OWASP Top 10 - CVE CVSS CWE]]                                                               | Los 4 marcos de referencia y la cascada                                                       |                                              |
+| [[Burp Suite - Framework de Auditoría]]                                                       | Proxy, Repeater, Intruder, configuración                                                      |                                              |
+| [[Enumeración Web]]                                                                           | Fases: recon pasivo → fingerprint → subdominios → directorios                                 |                                              |
+| [[apuntes Chema/Repaso de Enumeración Web]]                                                   | Repaso práctico: URLs, endpoints, spraying, fuzzing, caso Bashed                              |                                              |
+| [[Fuzzing Web con ffuf]]                                                                      | FUZZ keyword, wordlists, filtrado de respuestas                                               |                                              |
+| [[WordPress - Auditoría con WPScan]]                                                          | CMS, plugins, fuerza bruta, RCE por editor de temas                                           |                                              |
+| [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite]]                                          | OWASP 2025, CVSS/CWE/CVE, Burp Suite desde cero                                               |                                              |
+| [[Auditoria Web — Práctica con Metasploitable]]                                               | FTP anon, Command Injection, robots.txt, SSH no estándar                                      |                                              |
+| [[Fuzzing de parámetros con x8 — Rockstar]]                                                   | Motor x8: learn/batch/bisect, parámetro backdoor                                              |                                              |
+| [[Anonimato, Ingeniería Social y Enumeración Web]]                                            | VPN/Monero/Tor, QRishing, RaaS, enum web Rockstar                                             |                                              |
+| [[apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] | Andrés — WordPress Academy]]                                                                  | WPScan, file upload, reverse shell           |
+| [[apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]      | Andrés — Fuzzing + Script Hijacking]]                                                         | Fuzzing, directory listing, script hijacking |
+| [[06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]]                           | Andrés — Fuzzing params + OSINT]]                                                             | Fuzzing de parámetros, OSINT, anonimato      |
+| [[09.07.2026 XXE - XML External Entity y Máquina Castor]]                                     | Andrés — XXE + Castor]]                                                                       | XXE, máquina Castor                          |
+| [[apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]]            | Andrés — XXE avanzado + Nike/Castor                                                           | XXE avanzado, Nike, Castor                   |
+| [[11.07.2026 Owasp Top 10 XXE Labs II]]                                                       | Andrés — XXE Labs II]]                                                                        | XXE labs OWASP                               |
+| [[apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]]    | Andrés — SQLi + Injected]]                                                                    | SQLi, máquina Injected                       |
+| [[17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]]                                     | Andrés — Path Traversal 6 casos]]                                                             | Path Traversal, PortSwigger                  |
+| [[20.07.2026 PortSwigger SSRF]]                                                               | Andrés — SSRF]]                                                                               | SSRF, PortSwigger                            |
+| [[21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]]                                    | Andrés — SSRF avanzado + SSTI]]                                                               | SSRF avanzado, SSTI                          |
+| [[SSRF — Server-Side Request Forgery]]                                                        | SSRF: definición, bypasses, Blind SSRF, checklist                                             |                                              |
+| [[SSTI — Server-Side Template Injection]]                                                     | SSTI: detección, motores, RCE, labs                                                           |                                              |
+| [[XXE — XML External Entity]]                                                                 | XXE: XML, SYSTEM entity, lectura ficheros, 4 file upload                                      |                                              |
+| [[Path Traversal — 6 Casos y Bypasses]]                                                       | Path Traversal: 6 casos, bypasses, flowchart                                                  |                                              |
+| [[SQL Injection]]                                                                             | SQLi: definición, técnicas (UNION/error/blind), SQLMap, prepared statements, máquina Injected |                                              |
 
 > [!note] Notas de clase (Chema)
 > - [[Vulnerabilidades Web]] — Vulnerabilidades web comunes, explotación
@@ -125,38 +133,39 @@
 
 ### 🟣 Hack The Box
 
-| Máquina | Dificultad | Servicios clave | Apunte | Notas Chema |
-|---------|-----------|-----------------|--------|-------------|
-| **Vaccine** | Easy | [[comandos/Nmap|FTP]], [[comandos/SQLMap|PostgreSQL]], PHP webapp | [[Cierre de Vaccine + Máquina Oopsie]] | [[Vaccine]] · [[Cierre de Vaccine + Máquina Oopsie]] |
-| **Vaccine (Tier 2)** | Easy | Repaso en profundidad | [[Vaccine (Tier 2) — Repaso en profundidad]] | [[Vaccine (Tier 2) — Repaso en profundidad]] |
-| **Oopsie** | Easy | IDOR, [[comandos/Metasploit|web shell]], [[comandos/BurpSuite|cookie tampering]] | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]] |
-| **Archetype** | Easy | [[comandos/SMB_Impacket|SMB]], [[comandos/SMB_Impacket|MSSQL]], [[comandos/SMB_Impacket|xp_cmdshell]] | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]] |
-| **Starting Point T0** | Very Easy | [[comandos/Telnet|Telnet]] (Meow), [[comandos/Nmap|FTP]] (Fawn), [[comandos/SMB_Impacket|SMB]] (Dancing), Redis (Redeemer) | [[Hack The Box- Starting Point — Tier 0]] | [[Hack The Box- Starting Point — Tier 0]] |
-| **Starting Point T1** | Very Easy | Servicios varios | [[HackTheBox Starting Point — Tier 1]] | [[HackTheBox Starting Point — Tier 1]] |
-| **Nibbles** | Easy/Medium | [[apuntes Chema/Maquinas/Nibbles_HTB|CVE-2015-6967]] Nibbleblog, [[comandos/SSH|sudo NOPASSWD]], SUID bash | [[apuntes Chema/Maquinas/Nibbles_HTB]] | [[apuntes Chema/Maquinas/Nibbles_HTB]] |
-| **Reactor** | Medium/High | [[apuntes Chema/Maquinas/Reactor_HTB|CVE-2025-29927]] Next.js, Node.js Inspector, WebSocket CDP | [[apuntes Chema/Maquinas/Reactor_HTB]] | [[apuntes Chema/Maquinas/Reactor_HTB]] |
-| **Starting Point T2** | Easy | Repaso y escalada | [[HTB Starting Point — Repaso e inicio de Tier 2]] | [[HTB Starting Point — Repaso e inicio de Tier 2]] |
+| Máquina               | Dificultad  | Servicios clave                        | Apunte                                                   | Notas Chema                                        |                                                            |                                                            |                                           |
+| --------------------- | ----------- | -------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------- |
+| **Vaccine**           | Easy        | [[comandos/Nmap]]                      | FTP, [[comandos/SQLMap]]                                 | PostgreSQL, PHP webapp                             | [[Cierre de Vaccine + Máquina Oopsie]]                     | [[Vaccine]] · [[Cierre de Vaccine + Máquina Oopsie]]       |                                           |
+| **Vaccine (Tier 2)**  | Easy        | Repaso en profundidad                  | [[Vaccine (Tier 2) — Repaso en profundidad]]             | [[Vaccine (Tier 2) — Repaso en profundidad]]       |                                                            |                                                            |                                           |
+| **Oopsie**            | Easy        | IDOR, [[comandos/Metasploit]]          | web shell, [[comandos/BurpSuite]]                        | cookie tampering                                   | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]]                      |                                           |
+| **Archetype**         | Easy        | [[comandos/SMB_Impacket]]              | SMB, [[comandos/SMB_Impacket]]                           | MSSQL, [[comandos/SMB_Impacket]]                   | xp_cmdshell                                                | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]]     |
+| **Starting Point T0** | Very Easy   | [[comandos/Telnet]]                    | [[Telnet]] (Meow), [[comandos/Nmap]]                     | FTP]] (Fawn), [[comandos/SMB_Impacket]]            | SMB (Dancing), Redis (Redeemer)                            | [[Hack The Box- Starting Point — Tier 0]]                  | [[Hack The Box- Starting Point — Tier 0]] |
+| **Starting Point T1** | Very Easy   | Servicios varios                       | [[HackTheBox Starting Point — Tier 1]]                   | [[HackTheBox Starting Point — Tier 1]]             |                                                            |                                                            |                                           |
+| **Nibbles**           | Easy/Medium | [[apuntes Chema/Maquinas/Nibbles_HTB]] | CVE-2015-6967 Nibbleblog, [[comandos/SSH]]               | sudo NOPASSWD]], SUID bash                         | [[apuntes Chema/Maquinas/Nibbles_HTB]]                     | [[apuntes Chema/Maquinas/Nibbles_HTB]]                     |                                           |
+| **Reactor**           | Medium/High | [[apuntes Chema/Maquinas/Reactor_HTB]] | CVE-2025-29927 Next.js, Node.js Inspector, WebSocket CDP | [[apuntes Chema/Maquinas/Reactor_HTB]]             | [[apuntes Chema/Maquinas/Reactor_HTB]]                     |                                                            |                                           |
+| **Starting Point T2** | Easy        | Repaso y escalada                      | [[HTB Starting Point — Repaso e inicio de Tier 2]]       | [[HTB Starting Point — Repaso e inicio de Tier 2]] |                                                            |                                                            |                                           |
 
 ### 🔵 HackerLabs / Evolve Academy
 
-| Máquina | Plataforma | Servicios clave | Apunte | Notas Chema |
-|---------|-----------|-----------------|--------|-------------|
-| **Rockstar** | HackerLabs | Escalada linux, [[apuntes Chema/Enumeración Web|LFI]], [[apuntes Chema/Enumeración Web|Path Traversal]] | [[Rockstar — Escalada Linux y LFI]] | [[Rockstar — Escalada Linux y LFI]] |
-| **Rockstar (x8)** | HackerLabs | [[comandos/FFUF|Fuzzing]], backdoor | [[Fuzzing de parámetros con x8 — Rockstar]] | [[Fuzzing de parámetros con x8 — Rockstar]] |
-| **Rockstar (Andres)** | HackerLabs | Fuzzing de parámetros, infraestructura anónima, ingeniería social | [[06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] | — |
-| **Academy** | HackerLabs | [[comandos/WPScan|WordPress]], plugins, RCE | [[Auditoría de CMS — WordPress (máquina Academy)]] | [[Auditoría de CMS — WordPress (máquina Academy)]] |
-| **Rockstar (Andres)** | HackerLabs | Escalada 4 técnicas: ejecutable, Hydra, library hijacking, sh | [[07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] | — |
-| **Banco (Andres)** | HackerLabs | Path traversal, LFI, credenciales, SUID + cronjob | [[08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] | — |
-| **RickdiculouslyEasy** | CTF interna | [[comandos/FFUF|Enum web]], robo ficheros | [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] | [[Son ROBOTS]] |
-| **Mr. Robot** | CTF interna | [[comandos/Hydra|Hydra]], [[comandos/BurpSuite|Burp Intruder]], diccionario | [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] | [[Son ROBOTS]] |
+| Máquina                | Plataforma  | Servicios clave                                                   | Apunte                                                                    | Notas Chema                                        |                                                    |                                     |
+| ---------------------- | ----------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ----------------------------------- |
+| **Rockstar**           | HackerLabs  | Escalada linux, [[apuntes Chema/Enumeración Web]]                 | LFI, [[apuntes Chema/Enumeración Web]]                                    | Path Traversal                                     | [[Rockstar — Escalada Linux y LFI]]                | [[Rockstar — Escalada Linux y LFI]] |
+| **Rockstar (x8)**      | HackerLabs  | [[comandos/FFUF]]                                                 | Fuzzing, backdoor                                                         | [[Fuzzing de parámetros con x8 — Rockstar]]        | [[Fuzzing de parámetros con x8 — Rockstar]]        |                                     |
+| **Rockstar (Andres)**  | HackerLabs  | Fuzzing de parámetros, infraestructura anónima, ingeniería social | [[06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]]       | —                                                  |                                                    |                                     |
+| **Academy**            | HackerLabs  | [[comandos/WPScan]]                                               | WordPress, plugins, RCE                                                   | [[Auditoría de CMS — WordPress (máquina Academy)]] | [[Auditoría de CMS — WordPress (máquina Academy)]] |                                     |
+| **Rockstar (Andres)**  | HackerLabs  | Escalada 4 técnicas: ejecutable, Hydra, library hijacking, sh     | [[07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] | —                                                  |                                                    |                                     |
+| **Banco (Andres)**     | HackerLabs  | Path traversal, LFI, credenciales, SUID + cronjob                 | [[08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]]             | —                                                  |                                                    |                                     |
+| **RickdiculouslyEasy** | CTF interna | [[comandos/FFUF]]                                                 | Enum web, robo ficheros                                                   | [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]    | [[Son ROBOTS]]                                     |                                     |
+| **Mr. Robot**          | CTF interna | [[comandos/Hydra]]                                                | Hydra, [[comandos/BurpSuite]]                                             | Burp Intruder, diccionario                         | [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]    | [[Son ROBOTS]]                      |
+|                        |             |                                                                   |                                                                           |                                                    |                                                    |                                     |
 
 ### 🟢 Lab Local (Metasploitable / DVWA)
 
-| Máquina | Entorno | Servicios clave | Apunte | Notas Chema |
-|---------|---------|-----------------|--------|-------------|
-| **Metasploitable 2** | VMware/VirtualBox | [[comandos/Nmap|SMTP]], [[comandos/SMB_Impacket|NFS]], [[comandos/Nmap|SSH]], [[comandos/Nmap|VNC]], [[comandos/BurpSuite|Burp Suite]] | [[Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] | [[Explotación avanzada de servicios vulnerables II]] |
-| **Metasploitable (servicios)** | Lab local | [[comandos/SMB_Impacket|NFS]], [[comandos/SQLMap|PostgreSQL]], [[comandos/Nmap|Tomcat]], [[comandos/Metasploit|Command Injection]], [[comandos/SQLMap|SQL Injection]] | [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] | [[Explotación Avanzada de Servicios Vulnerables III]] |
-| **Oopsie + Archetype** | HTB | IDOR, [[comandos/SMB_Impacket|SMB]], [[comandos/SMB_Impacket|MSSQL]] | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]] |
+| Máquina                        | Entorno           | Servicios clave                 | Apunte                           | Notas Chema                   |                                                            |                                        |               |                                                                             |                                                       |
+| ------------------------------ | ----------------- | ------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------- | ------------- | --------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **Metasploitable 2**           | VMware/VirtualBox | [[comandos/Nmap]]               | SMTP, [[comandos/SMB_Impacket]]  | NFS, [[comandos/Nmap]]        | SSH, [[comandos/Nmap]]                                     | VNC, [[comandos/BurpSuite]]            | Burp Suite    | [[Explotación Avanzada de Servicios Vulnerables II — Metasploitable]]       | [[Explotación avanzada de servicios vulnerables II]]  |
+| **Metasploitable (servicios)** | Lab local         | [[comandos/SMB_Impacket]]       | NFS, [[comandos/SQLMap]]         | PostgreSQL, [[comandos/Nmap]] | Tomcat, [[comandos/Metasploit]]                            | Command Injection, [[comandos/SQLMap]] | SQL Injection | [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] | [[Explotación Avanzada de Servicios Vulnerables III]] |
+| **Oopsie + Archetype**         | HTB               | IDOR, [[comandos/SMB_Impacket]] | SMB]], [[comandos/SMB_Impacket]] | MSSQL                         | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]]  |               |                                                                             |                                                       |
 
 ### 📊 Resumen por plataforma
 
@@ -201,12 +210,12 @@
 
 > [!tip] Guías concisas por tipo de máquina
 
-| Metodología | Objetivo |
-|-------------|----------|
-| [[Metodología - Explotación Linux|Explotación Linux]] | Máquinas Linux standalone |
-| [[Metodología - Explotación Windows|Explotación Windows]] | Máquinas Windows standalone |
-| [[Metodologia - Aplicaciones Web|Aplicaciones Web]] | Auditar y explotar webapps |
-| [[Metodología - Active Directory|Active Directory]] | Entornos AD corporativos |
+| Metodología                           | Objetivo            |                             |
+| ------------------------------------- | ------------------- | --------------------------- |
+| [[Metodología - Explotación Linux]]   | Explotación Linux   | Máquinas Linux standalone   |
+| [[Metodología - Explotación Windows]] | Explotación Windows | Máquinas Windows standalone |
+| [[Metodologia - Aplicaciones Web]]    | Aplicaciones Web    | Auditar y explotar webapps  |
+| [[Metodología - Active Directory]]    | Active Directory    | Entornos AD corporativos    |
 
 ---
 
@@ -292,10 +301,10 @@
 > [!tip] Machine Learning, Deep Learning y LLMs aplicados a seguridad
 > La IA amplifica tanto capacidades defensivas (detección) como ofensivas (phishing avanzado).
 
-| Apunte | Tema clave |
-|--------|-----------|
-| [[IA en Ciberseguridad]] | Clasificador de spam (ML), autocodificadores (DL), LLMs en SOC, IA ofensiva, vulnerabilidades en LLMs |
-| [[apuntes Andres/15.07.2026 IA Introducción y Vibe Coding|Andrés — Vibe Coding + Agentes]] | Vibe Coding, agentes de IA, IA ofensiva |
+| Apunte                                                      | Tema clave                                                                                            |                                         |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [[IA en Ciberseguridad]]                                    | Clasificador de spam (ML), autocodificadores (DL), LLMs en SOC, IA ofensiva, vulnerabilidades en LLMs |                                         |
+| [[apuntes Andres/15.07.2026 IA Introducción y Vibe Coding]] | Andrés — Vibe Coding + Agentes                                                                        | Vibe Coding, agentes de IA, IA ofensiva |
 
 > [!note] Relacionado con:
 > - [[Blue Team - SOC e Incidentes]] — LLMs para triage y documentación
@@ -634,3 +643,48 @@
 > - **Por máquina CTF**: ve a [[Prácticas CTF - HTB y VulnHub]]
 > - **Para comandos**: ve a la sección 16 o seguí los enlaces de cada apunte
 > - **Para repasar**: cada apunte tiene un `## Checklist de repaso` al final
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]— Normativa / GRC, WiFi / Hardware, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Joselu/PREWORK/resumen_clase17.md|resumen_clase17]— GoBuster, SSH, WiFi / Hardware
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, GoBuster, XSS
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— SSH, WiFi / Hardware, XSS
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+- [[comandos/Tmux|Tmux]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #blue-team #burpsuite #certificaciones #command-injection #dirsearch #empleabilidad #escalada-privilegios #esteganografia #feroxbuster #ffuf #file-upload #forense #gobuster #google-dorks #hack-the-box #hydra #ia #idor #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #ssrf #ssti #telnet #tmux #vulnhub #wifi #windows #wireshark #wordpress #wpscan #xss #xxe

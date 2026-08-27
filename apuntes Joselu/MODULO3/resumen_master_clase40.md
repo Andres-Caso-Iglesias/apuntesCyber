@@ -430,3 +430,30 @@ Término en la transcripción Corrección / Aclaración
  *Claudia / Claudio / cloud / la IA* **Claude** (Anthropic) -- IA usada para crear el fuzzer de parámetros y buscar exploits de kernel
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]— Escalada de Privilegios, Kali Linux, SSH
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Kali Linux, Redes
+- [[resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Kali Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #command-injection #dirsearch #escalada-privilegios #file-upload #forense #ia #kali #lfi #linux #netcat #nmap #pivoting #redes #reverse-shell #ssh #windows

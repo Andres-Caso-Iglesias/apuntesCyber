@@ -305,3 +305,33 @@ id
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../write-ups/Academy-THL.md|Academy-THL]— Kali Linux, Reverse Shells, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Kali Linux, Post-Explotación, SSH
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Kali Linux, Reverse Shells, SSH
+- [[../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Post-Explotación, Reverse Shells, SSH
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Kali Linux, Post-Explotación, SSH
+- [[../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, Reverse Shells, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #hydra #kali #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan

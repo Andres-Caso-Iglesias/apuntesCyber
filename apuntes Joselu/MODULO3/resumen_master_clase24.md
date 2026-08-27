@@ -320,3 +320,33 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 â†’
 â†’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Burp Suite, Metasploit, SSH
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]— Hydra, Metasploit, SSH
+- [[../PREWORK/resumen_clase17.md|resumen_clase17]— Hydra, Metasploit, SSH
+- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Hydra, Metasploit, SSH
+- [[resumen_master_clase23.md|resumen_master_clase23]— Hydra, Metasploit, SSH
+- [[resumen_master_clase26.md|resumen_master_clase26]— Hydra, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #burpsuite #certificaciones #command-injection #empleabilidad #hydra #ia #linux #metasploit #metasploitable #nmap #osint #pivoting #redes #smb-impacket #ssh #tmux #windows #wordpress #wpscan

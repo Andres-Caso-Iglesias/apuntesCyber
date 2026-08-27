@@ -161,3 +161,18 @@ La cadena completa:
 - La diferencia entre usar Claude y **usarlo bien** son los **agentes, las skills y el** `claude.md`.
 
 El proyecto del **ajedrez con machine learning** queda abierto para la siguiente sesión, donde se construirá la arquitectura completa con orquestador, agentes especializados, grafo vectorial en Neo4J y algoritmo de aprendizaje reforzado.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../comandos/Windows.md|Windows]— Redes, Windows
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— IA en Ciberseguridad, Redes, Windows
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]— IA en Ciberseguridad, Redes, Windows
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— IA en Ciberseguridad, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]— IA en Ciberseguridad, Redes
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Redes, Windows
+
+> #ia #redes #windows

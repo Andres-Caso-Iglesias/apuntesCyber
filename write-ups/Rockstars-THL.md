@@ -462,3 +462,31 @@ cat /root/root.txt
 ---
 
 *Write-up creado el 13 de Julio de 2026 — Explotación real verificada*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— GoBuster, Kali Linux, SSH
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— GoBuster, Kali Linux, SSH
+- [[Banco-THL.md|Banco-THL]— Escalada de Privilegios, Redes, SSH
+- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, Redes, SSH
+- [[Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Escalada de Privilegios, Kali Linux, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #escalada-privilegios #ffuf #gobuster #hydra #john #kali #lfi #linux #nmap #redes #ssh

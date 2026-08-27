@@ -150,3 +150,23 @@ QUIT
 - [ ] Debug con `toggle trace` y `log` usado
 - [ ] HTTP manual via Telnet probado
 - [ ] Diagnóstico: refused vs timeout entendido
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Hydra.md|Hydra]— Redes, SSH, Telnet
+- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]— Redes, SSH, Telnet
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Redes, SSH
+- [[../apuntes Chema/Wireshark.md|Wireshark]— Redes, SSH
+- [[Linux.md|Linux]— Redes, SSH
+- [[SSH.md|SSH]— Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+> #redes #ssh #telnet

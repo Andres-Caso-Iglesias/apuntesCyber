@@ -213,3 +213,23 @@ systemctl enable backdoor
 - [ ] Acceso obtenido
 - [ ] Escalada de privilegios completada
 - [ ] Persistencia configurada
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../write-ups/Nike-THL.md|Nike-THL]— Escalada de Privilegios, Linux, SSH
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Linux, SSH
+- [[../../informes/Informe_Nike.md|Informe_Nike]— Linux, Netcat / Reverse Shells, SSH
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Netcat / Reverse Shells, SSH
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Escalada de Privilegios, Linux, SSH
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Netcat / Reverse Shells, Reverse Shells
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SSH|SSH]]
+
+> #escalada-privilegios #linux #netcat #reverse-shell #ssh

@@ -397,3 +397,29 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— GoBuster, Kali Linux, SSH
+- [[Informe_Castor.md|Informe_Castor]— Kali Linux, Post-Explotación, SSH
+- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Post-Explotación, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Kali Linux, Post-Explotación, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #escalada-privilegios #gobuster #john #kali #linux #nmap #post-explotacion #redes #ssh

@@ -429,3 +429,32 @@ Término en la transcripción Corrección / Aclaración
  *OWASP* **OWASP** (*Open Web Application Security Project*) -- referencia metodológica de vulnerabilidades web
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— GoBuster, Hack The Box, Kali Linux
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— GoBuster, Hack The Box, Kali Linux
+- [[resumen_master_clase21.md|resumen_master_clase21]— GoBuster, Hydra, Kali Linux
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— GoBuster, Kali Linux, Redes
+- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]— GoBuster, Hydra, Kali Linux
+- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #blue-team #feroxbuster #ffuf #gobuster #hack-the-box #hydra #ia #kali #lfi #linux #nmap #osint #pentest #redes #smb-impacket #sqli #windows #wireshark

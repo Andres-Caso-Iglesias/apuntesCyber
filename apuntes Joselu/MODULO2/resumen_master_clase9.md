@@ -208,3 +208,26 @@ Término en la transcripción Corrección / Aclaración
 Pimais / Pimai / PinMy **PimEyes** (pimeyes.com) -- motor de búsqueda por reconocimiento facial Trucoler / Truco Oler / Truecaller Telegram **TrueCaller** -- bot de Telegram para identificar números de teléfono Migrait / Mograyt **Maigret** -- herramienta de búsqueda de usernames en múltiples plataformas Sherlock **Sherlock** -- herramienta de búsqueda de usernames (correcto) What's My Name **whatsmyname.app** -- buscador de aliases en redes sociales bridge.bib **BridgeBib** o **bib.bridgebib** -- plataforma de correlación OSINT de perfiles open-sense.eu / Opensense **OpenSense** (opensense.eu) -- herramienta de correlación OSINT en grafos ligradar / League Radar **LeakRadar** (leakradar.io) -- plataforma de credenciales filtradas Hafai Bin / Half-Life Empowerment **Have I Been Pwned** (haveibeenpwned.com) Half-fiving pound **Have I Been Pwned** -- misma herramienta, otra transcripción tus clases particulares **TuClaseParticular.com** -- plataforma para clases particulares con tarifas visibles OSINTomático **OSINTomático** -- comunidad y evento de OSINT en España Ciberpatrolla / Ciberpatrulla **Ciberpatrulla** (ciberpatrulla.com) -- repositorio de herramientas OSINT Removable Group **Removable Group** -- empresa especializada en derecho al olvido digital Kaine / Cayne **Kaine Linux** -- distribución Debian con herramientas de análisis forense Volatility **Volatility Framework** -- herramienta de análisis forense de memoria RAM ArtOxy **Autopsy** -- herramienta de análisis forense de discos HPC **HPC** (Habilitación Personal de Seguridad) -- acreditación del CNI para trabajar con información clasificada AEPD **AEPD** (Agencia Española de Protección de Datos) -- organismo que gestiona el derecho al olvido digital OSIA / grupo OESIA **Grupo OESIA** -- multinacional de tecnología donde trabajó el profesor Pineapple / WiFi Pineapple **WiFi Pineapple** -- dispositivo hardware de Hak5 para auditorías Wi-Fi Claudio / Claud Code **Claude Code** -- herramienta de Anthropic para programación asistida por IA
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase13.md|resumen_master_clase13]— Redes, WiFi / Hardware, Windows
+- [[resumen_master_clase11.md|resumen_master_clase11]— Google Dorks, Normativa / GRC, Redes
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Normativa / GRC, Redes, Windows
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Kali Linux, Normativa / GRC, Redes
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]— Redes, WiFi / Hardware, Windows
+- [[resumen_master_clase12.md|resumen_master_clase12]— Empleabilidad, Redes, WiFi / Hardware
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #normativa #osint #redes #wifi #windows

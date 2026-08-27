@@ -175,3 +175,24 @@ echo -e "admin:password\nroot:123456" > credentials.txt
 - [ ] Formulario HTTP analizado (si aplica)
 - [ ] Hydra ejecutado con opciones correctas
 - [ ] Credenciales encontradas verificadas
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Telnet.md|Telnet]— Redes, SSH, Telnet
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Hydra, Redes, SSH
+- [[SSH.md|SSH]— Hydra, Redes, SSH
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Hydra, Redes, SSH
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]— Hydra, Redes
+- [[Nmap.md|Nmap]— Hydra, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+> #hydra #redes #ssh #telnet

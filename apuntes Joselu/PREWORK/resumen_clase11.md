@@ -145,3 +145,22 @@ Término en la transcripción Corrección / Aclaración “ análisis dinámico 
 →’
 →’
 →’
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_clase10.md|resumen_clase10]— Hydra, Normativa / GRC, Redes
+- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+- [[resumen_clase1_.md|resumen_clase1_]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
+- [[resumen_clase6.md|resumen_clase6]— Hydra, Normativa / GRC, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Hydra, Normativa / GRC, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+> #blue-team #certificaciones #forense #hydra #ia #normativa #pentest #pivoting #redes #windows #wordpress

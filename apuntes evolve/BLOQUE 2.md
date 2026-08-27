@@ -186,3 +186,29 @@ done
 
 > [!important] Relevancia
 > Dominar esto es la base para crear herramientas propias de auditoría, y más adelante para entender cómo se automatizan tanto ataques como defensas (ver SOAR en el Bloque 11).
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Escalada de Privilegios, Kali Linux, Redes
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, Metasploit, Redes
+- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, Metasploit, Redes
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Kali Linux, Metasploit, Redes
+- [[../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]— Escalada de Privilegios, Kali Linux, Linux
+- [[BLOQUE 15.md|BLOQUE 15]— Escalada de Privilegios, Metasploit, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #escalada-privilegios #esteganografia #forense #hydra #kali #linux #metasploit #nmap #redes #sqli #sqlmap #windows

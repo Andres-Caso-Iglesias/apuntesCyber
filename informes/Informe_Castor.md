@@ -318,3 +318,29 @@ ls -la /bin/bash
 ---
 
 **FIN DEL INFORME**
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../write-ups/Castor-THL.md|Castor-THL]— Redes, SSH, XXE
+- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Post-Explotación, SSH
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
+- [[Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
+- [[../write-ups/Nike-THL.md|Nike-THL]— Kali Linux, SSH, XXE
+- [[Informe_Nike.md|Informe_Nike]— Kali Linux, SSH, XXE
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #hydra #john #kali #linux #nmap #post-explotacion #redes #ssh #xxe

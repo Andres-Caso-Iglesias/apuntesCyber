@@ -173,3 +173,30 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 ---
 
 > **Volver al:** [[MOC - Ciberseguridad]]
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Hack The Box, Normativa / GRC, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, OSINT, SSH
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, Metodología Pentest, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Metasploit, OSINT, SSH
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, Redes, SSH
+- [[../../comandos/Metasploit.md|Metasploit]— Metasploit, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #certificaciones #empleabilidad #google-dorks #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #redes #sqli #sqlmap #ssh #windows

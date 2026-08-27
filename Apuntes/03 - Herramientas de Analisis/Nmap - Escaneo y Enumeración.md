@@ -139,3 +139,23 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 ## Enlaces relacionados
 
 - [[comandos/Nmap]] — Cheat sheet de comandos
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Nmap, Redes, Wireshark
+- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Redes, Windows, Wireshark
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Nmap, Redes, Wireshark
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]— Linux, Redes, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— Redes, Windows, Wireshark
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]— Linux, Metodología Pentest, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Nmap|Nmap]]
+
+> #ffuf #linux #nmap #osint #pentest #redes #windows #wireshark

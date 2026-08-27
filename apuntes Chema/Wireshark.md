@@ -97,3 +97,23 @@ Wireshark muestra perfectamente el proceso de establecimiento de conexión TCP:
 ---
 
 ## Enlaces relacionados
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]— Post-Explotación, Redes, Wireshark
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]— Redes, SSH, Wireshark
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]— Redes, SSH, Wireshark
+- [[../informes/Informe_Banco.md|Informe_Banco]— Post-Explotación, Redes, SSH
+- [[../comandos/Metasploit.md|Metasploit]— Post-Explotación, Redes, SSH
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Nmap, Redes, Wireshark
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+> #nmap #post-explotacion #redes #ssh #wireshark

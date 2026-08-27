@@ -254,3 +254,23 @@ nmap --reason <target>
 - [ ] Scripts NSE de vulnerabilidades ejecutados
 - [ ] Output en múltiples formatos generado
 - [ ] Evasión de firewall con stealth scan
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]— Hydra, Redes
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Nmap, Redes
+- [[Hydra.md|Hydra]— Hydra, Redes
+- [[SMB_Impacket.md|SMB_Impacket]— Nmap, Redes
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Hydra, Nmap, Redes
+- [[../write-ups/Banco-THL.md|Banco-THL]— Hydra, Nmap, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+
+> #hydra #nmap #redes

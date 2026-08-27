@@ -206,3 +206,22 @@ No se ve la salida del comando pero se confirma su ejecución por tiempos de res
 Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el disco del host, dando acceso de escritura como root al sistema de archivos completo.
 
 ---
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Escalada de Privilegios, Linux, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]— Command Injection / RCE, Escalada de Privilegios, Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Command Injection / RCE, Escalada de Privilegios, Windows
+- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Linux, Windows
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Command Injection / RCE, Escalada de Privilegios, Linux
+- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Command Injection / RCE, Escalada de Privilegios, Linux
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #escalada-privilegios #linux #windows #wordpress

@@ -255,3 +255,23 @@ impacket-psexec -hashes :HASH user@IP
 - [ ] Reglas/masks configuradas
 - [ ] Hash crackeado
 - [ ] Credenciales obtenidas
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]— Hydra, John / Hashcat, Linux
+- [[../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Hydra, John / Hashcat, Linux
+- [[../write-ups/Castor-THL.md|Castor-THL]— Hydra, John / Hashcat, Linux
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Linux, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Linux, Windows
+- [[../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Hydra, Linux, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/John_Hashcat|John / Hashcat]]
+
+> #hydra #john #linux #windows

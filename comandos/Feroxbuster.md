@@ -181,3 +181,23 @@ feroxbuster -u http://target -w common.txt -x php
 - [ ] Recursión explorada
 - [ ] Headers personalizados probados
 - [ ] Proxy configurado si es necesario
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[GoBuster.md|GoBuster]— FFUF, Feroxbuster
+- [[FFUF.md|FFUF]— FFUF
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— FFUF, Feroxbuster
+- [[DirSearch.md|DirSearch]— FFUF
+- [[../apuntes Chema/Fuzzing Web.md|Fuzzing Web]— FFUF, Feroxbuster
+- [[../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— FFUF, Feroxbuster
+
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+
+> #feroxbuster #ffuf

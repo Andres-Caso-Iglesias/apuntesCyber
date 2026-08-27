@@ -215,3 +215,28 @@ Término en la transcripción Corrección / Aclaración
 Metaprotable / MetaFlowtable / metasproteico **Metasploitable 2** -- máquina Linux vulnerable intencionalmente para práctica de pentesting Hubdevox / HadThe Box / Haddevox **Hack The Box (HTB)** -- plataforma de práctica de pentesting online LJPT / USCP **eJPT v2 / OSCP** -- certificaciones de pentesting de eLearnSecurity y Offensive Security En el map / animac / EMAD **Nmap** -- herramienta de escaneo de puertos y servicios guión p guión / guión SN / guión pene -p- **/** -sN **/** -pN -- flags de Nmap para escaneo de puertos, descubrimiento de hosts y omisión de ping guión min rate / minrate \--min-rate -- parámetro de Nmap para establecer la velocidad mínima de paquetes por segundo guión SVC / guión SC -sV -sC -- flags de Nmap para detección de versiones y lanzamiento de scripts net deskober / net discobar **netdiscover** -- herramienta de descubrimiento de hosts en red local mediante ARP TTL 64 / TTL 128 **TTL (Time To Live)** -- valor que indica el número de saltos restantes del paquete; 64 ≈ Linux, 128 ≈ Windows Adaptador Puente / Red Nat **Bridged Adapter / NAT** -- modos de red de VirtualBox If config / if up / if down ifconfig **/** if up **/** if down -- comandos para gestionar interfaces de red en Linux FTP anónimos / anónimos **FTP Anónimo (anonymous FTP)** -- acceso sin credenciales al servidor FTP Puerto 21 / veintiuno **Puerto 21 / FTP** -- puerto estándar del protocolo de transferencia de archivos SFTP **SFTP** (*Secure File Transfer Protocol*) -- versión cifrada del FTP sobre SSH RCA / RCE **RCE** (*Remote Code Execution*) -- ejecución remota de código PC System Technic GMVH **PC System Technic GMBH** -- fabricante asociado a la MAC de máquinas virtuales VirtualBox Clouddecode / Claudia / Claudio **Claude Code / Claude** -- herramientas de Anthropic para desarrollo asistido por IA Sabitar **Xabier (Sabitar)** -- alumno del máster que desarrolló herramientas propias durante el curso Eduardo Soriano de Satec **Eduardo Soriano** -- especialista en Blue Team de la consultora **Satec**, futuro profesor del módulo defensivo
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, SSH, Telnet
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, SSH, Telnet
+- [[resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, Redes, SSH
+- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hack The Box, SSH, WiFi / Hardware
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]— Hack The Box, Redes, SSH
+
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploitable #nmap #pentest #pivoting #redes #ssh #telnet #wifi #windows

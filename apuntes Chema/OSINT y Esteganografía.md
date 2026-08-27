@@ -90,3 +90,22 @@ La esteganografía oculta información **dentro** de otro fichero (imagen, audio
 |stegcracker|Fuerza bruta contraseña de steghide|
 |pngcheck|Validar/analizar PNGs (CTFs)|
 |zsteg|Esteganografía en PNG y BMP|
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]— Forense Digital, Hydra, OSINT
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, OSINT
+- [[../comandos/Linux.md|Linux]— Esteganografía, Forense Digital, Linux
+- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]— Forense Digital, Hydra, Linux
+- [[../apuntes Joselu/MODULO1/resumen_master_clase7.md|resumen_master_clase7]— Esteganografía, Hydra, Linux
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Forense Digital, Hydra, OSINT
+
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+
+> #esteganografia #forense #hydra #linux #osint
