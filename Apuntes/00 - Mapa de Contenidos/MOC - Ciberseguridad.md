@@ -139,7 +139,7 @@
 | **Vaccine (Tier 2)**  | Easy        | Repaso en profundidad                  | [[Vaccine (Tier 2) — Repaso en profundidad]]             | [[Vaccine (Tier 2) — Repaso en profundidad]]       |                                                            |                                                            |                                           |
 | **Oopsie**            | Easy        | IDOR, [[comandos/Metasploit]]          | web shell, [[comandos/BurpSuite]]                        | cookie tampering                                   | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]]                      |                                           |
 | **Archetype**         | Easy        | [[comandos/SMB_Impacket]]              | SMB, [[comandos/SMB_Impacket]]                           | MSSQL, [[comandos/SMB_Impacket]]                   | xp_cmdshell                                                | [[Explotación de Máquinas Locales I — Oopsie y Archetype]] | [[Explotación de Máquinas Locales I]]     |
-| **Starting Point T0** | Very Easy   | [[comandos/Telnet]]                    | [[Telnet]] (Meow), [[comandos/Nmap]]                     | FTP]] (Fawn), [[comandos/SMB_Impacket]]            | SMB (Dancing), Redis (Redeemer)                            | [[Hack The Box- Starting Point — Tier 0]]                  | [[Hack The Box- Starting Point — Tier 0]] |
+| **Starting Point T0** | Very Easy   | [[comandos/Telnet]]                    | [[Telnet]] (Meow), [[comandos/Nmap]]                     | FTP (Fawn), [[comandos/SMB_Impacket]]              | SMB (Dancing), Redis (Redeemer)                            | [[Hack The Box- Starting Point — Tier 0]]                  | [[Hack The Box- Starting Point — Tier 0]] |
 | **Starting Point T1** | Very Easy   | Servicios varios                       | [[HackTheBox Starting Point — Tier 1]]                   | [[HackTheBox Starting Point — Tier 1]]             |                                                            |                                                            |                                           |
 | **Nibbles**           | Easy/Medium | [[apuntes Chema/Maquinas/Nibbles_HTB]] | CVE-2015-6967 Nibbleblog, [[comandos/SSH]]               | sudo NOPASSWD]], SUID bash                         | [[apuntes Chema/Maquinas/Nibbles_HTB]]                     | [[apuntes Chema/Maquinas/Nibbles_HTB]]                     |                                           |
 | **Reactor**           | Medium/High | [[apuntes Chema/Maquinas/Reactor_HTB]] | CVE-2025-29927 Next.js, Node.js Inspector, WebSocket CDP | [[apuntes Chema/Maquinas/Reactor_HTB]]             | [[apuntes Chema/Maquinas/Reactor_HTB]]                     |                                                            |                                           |
@@ -333,26 +333,26 @@
 > [!info] Referencia rápida
 > Tablas de comandos por herramienta. Cada apunte de teoría enlaza con su cheat sheet correspondiente.
 
-| Cheat Sheet | Uso principal |
-|-------------|---------------|
-| [[comandos/Nmap|Nmap]] | Escaneo de red, puertos, servicios, scripts NSE |
-| [[comandos/Metasploit|Metasploit]] | Framework de explotación, Meterpreter, post-explotación |
-| [[comandos/BurpSuite|Burp Suite]] | Proxy, Repeater, Intruder, scanning web |
-| [[comandos/Hydra|Hydra]] | Fuerza bruta contra servicios |
-| [[comandos/FFUF|FFUF]] | Web fuzzing, directorios, parámetros |
-| [[comandos/Feroxbuster|Feroxbuster]] | Fuzzing recursivo de directorios |
-| [[comandos/GoBuster|GoBuster]] | Directory/DNS/VHOST brute-force |
-| [[comandos/SSH|SSH]] | Acceso remoto, túneles, pivoting |
-| [[comandos/SQLMap|SQLMap]] | Inyección SQL automatizada |
-| [[comandos/WPScan|WPScan]] | Auditoría WordPress |
-| [[comandos/John_Hashcat|John / Hashcat]] | Cracking de hashes |
-| [[comandos/SMB_Impacket|SMB / Impacket]] | Enumeración y explotación SMB/Windows |
-| [[comandos/Google_Dorks|Google Dorks]] | Búsqueda avanzada OSINT |
-| [[comandos/DirSearch|DirSearch]] | Fuzzing de directorios (Python) |
-| [[comandos/Telnet|Telnet]] | Testing manual de puertos |
-| [[comandos/Tmux|Tmux]] | Multiplexor de terminal |
-| [[comandos/Linux|Linux]] | Comandos del sistema |
-| [[comandos/Windows|Windows]] | CMD y PowerShell |
+| Cheat Sheet               | Uso principal  |                                                         |
+| ------------------------- | -------------- | ------------------------------------------------------- |
+| [[comandos/Nmap]]         | Nmap           | Escaneo de red, puertos, servicios, scripts NSE         |
+| [[comandos/Metasploit]]   | Metasploit     | Framework de explotación, Meterpreter, post-explotación |
+| [[comandos/BurpSuite]]    | Burp Suite     | Proxy, Repeater, Intruder, scanning web                 |
+| [[comandos/Hydra]]        | Hydra          | Fuerza bruta contra servicios                           |
+| [[comandos/FFUF]]         | FFUF           | Web fuzzing, directorios, parámetros                    |
+| [[comandos/Feroxbuster]]  | Feroxbuster    | Fuzzing recursivo de directorios                        |
+| [[comandos/GoBuster]]     | GoBuster       | Directory/DNS/VHOST brute-force                         |
+| [[comandos/SSH]]          | SSH            | Acceso remoto, túneles, pivoting                        |
+| [[comandos/SQLMap]]       | SQLMap         | Inyección SQL automatizada                              |
+| [[comandos/WPScan]]       | WPScan         | Auditoría WordPress                                     |
+| [[comandos/John_Hashcat]] | John / Hashcat | Cracking de hashes                                      |
+| [[comandos/SMB_Impacket]] | SMB / Impacket | Enumeración y explotación SMB/Windows                   |
+| [[comandos/Google_Dorks]] | Google Dorks   | Búsqueda avanzada OSINT                                 |
+| [[comandos/DirSearch]]    | DirSearch      | Fuzzing de directorios (Python)                         |
+| [[comandos/Telnet]]       | Telnet         | Testing manual de puertos                               |
+| [[comandos/Tmux]]         | Tmux           | Multiplexor de terminal                                 |
+| [[comandos/Linux]]        | Linux          | Comandos del sistema                                    |
+| [[comandos/Windows]]      | Windows        | CMD y PowerShell                                        |
 
 ---
 
