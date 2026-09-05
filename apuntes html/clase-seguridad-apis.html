@@ -1,0 +1,2343 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seguridad de APIs y OWASP API Top 10</title>
+<meta name="description" content="Clase de 3 horas sobre qué son las APIs, cómo funcionan y el OWASP API Security Top 10, con ejemplos de ataque y ejercicios por tipo de aplicación.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      var m = localStorage.getItem('mode');
+      if (m) document.documentElement.setAttribute('data-mode', m);
+    } catch (e) {}
+  })();
+</script>
+<style>
+/* ============================================================
+   Guía de estilo del proyecto (design-architect). Todo tokenizado.
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img, svg { max-width: 100%; }
+[hidden] { display: none !important; }
+
+:root {
+  color-scheme: light dark;
+
+  --font-display: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-text:    "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+
+  --fs-h1: clamp(2.25rem, 1.70rem + 2.75vw, 3.50rem);
+  --fs-h2: clamp(1.75rem, 1.42rem + 1.65vw, 2.50rem);
+  --fs-h3: clamp(1.375rem, 1.24rem + 0.65vw, 1.75rem);
+  --fs-h4: clamp(1.125rem, 1.06rem + 0.32vw, 1.3125rem);
+  --fs-body: clamp(1.0625rem, 1.00rem + 0.30vw, 1.25rem);
+  --fs-body-lg: clamp(1.1875rem, 1.08rem + 0.55vw, 1.50rem);
+  --fs-small: clamp(0.875rem, 0.85rem + 0.12vw, 0.9375rem);
+  --fs-code: clamp(0.875rem, 0.83rem + 0.20vw, 1.0625rem);
+  --fs-eyebrow: clamp(0.75rem, 0.73rem + 0.08vw, 0.8125rem);
+  --lh-tight: 1.12; --lh-snug: 1.22; --lh-body: 1.65; --lh-code: 1.6; --lh-ui: 1.4;
+  --tk-h1: -0.021em; --tk-h2: -0.018em; --tk-h3: -0.012em; --tk-h4: -0.006em; --tk-eyebrow: 0.07em;
+
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px;
+  --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px; --sp-10: 128px;
+  --space-section: clamp(4rem, 2.5rem + 6vw, 7.5rem);
+  --space-block: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  --space-para: 0.9em; --space-list: 0.4em;
+
+  --measure: 72ch; --col-main-max: 760px; --col-wide-max: 920px;
+  --shell-max: 1200px; --sidebar-w: 264px; --header-h: 56px;
+  --anchor-offset: calc(var(--header-h) + var(--sp-5));
+
+  --radius-xs: 6px; --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-full: 999px;
+  --shadow-sm: 0 1px 2px rgba(17,17,17,0.04), 0 2px 6px rgba(17,17,17,0.06);
+  --shadow-md: 0 8px 24px rgba(17,17,17,0.10), 0 2px 6px rgba(17,17,17,0.06);
+
+  --ease-out: cubic-bezier(0.22,0.61,0.36,1);
+  --ease-in: cubic-bezier(0.55,0.06,0.68,0.19);
+  --ease-in-out: cubic-bezier(0.65,0,0.35,1);
+  --dur-1: 120ms; --dur-2: 180ms; --dur-3: 240ms;
+
+  --icon-stroke: 1.5;
+
+  --c-bg: #FFFFFF; --c-surface: #FAFAF9; --c-surface-raised: #F4F4F2;
+  --c-border: #E7E7E4; --c-border-strong: #D4D4D0;
+  --c-text: #1A1A1A; --c-text-secondary: #595959; --c-text-muted: #767676; --c-text-faint: #9A9A9A;
+
+  --c-accent: #294B8F; --c-accent-hover: #1F3A72; --c-accent-active: #172C57;
+  --c-accent-weak: #EEF2FB; --c-accent-on: #FFFFFF;
+  --c-focus: #294B8F;
+  --focus-ring: 0 0 0 2px var(--c-bg), 0 0 0 4px var(--c-focus);
+
+  --c-insecure: #8E2A2A; --c-insecure-weak: #FBF0EF;
+  --c-secure: #2F6B45; --c-secure-weak: #EFF5F1;
+
+  --c-sev-critical: #8E2A2A; --c-sev-high: #9E4B1E; --c-sev-medium: #8A6A12;
+  --c-sev-low: #2F6B45; --c-sev-info: #4B5563;
+
+  --c-term-bg: #1A1C20; --c-term-surface: #22252A; --c-term-border: #2E323A;
+  --c-term-text: #D6D9DF; --c-term-method: #C3D2F5; --c-term-path: #EDEFF3;
+  --c-term-header: #9AA4B2; --c-term-string: #A8C7A0; --c-term-number: #D9B48A;
+  --c-term-comment: #7A828F;
+  --c-term-attack-bg: rgba(227,155,155,0.16); --c-term-attack-bar: #E39B9B;
+}
+
+:root[data-theme="dark"] {
+  --c-bg: #131211; --c-surface: #1A1917; --c-surface-raised: #232120;
+  --c-border: #2E2C2A; --c-border-strong: #3C3A37;
+  --c-text: #F2F0ED; --c-text-secondary: #A8A5A0; --c-text-muted: #8A8681; --c-text-faint: #6A6763;
+
+  --c-accent: #9DBAF2; --c-accent-hover: #B7CCF6; --c-accent-active: #C9D9F8;
+  --c-accent-weak: rgba(157,186,242,0.14); --c-accent-on: #131211;
+  --c-focus: #9DBAF2;
+
+  --c-insecure: #E39B9B; --c-insecure-weak: rgba(227,155,155,0.12);
+  --c-secure: #86C7A2; --c-secure-weak: rgba(134,199,162,0.12);
+
+  --c-sev-critical: #E39B9B; --c-sev-high: #E0A57C; --c-sev-medium: #D8BE7C;
+  --c-sev-low: #86C7A2; --c-sev-info: #A9B2BF;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.40), 0 2px 8px rgba(0,0,0,0.30);
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.50), 0 2px 8px rgba(0,0,0,0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --c-bg: #131211; --c-surface: #1A1917; --c-surface-raised: #232120;
+    --c-border: #2E2C2A; --c-border-strong: #3C3A37;
+    --c-text: #F2F0ED; --c-text-secondary: #A8A5A0; --c-text-muted: #8A8681; --c-text-faint: #6A6763;
+    --c-accent: #9DBAF2; --c-accent-hover: #B7CCF6; --c-accent-active: #C9D9F8;
+    --c-accent-weak: rgba(157,186,242,0.14); --c-accent-on: #131211;
+    --c-focus: #9DBAF2;
+    --c-insecure: #E39B9B; --c-insecure-weak: rgba(227,155,155,0.12);
+    --c-secure: #86C7A2; --c-secure-weak: rgba(134,199,162,0.12);
+    --c-sev-critical: #E39B9B; --c-sev-high: #E0A57C; --c-sev-medium: #D8BE7C;
+    --c-sev-low: #86C7A2; --c-sev-info: #A9B2BF;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.40), 0 2px 8px rgba(0,0,0,0.30);
+    --shadow-md: 0 10px 30px rgba(0,0,0,0.50), 0 2px 8px rgba(0,0,0,0.35);
+  }
+}
+
+body {
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); text-wrap: pretty; margin: 0; }
+h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); letter-spacing: var(--tk-h1); font-weight: 600; }
+h2 { font-size: var(--fs-h2); line-height: var(--lh-tight); letter-spacing: var(--tk-h2); font-weight: 600; }
+h3 { font-size: var(--fs-h3); line-height: var(--lh-snug); letter-spacing: var(--tk-h3); font-weight: 600; }
+h4 { font-size: var(--fs-h4); line-height: var(--lh-snug); letter-spacing: var(--tk-h4); font-weight: 500; }
+p { margin: 0 0 var(--space-para); }
+strong { font-weight: 500; }
+code, kbd, samp { font-family: var(--font-mono); font-size: 0.92em; }
+
+a { color: var(--c-accent); text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 1px; transition: color var(--dur-1) var(--ease-out); }
+a:hover { color: var(--c-accent-hover); text-decoration-thickness: 2px; }
+a:active { color: var(--c-accent-active); }
+
+:where(a, button, [tabindex], summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--c-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.skip-link {
+  position: absolute; left: var(--sp-3); top: var(--sp-3);
+  background: var(--c-bg); color: var(--c-text);
+  border: 1px solid var(--c-border-strong); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-4); z-index: 100;
+  transform: translateY(-160%);
+  transition: transform var(--dur-2) var(--ease-out);
+}
+.skip-link:focus { transform: translateY(0); }
+
+.eyebrow {
+  font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow);
+  text-transform: uppercase; font-weight: 500; color: var(--c-text-muted);
+  margin: 0 0 var(--sp-3);
+}
+
+/* ---------- Barra de progreso de lectura ---------- */
+.read-progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--c-accent); z-index: 90;
+  transition: width var(--dur-1) linear;
+}
+
+/* ---------- Cabecera pegajosa ---------- */
+.header {
+  position: sticky; top: 0; z-index: 80;
+  height: var(--header-h);
+  display: flex; align-items: center; gap: var(--sp-3);
+  padding-inline: clamp(var(--sp-4), 4vw, var(--sp-8));
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background var(--dur-2) var(--ease-out), border-color var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out);
+}
+.header[data-scrolled="true"] {
+  background: var(--c-bg);
+  border-bottom-color: var(--c-border);
+  box-shadow: var(--shadow-sm);
+}
+.header__title {
+  font-family: var(--font-display); font-weight: 600; font-size: var(--fs-small);
+  color: var(--c-text); text-decoration: none; letter-spacing: -0.01em;
+  margin-right: auto;
+}
+.header__title:hover { color: var(--c-text); }
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; padding: 0;
+  background: transparent; border: 1px solid transparent; border-radius: var(--radius-sm);
+  color: var(--c-text-secondary); cursor: pointer;
+  transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out);
+}
+.icon-btn:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.icon-btn svg { width: 20px; height: 20px; }
+.header__toc-btn { display: inline-flex; }
+@media (min-width: 1024px) { .header__toc-btn { display: none; } }
+
+.ico { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; vertical-align: middle; }
+
+/* ---------- Shell ---------- */
+.shell {
+  max-width: var(--shell-max);
+  margin-inline: auto;
+  padding-inline: clamp(var(--sp-4), 4vw, var(--sp-8));
+  padding-bottom: var(--space-section);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-7);
+}
+@media (min-width: 1024px) {
+  .shell { grid-template-columns: var(--sidebar-w) minmax(0, 1fr); align-items: start; }
+}
+main { max-width: var(--col-main-max); min-width: 0; }
+.bleed-wide { max-width: var(--col-wide-max); }
+
+/* ---------- Navegación lateral ---------- */
+.sidebar { display: none; }
+@media (min-width: 1024px) {
+  .sidebar {
+    display: block;
+    position: sticky; top: var(--anchor-offset);
+    max-height: calc(100dvh - var(--anchor-offset) - var(--sp-5));
+    overflow-y: auto;
+    padding-right: var(--sp-4);
+    border-right: 1px solid var(--c-border);
+  }
+}
+.toc__title { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); margin: 0 0 var(--sp-3); font-weight: 500; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { margin: 0; }
+.toc a {
+  display: grid; grid-template-columns: 2ch 1fr; gap: var(--sp-3); align-items: baseline;
+  min-height: 40px; padding: var(--sp-2) var(--sp-3);
+  color: var(--c-text-secondary); text-decoration: none;
+  font-size: var(--fs-small); line-height: var(--lh-ui);
+  border-left: 2px solid transparent; border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
+  transition: background var(--dur-2) var(--ease-in-out), color var(--dur-2) var(--ease-in-out);
+}
+.toc a:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.toc a[aria-current="location"] {
+  color: var(--c-text); font-weight: 500;
+  background: var(--c-accent-weak); border-left-color: var(--c-accent);
+}
+.toc__num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--c-text-muted); font-size: var(--fs-eyebrow); }
+
+/* Drawer móvil */
+.drawer-overlay {
+  position: fixed; inset: 0; background: rgba(17,17,17,0.4); z-index: 95;
+  opacity: 0; pointer-events: none; transition: opacity var(--dur-3) var(--ease-out);
+}
+.drawer-overlay[data-open="true"] { opacity: 1; pointer-events: auto; }
+.drawer {
+  position: fixed; inset-block: 0; left: 0; z-index: 96;
+  width: min(320px, 86vw);
+  background: var(--c-bg); box-shadow: var(--shadow-md);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--sp-5);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform var(--dur-3) var(--ease-out);
+}
+.drawer[data-open="true"] { transform: translateX(0); }
+.drawer__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--sp-4); }
+.drawer .toc a { font-size: var(--fs-body); }
+
+/* ---------- Hero ---------- */
+.hero { padding-block: var(--space-section) var(--space-block); border-bottom: 1px solid var(--c-border); }
+.utility-bar { display: flex; gap: var(--sp-2); margin-bottom: var(--sp-6); }
+.hero h1 { max-width: 20ch; }
+.hero__lead { font-size: var(--fs-body-lg); line-height: 1.6; color: var(--c-text-secondary); max-width: 56ch; margin-top: var(--sp-5); text-wrap: balance; }
+.hero__meta { display: flex; flex-wrap: wrap; gap: var(--sp-3) var(--sp-6); margin: var(--sp-6) 0 0; padding: 0; }
+.hero__meta > div { display: flex; flex-direction: column; gap: 2px; }
+.hero__meta dt { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); }
+.hero__meta dd { margin: 0; font-size: var(--fs-small); color: var(--c-text); font-weight: 500; }
+.hero__cta { margin-top: var(--sp-6); }
+
+/* ---------- Índice estático de portada ---------- */
+.toc-static { margin-top: var(--space-block); }
+.toc-static ol { list-style: none; margin: var(--sp-4) 0 0; padding: 0; display: grid; gap: 2px; }
+.toc-static a {
+  display: grid; grid-template-columns: 2.5ch 1fr; gap: var(--sp-4); align-items: baseline;
+  padding: var(--sp-3); text-decoration: none; color: var(--c-text-secondary);
+  border-radius: var(--radius-sm); border: 1px solid transparent;
+  transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.toc-static a:hover { background: var(--c-surface); color: var(--c-text); border-color: var(--c-border); }
+.toc-static .toc__num { font-size: var(--fs-small); }
+.toc-static span:last-child { font-size: var(--fs-body); }
+
+/* ---------- Secciones y encabezados ---------- */
+.section { padding-block: var(--space-section); border-top: 1px solid var(--c-border); scroll-margin-top: var(--anchor-offset); }
+.section:first-of-type { border-top: 0; }
+.section > h2 { scroll-margin-top: var(--anchor-offset); }
+.sec-num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--c-text-muted); font-size: var(--fs-h3); font-weight: 400; user-select: none; margin-right: 0.4em; }
+.section h3 { margin-top: 1.6em; margin-bottom: 0.6em; }
+.section h4 { margin-top: 1.5em; margin-bottom: 0.5em; color: var(--c-text); }
+.section > h2 + p, .section > h3 + p { margin-top: 0.6em; }
+
+.prose { max-width: var(--measure); }
+.prose ul, .prose ol { max-width: var(--measure); padding-left: 1.3em; margin: 0 0 var(--space-para); }
+.prose li { margin-bottom: var(--space-list); }
+.prose li::marker { color: var(--c-text-muted); }
+.lead-in { font-size: var(--fs-body-lg); line-height: 1.6; color: var(--c-text-secondary); max-width: 62ch; text-wrap: pretty; }
+
+.block { margin-top: var(--space-block); }
+.subhead { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; margin: 0 0 var(--sp-3); }
+
+/* ---------- Callouts ---------- */
+.callout { max-width: var(--measure); margin: var(--space-block) 0; padding-left: var(--sp-4); border-left: 2px solid var(--c-border-strong); }
+.callout > :last-child { margin-bottom: 0; }
+.callout__label { display: flex; align-items: center; gap: var(--sp-2); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; margin: 0 0 var(--sp-2); }
+.callout__label svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.callout--note { border-left-color: var(--c-border-strong); }
+.callout--note .callout__label { color: var(--c-text-secondary); }
+.callout--warn { border-left-color: var(--c-sev-medium); }
+.callout--warn .callout__label { color: var(--c-sev-medium); }
+.callout--danger { border-left-color: var(--c-sev-critical); background: var(--c-surface); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: var(--sp-4) var(--sp-4) var(--sp-4) var(--sp-4); border-left-width: 2px; }
+.callout--danger .callout__label { color: var(--c-sev-critical); }
+
+/* ---------- Bloque de código ---------- */
+.code { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); overflow: hidden; }
+.code__bar { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-2) var(--sp-3); background: var(--c-surface); border-bottom: 1px solid var(--c-border); }
+.code__name { font-family: var(--font-mono); font-size: var(--fs-small); color: var(--c-text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.code__copy { display: inline-flex; align-items: center; gap: var(--sp-2); min-height: 32px; padding: var(--sp-1) var(--sp-3); background: transparent; border: 1px solid transparent; border-radius: var(--radius-sm); color: var(--c-text-secondary); font: inherit; font-size: var(--fs-small); cursor: pointer; flex-shrink: 0; transition: background var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out); }
+.code__copy:hover { background: var(--c-surface-raised); color: var(--c-text); }
+.code__copy:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.code__copy svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.code__copy[data-state="done"] { color: var(--c-accent); }
+.code pre { margin: 0; padding: var(--sp-4); overflow-x: auto; background: var(--c-surface); font-family: var(--font-mono); font-size: var(--fs-code); line-height: var(--lh-code); color: var(--c-text); }
+.code pre code { font-size: inherit; }
+.code--insecure { border-color: color-mix(in srgb, var(--c-insecure) 40%, var(--c-border)); }
+.code--insecure .code__bar { background: var(--c-insecure-weak); color: var(--c-insecure); }
+.code--insecure .code__name { color: var(--c-insecure); }
+.code--secure { border-color: color-mix(in srgb, var(--c-secure) 40%, var(--c-border)); }
+.code--secure .code__bar { background: var(--c-secure-weak); color: var(--c-secure); }
+.code--secure .code__name { color: var(--c-secure); }
+.code__tag { display: inline-flex; align-items: center; gap: var(--sp-2); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; }
+.code__tag svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Intercambio HTTP ---------- */
+.exchange { margin: var(--space-block) 0; max-width: var(--col-wide-max); }
+.exchange__grid { display: grid; gap: var(--sp-4); container-type: inline-size; }
+.exchange__panel { background: var(--c-term-bg); border: 1px solid var(--c-term-border); border-radius: var(--radius-md); overflow: hidden; }
+.exchange__head { display: flex; align-items: center; gap: var(--sp-2); flex-wrap: wrap; margin: 0; padding: var(--sp-3); background: var(--c-term-surface); border-bottom: 1px solid var(--c-term-border); color: var(--c-term-text); font-size: var(--fs-small); font-weight: 500; }
+.exchange__head svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-term-header); }
+.exchange__meta { font-family: var(--font-mono); color: var(--c-term-header); font-weight: 400; margin-left: auto; }
+.exchange pre { margin: 0; padding: var(--sp-4); overflow-x: auto; background: var(--c-term-bg); color: var(--c-term-text); font-family: var(--font-mono); font-size: var(--fs-code); line-height: var(--lh-code); }
+.exchange figcaption { margin-top: var(--sp-3); font-size: var(--fs-small); color: var(--c-text-secondary); max-width: var(--measure); }
+.tok-method { color: var(--c-term-method); font-weight: 500; }
+.tok-path { color: var(--c-term-path); }
+.tok-header-name { color: var(--c-term-header); }
+.tok-string { color: var(--c-term-string); }
+.tok-number { color: var(--c-term-number); }
+.tok-comment { color: var(--c-term-comment); font-style: italic; }
+.exchange mark.tok-attack { display: inline-block; background: var(--c-term-attack-bg); color: inherit; border-left: 2px solid var(--c-term-attack-bar); padding: 0 var(--sp-2); margin-left: -2px; border-radius: 0 var(--radius-xs) var(--radius-xs) 0; }
+@container (min-width: 860px) { .exchange__grid { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Tabla OWASP ---------- */
+.table-wrap { max-width: var(--col-wide-max); margin: var(--space-block) 0; overflow-x: auto; }
+table.owasp { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+table.owasp caption { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); margin-bottom: var(--sp-3); }
+table.owasp th { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; padding: var(--sp-3); background: var(--c-surface); border-bottom: 1px solid var(--c-border-strong); }
+table.owasp td { padding: var(--sp-3); border-bottom: 1px solid var(--c-border); vertical-align: top; }
+table.owasp tbody tr:hover, table.owasp tbody tr:hover { background: var(--c-surface-raised); }
+table.owasp td:first-child { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--c-text-secondary); }
+table.owasp td:nth-child(2) a { font-weight: 500; }
+@media (max-width: 720px) {
+  table.owasp, table.owasp tbody, table.owasp tr, table.owasp td { display: block; width: 100%; }
+  table.owasp thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.owasp tr { border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-3); margin-bottom: var(--sp-3); }
+  table.owasp td { border: 0; padding: var(--sp-1) 0; }
+  table.owasp td::before { content: attr(data-label) ": "; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); display: block; }
+}
+
+/* ---------- Badges ---------- */
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border: 1px solid; border-radius: var(--radius-xs); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; font-variant-numeric: tabular-nums; min-height: 24px; line-height: var(--lh-ui); white-space: nowrap; }
+.badge svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+.badge--crit { color: var(--c-sev-critical); border-color: color-mix(in srgb, var(--c-sev-critical) 40%, transparent); background: color-mix(in srgb, var(--c-sev-critical) 8%, transparent); }
+.badge--high { color: var(--c-sev-high); border-color: color-mix(in srgb, var(--c-sev-high) 40%, transparent); background: color-mix(in srgb, var(--c-sev-high) 8%, transparent); }
+.badge--med { color: var(--c-sev-medium); border-color: color-mix(in srgb, var(--c-sev-medium) 40%, transparent); background: color-mix(in srgb, var(--c-sev-medium) 8%, transparent); }
+.badge--low { color: var(--c-sev-low); border-color: color-mix(in srgb, var(--c-sev-low) 40%, transparent); background: color-mix(in srgb, var(--c-sev-low) 8%, transparent); }
+.badge--info { color: var(--c-sev-info); border-color: color-mix(in srgb, var(--c-sev-info) 40%, transparent); background: color-mix(in srgb, var(--c-sev-info) 8%, transparent); }
+
+/* ---------- Tarjeta de vulnerabilidad ---------- */
+.vuln { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-5); scroll-margin-top: var(--anchor-offset); transition: background 1200ms var(--ease-out); }
+.vuln.is-arrived { background: var(--c-accent-weak); }
+.vuln__head { display: flex; align-items: flex-start; gap: var(--sp-4); flex-wrap: wrap; }
+.vuln__head h3 { flex: 1; min-width: 12ch; }
+.vuln__head .eyebrow { margin: 0; flex-basis: 100%; }
+.vuln__metrics { display: flex; flex-wrap: wrap; gap: var(--sp-5); margin: var(--sp-4) 0 var(--sp-2); }
+.metric { display: flex; flex-direction: column; gap: var(--sp-2); }
+.metric__label { font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); }
+.metric__bar { display: flex; gap: 3px; }
+.metric__seg { width: 22px; height: 4px; border-radius: 2px; background: var(--c-border); }
+.metric__seg.on { background: var(--c-text); }
+.vuln h4 { margin-top: 1.3em; }
+.vuln h4:first-of-type { margin-top: 1em; }
+.vuln ul { padding-left: 1.3em; margin: 0 0 var(--space-para); }
+.vuln li { margin-bottom: var(--space-list); }
+
+/* ---------- Tarjeta de ejercicio ---------- */
+.exercise { max-width: var(--col-wide-max); margin: var(--space-block) 0; border: 1px solid var(--c-border); border-radius: var(--radius-md); padding: var(--sp-5); scroll-margin-top: var(--anchor-offset); }
+.exercise__head { display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap; margin-bottom: var(--sp-3); }
+.exercise__head .eyebrow { margin: 0; }
+.tag { display: inline-flex; align-items: center; padding: 2px 8px; background: var(--c-surface-raised); color: var(--c-text-secondary); font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; font-weight: 500; border-radius: var(--radius-sm); }
+.disclosure { border-top: 1px solid var(--c-border); margin-top: var(--sp-3); }
+.disclosure > button { display: flex; align-items: center; gap: var(--sp-2); width: 100%; min-height: 44px; padding: var(--sp-2) 0; background: transparent; border: 0; color: var(--c-text); font: inherit; font-size: var(--fs-small); font-weight: 500; cursor: pointer; text-align: left; }
+.disclosure > button:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-xs); }
+.disclosure > button svg.lead { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-text-secondary); }
+.disclosure > button svg.chev { width: 16px; height: 16px; margin-left: auto; stroke: currentColor; fill: none; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; color: var(--c-text-muted); transition: transform var(--dur-2) var(--ease-in-out); }
+.disclosure > button[aria-expanded="true"] svg.chev { transform: rotate(90deg); }
+.disclosure__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
+.disclosure__panel > div { overflow: hidden; }
+.disclosure__panel[data-open="true"] { grid-template-rows: 1fr; }
+.disclosure__panel .inner { padding: var(--sp-2) 0 var(--sp-4); }
+.disclosure__panel ol, .disclosure__panel ul { padding-left: 1.3em; margin: 0; }
+.disclosure__panel li { margin-bottom: var(--space-list); }
+
+/* ---------- Diagramas ---------- */
+.diagram { margin: var(--space-block) 0; max-width: var(--col-wide-max); }
+.diagram svg { display: block; width: 100%; height: auto; }
+.diagram figcaption { margin-top: var(--sp-3); font-size: var(--fs-small); color: var(--c-text-secondary); }
+.diagram .node { fill: var(--c-surface); stroke: var(--c-border-strong); stroke-width: 1; }
+.diagram .node-label { fill: var(--c-text); font-family: var(--font-display); font-size: 14px; font-weight: 500; }
+.diagram .conn { stroke: var(--c-text-secondary); stroke-width: 1.5; fill: none; }
+.diagram .conn-accent { stroke: var(--c-accent); stroke-width: 2; fill: none; }
+.diagram .flow-label { fill: var(--c-text-muted); font-family: var(--font-mono); font-size: 11px; }
+.diagram .ico-d { stroke: var(--c-text-secondary); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Tablas de contenido simples ---------- */
+.deftable { max-width: var(--col-wide-max); margin: var(--space-block) 0; overflow-x: auto; }
+.deftable table { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+.deftable th { text-align: left; font-size: var(--fs-eyebrow); letter-spacing: var(--tk-eyebrow); text-transform: uppercase; color: var(--c-text-muted); font-weight: 500; padding: var(--sp-3); border-bottom: 1px solid var(--c-border-strong); background: var(--c-surface); }
+.deftable td { padding: var(--sp-3); border-bottom: 1px solid var(--c-border); vertical-align: top; }
+.deftable td:first-child { font-weight: 500; white-space: nowrap; }
+.deftable code { color: var(--c-text); }
+
+/* ---------- Pie ---------- */
+.footer { border-top: 1px solid var(--c-border); padding-top: var(--space-block); margin-top: var(--space-section); max-width: var(--col-wide-max); }
+.footer h3 { margin-bottom: var(--sp-4); }
+.footer .block { margin-top: var(--space-block); }
+.footer ul { padding-left: 1.3em; }
+.footer li { margin-bottom: var(--space-list); }
+.glossary { display: grid; gap: var(--sp-3); }
+.glossary div { display: grid; grid-template-columns: 200px 1fr; gap: var(--sp-4); align-items: baseline; }
+.glossary dt { font-weight: 500; color: var(--c-text); }
+.glossary dd { margin: 0; color: var(--c-text-secondary); font-size: var(--fs-small); }
+@media (max-width: 640px) { .glossary div { grid-template-columns: 1fr; gap: 2px; } }
+.reflist { padding-left: 1.4em; }
+.reflist li { margin-bottom: var(--sp-2); font-size: var(--fs-small); }
+
+.kbd { font-family: var(--font-mono); font-size: 0.85em; background: var(--c-surface-raised); border: 1px solid var(--c-border); border-radius: var(--radius-xs); padding: 1px 6px; }
+
+/* ---------- Modo presentación ---------- */
+:root[data-mode="present"] {
+  --fs-body: clamp(1.25rem, 1.05rem + 0.9vw, 1.625rem);
+  --fs-body-lg: clamp(1.375rem, 1.15rem + 1.1vw, 1.875rem);
+  --fs-h1: clamp(2.75rem, 2.0rem + 3.6vw, 4.25rem);
+  --fs-h2: clamp(2.0rem, 1.6rem + 2.2vw, 3.0rem);
+  --fs-h3: clamp(1.5rem, 1.3rem + 1.0vw, 2.0rem);
+  --fs-code: clamp(1.0rem, 0.92rem + 0.4vw, 1.25rem);
+  --icon-stroke: 1.75;
+  --measure: 64ch;
+  --col-main-max: 900px;
+  --space-section: clamp(5rem, 3rem + 8vw, 9rem);
+  --c-text-secondary: #3F3F3F;
+  --c-border: #DBDBD8;
+}
+:root[data-theme="dark"][data-mode="present"] { --c-text-secondary: #C4C1BC; --c-border: #3A3835; }
+:root[data-mode="present"] .sidebar,
+:root[data-mode="present"] .header__toc-btn { display: none; }
+:root[data-mode="present"] .shell { grid-template-columns: 1fr; }
+:root[data-mode="present"] main { max-width: var(--col-main-max); margin-inline: auto; }
+:root[data-mode="present-slides"] .section { min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .vuln.is-arrived { background: transparent; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="read-progress" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+<header class="header" data-scrolled="false">
+  <button class="icon-btn header__toc-btn" type="button" aria-label="Abrir el temario" aria-expanded="false" aria-controls="drawer">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <a class="header__title" href="#top">Seguridad de APIs</a>
+  <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar tema">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
+  <button class="icon-btn" id="present-toggle" type="button" aria-pressed="false" aria-label="Modo proyección (tecla P)">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h20M4 3v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3M12 16v5M8 21h8"/></svg>
+  </button>
+</header>
+
+<div class="drawer-overlay" data-open="false"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Temario" data-open="false">
+  <div class="drawer__head">
+    <p class="toc__title">Temario</p>
+    <button class="icon-btn" type="button" id="drawer-close" aria-label="Cerrar el temario">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="toc" aria-label="Temario"><ol id="toc-mobile"></ol></nav>
+</aside>
+
+<div class="shell" id="top">
+  <aside class="sidebar">
+    <nav class="toc" aria-label="Temario">
+      <p class="toc__title">Temario</p>
+      <ol id="toc-desktop"></ol>
+    </nav>
+  </aside>
+
+  <main id="main">
+    <header class="hero">
+      <div class="utility-bar">
+        <button class="icon-btn" id="theme-toggle-hero" type="button" aria-pressed="false" aria-label="Cambiar tema">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn" id="present-toggle-hero" type="button" aria-pressed="false" aria-label="Modo proyección">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h20M4 3v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3M12 16v5M8 21h8"/></svg>
+        </button>
+      </div>
+      <p class="eyebrow">Formación en ciberseguridad</p>
+      <h1>APIs por dentro y el OWASP API Security Top 10</h1>
+      <p class="hero__lead">Una sesión de tres horas para entender qué es una API, cómo viaja una petición desde una app hasta el servidor y por qué esa misma tubería es hoy el objetivo preferido de quien ataca. Teoría, ejemplos de ataque con peticiones y respuestas reales, y ejercicios agrupados por tipo de aplicación.</p>
+      <dl class="hero__meta">
+        <div><dt>Duración</dt><dd>3 horas</dd></div>
+        <div><dt>Nivel</dt><dd>Intermedio</dd></div>
+        <div><dt>Módulo</dt><dd>Seguridad de APIs</dd></div>
+        <div><dt>Secciones</dt><dd>11</dd></div>
+        <div><dt>Referencia</dt><dd>OWASP API Top 10 (2019)</dd></div>
+      </dl>
+      <p class="hero__cta"><a href="#temario">Ir al temario</a></p>
+
+      <nav class="toc-static" id="temario" aria-label="Temario completo">
+        <p class="subhead">Temario</p>
+        <ol id="toc-static"></ol>
+      </nav>
+    </header>
+
+<!-- ===================== SECCIÓN 1 ===================== -->
+<section class="section" id="s01" aria-labelledby="s01-h">
+  <h2 id="s01-h" tabindex="-1"><span class="sec-num">01</span>Qué es una API y cómo se comunica</h2>
+  <p class="lead-in">Una API es el contrato por el que dos programas se hablan sin conocerse por dentro. Uno pide algo concreto, el otro responde con datos o con un error. Nada más, y nada menos.</p>
+
+  <div class="block prose">
+    <h3>La idea en una frase</h3>
+    <p><strong>API</strong> son las siglas de <em>Application Programming Interface</em>, interfaz de programación de aplicaciones. Es un conjunto de reglas que define qué puede pedir un programa a otro, con qué formato y qué va a recibir a cambio. La palabra importante es <strong>interfaz</strong>: una frontera pública detrás de la cual se esconde la implementación.</p>
+    <p>La analogía habitual es la carta de un restaurante. La carta lista lo que puedes pedir y a qué precio. Tú no entras en la cocina ni necesitas saber cómo se prepara cada plato: haces tu comanda con el lenguaje de la carta y la cocina te devuelve el plato. Si mañana cambian de proveedor o de receta, la carta puede seguir igual. La API es esa carta entre programas.</p>
+
+    <h3>Cliente y servidor</h3>
+    <p>Casi toda API web sigue el modelo <strong>cliente-servidor</strong>:</p>
+    <ul>
+      <li>El <strong>cliente</strong> es quien inicia la conversación: una app de móvil, una página web en el navegador, otro servidor, un dispositivo IoT, un script.</li>
+      <li>El <strong>servidor</strong> (o backend) es quien tiene los datos y la lógica de negocio. Escucha peticiones, decide si quien pide tiene permiso, hace el trabajo y responde.</li>
+    </ul>
+    <p>El cliente no guarda la base de datos ni las reglas de negocio. Solo sabe qué endpoints existen y qué enviar. Esto tiene una consecuencia de seguridad que repetiremos toda la clase: <strong>el cliente no es de fiar</strong>. Cualquiera puede abrir las herramientas de desarrollo del navegador, interceptar el tráfico de su móvil o escribir su propio cliente y enviar exactamente lo que quiera.</p>
+  </div>
+
+  <figure class="diagram bleed-wide">
+    <svg viewBox="0 0 640 220" role="img" aria-labelledby="d1-t d1-d">
+      <title id="d1-t">Modelo de petición y respuesta entre cliente y API</title>
+      <desc id="d1-d">El cliente envía una petición HTTP con un método y una ruta. La API valida, procesa y devuelve una respuesta con un código de estado y un cuerpo de datos.</desc>
+      <rect class="node" x="40" y="70" width="180" height="80" rx="8"/>
+      <text class="node-label" x="130" y="106" text-anchor="middle">Cliente</text>
+      <text class="node-label" x="130" y="126" text-anchor="middle" style="font-size:11px;fill:var(--c-text-muted);font-family:var(--font-mono)">app, web, IoT</text>
+      <rect class="node" x="420" y="70" width="180" height="80" rx="8"/>
+      <text class="node-label" x="510" y="106" text-anchor="middle">API</text>
+      <text class="node-label" x="510" y="126" text-anchor="middle" style="font-size:11px;fill:var(--c-text-muted);font-family:var(--font-mono)">servidor, backend</text>
+      <path class="conn-accent" d="M220 100 L416 100" marker-end="url(#arrow-a)"/>
+      <path class="conn" d="M416 128 L224 128" marker-end="url(#arrow)"/>
+      <text class="flow-label" x="318" y="92" text-anchor="middle">petición: GET /pedidos/42</text>
+      <text class="flow-label" x="318" y="146" text-anchor="middle">respuesta: 200 OK + JSON</text>
+      <defs>
+        <marker id="arrow-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--c-accent)"/></marker>
+        <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--c-text-secondary)"/></marker>
+      </defs>
+    </svg>
+    <figcaption>El cliente pide, la API responde. Toda la comunicación de una API web pasa por HTTP y cada respuesta lleva un código de estado.</figcaption>
+  </figure>
+
+  <div class="block prose">
+    <h3>Cómo funciona una llamada, paso a paso</h3>
+    <ol>
+      <li>El cliente construye una <strong>petición</strong>: un método (por ejemplo <code>GET</code>), una URL de endpoint, unas cabeceras (entre ellas la de autenticación) y, si procede, un cuerpo con datos.</li>
+      <li>La petición viaja por la red, normalmente sobre <strong>HTTPS</strong>, hasta el servidor.</li>
+      <li>El servidor <strong>autentica</strong> (quién eres) y <strong>autoriza</strong> (qué puedes hacer), valida la entrada y ejecuta la lógica: consulta la base de datos, llama a otros servicios, calcula.</li>
+      <li>El servidor devuelve una <strong>respuesta</strong>: un código de estado (200, 404, 500), cabeceras y un cuerpo, casi siempre en JSON.</li>
+      <li>El cliente interpreta la respuesta y actualiza la pantalla o continúa su flujo.</li>
+    </ol>
+
+    <h3>Para qué se usan</h3>
+    <p>Las APIs son el tejido conectivo del software actual. Algunos usos concretos:</p>
+    <ul>
+      <li><strong>Separar frontend y backend.</strong> La web y la app de móvil son solo pantallas; toda la lógica vive detrás de una API.</li>
+      <li><strong>Integrar servicios de terceros.</strong> Pagos (Stripe, Redsys), mapas, envío de SMS y correo, identidad (Google, Microsoft), IA.</li>
+      <li><strong>Automatizar.</strong> Scripts e integraciones que crean recursos, exportan datos o disparan procesos sin intervención humana.</li>
+      <li><strong>Conectar sistemas internos.</strong> En una arquitectura de microservicios, cada servicio expone una API y los demás la consumen.</li>
+      <li><strong>Abrir un ecosistema.</strong> Una plataforma publica su API para que otros construyan encima (extensiones, apps, integraciones).</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>API es un término amplio. Hay APIs de sistema operativo, APIs de librerías y APIs de red. En esta clase, salvo que se diga otra cosa, hablamos de <strong>APIs web</strong>: las que se consumen por HTTP y sirven a aplicaciones web y móviles.</p>
+  </aside>
+
+  <div class="block prose">
+    <h3>Ejemplos cotidianos</h3>
+    <ul>
+      <li>Abres una app del tiempo. La app llama a <code>GET /forecast?lat=40.4&amp;lon=-3.7</code> y pinta la respuesta.</li>
+      <li>Pagas con el móvil. La app de la tienda llama a la API de la pasarela de pago, que a su vez llama a la del banco.</li>
+      <li>Inicias sesión con Google en una web. Esa web usa la API de identidad de Google por debajo.</li>
+      <li>Publicas una foto. La app sube el archivo con <code>POST /media</code> y luego crea la publicación con <code>POST /posts</code>.</li>
+    </ul>
+  </div>
+</section>
+<!-- ===================== SECCIÓN 2 ===================== -->
+<section class="section" id="s02" aria-labelledby="s02-h">
+  <h2 id="s02-h" tabindex="-1"><span class="sec-num">02</span>La API troncal en web y móvil</h2>
+  <p class="lead-in">Web, iOS y Android suelen ser tres carcasas distintas sobre la misma API. Esa API troncal concentra los datos y las reglas, y por eso concentra también el riesgo.</p>
+
+  <div class="block prose">
+    <h3>Qué es una API troncal</h3>
+    <p>Se llama <strong>API troncal</strong> (o <em>backbone</em>, o <em>core API</em>) a la API central que sirve a todos los clientes de un producto. En vez de programar la lógica de negocio tres veces, una para la web y una por cada plataforma móvil, se implementa una sola vez en el servidor y los tres clientes la consumen.</p>
+    <p>Ventajas para quien construye el producto:</p>
+    <ul>
+      <li><strong>Una sola fuente de verdad.</strong> Las reglas de precios, permisos o validación viven en un único sitio.</li>
+      <li><strong>Coherencia.</strong> Web y móvil enseñan lo mismo porque preguntan a lo mismo.</li>
+      <li><strong>Evolución más barata.</strong> Un cambio de negocio se hace en el backend y llega a todos los clientes.</li>
+    </ul>
+  </div>
+
+  <figure class="diagram bleed-wide">
+    <svg viewBox="0 0 640 260" role="img" aria-labelledby="d2-t d2-d">
+      <title id="d2-t">API troncal sirviendo a web, iOS y Android</title>
+      <desc id="d2-d">Tres clientes distintos, una web y dos apps móviles, se conectan a la misma API central usando los mismos endpoints.</desc>
+      <rect class="node" x="60" y="30" width="150" height="56" rx="8"/>
+      <text class="node-label" x="135" y="63" text-anchor="middle">Web</text>
+      <rect class="node" x="60" y="102" width="150" height="56" rx="8"/>
+      <text class="node-label" x="135" y="135" text-anchor="middle">App iOS</text>
+      <rect class="node" x="60" y="174" width="150" height="56" rx="8"/>
+      <text class="node-label" x="135" y="207" text-anchor="middle">App Android</text>
+      <rect class="node" x="430" y="102" width="160" height="56" rx="8"/>
+      <text class="node-label" x="510" y="135" text-anchor="middle">API troncal</text>
+      <path class="conn" d="M210 58 C 320 58, 330 120, 428 128" marker-end="url(#a2)"/>
+      <path class="conn" d="M210 130 L 428 130" marker-end="url(#a2)"/>
+      <path class="conn" d="M210 202 C 320 202, 330 140, 428 134" marker-end="url(#a2)"/>
+      <text class="flow-label" x="318" y="96" text-anchor="middle">misma API, mismos endpoints</text>
+      <defs><marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--c-text-secondary)"/></marker></defs>
+    </svg>
+    <figcaption>Si un endpoint de la troncal devuelve de más o comprueba de menos, el fallo aparece a la vez en los tres clientes.</figcaption>
+  </figure>
+
+  <div class="block prose">
+    <h3>Por qué concentra el riesgo</h3>
+    <ul>
+      <li><strong>Un solo punto que proteger y un solo punto que fallar.</strong> Un control de autorización que falta en la troncal deja expuestos a todos los clientes.</li>
+      <li><strong>La app móvil es pública.</strong> El binario de una app se puede descompilar. Las URLs de los endpoints, las claves incrustadas y los formatos de datos quedan a la vista de cualquiera que se lo proponga.</li>
+      <li><strong>El cliente no aplica la seguridad, solo la muestra.</strong> Que la app oculte un botón no impide llamar al endpoint que hay detrás. La comprobación tiene que estar en la troncal.</li>
+      <li><strong>Endpoints "internos" que no lo son.</strong> Funciones pensadas para el panel de administración acaban accesibles desde la misma API que usan los clientes normales.</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--warn" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Aviso</p>
+    <p>No metas secretos en una app móvil. Cualquier clave, token o URL "oculta" dentro del binario se puede extraer. Los secretos viven en el servidor.</p>
+  </aside>
+
+  <div class="block prose">
+    <h3>Tipos de API</h3>
+    <p>Por <strong>estilo o protocolo</strong>:</p>
+  </div>
+  <div class="deftable bleed-wide">
+    <table>
+      <thead><tr><th>Estilo</th><th>Cómo es</th><th>Dónde se ve</th></tr></thead>
+      <tbody>
+        <tr><td>REST</td><td>Recursos con URL, métodos HTTP, respuestas normalmente en JSON. Sin estado.</td><td>El estándar de facto en web y móvil.</td></tr>
+        <tr><td>GraphQL</td><td>Un único endpoint. El cliente pide en una consulta exactamente los campos que quiere.</td><td>Apps con muchas vistas distintas sobre los mismos datos.</td></tr>
+        <tr><td>SOAP</td><td>Mensajes XML con contrato formal (WSDL). Verboso y rígido.</td><td>Banca, seguros, sistemas heredados y B2B con requisitos estrictos.</td></tr>
+        <tr><td>gRPC</td><td>Binario sobre HTTP/2, contrato en Protocol Buffers. Rápido y con streaming.</td><td>Comunicación entre microservicios internos.</td></tr>
+        <tr><td>WebSocket</td><td>Canal bidireccional persistente. El servidor puede enviar sin que el cliente pregunte.</td><td>Chat, notificaciones en vivo, mercados, colaboración en tiempo real.</td></tr>
+        <tr><td>Webhooks</td><td>API "al revés": el servidor llama a una URL tuya cuando ocurre un evento.</td><td>Avisos de pago completado, de despliegue, de mensaje recibido.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>Por <strong>quién puede consumirla</strong>:</p>
+    <ul>
+      <li><strong>Pública o abierta.</strong> Cualquiera puede registrarse y usarla, con o sin clave.</li>
+      <li><strong>De socios.</strong> Solo para empresas con un acuerdo. Acceso controlado y con contrato.</li>
+      <li><strong>Privada o interna.</strong> Solo para los sistemas y equipos de la propia organización. Ojo: "interna" describe la intención, no siempre la exposición real en la red.</li>
+    </ul>
+    <p>Y una distinción de contexto que conviene no mezclar: <strong>API de sistema operativo</strong> (llamadas del sistema, SDK de Android o iOS, acceso a cámara o ubicación) frente a <strong>API web</strong> (HTTP entre cliente y servidor). En esta clase el foco está en las segundas.</p>
+
+    <h3>API polimórfica</h3>
+    <p>Se habla de <strong>API polimórfica</strong> cuando un mismo endpoint cambia de comportamiento, de forma de la respuesta o de campos según un parámetro, el tipo de cliente, el rol del usuario o una cabecera. Ejemplos:</p>
+    <ul>
+      <li><code>GET /me</code> devuelve un objeto con más o menos campos según si quien pregunta es usuario normal o administrador.</li>
+      <li><code>POST /search</code> acepta un cuerpo cuya estructura varía: a veces un texto, a veces un objeto con filtros complejos.</li>
+      <li>El mismo endpoint responde HTML, JSON o CSV según la cabecera <code>Accept</code>.</li>
+    </ul>
+    <p>El polimorfismo es cómodo, pero pasa factura en seguridad:</p>
+    <ul>
+      <li><strong>Superficie difícil de razonar.</strong> Si un endpoint hace muchas cosas, es fácil que una de esas ramas se quede sin comprobación de autorización.</li>
+      <li><strong>Validación inconsistente.</strong> Cada forma del cuerpo necesita su propio esquema; alguna se olvida.</li>
+      <li><strong>Filtrado de datos frágil.</strong> "Devuelve todo y que el cliente decida qué campos enseña" es justo el patrón de la vulnerabilidad API3, exposición excesiva de datos.</li>
+      <li><strong>Escalada por parámetro.</strong> Si añadir <code>?view=admin</code> o <code>role=admin</code> cambia lo que devuelve, hay que autorizar esa rama, no solo aceptarla.</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>Regla práctica con endpoints polimórficos: cada variante de entrada necesita su propio esquema de validación y cada variante de salida necesita su propia comprobación de "quién puede ver esto".</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÓN 3 ===================== -->
+<section class="section" id="s03" aria-labelledby="s03-h">
+  <h2 id="s03-h" tabindex="-1"><span class="sec-num">03</span>Endpoints, llamadas y formatos</h2>
+  <p class="lead-in">Para atacar o defender una API hay que leer con soltura una petición HTTP: la ruta, el método, las cabeceras, el cuerpo y el código de estado que vuelve.</p>
+
+  <div class="block prose">
+    <h3>Qué es un endpoint</h3>
+    <p>Un <strong>endpoint</strong> es una dirección concreta de la API que representa una operación sobre un recurso. Anatomía de una URL de endpoint:</p>
+  </div>
+  <figure class="code bleed-wide">
+    <figcaption class="code__bar"><span class="code__name">anatomía de una URL</span></figcaption>
+    <pre><code>https://api.tienda.com/v2/pedidos/42?incluye=lineas
+└──┬──┘   └──────┬─────┘ └┬┘ └──┬──┘ └┬┘ └─────┬──────┘
+esquema      host        ver. recurso id    parámetros
+                              (colección)         de consulta</code></pre>
+  </figure>
+  <div class="prose">
+    <ul>
+      <li><strong>Host</strong>: el servidor de la API. A menudo un subdominio <code>api.</code>.</li>
+      <li><strong>Versión</strong>: <code>/v1</code>, <code>/v2</code>. Permite cambiar la API sin romper a los clientes antiguos.</li>
+      <li><strong>Recurso y colección</strong>: <code>/pedidos</code> es la colección, <code>/pedidos/42</code> es un elemento.</li>
+      <li><strong>Identificador</strong>: el <code>42</code>. Si es un número correlativo y predecible, invita a probar el <code>43</code>. Aquí nace la vulnerabilidad API1.</li>
+      <li><strong>Parámetros de consulta</strong>: filtros, paginación, orden. También son entrada de usuario y hay que validarlos.</li>
+    </ul>
+
+    <h3>Llamadas: métodos HTTP</h3>
+  </div>
+  <div class="deftable bleed-wide">
+    <table>
+      <thead><tr><th>Método</th><th>Intención</th><th>Cambia datos</th></tr></thead>
+      <tbody>
+        <tr><td>GET</td><td>Leer un recurso o una lista.</td><td>No</td></tr>
+        <tr><td>POST</td><td>Crear un recurso o disparar una acción.</td><td>Sí</td></tr>
+        <tr><td>PUT</td><td>Reemplazar un recurso entero.</td><td>Sí</td></tr>
+        <tr><td>PATCH</td><td>Modificar algunos campos de un recurso.</td><td>Sí</td></tr>
+        <tr><td>DELETE</td><td>Borrar un recurso.</td><td>Sí</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>Un patrón de ataque clásico es <strong>cambiar el método</strong> sobre una ruta que sí puedes leer: si <code>GET /admin/usuarios</code> te responde, prueba <code>DELETE /admin/usuarios/5</code>. Si el control de acceso solo cubría el GET, tienes un problema. Esto es API5.</p>
+
+    <h3>Cabeceras</h3>
+    <p>Las cabeceras son metadatos de la petición y de la respuesta. Las que más importan en seguridad:</p>
+    <ul>
+      <li><code>Authorization</code>: lleva las credenciales. Casi siempre <code>Bearer &lt;token&gt;</code>.</li>
+      <li><code>Content-Type</code>: en qué formato va el cuerpo (<code>application/json</code>, <code>multipart/form-data</code>).</li>
+      <li><code>Accept</code>: en qué formato quiere el cliente la respuesta.</li>
+      <li><code>Cookie</code>: sesión, cuando la API usa cookies en vez de token.</li>
+      <li><code>X-Forwarded-For</code>, <code>User-Agent</code>, cabeceras <code>X-</code> a medida: útiles, pero nunca de fiar como control de seguridad.</li>
+    </ul>
+
+    <h3>Autenticación: cómo se prueba quién eres</h3>
+  </div>
+  <div class="deftable bleed-wide">
+    <table>
+      <thead><tr><th>Mecanismo</th><th>Cómo viaja</th><th>Notas</th></tr></thead>
+      <tbody>
+        <tr><td>Basic</td><td><code>Authorization: Basic base64(user:pass)</code></td><td>Base64 no es cifrado. Solo aceptable sobre HTTPS y a ser posible ni así.</td></tr>
+        <tr><td>API key</td><td>Cabecera o parámetro con una clave fija</td><td>Identifica a una aplicación o proyecto, no a un usuario. No sirve como autenticación de personas.</td></tr>
+        <tr><td>Bearer / JWT</td><td><code>Authorization: Bearer eyJ...</code></td><td>Token firmado con datos del usuario y una caducidad. Hay que validar firma y expiración en cada petición.</td></tr>
+        <tr><td>OAuth 2.0</td><td>Flujo que termina entregando un token de acceso</td><td>Es un marco de autorización delegada, no de autenticación por sí solo.</td></tr>
+        <tr><td>mTLS</td><td>Certificado de cliente en el propio TLS</td><td>Habitual entre servicios y en entornos B2B regulados.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <aside class="callout callout--warn" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Aviso</p>
+    <p>Autenticar (quién eres) no es autorizar (qué puedes hacer). La mayoría de fallos graves de APIs son de autorización: el token es válido, pero se usa para acceder a datos u operaciones que no corresponden a ese usuario.</p>
+  </aside>
+
+  <div class="prose">
+    <h3>Formatos de datos</h3>
+    <ul>
+      <li><strong>JSON</strong>: el formato por defecto de las APIs web. Legible y compacto.</li>
+      <li><strong>XML</strong>: en SOAP y sistemas heredados. Su parser mal configurado abre la puerta a ataques XXE.</li>
+      <li><strong>form-urlencoded</strong>: <code>campo=valor&amp;otro=valor</code>. Formularios web clásicos.</li>
+      <li><strong>multipart/form-data</strong>: subida de archivos. Cuidado con tamaño, tipo real y nombre del archivo.</li>
+      <li><strong>Protobuf</strong>: binario, en gRPC. Eficiente, no legible a simple vista.</li>
+    </ul>
+
+    <h3>Códigos de estado que hay que reconocer</h3>
+  </div>
+  <div class="deftable bleed-wide">
+    <table>
+      <thead><tr><th>Código</th><th>Significa</th><th>Lectura para seguridad</th></tr></thead>
+      <tbody>
+        <tr><td>200 / 201</td><td>Todo bien. Creado, en el 201.</td><td>Si una petición manipulada devuelve 200, mira qué te devolvió.</td></tr>
+        <tr><td>301 / 302</td><td>Redirección.</td><td>Redirecciones abiertas y saltos de HTTPS a HTTP.</td></tr>
+        <tr><td>400</td><td>Petición mal formada.</td><td>La validación de entrada rechazó algo. Bien.</td></tr>
+        <tr><td>401</td><td>No autenticado.</td><td>Falta credencial o es inválida.</td></tr>
+        <tr><td>403</td><td>Autenticado pero sin permiso.</td><td>El control de autorización funcionó.</td></tr>
+        <tr><td>404</td><td>No existe.</td><td>A veces se usa en vez de 403 para no revelar que el recurso existe.</td></tr>
+        <tr><td>429</td><td>Demasiadas peticiones.</td><td>Hay límite de tasa. Su ausencia es la vulnerabilidad API4.</td></tr>
+        <tr><td>500</td><td>Error del servidor.</td><td>Si trae traza de pila o detalles internos, es fuga de información (API7).</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<!-- ===================== SECCIÓN 4 ===================== -->
+<section class="section" id="s04" aria-labelledby="s04-h">
+  <h2 id="s04-h" tabindex="-1"><span class="sec-num">04</span>Superficie de ataque y principales peligros</h2>
+  <p class="lead-in">Una API publica de forma explícita lo que una web tradicional escondía entre páginas. Esa transparencia es cómoda para integrarse y cómoda para atacar.</p>
+
+  <div class="block prose">
+    <h3>Por qué las APIs son hoy el objetivo</h3>
+    <ul>
+      <li><strong>Exponen lógica y datos directamente.</strong> Detrás de <code>GET /clientes/42</code> hay datos personales sin la capa de presentación que los envolvía en una web.</li>
+      <li><strong>Están documentadas.</strong> La misma documentación que ayuda a un integrador legítimo ayuda a quien busca fallos.</li>
+      <li><strong>Son predecibles.</strong> Si existe <code>/v1/pedidos</code>, probablemente exista <code>/v1/facturas</code>. Si el id es <code>42</code>, existe el <code>41</code>.</li>
+      <li><strong>El cliente es inspeccionable.</strong> Herramientas de desarrollo del navegador, un proxy como Burp o mitmproxy, o descompilar la app: todo el "contrato" queda a la vista.</li>
+      <li><strong>Automatización trivial.</strong> Un bucle de veinte líneas recorre miles de identificadores en minutos.</li>
+    </ul>
+
+    <h3>Superficie de ataque de una API</h3>
+    <p>Todo lo que un cliente puede tocar es superficie:</p>
+    <ul>
+      <li>Cada endpoint y cada método sobre ese endpoint.</li>
+      <li>Cada parámetro: de ruta, de consulta, del cuerpo, y cada cabecera que el servidor lea.</li>
+      <li>Los flujos de autenticación: registro, inicio de sesión, recuperación de contraseña, refresco de token, cierre de sesión.</li>
+      <li>Versiones antiguas que siguen vivas y entornos de pruebas accesibles desde fuera.</li>
+      <li>Servicios de terceros integrados y los webhooks que llegan desde fuera.</li>
+      <li>Mensajes de error, cabeceras de respuesta y metadatos que se filtran sin querer.</li>
+    </ul>
+
+    <h3>Familias de peligro</h3>
+    <ul>
+      <li><strong>Autorización rota.</strong> El caso más común y más grave. Acceder a objetos o funciones de otros. Lo desarrolla API1 y API5.</li>
+      <li><strong>Autenticación débil.</strong> Fuerza bruta sin límite, tokens mal validados, recuperación de contraseña floja. API2.</li>
+      <li><strong>Exposición de datos.</strong> Devolver más de lo necesario y confiar en que el cliente filtre. API3.</li>
+      <li><strong>Consumo sin límites.</strong> Sin límite de tasa ni de tamaño, una API se cae o se usa para fuerza bruta. API4.</li>
+      <li><strong>Manipulación de objetos.</strong> Enviar campos que no deberías poder tocar. API6.</li>
+      <li><strong>Configuración descuidada.</strong> Cabeceras, CORS, TLS, errores verbosos, servicios por defecto. API7.</li>
+      <li><strong>Inyección.</strong> Datos del usuario que acaban en una consulta o un comando. API8.</li>
+      <li><strong>Inventario perdido.</strong> No saber cuántas APIs y versiones tienes desplegadas. API9.</li>
+      <li><strong>Ceguera.</strong> Sin registro ni alertas, el ataque pasa desapercibido durante meses. API10.</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>Un modelo de amenazas sencillo para cualquier endpoint: ¿qué recurso toca? ¿quién debería poder tocarlo? ¿qué pasa si cambio el id, el método, un campo del cuerpo o una cabecera? ¿queda registro de lo que hice?</p>
+  </aside>
+</section>
+
+<!-- ===================== SECCIÓN 5 ===================== -->
+<section class="section" id="s05" aria-labelledby="s05-h">
+  <h2 id="s05-h" tabindex="-1"><span class="sec-num">05</span>OWASP API Security Top 10: panorama</h2>
+  <p class="lead-in">OWASP es una comunidad abierta de seguridad de software. Su Top 10 de APIs, edición 2019, es la lista de referencia de los diez riesgos más críticos y específicos de las APIs.</p>
+
+  <div class="block prose">
+    <h3>Qué es y qué no es</h3>
+    <p>El OWASP API Security Top 10 no es un estándar de certificación ni una checklist exhaustiva. Es un consenso de la industria sobre <strong>dónde suele estar el fuego</strong> en las APIs, pensado para formar a quien desarrolla, diseña y opera. La edición de 2019 se construyó a partir de datos públicos de bug bounty y bases de vulnerabilidades, más la experiencia de profesionales de pruebas de intrusión.</p>
+    <p>Cada riesgo se puntúa con la metodología de riesgo de OWASP en cuatro ejes: <strong>explotabilidad</strong>, <strong>prevalencia</strong> de la debilidad, <strong>detectabilidad</strong> de la debilidad e <strong>impacto técnico</strong>, cada uno de 1 a 3. La probabilidad real y el impacto sobre tu negocio los pones tú.</p>
+  </div>
+
+  <div class="table-wrap bleed-wide">
+    <table class="owasp">
+      <caption>OWASP API Security Top 10, edición 2019</caption>
+      <thead><tr><th scope="col">Ref</th><th scope="col">Riesgo</th><th scope="col">Severidad</th><th scope="col">Resumen</th></tr></thead>
+      <tbody>
+        <tr><td data-label="Ref">API1:2019</td><td data-label="Riesgo"><a href="#api1">Autorización rota a nivel de objeto</a></td><td data-label="Severidad"><span class="badge badge--crit">Crítica</span></td><td data-label="Resumen">Cambiar el id de un objeto en la petición da acceso a datos de otros.</td></tr>
+        <tr><td data-label="Ref">API2:2019</td><td data-label="Riesgo"><a href="#api2">Autenticación de usuario rota</a></td><td data-label="Severidad"><span class="badge badge--crit">Crítica</span></td><td data-label="Resumen">Mecanismos de login, tokens o recuperación de contraseña mal implementados.</td></tr>
+        <tr><td data-label="Ref">API3:2019</td><td data-label="Riesgo"><a href="#api3">Exposición excesiva de datos</a></td><td data-label="Severidad"><span class="badge badge--high">Alta</span></td><td data-label="Resumen">La API devuelve objetos completos y confía en que el cliente oculte lo sensible.</td></tr>
+        <tr><td data-label="Ref">API4:2019</td><td data-label="Riesgo"><a href="#api4">Falta de recursos y de limitación de tasa</a></td><td data-label="Severidad"><span class="badge badge--med">Media</span></td><td data-label="Resumen">Sin topes de tamaño ni de frecuencia: denegación de servicio y fuerza bruta.</td></tr>
+        <tr><td data-label="Ref">API5:2019</td><td data-label="Riesgo"><a href="#api5">Autorización rota a nivel de función</a></td><td data-label="Severidad"><span class="badge badge--high">Alta</span></td><td data-label="Resumen">Un usuario normal llega a funciones administrativas cambiando ruta o método.</td></tr>
+        <tr><td data-label="Ref">API6:2019</td><td data-label="Riesgo"><a href="#api6">Asignación masiva</a></td><td data-label="Severidad"><span class="badge badge--med">Media</span></td><td data-label="Resumen">El cliente envía campos que el servidor vincula sin filtrar (por ejemplo, is_admin).</td></tr>
+        <tr><td data-label="Ref">API7:2019</td><td data-label="Riesgo"><a href="#api7">Configuración de seguridad incorrecta</a></td><td data-label="Severidad"><span class="badge badge--med">Media</span></td><td data-label="Resumen">Defaults inseguros, CORS permisivo, sin TLS, errores verbosos, parches ausentes.</td></tr>
+        <tr><td data-label="Ref">API8:2019</td><td data-label="Riesgo"><a href="#api8">Inyección</a></td><td data-label="Severidad"><span class="badge badge--high">Alta</span></td><td data-label="Resumen">Datos no confiables interpretados como consulta SQL, NoSQL, comando o LDAP.</td></tr>
+        <tr><td data-label="Ref">API9:2019</td><td data-label="Riesgo"><a href="#api9">Gestión inadecuada de activos</a></td><td data-label="Severidad"><span class="badge badge--med">Media</span></td><td data-label="Resumen">Versiones viejas y entornos de prueba olvidados, sin documentar ni retirar.</td></tr>
+        <tr><td data-label="Ref">API10:2019</td><td data-label="Riesgo"><a href="#api10">Registro y monitorización insuficientes</a></td><td data-label="Severidad"><span class="badge badge--info">Info</span></td><td data-label="Resumen">Sin registro útil ni alertas, el ataque se detecta tarde y desde fuera.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="prose">
+    <p>La edición 2023 reordenó y renombró algunos puntos (por ejemplo, fusiona la exposición de datos y la limitación en "consumo no restringido" y añade "SSRF" y "consumo no seguro de APIs de terceros"). Esta clase usa la edición 2019 porque su desglose es más didáctico para empezar. Los conceptos se trasladan casi uno a uno.</p>
+  </div>
+</section>
+<!-- ===================== SECCIÓN 6 ===================== -->
+<section class="section" id="s06" aria-labelledby="s06-h">
+  <h2 id="s06-h" tabindex="-1"><span class="sec-num">06</span>Recorrido por API1 a API10</h2>
+  <p class="lead-in">Una ficha por riesgo, con la misma estructura: qué es, un ejemplo con petición y respuesta reales, el impacto y cómo se previene.</p>
+
+  <!-- API1 -->
+  <article class="vuln" id="api1" aria-labelledby="api1-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API1:2019</p>
+      <h3 id="api1-h">Autorización rota a nivel de objeto</h3>
+      <span class="badge badge--crit">Crítica</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 3 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 2 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 3 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>También llamada <strong>BOLA</strong> o IDOR. La API usa un identificador que envía el cliente para decidir a qué objeto acceder, pero no comprueba que ese usuario tenga derecho sobre ese objeto concreto. Cambiar el id por el de otro devuelve sus datos.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/shops/</span><mark class="tok-attack">verdeluz</mark><span class="tok-path">/revenue_data.json</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.marketplace.com
+<span class="tok-header-name">Authorization:</span> Bearer <span class="tok-string">eyJhbGciOi...ok</span>
+<span class="tok-comment"># mi tienda es "lunablanca"; pruebo con la de otro comercio</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">200</span> OK
+<span class="tok-header-name">Content-Type:</span> application/json
+
+{
+  <span class="tok-string">"shop"</span>: <span class="tok-string">"verdeluz"</span>,
+  <span class="tok-string">"month"</span>: <span class="tok-string">"2026-08"</span>,
+  <span class="tok-string">"gross_revenue_eur"</span>: <span class="tok-number">184230.55</span>,
+  <span class="tok-string">"orders"</span>: <span class="tok-number">3120</span>
+}</code></pre>
+        </div>
+      </div>
+      <figcaption>El token es válido y pertenece a otra tienda, pero la API no comprueba que "lunablanca" pueda ver los ingresos de "verdeluz". Con la lista de nombres de comercios, un bucle descarga la facturación de todo el marketplace.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Lectura, modificación o borrado de datos de cualquier usuario. En el peor caso, toma de control de cuentas.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Comprobar la propiedad del objeto en cada endpoint que recibe un id, contra las políticas del usuario autenticado.</li>
+      <li>Preferir identificadores aleatorios (UUID) frente a correlativos. No es un control por sí solo, pero reduce el barrido.</li>
+      <li>Centralizar la comprobación en una capa que sea difícil de saltarse por olvido.</li>
+      <li>Escribir pruebas automáticas de autorización y no desplegar si fallan.</li>
+    </ul>
+  </article>
+
+  <!-- API2 -->
+  <article class="vuln" id="api2" aria-labelledby="api2-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API2:2019</p>
+      <h3 id="api2-h">Autenticación de usuario rota</h3>
+      <span class="badge badge--crit">Crítica</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 2 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 2 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 3 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>Fallos en el propio mecanismo de identidad: permite fuerza bruta sin límite ni bloqueo, acepta contraseñas débiles, no valida bien los tokens (firma, caducidad, <code>alg:none</code>), o trata "recuperar contraseña" con menos rigor que "iniciar sesión".</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">POST x1.000.000</span></p>
+          <pre><code><span class="tok-method">POST</span> <span class="tok-path">/api/system/verification-codes/</span><mark class="tok-attack">493118</mark> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.bancoluz.com
+<span class="tok-header-name">Content-Type:</span> application/json
+
+{<span class="tok-string">"username"</span>: <span class="tok-string">"victima@correo.com"</span>}
+<span class="tok-comment"># script multihilo probando los 10^6 códigos de 6 dígitos</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">200</span> OK
+
+{
+  <span class="tok-string">"status"</span>: <span class="tok-string">"verified"</span>,
+  <span class="tok-string">"password_reset_token"</span>: <span class="tok-string">"a1f9c0..."</span>
+}
+<span class="tok-comment"># sin 429, sin captcha, sin bloqueo de cuenta</span></code></pre>
+        </div>
+      </div>
+      <figcaption>El código SMS de 6 dígitos se puede adivinar en minutos porque el endpoint no limita intentos. Con el token de reseteo, quien ataca cambia la contraseña de la víctima.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Toma de control de cuentas, lectura de datos personales y acciones sensibles en nombre de la víctima.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Límite de tasa estricto y bloqueo o captcha en login y en recuperación de contraseña.</li>
+      <li>Usar librerías y estándares probados para tokens y almacenamiento de contraseñas. No reinventar.</li>
+      <li>Validar firma y expiración de cada JWT. Rechazar <code>alg:none</code> y algoritmos no esperados.</li>
+      <li>Autenticación multifactor donde sea posible. Las API keys identifican apps, no personas.</li>
+    </ul>
+  </article>
+
+  <!-- API3 -->
+  <article class="vuln" id="api3" aria-labelledby="api3-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API3:2019</p>
+      <h3 id="api3-h">Exposición excesiva de datos</h3>
+      <span class="badge badge--high">Alta</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 2 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 2 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>La API serializa el objeto entero de la base de datos y lo envía, confiando en que la pantalla del cliente muestre solo lo que toca. Quien mira el tráfico ve todo lo demás.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/articles/55/comments/9</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.revista.com
+<span class="tok-comment"># la app solo pinta el texto y el alias del autor</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>{
+  <span class="tok-string">"id"</span>: <span class="tok-number">9</span>,
+  <span class="tok-string">"text"</span>: <span class="tok-string">"Buen artículo"</span>,
+  <span class="tok-string">"author"</span>: {
+    <span class="tok-string">"alias"</span>: <span class="tok-string">"marina_g"</span>,
+    <mark class="tok-attack"><span class="tok-string">"email"</span>: <span class="tok-string">"marina.garcia@gmail.com"</span>,
+    <span class="tok-string">"phone"</span>: <span class="tok-string">"+34 600 112 233"</span>,
+    <span class="tok-string">"role"</span>: <span class="tok-string">"editor"</span></mark>
+  }
+}</code></pre>
+        </div>
+      </div>
+      <figcaption>El endpoint usa un serializador genérico del modelo Usuario. El cliente descarta email y teléfono, pero viajan en cada respuesta y quedan a la vista en el proxy.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Fuga de datos personales y de información interna útil para encadenar otros ataques.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Nunca confiar en el cliente para filtrar. Devolver solo los campos necesarios, elegidos a mano.</li>
+      <li>Evitar <code>to_json()</code> genérico sobre el modelo. Definir respuestas explícitas por endpoint.</li>
+      <li>Validar la respuesta contra un esquema, errores incluidos.</li>
+      <li>Clasificar los datos personales y revisar qué endpoints los devuelven.</li>
+    </ul>
+  </article>
+
+  <!-- API4 -->
+  <article class="vuln" id="api4" aria-labelledby="api4-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API4:2019</p>
+      <h3 id="api4-h">Falta de recursos y de limitación de tasa</h3>
+      <span class="badge badge--med">Media</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 2 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 3 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 3 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>La API no pone topes: ni de frecuencia de peticiones, ni de tamaño del cuerpo, ni de número de registros por página, ni de memoria o tiempo por operación. Un cliente puede tumbarla o abusar de operaciones caras.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/users?page=1&amp;size=</span><mark class="tok-attack">200000</mark> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.panel.com
+<span class="tok-comment"># la UI usa size=200 como máximo; nadie valida el tope en servidor</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">500</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">500</span> Internal Server Error
+<span class="tok-comment"># la consulta satura la base de datos</span>
+<span class="tok-comment"># la API deja de responder al resto de clientes</span></code></pre>
+        </div>
+      </div>
+      <figcaption>El mismo patrón vale para subir una imagen enorme que dispara mil miniaturas, o para lanzar miles de peticiones concurrentes desde la nube.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Denegación de servicio y coste. También habilita la fuerza bruta de otros endpoints.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Límite de peticiones por cliente y por ventana de tiempo, y respuesta <code>429</code> con cabeceras de reintento.</li>
+      <li>Validar en servidor el tamaño de <code>size</code>, del cuerpo, de arrays y de cadenas.</li>
+      <li>Topes de memoria, CPU, procesos y tiempo por operación (contenedores ayudan).</li>
+      <li>Paginación con máximo fijo, no confiable al parámetro del cliente.</li>
+    </ul>
+  </article>
+
+  <!-- API5 -->
+  <article class="vuln" id="api5" aria-labelledby="api5-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API5:2019</p>
+      <h3 id="api5-h">Autorización rota a nivel de función</h3>
+      <span class="badge badge--high">Alta</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 2 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 1 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>La diferencia con API1 es el objeto: aquí lo que no se comprueba es el acceso a una <strong>función</strong> completa, normalmente administrativa. Un usuario normal la alcanza cambiando la ruta (<code>/users</code> por <code>/admins</code>) o el método (<code>GET</code> por <code>POST</code> o <code>DELETE</code>).</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">POST</span></p>
+          <pre><code><mark class="tok-attack"><span class="tok-method">POST</span> <span class="tok-path">/api/invites/new</span></mark> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.appcerrada.com
+<span class="tok-header-name">Authorization:</span> Bearer <span class="tok-string">&lt;token de usuario normal&gt;</span>
+<span class="tok-header-name">Content-Type:</span> application/json
+
+{<span class="tok-string">"email"</span>: <span class="tok-string">"yo@atacante.com"</span>, <span class="tok-string">"role"</span>: <span class="tok-string">"admin"</span>}</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">201</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">201</span> Created
+
+{
+  <span class="tok-string">"invite_id"</span>: <span class="tok-string">"9b2..."</span>,
+  <span class="tok-string">"email"</span>: <span class="tok-string">"yo@atacante.com"</span>,
+  <span class="tok-string">"role"</span>: <span class="tok-string">"admin"</span>
+}</code></pre>
+        </div>
+      </div>
+      <figcaption>El endpoint de crear invitaciones solo se usaba desde la consola de administración, así que nadie le puso comprobación de rol. Un usuario normal se autoinvita como administrador.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Acceso a funcionalidad no autorizada. Las funciones administrativas son el objetivo preferido.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Denegar por defecto. Cada función exige un permiso explícito para un rol concreto.</li>
+      <li>Que los controladores administrativos hereden de una base que aplica la comprobación de rol.</li>
+      <li>No asumir que una ruta es "de admin" por su path. Revisar endpoint por endpoint.</li>
+    </ul>
+  </article>
+
+  <!-- API6 -->
+  <article class="vuln" id="api6" aria-labelledby="api6-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API6:2019</p>
+      <h3 id="api6-h">Asignación masiva</h3>
+      <span class="badge badge--med">Media</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 2 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 2 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 2 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>El framework vincula automáticamente todo el JSON entrante a los campos del objeto. Si el cliente añade una propiedad interna que el desarrollador no pensaba exponer (<code>is_admin</code>, <code>credit_balance</code>, <code>verified</code>), se guarda igual.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">PUT</span></p>
+          <pre><code><span class="tok-method">PUT</span> <span class="tok-path">/api/v1/users/me</span> HTTP/1.1
+<span class="tok-header-name">Content-Type:</span> application/json
+
+{
+  <span class="tok-string">"user_name"</span>: <span class="tok-string">"ana"</span>,
+  <span class="tok-string">"age"</span>: <span class="tok-number">30</span>,
+  <mark class="tok-attack"><span class="tok-string">"credit_balance"</span>: <span class="tok-number">99999</span></mark>
+}</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>{
+  <span class="tok-string">"user_name"</span>: <span class="tok-string">"ana"</span>,
+  <span class="tok-string">"age"</span>: <span class="tok-number">30</span>,
+  <span class="tok-string">"credit_balance"</span>: <span class="tok-number">99999</span>
+}
+<span class="tok-comment"># saldo actualizado sin ningún pago</span></code></pre>
+        </div>
+      </div>
+      <figcaption>El campo <code>credit_balance</code> se vio en la respuesta de un <code>GET</code> anterior. Bastó con reenviarlo en el <code>PUT</code>. La API lo aceptó porque hace binding automático de todo el cuerpo.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Escalada de privilegios, manipulación de datos y elusión de controles de negocio.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Lista blanca de campos que el cliente puede modificar. Nada fuera de ella se vincula.</li>
+      <li>Usar objetos de transferencia (DTO) por endpoint en vez del modelo de base de datos.</li>
+      <li>Definir y validar el esquema de entrada de forma explícita.</li>
+    </ul>
+  </article>
+
+  <!-- API7 -->
+  <article class="vuln" id="api7" aria-labelledby="api7-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API7:2019</p>
+      <h3 id="api7-h">Configuración de seguridad incorrecta</h3>
+      <span class="badge badge--med">Media</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 3 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 3 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>Cualquier ajuste inseguro en la pila: TLS ausente, CORS que acepta cualquier origen, cabeceras de seguridad que no se envían, métodos HTTP de más, servicios con credenciales por defecto, parches sin aplicar y, muy a menudo, <strong>errores verbosos</strong> que devuelven trazas de pila.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/v1/orders/</span><mark class="tok-attack">'</mark> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.tienda.com
+<span class="tok-comment"># un id inválido para forzar un error</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">500</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">500</span> Internal Server Error
+<span class="tok-header-name">Access-Control-Allow-Origin:</span> *
+
+<span class="tok-string">"QueryException: near \"'\": syntax error"</span>
+<span class="tok-string">"at Database\\Connection.php:412"</span>
+<mark class="tok-attack"><span class="tok-string">"DSN: pgsql://app:S3cr3t@db-prod.internal:5432/shop"</span></mark></code></pre>
+        </div>
+      </div>
+      <figcaption>El error sin controlar revela el motor de base de datos, rutas internas y una cadena de conexión con credenciales. La cabecera CORS con comodín permite además que cualquier web lea respuestas autenticadas.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Desde fuga de detalles internos hasta compromiso total del servidor.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Proceso de endurecimiento repetible y revisión de configuración en toda la pila, nube incluida.</li>
+      <li>Respuestas de error con esquema fijo, sin trazas ni datos internos.</li>
+      <li>Solo los métodos HTTP necesarios. CORS con lista de orígenes concreta.</li>
+      <li>TLS en todo. Cabeceras de seguridad. Parches al día. Comprobación automática y continua.</li>
+    </ul>
+  </article>
+
+  <!-- API8 -->
+  <article class="vuln" id="api8" aria-labelledby="api8-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API8:2019</p>
+      <h3 id="api8-h">Inyección</h3>
+      <span class="badge badge--high">Alta</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 2 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 3 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 3 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>Datos del cliente que llegan sin sanear a un intérprete: SQL, NoSQL, comando de sistema, LDAP, parser de XML. El intérprete ejecuta lo que no debía.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">DELETE</span></p>
+          <pre><code><span class="tok-method">DELETE</span> <span class="tok-path">/api/bookings?bookingId</span><mark class="tok-attack">[$ne]</mark><span class="tok-path">=678</span> HTTP/1.1
+<span class="tok-header-name">Host:</span> api.reservas.com
+<span class="tok-comment"># el backend hace findOneAndRemove({_id: req.query.bookingId})</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">200</span> OK
+
+{<span class="tok-string">"deleted"</span>: <span class="tok-number">1</span>}
+<span class="tok-comment"># _id distinto de 678: borra la reserva de otro usuario</span></code></pre>
+        </div>
+      </div>
+      <figcaption>El parámetro llega como objeto <code>{"$ne": "678"}</code> en vez de como cadena. La consulta NoSQL pasa de "borra la 678" a "borra la primera cuyo id no sea 678".</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Lectura y borrado de datos, denegación de servicio y, con inyección de comandos, control del host.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Separar datos de comandos: consultas parametrizadas, nunca concatenación.</li>
+      <li>Validar tipo y forma de cada parámetro. Un id es una cadena, no un objeto.</li>
+      <li>Una librería de validación única y mantenida. Escapar según el intérprete de destino.</li>
+      <li>Limitar el número de registros afectados y devueltos.</li>
+    </ul>
+  </article>
+
+  <!-- API9 -->
+  <article class="vuln" id="api9" aria-labelledby="api9-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API9:2019</p>
+      <h3 id="api9-h">Gestión inadecuada de activos</h3>
+      <span class="badge badge--med">Media</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 3 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 3 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 2 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>No saber qué APIs, versiones y entornos tienes expuestos. Versiones antiguas sin parchear, hosts de pruebas accesibles desde internet, documentación desfasada y sin plan de retirada.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> https://api.servicio.com/<mark class="tok-attack">v1</mark>/users?limit=100 HTTP/1.1
+<span class="tok-comment"># la app usa /v2, que exige token y filtra campos</span>
+<span class="tok-comment"># /v1 sigue en pie desde el rediseño de 2022</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>HTTP/1.1 <span class="tok-number">200</span> OK
+
+[
+  {<span class="tok-string">"id"</span>:<span class="tok-number">1</span>,<span class="tok-string">"email"</span>:<span class="tok-string">"..."</span>,<span class="tok-string">"nif"</span>:<span class="tok-string">"..."</span>},
+  ... <span class="tok-number">100</span> registros sin autenticación
+]</code></pre>
+        </div>
+      </div>
+      <figcaption>La versión vieja comparte base de datos con la nueva pero no heredó sus controles. Cambiar <code>v2</code> por <code>v1</code> en la URL evita autenticación y filtrado.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>Acceso a datos sensibles y, a veces, al servidor, a través de la puerta que nadie vigila.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Inventario de todos los hosts de API con entorno, acceso de red y versión.</li>
+      <li>Inventario de servicios integrados y del flujo de datos.</li>
+      <li>Documentación generada de forma automática y publicada solo a quien corresponde.</li>
+      <li>Plan de retirada por versión. No usar datos de producción fuera de producción.</li>
+    </ul>
+  </article>
+
+  <!-- API10 -->
+  <article class="vuln" id="api10" aria-labelledby="api10-h">
+    <header class="vuln__head">
+      <p class="eyebrow">API10:2019</p>
+      <h3 id="api10-h">Registro y monitorización insuficientes</h3>
+      <span class="badge badge--info">Info</span>
+    </header>
+    <div class="vuln__metrics">
+      <div class="metric" role="img" aria-label="Explotabilidad 2 de 3"><span class="metric__label">Explotabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Prevalencia 3 de 3"><span class="metric__label">Prevalencia</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg on"></span></span></div>
+      <div class="metric" role="img" aria-label="Detectabilidad 1 de 3"><span class="metric__label">Detectabilidad</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg"></span><span class="metric__seg"></span></span></div>
+      <div class="metric" role="img" aria-label="Impacto técnico 2 de 3"><span class="metric__label">Impacto técnico</span><span class="metric__bar"><span class="metric__seg on"></span><span class="metric__seg on"></span><span class="metric__seg"></span></span></div>
+    </div>
+    <h4>Qué es</h4>
+    <p>La API no registra lo que importa, o lo registra sin detalle, o nadie mira esos registros. Sin alertas, un ataque puede durar meses. Los estudios de brechas hablan de más de 200 días de media para detectarlas, y casi siempre lo avisa alguien de fuera.</p>
+    <h4>Ejemplo</h4>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Actividad <span class="exchange__meta">6 horas</span></p>
+          <pre><code><span class="tok-method">POST</span> <span class="tok-path">/api/login</span>  x <span class="tok-number">120000</span>  <span class="tok-comment"># credential stuffing</span>
+respuestas: <span class="tok-number">401</span> x 119940 · <span class="tok-number">200</span> x 60
+origen: <span class="tok-number">3000</span> IPs distintas</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Log de la API</p>
+          <pre><code><span class="tok-string">2026-08-14 03:11:07 POST /api/login 401</span>
+<mark class="tok-attack"><span class="tok-comment"># sin IP de origen, sin user-agent, sin usuario</span></mark>
+<span class="tok-comment"># ninguna alerta durante el ataque</span>
+<span class="tok-comment"># se detectó por quejas de usuarios 9 días después</span></code></pre>
+        </div>
+      </div>
+      <figcaption>Los intentos fallidos sí se escribían, pero sin los datos que permitirían reconocer el patrón, y nadie vigilaba el volumen.</figcaption>
+    </figure>
+    <h4>Impacto</h4>
+    <p>El atacante tiene todo el tiempo del mundo para pivotar, mantener persistencia y exfiltrar.</p>
+    <h4>Prevención</h4>
+    <ul>
+      <li>Registrar autenticaciones fallidas, accesos denegados y errores de validación, con detalle suficiente para identificar al actor.</li>
+      <li>Formato apto para un gestor de logs. Tratar los logs como datos sensibles y garantizar su integridad.</li>
+      <li>Monitorización continua de infraestructura y de la API. Un SIEM que agregue todo.</li>
+      <li>Cuadros de mando y alertas para detectar y responder pronto.</li>
+    </ul>
+  </article>
+</section>
+<!-- ===================== SECCIÓN 7 ===================== -->
+<section class="section" id="s07" aria-labelledby="s07-h">
+  <h2 id="s07-h" tabindex="-1"><span class="sec-num">07</span>Ataques en la práctica</h2>
+  <p class="lead-in">Los fallos reales rara vez vienen solos. Estos tres recorridos encadenan varias debilidades hasta un impacto concreto, con la respuesta de la aplicación en cada paso.</p>
+
+  <div class="block prose">
+    <h3>Cómo leer la respuesta de una aplicación</h3>
+    <ul>
+      <li><strong>Código de estado.</strong> ¿200 donde esperabas 403? Mira el cuerpo antes de descartar.</li>
+      <li><strong>Tamaño y forma.</strong> Una respuesta más larga de lo normal suele traer campos de más.</li>
+      <li><strong>Diferencias.</strong> Compara la respuesta legítima con la manipulada. Lo que cambia es la pista.</li>
+      <li><strong>Cabeceras.</strong> <code>Access-Control-Allow-Origin</code>, <code>Set-Cookie</code>, ausencia de <code>X-RateLimit</code>.</li>
+      <li><strong>Tiempos.</strong> Una ruta que tarda de más puede estar ejecutando algo caro o una inyección ciega.</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Recorrido 1 · Marketplace de comercios</p>
+    <h3>De un id predecible a la facturación de toda la plataforma</h3>
+    <p class="prose">Combina <a href="#api3">API3</a> (la respuesta trae el id interno de la tienda), <a href="#api1">API1</a> (no se comprueba la propiedad) y <a href="#api4">API4</a> (no hay límite de tasa para el barrido).</p>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Paso 1 · listar tiendas <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/shops?page=1&amp;size=100</span>
+
+<span class="tok-comment"># respuesta</span>
+[{<span class="tok-string">"slug"</span>:<span class="tok-string">"verdeluz"</span>}, {<span class="tok-string">"slug"</span>:<span class="tok-string">"donpan"</span>}, ...]</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Paso 2 · barrer ingresos <span class="exchange__meta">GET x N</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/shops/</span><mark class="tok-attack">donpan</mark><span class="tok-path">/revenue?month=2026-08</span>
+
+<span class="tok-comment"># respuesta 200 para cada slug, sin 429</span>
+{<span class="tok-string">"gross_eur"</span>: <span class="tok-number">57110.0</span>, <span class="tok-string">"orders"</span>: <span class="tok-number">910</span>}</code></pre>
+        </div>
+      </div>
+      <figcaption>Resultado: un CSV con la facturación mensual de los 14.000 comercios del marketplace, obtenido en once minutos desde una sola máquina.</figcaption>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Recorrido 2 · App de finanzas personales</p>
+    <h3>De invitado a administrador</h3>
+    <p class="prose">Combina <a href="#api3">API3</a> (la invitación devuelve el rol) y <a href="#api5">API5</a> (crear invitaciones no comprueba rol).</p>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Paso 1 · leer una invitación <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/invites/8c1e-... </span>
+
+<span class="tok-comment"># respuesta</span>
+{<span class="tok-string">"email"</span>:<span class="tok-string">"..."</span>, <mark class="tok-attack"><span class="tok-string">"role"</span>:<span class="tok-string">"member"</span></mark>, <span class="tok-string">"status"</span>:<span class="tok-string">"pending"</span>}</code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Paso 2 · crear una nueva <span class="exchange__meta">POST</span></p>
+          <pre><code><span class="tok-method">POST</span> <span class="tok-path">/api/invites/new</span>
+{<span class="tok-string">"email"</span>:<span class="tok-string">"yo@atacante.com"</span>, <mark class="tok-attack"><span class="tok-string">"role"</span>:<span class="tok-string">"admin"</span></mark>}
+
+<span class="tok-comment"># respuesta</span>
+<span class="tok-number">201</span> Created
+</code></pre>
+        </div>
+      </div>
+      <figcaption>La app nunca muestra el campo <code>role</code> en su interfaz. Se descubrió leyendo la respuesta del paso 1 y se reutilizó en el paso 2.</figcaption>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Recorrido 3 · Cámaras de videovigilancia</p>
+    <h3>Un vigilante con acceso a todo el recinto</h3>
+    <p class="prose">Combina <a href="#api3">API3</a> (la respuesta trae cámaras fuera de su ámbito) y <a href="#api1">API1</a> (el token de acceso en vivo no se valida contra el usuario).</p>
+    <figure class="exchange">
+      <div class="exchange__grid">
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg> Petición <span class="exchange__meta">GET</span></p>
+          <pre><code><span class="tok-method">GET</span> <span class="tok-path">/api/sites/111/cameras</span>
+<span class="tok-header-name">Authorization:</span> Bearer <span class="tok-string">&lt;token del vigilante&gt;</span></code></pre>
+        </div>
+        <div class="exchange__panel">
+          <p class="exchange__head"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="7" y1="7" x2="17" y2="17"/><polyline points="17 7 17 17 7 17"/></svg> Respuesta <span class="exchange__meta">200 OK</span></p>
+          <pre><code>[
+  {<span class="tok-string">"id"</span>:<span class="tok-string">"cam-lobby-a"</span>, <span class="tok-string">"building"</span>:<span class="tok-string">"A"</span>,
+   <mark class="tok-attack"><span class="tok-string">"live_token"</span>:<span class="tok-string">"lt_9f2c..."</span></mark>},
+  {<span class="tok-string">"id"</span>:<span class="tok-string">"cam-vault-d"</span>, <span class="tok-string">"building"</span>:<span class="tok-string">"D"</span>,
+   <span class="tok-string">"live_token"</span>:<span class="tok-string">"lt_71aa..."</span>}
+]
+<span class="tok-comment"># el vigilante solo tiene asignado el edificio A</span></code></pre>
+        </div>
+      </div>
+      <figcaption>La interfaz muestra solo el edificio A, pero la respuesta lista todas las cámaras del recinto con sus tokens de vídeo en vivo. Con ese token, <code>GET /stream?token=lt_71aa...</code> devuelve la cámara de la sala D.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== SECCIÓN 8 ===================== -->
+<section class="section" id="s08" aria-labelledby="s08-h">
+  <h2 id="s08-h" tabindex="-1"><span class="sec-num">08</span>Defensa en profundidad</h2>
+  <p class="lead-in">Ningún control basta solo. La idea es apilar capas de forma que, si una falla, la siguiente contenga el daño.</p>
+
+  <div class="block prose">
+    <h3>Las capas, de fuera adentro</h3>
+    <ul>
+      <li><strong>Borde.</strong> TLS obligatorio, pasarela de API, límite de tasa, WAF o firewall de API para todas las versiones, no solo la actual.</li>
+      <li><strong>Autenticación.</strong> Estándares probados, MFA, tokens de vida corta con refresco, validación de firma y expiración en cada petición.</li>
+      <li><strong>Autorización.</strong> Denegar por defecto. Comprobar propiedad de objeto (API1) y permiso de función (API5) en cada endpoint, en una capa central.</li>
+      <li><strong>Validación de entrada.</strong> Esquema por endpoint y por variante. Tipos estrictos. Consultas parametrizadas (API8). Lista blanca de campos (API6).</li>
+      <li><strong>Salida.</strong> DTO explícitos. Nunca serializar el modelo entero (API3). Validar también la respuesta.</li>
+      <li><strong>Observabilidad.</strong> Registro con detalle, monitorización y alertas (API10). Inventario y retirada de versiones (API9).</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Autorización a nivel de objeto</p>
+    <h3>API1: comprobar la propiedad, no solo la sesión</h3>
+    <figure class="code code--insecure">
+      <figcaption class="code__bar">
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Inseguro</span>
+        <button class="code__copy" type="button" aria-label="Copiar el código"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copiar</span></button>
+      </figcaption>
+      <pre><code>app.get('/api/orders/:id', auth, async (req, res) =&gt; {
+  // solo comprueba que hay sesión, no de quién es el pedido
+  const order = await Order.findById(req.params.id);
+  res.json(order);
+});</code></pre>
+    </figure>
+    <figure class="code code--secure">
+      <figcaption class="code__bar">
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> Mitigado</span>
+        <button class="code__copy" type="button" aria-label="Copiar el código"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copiar</span></button>
+      </figcaption>
+      <pre><code>app.get('/api/orders/:id', auth, async (req, res) =&gt; {
+  const order = await Order.findById(req.params.id);
+  if (!order) return res.sendStatus(404);
+  // la propiedad se comprueba de forma explícita
+  if (!can(req.user, 'read', order)) return res.sendStatus(403);
+  res.json(toOrderDTO(order));
+});</code></pre>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Asignación masiva</p>
+    <h3>API6: vincular solo lo permitido</h3>
+    <figure class="code code--insecure">
+      <figcaption class="code__bar">
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Inseguro</span>
+        <button class="code__copy" type="button" aria-label="Copiar el código"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copiar</span></button>
+      </figcaption>
+      <pre><code>@app.put("/api/v1/users/me")
+def update_me():
+    data = request.get_json()
+    # vincula todo el cuerpo: age, name... y credit_balance, is_admin
+    current_user.update(**data)
+    return current_user.to_json()</code></pre>
+    </figure>
+    <figure class="code code--secure">
+      <figcaption class="code__bar">
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> Mitigado</span>
+        <button class="code__copy" type="button" aria-label="Copiar el código"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copiar</span></button>
+      </figcaption>
+      <pre><code>ALLOWED = {"user_name", "age", "avatar_url"}
+
+@app.put("/api/v1/users/me")
+def update_me():
+    data = request.get_json()
+    patch = {k: v for k, v in data.items() if k in ALLOWED}
+    current_user.update(**patch)
+    return UserSelfDTO(current_user).dict()</code></pre>
+    </figure>
+  </div>
+
+  <div class="block">
+    <p class="subhead">Límite de tasa y de tamaño</p>
+    <h3>API4: topes en el servidor, no en la interfaz</h3>
+    <figure class="code code--secure">
+      <figcaption class="code__bar">
+        <span class="code__tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> Mitigado</span>
+        <button class="code__copy" type="button" aria-label="Copiar el código"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copiar</span></button>
+      </figcaption>
+      <pre><code>// límite global por IP y por token
+app.use(rateLimit({ windowMs: 60_000, max: 120 }));
+// límite estricto solo en autenticación
+app.use('/api/login', rateLimit({ windowMs: 600_000, max: 10 }));
+// cuerpo máximo
+app.use(express.json({ limit: '100kb' }));
+
+// paginación con tope fijo, ignora tamaños absurdos del cliente
+const size = Math.min(parseInt(req.query.size) || 20, 100);</code></pre>
+    </figure>
+  </div>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>El hilo común de casi todas las mitigaciones: <strong>la decisión de seguridad se toma en el servidor</strong>, con lo que el usuario realmente es, no con lo que la app dice que es ni con lo que el cliente envía.</p>
+  </aside>
+</section>
+<!-- ===================== SECCIÓN 9 ===================== -->
+<section class="section" id="s09" aria-labelledby="s09-h">
+  <h2 id="s09-h" tabindex="-1"><span class="sec-num">09</span>Pruebas de seguridad de APIs</h2>
+  <p class="lead-in">Probar una API es, sobre todo, interceptar tráfico legítimo y repetirlo cambiando una cosa cada vez. El resto es método y paciencia.</p>
+
+  <div class="block prose">
+    <h3>Método en cinco pasos</h3>
+    <ol>
+      <li><strong>Descubrir.</strong> Reúne endpoints: documentación, Swagger u OpenAPI, tráfico de la app, JavaScript del frontend, el binario descompilado, versiones antiguas (<code>v1</code>, <code>beta.</code>, <code>staging.</code>).</li>
+      <li><strong>Mapear roles.</strong> Consigue al menos dos cuentas de usuario normal y una de administrador. Anota qué puede hacer cada una.</li>
+      <li><strong>Interceptar.</strong> Pon un proxy entre el cliente y la API y captura peticiones reales para tenerlas como base.</li>
+      <li><strong>Manipular una variable.</strong> Cambia el id (API1), el método (API5), un campo del cuerpo (API6), un parámetro de tamaño (API4), el tipo de un valor (API8), la versión de la ruta (API9). Repite con el token de otra cuenta o sin token.</li>
+      <li><strong>Comparar.</strong> Diferencia entre la respuesta legítima y la manipulada. Documenta con petición, respuesta e impacto.</li>
+    </ol>
+
+    <h3>Herramientas habituales</h3>
+  </div>
+  <div class="deftable bleed-wide">
+    <table>
+      <thead><tr><th>Herramienta</th><th>Para qué</th></tr></thead>
+      <tbody>
+        <tr><td>Burp Suite / OWASP ZAP</td><td>Proxy de interceptación, repetición de peticiones, fuzzing, comparador de respuestas.</td></tr>
+        <tr><td>Postman / Hoppscotch / Insomnia</td><td>Construir y organizar colecciones de peticiones, probar flujos con distintas cuentas.</td></tr>
+        <tr><td>mitmproxy</td><td>Interceptar tráfico de apps móviles y de scripts desde consola.</td></tr>
+        <tr><td>ffuf / feroxbuster</td><td>Descubrir endpoints y parámetros ocultos por fuerza bruta de diccionario.</td></tr>
+        <tr><td>Nuclei</td><td>Plantillas para detectar configuraciones incorrectas y exposiciones conocidas (API7, API9).</td></tr>
+        <tr><td>jwt_tool</td><td>Analizar y manipular JWT: <code>alg:none</code>, firma débil, caducidad (API2).</td></tr>
+        <tr><td>Escáneres OpenAPI (Schemathesis, APIsec)</td><td>Generar casos de prueba a partir del contrato de la API.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="prose">
+    <h3>Laboratorios para practicar sin meterte en un lío</h3>
+    <ul>
+      <li><strong>crAPI</strong> (OWASP): API deliberadamente vulnerable centrada en el Top 10 de APIs.</li>
+      <li><strong>vAPI</strong>: colección de retos, uno por cada punto del Top 10, con Postman incluido.</li>
+      <li><strong>OWASP Pixi</strong> (DevSlop): app web y API vulnerables para practicar interceptación.</li>
+      <li><strong>Juice Shop</strong> (OWASP): aplicación moderna con una API con muchos fallos encadenables.</li>
+      <li><strong>PortSwigger Web Security Academy</strong>: laboratorios guiados y gratuitos, varios de ellos de API.</li>
+    </ul>
+  </div>
+
+  <aside class="callout callout--danger" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Peligro</p>
+    <p>Probar una API que no es tuya y sin permiso por escrito es un delito. Todo lo de esta clase se practica en tus propios laboratorios o dentro de un contrato de pruebas de intrusión o un programa de bug bounty con alcance claro.</p>
+  </aside>
+
+  <div class="prose">
+    <h3>Checklist rápida por endpoint</h3>
+    <ul>
+      <li>¿Responde sin token? ¿Con el token de otra cuenta?</li>
+      <li>¿Qué pasa si cambio el id por uno que no es mío?</li>
+      <li>¿Acepta otros métodos HTTP de los previstos?</li>
+      <li>¿Puedo añadir campos al cuerpo y que los guarde?</li>
+      <li>¿Hay tope de tamaño, de página y de frecuencia?</li>
+      <li>¿La respuesta trae campos que la interfaz no muestra?</li>
+      <li>¿El error revela versiones, rutas o credenciales?</li>
+      <li>¿Existe una versión anterior de esta ruta sin los mismos controles?</li>
+      <li>¿Queda registro de lo que acabo de hacer?</li>
+    </ul>
+  </div>
+</section>
+<!-- ===================== SECCIÓN 10 ===================== -->
+<section class="section" id="s10" aria-labelledby="s10-h">
+  <h2 id="s10-h" tabindex="-1"><span class="sec-num">10</span>Ejercicios por tipo de aplicación</h2>
+  <p class="lead-in">Dieciséis ejercicios agrupados por sector. Cada uno describe un endpoint y una respuesta; el objetivo es identificar el fallo del Top 10, explotarlo sobre el papel y proponer la mitigación. Pistas y solución van plegadas.</p>
+
+  <div class="block prose">
+    <p>Formato sugerido en clase: se plantea el enunciado, cinco minutos en parejas, se abren las pistas si hace falta y se comenta la solución en común. La columna de dificultad orienta el orden.</p>
+  </div>
+
+  <!-- ====== E-COMMERCE ====== -->
+  <h3>Comercio electrónico</h3>
+  <p class="prose">Contexto: <em>TiendaLuz</em>, marketplace con web y app. API troncal en <code>api.tiendaluz.com/v2</code>. Cuentas de comprador y de vendedor.</p>
+
+  <section class="exercise" id="ej1" aria-labelledby="ej1-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej1-h">Ejercicio 1</p>
+      <span class="badge badge--low">Básico</span>
+      <span class="tag">E-commerce</span>
+    </header>
+    <p>La app descarga la factura de un pedido con <code>GET /api/v2/orders/48213/invoice</code>. La respuesta es un JSON con importe, nombre, dirección y NIF del comprador. Los identificadores de pedido son correlativos. ¿Qué riesgo del Top 10 es y cómo lo demuestras?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej1-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej1-hints" data-open="false"><div class="inner"><ol>
+        <li>¿La API comprueba de quién es el pedido, o solo que hay sesión?</li>
+        <li>Prueba <code>48212</code> y <code>48214</code> con tu propio token.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej1-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej1-sol" data-open="false"><div class="inner">
+        <p><strong>API1, autorización rota a nivel de objeto.</strong> Con un bucle sobre el rango de identificadores se descargan las facturas de todos los compradores, con datos personales. Demostración: dos peticiones con tu token, una a tu pedido y otra al id contiguo; si ambas devuelven 200 con datos que no son tuyos, está confirmado.</p>
+        <p><strong>Mitigación:</strong> comprobar <code>order.buyer_id == req.user.id</code> (o la política que corresponda) antes de responder; identificadores UUID; prueba automática de autorización.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej2" aria-labelledby="ej2-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej2-h">Ejercicio 2</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">E-commerce</span>
+    </header>
+    <p>El pago se confirma con <code>POST /api/v2/checkout</code>. Un <code>GET</code> previo del carrito devuelve, entre otros, <code>{"items": [...], "subtotal": 89.90, "discount_pct": 0, "total": 89.90}</code>. Reenvías el <code>POST</code> añadiendo <code>"discount_pct": 90</code> y la respuesta es <code>201</code> con <code>"total": 8.99</code>. Nombra el fallo y la defensa.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej2-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej2-hints" data-open="false"><div class="inner"><ol>
+        <li>¿Quién debería fijar el descuento, el cliente o el servidor?</li>
+        <li>El campo estaba en la respuesta del carrito. ¿Eso lo convierte en editable?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej2-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej2-sol" data-open="false"><div class="inner">
+        <p><strong>API6, asignación masiva.</strong> El checkout vincula todo el cuerpo, incluido un campo de precio que solo debería calcular el servidor. Es también un fallo de lógica de negocio.</p>
+        <p><strong>Mitigación:</strong> lista blanca de campos aceptados en el checkout (solo <code>cart_id</code>, dirección, método de pago). El descuento y el total se recalculan siempre en servidor a partir de reglas y cupones validados.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej3" aria-labelledby="ej3-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej3-h">Ejercicio 3</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">E-commerce</span>
+    </header>
+    <p>El endpoint <code>POST /api/v2/coupons/validate</code> comprueba si un código de cupón existe y devuelve su valor. No pide autenticación y no tiene límite de tasa. Los cupones tienen formato <code>LUZ-XXXX</code> con cuatro caracteres alfanuméricos. ¿Qué dos riesgos se combinan y qué haces?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej3-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej3-hints" data-open="false"><div class="inner"><ol>
+        <li>¿Cuántas combinaciones hay de cuatro caracteres? ¿Cuánto tardarías sin límite de tasa?</li>
+        <li>Piensa en el endpoint como un oráculo de "cupón válido / no válido".</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej3-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej3-sol" data-open="false"><div class="inner">
+        <p><strong>API4</strong> (sin límite de tasa) más <strong>API3</strong> (la respuesta confirma validez y valor). El espacio es pequeño, del orden de un millón y medio de combinaciones; sin límite se recorre en minutos y se cosechan cupones reales.</p>
+        <p><strong>Mitigación:</strong> límite de tasa por IP y por token en el endpoint; respuesta neutra que no distinga "no existe" de "existe pero no aplica"; validar el cupón solo dentro del checkout, no en un endpoint suelto; códigos más largos y de un solo uso.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ====== BANCA / FINTECH ====== -->
+  <h3>Banca y fintech</h3>
+  <p class="prose">Contexto: <em>NeoPagos</em>, app de cuentas y transferencias. API en <code>api.neopagos.com/v1</code>. Roles: titular, autorizado y aprobador de empresa.</p>
+
+  <section class="exercise" id="ej4" aria-labelledby="ej4-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej4-h">Ejercicio 4</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Banca</span>
+    </header>
+    <p><code>GET /api/v1/accounts/ES7620770024003102575766/transactions</code> devuelve el movimiento de esa cuenta. El IBAN va en la ruta. Con tu token, cambias el IBAN por el de otra cuenta que conoces y recibes <code>200</code> con sus movimientos. Clasifícalo y propón defensa.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej4-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej4-hints" data-open="false"><div class="inner"><ol>
+        <li>El IBAN es un identificador de objeto como cualquier otro.</li>
+        <li>¿Es más difícil de adivinar que un id correlativo? ¿Basta con eso?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej4-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej4-sol" data-open="false"><div class="inner">
+        <p><strong>API1.</strong> Que el IBAN sea largo no es un control de acceso: los IBAN se comparten en facturas, recibos y contratos. La API debe comprobar que la cuenta pertenece al usuario o que este es autorizado de ella.</p>
+        <p><strong>Mitigación:</strong> resolver siempre la cuenta a través de la relación usuario-cuenta (<code>SELECT ... WHERE iban = ? AND owner_id = ?</code>); registrar y alertar sobre accesos a cuentas ajenas; nunca aceptar el IBAN como prueba de titularidad.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej5" aria-labelledby="ej5-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej5-h">Ejercicio 5</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Banca</span>
+    </header>
+    <p>Recuperación de contraseña: <code>POST /api/v1/otp</code> con el teléfono envía un código de 6 dígitos por SMS; <code>POST /api/v1/otp/verify</code> lo comprueba. No hay bloqueo tras fallos ni caducidad corta del código. Describe el ataque completo y todas las capas de mitigación.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej5-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej5-hints" data-open="false"><div class="inner"><ol>
+        <li>Un millón de combinaciones, sin límite por intento ni por cuenta.</li>
+        <li>¿Cuánto vive el código? ¿Se invalida al primer fallo tras varios intentos?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej5-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej5-sol" data-open="false"><div class="inner">
+        <p><strong>API2</strong> con apoyo de <strong>API4</strong>. Ataque: pedir el OTP para el teléfono de la víctima y lanzar un script multihilo contra <code>/otp/verify</code> probando de <code>000000</code> a <code>999999</code>. Sin límites, se acierta en minutos y se obtiene la sesión o el token de reseteo.</p>
+        <p><strong>Mitigación en capas:</strong> máximo 5 intentos por código y luego invalidarlo; caducidad de 2 a 5 minutos; límite de tasa por cuenta, por teléfono y por IP; código de 8 dígitos o alfanumérico; retardo creciente entre intentos; alerta al usuario y al SOC ante muchos fallos; tratar recuperación con el mismo rigor que el login.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej6" aria-labelledby="ej6-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej6-h">Ejercicio 6</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Banca</span>
+    </header>
+    <p>Una transferencia de empresa se crea con <code>POST /api/v1/transfers</code> (rol autorizado) y se aprueba con <code>POST /api/v1/transfers/{id}/approve</code> (rol aprobador). Con una cuenta solo de rol autorizado, llamas a <code>/approve</code> sobre una transferencia que tú mismo creaste y responde <code>200 "state": "executed"</code>. ¿Qué falló?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej6-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej6-hints" data-open="false"><div class="inner"><ol>
+        <li>¿La comprobación de rol está en el endpoint <code>/approve</code> o solo en el botón de la app?</li>
+        <li>Piensa también en la segregación de funciones: quien crea no debería aprobar.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej6-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej6-sol" data-open="false"><div class="inner">
+        <p><strong>API5, autorización rota a nivel de función.</strong> El endpoint de aprobación no verifica el rol; la app se limitaba a esconder la acción. Además rompe el principio de doble control.</p>
+        <p><strong>Mitigación:</strong> denegar por defecto y exigir rol <code>approver</code> en <code>/approve</code>; comprobar que el aprobador es distinto del creador; registrar quién aprueba cada transferencia; pruebas de autorización por rol en el pipeline.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ====== IoT / WEARABLES ====== -->
+  <h3>IoT y wearables</h3>
+  <p class="prose">Contexto: <em>PulseBand</em>, pulsera de actividad con app y nube. Los dispositivos hablan con <code>api.pulseband.io</code>.</p>
+
+  <section class="exercise" id="ej7" aria-labelledby="ej7-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej7-h">Ejercicio 7</p>
+      <span class="badge badge--low">Básico</span>
+      <span class="tag">IoT</span>
+    </header>
+    <p>Interceptando el tráfico de la pulsera ves <code>PATCH /api/v1/profile</code> con la cabecera <code>X-User-Id: 54796</code> y un cuerpo con peso y altura. Cambias la cabecera a <code>54795</code> y la respuesta es <code>200</code>: has editado el perfil de otra persona. Clasifícalo.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej7-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej7-hints" data-open="false"><div class="inner"><ol>
+        <li>¿De dónde debería salir la identidad del usuario, de una cabecera que el cliente controla o del token?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej7-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej7-sol" data-open="false"><div class="inner">
+        <p><strong>API1.</strong> La identidad se toma de una cabecera manipulable en vez del token autenticado. El id de usuario del cuerpo o de la cabecera no es una credencial.</p>
+        <p><strong>Mitigación:</strong> ignorar <code>X-User-Id</code>; derivar el usuario del token; el endpoint <code>/profile</code> actúa siempre sobre <code>req.user.id</code>. Para editar a otro, un endpoint administrativo con su propia autorización.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej8" aria-labelledby="ej8-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej8-h">Ejercicio 8</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">IoT</span>
+    </header>
+    <p>El firmware expone <code>POST /api/CONFIG/restore</code> que recibe un <code>appId</code> como parámetro. Descompilando ves que el servidor hace <code>system("restore.sh /tmp/backup.bin " + appId)</code>. Envías <code>appId=x; /sbin/reboot</code>. Explica el fallo y la corrección.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej8-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej8-hints" data-open="false"><div class="inner"><ol>
+        <li>El valor del usuario acaba dentro de una llamada al shell sin ningún filtro.</li>
+        <li>¿Qué hacen <code>;</code>, <code>&amp;&amp;</code> y <code>$(...)</code> en una línea de comandos?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej8-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej8-sol" data-open="false"><div class="inner">
+        <p><strong>API8, inyección de comandos.</strong> El <code>appId</code> se concatena a una orden de shell. Con metacaracteres se ejecuta lo que quieras con los privilegios del proceso: reiniciar, abrir un shell, borrar el dispositivo.</p>
+        <p><strong>Mitigación:</strong> no llamar al shell; usar <code>execFile</code> o equivalente con argumentos como lista, sin intérprete; validar <code>appId</code> contra un patrón estricto (por ejemplo, solo <code>[a-z0-9-]{8,32}</code>); ejecutar con el mínimo privilegio; firmar y autenticar la operación de restore.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ====== RED SOCIAL ====== -->
+  <h3>Red social</h3>
+  <p class="prose">Contexto: <em>Corrillo</em>, red social con perfiles, publicaciones y mensajes directos. API en <code>api.corrillo.app</code>, con host <code>beta.corrillo.app</code> para pruebas.</p>
+
+  <section class="exercise" id="ej9" aria-labelledby="ej9-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej9-h">Ejercicio 9</p>
+      <span class="badge badge--low">Básico</span>
+      <span class="tag">Red social</span>
+    </header>
+    <p><code>GET /api/users/marina_g</code> devuelve el perfil público, pero el JSON incluye <code>email</code>, <code>phone</code>, <code>last_login_ip</code> y <code>birthdate</code>. La app solo pinta el nombre y la biografía. ¿Riesgo y arreglo?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej9-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej9-hints" data-open="false"><div class="inner"><ol>
+        <li>Que la app no lo muestre no significa que no viaje.</li>
+        <li>Un solo <code>GET</code> por usuario y tienes un censo con datos personales.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej9-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej9-sol" data-open="false"><div class="inner">
+        <p><strong>API3.</strong> Serialización genérica del modelo. Combinado con enumeración de alias, permite recolectar datos personales a escala.</p>
+        <p><strong>Mitigación:</strong> DTO de perfil público con solo alias, nombre, bio y avatar; los campos sensibles solo en <code>GET /api/users/me</code>; validación de esquema de salida; límite de tasa en el listado de perfiles.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej10" aria-labelledby="ej10-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej10-h">Ejercicio 10</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Red social</span>
+    </header>
+    <p>El límite de tasa del reseteo de contraseña está implementado en una pasarela delante de <code>api.corrillo.app</code>. Descubres que <code>beta.corrillo.app</code> ejecuta la misma API, incluido el reseteo, pero sin esa pasarela delante. ¿Qué riesgo del Top 10 lo describe mejor?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej10-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej10-hints" data-open="false"><div class="inner"><ol>
+        <li>El fallo no es solo la fuerza bruta; es que exista un host gemelo sin los mismos controles.</li>
+        <li>¿Está inventariado ese host? ¿Debería estar accesible desde internet?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej10-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej10-sol" data-open="false"><div class="inner">
+        <p><strong>API9, gestión inadecuada de activos</strong>, que a su vez reabre <strong>API2</strong>. Un host de pruebas con la misma lógica y sin los controles del de producción es una puerta trasera involuntaria.</p>
+        <p><strong>Mitigación:</strong> inventario de todos los hosts con su entorno y exposición; los entornos de prueba no accesibles desde internet o detrás de VPN; los controles de seguridad en la propia API, no solo en una pasarela externa; datos de prueba, nunca de producción.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej11" aria-labelledby="ej11-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej11-h">Ejercicio 11</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Red social</span>
+    </header>
+    <p>Los mensajes directos se leen con <code>GET /api/conversations/91043/messages</code>. El id de conversación es un entero. Con tu token, restas y sumas al número y obtienes conversaciones ajenas. ¿Cómo lo clasificas y qué propones más allá de "usar UUID"?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej11-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej11-hints" data-open="false"><div class="inner"><ol>
+        <li>El UUID dificulta el barrido pero no autoriza nada.</li>
+        <li>¿Es el usuario participante de esa conversación?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej11-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej11-sol" data-open="false"><div class="inner">
+        <p><strong>API1.</strong> La defensa real es comprobar participación: <code>WHERE conversation_id = ? AND ? IN (participants)</code>. El UUID es una mejora complementaria, no la solución. Añade registro de accesos y alerta ante patrones de enumeración.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ====== SAAS B2B ====== -->
+  <h3>SaaS B2B multiinquilino</h3>
+  <p class="prose">Contexto: <em>Facturia</em>, SaaS de facturación con varias organizaciones (inquilinos) en la misma API <code>api.facturia.com/v1</code>. Roles: propietario, administrador y miembro.</p>
+
+  <section class="exercise" id="ej12" aria-labelledby="ej12-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej12-h">Ejercicio 12</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">SaaS B2B</span>
+    </header>
+    <p>Con una cuenta de rol <em>miembro</em>, pruebas rutas por analogía y das con <code>GET /api/v1/admin/users/export</code>, que devuelve un CSV con todos los usuarios de tu organización, sus roles y sus últimos accesos. Nadie te paró. ¿Qué riesgo es?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej12-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej12-hints" data-open="false"><div class="inner"><ol>
+        <li>La ruta lleva <code>/admin/</code>, pero eso no aplica ningún control por sí solo.</li>
+        <li>¿El endpoint comprueba el rol del token?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej12-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej12-sol" data-open="false"><div class="inner">
+        <p><strong>API5.</strong> Endpoint administrativo sin comprobación de rol. La convención de nombres <code>/admin/</code> no es un control.</p>
+        <p><strong>Mitigación:</strong> middleware que exija rol <code>admin</code> u <code>owner</code> en todo <code>/admin/*</code>; denegar por defecto; pruebas por rol; y como capa extra, límite de tasa y alerta en endpoints de exportación masiva.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej13" aria-labelledby="ej13-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej13-h">Ejercicio 13</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">SaaS B2B</span>
+    </header>
+    <p>Las peticiones llevan una cabecera <code>X-Org-Id: 3391</code> que el frontend rellena con la organización activa. El backend la usa para filtrar los datos. Cambias la cabecera a <code>3390</code> con tu mismo token y ves las facturas de otra empresa. Clasifícalo y explica por qué es especialmente grave en SaaS.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej13-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej13-hints" data-open="false"><div class="inner"><ol>
+        <li>La organización activa debería salir de la relación usuario-organización en servidor, no de una cabecera.</li>
+        <li>Un solo fallo así rompe el aislamiento entre todos los clientes del producto.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej13-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej13-sol" data-open="false"><div class="inner">
+        <p><strong>API1 entre inquilinos.</strong> En SaaS es de los peores casos: expone datos de todas las organizaciones y suele desembocar en incidente notificable y pérdida de contratos.</p>
+        <p><strong>Mitigación:</strong> nunca confiar en <code>X-Org-Id</code>; derivar la organización del token o de la membresía del usuario; filtrar toda consulta por <code>org_id</code> comprobado; pruebas automáticas de aislamiento entre inquilinos; separación de datos por esquema o base cuando el riesgo lo justifique.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej14" aria-labelledby="ej14-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej14-h">Ejercicio 14</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">SaaS B2B</span>
+    </header>
+    <p>Un id de factura no numérico provoca <code>500</code> con una traza que incluye el framework, la versión, la ruta del proyecto y una línea <code>REDIS_URL=redis://:p4ss@cache.internal:6379</code>. Además, la respuesta trae <code>Access-Control-Allow-Origin: *</code> y <code>Access-Control-Allow-Credentials: true</code>. Enumera los problemas.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej14-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej14-hints" data-open="false"><div class="inner"><ol>
+        <li>La traza filtra información. ¿Qué haría alguien con esa cadena de Redis?</li>
+        <li><code>Allow-Origin: *</code> junto con <code>Allow-Credentials: true</code> es una combinación inválida y peligrosa.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej14-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej14-sol" data-open="false"><div class="inner">
+        <p><strong>API7.</strong> Tres cosas: error verboso que revela pila y credenciales de Redis; validación de entrada floja (el id no numérico no se rechazó con un 400 limpio); CORS mal configurado que, con <code>*</code> y credenciales, o lo ignora el navegador o, si se refleja el origen, deja que cualquier web haga peticiones autenticadas.</p>
+        <p><strong>Mitigación:</strong> manejador de errores que devuelve un cuerpo genérico con id de correlación; sin trazas ni secretos en la respuesta; secretos fuera del código y rotados si se han expuesto; CORS con lista blanca de orígenes y <code>Allow-Credentials</code> solo con origen explícito; validar el tipo del id.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- ====== VIDEOVIGILANCIA ====== -->
+  <h3>Videovigilancia</h3>
+  <p class="prose">Contexto: <em>VigiaCloud</em>, cámaras conectadas para empresas. API en <code>api.vigiacloud.com/v2</code>, con <code>v1</code> heredada.</p>
+
+  <section class="exercise" id="ej15" aria-labelledby="ej15-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej15-h">Ejercicio 15</p>
+      <span class="badge badge--med">Intermedio</span>
+      <span class="tag">Videovigilancia</span>
+    </header>
+    <p>Un vigilante con acceso solo al edificio A llama a <code>GET /api/v2/sites/111/cameras</code>. La respuesta lista todas las cámaras del recinto, con un <code>live_token</code> por cámara. Con <code>GET /api/v2/stream?token=&lt;el de otra cámara&gt;</code> ve el vídeo en directo de zonas restringidas. Identifica los fallos.</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej15-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej15-hints" data-open="false"><div class="inner"><ol>
+        <li>La lista devuelve más de lo que el vigilante puede ver.</li>
+        <li>El <code>live_token</code> no está atado al usuario que lo pide.</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej15-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej15-sol" data-open="false"><div class="inner">
+        <p><strong>API3</strong> (la lista trae cámaras y tokens fuera del ámbito del usuario) más <strong>API1</strong> (el <code>stream</code> acepta cualquier <code>live_token</code> sin comprobar a quién pertenece).</p>
+        <p><strong>Mitigación:</strong> filtrar la lista de cámaras por los permisos del usuario en servidor; no incluir tokens de cámaras que no puede ver; emitir el <code>live_token</code> ligado al usuario y a la cámara, de vida corta; en <code>/stream</code>, validar que el token corresponde a esa cámara y a ese usuario.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="exercise" id="ej16" aria-labelledby="ej16-h">
+    <header class="exercise__head">
+      <p class="eyebrow" id="ej16-h">Ejercicio 16</p>
+      <span class="badge badge--high">Avanzado</span>
+      <span class="tag">Videovigilancia</span>
+    </header>
+    <p>La app usa <code>api.vigiacloud.com/v2</code>, que exige token y filtra por cliente. Cambiando <code>v2</code> por <code>v1</code> en la URL, <code>GET /api/v1/cameras</code> responde <code>200</code> sin token y devuelve todas las cámaras de todos los clientes con sus URLs RTSP. ¿Qué riesgo es y cuál es el plan?</p>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej16-hints"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 22h4M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg> Ver pistas <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej16-hints" data-open="false"><div class="inner"><ol>
+        <li>La versión vieja quedó viva y comparte base de datos con la nueva.</li>
+        <li>¿Se puede apagar <code>v1</code> hoy? ¿Qué clientes la usan todavía?</li>
+      </ol></div></div>
+    </div>
+    <div class="disclosure">
+      <button type="button" aria-expanded="false" aria-controls="ej16-sol"><svg class="lead" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m10.85 12.15 8.15-8.15M18 5l2 2M15 8l2 2"/></svg> Ver solución <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      <div class="disclosure__panel" id="ej16-sol" data-open="false"><div class="inner">
+        <p><strong>API9.</strong> Versión heredada sin los controles de la actual, conectada a los mismos datos. Impacto directo sobre la privacidad de todos los clientes.</p>
+        <p><strong>Plan:</strong> inventariar quién consume <code>v1</code> a partir de los logs; si nadie, retirarla ya; si hay clientes, ponerle autenticación y filtrado equivalentes de forma inmediata y darles fecha de migración; alertar sobre cualquier acceso a <code>v1</code>; incluir el descubrimiento de versiones en el proceso de despliegue.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <aside class="callout callout--note" role="note">
+    <p class="callout__label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg> Nota</p>
+    <p>Patrón repetido en los dieciséis: el cliente envía un identificador o una bandera, y el servidor lo cree sin comprobar. La pregunta de examen siempre es la misma: <em>¿este usuario, con su token, tiene derecho a este objeto o a esta función?</em></p>
+  </aside>
+</section>
+<!-- ===================== SECCIÓN 11 ===================== -->
+<section class="section" id="s11" aria-labelledby="s11-h">
+  <h2 id="s11-h" tabindex="-1"><span class="sec-num">11</span>Buenas prácticas, glosario y referencias</h2>
+  <p class="lead-in">El resumen accionable de las tres horas, un glosario para fijar el vocabulario y las fuentes para seguir.</p>
+
+  <div class="block prose">
+    <h3>Para quien desarrolla</h3>
+    <ul>
+      <li>Autoriza en cada endpoint: propiedad del objeto y permiso de la función, en una capa central, denegando por defecto.</li>
+      <li>Devuelve solo los campos necesarios con un DTO explícito. Nunca serialices el modelo entero.</li>
+      <li>Acepta solo los campos previstos con una lista blanca. Valida tipo y forma de todo lo que entra.</li>
+      <li>Usa consultas parametrizadas siempre. Nunca construyas comandos ni consultas concatenando entrada.</li>
+      <li>No inventes autenticación ni gestión de tokens. Usa estándares y valida firma y expiración.</li>
+      <li>Pon límites: de tasa, de tamaño de cuerpo, de página, de tiempo y memoria por operación.</li>
+      <li>Trata "recuperar contraseña" con el mismo rigor que "iniciar sesión".</li>
+      <li>Que los errores no cuenten nada de dentro. Cuerpo genérico con id de correlación.</li>
+      <li>Escribe pruebas de autorización y de aislamiento, y bloquea el despliegue si fallan.</li>
+    </ul>
+
+    <h3>Para quien opera (DevSecOps)</h3>
+    <ul>
+      <li>Mantén un inventario vivo de APIs, versiones y entornos. Retira lo que no se usa.</li>
+      <li>Endurecimiento repetible y revisión de configuración en toda la pila, nube incluida.</li>
+      <li>Registra autenticaciones fallidas, accesos denegados y errores de validación con detalle para identificar al actor.</li>
+      <li>Monitoriza y alerta. Un SIEM que agregue los logs de toda la pila.</li>
+      <li>Protege también las versiones antiguas con la pasarela y el firewall de API, no solo la actual.</li>
+      <li>Nada de datos de producción en entornos que no son de producción.</li>
+      <li>Seguridad continua en el pipeline: escaneo del contrato, pruebas de intrusión, no una revisión anual.</li>
+      <li>Entrega los hallazgos donde trabaja el equipo, no en un PDF, con su escenario de ataque.</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <h3>Glosario</h3>
+    <dl class="glossary">
+      <div><dt>API</dt><dd>Contrato por el que dos programas se comunican por HTTP: qué se puede pedir, con qué formato y qué se recibe.</dd></div>
+      <div><dt>API troncal</dt><dd>API central que sirve a todos los clientes de un producto (web, iOS, Android). Concentra lógica y riesgo.</dd></div>
+      <div><dt>Endpoint</dt><dd>Dirección concreta de la API que representa una operación sobre un recurso.</dd></div>
+      <div><dt>Método HTTP</dt><dd>Verbo de la petición: GET lee, POST crea, PUT reemplaza, PATCH modifica, DELETE borra.</dd></div>
+      <div><dt>Autenticación</dt><dd>Probar quién eres. No implica permiso para nada concreto.</dd></div>
+      <div><dt>Autorización</dt><dd>Decidir qué puede hacer un usuario ya autenticado. Origen de la mayoría de fallos graves.</dd></div>
+      <div><dt>JWT</dt><dd>Token firmado con datos del usuario y una caducidad. Hay que validar firma y expiración en cada petición.</dd></div>
+      <div><dt>BOLA / IDOR</dt><dd>Autorización rota a nivel de objeto: cambiar un id y acceder a datos de otro. API1.</dd></div>
+      <div><dt>BFLA</dt><dd>Autorización rota a nivel de función: alcanzar una función administrativa sin permiso. API5.</dd></div>
+      <div><dt>Asignación masiva</dt><dd>El servidor vincula campos del cuerpo que no debería aceptar del cliente. API6.</dd></div>
+      <div><dt>Exposición excesiva de datos</dt><dd>Devolver el objeto entero y confiar en que el cliente oculte lo sensible. API3.</dd></div>
+      <div><dt>Límite de tasa</dt><dd>Tope de peticiones por cliente y ventana de tiempo. Responde 429 al superarse.</dd></div>
+      <div><dt>Inyección</dt><dd>Entrada no confiable interpretada como consulta o comando. API8.</dd></div>
+      <div><dt>CORS</dt><dd>Reglas que dicen qué orígenes web pueden leer respuestas de la API. Mal configurado, es fuga. API7.</dd></div>
+      <div><dt>API polimórfica</dt><dd>Un endpoint que cambia de comportamiento o de forma según un parámetro, un rol o una cabecera.</dd></div>
+      <div><dt>SIEM</dt><dd>Sistema que agrega y correla logs y eventos de seguridad para detectar y responder.</dd></div>
+      <div><dt>DTO</dt><dd>Objeto de transferencia: estructura definida a mano para la entrada o la salida de un endpoint, distinta del modelo de datos.</dd></div>
+    </dl>
+  </div>
+
+  <div class="block">
+    <h3>Referencias</h3>
+    <ol class="reflist">
+      <li><a href="https://owasp.org/www-project-api-security/" rel="noopener">OWASP API Security Project</a></li>
+      <li><a href="https://owasp.org/API-Security/editions/2019/en/0x00-header/" rel="noopener">OWASP API Security Top 10, edición 2019</a></li>
+      <li><a href="https://owasp.org/API-Security/editions/2023/en/0x00-header/" rel="noopener">OWASP API Security Top 10, edición 2023</a></li>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html" rel="noopener">OWASP REST Security Cheat Sheet</a></li>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html" rel="noopener">OWASP Authentication Cheat Sheet</a></li>
+      <li><a href="https://portswigger.net/web-security/api-testing" rel="noopener">PortSwigger Web Security Academy: API testing</a></li>
+      <li><a href="https://github.com/OWASP/crAPI" rel="noopener">crAPI, API deliberadamente vulnerable de OWASP</a></li>
+      <li><a href="https://github.com/roottusk/vapi" rel="noopener">vAPI, laboratorio de retos por punto del Top 10</a></li>
+      <li><a href="https://owasp.org/www-project-juice-shop/" rel="noopener">OWASP Juice Shop</a></li>
+      <li><a href="https://www.w3.org/TR/WCAG22/" rel="noopener">W3C WCAG 2.2</a></li>
+    </ol>
+    <p class="prose" style="margin-top:var(--sp-5)"><span class="kbd">P</span> activa y recorre el modo proyección. El tema claro u oscuro se recuerda en este navegador.</p>
+  </div>
+</section>
+  </main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var root = document.documentElement;
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Temario ---------- */
+  var sections = [
+    ['s01', 'Qué es una API y cómo se comunica'],
+    ['s02', 'La API troncal en web y móvil'],
+    ['s03', 'Endpoints, llamadas y formatos'],
+    ['s04', 'Superficie de ataque y principales peligros'],
+    ['s05', 'OWASP API Security Top 10: panorama'],
+    ['s06', 'Recorrido por API1 a API10'],
+    ['s07', 'Ataques en la práctica'],
+    ['s08', 'Defensa en profundidad'],
+    ['s09', 'Pruebas de seguridad de APIs'],
+    ['s10', 'Ejercicios por tipo de aplicación'],
+    ['s11', 'Buenas prácticas, glosario y referencias']
+  ];
+  function buildToc(target, closeOnClick) {
+    var ol = document.getElementById(target);
+    if (!ol) return;
+    sections.forEach(function (s, i) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + s[0];
+      a.innerHTML = '<span class="toc__num">' + String(i + 1).padStart(2, '0') + '</span><span class="toc__label">' + s[1] + '</span>';
+      if (closeOnClick) a.addEventListener('click', closeDrawer);
+      li.appendChild(a);
+      ol.appendChild(li);
+    });
+  }
+  buildToc('toc-desktop', false);
+  buildToc('toc-mobile', true);
+  buildToc('toc-static', false);
+
+  /* ---------- Tema ---------- */
+  function currentTheme() { return root.getAttribute('data-theme') || 'light'; }
+  function setTheme(t) {
+    root.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    document.querySelectorAll('#theme-toggle, #theme-toggle-hero').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(t === 'dark'));
+    });
+  }
+  setTheme(currentTheme());
+  document.querySelectorAll('#theme-toggle, #theme-toggle-hero').forEach(function (b) {
+    b.addEventListener('click', function () { setTheme(currentTheme() === 'dark' ? 'light' : 'dark'); });
+  });
+
+  /* ---------- Modo proyección ---------- */
+  var modes = ['', 'present', 'present-slides'];
+  function currentMode() { return root.getAttribute('data-mode') || ''; }
+  function setMode(m) {
+    if (m) root.setAttribute('data-mode', m); else root.removeAttribute('data-mode');
+    try { m ? localStorage.setItem('mode', m) : localStorage.removeItem('mode'); } catch (e) {}
+    document.querySelectorAll('#present-toggle, #present-toggle-hero').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(!!m));
+    });
+  }
+  function cycleMode() {
+    var i = modes.indexOf(currentMode());
+    setMode(modes[(i + 1) % modes.length]);
+  }
+  document.querySelectorAll('#present-toggle, #present-toggle-hero').forEach(function (b) {
+    b.addEventListener('click', cycleMode);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'p' || e.key === 'P') {
+      if (['INPUT', 'TEXTAREA'].indexOf(document.activeElement.tagName) === -1) cycleMode();
+    }
+  });
+
+  /* ---------- Cabecera al desplazar ---------- */
+  var header = document.querySelector('.header');
+  var progress = document.querySelector('.read-progress');
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () {
+      header.setAttribute('data-scrolled', String(window.scrollY > 4));
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      var pct = h > 0 ? Math.min(100, Math.round((window.scrollY / h) * 100)) : 0;
+      progress.style.width = pct + '%';
+      progress.setAttribute('aria-valuenow', String(pct));
+      ticking = false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Sección activa ---------- */
+  var links = {};
+  document.querySelectorAll('#toc-desktop a, #toc-mobile a').forEach(function (a) {
+    var id = a.getAttribute('href').slice(1);
+    (links[id] = links[id] || []).push(a);
+  });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var id = en.target.id;
+        Object.keys(links).forEach(function (k) {
+          links[k].forEach(function (a) {
+            if (k === id) a.setAttribute('aria-current', 'location');
+            else a.removeAttribute('aria-current');
+          });
+        });
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    document.querySelectorAll('main .section').forEach(function (s) { io.observe(s); });
+  }
+
+  /* ---------- Anclas: mover el foco ---------- */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var id = a.getAttribute('href').slice(1);
+    var el = document.getElementById(id);
+    if (!el) return;
+    var h = el.matches('section') ? el.querySelector('h2') : el;
+    if (h && h.hasAttribute('tabindex') === false) h.setAttribute('tabindex', '-1');
+    setTimeout(function () { if (h) h.focus({ preventScroll: true }); }, reduce ? 0 : 320);
+  });
+
+  /* ---------- Drawer ---------- */
+  var drawer = document.getElementById('drawer');
+  var overlay = document.querySelector('.drawer-overlay');
+  var tocBtn = document.querySelector('.header__toc-btn');
+  var lastFocus = null;
+  function openDrawer() {
+    lastFocus = document.activeElement;
+    drawer.setAttribute('data-open', 'true');
+    overlay.setAttribute('data-open', 'true');
+    tocBtn.setAttribute('aria-expanded', 'true');
+    document.getElementById('drawer-close').focus();
+    document.addEventListener('keydown', onDrawerKey);
+  }
+  function closeDrawer() {
+    drawer.setAttribute('data-open', 'false');
+    overlay.setAttribute('data-open', 'false');
+    tocBtn.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('keydown', onDrawerKey);
+    if (lastFocus) lastFocus.focus();
+  }
+  function onDrawerKey(e) {
+    if (e.key === 'Escape') { closeDrawer(); return; }
+    if (e.key !== 'Tab') return;
+    var f = drawer.querySelectorAll('a, button');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+  tocBtn.addEventListener('click', openDrawer);
+  document.getElementById('drawer-close').addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+
+  /* ---------- Copiar código ---------- */
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.code__copy');
+    if (!btn) return;
+    var pre = btn.closest('.code').querySelector('pre');
+    var text = pre ? pre.innerText : '';
+    var label = btn.querySelector('span');
+    function done(msg, state) {
+      if (label) label.textContent = msg;
+      btn.setAttribute('data-state', state);
+      setTimeout(function () { if (label) label.textContent = 'Copiar'; btn.removeAttribute('data-state'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { done('Copiado', 'done'); }, function () { done('Copia manual', 'err'); });
+    } else {
+      var r = document.createRange(); r.selectNodeContents(pre);
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      done('Selecciona y copia', 'err');
+    }
+  });
+
+  /* ---------- Plegables ---------- */
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.disclosure > button');
+    if (!btn) return;
+    var panel = document.getElementById(btn.getAttribute('aria-controls'));
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (panel) panel.setAttribute('data-open', String(!open));
+  });
+})();
+</script>
+</body>
+</html>
