@@ -24,6 +24,4 @@ temp_*.txt
 .idea/
 
 # Obsidian (configuración local)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/graph.json
+.obsidian/
