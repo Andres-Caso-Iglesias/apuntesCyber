@@ -1,5 +1,29 @@
-.obsidian/
-*.pyc
-__pycache__/
+# Sistema
 .DS_Store
 Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Temporales
+*.tmp
+temp_*.txt
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Obsidian (configuración local)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
