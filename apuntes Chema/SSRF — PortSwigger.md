@@ -141,3 +141,30 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 | Burp Resource pool | Introducida (control de peticiones/seg) |
 | Burp Collaborator | Mencionada (necesario para Blind SSRF) |
 | ℹ  Para la base de conocimiento Concepto/vulnerabilidad nuevo de la sesión: SSRF (Server Side Request Forgery), con variante Blind SSRF pendiente. Patrones mencionados de pasada: IDOR y robo de cookies vía XSS. |  |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hydra, Nmap, Path Traversal / LFI
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— Hydra, Nmap, Path Traversal / LFI
+- [[Vulnerabilidades Web.md|Vulnerabilidades Web]— Hydra, Nmap, WordPress
+- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]— Hydra, Path Traversal / LFI, WordPress
+- [[../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Burp Suite, WordPress, XSS
+- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]— Burp Suite, IDOR, Redes
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #burpsuite #hydra #idor #kali #lfi #linux #nmap #pentest #redes #ssrf #wordpress #xss

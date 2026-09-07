@@ -329,3 +329,28 @@ La sesión terminó indicando que el día siguiente se realizaría una máquina 
 
 | Resumen final · Una API es una superficie de ataque directamente conectada con la lógica y los datos del backend. Para estudiarla: identifica endpoints, entiende la petición, separa autenticación de autorización, no confíes en el cliente y comprueba que cada objeto y cada función están autorizados en servidor. |
 | --- |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../comandos/FFUF.md|FFUF]— Burp Suite, FFUF, Redes
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— Burp Suite, FFUF, Redes
+- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— FFUF, Redes, Windows
+- [[../comandos/DirSearch.md|DirSearch]— FFUF, Feroxbuster, Redes
+- [[../comandos/Feroxbuster.md|Feroxbuster]— FFUF, Feroxbuster, Redes
+- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— FFUF, Redes, Windows
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #blue-team #burpsuite #dirsearch #feroxbuster #ffuf #idor #pentest #redes #windows

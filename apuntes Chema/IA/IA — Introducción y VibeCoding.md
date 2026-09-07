@@ -349,3 +349,18 @@ Anthropic — investigación de interpretabilidad (dictionary learning, features
 
 | ⚠  AVISO Nota: las cifras de cuota, precios y nombres de modelos (Haiku/Sonnet/Opus/Fable) dichas en clase no se han fijado como definitivas: cambian con frecuencia y deben verificarse en la documentación oficial de Anthropic antes de usarse como referencia. |
 | --- |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]— IA en Ciberseguridad, Normativa / GRC, Post-Explotación
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Normativa / GRC, Redes
+- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]— IA en Ciberseguridad, Post-Explotación, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— IA en Ciberseguridad, Metodología Pentest, Normativa / GRC
+- [[../Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Metodología Pentest, Post-Explotación, Redes
+- [[../../comandos/SSH.md|SSH]— IA en Ciberseguridad, Metodología Pentest, Post-Explotación
+
+> #ia #linux #normativa #pentest #post-explotacion #redes

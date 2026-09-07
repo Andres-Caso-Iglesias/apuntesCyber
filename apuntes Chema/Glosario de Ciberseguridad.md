@@ -238,3 +238,37 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 | MCP / Vibe coding | Model Context Protocol | MCP conecta modelos con herramientas y datos externos; vibe coding es programar describiendo la intención y dejando que la IA genere el código. |
 | Anonimización vs. Seudonimización | — | Anonimizar hace el dato irreversiblemente no reidentificable (fuera del RGPD); seudonimizar lo codifica de forma reversible (sigue siendo dato personal). |
 | ✓  Documento vivo Este glosario crece con cada sesión. Cuando un apunte introduzca un término nuevo, se añade también aquí para mantener una referencia única del proyecto. |  |  |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]— File Upload, Google Dorks, IDOR
+- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]— CSRF, Google Dorks, IDOR
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— CSRF, File Upload, Linux
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]— Blue Team / SOC, File Upload, Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— File Upload, IDOR, Linux
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]— Blue Team / SOC, Linux, Metodología Pentest
+
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #blue-team #certificaciones #command-injection #csrf #escalada-privilegios #esteganografia #ffuf #file-upload #google-dorks #hydra #ia #idor #lfi #linux #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssrf #ssti #wifi #windows #wireshark #xss #xxe

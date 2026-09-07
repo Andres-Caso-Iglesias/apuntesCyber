@@ -542,3 +542,34 @@ Cambios respecto al registro acumulado tras esta sesión (copiable a la base de 
 | PortSwigger Web Security Academy | Introducida (nuevo: plataforma) |
 
 **Conceptos/técnicas nuevos consolidados:** Path Traversal (6 casos), URL encoding y doble encoding como bypass, null byte para extensión, distinción Path Traversal vs LFI, control de ruido con Resource pool.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]— Hydra, IA en Ciberseguridad, Path Traversal / LFI
+- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— Hydra, IA en Ciberseguridad, Path Traversal / LFI
+- [[../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hydra, IA en Ciberseguridad, Path Traversal / LFI
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]— Hydra, IA en Ciberseguridad, Path Traversal / LFI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #hydra #ia #lfi #linux #pentest #pivoting #redes #rfi #sqli #ssh #windows #xss #xxe

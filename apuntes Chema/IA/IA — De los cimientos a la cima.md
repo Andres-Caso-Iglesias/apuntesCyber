@@ -503,3 +503,27 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 
 | ℹ  Sobre el alcance de las fuentes Las explicaciones conceptuales de las secciones 4, 6.1 y 6.9 (predicción de tokens, distinción entre grafo y red neuronal, aprendizaje por refuerzo frente a A/B testing) son fundamentos generales aplicables a cualquier modelo Transformer, no información específica de ningún proveedor.Los datos de modelos, precios y features cambian con frecuencia. Verifica en la documentación oficial antes de usarlos como referencia definitiva. |
 | --- |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]— IA en Ciberseguridad, Post-Explotación, SSH
+- [[../../comandos/SQLMap.md|SQLMap]— IA en Ciberseguridad, Post-Explotación, SQL Injection
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]— IA en Ciberseguridad, Post-Explotación, SSH
+- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]— IA en Ciberseguridad, Post-Explotación, Redes
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— IA en Ciberseguridad, Post-Explotación, SSH
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— IA en Ciberseguridad, Redes, SQL Injection
+
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+
+> #empleabilidad #ia #linux #pentest #post-explotacion #redes #sqli #ssh #windows #xss

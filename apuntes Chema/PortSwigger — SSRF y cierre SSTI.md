@@ -211,3 +211,28 @@ Cambios de nivel y conceptos nuevos consolidados en esta sesión (copiable a la 
 | Open Redirect encadenado en SSRF | Introducida |
 | Bypass de whitelist (user-info @ + fragmento #) | Introducida |
 | SSTI (Server-Side Template Injection) | Mencionada |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]— Hack The Box, IA en Ciberseguridad, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]— Hack The Box, IA en Ciberseguridad, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]— Burp Suite, IA en Ciberseguridad, Open Redirect
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, SSH, SSTI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]— IA en Ciberseguridad, Open Redirect, SSTI
+- [[../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]— Burp Suite, Open Redirect, SSTI
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+
+> #burpsuite #certificaciones #hack-the-box #ia #open-redirect #pentest #redes #ssh #ssrf #ssti

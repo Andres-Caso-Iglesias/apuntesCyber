@@ -655,3 +655,24 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 
 | SESION: Presentacion de la Practica 1 (bloque IA) - Carlos Gomez Pintado - 30/07/2026 TEMAS: grafo de notas como indice (Obsidian, MOC) | Neo4j y ontologias | subagentes   en paralelo (buscadores + jardinero + conector) | enrutado de modelos | demo Tetris   con Q-learning, heuristica y neuroevolucion (simulacion, no entrenamiento real) |   que es y que no es machine learning | debate SQL vs Neo4j vs Obsidian | de la boveda   a la skill | Git/GitHub | claves SSH publica-privada | Hetzner | enunciado Practica 1 HERRAMIENTAS NUEVAS: Hetzner, Leak Radar, tunel de Cloudflare, PostgreSQL (mencionado) COMANDOS: ssh-keygen -t rsa -b 4096 ; ssh root@IP -i ruta_clave_privada PERSISTENCIA: clave publica en authorized_keys (anunciado para el bloque de explotacion) CORRECCIONES: grafo con ontologia no aprende ; heuristica no es aleatoriedad ; Q-learning   no es red neuronal ; tasa de mutacion no es un peso ; no existe Haiku 5 (es Haiku 4.5) ;   los == son padding Base64 ; macOS no es Linux ; matiz legal sobre scraping de ofertas PRACTICA 1: app web + base de datos + API real con varios endpoints + GitHub con historial.   Grupos de 1 a 5 (se acepta 6), un capitan por grupo, grupo de WhatsApp de capitanes.   Entrega a finales de septiembre en Classroom. La API se corregira capturando trafico. PENDIENTE: comparativa profunda de algoritmos de ML ; aplicacion de ajedrez con red   vectorial y ML ; explotacion web y de maquinas avanzada tras las vacaciones |
 | --- |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]— IA en Ciberseguridad, Normativa / GRC, SSH
+- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]— IA en Ciberseguridad, Post-Explotación, SSH
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]— IA en Ciberseguridad, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]— IA en Ciberseguridad, Normativa / GRC, Post-Explotación
+- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]— Burp Suite, OSINT, Post-Explotación
+- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]— IA en Ciberseguridad, Normativa / GRC, Post-Explotación
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/SSH|SSH]]
+
+> #burpsuite #empleabilidad #ffuf #ia #linux #normativa #osint #post-explotacion #redes #ssh #windows

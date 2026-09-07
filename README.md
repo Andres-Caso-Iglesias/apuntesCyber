@@ -31,3 +31,29 @@ Si usas Obsidian abre directamente la carpeta como vault y te funciona todo con 
 ## Colaborar
 
 Si quieres añadir algo o corregir algo mándalo directamente o abre un pull request. Todo lo que se mejore bienvenido es.
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]— Nmap, Normativa / GRC, SQL Injection
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hydra, Nmap, SQLMap
+- [[apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Hydra, Nmap, SQLMap
+- [[apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]— Hack The Box, Hydra, SQLMap
+- [[apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]— Hack The Box, Nmap, SQLMap
+- [[apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]— Normativa / GRC, SQL Injection, SQLMap
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #forense #hack-the-box #hydra #nmap #normativa #sqli #sqlmap

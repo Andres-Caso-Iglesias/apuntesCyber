@@ -222,3 +222,31 @@ A la vuelta: **Hack The Box**, ruta **eJPTv2 → OSCP**, **Blue Team** con Edu y
 | Conexión con sesiones previas | Path Traversal, Intruder/fuzzing, open redirect, URL-encoding, metodología web | Alta |
 | RedNotes Academy | Sin novedades en esta sesión | Alta |
 | ✓  Bloque copiable Bloque para memoria acumulativa (texto plano): SSRF cerrado el 24/07/2026 con Carlos Castillo en la sesión 'Repaso Semanal III'. Resueltos dos labs de PortSwigger: (1) bypass por open redirect reapuntando el enlace 'nextProduct' a 192.168.0.12:8080/admin; (2) bypass de whitelist con http://localhost%2523@stock.weliketoshop.net/admin (fragmento # doble-encodeado). Herramientas practicadas: Burp Repeater/Intruder/Decoder/Proxy. Próximo tema anunciado: SSTI vía PortSwigger. |  |  |
+
+---
+
+## 🔗 Red de Conocimiento
+
+### Documentos Relacionados
+
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, Nmap, Path Traversal / LFI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
+- [[PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]— Hack The Box, IA en Ciberseguridad, SSH
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— IA en Ciberseguridad, Nmap, Path Traversal / LFI
+- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]— Nmap, Path Traversal / LFI, SSTI
+
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+
+> #blue-team #burpsuite #certificaciones #dirsearch #hack-the-box #ia #lfi #nmap #open-redirect #pentest #pivoting #redes #ssh #ssrf #ssti #wifi
