@@ -110,14 +110,14 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 
 ## 6. Diferencias importantes
 
-| Característica | VirtualBox | VMware |
-|---------------|-----------|--------|
-| Formato de disco | VDI | VMDK |
-| Formato de exportación | OVF/OVA | OVF/OVA |
-| Snapshot limit | Sin límite práctico | Sin límite práctico |
-| Clonación | Rápida (linked clone) | Rápida (linked clone) |
-| Red |桥接, NAT, Host-Only |桥接, NAT, Host-Only |
-| USB | 1.1/2.0/3.0 | 1.1/2.0/3.0/3.1 |
+| Característica         | VirtualBox            | VMware                |
+| ---------------------- | --------------------- | --------------------- |
+| Formato de disco       | VDI                   | VMDK                  |
+| Formato de exportación | OVF/OVA               | OVF/OVA               |
+| Snapshot limit         | Sin límite práctico   | Sin límite práctico   |
+| Clonación              | Rápida (linked clone) | Rápida (linked clone) |
+| Red                    | NAT, Host-Only        |  NAT, Host-Only       |
+| USB                    | 1.1/2.0/3.0           | 1.1/2.0/3.0/3.1       |
 
 ---
 

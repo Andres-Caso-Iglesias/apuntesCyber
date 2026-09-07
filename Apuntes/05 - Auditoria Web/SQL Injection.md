@@ -35,6 +35,9 @@ Si el usuario introduce `admin' OR '1'='1' --` como valor de `$u`, la query se c
 
 ```sql
 SELECT * FROM users WHERE user='admin' OR '1'='1' --' AND pass=''
+							o
+SELECT * FROM users WHERE user='admin' OR '1=1' --' AND pass=''
+            dependera de como esta cofigurado
 ```
 
 - `--` comenta el resto de la query (se ignora la verificación de password)
