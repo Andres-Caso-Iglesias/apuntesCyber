@@ -154,15 +154,15 @@ getcap -r / 2>/dev/null
 
 ### Técnicas Comunes
 
-| Vector | Herramienta |
-|--------|-------------|
-| SUID binaries | [[Linux#Permisos y Propietarios|find, chmod]] |
-| Sudo abuse | `sudo -l` |
-| Cron jobs | Editar scripts ejecutados por root |
-| Kernel exploit | SearchSploit |
-| Capabilities | getcap |
-| PATH abuse | Script en directorio no protegido |
-| NFS root squash | Montar sistema de archivos |
+| Vector          | Herramienta                        |               |
+| --------------- | ---------------------------------- | ------------- |
+| SUID binaries   | [[Linux#Permisos y Propietarios    | find, chmod]] |
+| Sudo abuse      | `sudo -l`                          |               |
+| Cron jobs       | Editar scripts ejecutados por root |               |
+| Kernel exploit  | SearchSploit                       |               |
+| Capabilities    | getcap                             |               |
+| PATH abuse      | Script en directorio no protegido  |               |
+| NFS root squash | Montar sistema de archivos         |               |
 
 ### Herramientas
 
@@ -220,12 +220,12 @@ systemctl enable backdoor
 
 ### Documentos Relacionados
 
-- [[../../write-ups/Nike-THL.md|Nike-THL]— Escalada de Privilegios, Linux, SSH
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Linux, SSH
-- [[../../informes/Informe_Nike.md|Informe_Nike]— Linux, Netcat / Reverse Shells, SSH
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Netcat / Reverse Shells, SSH
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Escalada de Privilegios, Linux, SSH
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Netcat / Reverse Shells, Reverse Shells
+- [[../../write-ups/Nike-THL.md|Nike-THL]]— Escalada de Privilegios, Linux, SSH
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]]— Escalada de Privilegios, Linux, SSH
+- [[../../informes/Informe_Nike.md|Informe_Nike]]— Linux, Netcat / Reverse Shells, SSH
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]]— Escalada de Privilegios, Netcat / Reverse Shells, SSH
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Escalada de Privilegios, Linux, SSH
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Netcat / Reverse Shells, Reverse Shells
 
 ### 🛠️ Herramientas
 

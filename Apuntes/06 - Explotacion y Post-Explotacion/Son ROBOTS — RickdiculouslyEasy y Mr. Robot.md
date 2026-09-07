@@ -313,19 +313,19 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 
 ## ⑤ Herramientas de referencia
 
-| Herramienta | Para qué | Uso visto en clase |
-|------------|---------|-------------------|
-| **netdiscover** | Descubrir activos en la red local | `sudo netdiscover -r 10.0.2.0/24` |
-| **nmap** | Escaneo de puertos / versiones | `nmap -sCV <ip>` · `nmap -p- <ip>` |
-| **dirsearch / feroxbuster** | Enumeración de directorios web | `dirsearch -u http://<ip>` |
-| **nc (netcat)** | Conexiones TCP crudas / shells | `nc 10.0.2.15 60000` |
-| **ssh** | Acceso remoto | `ssh user@<ip> -p 22222` |
-| **scp** | Copiar ficheros vía SSH | `scp -P 22222 user@<ip>:/ruta .` |
-| **find (SUID)** | Buscar binarios privilegiados | `find / -perm -4000 2>/dev/null` |
-| **strings / exiftool** | Inspeccionar ficheros e imágenes | `strings img.jpg` · `exiftool img.jpg` |
-| **hydra** | Fuerza bruta de credenciales | `hydra -l user -P dic.txt ssh://<ip>:22222` |
-| **sort | uniq** | Sanitizar diccionarios | `sort dic | uniq > dic_clean` |
-| **Burp Suite + FoxyProxy** | Auditoría web (proxy/repeater/intruder) | Enumeración por longitud de respuesta |
+| Herramienta                 | Para qué                                | Uso visto en clase                          |           |                   |
+| --------------------------- | --------------------------------------- | ------------------------------------------- | --------- | ----------------- |
+| **netdiscover**             | Descubrir activos en la red local       | `sudo netdiscover -r 10.0.2.0/24`           |           |                   |
+| **nmap**                    | Escaneo de puertos / versiones          | `nmap -sCV <ip>` · `nmap -p- <ip>`          |           |                   |
+| **dirsearch / feroxbuster** | Enumeración de directorios web          | `dirsearch -u http://<ip>`                  |           |                   |
+| **nc (netcat)**             | Conexiones TCP crudas / shells          | `nc 10.0.2.15 60000`                        |           |                   |
+| **ssh**                     | Acceso remoto                           | `ssh user@<ip> -p 22222`                    |           |                   |
+| **scp**                     | Copiar ficheros vía SSH                 | `scp -P 22222 user@<ip>:/ruta .`            |           |                   |
+| **find (SUID)**             | Buscar binarios privilegiados           | `find / -perm -4000 2>/dev/null`            |           |                   |
+| **strings / exiftool**      | Inspeccionar ficheros e imágenes        | `strings img.jpg` · `exiftool img.jpg`      |           |                   |
+| **hydra**                   | Fuerza bruta de credenciales            | `hydra -l user -P dic.txt ssh://<ip>:22222` |           |                   |
+| **sort                      | uniq**                                  | Sanitizar diccionarios                      | `sort dic | uniq > dic_clean` |
+| **Burp Suite + FoxyProxy**  | Auditoría web (proxy/repeater/intruder) | Enumeración por longitud de respuesta       |           |                   |
 
 ---
 
@@ -357,12 +357,12 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Hack The Box, SSH, VulnHub
-- [[../../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../informes/Informe_Academy.md|Informe_Academy]— Kali Linux, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Kali Linux
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]]— Hack The Box, SSH, VulnHub
+- [[../../write-ups/Academy-THL.md|Academy-THL]]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../informes/Informe_Academy.md|Informe_Academy]]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]]— Escalada de Privilegios, Hack The Box, Kali Linux
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]]— Hack The Box, Post-Explotación, SSH
 
 ### 🛠️ Herramientas
 

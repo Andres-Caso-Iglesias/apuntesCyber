@@ -237,12 +237,12 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]— Escalada de Privilegios, Redes, XXE
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Redes, XXE
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Escalada de Privilegios, Redes, SQL Injection
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]— Escalada de Privilegios, Redes, XXE
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Redes, XXE
-- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— Escalada de Privilegios, Redes, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]]— Escalada de Privilegios, Redes, XXE
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]]— Escalada de Privilegios, Redes, XXE
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]]— Escalada de Privilegios, Redes, SQL Injection
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]]— Escalada de Privilegios, Redes, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]]— Escalada de Privilegios, Redes, XXE
+- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]]— Escalada de Privilegios, Redes, XXE
 
 ### 🛠️ Herramientas
 

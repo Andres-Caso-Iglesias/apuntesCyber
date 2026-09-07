@@ -118,12 +118,12 @@ Cuando el servidor **no devuelve** la respuesta de la petición interna en la re
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]— Burp Suite, Open Redirect, SSRF
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]— Burp Suite, Open Redirect, SSRF
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]— Open Redirect, SSRF, SSTI
-- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]— Burp Suite, SSRF, SSTI
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— Open Redirect, SSRF, SSTI
-- [[XXE — XML External Entity.md|XXE — XML External Entity]— Burp Suite, SSRF, SSTI
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]]— Burp Suite, Open Redirect, SSRF
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]]— Burp Suite, Open Redirect, SSRF
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]]— Open Redirect, SSRF, SSTI
+- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]]— Burp Suite, SSRF, SSTI
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]]— Open Redirect, SSRF, SSTI
+- [[XXE — XML External Entity.md|XXE — XML External Entity]]— Burp Suite, SSRF, SSTI
 
 ### 🛠️ Herramientas
 

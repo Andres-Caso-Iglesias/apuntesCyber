@@ -139,12 +139,12 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]— Feroxbuster, Hack The Box, Hydra
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— Feroxbuster, Hack The Box, Hydra
-- [[Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— Burp Suite, FFUF, Hack The Box
-- [[../../comandos/Feroxbuster.md|Feroxbuster]— FFUF, Feroxbuster
-- [[../../comandos/BurpSuite.md|BurpSuite]— Burp Suite, Hydra
-- [[../../comandos/GoBuster.md|GoBuster]— FFUF, Feroxbuster
+- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]]— Feroxbuster, Hack The Box, Hydra
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]]— Feroxbuster, Hack The Box, Hydra
+- [[Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]]— Burp Suite, FFUF, Hack The Box
+- [[../../comandos/Feroxbuster.md|Feroxbuster]]— FFUF, Feroxbuster
+- [[../../comandos/BurpSuite.md|BurpSuite]]— Burp Suite, Hydra
+- [[../../comandos/GoBuster.md|GoBuster]]— FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 

@@ -178,11 +178,11 @@ Obligatorio para bancos y empresas que procesan pagos con tarjeta:
 
 ### Documentos Relacionados
 
-- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Blue Team / SOC, Normativa / GRC, Redes
-- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]— Metodología Pentest, Normativa / GRC, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, Normativa / GRC, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]— Blue Team / SOC, Normativa / GRC, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]— Blue Team / SOC, Normativa / GRC, Redes
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]— Empleabilidad, Normativa / GRC, Redes
+- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]]— Metodología Pentest, Normativa / GRC, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]]— Certificaciones, Normativa / GRC, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]]— Blue Team / SOC, Normativa / GRC, Redes
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]]— Empleabilidad, Normativa / GRC, Redes
 
 > #blue-team #certificaciones #empleabilidad #ia #normativa #pentest #redes

@@ -158,14 +158,14 @@ netsh advfirewall show allprofiles
 
 ### Técnicas Comunes
 
-| Vector | Herramienta |
-|--------|-------------|
-| Token impersonation | [[Metasploit#Meterpreter — Sistema|getsystem]] |
-| Service abuse | sc config, sc start |
-| AlwaysInstallElevated | MSI installer |
-| Unquoted service path | Buscar rutas sin comillas |
-| DLL hijacking | Reemplazar DLL |
-| Kernel exploit | SearchSploit |
+| Vector                | Herramienta                        |             |
+| --------------------- | ---------------------------------- | ----------- |
+| Token impersonation   | [[Metasploit#Meterpreter — Sistema | getsystem]] |
+| Service abuse         | sc config, sc start                |             |
+| AlwaysInstallElevated | MSI installer                      |             |
+| Unquoted service path | Buscar rutas sin comillas          |             |
+| DLL hijacking         | Reemplazar DLL                     |             |
+| Kernel exploit        | SearchSploit                       |             |
 
 ### Herramientas
 
@@ -266,12 +266,12 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Redes, SMB / Impacket, Windows
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]— Redes, SMB / Impacket, Windows
-- [[../../comandos/Metasploit.md|Metasploit]— Metasploit, Post-Explotación, Redes
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Escalada de Privilegios, Metasploit, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]]— Redes, SMB / Impacket, Windows
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]]— Redes, SMB / Impacket, Windows
+- [[../../comandos/Metasploit.md|Metasploit]]— Metasploit, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]]— Escalada de Privilegios, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 

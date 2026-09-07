@@ -138,12 +138,12 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, VulnHub
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, VulnHub
-- [[Escalada de Privilegios.md|Escalada de Privilegios]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Escalada de Privilegios, Hack The Box, Post-Explotación
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hack The Box, Post-Explotación, VulnHub
+- [[Escalada de Privilegios.md|Escalada de Privilegios]]— Hack The Box, Post-Explotación, VulnHub
 
 ### 🛠️ Herramientas
 

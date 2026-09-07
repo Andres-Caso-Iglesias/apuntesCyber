@@ -157,12 +157,12 @@ xxd imagen.jpg | head -20 # ver bytes en hex (magic bytes)
 
 ### Documentos Relacionados
 
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Forense Digital, Hydra, Redes
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]— Forense Digital, Hydra, OSINT
-- [[../05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hack The Box, Hydra, VulnHub
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase7.md|resumen_master_clase7]— Hack The Box, Hydra, Redes
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— Hack The Box, Hydra, VulnHub
-- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]— Hack The Box, Metodología Pentest, VulnHub
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]]— Forense Digital, Hydra, Redes
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]]— Forense Digital, Hydra, OSINT
+- [[../05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]]— Hack The Box, Hydra, VulnHub
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase7.md|resumen_master_clase7]]— Hack The Box, Hydra, Redes
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]]— Hack The Box, Hydra, VulnHub
+- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]]— Hack The Box, Metodología Pentest, VulnHub
 
 ### 🛠️ Herramientas
 

@@ -657,12 +657,12 @@
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]— Normativa / GRC, WiFi / Hardware, XSS
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, SSH, XSS
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, GoBuster, XSS
-- [[../../apuntes Joselu/PREWORK/resumen_clase17.md|resumen_clase17]— GoBuster, SSH, WiFi / Hardware
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, GoBuster, XSS
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— SSH, WiFi / Hardware, XSS
+- [[../../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]]— Normativa / GRC, WiFi / Hardware, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Escalada de Privilegios, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Joselu/PREWORK/resumen_clase17.md|resumen_clase17]]— GoBuster, SSH, WiFi / Hardware
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]]— Escalada de Privilegios, GoBuster, XSS
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]]— SSH, WiFi / Hardware, XSS
 
 ### 🛠️ Herramientas
 

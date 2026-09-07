@@ -470,12 +470,12 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, SSH, XSS
-- [[Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, SSH, XSS
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]]— Kali Linux, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]]— Escalada de Privilegios, SSH, XSS
+- [[Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]]— Kali Linux, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]]— Kali Linux, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]]— Kali Linux, Metasploit, SSH
 
 ### 🛠️ Herramientas
 

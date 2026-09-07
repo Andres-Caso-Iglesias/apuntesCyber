@@ -24,12 +24,12 @@
 
 ## Metodologías
 
-| # | Metodología | Objetivo | Fases |
-|---|-------------|----------|-------|
-| 1 | [[Metodología - Explotación Linux|Explotación Linux]] | Máquinas Linux standalone | Recon → Enum → Explot → Escalar |
-| 2 | [[Metodología - Explotación Windows|Explotación Windows]] | Máquinas Windows standalone | Recon → Enum → Explot → Escalar → PSExec |
-| 3 | [[Metodologia - Aplicaciones Web|Aplicaciones Web]] | Auditar y explotar webapps | Recon → Enum → Fuzz → SQLi/XSS/SSRF |
-| 4 | [[Metodología - Active Directory|Active Directory]] | Entornos AD corporativos | Enum → Kerberoast → DCSync → Golden Ticket |
+| #   | Metodología                           | Objetivo            | Fases                       |                                            |
+| --- | ------------------------------------- | ------------------- | --------------------------- | ------------------------------------------ |
+| 1   | [[Metodología - Explotación Linux]]   | Explotación Linux   | Máquinas Linux standalone   | Recon → Enum → Explot → Escalar            |
+| 2   | [[Metodología - Explotación Windows]] | Explotación Windows | Máquinas Windows standalone | Recon → Enum → Explot → Escalar → PSExec   |
+| 3   | [[Metodologia - Aplicaciones Web]]    | Aplicaciones Web    | Auditar y explotar webapps  | Recon → Enum → Fuzz → SQLi/XSS/SSRF        |
+| 4   | [[Metodología - Active Directory]]    | Active Directory    | Entornos AD corporativos    | Enum → Kerberoast → DCSync → Golden Ticket |
 
 ---
 
@@ -101,12 +101,12 @@
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— SSH, SSRF, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Hydra, SSH, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Hydra, SSH, XSS
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Hydra, SSRF, XSS
-- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hydra, SMB / Impacket, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]— SSH, SSRF, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— SSH, SSRF, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]]— Hydra, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Hydra, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Hydra, SSRF, XSS
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hydra, SMB / Impacket, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]]— SSH, SSRF, XSS
 
 ### 🛠️ Herramientas
 

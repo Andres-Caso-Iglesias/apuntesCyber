@@ -209,12 +209,12 @@ Servidor web
 
 ### Documentos Relacionados
 
-- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Redes, SSRF, XSS
-- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Hack The Box, VulnHub, XSS
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— Hack The Box, Kali Linux, SSRF
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]— Hack The Box, SSRF, XSS
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— Hack The Box, Kali Linux, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSRF, XSS
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]]— Redes, SSRF, XSS
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]]— Hack The Box, VulnHub, XSS
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]]— Hack The Box, Kali Linux, SSRF
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]]— Hack The Box, SSRF, XSS
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]]— Hack The Box, Kali Linux, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]]— Hack The Box, SSRF, XSS
 
 ### 🛠️ Herramientas
 

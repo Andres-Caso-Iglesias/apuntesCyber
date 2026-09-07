@@ -118,12 +118,12 @@ mkdir exploits
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Hack The Box, SSH, VulnHub
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, SSH, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, Redes, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, Redes, SSH
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, SSH, VulnHub
-- [[../../comandos/Metasploit.md|Metasploit]— Pivoting / Movilidad Lateral, Redes, SSH
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]]— Hack The Box, SSH, VulnHub
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]]— Hack The Box, Redes, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]]— Hack The Box, Redes, SSH
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, SSH, VulnHub
+- [[../../comandos/Metasploit.md|Metasploit]]— Pivoting / Movilidad Lateral, Redes, SSH
 
 ### 🛠️ Herramientas
 

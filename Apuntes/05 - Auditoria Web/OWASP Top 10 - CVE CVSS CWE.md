@@ -144,12 +144,12 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 
 ### Documentos Relacionados
 
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Redes, SSRF, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]— Normativa / GRC, SSRF, XSS
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— Normativa / GRC, SSRF, XSS
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]— Redes, SSRF, XSS
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]— Command Injection / RCE, Redes, SSRF
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Normativa / GRC, Redes, XSS
+- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]]— Redes, SSRF, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]]— Normativa / GRC, SSRF, XSS
+- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]]— Normativa / GRC, SSRF, XSS
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]]— Redes, SSRF, XSS
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]]— Command Injection / RCE, Redes, SSRF
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]]— Normativa / GRC, Redes, XSS
 
 ### 🛠️ Herramientas
 

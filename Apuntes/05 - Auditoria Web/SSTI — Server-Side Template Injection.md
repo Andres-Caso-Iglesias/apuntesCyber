@@ -144,12 +144,12 @@ Cuando no ves el output directamente (sin renderizado).
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]— Command Injection / RCE, SSRF, SSTI
-- [[XXE — XML External Entity.md|XXE — XML External Entity]— Burp Suite, Command Injection / RCE, SSRF
-- [[SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]— Burp Suite, SSRF, SSTI
-- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Command Injection / RCE, SSRF, XSS
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— Command Injection / RCE, SSRF, SSTI
-- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]— Burp Suite, SQL Injection, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]]— Command Injection / RCE, SSRF, SSTI
+- [[XXE — XML External Entity.md|XXE — XML External Entity]]— Burp Suite, Command Injection / RCE, SSRF
+- [[SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]]— Burp Suite, SSRF, SSTI
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]]— Command Injection / RCE, SSRF, XSS
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]]— Command Injection / RCE, SSRF, SSTI
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]]— Burp Suite, SQL Injection, XSS
 
 ### 🛠️ Herramientas
 

@@ -353,12 +353,12 @@ impacket-psexec administrator:'PASS'@IP
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Post-Explotación, SSH
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Hack The Box, Post-Explotación, SSH
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]]— Hack The Box, Post-Explotación, SSH
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]]— Hack The Box, Post-Explotación, SSH
 
 ### 🛠️ Herramientas
 

@@ -446,12 +446,12 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Escalada de Privilegios, GoBuster, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Escalada de Privilegios, GoBuster, XSS
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Escalada de Privilegios, GoBuster, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]— Feroxbuster, GoBuster, XSS
-- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Escalada de Privilegios, Windows, XSS
-- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Escalada de Privilegios, Hack The Box, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Escalada de Privilegios, GoBuster, XSS
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]]— Escalada de Privilegios, GoBuster, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]]— Feroxbuster, GoBuster, XSS
+- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]— Escalada de Privilegios, Windows, XSS
+- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]— Escalada de Privilegios, Hack The Box, XSS
 
 ### 🛠️ Herramientas
 

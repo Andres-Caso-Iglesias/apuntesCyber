@@ -495,12 +495,12 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, SSH, XSS
-- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, SSH, XSS
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]]— Kali Linux, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]]— Kali Linux, Metasploit, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]]— Escalada de Privilegios, SSH, XSS
+- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]]— Kali Linux, SSH, XSS
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]]— Kali Linux, SSH, XSS
 
 ### 🛠️ Herramientas
 

@@ -181,11 +181,11 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Windows
-- [[Linux - Bash Scripting.md|Linux - Bash Scripting]— Forense Digital, Linux, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]— Escalada de Privilegios, Forense Digital, Linux
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]— Escalada de Privilegios, Linux, Windows
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Forense Digital, Linux
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]]— Forense Digital, Linux, Windows
+- [[Linux - Bash Scripting.md|Linux - Bash Scripting]]— Forense Digital, Linux, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]]— Escalada de Privilegios, Forense Digital, Linux
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]]— Escalada de Privilegios, Linux, Windows
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Forense Digital, Linux
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]]— Escalada de Privilegios, Linux, Windows
 
 > #escalada-privilegios #forense #linux #windows

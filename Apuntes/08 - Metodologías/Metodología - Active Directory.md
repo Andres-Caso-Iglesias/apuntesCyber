@@ -244,11 +244,11 @@ Get-DomainComputer
 
 ### Documentos Relacionados
 
-- [[../../comandos/Windows.md|Windows]— Windows
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Windows
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Windows
-- [[../../comandos/John_Hashcat.md|John_Hashcat]— Windows
+- [[../../comandos/Windows.md|Windows]]— Windows
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]]— Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]]— Windows
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]]— Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]]— Windows
+- [[../../comandos/John_Hashcat.md|John_Hashcat]]— Windows
 
 > #windows

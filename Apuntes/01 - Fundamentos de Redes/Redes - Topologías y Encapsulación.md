@@ -21,10 +21,10 @@
 ## ② Topologías de red
 
 ```
- BUS ESTRELLA ANILLO MALLA
-───────────── ┌───┐ ┌───┐ ○→○→○→○ ○──○──○
- ○──○──○──○ │ ├──┤ │ ↑ ↓ │ │ │
- └───┘ └───┘ ○←○←○←○ ○──○──○
+     BUS        ESTRELLA     ANILLO    MALLA
+              ┌───┐  ┌───┐  ○→○→○→○   ○──○──○
+ ○──○──○──○   │   ├──┤   │  ↑     ↓   │  │  │
+              └───┘  └───┘  ○←○←○←○   ○──○──○
 ```
 
 | Topología | Descripción |
@@ -113,12 +113,12 @@ traceroute -I 8.8.8.8 # usando ICMP en lugar de UDP
 
 ### Documentos Relacionados
 
-- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]— Redes, WiFi / Hardware, Wireshark
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]— Redes, WiFi / Hardware
-- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]— Redes, WiFi / Hardware, Wireshark
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Redes, WiFi / Hardware, Wireshark
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase12.md|resumen_master_clase12]— Redes, WiFi / Hardware, Wireshark
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]— Redes, WiFi / Hardware, Wireshark
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]]— Redes, WiFi / Hardware, Wireshark
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]]— Redes, WiFi / Hardware
+- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]]— Redes, WiFi / Hardware, Wireshark
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]]— Redes, WiFi / Hardware, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase12.md|resumen_master_clase12]]— Redes, WiFi / Hardware, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]]— Redes, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 

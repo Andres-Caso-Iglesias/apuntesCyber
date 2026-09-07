@@ -133,12 +133,12 @@
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]— Hack The Box, VulnHub, XSS
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]— Hack The Box, Normativa / GRC, VulnHub
-- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]— Empleabilidad, Hack The Box, VulnHub
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Empleabilidad, Metodología Pentest, Normativa / GRC
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]— Hack The Box, Metodología Pentest, VulnHub
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]]— Hack The Box, VulnHub, XSS
+- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]]— Hack The Box, Normativa / GRC, VulnHub
+- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]]— Empleabilidad, Hack The Box, VulnHub
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]]— Certificaciones, Metodología Pentest, Normativa / GRC
+- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]]— Empleabilidad, Metodología Pentest, Normativa / GRC
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]]— Hack The Box, Metodología Pentest, VulnHub
 
 ### 🛠️ Herramientas
 

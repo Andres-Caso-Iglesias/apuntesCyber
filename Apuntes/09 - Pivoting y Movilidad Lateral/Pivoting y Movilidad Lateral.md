@@ -199,12 +199,12 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Redes, SSH
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]]— Escalada de Privilegios, Redes, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]]— Escalada de Privilegios, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 

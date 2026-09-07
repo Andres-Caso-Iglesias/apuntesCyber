@@ -128,12 +128,12 @@
 
 ### Documentos Relacionados
 
-- [[../05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]— Post-Explotación, RFI, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]— SSH, SSTI, XSS
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]— GoBuster, SSH, XSS
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, SSRF, XSS
+- [[../05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]]— GoBuster, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]]— Post-Explotación, RFI, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]]— SSH, SSTI, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Post-Explotación, SSH, XSS
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]]— GoBuster, SSH, XSS
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Post-Explotación, SSRF, XSS
 
 ### 🛠️ Herramientas
 

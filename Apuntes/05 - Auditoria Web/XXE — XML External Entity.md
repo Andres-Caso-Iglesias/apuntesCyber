@@ -174,12 +174,12 @@ curl -X POST http://target/api \
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]— SSRF, SSTI, XXE
-- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]— Burp Suite, Command Injection / RCE, SSRF
-- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]— File Upload, SSRF, XXE
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— SSRF, SSTI, XXE
-- [[Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]— Burp Suite, Path Traversal / LFI, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]— Burp Suite, SSRF, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]]— SSRF, SSTI, XXE
+- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]]— Burp Suite, Command Injection / RCE, SSRF
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]]— File Upload, SSRF, XXE
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]]— SSRF, SSTI, XXE
+- [[Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]]— Burp Suite, Path Traversal / LFI, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]]— Burp Suite, SSRF, XXE
 
 ### 🛠️ Herramientas
 

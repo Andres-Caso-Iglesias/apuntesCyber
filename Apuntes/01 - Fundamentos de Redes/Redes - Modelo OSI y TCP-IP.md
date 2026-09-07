@@ -18,13 +18,13 @@ Una red existe cuando **dos o más dispositivos intercambian información y hay 
 
 ```
 ┌─────────────────────────────────────────────────┐
-│ 7. Aplicación │ HTTP, FTP, DNS, SMTP │ ← Lo que ve el usuario
-│ 6. Presentación │ Cifrado, compresión (SSL) │
-│ 5. Sesión │ Gestión de sesiones │
-│ 4. Transporte │ TCP / UDP — Puertos │
-│ 3. Red │ IP — Routers │
-│ 2. Enlace │ MAC — Switches │
-│ 1. Física │ Cables, WiFi, señales │
+│ 7. Aplicación   │ HTTP, FTP, DNS, SMTP          │ ← Lo que ve el usuario
+│ 6. Presentación │ Cifrado, compresión (SSL)     │
+│ 5. Sesión       │ Gestión de sesiones           │
+│ 4. Transporte   │ TCP / UDP — Puertos           │
+│ 3. Red          │ IP — Routers                  │
+│ 2. Enlace       │ MAC — Switches                │
+│ 1. Física       │ Cables, WiFi, señales         │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -101,18 +101,18 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 
 ```
  OSI (teórico) TCP/IP (real)
-┌──────────────┐ ┌──────────────────┐
-│ 7. Aplicación│ │ Aplicación │
-│ 6. Presentac.│ → │ (HTTP,DNS,SSH) │
-│ 5. Sesión │ ├──────────────────┤
-├──────────────┤ │ Transporte │
-│ 4. Transporte│ → │ (TCP / UDP) │
-├──────────────┤ ├──────────────────┤
-│ 3. Red │ → │ Internet │
-├──────────────┤ │ (IP,ICMP,ARP) │
-│ 2. Enlace │ → ├──────────────────┤
-│ 1. Física │ │ Acceso a red │
-└──────────────┘ └──────────────────┘
+┌──────────────┐   ┌──────────────────┐
+│ 7. Aplicación│   │ Aplicación       │
+│ 6. Presentac.│ → │ (HTTP,DNS,SSH)   │
+│ 5. Sesión    │   ├──────────────────┤
+├──────────────┤   │ Transporte       │
+│ 4. Transporte│ → │ (TCP / UDP)      │
+├──────────────┤   ├──────────────────┤
+│ 3. Red       │ → │ Internet         │
+├──────────────┤   │ (IP,ICMP,ARP)    │
+│ 2. Enlace    │ → ├──────────────────┤
+│ 1. Física    │   │ Acceso a red     │
+└──────────────┘   └──────────────────┘
 ```
 
 ---
@@ -131,12 +131,12 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]— SSH, WiFi / Hardware, XSS
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]— SSH, WiFi / Hardware, XSS
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Redes, SSH, XSS
-- [[../../apuntes Chema/Wireshark.md|Wireshark]— Redes, SSH, Wireshark
-- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]— Redes, WiFi / Hardware, Wireshark
-- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]— Redes, WiFi / Hardware, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]]— SSH, WiFi / Hardware, XSS
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]]— SSH, WiFi / Hardware, XSS
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]]— Redes, SSH, XSS
+- [[../../apuntes Chema/Wireshark.md|Wireshark]]— Redes, SSH, Wireshark
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]]— Redes, WiFi / Hardware, Wireshark
+- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]]— Redes, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 

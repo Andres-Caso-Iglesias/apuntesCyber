@@ -309,12 +309,12 @@ nc 10.0.2.15 60000
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— GoBuster, Kali Linux, SSH
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Kali Linux, Post-Explotación, SSH
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Kali Linux, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]— GoBuster, Kali Linux, SSH
-- [[../../write-ups/Academy-THL.md|Academy-THL]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]]— GoBuster, Kali Linux, SSH
+- [[../../write-ups/Academy-THL.md|Academy-THL]]— GoBuster, Kali Linux, SSH
 
 ### 🛠️ Herramientas
 

@@ -265,10 +265,10 @@ Agente (LLM + sistema de razonamiento)
 ┌─────────────────────────────────┐
 │  Herramientas:                  │
 │  - Buscador web                 │
-│  - Terminal                      │
-│  - APIs                          │
-│  - Bases de datos                │
-│  - Otros agentes (subagentes)    │
+│  - Terminal                     │
+│  - APIs                         │
+│  - Bases de datos               │
+│  - Otros agentes (subagentes)   │
 └─────────────────────────────────┘
     ↓
 Resultado

@@ -133,12 +133,12 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, SSH
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, VulnHub
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]— Hack The Box, Post-Explotación, SSH
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, Post-Explotación, VulnHub
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]]— Hack The Box, Post-Explotación, SSH
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Hack The Box, Post-Explotación, SSH
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]— Hack The Box, Post-Explotación, VulnHub
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]]— Hack The Box, SSH, VulnHub
 
 ### 🛠️ Herramientas
 

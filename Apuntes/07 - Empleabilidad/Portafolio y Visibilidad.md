@@ -76,11 +76,11 @@ Portafolio + presencia pública
 
 ### Documentos Relacionados
 
-- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]— Empleabilidad, Hack The Box, VulnHub
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]— Empleabilidad, Hack The Box, VulnHub
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]— Hack The Box, VulnHub
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— Hack The Box, VulnHub
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]— Hack The Box, VulnHub
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Hack The Box, VulnHub
+- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]]— Empleabilidad, Hack The Box, VulnHub
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]]— Empleabilidad, Hack The Box, VulnHub
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]]— Hack The Box, VulnHub
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]]— Hack The Box, VulnHub
+- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]]— Hack The Box, VulnHub
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Hack The Box, VulnHub
 
 > #empleabilidad #hack-the-box #vulnhub

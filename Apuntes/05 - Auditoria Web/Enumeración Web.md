@@ -113,12 +113,12 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]— Feroxbuster, GoBuster, Google Dorks
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Feroxbuster, GoBuster, WPScan
-- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Feroxbuster, GoBuster, WPScan
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, Metodología Pentest, Nmap
-- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— DirSearch, Feroxbuster, GoBuster
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]— DirSearch, Feroxbuster, GoBuster
+- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]]— Feroxbuster, GoBuster, Google Dorks
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Feroxbuster, GoBuster, WPScan
+- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Feroxbuster, GoBuster, WPScan
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]]— Google Dorks, Metodología Pentest, Nmap
+- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]]— DirSearch, Feroxbuster, GoBuster
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]]— DirSearch, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
