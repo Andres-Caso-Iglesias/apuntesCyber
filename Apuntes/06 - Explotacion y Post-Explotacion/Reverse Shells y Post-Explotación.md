@@ -164,7 +164,7 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]
 

@@ -461,7 +461,7 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/WPScan|WPScan]]

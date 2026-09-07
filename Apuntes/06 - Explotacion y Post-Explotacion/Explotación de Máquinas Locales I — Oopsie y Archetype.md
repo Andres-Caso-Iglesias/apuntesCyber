@@ -366,7 +366,7 @@ impacket-psexec administrator:'PASS'@IP
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]

@@ -484,7 +484,7 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas

@@ -229,7 +229,7 @@ systemctl enable backdoor
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
 > #escalada-privilegios #linux #netcat #reverse-shell #ssh

@@ -208,7 +208,7 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 

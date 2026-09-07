@@ -1,12 +1,12 @@
 # Índice de Conceptos — Red Neuronal
 
-> **285 archivos** | **53 conceptos** | **1710 enlaces**
+> **289 archivos** | **53 conceptos** | **1734 enlaces**
 
 ## Auth Bypass (1)
 
 - `transcripciones\Septiembre\01.09.2026 Repaso General I.md`
 
-## Blue Team / SOC (78)
+## Blue Team / SOC (79)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Linux - Bash Scripting.md`
@@ -18,9 +18,9 @@
 - `Apuntes\09 - Pivoting y Movilidad Lateral\Pivoting y Movilidad Lateral.md`
 - `Apuntes\11 - Forense Digital\Análisis Forense y Memoria.md`
 - `Apuntes\12 - Blue Team y SOC\Blue Team - SOC e Incidentes.md`
-- *... y 68 más*
+- *... y 69 más*
 
-## Burp Suite (143)
+## Burp Suite (146)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Modelo OSI y TCP-IP.md`
@@ -32,9 +32,9 @@
 - `Apuntes\05 - Auditoria Web\OWASP Top 10 - CVE CVSS CWE.md`
 - `Apuntes\05 - Auditoria Web\Path Traversal — 6 Casos y Bypasses.md`
 - `Apuntes\05 - Auditoria Web\Repaso de Enumeración Web.md`
-- *... y 133 más*
+- *... y 136 más*
 
-## Certificaciones (70)
+## Certificaciones (71)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md`
@@ -46,9 +46,9 @@
 - `apuntes Andres\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md`
 - `apuntes Andres\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md`
 - `apuntes Andres\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md`
-- *... y 60 más*
+- *... y 61 más*
 
-## Command Injection / RCE (108)
+## Command Injection / RCE (109)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -60,7 +60,7 @@
 - `Apuntes\05 - Auditoria Web\WordPress - Auditoría con WPScan.md`
 - `Apuntes\05 - Auditoria Web\XXE — XML External Entity.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md`
-- *... y 98 más*
+- *... y 99 más*
 
 ## CSRF (12)
 
@@ -76,7 +76,7 @@
 - `apuntes Joselu\PREWORK\resumen_clase5.md`
 - *... y 2 más*
 
-## DirSearch (54)
+## DirSearch (55)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -88,9 +88,9 @@
 - `Apuntes\08 - Metodologías\Metodologia - Aplicaciones Web.md`
 - `apuntes Andres\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md`
 - `apuntes Andres\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md`
-- *... y 44 más*
+- *... y 45 más*
 
-## Empleabilidad (42)
+## Empleabilidad (43)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\04 - OSINT y Recopilacion\Esteganografía y Metadatos.md`
@@ -102,9 +102,9 @@
 - `apuntes Andres\17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md`
 - `apuntes Andres\21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md`
 - `apuntes Andres\24.07.2026 Repaso Semanal III.md`
-- *... y 32 más*
+- *... y 33 más*
 
-## Escalada de Privilegios (119)
+## Escalada de Privilegios (121)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Linux - Fundamentos.md`
@@ -116,9 +116,9 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Servicios - Linux.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Servicios - Windows.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Prácticas CTF - HTB y VulnHub.md`
-- *... y 109 más*
+- *... y 111 más*
 
-## Esteganografía (19)
+## Esteganografía (20)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\04 - OSINT y Recopilacion\Esteganografía y Metadatos.md`
@@ -130,7 +130,7 @@
 - `apuntes Chema\Glosario de Ciberseguridad.md`
 - `apuntes Chema\Maquinas\Son ROBOTS.md`
 - `apuntes Chema\OSINT y Esteganografía.md`
-- *... y 9 más*
+- *... y 10 más*
 
 ## Feroxbuster (51)
 
@@ -160,7 +160,7 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md`
 - *... y 43 más*
 
-## File Upload (70)
+## File Upload (72)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -172,9 +172,9 @@
 - `apuntes Andres\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md`
 - `apuntes Andres\01.09.2026 Repaso General I.md`
 - `apuntes Andres\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md`
-- *... y 60 más*
+- *... y 62 más*
 
-## Forense Digital (49)
+## Forense Digital (51)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Linux - Bash Scripting.md`
@@ -186,9 +186,9 @@
 - `Apuntes\09 - Pivoting y Movilidad Lateral\Pivoting y Movilidad Lateral.md`
 - `Apuntes\10 - Redes WiFi y Hardware\Auditoría WiFi y Car Hacking.md`
 - `Apuntes\11 - Forense Digital\Análisis Forense y Memoria.md`
-- *... y 39 más*
+- *... y 41 más*
 
-## GoBuster (58)
+## GoBuster (59)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -200,7 +200,7 @@
 - `apuntes Andres\01.09.2026 Repaso General I.md`
 - `apuntes Andres\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md`
 - `apuntes Andres\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md`
-- *... y 48 más*
+- *... y 49 más*
 
 ## Google Dorks (14)
 
@@ -216,7 +216,7 @@
 - `apuntes Joselu\MODULO2\resumen_master_clase9.md`
 - *... y 4 más*
 
-## Hack The Box (107)
+## Hack The Box (109)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\04 - OSINT y Recopilacion\Esteganografía y Metadatos.md`
@@ -228,9 +228,9 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Máquinas Locales I — Oopsie y Archetype.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Servicios - Linux.md`
-- *... y 97 más*
+- *... y 99 más*
 
-## Hydra (136)
+## Hydra (139)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\04 - OSINT y Recopilacion\Esteganografía y Metadatos.md`
@@ -242,9 +242,9 @@
 - `Apuntes\05 - Auditoria Web\Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md`
 - `Apuntes\05 - Auditoria Web\WordPress - Auditoría con WPScan.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Anonimato e Ingeniería Social.md`
-- *... y 126 más*
+- *... y 129 más*
 
-## IA en Ciberseguridad (125)
+## IA en Ciberseguridad (127)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Anonimato e Ingeniería Social.md`
@@ -256,7 +256,7 @@
 - `apuntes Andres\09.07.2026 XXE - XML External Entity y Máquina Castor.md`
 - `apuntes Andres\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md`
 - `apuntes Andres\15.07.2026 IA Introducción y Vibe Coding.md`
-- *... y 115 más*
+- *... y 117 más*
 
 ## IDOR (39)
 
@@ -272,7 +272,7 @@
 - `apuntes Andres\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md`
 - *... y 29 más*
 
-## John / Hashcat (31)
+## John / Hashcat (32)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md`
@@ -284,9 +284,9 @@
 - `apuntes Chema\Maquinas\HTB Starting Point — Repaso e inicio de Tier 2.md`
 - `apuntes Chema\Maquinas\HackTheBox Starting Point — Tier 1.md`
 - `apuntes Chema\Maquinas\Reactor_HTB.md`
-- *... y 21 más*
+- *... y 22 más*
 
-## Kali Linux (134)
+## Kali Linux (137)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Consolas - Bash y PowerShell.md`
@@ -298,7 +298,7 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md`
 - `apuntes Andres\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md`
 - `apuntes Andres\01.09.2026 Repaso General I.md`
-- *... y 124 más*
+- *... y 127 más*
 
 ## Path Traversal / LFI (87)
 
@@ -314,7 +314,7 @@
 - `apuntes Andres\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md`
 - *... y 77 más*
 
-## Linux (195)
+## Linux (199)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Consolas - Bash y PowerShell.md`
@@ -326,7 +326,7 @@
 - `Apuntes\05 - Auditoria Web\SQL Injection.md`
 - `Apuntes\05 - Auditoria Web\Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Escalada de Privilegios.md`
-- *... y 185 más*
+- *... y 189 más*
 
 ## Metasploit (115)
 
@@ -356,7 +356,7 @@
 - `apuntes Chema\Maquinas\Cierre de Vaccine + Máquina Oopsie.md`
 - *... y 33 más*
 
-## Netcat / Reverse Shells (149)
+## Netcat / Reverse Shells (152)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -368,9 +368,9 @@
 - `Apuntes\05 - Auditoria Web\WordPress - Auditoría con WPScan.md`
 - `Apuntes\05 - Auditoria Web\XXE — XML External Entity.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Escalada de Privilegios.md`
-- *... y 139 más*
+- *... y 142 más*
 
-## Nmap (152)
+## Nmap (154)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Direccionamiento IP y DNS.md`
@@ -382,9 +382,9 @@
 - `Apuntes\04 - OSINT y Recopilacion\OSINT - Metodología y Fuentes.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
 - `Apuntes\05 - Auditoria Web\Enumeración Web.md`
-- *... y 142 más*
+- *... y 144 más*
 
-## Normativa / GRC (46)
+## Normativa / GRC (48)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\OWASP Top 10 - CVE CVSS CWE.md`
@@ -396,7 +396,7 @@
 - `README.md`
 - `apuntes Andres\29.07.2026 Presentación Práctica 1.md`
 - `apuntes Chema\Glosario de Ciberseguridad.md`
-- *... y 36 más*
+- *... y 38 más*
 
 ## Open Redirect (9)
 
@@ -424,7 +424,7 @@
 - `Apuntes\07 - Empleabilidad\Portafolio y Visibilidad.md`
 - *... y 51 más*
 
-## Metodología Pentest (146)
+## Metodología Pentest (149)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Direccionamiento IP y DNS.md`
@@ -436,7 +436,7 @@
 - `Apuntes\05 - Auditoria Web\Enumeración Web.md`
 - `Apuntes\05 - Auditoria Web\OWASP Top 10 - CVE CVSS CWE.md`
 - `Apuntes\05 - Auditoria Web\Repaso de Enumeración Web.md`
-- *... y 136 más*
+- *... y 139 más*
 
 ## Pivoting / Movilidad Lateral (51)
 
@@ -452,7 +452,7 @@
 - `apuntes Andres\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md`
 - *... y 41 más*
 
-## Post-Explotación (161)
+## Post-Explotación (162)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\03 - Herramientas de Analisis\Wireshark - Análisis de Tráfico.md`
@@ -464,9 +464,9 @@
 - `Apuntes\05 - Auditoria Web\Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md`
 - `Apuntes\05 - Auditoria Web\WordPress - Auditoría con WPScan.md`
 - `Apuntes\05 - Auditoria Web\XXE — XML External Entity.md`
-- *... y 151 más*
+- *... y 152 más*
 
-## Redes (285)
+## Redes (289)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Direccionamiento IP y DNS.md`
@@ -478,9 +478,9 @@
 - `Apuntes\03 - Herramientas de Analisis\Nmap - Escaneo y Enumeración.md`
 - `Apuntes\03 - Herramientas de Analisis\Wireshark - Análisis de Tráfico.md`
 - `Apuntes\04 - OSINT y Recopilacion\Esteganografía y Metadatos.md`
-- *... y 275 más*
+- *... y 279 más*
 
-## Reverse Shells (149)
+## Reverse Shells (152)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -492,7 +492,7 @@
 - `Apuntes\05 - Auditoria Web\WordPress - Auditoría con WPScan.md`
 - `Apuntes\05 - Auditoria Web\XXE — XML External Entity.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Escalada de Privilegios.md`
-- *... y 139 más*
+- *... y 142 más*
 
 ## RFI (17)
 
@@ -550,7 +550,7 @@
 - `README.md`
 - *... y 26 más*
 
-## SSH (151)
+## SSH (154)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Modelo OSI y TCP-IP.md`
@@ -562,7 +562,7 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Máquinas Locales I — Oopsie y Archetype.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Servicios - Linux.md`
-- *... y 141 más*
+- *... y 144 más*
 
 ## SSRF (50)
 
@@ -643,7 +643,7 @@
 - `Apuntes\09 - Pivoting y Movilidad Lateral\Pivoting y Movilidad Lateral.md`
 - *... y 32 más*
 
-## Windows (156)
+## Windows (158)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\02 - Sistemas Operativos\Consolas - Bash y PowerShell.md`
@@ -655,7 +655,7 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación de Máquinas Locales I — Oopsie y Archetype.md`
-- *... y 146 más*
+- *... y 148 más*
 
 ## Wireshark (35)
 
@@ -671,7 +671,7 @@
 - `apuntes Chema\Burp Suite a fondo · Auditoría web · WordPress.md`
 - *... y 25 más*
 
-## WordPress (64)
+## WordPress (67)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Auditoria Web — Práctica con Metasploitable.md`
@@ -683,9 +683,9 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md`
 - `Apuntes\08 - Metodologías\00 - Metodologías de Explotación.md`
 - `apuntes Andres\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md`
-- *... y 54 más*
+- *... y 57 más*
 
-## WPScan (38)
+## WPScan (39)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\05 - Auditoria Web\Burp Suite - Framework de Auditoría.md`
@@ -695,11 +695,11 @@
 - `Apuntes\08 - Metodologías\00 - Metodologías de Explotación.md`
 - `apuntes Andres\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md`
 - `apuntes Andres\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md`
+- `apuntes Andres\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md`
 - `apuntes Andres\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md`
-- `apuntes Andres\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md`
-- *... y 28 más*
+- *... y 29 más*
 
-## XSS (67)
+## XSS (68)
 
 - `Apuntes\00 - Mapa de Contenidos\MOC - Ciberseguridad.md`
 - `Apuntes\01 - Fundamentos de Redes\Redes - Modelo OSI y TCP-IP.md`
@@ -711,7 +711,7 @@
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md`
 - `Apuntes\06 - Explotacion y Post-Explotacion\Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md`
 - `Apuntes\07 - Empleabilidad\Mercado Laboral y Certificaciones.md`
-- *... y 57 más*
+- *... y 58 más*
 
 ## XXE (64)
 

@@ -166,7 +166,7 @@ chmod +x linpeas.sh
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 

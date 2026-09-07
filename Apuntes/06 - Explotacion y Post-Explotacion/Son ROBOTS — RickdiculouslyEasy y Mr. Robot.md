@@ -370,7 +370,7 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 

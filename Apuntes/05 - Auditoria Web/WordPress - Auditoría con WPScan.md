@@ -163,7 +163,7 @@ stty raw -echo; fg
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas

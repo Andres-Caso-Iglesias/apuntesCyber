@@ -15,10 +15,10 @@
 ### Cómo funciona una aplicación web (capa vulnerable)
 
 ```
-┌──────────┐ ┌──────────────┐ ┌──────────┐
-│ Frontend │────▶│ PHP (app) │────▶│ MySQL │
-│ (HTML/JS)│◀────│ ← VULNERABLE│◀────│ DB │
-└──────────┘ └──────────────┘ └──────────┘
+┌──────────┐     ┌──────────────┐     ┌──────────┐
+│ Frontend │────▶│ PHP (app)    │────▶│ MySQL    │
+│ (HTML/JS)│◀────│ ← VULNERABLE │◀────│ DB       │
+└──────────┘     └──────────────┘     └──────────┘
 ```
 
 El frontend envía datos al PHP. El PHP construye la consulta SQL. **Ahí es donde ocurre la inyección**: si el PHP concatena el input del usuario directamente en la query, el atacante controla la lógica SQL.
@@ -246,7 +246,7 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
 ### 🎯 Vulnerabilidades Relacionadas

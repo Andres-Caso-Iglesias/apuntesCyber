@@ -1,54 +1,54 @@
 {
-  "total_files": 285,
+  "total_files": 289,
   "total_concepts": 53,
-  "total_links": 1710,
+  "total_links": 1734,
   "concept_frequency": {
-    "redes": 285,
-    "linux": 195,
-    "post-explotacion": 161,
-    "windows": 156,
-    "nmap": 152,
-    "ssh": 151,
-    "reverse-shell": 149,
-    "netcat": 149,
-    "pentest": 146,
-    "burpsuite": 143,
-    "hydra": 136,
-    "kali": 134,
+    "redes": 289,
+    "linux": 199,
+    "post-explotacion": 162,
+    "windows": 158,
+    "nmap": 154,
+    "ssh": 154,
+    "reverse-shell": 152,
+    "netcat": 152,
+    "pentest": 149,
+    "burpsuite": 146,
+    "hydra": 139,
+    "kali": 137,
     "sqli": 130,
-    "ia": 125,
-    "escalada-privilegios": 119,
+    "ia": 127,
+    "escalada-privilegios": 121,
     "metasploit": 115,
-    "command-injection": 108,
-    "hack-the-box": 107,
+    "hack-the-box": 109,
+    "command-injection": 109,
     "lfi": 87,
-    "blue-team": 78,
-    "certificaciones": 70,
-    "file-upload": 70,
-    "xss": 67,
-    "wordpress": 64,
+    "blue-team": 79,
+    "file-upload": 72,
+    "certificaciones": 71,
+    "xss": 68,
+    "wordpress": 67,
     "xxe": 64,
     "osint": 61,
-    "gobuster": 58,
-    "dirsearch": 54,
+    "gobuster": 59,
+    "dirsearch": 55,
     "ffuf": 53,
-    "feroxbuster": 51,
     "pivoting": 51,
+    "feroxbuster": 51,
+    "forense": 51,
     "ssrf": 50,
-    "forense": 49,
-    "normativa": 46,
+    "normativa": 48,
     "metasploitable": 43,
+    "empleabilidad": 43,
     "wifi": 42,
-    "empleabilidad": 42,
     "idor": 39,
-    "wpscan": 38,
+    "wpscan": 39,
     "sqlmap": 36,
-    "ssti": 35,
     "wireshark": 35,
+    "ssti": 35,
+    "john": 32,
     "smb-impacket": 32,
-    "john": 31,
     "vulnhub": 26,
-    "esteganografia": 19,
+    "esteganografia": 20,
     "rfi": 17,
     "telnet": 16,
     "google-dorks": 14,
@@ -132,6 +132,7 @@
       "transcripciones\\Julio\\22.06.2026 Metodologías de Enumeración Web.md",
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\22.06.2026 Metodologías de Enumeración Web.md",
@@ -171,6 +172,7 @@
       "apuntes Andres\\03.09.2026 OWASP API Top 10 La API habla de más.md",
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
@@ -273,6 +275,8 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -349,6 +353,7 @@
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md",
@@ -459,6 +464,7 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\22.06.2026 Metodologías de Enumeración Web.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
@@ -532,6 +538,7 @@
       "transcripciones\\Julio\\06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md",
       "transcripciones\\Julio\\07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md",
       "transcripciones\\Julio\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
       "transcripciones\\Junio\\30.06.2026 Explotación web Port Swinger.md",
@@ -576,6 +583,7 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\30.06.2026 Explotación web Port Swinger.md",
@@ -607,6 +615,7 @@
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
       "apuntes Andres\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
@@ -689,6 +698,7 @@
       "transcripciones\\Julio\\11.07.2026 Owasp Top 10 XXE  Labs II.md",
       "transcripciones\\Julio\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -722,7 +732,8 @@
       "apuntes Joselu\\PREWORK\\PREWORK.md",
       "apuntes Joselu\\PREWORK\\resumen_clase17.md",
       "apuntes Joselu\\PREWORK\\resumen_clase6.md",
-      "comandos\\Linux.md"
+      "comandos\\Linux.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md"
     ],
     "feroxbuster": [
       "Apuntes\\00 - Mapa de Contenidos\\MOC - Ciberseguridad.md",
@@ -844,6 +855,7 @@
       "apuntes Andres\\01.09.2026 Repaso General I.md",
       "apuntes Andres\\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
       "apuntes Andres\\11.07.2026 Owasp Top 10 XXE Labs II.md",
@@ -896,6 +908,7 @@
       "transcripciones\\Julio\\17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md",
       "transcripciones\\Julio\\22.06.2026 Metodologías de Enumeración Web.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
@@ -951,6 +964,8 @@
       "comandos\\Linux.md",
       "README.md",
       "transcripciones\\Julio\\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
       "transcripciones\\Septiembre\\01.09.2026 Repaso General I.md"
@@ -1010,6 +1025,7 @@
       "transcripciones\\Julio\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
       "transcripciones\\Julio\\11.07.2026 Owasp Top 10 XXE  Labs II.md",
       "transcripciones\\Julio\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\30.06.2026 Explotación web Port Swinger.md",
       "write-ups\\Academy-THL.md",
       "write-ups\\Inj3ctCrew-THL.md",
@@ -1057,6 +1073,7 @@
       "apuntes Andres\\02.09.2026 Repaso General II.md",
       "apuntes Andres\\03.09.2026 OWASP API Top 10 La API habla de más.md",
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "apuntes Andres\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "apuntes Andres\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -1129,6 +1146,7 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -1167,6 +1185,7 @@
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
       "apuntes Andres\\11.07.2026 Owasp Top 10 XXE Labs II.md",
@@ -1262,6 +1281,8 @@
       "transcripciones\\Julio\\21.07.2026 PortSwigger SSTI + cierre SSRF.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md",
@@ -1396,6 +1417,8 @@
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
@@ -1474,6 +1497,7 @@
       "comandos\\John_Hashcat.md",
       "informes\\Informe_Castor.md",
       "informes\\Informe_Inj3ctCrew.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "write-ups\\Castor-THL.md",
@@ -1496,6 +1520,7 @@
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
@@ -1599,6 +1624,8 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -1739,7 +1766,9 @@
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
@@ -1882,6 +1911,8 @@
       "transcripciones\\Julio\\23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -2092,6 +2123,7 @@
       "apuntes Andres\\02.09.2026 Repaso General II.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
@@ -2199,6 +2231,8 @@
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -2351,6 +2385,8 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -2412,6 +2448,8 @@
       "transcripciones\\Julio\\20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md",
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
       "transcripciones\\Septiembre\\01.09.2026 Repaso General I.md",
       "transcripciones\\Septiembre\\02.09.2026 Repaso General II.md"
@@ -2521,6 +2559,7 @@
       "apuntes Andres\\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md",
       "apuntes Andres\\03.09.2026 OWASP API Top 10 La API habla de más.md",
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
       "apuntes Andres\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
@@ -2626,6 +2665,8 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -2844,6 +2885,7 @@
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
@@ -2912,7 +2954,9 @@
       "apuntes Andres\\04.09.2026 OWASP API Top 10 Labs.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
@@ -3122,6 +3166,8 @@
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -3170,6 +3216,7 @@
       "apuntes Andres\\02.09.2026 Repaso General II.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
@@ -3277,6 +3324,8 @@
       "transcripciones\\Julio\\22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md",
       "transcripciones\\Julio\\27.07.2026 PortSwigger SSTI.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -3540,7 +3589,9 @@
       "apuntes Andres\\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
       "apuntes Andres\\07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
+      "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
       "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "apuntes Andres\\10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md",
@@ -3653,6 +3704,7 @@
       "transcripciones\\Julio\\24.07.2026 Repaso Semanal III.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -4001,6 +4053,8 @@
       "transcripciones\\Julio\\23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
       "transcripciones\\Julio\\29.07.2026 Presentación Práctica 1.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
       "transcripciones\\Junio\\15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md",
@@ -4063,6 +4117,7 @@
       "apuntes Andres\\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md",
       "apuntes Andres\\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md",
       "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
       "apuntes Andres\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "apuntes Andres\\22.06.2026 Metodologías de Enumeración Web.md",
@@ -4109,6 +4164,8 @@
       "transcripciones\\Julio\\21.07.2026 PortSwigger SSTI + cierre SSRF.md",
       "transcripciones\\Julio\\22.06.2026 Metodologías de Enumeración Web.md",
       "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+      "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
       "transcripciones\\Junio\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "transcripciones\\Junio\\22.06.2026 Metodologías de Enumeración Web.md",
       "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
@@ -4125,6 +4182,7 @@
       "Apuntes\\08 - Metodologías\\00 - Metodologías de Explotación.md",
       "apuntes Andres\\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md",
       "apuntes Andres\\02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md",
+      "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "apuntes Andres\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
       "apuntes Andres\\16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md",
       "apuntes Andres\\30.06.2026 Explotación web PortSwigger.md",
@@ -4217,6 +4275,7 @@
       "transcripciones\\Julio\\17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md",
       "transcripciones\\Julio\\20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md",
       "transcripciones\\Julio\\22.06.2026 Metodologías de Enumeración Web.md",
+      "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
       "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md",
       "transcripciones\\Junio\\11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md",
       "transcripciones\\Junio\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
@@ -7744,6 +7803,28 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.667,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "esteganografia",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
         "file": "Apuntes\\06 - Explotacion y Post-Explotacion\\Metodología de Explotación.md",
         "similarity": 0.636,
         "shared_concepts": [
@@ -7782,27 +7863,6 @@
           "ssh",
           "vulnhub",
           "windows"
-        ]
-      },
-      {
-        "file": "apuntes Andres\\06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md",
-        "similarity": 0.625,
-        "shared_concepts": [
-          "burpsuite",
-          "dirsearch",
-          "escalada-privilegios",
-          "feroxbuster",
-          "hydra",
-          "kali",
-          "linux",
-          "metasploit",
-          "netcat",
-          "post-explotacion",
-          "redes",
-          "reverse-shell",
-          "ssh",
-          "windows",
-          "wordpress"
         ]
       }
     ],
@@ -9979,6 +10039,102 @@
         ]
       }
     ],
+    "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md": [
+      {
+        "file": "apuntes Andres\\10.06.2026 HTB Starting Point 2 Repaso.md",
+        "similarity": 0.643,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "ssh"
+        ]
+      },
+      {
+        "file": "apuntes Chema\\Maquinas\\Nibbles_HTB.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "wordpress",
+          "wpscan"
+        ]
+      },
+      {
+        "file": "informes\\Informe_Academy.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "wordpress",
+          "wpscan"
+        ]
+      },
+      {
+        "file": "transcripciones\\Julio\\22.06.2026 Metodologías de Enumeración Web.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "wordpress",
+          "wpscan"
+        ]
+      },
+      {
+        "file": "transcripciones\\Junio\\22.06.2026 Metodologías de Enumeración Web.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "wordpress",
+          "wpscan"
+        ]
+      },
+      {
+        "file": "apuntes Joselu\\MODULO3\\resumen_master_clase37.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "redes",
+          "ssh",
+          "wordpress",
+          "wpscan"
+        ]
+      }
+    ],
     "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md": [
       {
         "file": "apuntes Andres\\09.07.2026 XXE - XML External Entity y Máquina Castor.md",
@@ -10094,6 +10250,75 @@
           "redes",
           "reverse-shell",
           "xxe"
+        ]
+      }
+    ],
+    "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md": [
+      {
+        "file": "write-ups\\Banco-THL.md",
+        "similarity": 0.556,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "linux",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
+        "file": "apuntes Joselu\\PREWORK\\resumen_clase4.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "pentest",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
+        "file": "write-ups\\Castor-THL.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "linux",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
+        "file": "apuntes Chema\\Repaso General II.md",
+        "similarity": 0.462,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "linux",
+          "pentest",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
+        "file": "comandos\\Tmux.md",
+        "similarity": 0.455,
+        "shared_concepts": [
+          "hydra",
+          "linux",
+          "pentest",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
+        "file": "informes\\Informe_Rockstars.md",
+        "similarity": 0.455,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "linux",
+          "redes",
+          "ssh"
         ]
       }
     ],
@@ -10275,6 +10500,21 @@
         ]
       },
       {
+        "file": "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+        "similarity": 0.643,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "hack-the-box",
+          "kali",
+          "linux",
+          "netcat",
+          "redes",
+          "reverse-shell",
+          "ssh"
+        ]
+      },
+      {
         "file": "apuntes Andres\\02.09.2026 Repaso General II.md",
         "similarity": 0.625,
         "shared_concepts": [
@@ -10313,22 +10553,6 @@
           "metasploit",
           "netcat",
           "nmap",
-          "redes",
-          "reverse-shell",
-          "sqli",
-          "ssh"
-        ]
-      },
-      {
-        "file": "apuntes Andres\\12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md",
-        "similarity": 0.556,
-        "shared_concepts": [
-          "burpsuite",
-          "hack-the-box",
-          "kali",
-          "linux",
-          "metasploit",
-          "netcat",
           "redes",
           "reverse-shell",
           "sqli",
@@ -16046,6 +16270,29 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.708,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "esteganografia",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
         "file": "Apuntes\\06 - Explotacion y Post-Explotacion\\Metodología de Explotación.md",
         "similarity": 0.682,
         "shared_concepts": [
@@ -16131,26 +16378,6 @@
           "reverse-shell",
           "ssh",
           "wordpress"
-        ]
-      },
-      {
-        "file": "Apuntes\\06 - Explotacion y Post-Explotacion\\Explotación de Servicios - Linux.md",
-        "similarity": 0.636,
-        "shared_concepts": [
-          "command-injection",
-          "escalada-privilegios",
-          "hack-the-box",
-          "hydra",
-          "linux",
-          "metasploit",
-          "netcat",
-          "pentest",
-          "post-explotacion",
-          "redes",
-          "reverse-shell",
-          "ssh",
-          "vulnhub",
-          "windows"
         ]
       }
     ],
@@ -19150,6 +19377,25 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.542,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "esteganografia",
+          "forense",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "windows"
+        ]
+      },
+      {
         "file": "apuntes Joselu\\MODULO3\\resumen_master_clase17.md",
         "similarity": 0.524,
         "shared_concepts": [
@@ -19180,26 +19426,6 @@
           "post-explotacion",
           "redes",
           "reverse-shell",
-          "windows"
-        ]
-      },
-      {
-        "file": "apuntes Joselu\\MODULO3\\resumen_master_clase21.md",
-        "similarity": 0.5,
-        "shared_concepts": [
-          "escalada-privilegios",
-          "hydra",
-          "ia",
-          "kali",
-          "linux",
-          "metasploit",
-          "metasploitable",
-          "netcat",
-          "nmap",
-          "post-explotacion",
-          "redes",
-          "reverse-shell",
-          "sqli",
           "windows"
         ]
       }
@@ -22302,6 +22528,28 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+        "similarity": 0.593,
+        "shared_concepts": [
+          "blue-team",
+          "certificaciones",
+          "empleabilidad",
+          "file-upload",
+          "forense",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows"
+        ]
+      },
+      {
         "file": "apuntes Joselu\\MODULO3\\resumen_master_clase19.md",
         "similarity": 0.556,
         "shared_concepts": [
@@ -22362,27 +22610,6 @@
           "pentest",
           "pivoting",
           "redes"
-        ]
-      },
-      {
-        "file": "transcripciones\\Septiembre\\04.09.2026 OWASP API Top 10 Labs.md",
-        "similarity": 0.536,
-        "shared_concepts": [
-          "blue-team",
-          "file-upload",
-          "hack-the-box",
-          "hydra",
-          "ia",
-          "kali",
-          "linux",
-          "netcat",
-          "nmap",
-          "pentest",
-          "redes",
-          "reverse-shell",
-          "ssh",
-          "telnet",
-          "windows"
         ]
       }
     ],
@@ -25824,6 +26051,24 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+        "similarity": 0.48,
+        "shared_concepts": [
+          "blue-team",
+          "burpsuite",
+          "certificaciones",
+          "forense",
+          "hydra",
+          "ia",
+          "netcat",
+          "normativa",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "xss"
+        ]
+      },
+      {
         "file": "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
         "similarity": 0.464,
         "shared_concepts": [
@@ -25859,21 +26104,6 @@
           "reverse-shell",
           "windows",
           "xss"
-        ]
-      },
-      {
-        "file": "apuntes Joselu\\MODULO1\\resumen_master_clase4.md",
-        "similarity": 0.45,
-        "shared_concepts": [
-          "blue-team",
-          "certificaciones",
-          "ia",
-          "metasploit",
-          "netcat",
-          "normativa",
-          "redes",
-          "reverse-shell",
-          "windows"
         ]
       }
     ],
@@ -26128,13 +26358,13 @@
         ]
       },
       {
-        "file": "apuntes Chema\\Maquinas\\HackTheBox Starting Point — Tier 1.md",
-        "similarity": 0.5,
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.524,
         "shared_concepts": [
           "command-injection",
           "escalada-privilegios",
           "hydra",
-          "john",
+          "ia",
           "linux",
           "netcat",
           "pentest",
@@ -26961,6 +27191,17 @@
         ]
       },
       {
+        "file": "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.5,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "pentest",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
         "file": "transcripciones\\Julio\\15.07.2026 IA Introducción y Vibe Coding.md",
         "similarity": 0.5,
         "shared_concepts": [
@@ -27007,17 +27248,6 @@
           "pentest",
           "redes",
           "windows"
-        ]
-      },
-      {
-        "file": "comandos\\Hydra.md",
-        "similarity": 0.455,
-        "shared_concepts": [
-          "hydra",
-          "ia",
-          "nmap",
-          "redes",
-          "ssh"
         ]
       }
     ],
@@ -27185,6 +27415,23 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.524,
+        "shared_concepts": [
+          "command-injection",
+          "esteganografia",
+          "hydra",
+          "ia",
+          "netcat",
+          "normativa",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "windows"
+        ]
+      },
+      {
         "file": "apuntes Joselu\\MODULO1\\resumen_master_clase6.md",
         "similarity": 0.5,
         "shared_concepts": [
@@ -27212,20 +27459,6 @@
           "post-explotacion",
           "redes",
           "reverse-shell"
-        ]
-      },
-      {
-        "file": "apuntes Joselu\\MODULO1\\resumen_master_clase5.md",
-        "similarity": 0.471,
-        "shared_concepts": [
-          "blue-team",
-          "hydra",
-          "ia",
-          "netcat",
-          "normativa",
-          "redes",
-          "reverse-shell",
-          "windows"
         ]
       }
     ],
@@ -27615,16 +27848,13 @@
         ]
       },
       {
-        "file": "Apuntes\\08 - Metodologías\\00 - Metodologías de Explotación.md",
-        "similarity": 0.368,
+        "file": "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.4,
         "shared_concepts": [
-          "burpsuite",
           "hydra",
           "pentest",
           "redes",
-          "ssh",
-          "wordpress",
-          "wpscan"
+          "ssh"
         ]
       }
     ],
@@ -28523,6 +28753,16 @@
         ]
       },
       {
+        "file": "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.444,
+        "shared_concepts": [
+          "hydra",
+          "linux",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
         "file": "apuntes Chema\\Wireshark.md",
         "similarity": 0.444,
         "shared_concepts": [
@@ -28530,16 +28770,6 @@
           "redes",
           "ssh",
           "wireshark"
-        ]
-      },
-      {
-        "file": "apuntes evolve\\BLOQUE 9.md",
-        "similarity": 0.444,
-        "shared_concepts": [
-          "hydra",
-          "post-explotacion",
-          "redes",
-          "ssh"
         ]
       }
     ],
@@ -28555,6 +28785,17 @@
           "ssh",
           "telnet",
           "wireshark"
+        ]
+      },
+      {
+        "file": "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.455,
+        "shared_concepts": [
+          "hydra",
+          "linux",
+          "pentest",
+          "redes",
+          "ssh"
         ]
       },
       {
@@ -28597,17 +28838,6 @@
         "similarity": 0.417,
         "shared_concepts": [
           "hydra",
-          "pentest",
-          "post-explotacion",
-          "redes",
-          "ssh"
-        ]
-      },
-      {
-        "file": "apuntes Chema\\IA\\IA — Introducción y VibeCoding.md",
-        "similarity": 0.385,
-        "shared_concepts": [
-          "linux",
           "pentest",
           "post-explotacion",
           "redes",
@@ -28698,6 +28928,16 @@
         ]
       },
       {
+        "file": "apuntes Andres\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+        "similarity": 0.333,
+        "shared_concepts": [
+          "burpsuite",
+          "redes",
+          "wordpress",
+          "wpscan"
+        ]
+      },
+      {
         "file": "Apuntes\\05 - Auditoria Web\\Fuzzing Web con ffuf.md",
         "similarity": 0.333,
         "shared_concepts": [
@@ -28723,16 +28963,6 @@
         "shared_concepts": [
           "burpsuite",
           "hydra",
-          "redes",
-          "wordpress",
-          "wpscan"
-        ]
-      },
-      {
-        "file": "Apuntes\\05 - Auditoria Web\\Enumeración Web.md",
-        "similarity": 0.308,
-        "shared_concepts": [
-          "burpsuite",
           "redes",
           "wordpress",
           "wpscan"
@@ -32034,6 +32264,279 @@
         ]
       }
     ],
+    "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md": [
+      {
+        "file": "transcripciones\\Junio\\30.06.2026 Explotación web Port Swinger.md",
+        "similarity": 0.6,
+        "shared_concepts": [
+          "burpsuite",
+          "certificaciones",
+          "empleabilidad",
+          "file-upload",
+          "gobuster",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress",
+          "xss"
+        ]
+      },
+      {
+        "file": "apuntes Joselu\\MODULO3\\resumen_master_clase26.md",
+        "similarity": 0.593,
+        "shared_concepts": [
+          "blue-team",
+          "certificaciones",
+          "empleabilidad",
+          "file-upload",
+          "forense",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows"
+        ]
+      },
+      {
+        "file": "transcripciones\\Julio\\01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md",
+        "similarity": 0.581,
+        "shared_concepts": [
+          "blue-team",
+          "burpsuite",
+          "certificaciones",
+          "file-upload",
+          "forense",
+          "gobuster",
+          "hack-the-box",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress",
+          "xss"
+        ]
+      },
+      {
+        "file": "apuntes Chema\\Burp Suite a fondo · Auditoría web · WordPress.md",
+        "similarity": 0.556,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "gobuster",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress",
+          "xss"
+        ]
+      },
+      {
+        "file": "apuntes Chema\\Sesión 30 — Burp Suite y WordPress.md",
+        "similarity": 0.556,
+        "shared_concepts": [
+          "burpsuite",
+          "file-upload",
+          "gobuster",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress",
+          "xss"
+        ]
+      },
+      {
+        "file": "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
+        "similarity": 0.548,
+        "shared_concepts": [
+          "blue-team",
+          "burpsuite",
+          "certificaciones",
+          "forense",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "normativa",
+          "pentest",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress",
+          "xss"
+        ]
+      }
+    ],
+    "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md": [
+      {
+        "file": "apuntes Chema\\Maquinas\\Son ROBOTS.md",
+        "similarity": 0.708,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "esteganografia",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
+        "file": "Apuntes\\06 - Explotacion y Post-Explotacion\\Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md",
+        "similarity": 0.667,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "esteganografia",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
+        "file": "apuntes Joselu\\MODULO3\\resumen_master_clase30.md",
+        "similarity": 0.625,
+        "shared_concepts": [
+          "command-injection",
+          "escalada-privilegios",
+          "esteganografia",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "wordpress"
+        ]
+      },
+      {
+        "file": "transcripciones\\Julio\\14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md",
+        "similarity": 0.593,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows"
+        ]
+      },
+      {
+        "file": "apuntes Chema\\Maquinas\\Auditoría de CMS — WordPress (máquina Academy).md",
+        "similarity": 0.586,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "escalada-privilegios",
+          "forense",
+          "hydra",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "ssh",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
+        "file": "transcripciones\\Junio\\29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md",
+        "similarity": 0.586,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "forense",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "normativa",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress"
+        ]
+      }
+    ],
     "transcripciones\\Junio\\10.06.2026 HTB Starting Point 2 Repaso.md": [
       {
         "file": "apuntes Chema\\Maquinas\\Vaccine (Tier 2) — Repaso en profundidad.md",
@@ -32977,6 +33480,29 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.586,
+        "shared_concepts": [
+          "burpsuite",
+          "command-injection",
+          "dirsearch",
+          "forense",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "netcat",
+          "nmap",
+          "normativa",
+          "pentest",
+          "post-explotacion",
+          "redes",
+          "reverse-shell",
+          "windows",
+          "wordpress"
+        ]
+      },
+      {
         "file": "transcripciones\\Julio\\28.07.2026 Repaso General Metodologia Web y Command Injection.md",
         "similarity": 0.576,
         "shared_concepts": [
@@ -32999,29 +33525,6 @@
           "wifi",
           "windows",
           "wordpress"
-        ]
-      },
-      {
-        "file": "Apuntes\\05 - Auditoria Web\\Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md",
-        "similarity": 0.567,
-        "shared_concepts": [
-          "burpsuite",
-          "command-injection",
-          "forense",
-          "hydra",
-          "idor",
-          "kali",
-          "linux",
-          "netcat",
-          "nmap",
-          "pentest",
-          "post-explotacion",
-          "redes",
-          "reverse-shell",
-          "sqli",
-          "sqlmap",
-          "ssrf",
-          "xss"
         ]
       }
     ],
@@ -33250,6 +33753,24 @@
         ]
       },
       {
+        "file": "transcripciones\\Junio\\08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md",
+        "similarity": 0.462,
+        "shared_concepts": [
+          "blue-team",
+          "certificaciones",
+          "empleabilidad",
+          "forense",
+          "hack-the-box",
+          "hydra",
+          "ia",
+          "kali",
+          "linux",
+          "normativa",
+          "pentest",
+          "redes"
+        ]
+      },
+      {
         "file": "Apuntes\\15 - Certificaciones\\Certificaciones - ISO 27001 y eJPTv2.md",
         "similarity": 0.455,
         "shared_concepts": [
@@ -33263,22 +33784,6 @@
           "pivoting",
           "redes",
           "sqli"
-        ]
-      },
-      {
-        "file": "apuntes Chema\\Maquinas\\Hack The Box- Starting Point — Tier 0.md",
-        "similarity": 0.455,
-        "shared_concepts": [
-          "blue-team",
-          "certificaciones",
-          "forense",
-          "hack-the-box",
-          "kali",
-          "linux",
-          "osint",
-          "pentest",
-          "pivoting",
-          "redes"
         ]
       }
     ],
@@ -33912,6 +34417,17 @@
         ]
       },
       {
+        "file": "apuntes Andres\\09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md",
+        "similarity": 0.556,
+        "shared_concepts": [
+          "escalada-privilegios",
+          "hydra",
+          "linux",
+          "redes",
+          "ssh"
+        ]
+      },
+      {
         "file": "write-ups\\Nike-THL.md",
         "similarity": 0.538,
         "shared_concepts": [
@@ -33927,20 +34443,6 @@
       {
         "file": "apuntes Andres\\08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md",
         "similarity": 0.533,
-        "shared_concepts": [
-          "burpsuite",
-          "escalada-privilegios",
-          "hydra",
-          "lfi",
-          "linux",
-          "nmap",
-          "redes",
-          "ssh"
-        ]
-      },
-      {
-        "file": "apuntes Chema\\Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md",
-        "similarity": 0.5,
         "shared_concepts": [
           "burpsuite",
           "escalada-privilegios",

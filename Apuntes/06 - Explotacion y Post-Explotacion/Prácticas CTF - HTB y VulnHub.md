@@ -144,7 +144,7 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]

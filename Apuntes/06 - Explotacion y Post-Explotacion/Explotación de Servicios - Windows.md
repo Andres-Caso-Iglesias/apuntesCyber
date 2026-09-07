@@ -147,7 +147,7 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
 > #escalada-privilegios #hack-the-box #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #vulnhub #windows

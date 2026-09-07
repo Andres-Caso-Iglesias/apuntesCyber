@@ -188,6 +188,6 @@ sha256sum ./exhibits/malware.exe
 
 ### 🛠️ Herramientas
 
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 
 > #blue-team #escalada-privilegios #forense #linux #netcat #post-explotacion #redes #reverse-shell #windows #wireshark

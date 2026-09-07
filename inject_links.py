@@ -6,7 +6,11 @@ en cada archivo markdown. Agrega enlaces bidireccionales al final del archivo.
 
 import json
 import os
+import sys
+import io
 from pathlib import Path
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "_neural_network"

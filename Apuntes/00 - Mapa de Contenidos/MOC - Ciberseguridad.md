@@ -2,7 +2,7 @@
 
 > **Tu red neuronal de ciberseguridad.** Cada nodo es un apunte. Cada enlace es una sinapsis. Navega por temas, conceptos o máquinas.
 
-> **Archivos:** 244 .md | **Enlaces:** 2095 | **Conceptos:** 52 | **Densidad:** 8.3 enlaces/archivo | **Última actualización:** 27 de Agosto 2026
+> **Archivos:** 251 .md | **Enlaces:** 2150+ | **Conceptos:** 58 | **Densidad:** 8.5 enlaces/archivo | **Última actualización:** 07 de Septiembre 2026
 
 > [!tip] Cómo funciona la red neuronal
 > Cada archivo tiene una sección `## 🔗 Red de Conocimiento` al final que enlaza con documentos relacionados, herramientas y vulnerabilidades. Los enlaces son bidireccionales: si A enlaza a B, B también enlaza a A.
@@ -38,6 +38,7 @@
 
 > [!note] Notas de clase (Chema)
 > - [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — VirtualBox → VMware, formato VMDK
+> - [[Linux - Comandos Avanzados de Pentesting]] — Recon, enum, movilidad lateral, post-explotación, reverse shells, tunnels
 
 ---
 
@@ -95,6 +96,9 @@
 | [[XXE — XML External Entity]]                                                                 | XXE: XML, SYSTEM entity, lectura ficheros, 4 file upload                                      |                                              |
 | [[Path Traversal — 6 Casos y Bypasses]]                                                       | Path Traversal: 6 casos, bypasses, flowchart                                                  |                                              |
 | [[SQL Injection]]                                                                             | SQLi: definición, técnicas (UNION/error/blind), SQLMap, prepared statements, máquina Injected |                                              |
+| [[OWASP API Security Top 10]]                                                                 | OWASP API: BOLA, autenticación, autorización, mass assignment, SSRF                           |                                              |
+| [[XSS — Cross-Site Scripting]]                                                                | XSS: reflected, stored, DOM, payloads, bypass de filtros, exfiltración de cookies             |                                              |
+| Command Injection                                                                             | Command Injection: operadores, blind OOB, bypass de filtros, reverse shell, webshell          |                                              |
 
 > [!note] Notas de clase (Chema)
 > - [[Vulnerabilidades Web]] — Vulnerabilidades web comunes, explotación
@@ -303,7 +307,7 @@
 
 | Apunte                                                      | Tema clave                                                                                            |                                         |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| [[IA en Ciberseguridad]]                                    | Clasificador de spam (ML), autocodificadores (DL), LLMs en SOC, IA ofensiva, vulnerabilidades en LLMs |                                         |
+| [[IA en Ciberseguridad]]                                    | Clasificador de spam (ML), autocodificadores (DL), LLMs en SOC, IA ofensiva, vulnerabilidades en LLMs, redes neuronales, tokens, agentes, VibeCoding |                                         |
 | [[apuntes Andres/15.07.2026 IA Introducción y Vibe Coding]] | Andrés — Vibe Coding + Agentes                                                                        | Vibe Coding, agentes de IA, IA ofensiva |
 
 > [!note] Relacionado con:
@@ -398,6 +402,7 @@
 - [[apuntes Chema/Bash y PowerShell]]
 - [[apuntes Chema/Introducción a Consolas - Bash y PowerShell]]
 - [[apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation]]
+- [[Linux - Comandos Avanzados de Pentesting]]
 
 ### Herramientas
 
@@ -418,6 +423,8 @@
 - [[apuntes Chema/Vulnerabilidades Web]]
 - [[apuntes Chema/OWASP Top 10, CVSS, CWE y CVE]]
 - [[apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web]]
+- [[OWASP API Security Top 10]]
+- [[XSS — Cross-Site Scripting]]
 
 ### Explotación
 
@@ -668,7 +675,7 @@
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SQLMap|SQLMap]]

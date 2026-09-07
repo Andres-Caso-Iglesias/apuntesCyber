@@ -221,7 +221,7 @@ select * from users;
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/Netcat|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
