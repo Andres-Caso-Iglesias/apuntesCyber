@@ -102,12 +102,22 @@ crackmapexec ssh <host> -u <user> -p <pass>
 crackmapexec winrm <host> -u <user> -p <pass>
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Servicios - Windows]] — SMB en pentesting
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Redes, SMB / Impacket, Windows
+- [[Windows.md|Windows]] — Redes, Windows
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Windows
+- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Redes, SMB / Impacket, Windows
 
-> #smb #impacket #herramientas #windows #active-directory
+### 🛠️ Herramientas
+
+- [[comandos/SMB_Impacket|SMB / Impacket]]
+
+> #redes #smb-impacket #windows

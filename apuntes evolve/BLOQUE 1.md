@@ -165,18 +165,19 @@ El sector afronta una escasez global de profesionales.
 | **Web** | BSCP (Burp Suite) | Avala explotación de XSS y SQLi con Burp Suite |
 | **Active Directory** | CRTP (Altered Security) | Retos avanzados de ataques a AD |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Normativa / GRC, Post-Explotación, XSS
-- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]— Normativa / GRC, Post-Explotación, Redes
-- [[../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Post-Explotación, Redes, XSS
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Empleabilidad, Normativa / GRC, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]— Normativa / GRC, Redes, Windows
-- [[../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Post-Explotación, Redes, XSS
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Normativa / GRC, Post-Explotación
+- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SQL Injection
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Normativa / GRC, Post-Explotación, SQL Injection
+- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Burp Suite, Empleabilidad, SQL Injection
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, Empleabilidad, Normativa / GRC
+- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Post-Explotación, SQL Injection, WiFi / Hardware
 
 ### 🛠️ Herramientas
 

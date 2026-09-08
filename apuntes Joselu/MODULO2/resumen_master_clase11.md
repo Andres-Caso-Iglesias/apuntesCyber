@@ -44,21 +44,23 @@ Buscar el mismo objetivo en los tres y comparar resultados muestra que cada un o
 
 Recapitulación integrada del módulo OSINT Al cerrar este módulo, somos capaces de construir un perfil completo de una persona o una organización partiendo d e casi cualquier dato inicial: un número de teléfono, un correo, un username o un dominio. Sabemos que el OSINT es siempre pasivo, que la calidad del resultado depende de aplicar el ciclo de inteligencia con objetivos precisos, y que los falsos positivos s on inevitables y deben filtrarse con criterio analítico, no con herramientas. La próxima sesión abre el módulo de redes, que es la base técnica necesaria para entender todo lo que viene después: Wireshark, ataques de red, y eventualmente el movimiento late ral dentro de una infraestructura comprometida.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase9.md|resumen_master_clase9]— Google Dorks, Normativa / GRC, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Empleabilidad, Normativa / GRC, Redes
-- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— Redes, Windows, Wireshark
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Empleabilidad, Google Dorks, Redes
-- [[resumen_master_clase12.md|resumen_master_clase12]— Empleabilidad, Redes, Wireshark
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Empleabilidad, Redes, Windows
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Nmap, Normativa / GRC
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Nmap, Windows
+- [[../PREWORK/resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Metodología Pentest, Nmap, Wireshark
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, Normativa / GRC, Windows
+- [[../../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Empleabilidad, Normativa / GRC, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Nmap|Nmap]]
 
-> #empleabilidad #google-dorks #ia #normativa #osint #pentest #redes #windows #wireshark
+> #empleabilidad #google-dorks #ia #nmap #normativa #osint #pentest #redes #windows #wireshark

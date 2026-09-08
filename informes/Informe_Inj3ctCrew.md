@@ -398,23 +398,25 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 
 **FIN DEL INFORME**
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— GoBuster, Kali Linux, SSH
-- [[Informe_Castor.md|Informe_Castor]— Kali Linux, Post-Explotación, SSH
-- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Post-Explotación, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Kali Linux, Post-Explotación, SSH
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Post-Explotación
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — John / Hashcat, Netcat / Reverse Shells, Post-Explotación
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, John / Hashcat, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -422,4 +424,4 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #gobuster #john #kali #linux #nmap #post-explotacion #redes #ssh
+> #command-injection #escalada-privilegios #gobuster #john #kali #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh

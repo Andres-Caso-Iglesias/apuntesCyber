@@ -131,18 +131,19 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 - [[comandos/BurpSuite]] "” Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]]— Burp Suite, FFUF, Hack The Box
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]]— Hack The Box, Hydra, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]]— Hack The Box, Hydra, Redes
-- [[../../comandos/WPScan.md|WPScan]]— Hydra, WPScan, WordPress
-- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]]— Burp Suite, Hack The Box, Redes
-- [[WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]]— Burp Suite, FFUF, Hydra
+- [[../../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
+- [[../../comandos/BurpSuite.md|BurpSuite]] — Hydra, WPScan, WordPress
+- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Hack The Box, Hydra
+- [[../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, Hack The Box, Hydra
+- [[../08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, VulnHub, WPScan
 
 ### 🛠️ Herramientas
 

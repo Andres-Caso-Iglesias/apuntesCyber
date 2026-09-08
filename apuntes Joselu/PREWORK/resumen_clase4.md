@@ -115,18 +115,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración conectados a internet mariade ve MariaDB – sistema de gestión de bases de datos poc PoC (Proof of Concept) – prueba de concepto de explotación de una vulnerabilidad google docking Google Dorking – uso de operadores avanzados de Google para encontrar información sensible 4.4.3 / HTTPS Puerto 443 – HTTPS 3.3.8.9 / RDP Puerto 3389 – RDP (Remote Desktop Protocol) Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Hydra, Redes, SSH
-- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Hydra, SSH
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Hydra, Redes, SSH
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Redes, SSH
-- [[../MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Escalada de Privilegios, Hydra, SSH
-- [[resumen_clase7.md|resumen_clase7]— Escalada de Privilegios, Redes, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, IA en Ciberseguridad, SSH
+- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, SSH, Windows
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, SSH, Windows
+- [[../../apuntes Chema/Repaso General II.md|Repaso General II]] — Hydra, SSH, Windows
+- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, Windows
+- [[../MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — IA en Ciberseguridad, Nmap, Windows
 
 ### 🛠️ Herramientas
 

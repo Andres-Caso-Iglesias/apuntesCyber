@@ -301,17 +301,18 @@ Resolve-DnsName -Name google.com
 - [ ] PowerShell: `Select-String`, `Test-Connection` manejados
 - [ ] PowerShell: Cmdlets `Verb-Noun` entendidos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Redes, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Redes, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Redes, Windows
-- [[SMB_Impacket.md|SMB_Impacket]— Redes, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]— Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]— Redes, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Metodología Pentest, Redes, Windows
 
-> #redes #windows
+> #linux #pentest #redes #windows

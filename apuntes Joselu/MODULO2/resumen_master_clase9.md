@@ -209,25 +209,27 @@ Pimais / Pimai / PinMy **PimEyes** (pimeyes.com) -- motor de búsqueda por recon
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase13.md|resumen_master_clase13]— Redes, WiFi / Hardware, Windows
-- [[resumen_master_clase11.md|resumen_master_clase11]— Google Dorks, Normativa / GRC, Redes
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Normativa / GRC, Redes, Windows
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Kali Linux, Normativa / GRC, Redes
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]— Redes, WiFi / Hardware, Windows
-- [[resumen_master_clase12.md|resumen_master_clase12]— Empleabilidad, Redes, WiFi / Hardware
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
+- [[resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Reverse Shells
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #normativa #osint #redes #wifi #windows
+> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #netcat #normativa #osint #post-explotacion #redes #reverse-shell #wifi #windows

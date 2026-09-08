@@ -52,12 +52,22 @@ set -g base-index 1              # Empezar en 1
 setw -g pane-base-index 1
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Consolas - Bash y PowerShell]] — Comparativa de terminales
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Windows
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Windows
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
 
-> #tmux #herramientas #terminal
+### 🛠️ Herramientas
+
+- [[comandos/Tmux|Tmux]]
+
+> #linux #redes #tmux #windows

@@ -127,25 +127,27 @@
 - [ ] ¿Tengo claro que necesito evidencia visible (portfolio + CTFs + presencia)?
 - [ ] ¿Conozco las plataformas de práctica y sé cómo diferenciar?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]]— Hack The Box, VulnHub, XSS
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]]— Hack The Box, Normativa / GRC, VulnHub
-- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]]— Empleabilidad, Hack The Box, VulnHub
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]]— Empleabilidad, Metodología Pentest, Normativa / GRC
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]]— Hack The Box, Metodología Pentest, VulnHub
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Hydra, VulnHub
+- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Burp Suite, Empleabilidad, VulnHub
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Burp Suite, Empleabilidad, VulnHub
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Metodología Pentest, Normativa / GRC
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Hydra, Normativa / GRC
+- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Normativa / GRC, Redes, VulnHub
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #certificaciones #empleabilidad #hack-the-box #hydra #normativa #pentest #vulnhub #xss
+> #burpsuite #certificaciones #empleabilidad #esteganografia #hack-the-box #hydra #normativa #osint #pentest #redes #vulnhub #xss

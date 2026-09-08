@@ -489,18 +489,19 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 14. `www-data`, porque es el usuario que ejecuta Apache. Siguiente paso: escalar a un usuario local y después a root con `sudo -l` o GTFOBins.
 15. Hashcat usa la **GPU** (millones de operaciones en paralelo). John usa principalmente la CPU.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]]— Kali Linux, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]]— Escalada de Privilegios, SSH, XSS
-- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]]— Kali Linux, SSH, XSS
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]]— Kali Linux, SSH, XSS
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, Metasploit, Metasploitable / DVWA
+- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hydra, Metasploit, SQL Injection
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, Metasploit, SQL Injection
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Hydra, Metasploit, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -518,4 +519,4 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #escalada-privilegios #ffuf #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #sqli #ssh #windows #xss
+> #burpsuite #certificaciones #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #sqli #ssh #windows #xss

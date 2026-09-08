@@ -320,18 +320,19 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase34.md|resumen_master_clase34]— Escalada de Privilegios, Hack The Box, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Hack The Box, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]— Hack The Box, Kali Linux, SSH
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Kali Linux, Metasploit, SSH
+- [[resumen_master_clase34.md|resumen_master_clase34]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, SQL Injection, SQLMap
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
+- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — File Upload, Metasploit, SQL Injection
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Metasploit, SQL Injection, SQLMap
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 
@@ -346,4 +347,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #redes #reverse-shell #sqli #sqlmap #ssh
+> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh

@@ -319,24 +319,29 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 â†’
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, SSH, Telnet
-- [[resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, SSH, Telnet
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]— Hack The Box, Kali Linux, Redes
-- [[resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, OSINT, SSH
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Hack The Box, Kali Linux, Redes
-- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Hack The Box, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
+- [[resumen_master_clase20.md|resumen_master_clase20]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
+- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploitable / DVWA
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — Empleabilidad, File Upload, Hydra
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Empleabilidad, File Upload, Metasploitable / DVWA
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Hydra, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
 
-> #blue-team #certificaciones #empleabilidad #forense #hack-the-box #hydra #ia #kali #linux #metasploitable #nmap #osint #pentest #pivoting #redes #ssh #telnet #windows
+### 🎯 Vulnerabilidades Relacionadas
+
+
+> #blue-team #certificaciones #empleabilidad #file-upload #forense #hack-the-box #hydra #ia #kali #linux #metasploitable #netcat #nmap #osint #pentest #pivoting #redes #reverse-shell #ssh #telnet #windows

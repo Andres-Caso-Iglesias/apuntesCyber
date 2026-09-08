@@ -173,22 +173,24 @@ El mapa mental que queda: **encontrar el parámetro → identificar el motor →
 
 La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bloque web y el que más variantes tiene en entornos reales.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE — XML External Entity]— SSRF, SSTI, XXE
-- [[resumen_master_clase48.md|resumen_master_clase48]— SQL Injection, SSRF, XXE
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]— SSRF, SSTI, XXE
-- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]— SSRF, SSTI, XXE
-- [[../../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]— Command Injection / RCE, SSRF, SSTI
-- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]— Command Injection / RCE, Empleabilidad, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — SQL Injection, SSTI, XXE
+- [[../../Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE — XML External Entity]] — Post-Explotación, SSTI, XXE
+- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Empleabilidad, SQL Injection, SSTI
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, SQL Injection, XXE
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Empleabilidad, SQL Injection, XXE
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — SQL Injection, SSTI, XXE
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
@@ -199,4 +201,4 @@ La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bl
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #empleabilidad #ia #lfi #sqli #ssrf #ssti #xxe
+> #burpsuite #command-injection #empleabilidad #ia #lfi #netcat #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xxe

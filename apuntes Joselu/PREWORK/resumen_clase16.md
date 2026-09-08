@@ -121,21 +121,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración explotación y post-explotación bridge forums BreachForums – foro de la Deep Web para filtración de bases de datos de haced Dehashed – plataforma de búsqueda de credenciales filtradas Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Post-Explotación, SSH, XSS
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]— Escalada de Privilegios, SSH, XSS
-- [[PREWORK.md|PREWORK]— Escalada de Privilegios, SSH, XSS
-- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Burp Suite, John / Hashcat, SSH
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — John / Hashcat, Post-Explotación, SQL Injection
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Metasploit, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Blue Team / SOC, Burp Suite, John / Hashcat
+- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]] — John / Hashcat, Pivoting / Movilidad Lateral, SQL Injection
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
@@ -147,4 +149,4 @@ Término en la transcripción Corrección / Aclaración explotación y post-expl
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #certificaciones #escalada-privilegios #ia #idor #john #linux #metasploit #netcat #nmap #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xss
+> #blue-team #burpsuite #certificaciones #escalada-privilegios #hack-the-box #ia #idor #john #linux #metasploit #netcat #nmap #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xss

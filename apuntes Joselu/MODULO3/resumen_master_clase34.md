@@ -412,22 +412,24 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
-- [[resumen_master_clase33.md|resumen_master_clase33]— Hack The Box, Kali Linux, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, SSH
+- [[resumen_master_clase33.md|resumen_master_clase33]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Metasploit, Post-Explotación, SMB / Impacket
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Metasploit, Post-Explotación, SMB / Impacket
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Metasploit, Netcat / Reverse Shells, SMB / Impacket
 
 ### 🛠️ Herramientas
 
 - [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
@@ -436,4 +438,4 @@ Término en la transcripción Corrección / Aclaración
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #feroxbuster #hack-the-box #ia #idor #kali #linux #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #windows
+> #command-injection #escalada-privilegios #feroxbuster #hack-the-box #ia #idor #kali #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows

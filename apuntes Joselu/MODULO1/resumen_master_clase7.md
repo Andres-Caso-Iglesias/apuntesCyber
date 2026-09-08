@@ -147,18 +147,19 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, Kali Linux, Redes
-- [[resumen_master_clase1.md|resumen_master_clase1]— Hack The Box, Kali Linux, Redes
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, Kali Linux, Redes
-- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]— Hack The Box, Kali Linux, Redes
-- [[../MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Esteganografía, Redes, Windows
-- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Hydra, Kali Linux, Redes
+- [[resumen_master_clase1.md|resumen_master_clase1]] — Linux, Pivoting / Movilidad Lateral, Windows
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Hydra, Metasploitable / DVWA, Pivoting / Movilidad Lateral
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Metasploitable / DVWA, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hydra, Linux, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, Windows
+- [[../PREWORK/resumen_clase18.md|resumen_clase18]] — Hydra, Linux, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 

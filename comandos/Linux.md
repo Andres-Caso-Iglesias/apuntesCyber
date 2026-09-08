@@ -311,7 +311,7 @@ awk '$3 > 100' archivo
 
 # Printf formateado
 awk '{printf "%-20s %s\n", $1, $2}' archivo
-| ```
+```
 ## Forense y Esteganografía
 
 > [!warning] Análisis forense
@@ -338,7 +338,7 @@ binwalk -e imagen.bin
 
 # Extraer datos de imagen
 steghide extract -sf imagen.jpg
-
+```
 # Romper steghide
 | stegseek imagen.jpg rockyou.txt | # Hash MD5 | ``` |
 |---|---|---| ## Editor vi / vim | > [!abstract] Modos |
@@ -444,21 +444,22 @@ steghide extract -sf imagen.jpg
 - [ ] Texto con `grep`, `sed`, `awk` procesado
 - [ ] vi/vim con modos NORMAL, INSERT, COMMAND dominado
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, Redes
-- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]— Esteganografía, Forense Digital, Linux
-- [[../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Forense Digital, Linux, SSH
-- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]— Forense Digital, Linux, Redes
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Forense Digital, Linux, Redes
+- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, Linux
+- [[../Apuntes/comandos/SSH.md|SSH]] — Linux, Redes, SSH
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Linux, Redes
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Forense Digital, Linux, Redes
+- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Forense Digital, Linux, OSINT
 
 ### 🛠️ Herramientas
 
 - [[comandos/SSH|SSH]]
 
-> #esteganografia #forense #linux #redes #ssh
+> #esteganografia #forense #linux #osint #redes #ssh

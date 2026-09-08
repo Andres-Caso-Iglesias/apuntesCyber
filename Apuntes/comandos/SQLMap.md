@@ -106,13 +106,27 @@ sqlmap -u "http://10.10.10.x/page?id=1" --tamper=space2comment --random-agent --
 sqlmap -r request.txt --level=5 --risk=3 --batch
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[SQL Injection]] — Teoría completa de SQLi
-- [[Burp Suite - Framework de Auditoría]] — Capturar requests para SQLMap
+- [[BurpSuite.md|BurpSuite]] — Burp Suite, Redes
+- [[../../README.md|README]] — Burp Suite, SQL Injection, SQLMap
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Burp Suite, SQL Injection, SQLMap
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Redes, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — Redes, SQL Injection
 
-> #sqlmap #herramientas #sqli #web
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SQLMap|SQLMap]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #burpsuite #redes #sqli #sqlmap

@@ -207,23 +207,25 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 **Fin de apuntes — Sesión 25**
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]— Hydra, Metasploit, SSH
-- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Hydra, Metasploit, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Hydra, Metasploit, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]— Hydra, Metasploit, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, Redes, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Metasploit, Redes, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Empleabilidad, Hydra, Metasploitable / DVWA
+- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, SMB / Impacket
+- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, Metasploitable / DVWA, SMB / Impacket
+- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploitable / DVWA, SMB / Impacket
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, SMB / Impacket
+- [[../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Metasploit, Post-Explotación, SMB / Impacket
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
@@ -233,4 +235,4 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #empleabilidad #hack-the-box #hydra #ia #linux #metasploit #metasploitable #nmap #pentest #redes #smb-impacket #ssh #tmux #windows
+> #command-injection #empleabilidad #hack-the-box #hydra #ia #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #tmux #windows

@@ -429,23 +429,25 @@ cat /root/root.txt
 
 *Write-up completado — Explotación verificada end-to-end*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Escalada de Privilegios, GoBuster, SSH
-- [[Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, GoBuster, SSH
-- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— Escalada de Privilegios, GoBuster, SSH
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— Escalada de Privilegios, GoBuster, SSH
-- [[Banco-THL.md|Banco-THL]— Escalada de Privilegios, Redes, SSH
-- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, Redes, SSH
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
+- [[../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -453,4 +455,4 @@ cat /root/root.txt
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #ffuf #gobuster #linux #nmap #redes #ssh
+> #command-injection #escalada-privilegios #ffuf #gobuster #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh

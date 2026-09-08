@@ -173,24 +173,26 @@ La prÃ³xima sesiÃ³n entrarÃ¡ en el modelo OSI y en Wireshark, donde todo l
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Empleabilidad, Redes, WiFi / Hardware
-- [[resumen_master_clase9.md|resumen_master_clase9]— Empleabilidad, Redes, WiFi / Hardware
-- [[resumen_master_clase11.md|resumen_master_clase11]— Empleabilidad, Redes, Wireshark
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]— Redes, WiFi / Hardware, Wireshark
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]— Command Injection / RCE, Redes, Wireshark
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Empleabilidad, Redes, WiFi / Hardware
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[resumen_master_clase9.md|resumen_master_clase9]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #empleabilidad #ia #osint #redes #wifi #wireshark #wordpress
+> #command-injection #empleabilidad #ia #netcat #osint #post-explotacion #redes #reverse-shell #wifi #wireshark #wordpress

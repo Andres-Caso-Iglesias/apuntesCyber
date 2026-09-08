@@ -153,16 +153,19 @@ Si el frontend renderiza `name` o `bio` sin escaping, el XSS se ejecuta.
 | **Input validation** | Validar entrada en servidor con esquemas/tipos estrictos |
 | **DOMPurify** | Librería para sanitizar HTML en el cliente |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — XSS dentro del OWASP Top 10
-- [[Burp Suite - Framework de Auditoría]] — Herramienta para interceptar y probar XSS
-- [[Enumeración Web]] — Fuzzing de parámetros que pueden ser XSS
-- [[OWASP API Security Top 10]] — XSS en APIs
+- [[OWASP API Security Top 10.md|OWASP API Security Top 10]] — Burp Suite, SQL Injection, SSRF
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Burp Suite, SQL Injection, SSRF
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Redes, SSRF
+- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Burp Suite, SQL Injection, SSRF
+- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Burp Suite, SQL Injection, SSRF
+- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Burp Suite, Metodología Pentest, SSRF
 
 ### 🛠️ Herramientas
 
@@ -171,7 +174,8 @@ Si el frontend renderiza `name` o `bio` sin escaping, el XSS se ejecuta.
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[SSRF — Server-Side Request Forgery]] — Exfiltración similar
-- [[SQL Injection]] — Inyección en servidor vs en cliente
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #pentest #xss #web
+> #burpsuite #ffuf #pentest #redes #sqli #ssrf #xss

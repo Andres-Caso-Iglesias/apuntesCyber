@@ -102,13 +102,18 @@ net config workstation            # Info de estación
 nltest /dclist:                  # Controladores de dominio
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Servicios - Windows]] — Windows en pentesting
-- Active Directory— AD y PowerShell
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Windows
+- [[SMB_Impacket.md|SMB_Impacket]] — Redes, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Windows
+- [[Tmux.md|Tmux]] — Redes, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Redes, Windows
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Redes, Windows
 
-> #windows #herramientas #cmd #powershell
+> #redes #windows

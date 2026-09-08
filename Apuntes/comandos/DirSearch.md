@@ -49,12 +49,22 @@ dirsearch -u http://10.10.10.x -w /usr/share/wordlists/dirb/common.txt
 dirsearch -u http://10.10.10.x -p http://127.0.0.1:8080
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Enumeración Web]] — Fuzzing como fase de enumeración
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, Redes
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, Redes
+- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — Redes
+- [[BurpSuite.md|BurpSuite]] — Redes
+- [[FFUF.md|FFUF]] — Redes
+- [[Linux.md|Linux]] — Redes
 
-> #dirsearch #herramientas #fuzzing #web
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+
+> #dirsearch #redes

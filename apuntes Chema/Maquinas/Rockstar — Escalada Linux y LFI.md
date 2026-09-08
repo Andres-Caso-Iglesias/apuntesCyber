@@ -454,18 +454,19 @@ En la máquina Rockstar se hicieron **cuatro saltos de usuario** (shark → wwwv
 > **Técnicas nuevas:** movimiento lateral encadenado; escalada por binario escribible (sudo -l); library/PATH hijacking y name hijacking; LD_PRELOAD/LD_LIBRARY_PATH; LFI con wrappers PHP y log poisoning; RFI; XXE (adelanto).
 > **Plataforma nueva:** The Hacking Labs (máquina Rockstar).
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Escalada de Privilegios, RFI, SSH
-- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]— Escalada de Privilegios, RFI, SSH
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Post-Explotación, SSH
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Metasploitable / DVWA, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]] — GoBuster, Metasploitable / DVWA, XXE
+- [[../Auditoria web.md|Auditoria web]] — GoBuster, Hydra, Metasploitable / DVWA
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Metasploitable / DVWA, XXE
 
 ### 🛠️ Herramientas
 
@@ -475,6 +476,7 @@ En la máquina Rockstar se hicieron **cuatro saltos de usuario** (shark → wwwv
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
@@ -486,4 +488,4 @@ En la máquina Rockstar se hicieron **cuatro saltos de usuario** (shark → wwwv
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #john #lfi #linux #netcat #nmap #post-explotacion #redes #reverse-shell #rfi #smb-impacket #ssh #xxe
+> #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #john #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #rfi #smb-impacket #ssh #xxe

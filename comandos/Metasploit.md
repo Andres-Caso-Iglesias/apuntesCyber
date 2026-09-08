@@ -420,18 +420,19 @@ run post/windows/manage/persistence_exe
 - [ ] Pivoting con autoroute y portfwd
 - [ ] Post-explotación con módulos post/
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Metasploit, Post-Explotación, SSH
-- [[../informes/Informe_Banco.md|Informe_Banco]— Post-Explotación, Redes, SSH
-- [[../apuntes Chema/Wireshark.md|Wireshark]— Post-Explotación, Redes, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]— Pivoting / Movilidad Lateral, Redes, SSH
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Post-Explotación, Redes, SSH
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Pivoting / Movilidad Lateral, Redes, SSH
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, SSH
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metasploit, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Post-Explotación, SSH
 
 ### 🛠️ Herramientas
 
@@ -439,4 +440,4 @@ run post/windows/manage/persistence_exe
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #linux #metasploit #nmap #pivoting #post-explotacion #redes #ssh #windows
+> #linux #metasploit #nmap #pentest #pivoting #post-explotacion #redes #ssh #windows #wireshark

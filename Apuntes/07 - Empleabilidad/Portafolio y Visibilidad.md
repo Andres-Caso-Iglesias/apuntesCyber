@@ -70,17 +70,22 @@ Portafolio + presencia pública
 - [ ] ¿Mi LinkedIn refleja que soy de ciberseguridad?
 - [ ] ¿He compartido algún walkthrough o artículo recientemente?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]]— Empleabilidad, Hack The Box, VulnHub
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]]— Empleabilidad, Hack The Box, VulnHub
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]]— Hack The Box, VulnHub
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]]— Hack The Box, VulnHub
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]]— Hack The Box, VulnHub
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Hack The Box, VulnHub
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Burp Suite, Empleabilidad, VulnHub
+- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Burp Suite, Empleabilidad, VulnHub
+- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Post-Explotación, Windows
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Esteganografía, Windows
+- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — Empleabilidad, VulnHub, Windows
+- [[../06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Post-Explotación, VulnHub, Windows
 
-> #empleabilidad #hack-the-box #vulnhub
+### 🛠️ Herramientas
+
+- [[comandos/BurpSuite|Burp Suite]]
+
+> #burpsuite #empleabilidad #esteganografia #hack-the-box #osint #post-explotacion #redes #vulnhub #windows

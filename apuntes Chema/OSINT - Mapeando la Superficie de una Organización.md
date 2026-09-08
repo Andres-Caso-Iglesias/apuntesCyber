@@ -86,18 +86,19 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Google Dorks, Metodología Pentest, Redes
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Metodología Pentest, Nmap, Redes
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]— Empleabilidad, Metodología Pentest, OSINT
-- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]— Empleabilidad, Google Dorks, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Nmap, Redes, SSH
-- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]— Google Dorks, Redes, SSH
+- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Nmap, Normativa / GRC
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Empleabilidad, Normativa / GRC, SSH
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Metodología Pentest, Nmap
+- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
+- [[../comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, WordPress
+- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Metodología Pentest, Nmap, OSINT
 
 ### 🛠️ Herramientas
 
@@ -105,4 +106,4 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #empleabilidad #google-dorks #nmap #osint #pentest #redes #ssh #wordpress
+> #empleabilidad #google-dorks #nmap #normativa #osint #pentest #redes #ssh #wordpress

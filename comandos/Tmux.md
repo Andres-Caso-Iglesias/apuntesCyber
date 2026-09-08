@@ -173,22 +173,29 @@ bind -n M-Down select-pane -D
 - [ ] Copy mode con `Ctrl+b [` explorado
 - [ ] Configuración personalizada en `.tmux.conf`
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Telnet.md|Telnet]— SSH
-- [[../Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]— SSH
-- [[Hydra.md|Hydra]— SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— SSH
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]— SSH
-- [[../apuntes Chema/Wireshark.md|Wireshark]— SSH
+- [[Telnet.md|Telnet]] — Hydra, Post-Explotación, Telnet
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Linux, Tmux
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, SSH
+- [[Metasploit.md|Metasploit]] — Linux, Post-Explotación, SSH
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Path Traversal / LFI, Post-Explotación
+- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Telnet
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
+- [[comandos/Telnet|Telnet]]
 - [[comandos/Tmux|Tmux]]
 
-> #ssh #tmux
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+
+> #hydra #lfi #linux #pentest #post-explotacion #redes #ssh #telnet #tmux #wireshark

@@ -314,18 +314,19 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 →’
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— Hack The Box, Kali Linux, XSS
-- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— GoBuster, Kali Linux, XSS
-- [[../write-ups/Academy-THL.md|Academy-THL]— GoBuster, Kali Linux, Reverse Shells
-- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Hack The Box, Kali Linux, XSS
-- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]— Hack The Box, Kali Linux, XSS
-- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Hack The Box, Kali Linux, XSS
+- [[Sesión 30 — Burp Suite y WordPress.md|Sesión 30 — Burp Suite y WordPress]] — Burp Suite, Feroxbuster, WordPress
+- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, Metodología Pentest, WordPress
+- [[../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, GoBuster, Hydra
+- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, GoBuster, Hydra
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — File Upload, GoBuster, Hydra
+- [[../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -334,6 +335,7 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
@@ -341,4 +343,4 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #dirsearch #feroxbuster #file-upload #gobuster #hack-the-box #hydra #ia #kali #linux #netcat #pentest #redes #reverse-shell #windows #wireshark #wordpress #wpscan #xss
+> #burpsuite #dirsearch #feroxbuster #file-upload #gobuster #hack-the-box #hydra #ia #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #windows #wireshark #wordpress #wpscan #xss

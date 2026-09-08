@@ -141,17 +141,18 @@ a) DMAIC &emsp; b) PDCA (Plan-Do-Check-Act) &emsp; c) OODA &emsp; d) Kanban
 3. **Gestiona el tiempo**: si una pregunta te bloquea más de un minuto, márcala y sigue — vuelve a ella al final si el formato del examen lo permite
 4. **Repasa las respuestas marcadas como dudosas** al final si queda tiempo, pero evita cambiar respuestas por simple inseguridad sin una razón concreta para el cambio
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 12.md|BLOQUE 12]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, Normativa / GRC
-- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Certificaciones, Normativa / GRC
+- [[BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Empleabilidad, Metodología Pentest, Normativa / GRC
+- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
+- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Metodología Pentest, Normativa / GRC
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Normativa / GRC, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, Redes
 
-> #certificaciones #normativa #pentest
+> #certificaciones #empleabilidad #normativa #pentest #redes

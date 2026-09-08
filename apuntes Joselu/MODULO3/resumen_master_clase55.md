@@ -307,18 +307,19 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase45.md|resumen_master_clase45]— Escalada de Privilegios, GoBuster, SSH
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, GoBuster, SSH
-- [[resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, SSH, XSS
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Escalada de Privilegios, SSH, XSS
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— Hack The Box, SSTI, XSS
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— Hack The Box, SSTI, XSS
+- [[../../apuntes Chema/Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — File Upload, SQL Injection, XXE
+- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, SQL Injection, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, SQL Injection, XXE
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, SQL Injection, XXE
+- [[resumen_master_clase41.md|resumen_master_clase41]] — File Upload, SQL Injection, XXE
+- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, SQL Injection, XXE
 
 ### 🛠️ Herramientas
 
@@ -326,6 +327,7 @@ Término en la transcripción Corrección / Aclaración
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -337,5 +339,6 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #file-upload #gobuster #hack-the-box #hydra #ia #lfi #nmap #pentest #redes #reverse-shell #sqli #ssh #ssrf #ssti #xss
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #file-upload #gobuster #hack-the-box #hydra #ia #lfi #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti #xss #xxe

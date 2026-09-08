@@ -83,13 +83,22 @@ ffuf -u http://10.10.10.x/FUZZ -w wordlist.txt -fr ".*not found.*"
 SecLists/Discovery/DNS/subdomains-top1million-5000.txt
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Fuzzing Web con ffuf]] — Teoría completa de FFUF
-- [[Enumeración Web]] — Fuzzing como fase de enumeración
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Redes
+- [[GoBuster.md|GoBuster]] — FFUF, Redes
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Redes
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Redes
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Redes
+- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — Redes
 
-> #ffuf #herramientas #fuzzing #web
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+
+> #ffuf #redes

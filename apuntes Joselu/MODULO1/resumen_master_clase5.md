@@ -176,22 +176,24 @@ En auditorías, ambas sirven y se puede saltar entre una y otra. La elección de
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Kali Linux, Normativa / GRC
-- [[resumen_master_clase4.md|resumen_master_clase4]— Escalada de Privilegios, Kali Linux, Normativa / GRC
-- [[../PREWORK/resumen_clase15.md|resumen_clase15]— Escalada de Privilegios, Hydra, Redes
-- [[../MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Kali Linux, Redes
-- [[../PREWORK/resumen_clase10.md|resumen_clase10]— Hydra, Normativa / GRC, Redes
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Redes, Windows
+- [[resumen_master_clase2.md|resumen_master_clase2]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
+- [[resumen_master_clase4.md|resumen_master_clase4]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../PREWORK/resumen_clase10.md|resumen_clase10]] — Hydra, Metasploit, Normativa / GRC
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Netcat / Reverse Shells, Normativa / GRC
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, Normativa / GRC
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
-> #blue-team #escalada-privilegios #hydra #ia #kali #linux #netcat #normativa #redes #reverse-shell #windows
+> #blue-team #escalada-privilegios #forense #hydra #ia #kali #linux #metasploit #netcat #normativa #redes #reverse-shell #windows

@@ -182,22 +182,25 @@ feroxbuster -u http://target -w common.txt -x php
 - [ ] Headers personalizados probados
 - [ ] Proxy configurado si es necesario
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[GoBuster.md|GoBuster]— FFUF, Feroxbuster
-- [[FFUF.md|FFUF]— FFUF
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— FFUF, Feroxbuster
-- [[DirSearch.md|DirSearch]— FFUF
-- [[../apuntes Chema/Fuzzing Web.md|Fuzzing Web]— FFUF, Feroxbuster
-- [[../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— FFUF, Feroxbuster
+- [[DirSearch.md|DirSearch]] — DirSearch, Feroxbuster, GoBuster
+- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[FFUF.md|FFUF]] — DirSearch, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, GoBuster, Redes
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
+- [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
 
-> #feroxbuster #ffuf
+> #dirsearch #feroxbuster #ffuf #gobuster #redes

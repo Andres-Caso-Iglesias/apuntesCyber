@@ -97,13 +97,22 @@ exploit -j
 msfconsole -r script.rc
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Metodología de Explotación]] — Marco mental del pentest
-- [[Escalada de Privilegios]] — Post-explotación
+- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Escalada de Privilegios, Metasploit, Post-Explotación
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Metodología Pentest, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Metodología Pentest, Post-Explotación
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, Redes
 
-> #metasploit #herramientas #explotacion #meterpreter
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Metasploit]]
+
+> #escalada-privilegios #metasploit #pentest #post-explotacion #redes

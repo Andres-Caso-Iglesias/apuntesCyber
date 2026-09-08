@@ -180,22 +180,23 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 > **Siguiente tema:** Forense Digital — Adquisición de memoria y análisis con Volatility
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]]— Nmap, Redes, Wireshark
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]]— Nmap, Redes, Wireshark
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]]— Forense Digital, Hydra, Redes
-- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]]— Hydra, OSINT, WiFi / Hardware
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]]— Hydra, Redes, WiFi / Hardware
-- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]]— Hydra, Nmap, Redes
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, WiFi / Hardware, Wireshark
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Nmap, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Forense Digital, Hydra, WiFi / Hardware
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Forense Digital, Hydra, WiFi / Hardware
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Nmap, WiFi / Hardware
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Post-Explotación, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
 
-> #forense #hydra #nmap #osint #pentest #redes #wifi #wireshark
+> #esteganografia #forense #hydra #nmap #osint #pentest #post-explotacion #redes #wifi #wireshark

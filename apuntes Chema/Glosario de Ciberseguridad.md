@@ -239,24 +239,27 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 | Anonimización vs. Seudonimización | — | Anonimizar hace el dato irreversiblemente no reidentificable (fuera del RGPD); seudonimizar lo codifica de forma reversible (sigue siendo dato personal). |
 | ✓  Documento vivo Este glosario crece con cada sesión. Cuando un apunte introduzca un término nuevo, se añade también aquí para mantener una referencia única del proyecto. |  |  |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]— File Upload, Google Dorks, IDOR
-- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]— CSRF, Google Dorks, IDOR
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— CSRF, File Upload, Linux
-- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]— Blue Team / SOC, File Upload, Linux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— File Upload, IDOR, Linux
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]— Blue Team / SOC, Linux, Metodología Pentest
+- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, SSRF, SSTI
+- [[../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]] — SSH, SSRF, SSTI
+- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — Burp Suite, SSH, SSRF
+- [[PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — Burp Suite, Metodología Pentest, SSH
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Blue Team / SOC, Burp Suite, SSH
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — SSH, SSRF, SSTI
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Google_Dorks|Google Dorks]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -271,4 +274,4 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #certificaciones #command-injection #csrf #escalada-privilegios #esteganografia #ffuf #file-upload #google-dorks #hydra #ia #idor #lfi #linux #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssrf #ssti #wifi #windows #wireshark #xss #xxe
+> #blue-team #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #esteganografia #ffuf #file-upload #google-dorks #hydra #ia #idor #lfi #linux #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssrf #ssti #wifi #windows #wireshark #xss #xxe

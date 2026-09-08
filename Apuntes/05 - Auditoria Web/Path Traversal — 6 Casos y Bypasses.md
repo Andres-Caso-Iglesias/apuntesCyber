@@ -145,18 +145,19 @@
 - [ ] ¿Entiendo cuándo funciona cada encoding?
 - [ ] ¿He practicado los labs de PortSwigger?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[XXE — XML External Entity.md|XXE — XML External Entity]]— Burp Suite, Path Traversal / LFI, XXE
-- [[../../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]]— Burp Suite, SSH, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]]— Burp Suite, Path Traversal / LFI, XXE
-- [[../../write-ups/Banco-THL.md|Banco-THL]]— Burp Suite, Path Traversal / LFI, SSH
-- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]]— Burp Suite, SSH, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]]— Burp Suite, Path Traversal / LFI, XXE
+- [[../../write-ups/Banco-THL.md|Banco-THL]] — Burp Suite, Path Traversal / LFI, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Path Traversal / LFI, XXE
+- [[../../write-ups/Castor-THL.md|Castor-THL]] — Path Traversal / LFI, Redes, XXE
+- [[../comandos/BurpSuite.md|BurpSuite]] — Burp Suite, Redes
+- [[SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Redes, XXE
+- [[../../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Path Traversal / LFI, SSH, XXE
 
 ### 🛠️ Herramientas
 
@@ -167,4 +168,4 @@
 
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #lfi #ssh #xxe
+> #burpsuite #lfi #redes #ssh #xxe

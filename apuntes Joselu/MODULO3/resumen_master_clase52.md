@@ -282,18 +282,19 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, SSH, SSTI
-- [[resumen_master_clase53.md|resumen_master_clase53]— Open Redirect, Redes, SSRF
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Open Redirect, SSRF, SSTI
-- [[resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSH, SSTI
-- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hack The Box, SSH, SSTI
-- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]— SSH, SSRF, SSTI
+- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, SSRF, SSTI
+- [[../../apuntes Chema/Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]] — Path Traversal / LFI, SSRF, SSTI
+- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — SSH, SSRF, SSTI
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, SSRF, SSTI
+- [[resumen_master_clase55.md|resumen_master_clase55]] — Path Traversal / LFI, SSRF, SSTI
+- [[resumen_master_clase48.md|resumen_master_clase48]] — Path Traversal / LFI, SSRF, SSTI
 
 ### 🛠️ Herramientas
 
@@ -303,8 +304,9 @@ Término en la transcripción Corrección / Aclaración
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #blue-team #burpsuite #empleabilidad #hack-the-box #ia #lfi #nmap #open-redirect #pentest #redes #ssh #ssrf #ssti
+> #blue-team #burpsuite #command-injection #empleabilidad #hack-the-box #ia #lfi #nmap #open-redirect #pentest #redes #ssh #ssrf #ssti

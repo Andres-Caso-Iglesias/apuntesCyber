@@ -255,22 +255,23 @@ nmap --reason <target>
 - [ ] Output en múltiples formatos generado
 - [ ] Evasión de firewall con stealth scan
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]— Hydra, Redes
-- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Nmap, Redes
-- [[Hydra.md|Hydra]— Hydra, Redes
-- [[SMB_Impacket.md|SMB_Impacket]— Nmap, Redes
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]— Hydra, Nmap, Redes
-- [[../write-ups/Banco-THL.md|Banco-THL]— Hydra, Nmap, Redes
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Nmap, WiFi / Hardware
+- [[../Apuntes/comandos/Nmap.md|Nmap]] — Nmap, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, WiFi / Hardware
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, Redes, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Hydra, Nmap, WiFi / Hardware
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Redes, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
 
-> #hydra #nmap #redes
+> #hydra #nmap #redes #wifi

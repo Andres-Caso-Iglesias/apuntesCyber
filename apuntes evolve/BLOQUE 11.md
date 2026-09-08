@@ -211,18 +211,19 @@ El EDR vigila directamente el endpoint, lo que resulta crítico en teletrabajo: 
 
 Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del sistema (PowerShell, certutil, mshta) reutilizadas con fines maliciosos precisamente para evitar levantar sospechas — el análisis de procesos debe distinguir siempre entre un uso legítimo y un uso anómalo de estas mismas herramientas.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Redes, Windows, Wireshark
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Redes, SMB / Impacket, SSH
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Redes, Windows, Wireshark
-- [[BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
-- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Hydra, Redes, SSH
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Linux, SMB / Impacket
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, SSH
+- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, SSH
+- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Windows
 
 ### 🛠️ Herramientas
 

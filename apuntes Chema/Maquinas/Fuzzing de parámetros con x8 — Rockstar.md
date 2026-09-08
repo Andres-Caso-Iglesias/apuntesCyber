@@ -186,18 +186,19 @@ Se aplicó `x8_lite.py` sobre `index.php` (POST) de la máquina rockstar. El scr
 | x8 / x8_lite.py | Practicada (antes: Mencionada) |
 | valfuzz.py | Introducida (nueva) |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]— GoBuster, Hydra, Kali Linux
-- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— Feroxbuster, Hack The Box, Hydra
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— GoBuster, Hack The Box, Kali Linux
-- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— GoBuster, Kali Linux, Redes
-- [[../Fuzzing Web.md|Fuzzing Web]— Hack The Box, Hydra, Kali Linux
-- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— GoBuster, Hack The Box, Kali Linux
+- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, GoBuster, Hydra
+- [[../Fuzzing Web.md|Fuzzing Web]] — Burp Suite, Hydra, Linux
+- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Burp Suite, GoBuster, Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Hydra, Linux
+- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — GoBuster, Hydra, Linux
+- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — GoBuster, Linux, Windows
 
 ### 🛠️ Herramientas
 

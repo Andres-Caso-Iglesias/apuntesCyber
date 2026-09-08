@@ -249,18 +249,19 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 | ℹ️  Pendiente para la próxima sesión Completar la máquina Academy (WordPress) desde Windows (posible WSL): lanzar WPScan completo, fuerza bruta del login si procede y explotación (file upload → shell). Profundizar en Burp con más ejercicios prácticos hasta final de curso (es herramienta de uso diario). |
 | --- |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]— File Upload, Linux, Metodología Pentest
-- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— Hack The Box, Hydra, IA en Ciberseguridad
-- [[../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]— Hydra, IA en Ciberseguridad, WordPress
-- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]— Hack The Box, Hydra, IA en Ciberseguridad
-- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Hack The Box, Hydra, WPScan
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Hack The Box, Hydra, WPScan
+- [[Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]] — Burp Suite, Feroxbuster, WordPress
+- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, Metodología Pentest, WordPress
+- [[../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, GoBuster, Hydra
+- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, GoBuster, Hydra
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — File Upload, GoBuster, Hydra
+- [[../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -269,6 +270,7 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
@@ -276,4 +278,4 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #dirsearch #feroxbuster #file-upload #gobuster #hack-the-box #hydra #ia #kali #linux #netcat #pentest #redes #reverse-shell #windows #wireshark #wordpress #wpscan #xss
+> #burpsuite #dirsearch #feroxbuster #file-upload #gobuster #hack-the-box #hydra #ia #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #windows #wireshark #wordpress #wpscan #xss

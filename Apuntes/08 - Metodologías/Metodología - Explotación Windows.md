@@ -260,22 +260,23 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 - [ ] Hashes extraídos
 - [ ] Movimiento lateral realizado
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]]— Redes, SMB / Impacket, Windows
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]]— Redes, SMB / Impacket, Windows
-- [[../../comandos/Metasploit.md|Metasploit]]— Metasploit, Post-Explotación, Redes
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]]— Escalada de Privilegios, Metasploit, Post-Explotación
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Post-Explotación, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Metasploit, Post-Explotación, SMB / Impacket
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Post-Explotación, SMB / Impacket
+- [[../../comandos/SQLMap.md|SQLMap]] — Linux, Metasploit, Post-Explotación
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Linux, Windows
+- [[../comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #escalada-privilegios #metasploit #post-explotacion #redes #smb-impacket #windows
+> #escalada-privilegios #linux #metasploit #post-explotacion #redes #smb-impacket #windows

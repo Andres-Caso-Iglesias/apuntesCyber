@@ -256,22 +256,23 @@ impacket-psexec -hashes :HASH user@IP
 - [ ] Hash crackeado
 - [ ] Credenciales obtenidas
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]— Hydra, John / Hashcat, Linux
-- [[../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Hydra, John / Hashcat, Linux
-- [[../write-ups/Castor-THL.md|Castor-THL]— Hydra, John / Hashcat, Linux
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Linux, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Linux, Windows
-- [[../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Hydra, Linux, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, Windows
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — John / Hashcat, Linux, Redes
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
+- [[Windows.md|Windows]] — Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 
-> #hydra #john #linux #windows
+> #hydra #john #linux #redes #windows

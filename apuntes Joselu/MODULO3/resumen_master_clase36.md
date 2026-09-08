@@ -352,23 +352,25 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 â†’
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Normativa / GRC, SSRF, XSS
-- [[../../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hack The Box, SSRF, XSS
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— CSRF, Hack The Box, XSS
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— Normativa / GRC, SSRF, XSS
-- [[resumen_master_clase47.md|resumen_master_clase47]— CSRF, Hack The Box, XSS
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— IDOR, Normativa / GRC, XSS
+- [[../../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — CSRF, File Upload, SQL Injection
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, SQL Injection, SQLMap
+- [[../../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
+- [[resumen_master_clase47.md|resumen_master_clase47]] — CSRF, File Upload, SQL Injection
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — File Upload, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -380,4 +382,4 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #certificaciones #command-injection #csrf #file-upload #forense #hack-the-box #hydra #ia #idor #lfi #normativa #redes #sqli #sqlmap #ssrf #wordpress #xss #xxe
+> #burpsuite #certificaciones #command-injection #csrf #file-upload #forense #hack-the-box #hydra #ia #idor #lfi #netcat #normativa #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #wordpress #xss #xxe

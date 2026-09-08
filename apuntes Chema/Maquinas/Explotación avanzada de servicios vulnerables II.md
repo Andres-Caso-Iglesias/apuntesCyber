@@ -615,18 +615,19 @@ Para saber los nombres de los campos del formulario: click derecho en la página
 14. www-data, porque es el usuario que ejecuta Apache. Siguiente paso: escalar a un usuario local del sistema y después a root con sudo -l o GTFOBins.
 15. Hashcat usa la GPU (tarjeta gráfica), que puede hacer millones de operaciones en paralelo. John usa principalmente la CPU.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, SSH, XSS
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, SSH, XSS
-- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Kali Linux, SSH
-- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, SSH, XSS
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, John / Hashcat, SQL Injection
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Hydra, Metasploit, SQL Injection
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -644,4 +645,4 @@ Para saber los nombres de los campos del formulario: click derecho en la página
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #escalada-privilegios #ffuf #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #sqli #ssh #windows #xss
+> #burpsuite #certificaciones #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #post-explotacion #redes #sqli #ssh #windows #xss

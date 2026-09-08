@@ -93,23 +93,25 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 > [!important] Flujo cíclico
 > Pivoting no es un paso único: es un ciclo repetitivo de enumeración → explotación → escalada → nuevo pivote hasta alcanzar el objetivo.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Redes, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]— Escalada de Privilegios, Redes, Windows
-- [[../write-ups/Nike-THL.md|Nike-THL]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Redes, SSH
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #netcat #nmap #pentest #pivoting #redes #reverse-shell #ssh #windows
+> #escalada-privilegios #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows

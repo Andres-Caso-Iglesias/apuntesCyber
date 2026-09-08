@@ -220,25 +220,27 @@ sqlmap -u "URL" --os-pwn
 - [ ] Extraer datos sensibles
 - [ ] Intentar acceso al sistema
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Linux, SQL Injection, Windows
-- [[../apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Linux, SQL Injection, SQLMap
-- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Linux, Post-Explotación, Windows
-- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]— Post-Explotación, SQL Injection, Windows
-- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]— Linux, SQL Injection, SQLMap
-- [[Metasploit.md|Metasploit]— Linux, Post-Explotación, Windows
+- [[../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Linux, SQL Injection, SQLMap
+- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, SQL Injection, Windows
+- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, SQLMap
+- [[../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, SQL Injection, SQLMap
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Linux, Metasploit, Post-Explotación
+- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Metasploit, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/SQLMap|SQLMap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #linux #post-explotacion #sqli #sqlmap #windows
+> #ia #linux #metasploit #post-explotacion #redes #sqli #sqlmap #windows

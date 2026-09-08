@@ -376,18 +376,19 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, Metasploit, SSH
-- [[resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
-- [[resumen_master_clase26.md|resumen_master_clase26]— Kali Linux, Metodología Pentest, SSH
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
-- [[resumen_master_clase25.md|resumen_master_clase25]— Hydra, Metasploit, SSH
+- [[resumen_master_clase19.md|resumen_master_clase19]] — Hydra, Metasploit, Metasploitable / DVWA
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Hydra, Metasploitable / DVWA
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Hydra, Metasploitable / DVWA
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Hydra, Metasploit
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Hydra, Metasploitable / DVWA
 
 ### 🛠️ Herramientas
 
@@ -397,6 +398,7 @@ Término en la transcripción Corrección / Aclaración
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
@@ -405,4 +407,4 @@ Término en la transcripción Corrección / Aclaración
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #nmap #normativa #osint #pentest #redes #ssh #telnet
+> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #post-explotacion #redes #reverse-shell #ssh #telnet

@@ -290,18 +290,19 @@ Cambios y novedades tras esta sesión (para copiar a la base de conocimiento del
 →’
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Kali Linux, Post-Explotación, XSS
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hack The Box, VulnHub, XSS
-- [[Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, XSS
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— Kali Linux, XSS, XXE
-- [[../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, XSS
-- [[../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, XSS
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, SQL Injection, SQLMap
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
+- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, SQL Injection, SQLMap
+- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — SQL Injection, SQLMap, XXE
+- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — SQL Injection, SQLMap, XXE
+- [[Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 
@@ -313,7 +314,8 @@ Cambios y novedades tras esta sesión (para copiar a la base de conocimiento del
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #burpsuite #certificaciones #forense #hack-the-box #hydra #idor #kali #metasploitable #nmap #pentest #post-explotacion #redes #sqli #sqlmap #vulnhub #windows #wordpress #xss #xxe
+> #blue-team #burpsuite #certificaciones #forense #hack-the-box #hydra #idor #kali #linux #metasploitable #nmap #pentest #post-explotacion #redes #sqli #sqlmap #ssrf #vulnhub #windows #wordpress #xss #xxe

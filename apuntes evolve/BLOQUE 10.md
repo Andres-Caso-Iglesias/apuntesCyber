@@ -136,17 +136,18 @@ sha256sum ./exhibits/malware.exe
 | No documentar contexto (hora exacta, zona horaria, build del SO) | Dificulta la interpretación |
 | Confiar solo en pslist sin comparar con psscan | Procesos ocultos quedan fuera del análisis |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Forense Digital, Linux, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Forense Digital, Linux, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]— Linux, Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Forense Digital, Linux, Windows
-- [[../comandos/Linux.md|Linux]— Forense Digital, Linux, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Redes, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Redes, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
+- [[../comandos/Windows.md|Windows]] — Linux, Redes, Windows
+- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Redes, Windows
 
 > #forense #linux #redes #windows

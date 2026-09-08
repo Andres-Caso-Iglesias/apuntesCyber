@@ -448,18 +448,19 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— Hack The Box, SSH, XSS
-- [[../../apuntes Chema/Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]— Hack The Box, Kali Linux, XSS
-- [[resumen_master_clase35.md|resumen_master_clase35]— Hack The Box, Kali Linux, Redes
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— Hack The Box, SSH, XSS
-- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hack The Box, Kali Linux, SSH
-- [[resumen_master_clase38.md|resumen_master_clase38]— Kali Linux, SSH, XSS
+- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — File Upload, Linux, Path Traversal / LFI
+- [[../../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — File Upload, Linux, Path Traversal / LFI
+- [[../../apuntes Chema/Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]] — File Upload, Hydra, Linux
+- [[../../apuntes Chema/Sesión 30 — Burp Suite y WordPress.md|Sesión 30 — Burp Suite y WordPress]] — File Upload, Hydra, Linux
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — File Upload, Hydra, Path Traversal / LFI
+- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Hydra, Path Traversal / LFI
 
 ### 🛠️ Herramientas
 
@@ -470,7 +471,8 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #file-upload #hack-the-box #hydra #ia #kali #lfi #linux #redes #ssh #windows #wordpress #wpscan #xss
+> #burpsuite #command-injection #file-upload #hack-the-box #hydra #ia #kali #lfi #linux #pentest #redes #ssh #windows #wordpress #wpscan #xss

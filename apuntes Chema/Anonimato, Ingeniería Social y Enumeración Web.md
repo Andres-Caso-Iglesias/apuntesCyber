@@ -371,18 +371,19 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 | Tor | Alta/repaso (red cebolla) | Mencionada |
 | Lovable / Emergent (IA) | Alta (clonado de UI) | Mencionada |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— GoBuster, Kali Linux, SSH
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— GoBuster, Kali Linux, SSH
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— GoBuster, Kali Linux, SSH
-- [[Auditoria web.md|Auditoria web]— GoBuster, Kali Linux, SSH
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]— GoBuster, Kali Linux, SSH
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, GoBuster, Linux
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — DirSearch, GoBuster, Linux
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — DirSearch, GoBuster, Linux
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — DirSearch, GoBuster, Linux
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[Auditoria web.md|Auditoria web]] — DirSearch, GoBuster, Linux
 
 ### 🛠️ Herramientas
 

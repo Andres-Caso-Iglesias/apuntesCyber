@@ -299,18 +299,19 @@ Wizark / Wizar **Wireshark** -- analizador de tráfico de red volátil / estáti
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]— Redes, Windows, Wireshark
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Redes, Windows, Wireshark
-- [[../MODULO2/resumen_master_clase13.md|resumen_master_clase13]— Linux, Redes, Windows
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]— Forense Digital, Redes, Wireshark
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Linux, Windows
+- [[../PREWORK/resumen_clase15.md|resumen_clase15]] — Forense Digital, Linux, Windows
 
 ### 🛠️ Herramientas
 

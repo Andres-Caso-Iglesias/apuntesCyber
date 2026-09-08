@@ -98,22 +98,24 @@ Wireshark muestra perfectamente el proceso de establecimiento de conexión TCP:
 
 ## Enlaces relacionados
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]— Post-Explotación, Redes, Wireshark
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]— Redes, SSH, Wireshark
-- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]— Redes, SSH, Wireshark
-- [[../informes/Informe_Banco.md|Informe_Banco]— Post-Explotación, Redes, SSH
-- [[../comandos/Metasploit.md|Metasploit]— Post-Explotación, Redes, SSH
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]— Nmap, Redes, Wireshark
+- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Post-Explotación, SSH
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Metasploit, Post-Explotación, SSH
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotación, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Post-Explotación, SSH
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Post-Explotación, SSH, Wireshark
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Post-Explotación, Wireshark
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #nmap #post-explotacion #redes #ssh #wireshark
+> #metasploit #nmap #post-explotacion #redes #ssh #wireshark

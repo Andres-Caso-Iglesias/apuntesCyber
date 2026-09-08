@@ -177,22 +177,25 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración en paralelo para cracking de hashes eJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) – certificación de entrada en pentesting Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase11.md|resumen_clase11]— Hydra, Normativa / GRC, Redes
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Hydra, Normativa / GRC, Redes
-- [[../MODULO1/resumen_master_clase4.md|resumen_master_clase4]— Normativa / GRC, Redes, Windows
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
-- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Hydra, Metasploit, Normativa / GRC
+- [[resumen_clase11.md|resumen_clase11]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — Hydra, Metasploit, Normativa / GRC
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Telnet|Telnet]]
 
@@ -200,4 +203,4 @@ Término en la transcripción Corrección / Aclaración en paralelo para crackin
 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #certificaciones #forense #hydra #ia #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss
+> #blue-team #burpsuite #certificaciones #forense #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss

@@ -238,17 +238,18 @@ Get-DomainComputer
 - [ ] Delegation verificada
 - [ ] Domain Admin obtenido
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Windows.md|Windows]]— Windows
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]]— Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]]— Windows
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]]— Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]]— Windows
-- [[../../comandos/John_Hashcat.md|John_Hashcat]]— Windows
+- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Windows
+- [[../comandos/Linux.md|Linux]] — Linux, Redes
+- [[../comandos/Windows.md|Windows]] — Redes, Windows
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
 
-> #windows
+> #linux #redes #windows

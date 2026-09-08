@@ -29,12 +29,23 @@ nmap -sV -p <port> <host>         # Detectar versión
 nmap -sC -p <port> <host>         # Scripts por defecto
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Nmap - Escaneo y Enumeración]] — Mejor alternativa para banner grabbing
+- [[Nmap.md|Nmap]] — Nmap, Redes
+- [[../../comandos/Hydra.md|Hydra]] — Nmap, Redes, Telnet
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Nmap, Redes
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes
 
-> #telnet #herramientas #recon
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+- [[comandos/Telnet|Telnet]]
+
+> #nmap #redes #telnet

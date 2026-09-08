@@ -369,26 +369,22 @@ def agente_auditoria(url):
 
 > **Siguiente tema:** [[Certificaciones - ISO 27001 y eJPTv2]] — Preparación para exámenes de certificación
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Blue Team - SOC e Incidentes]] — LLMs para triage y documentación en SOC
-- [[Anonimato, Ingeniería Social y Enumeración Web]] — IA para phishing y deepfakes
-- [[Normativa - ISO 27001, GDPR, ENS]] — Marco de referencia para IA en seguridad
-- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — Fundamentos de ML/DL
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — LLMs, tokens, agentes
-- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Intro a IA y programación asistida
-- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1]] — Arquitectura de agentes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — IA en Ciberseguridad, Linux, Normativa / GRC
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Blue Team / SOC, Linux, Normativa / GRC
 
 ### 🛠️ Herramientas
 
 - [[comandos/FFUF|FFUF]]
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|Prompt Injection]] — Vulnerabilidad en LLMs
-
-> #blue-team #certificaciones #ia #normativa #redes
+> #blue-team #certificaciones #ffuf #ia #linux #normativa #redes

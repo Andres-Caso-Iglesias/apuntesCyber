@@ -134,21 +134,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración data link y physical layer Capa de enlace de datos (L2) y capa física (L1) del modelo OSI Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]— Redes, SSH, Windows
-- [[../../apuntes Chema/Wireshark.md|Wireshark]— Redes, SSH, Wireshark
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— IA en Ciberseguridad, Redes, SSH
-- [[../MODULO2/resumen_master_clase14.md|resumen_master_clase14]— Redes, SSH, Wireshark
-- [[resumen_clase4.md|resumen_clase4]— Redes, SSH, Windows
-- [[resumen_clase2.md|resumen_clase2]— Command Injection / RCE, IA en Ciberseguridad, Redes
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -156,4 +158,4 @@ Término en la transcripción Corrección / Aclaración data link y physical lay
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #ia #nmap #redes #ssh #windows #wireshark
+> #command-injection #ia #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark

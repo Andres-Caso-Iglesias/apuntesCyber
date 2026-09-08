@@ -240,18 +240,19 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 →’
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[PREWORK.md|PREWORK]— GoBuster, SSH, WiFi / Hardware
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— GoBuster, SSH, WiFi / Hardware
-- [[../../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]— GoBuster, SSH, WiFi / Hardware
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Metasploit, SSH, WiFi / Hardware
-- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]— Hydra, Metasploit, SSH
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]— Kali Linux, Post-Explotación, WiFi / Hardware
+- [[PREWORK.md|PREWORK]] — John / Hashcat, SMB / Impacket, SQLMap
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, SSH, WordPress
+- [[../../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]] — John / Hashcat, SMB / Impacket, SQLMap
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
+- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Empleabilidad, Hydra, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 

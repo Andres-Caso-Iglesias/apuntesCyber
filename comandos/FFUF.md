@@ -148,21 +148,27 @@ ffuf -u http://target/FUZZ -w wordlist.txt -recursion -recursion-depth 2
 - [ ] Headers custom si es necesario
 - [ ] Output guardado para análisis
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[DirSearch.md|DirSearch]— FFUF
-- [[Feroxbuster.md|Feroxbuster]— FFUF
-- [[GoBuster.md|GoBuster]— FFUF
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— FFUF
-- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— FFUF
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]— FFUF
+- [[DirSearch.md|DirSearch]] — DirSearch, Feroxbuster, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, Feroxbuster, GoBuster
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, DirSearch, GoBuster
+- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Feroxbuster, GoBuster
+- [[../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Burp Suite, DirSearch, Feroxbuster
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+- [[comandos/Nmap|Nmap]]
 
-> #ffuf
+> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #nmap #redes

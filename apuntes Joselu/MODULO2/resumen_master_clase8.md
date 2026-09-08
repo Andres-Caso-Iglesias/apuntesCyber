@@ -231,18 +231,19 @@ Oisin / o Sint / o cintas **OSINT** (*Open Source Intelligence*) Ossint / Ossint
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase13.md|resumen_master_clase13]— Forense Digital, Linux, Redes
-- [[resumen_master_clase9.md|resumen_master_clase9]— Google Dorks, Linux, Redes
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]— Google Dorks, Linux, Redes
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]— Forense Digital, Linux, Redes
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Hack The Box, IA en Ciberseguridad, Redes
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Forense Digital, Nmap, Redes
+- [[resumen_master_clase13.md|resumen_master_clase13]] — Forense Digital, IA en Ciberseguridad, Linux
+- [[resumen_master_clase10.md|resumen_master_clase10]] — IA en Ciberseguridad, Linux, OSINT
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Nmap
+- [[../../comandos/Linux.md|Linux]] — Forense Digital, Linux, OSINT
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Redes
 
 ### 🛠️ Herramientas
 

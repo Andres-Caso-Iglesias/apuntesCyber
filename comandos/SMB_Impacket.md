@@ -219,22 +219,23 @@ impacket-psexec -k -no-pass domain/user@target
 - [ ] SecretsDump para hashes
 - [ ] Pass-the-Hash probado
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]— Redes, SMB / Impacket, Windows
-- [[Windows.md|Windows]— Redes, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]— Redes, SMB / Impacket, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Redes, Windows
-- [[Nmap.md|Nmap]— Nmap, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]— Nmap, Redes, Windows
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Metodología Pentest, Redes, SMB / Impacket
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes, Windows
+- [[Windows.md|Windows]] — Metodología Pentest, Redes, Windows
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes, Windows
+- [[../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Nmap, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #nmap #redes #smb-impacket #windows
+> #nmap #pentest #redes #smb-impacket #windows

@@ -207,21 +207,26 @@ Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el 
 
 ---
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Escalada de Privilegios, Linux, Windows
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]— Command Injection / RCE, Escalada de Privilegios, Linux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Command Injection / RCE, Escalada de Privilegios, Windows
-- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Linux, Windows
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Command Injection / RCE, Escalada de Privilegios, Linux
-- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Command Injection / RCE, Escalada de Privilegios, Linux
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #linux #windows #wordpress
+> #command-injection #escalada-privilegios #linux #netcat #post-explotacion #redes #reverse-shell #windows #wordpress

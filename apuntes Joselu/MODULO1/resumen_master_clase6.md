@@ -129,22 +129,24 @@ Valor práctico para el hacker hoy: **bypass de firewall**. Si un servidor tiene
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]— Redes, SSH, Windows
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]— Empleabilidad, Redes, WiFi / Hardware
-- [[../PREWORK/resumen_clase4.md|resumen_clase4]— Hydra, Redes, SSH
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]— Redes, SSH, WiFi / Hardware
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]— Command Injection / RCE, Redes, Windows
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hydra, Redes, SSH
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, Post-Explotación
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Hydra, Post-Explotación
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -152,4 +154,4 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #empleabilidad #hydra #ia #nmap #osint #redes #ssh #wifi #windows #wireshark
+> #blue-team #command-injection #empleabilidad #hydra #ia #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wifi #windows #wireshark

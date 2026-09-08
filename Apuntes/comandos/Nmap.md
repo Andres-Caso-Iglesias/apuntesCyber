@@ -78,13 +78,22 @@ nmap -sV -p 80,443,8080 --script=http-enum 10.10.10.x
 nmap -p 445 --script=smb-enum-shares,smb-enum-users 10.10.10.x
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Nmap - Escaneo y Enumeración]] — Teoría completa de Nmap
-- [[Enumeración Web]] — Uso de Nmap en auditoría web
+- [[Telnet.md|Telnet]] — Nmap, Redes
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Nmap, Redes
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes
 
-> #nmap #herramientas #redes #enum
+### 🛠️ Herramientas
+
+- [[comandos/Nmap|Nmap]]
+
+> #nmap #redes

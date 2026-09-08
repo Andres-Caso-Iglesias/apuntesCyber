@@ -153,25 +153,27 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración monitorización de Amazon Web Services sien SIEM (Security Information and Event Management) – sistema de gestión de eventos de seguridad CCN / guías de CCN CCN-CERT – Centro Criptológico Nacional, organismo de ciberseguridad del CNI español nesus open bar Nessus y OpenV AS – escáneres de vulnerabilidades aura ring Oura Ring – dispositivo IoT de monitorización de salud tpv / atm TPV (Terminal Punto de Venta) / ATM (cajero automático) ya war / type x type f Jaguar F-Type / I-Pace – vehículos eléctricos conectados mencionados como ejemplo de hackeo Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase2.md|resumen_clase2]— Normativa / GRC, Redes, Windows
-- [[resumen_clase11.md|resumen_clase11]— Hydra, Normativa / GRC, Redes
-- [[resumen_clase7.md|resumen_clase7]— Normativa / GRC, Redes, Windows
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Blue Team / SOC, Normativa / GRC, Redes
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]— Hydra, Normativa / GRC, Redes
-- [[resumen_clase3.md|resumen_clase3]— Normativa / GRC, Redes, Windows
+- [[resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
+- [[resumen_clase13.md|resumen_clase13]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Normativa / GRC, Post-Explotación
+- [[../../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Hydra, Normativa / GRC, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #esteganografia #hydra #ia #normativa #pentest #redes #windows
+> #blue-team #command-injection #esteganografia #hydra #ia #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #windows

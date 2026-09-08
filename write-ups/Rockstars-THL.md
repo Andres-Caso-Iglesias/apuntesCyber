@@ -463,18 +463,19 @@ cat /root/root.txt
 
 *Write-up creado el 13 de Julio de 2026 — Explotación real verificada*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— GoBuster, Kali Linux, SSH
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— GoBuster, Kali Linux, SSH
-- [[Banco-THL.md|Banco-THL]— Escalada de Privilegios, Redes, SSH
-- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, Redes, SSH
-- [[Inj3ctCrew-THL.md|Inj3ctCrew-THL]— Escalada de Privilegios, GoBuster, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Escalada de Privilegios, Kali Linux, SSH
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Hydra, Post-Explotación
+- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, Post-Explotación
+- [[Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, Path Traversal / LFI
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, John / Hashcat, Post-Explotación
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — Hydra, John / Hashcat, Metasploitable / DVWA
 
 ### 🛠️ Herramientas
 
@@ -489,4 +490,4 @@ cat /root/root.txt
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #escalada-privilegios #ffuf #gobuster #hydra #john #kali #lfi #linux #nmap #redes #ssh
+> #escalada-privilegios #ffuf #gobuster #hydra #john #kali #lfi #linux #metasploitable #nmap #post-explotacion #redes #ssh

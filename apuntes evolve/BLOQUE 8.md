@@ -171,21 +171,22 @@ impacket-psexec dominio.local/usuario:contrasena@<IP>
 impacket-secretsdump dominio.local/administrador:contrasena@<IP_DC>
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]— Redes, SMB / Impacket, Windows
-- [[../comandos/Windows.md|Windows]— Redes, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]— Redes, SMB / Impacket, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]— Redes, Windows
-- [[BLOQUE 10.md|BLOQUE 10]— Redes, Windows
-- [[BLOQUE 11.md|BLOQUE 11]— Redes, SMB / Impacket, Windows
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Metodología Pentest, Redes, SMB / Impacket
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
+- [[../comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Windows
+- [[../Apuntes/comandos/Windows.md|Windows]] — Redes, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Metodología Pentest, Redes, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Metodología Pentest, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #redes #smb-impacket #windows
+> #pentest #redes #smb-impacket #windows

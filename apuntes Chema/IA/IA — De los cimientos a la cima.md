@@ -504,21 +504,24 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 | ℹ  Sobre el alcance de las fuentes Las explicaciones conceptuales de las secciones 4, 6.1 y 6.9 (predicción de tokens, distinción entre grafo y red neuronal, aprendizaje por refuerzo frente a A/B testing) son fundamentos generales aplicables a cualquier modelo Transformer, no información específica de ningún proveedor.Los datos de modelos, precios y features cambian con frecuencia. Verifica en la documentación oficial antes de usarlos como referencia definitiva. |
 | --- |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]— IA en Ciberseguridad, Post-Explotación, SSH
-- [[../../comandos/SQLMap.md|SQLMap]— IA en Ciberseguridad, Post-Explotación, SQL Injection
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]— IA en Ciberseguridad, Post-Explotación, SSH
-- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]— IA en Ciberseguridad, Post-Explotación, Redes
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— IA en Ciberseguridad, Post-Explotación, SSH
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— IA en Ciberseguridad, Redes, SQL Injection
+- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, Post-Explotación, SSH
+- [[../../comandos/SQLMap.md|SQLMap]] — Post-Explotación, SQL Injection, SQLMap
+- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Linux, Post-Explotación
+- [[../../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Post-Explotación, SQL Injection, SQLMap
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Linux, Post-Explotación, SQL Injection
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Empleabilidad, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -526,4 +529,4 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #empleabilidad #ia #linux #pentest #post-explotacion #redes #sqli #ssh #windows #xss
+> #burpsuite #empleabilidad #ia #linux #pentest #post-explotacion #redes #sqli #sqlmap #ssh #windows #xss

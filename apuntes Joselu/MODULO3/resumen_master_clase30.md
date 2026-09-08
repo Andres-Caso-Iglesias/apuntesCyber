@@ -360,28 +360,32 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Kali Linux, Post-Explotación, SSH
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
-- [[../../informes/Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Hydra, XXE
+- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploit
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, Metasploit, XXE
+- [[../../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]] — File Upload, Hydra, Metasploit
+- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Hydra, XXE
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploit
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #command-injection #escalada-privilegios #esteganografia #hydra #ia #kali #linux #netcat #nmap #pentest #post-explotacion #redes #ssh
+> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan #xxe

@@ -124,18 +124,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración cherry tree CherryTree – herramienta de gestión de notas y evidencias de auditorías obsidian Obsidian – herramienta de gestión de notas en formato markdown go anywhere GoAnywhere MFT – plataforma de transferencia segura de archivos (detectable en Shodan) comandante control Command and Control (C2) – infraestructura de control remoto del atacante cepsa / mueve Cepsa / Moeve – empresa energética española usada como ejemplo de auditoría intracepsa / club front Intranet / Cloudfront – portal interno y CDN de AWS not rl inurl: – operador de Google Dorking para búsqueda en URLs play work Prework – contenido previo al inicio del máster esté un 3 / es 3 Kali Linux – distribución Linux orientada a pentesting Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Escalada de Privilegios, Google Dorks, Post-Explotación
-- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]— Escalada de Privilegios, Kali Linux, Redes
-- [[../MODULO3/resumen_master_clase30.md|resumen_master_clase30]— Escalada de Privilegios, Kali Linux, Post-Explotación
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]— Escalada de Privilegios, Kali Linux, Post-Explotación
-- [[resumen_clase16.md|resumen_clase16]— Escalada de Privilegios, Post-Explotación, Redes
-- [[resumen_clase3.md|resumen_clase3]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Post-Explotación, Windows
+- [[resumen_clase3.md|resumen_clase3]] — Blue Team / SOC, Post-Explotación, Windows
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Metodología Pentest, Nmap, Post-Explotación
+- [[resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[resumen_clase16.md|resumen_clase16]] — IDOR, Linux, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -145,4 +146,4 @@ Término en la transcripción Corrección / Aclaración cherry tree CherryTree �
 ### 🎯 Vulnerabilidades Relacionadas
 
 
-> #blue-team #escalada-privilegios #google-dorks #ia #idor #kali #linux #nmap #osint #pentest #post-explotacion #redes
+> #blue-team #escalada-privilegios #google-dorks #ia #idor #kali #linux #nmap #osint #pentest #post-explotacion #redes #windows

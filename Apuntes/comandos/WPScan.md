@@ -74,12 +74,27 @@ wpscan --url http://10.10.10.x --passwords /usr/share/wordlists/rockyou.txt --us
 wpscan --url http://10.10.10.x --proxy http://127.0.0.1:8080 --enumerate ap
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[WordPress - Auditoría con WPScan]] — Teoría completa de WordPress audit
+- [[../../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Hydra, WPScan, WordPress
+- [[../../comandos/BurpSuite.md|BurpSuite]] — Hydra, WPScan, WordPress
+- [[../05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Command Injection / RCE, Hydra, WPScan
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Command Injection / RCE, Hydra, WPScan
+- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Redes, WordPress
 
-> #wpscan #herramientas #wordpress #web
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/WPScan|WPScan]]
+
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+
+> #command-injection #hydra #redes #wordpress #wpscan

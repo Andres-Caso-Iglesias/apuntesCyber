@@ -548,21 +548,23 @@ find / -perm -u=s 2>/dev/null
 
 **FIN DEL INFORME**
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Nike-THL.md|Nike-THL]— Kali Linux, SSH, XXE
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Linux, Redes
-- [[Informe_Castor.md|Informe_Castor]— Kali Linux, SSH, XXE
-- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Redes, SSH
-- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]— Linux, Redes, SSH
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Metasploit, Netcat / Reverse Shells, XXE
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -571,4 +573,4 @@ find / -perm -u=s 2>/dev/null
 
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #kali #linux #netcat #nmap #redes #reverse-shell #ssh #xxe
+> #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe

@@ -61,13 +61,23 @@ feroxbuster -u http://10.10.10.x -p http://127.0.0.1:8080
 feroxbuster -u http://10.10.10.x -s 200 301 302 -d 2
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Enumeración Web]] — Fuzzing como fase de enumeración
-- [[Fuzzing Web con ffuf]] — Comparativa con FFUF
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
+- [[FFUF.md|FFUF]] — FFUF, Redes
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, Redes
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
+- [[GoBuster.md|GoBuster]] — FFUF, Redes
+- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Redes
 
-> #feroxbuster #herramientas #fuzzing #web
+### 🛠️ Herramientas
+
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
+
+> #feroxbuster #ffuf #redes

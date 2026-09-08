@@ -174,18 +174,19 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 
 > **Volver al:** [[MOC - Ciberseguridad]]
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]]— Hack The Box, Normativa / GRC, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]]— Hack The Box, OSINT, SSH
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]]— Hack The Box, Metodología Pentest, SSH
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]]— Metasploit, OSINT, SSH
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]]— Google Dorks, Redes, SSH
-- [[../../comandos/Metasploit.md|Metasploit]]— Metasploit, Redes, SSH
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Normativa / GRC, SQL Injection, SQLMap
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Normativa / GRC, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Metasploit, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Pivoting / Movilidad Lateral, SSH
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Normativa / GRC, SQL Injection
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Normativa / GRC, Windows
 
 ### 🛠️ Herramientas
 

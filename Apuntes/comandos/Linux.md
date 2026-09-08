@@ -106,13 +106,18 @@ chmod 777 <file>                 # Total (inseguro)
 chown user:group <file>          # Cambiar propietario
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Linux - Fundamentos]] — Teoría completa de Linux
-- [[Linux - Comandos Avanzados de Pentesting]] — Pentesting específico
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes
+- [[John_Hashcat.md|John_Hashcat]] — Linux, Redes
+- [[SSH.md|SSH]] — Linux, Redes
+- [[Tmux.md|Tmux]] — Linux, Redes
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes
 
-> #linux #herramientas #comandos
+> #linux #redes

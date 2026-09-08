@@ -175,17 +175,18 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 - [ ] ¿Sé buscar ficheros con find y grep?
 - [ ] ¿Conozco los permisos SUID y por qué importan?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]]— Forense Digital, Linux, Windows
-- [[Linux - Bash Scripting.md|Linux - Bash Scripting]]— Forense Digital, Linux, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]]— Escalada de Privilegios, Forense Digital, Linux
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]]— Escalada de Privilegios, Linux, Windows
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Forense Digital, Linux
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]]— Escalada de Privilegios, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Linux, Windows
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Redes
+- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Escalada de Privilegios, Linux, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Redes
 
-> #escalada-privilegios #forense #linux #windows
+> #escalada-privilegios #forense #linux #redes #windows

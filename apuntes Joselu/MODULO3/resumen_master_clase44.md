@@ -339,18 +339,19 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]— Escalada de Privilegios, GoBuster, SSH
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— Escalada de Privilegios, GoBuster, SSH
-- [[resumen_master_clase43.md|resumen_master_clase43]— Escalada de Privilegios, GoBuster, SSH
-- [[resumen_master_clase45.md|resumen_master_clase45]— Escalada de Privilegios, GoBuster, SSH
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, GoBuster, SSH
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]— Escalada de Privilegios, GoBuster, SSH
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, SQL Injection, XXE
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — GoBuster, SQL Injection, XXE
+- [[resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, SQL Injection, XXE
+- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, SQL Injection, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, SQL Injection, XXE
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — GoBuster, SQL Injection, XXE
 
 ### 🛠️ Herramientas
 
@@ -364,6 +365,7 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #burpsuite #escalada-privilegios #ffuf #gobuster #hydra #ia #lfi #linux #nmap #redes #ssh #windows #wordpress #xxe
+> #blue-team #burpsuite #escalada-privilegios #ffuf #gobuster #hydra #ia #lfi #linux #nmap #redes #sqli #ssh #windows #wordpress #xxe

@@ -127,24 +127,25 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 - [ ] ¿Sé usar [[SMB_Impacket]] sesión nula y MSSQL con [[SMB_Impacket]]?
 - [ ] ¿Recuerdo siempre dejar el listener antes de la reverse shell?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]]— Hack The Box, Post-Explotación, SSH
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Hack The Box, Post-Explotación, SSH
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]— Hack The Box, Post-Explotación, VulnHub
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]]— Hack The Box, SSH, VulnHub
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — SMB / Impacket, SQL Injection, SQLMap
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — File Upload, SQL Injection, SQLMap
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Post-Explotación, SMB / Impacket
+- [[../08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]

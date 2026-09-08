@@ -425,22 +425,24 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 | Resumen final La sesión convierte la teoría de APIs en metodología práctica: interceptar → documentar endpoints → enumerar métodos → observar IDs/campos → validar autorización → demostrar impacto mínimo. Después vuelve al flujo general de auditoría: conectividad → puertos → servicios/versiones → metodología específica. No memorices solo “qué clic hizo Carlos”; memoriza qué evidencia justificó cada siguiente paso. |
 | --- |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]— Escalada de Privilegios, Hack The Box, IDOR
-- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]— Hack The Box, Nmap, SSH
-- [[../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]— Escalada de Privilegios, Hack The Box, IDOR
-- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, Nmap, SSH
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]— Escalada de Privilegios, Nmap, SSH
-- [[../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]— Escalada de Privilegios, Hack The Box, IDOR
+- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — SQL Injection, Telnet, XXE
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Netcat / Reverse Shells, Reverse Shells, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Post-Explotación, SQL Injection, XXE
+- [[Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Post-Explotación, SQL Injection, Telnet
+- [[../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Post-Explotación, SQL Injection, XXE
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
@@ -451,4 +453,4 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #escalada-privilegios #hack-the-box #idor #kali #linux #nmap #pentest #redes #sqli #ssh #telnet #windows #xxe
+> #burpsuite #command-injection #escalada-privilegios #hack-the-box #idor #kali #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #windows #xxe

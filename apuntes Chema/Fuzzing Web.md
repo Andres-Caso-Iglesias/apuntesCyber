@@ -146,18 +146,19 @@ El fuzzing web automatiza el descubrimiento sustituyendo una parte de la petici�
 - [[comandos/FFUF]] — Cheat sheet de comandos
 - [[comandos/Feroxbuster]] — Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]— Feroxbuster, Hack The Box, Hydra
-- [[Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— Hack The Box, Hydra, Kali Linux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— Hack The Box, Hydra, Kali Linux
-- [[Enumeración Web.md|Enumeración Web]— Feroxbuster, Hack The Box, SQL Injection
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— Hack The Box, Hydra, Kali Linux
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Hack The Box, Hydra, Kali Linux
+- [[Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, Hydra, Linux
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Linux, Path Traversal / LFI, SQL Injection
+- [[../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Burp Suite, Linux, SQL Injection
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Feroxbuster, Hydra
 
 ### 🛠️ Herramientas
 
@@ -171,4 +172,4 @@ El fuzzing web automatiza el descubrimiento sustituyendo una parte de la petici�
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #feroxbuster #ffuf #hack-the-box #hydra #kali #lfi #pentest #sqli
+> #burpsuite #feroxbuster #ffuf #hack-the-box #hydra #kali #lfi #linux #pentest #redes #sqli

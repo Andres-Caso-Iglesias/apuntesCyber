@@ -430,18 +430,19 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]— GoBuster, Hack The Box, Kali Linux
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— GoBuster, Hack The Box, Kali Linux
-- [[resumen_master_clase21.md|resumen_master_clase21]— GoBuster, Hydra, Kali Linux
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— GoBuster, Kali Linux, Redes
-- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]— GoBuster, Hydra, Kali Linux
-- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]— Hack The Box, Kali Linux, Redes
+- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Hydra, SQL Injection
+- [[resumen_master_clase44.md|resumen_master_clase44]] — GoBuster, Hydra, SQL Injection
+- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Blue Team / SOC, Linux, Windows
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Hydra, Linux
+- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, SQL Injection
 
 ### 🛠️ Herramientas
 

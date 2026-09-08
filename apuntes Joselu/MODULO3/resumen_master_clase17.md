@@ -181,25 +181,27 @@ Sabemos diferenciar entre bind shell y reverse shell, y entendemos por qué la s
 
 Y tenemos ya instalado Metasploitable 2, que será el campo de entrenamiento de las próximas sesiones cuando arranque en serio la fase ofensiva del máster.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Redes
-- [[../../transcripciones/Junio/19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|19.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]— Escalada de Privilegios, Hack The Box, Redes
-- [[resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Redes, Windows
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Redes, Windows
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]— Escalada de Privilegios, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Escalada de Privilegios, Redes, Windows
+- [[../../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Metasploit, Metasploitable / DVWA, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Metasploit, Metasploitable / DVWA
+- [[resumen_master_clase26.md|resumen_master_clase26]] — File Upload, Metasploitable / DVWA, Netcat / Reverse Shells
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Metasploit, Metasploitable / DVWA, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Netcat / Reverse Shells, Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 
-> #escalada-privilegios #file-upload #forense #hack-the-box #ia #linux #metasploitable #netcat #nmap #pentest #redes #reverse-shell #windows #wireshark
+> #escalada-privilegios #file-upload #forense #hack-the-box #ia #linux #metasploit #metasploitable #netcat #nmap #pentest #redes #reverse-shell #windows #wireshark

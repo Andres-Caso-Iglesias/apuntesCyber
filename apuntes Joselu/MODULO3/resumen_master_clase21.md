@@ -363,18 +363,19 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase23.md|resumen_master_clase23]— Kali Linux, Metasploit, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]— Kali Linux, Metasploit, SSH
-- [[resumen_master_clase39.md|resumen_master_clase39]— GoBuster, Kali Linux, SSH
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]— Escalada de Privilegios, GoBuster, SSH
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]— Escalada de Privilegios, GoBuster, SSH
+- [[resumen_master_clase23.md|resumen_master_clase23]] — Metasploitable / DVWA, SMB / Impacket, SSH
+- [[resumen_master_clase39.md|resumen_master_clase39]] — Metasploitable / DVWA, SMB / Impacket, SSH
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Metasploitable / DVWA, SSH, WordPress
+- [[../../apuntes Chema/Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Metasploitable / DVWA, XXE
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Metasploitable / DVWA, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -394,5 +395,6 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress
+> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress #xxe

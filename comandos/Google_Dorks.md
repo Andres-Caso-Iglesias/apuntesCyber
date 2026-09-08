@@ -7,16 +7,16 @@
 
 ## Operadores de Búsqueda
 
-| Operador | Descripción | Ejemplo |
-|----------|-------------|---------|
-| `site:` | Restringe a un dominio | `site:ejemplo.com` |
-| `inurl:` | Busca palabras en la URL | `inurl:login` |
-| `intitle:` | Busca palabras en el título | `intitle:admin` |
-| `intext:` | Busca en el texto de la página | `intext:password` |
-| `filetype:` | Busca por tipo de archivo | `filetype:pdf` |
-| `ext:` | Alias de filetype | `ext:log` |
-| | `allinurl:` | Todos los términos en URL | `allinurl:admin login` | | | `inanchor:` | Busca en anchors | `inanchor:login` | | | `related:` | Sitios relacionados | `related:example.com` | |
-|---|---|---| ## Dorks para Seguridad | > [!warning] Uso ético |
+| Operador    | Descripción                    | Ejemplo                   |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| ----------- | ------------------------------ | ------------------------- | ----------------------- | ---------------------- | --- | ----------- | ---------------- | ---------------- | --- | --- | ---------- | ------------------- | --------------------- | --- |
+| `site:`     | Restringe a un dominio         | `site:ejemplo.com`        |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| `inurl:`    | Busca palabras en la URL       | `inurl:login`             |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| `intitle:`  | Busca palabras en el título    | `intitle:admin`           |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| `intext:`   | Busca en el texto de la página | `intext:password`         |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| `filetype:` | Busca por tipo de archivo      | `filetype:pdf`            |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+| `ext:`      | Alias de filetype              | `ext:log`                 |                         |                        |     |             |                  |                  |     |     |            |                     |                       |     |
+|             | `allinurl:`                    | Todos los términos en URL | `allinurl:admin login`  |                        |     | `inanchor:` | Busca en anchors | `inanchor:login` |     |     | `related:` | Sitios relacionados | `related:example.com` |     |
+| ---         | ---                            | ---                       | ## Dorks para Seguridad | > [!warning] Uso ético |     |             |                  |                  |     |     |            |                     |                       |     |
 > Solo usar en sistemas que tengas autorización para auditarr.
 
 ### Archivos Sensibles | | Dork | Objetivo |
@@ -112,21 +112,22 @@ site:ejemplo.com intext:"PHP Error"
 - [ ] Combinaciones de operadores dominadas
 - [ ] Ética de uso recordada
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]— Google Dorks, OSINT, WordPress
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— Google Dorks, OSINT, WordPress
-- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]— Google Dorks, OSINT
-- [[../apuntes Joselu/MODULO2/resumen_master_clase12.md|resumen_master_clase12]— OSINT, WordPress
-- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]— Google Dorks, OSINT
-- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]— Google Dorks, OSINT, WordPress
+- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Google Dorks, OSINT, WordPress
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Google Dorks, OSINT, WordPress
+- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Google Dorks, OSINT, Redes
+- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Google Dorks, OSINT, Redes
+- [[../Apuntes/comandos/WPScan.md|WPScan]] — Redes, WordPress
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
 
-> #google-dorks #osint #wordpress
+> #google-dorks #osint #redes #wordpress

@@ -72,13 +72,23 @@ hydra -L users.txt -P password.txt 10.10.10.x ssh
 hydra -L users.txt -p admin 10.10.10.x ssh
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Servicios - Linux]] — Uso de Hydra en pentesting
-- [[Explotación de Servicios - Windows]] — Fuerza bruta en Windows
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Windows
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Linux, SSH
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Hydra, Linux, Windows
+- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, SSH, Windows
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Hydra, Linux, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, SSH, Windows
 
-> #hydra #herramientas #fuerzabruta #pentest
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/SSH|SSH]]
+
+> #hydra #linux #pentest #redes #ssh #windows

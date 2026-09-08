@@ -323,22 +323,24 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— Hack The Box, Pivoting / Movilidad Lateral, SSTI
-- [[resumen_master_clase55.md|resumen_master_clase55]— Hack The Box, SSH, SSTI
-- [[resumen_master_clase43.md|resumen_master_clase43]— Command Injection / RCE, SQL Injection, SSH
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Command Injection / RCE, Pivoting / Movilidad Lateral, SSH
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Command Injection / RCE, SQL Injection, SSTI
-- [[resumen_master_clase47.md|resumen_master_clase47]— Hack The Box, Pivoting / Movilidad Lateral, SSH
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — Pivoting / Movilidad Lateral, SQL Injection, SSTI
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, SQL Injection, SSTI
+- [[../../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Metasploit, SQL Injection, SSTI
+- [[resumen_master_clase47.md|resumen_master_clase47]] — Pivoting / Movilidad Lateral, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
@@ -348,4 +350,4 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #command-injection #hack-the-box #ia #netcat #pentest #pivoting #reverse-shell #sqli #ssh #ssti
+> #burpsuite #command-injection #hack-the-box #ia #metasploit #metasploitable #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #ssti

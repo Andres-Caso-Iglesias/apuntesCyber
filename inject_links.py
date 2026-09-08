@@ -18,7 +18,7 @@ SECTIONS_FILE = OUTPUT_DIR / "link_sections.json"
 
 
 def inject_links():
-    """Inyecta las secciones de enlace en cada archivo."""
+    """Inyecta o reemplaza las secciones de enlace en cada archivo."""
     if not SECTIONS_FILE.exists():
         print("❌ No se encontró link_sections.json. Ejecutá neural_linker.py primero.")
         return
@@ -26,10 +26,11 @@ def inject_links():
     with open(SECTIONS_FILE, 'r', encoding='utf-8') as f:
         sections = json.load(f)
 
-    print(f"⚡ Inyectando enlaces en {len(sections)} archivos...")
+    print(f"⚡ Procesando {len(sections)} archivos...")
     print()
 
     injected = 0
+    updated = 0
     skipped = 0
 
     for file_path, section in sections.items():
@@ -48,26 +49,37 @@ def inject_links():
             skipped += 1
             continue
 
-        # No inyectar si ya tiene la sección
+        # Si ya tiene la sección, reemplazarla
         if "## 🔗 Red de Conocimiento" in content:
-            print(f"  ⏭️ Ya tiene enlaces: {file_path}")
-            skipped += 1
-            continue
-
-        # Inyectar al final
-        new_content = content.rstrip() + "\n" + section
+            # Cortar antes de la sección existente
+            idx = content.index("## 🔗 Red de Conocimiento")
+            # Buscar el separador --- que va antes de la sección
+            separator_idx = content.rfind("\n---\n", 0, idx)
+            if separator_idx != -1:
+                new_content = content[:separator_idx] + "\n" + section
+            else:
+                new_content = content[:idx].rstrip() + "\n" + section
+            action = "updated"
+        else:
+            # Inyectar al final
+            new_content = content.rstrip() + "\n" + section
+            action = "injected"
 
         try:
             with open(full_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
-            print(f"  ✅ {file_path}")
-            injected += 1
+            if action == "updated":
+                print(f"  🔄 {file_path}")
+                updated += 1
+            else:
+                print(f"  ✅ {file_path}")
+                injected += 1
         except Exception as e:
             print(f"  ❌ Error escribiendo {file_path}: {e}")
             skipped += 1
 
     print()
-    print(f"✅ Completado: {injected} inyectados, {skipped} saltados")
+    print(f"✅ Completado: {injected} nuevos, {updated} actualizados, {skipped} saltados")
 
 
 if __name__ == "__main__":

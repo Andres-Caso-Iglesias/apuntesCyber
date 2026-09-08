@@ -346,18 +346,19 @@ Ej: `?q=verdad`
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— GoBuster, SSH, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— GoBuster, SSH, XSS
-- [[../../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Feroxbuster, GoBuster, XSS
-- [[resumen_master_clase38.md|resumen_master_clase38]— Kali Linux, SSH, XSS
-- [[../../write-ups/Academy-THL.md|Academy-THL]— Kali Linux, Reverse Shells, SSH
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — SMB / Impacket, SSH, SSRF
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploitable / DVWA, SSH, WordPress
+- [[resumen_master_clase38.md|resumen_master_clase38]] — Burp Suite, SSH, WordPress
+- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Burp Suite, SSH, WordPress
+- [[resumen_master_clase21.md|resumen_master_clase21]] — Metasploitable / DVWA, SMB / Impacket, SSH
 
 ### 🛠️ Herramientas
 
@@ -367,6 +368,7 @@ Ej: `?q=verdad`
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
@@ -381,4 +383,4 @@ Ej: `?q=verdad`
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #certificaciones #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #linux #netcat #nmap #redes #reverse-shell #smb-impacket #sqli #ssh #ssrf #wordpress #wpscan #xss #xxe
+> #burpsuite #certificaciones #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #ssrf #wordpress #wpscan #xss #xxe

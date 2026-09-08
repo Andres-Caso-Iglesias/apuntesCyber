@@ -246,22 +246,24 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 | Certeza | Alta en teoría y Lab 1; Media en payload final de Lab 2 (no cerrado en clase) |
 | ℹ  Copiar a memoria del proyecto Bloque para memoria acumulativa: Sesión SSTI (Carlos Castillo, 28/07/2026). Cubierto: concepto de SSTI, plantillas y motores, prueba 7*7→49, polyglot ${{<%[%'"}}%\, forzado de errores, 3 fases (detectar/identificar/explotar), analogía con SQLi, escape de contexto de código. Lab 1 ERB/Ruby resuelto con <%= system("rm /home/carlos/morale.txt") %> → true. Lab 2 Tornado/Python: motor detectado por error, escape de contexto planteado, RCE pendiente. Herramientas: Burp (Proxy/Repeater/Intruder/Decoder), HackTricks, Wappalyzer, IA. Mencionadas nuevas: Burp AI y 'el bicho' (Cibersia). Pendientes: cerrar Lab 2, HTB GoodGames, repaso de metodología web. |  |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]— Hack The Box, IA en Ciberseguridad, Path Traversal / LFI
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— IA en Ciberseguridad, Path Traversal / LFI, SSTI
-- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]— Hack The Box, Path Traversal / LFI, SSTI
-- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Hack The Box, Path Traversal / LFI, SSTI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]— Hack The Box, IA en Ciberseguridad, SSTI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Pivoting / Movilidad Lateral, SQL Injection, SSTI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Post-Explotación, SQL Injection, SSTI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
+- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Pivoting / Movilidad Lateral, SQL Injection, SSTI
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Pivoting / Movilidad Lateral, SQL Injection, SSTI
+- [[../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Post-Explotación, SQL Injection, SSTI
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
@@ -271,4 +273,4 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #command-injection #file-upload #hack-the-box #ia #idor #lfi #pentest #pivoting #sqli #ssrf #ssti
+> #burpsuite #command-injection #file-upload #hack-the-box #ia #idor #lfi #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti

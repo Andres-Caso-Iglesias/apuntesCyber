@@ -304,7 +304,7 @@ def generate_link_section(
             rel_path = get_relative_path(current_file, related_path)
             display = all_files_data[related_path].get("display_name", related_path.stem)
             concept_str = ", ".join(sorted([get_concept_display_name(c) for c in list(shared_concepts)[:3]]))
-            lines.append(f"- [[{rel_path}|{display}]— {concept_str}")
+            lines.append(f"- [[{rel_path}|{display}]] — {concept_str}")
         lines.append("")
 
     # 2. Herramientas mencionadas (enlaces a cheat sheets)
@@ -486,15 +486,6 @@ def process_all_files():
         related = relationships[filepath]
         existing = all_files_data[filepath]["existing_links"]
 
-        # No sobreescribir archivos que ya tienen la sección de red
-        try:
-            with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-                content = f.read()
-            if "## 🔗 Red de Conocimiento" in content:
-                continue
-        except Exception:
-            continue
-
         # Solo generar si tiene conceptos
         if not all_files_data[filepath]["concepts"]:
             continue
@@ -509,34 +500,7 @@ def process_all_files():
     print(f"   Secciones de enlace: {len(link_sections)} archivos")
     print(f"   Guardado en: {sections_path}")
 
-    # 7. Generar índice de conceptos
-    print()
-    print("🗂️ Generando índice de conceptos...")
-    index_lines = ["# Índice de Conceptos — Red Neuronal", ""]
-    index_lines.append(f"> **{len(all_files)} archivos** | **{len(concept_counter)} conceptos** | **{total_links} enlaces**")
-    index_lines.append("")
-
-    for concept in sorted(concept_counter.keys()):
-        count = concept_counter[concept]
-        files_list = [
-            str(fp.relative_to(BASE_DIR))
-            for fp, data in all_files_data.items()
-            if concept in data["concepts"]
-        ]
-        index_lines.append(f"## {get_concept_display_name(concept)} ({count})")
-        index_lines.append("")
-        for f_path in sorted(files_list)[:10]:  # Top 10
-            index_lines.append(f"- `{f_path}`")
-        if len(files_list) > 10:
-            index_lines.append(f"- *... y {len(files_list) - 10} más*")
-        index_lines.append("")
-
-    index_path = OUTPUT_DIR / "concept_index.md"
-    with open(index_path, 'w', encoding='utf-8') as f:
-        f.write("\n".join(index_lines))
-    print(f"   Índice: {index_path}")
-
-    # 8. Resumen
+    # 7. Resumen
     print()
     print("=" * 60)
     print("✅ NEURAL LINKER — COMPLETADO")
@@ -545,7 +509,6 @@ def process_all_files():
     print(f"   🧠 Conceptos detectados: {len(concept_counter)}")
     print(f"   🔗 Enlaces generados: {total_links}")
     print(f"   📋 Reporte: {report_path}")
-    print(f"   🗂️ Índice: {index_path}")
     print(f"   ⚡ Secciones: {sections_path}")
     print()
     print("   Para inyectar los enlaces en cada archivo, ejecuta:")

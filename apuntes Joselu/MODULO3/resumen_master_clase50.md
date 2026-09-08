@@ -188,18 +188,19 @@ Esta sesión construye el mapa conceptual completo del módulo de IA:
 
 La siguiente sesión completará la demostración llevando el grafo de coches a Neo4J y añadiendo la primera capa de aprendizaje automático.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— IA en Ciberseguridad, Redes, SQL Injection
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]— IA en Ciberseguridad, Redes
-- [[resumen_master_clase46.md|resumen_master_clase46]— IA en Ciberseguridad, Redes
-- [[resumen_master_clase51.md|resumen_master_clase51]— IA en Ciberseguridad, Redes
-- [[../PREWORK/resumen_clase9.md|resumen_clase9]— IA en Ciberseguridad, Redes
-- [[resumen_master_clase48.md|resumen_master_clase48]— IA en Ciberseguridad, Redes, SQL Injection
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Redes
+- [[resumen_master_clase51.md|resumen_master_clase51]] — IA en Ciberseguridad, Redes
 
 ### 🎯 Vulnerabilidades Relacionadas
 

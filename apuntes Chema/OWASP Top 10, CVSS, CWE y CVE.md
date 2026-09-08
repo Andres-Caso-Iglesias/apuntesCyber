@@ -176,21 +176,24 @@ Cuatro marcos forman el lenguaje común de la seguridad de aplicaciones y encaja
 
 - [[comandos/BurpSuite]] — Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]— Redes, SSRF, XSS
-- [[../Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]— Escalada de Privilegios, Redes, XXE
-- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]— Redes, SSRF, XXE
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]— Redes, SSRF, XSS
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]— SSRF, XSS, XXE
-- [[../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Escalada de Privilegios, Redes, XXE
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Post-Explotación, SQL Injection, SSRF
+- [[../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Post-Explotación, SQL Injection, XXE
+- [[../Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]] — Post-Explotación, SQL Injection, XXE
+- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Post-Explotación, SQL Injection, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Post-Explotación, SQL Injection, XXE
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Post-Explotación, SQL Injection, XXE
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -202,4 +205,4 @@ Cuatro marcos forman el lenguaje común de la seguridad de aplicaciones y encaja
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #command-injection #escalada-privilegios #idor #lfi #nmap #redes #sqli #ssrf #xss #xxe
+> #blue-team #burpsuite #command-injection #escalada-privilegios #idor #lfi #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssrf #xss #xxe

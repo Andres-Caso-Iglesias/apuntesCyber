@@ -132,22 +132,23 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 - [[comandos/SMB_Impacket]] — Cheat sheet de comandos
 - [[comandos/John_Hashcat]] — Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hack The Box, Post-Explotación, VulnHub
-- [[Escalada de Privilegios.md|Escalada de Privilegios]]— Hack The Box, Post-Explotación, VulnHub
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[Escalada de Privilegios.md|Escalada de Privilegios]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
 
 ### 🛠️ Herramientas
 
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #escalada-privilegios #hack-the-box #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #vulnhub #windows
+> #escalada-privilegios #hack-the-box #linux #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #vulnhub #windows

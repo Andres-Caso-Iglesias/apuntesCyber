@@ -341,18 +341,19 @@ Twenty Twenty Four)
 
 â†’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase39.md|resumen_master_clase39]— Kali Linux, SSH, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Kali Linux, SSH, XSS
-- [[resumen_master_clase45.md|resumen_master_clase45]— GoBuster, Kali Linux, SSH
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— CSRF, SSH, XSS
-- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]— GoBuster, Kali Linux, SSH
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Kali Linux, SSH, XSS
+- [[resumen_master_clase39.md|resumen_master_clase39]] — Burp Suite, SSH, WordPress
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — File Upload, GoBuster, SQL Injection
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Post-Explotación
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, SSH, WordPress
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, SSH, WordPress
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -362,6 +363,7 @@ Twenty Twenty Four)
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 - [[comandos/WPScan|WPScan]]
 
@@ -372,4 +374,4 @@ Twenty Twenty Four)
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #command-injection #csrf #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #osint #redes #sqli #ssh #wordpress #wpscan #xss
+> #burpsuite #certificaciones #command-injection #csrf #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #netcat #osint #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan #xss

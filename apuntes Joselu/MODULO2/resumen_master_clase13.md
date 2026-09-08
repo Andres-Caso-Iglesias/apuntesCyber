@@ -198,17 +198,18 @@ Y sabemos que los metadatos GPS de una imagen pueden llevar, en combinación con
 
 A partir de la próxima sesión arranca el hacking activo: enumeración de servicios, puertos y las primeras m áquinas vulnerables.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]— Redes, WiFi / Hardware, Windows
-- [[resumen_master_clase9.md|resumen_master_clase9]— Redes, WiFi / Hardware, Windows
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Linux, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]— Forense Digital, Linux, Redes
-- [[resumen_master_clase8.md|resumen_master_clase8]— Forense Digital, Linux, Redes
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]— Forense Digital, Linux, OSINT
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Forense Digital, Linux, WiFi / Hardware
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Linux
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, WiFi / Hardware, Windows
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
+- [[resumen_master_clase8.md|resumen_master_clase8]] — Forense Digital, IA en Ciberseguridad, Linux
 
 > #esteganografia #forense #ia #linux #osint #redes #wifi #windows

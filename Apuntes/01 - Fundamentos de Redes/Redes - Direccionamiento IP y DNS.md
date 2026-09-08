@@ -110,21 +110,22 @@ host google.com # simple y rápido
 - [ ] ¿Sé usar dig y nslookup?
 - [ ] ¿Relaciono el DNS con el OSINT y la enumeración web?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]]— Nmap, Redes, Wireshark
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]]— Nmap, Redes, Wireshark
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]]— Metodología Pentest, Nmap, Redes
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]]— Metodología Pentest, Nmap, Redes
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]]— Metodología Pentest, Nmap, OSINT
-- [[../../apuntes Chema/Wireshark.md|Wireshark]]— Nmap, Redes, Wireshark
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Metodología Pentest, Nmap, WiFi / Hardware
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, WiFi / Hardware, Wireshark
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, WiFi / Hardware, Wireshark
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Metodología Pentest, Nmap, WiFi / Hardware
+- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Redes, WiFi / Hardware, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Metodología Pentest, Nmap, Wireshark
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #nmap #osint #pentest #redes #wireshark
+> #nmap #osint #pentest #redes #wifi #wireshark

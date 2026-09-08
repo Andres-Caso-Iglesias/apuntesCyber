@@ -332,18 +332,19 @@ Bloque copiable a la base de conocimiento del proyecto. Entradas nuevas y cambio
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— Kali Linux, SSH, XXE
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]— Escalada de Privilegios, Hack The Box, SSH
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Kali Linux, Post-Explotación, SSH
-- [[Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Metasploitable / DVWA, XXE
+- [[Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Metasploitable / DVWA, XXE
+- [[Auditoria web.md|Auditoria web]] — GoBuster, Hydra, Metasploitable / DVWA
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — GoBuster, Hydra, XXE
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Hydra, XXE
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Hydra, XXE
 
 ### 🛠️ Herramientas
 
@@ -353,6 +354,7 @@ Bloque copiable a la base de conocimiento del proyecto. Entradas nuevas y cambio
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -362,4 +364,4 @@ Bloque copiable a la base de conocimiento del proyecto. Entradas nuevas y cambio
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #kali #lfi #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #xxe
+> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #xxe

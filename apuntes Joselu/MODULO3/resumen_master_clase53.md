@@ -78,18 +78,19 @@ Término Corrección
 
 El resumen detallado está en el documento de la Clase 52.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]— Burp Suite, Open Redirect, SSRF
-- [[resumen_master_clase48.md|resumen_master_clase48]— Open Redirect, Redes, SSRF
-- [[resumen_master_clase52.md|resumen_master_clase52]— Open Redirect, Redes, SSRF
-- [[../PREWORK/resumen_clase5.md|resumen_clase5]— Burp Suite, Redes, SSRF
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]— Open Redirect, Redes, SSRF
-- [[../MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Burp Suite, Redes, SSRF
+- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Burp Suite, IA en Ciberseguridad, SSRF
+- [[resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, IA en Ciberseguridad, SSRF
+- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Redes, SSRF
+- [[../../Apuntes/05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Redes, SSRF
+- [[resumen_master_clase52.md|resumen_master_clase52]] — Burp Suite, IA en Ciberseguridad, SSRF
+- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Metodología Pentest, Redes
 
 ### 🛠️ Herramientas
 

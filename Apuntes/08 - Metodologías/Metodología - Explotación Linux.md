@@ -214,22 +214,23 @@ systemctl enable backdoor
 - [ ] Escalada de privilegios completada
 - [ ] Persistencia configurada
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../write-ups/Nike-THL.md|Nike-THL]]— Escalada de Privilegios, Linux, SSH
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]]— Escalada de Privilegios, Linux, SSH
-- [[../../informes/Informe_Nike.md|Informe_Nike]]— Linux, Netcat / Reverse Shells, SSH
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]]— Escalada de Privilegios, Netcat / Reverse Shells, SSH
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]]— Escalada de Privilegios, Linux, SSH
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Netcat / Reverse Shells, Reverse Shells
+- [[../comandos/Netcat.md|Netcat]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
 
 ### 🛠️ Herramientas
 
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #linux #netcat #reverse-shell #ssh
+> #escalada-privilegios #forense #linux #netcat #post-explotacion #redes #reverse-shell #ssh

@@ -119,10 +119,18 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 | Red                    | NAT, Host-Only        |  NAT, Host-Only       |
 | USB                    | 1.1/2.0/3.0           | 1.1/2.0/3.0/3.1       |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-> #virtualbox #vmware #vm #lab #configuracion
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, Redes
+- [[../comandos/BurpSuite.md|BurpSuite]] — Redes
+- [[../comandos/DirSearch.md|DirSearch]] — Redes
+- [[../comandos/FFUF.md|FFUF]] — Redes
+- [[../comandos/Linux.md|Linux]] — Redes
+- [[../comandos/Nmap.md|Nmap]] — Redes
+
+> #hack-the-box #redes

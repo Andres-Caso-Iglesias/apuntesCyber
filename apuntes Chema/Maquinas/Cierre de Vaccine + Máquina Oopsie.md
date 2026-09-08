@@ -228,18 +228,19 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 
 •     **Pendiente (módulo de escalada):** explotación del grupo **bugtracker** (SUID) para cerrar Oopsie; siguientes máquinas del Tier 2.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
-- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Kali Linux, Post-Explotación, SSH
-- [[../Auditoria web.md|Auditoria web]— Escalada de Privilegios, GoBuster, SSH
-- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
+- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Metasploit, Post-Explotación
+- [[../Auditoria web.md|Auditoria web]] — File Upload, GoBuster, SQL Injection
+- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — File Upload, SQL Injection, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — File Upload, SQL Injection, SQLMap
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, Metasploitable / DVWA, SSH
+- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — File Upload, GoBuster, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -247,6 +248,7 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SQLMap|SQLMap]]
@@ -256,4 +258,4 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hack-the-box #idor #kali #linux #netcat #nmap #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows
+> #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hack-the-box #idor #kali #linux #metasploit #metasploitable #netcat #nmap #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows

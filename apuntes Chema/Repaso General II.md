@@ -367,18 +367,19 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 | Pendiente | Plataforma exacta del laboratorio no queda inequívoca en el SRT. | Media | Confirmar si se necesita catalogar por plataforma. |
 | Resumen final para examen/laboratorio No memorices una “receta de Fruit”. Memoriza el proceso: descubrir → enumerar → formular hipótesis → validar → aprovechar el hallazgo para obtener nueva información → repetir. Las herramientas cambian; la metodología es lo reutilizable. |  |  |  |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Banco-THL.md|Banco-THL]— Hydra, Nmap, Path Traversal / LFI
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]— Hydra, Nmap, Path Traversal / LFI
-- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]— Hydra, Nmap, Path Traversal / LFI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]— Hydra, Nmap, Path Traversal / LFI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]— Hydra, Nmap, Path Traversal / LFI
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]— Hydra, Nmap, Path Traversal / LFI
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Hydra, SQL Injection, SSTI
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hydra, SQL Injection, SSTI
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Hydra, Path Traversal / LFI, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -392,5 +393,6 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #dirsearch #escalada-privilegios #hydra #lfi #linux #nmap #pentest #redes #sqli #ssh #windows
+> #burpsuite #dirsearch #escalada-privilegios #hydra #lfi #linux #nmap #pentest #redes #sqli #ssh #ssti #windows

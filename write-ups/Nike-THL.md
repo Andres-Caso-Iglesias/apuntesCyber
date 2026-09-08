@@ -502,28 +502,31 @@ cat /root/root.txt
 
 *Write-up creado el 10 de Julio de 2026* bueno ya son las 00:40 así que el 11 de julio también
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Nike.md|Informe_Nike]— Kali Linux, SSH, XXE
-- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, SSH, XXE
-- [[../informes/Informe_Castor.md|Informe_Castor]— Kali Linux, SSH, XXE
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]— Kali Linux, SSH, XXE
-- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]— Kali Linux, SSH, XXE
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— Escalada de Privilegios, Kali Linux, SSH
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Metasploit, Netcat / Reverse Shells, XXE
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Path Traversal / LFI, XXE
+- [[Castor-THL.md|Castor-THL]] — Hydra, Path Traversal / LFI, XXE
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — Hydra, Metasploit, XXE
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Hydra, Metasploit, XXE
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #escalada-privilegios #hydra #kali #linux #netcat #nmap #redes #reverse-shell #ssh #xxe
+> #escalada-privilegios #hydra #kali #lfi #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #xxe

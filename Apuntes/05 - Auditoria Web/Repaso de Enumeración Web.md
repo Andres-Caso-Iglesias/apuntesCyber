@@ -440,18 +440,19 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - **Escalada por cron + fichero escribible** ejecutado como root
 - Mapa de **recon web → vulnerabilidad** (analogía de la discoteca)
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Escalada de Privilegios, GoBuster, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Escalada de Privilegios, GoBuster, XSS
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]]— Escalada de Privilegios, GoBuster, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]]— Feroxbuster, GoBuster, XSS
-- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]— Escalada de Privilegios, Windows, XSS
-- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]— Escalada de Privilegios, Hack The Box, XSS
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — SMB / Impacket, SSRF, WordPress
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Burp Suite, WordPress
+- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Blue Team / SOC, Burp Suite, WordPress
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, Feroxbuster, WordPress
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — SMB / Impacket, SSRF, WordPress
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — Blue Team / SOC, Burp Suite, WordPress
 
 ### 🛠️ Herramientas
 
@@ -461,7 +462,7 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/WPScan|WPScan]]

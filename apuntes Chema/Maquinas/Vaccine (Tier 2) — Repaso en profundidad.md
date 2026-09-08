@@ -275,24 +275,26 @@ Una vez recibida la shell, se «trata» para que sea interactiva y no se rompa. 
 
 •     **Pendiente próxima clase (Yuba):** cierre de Vaccine con la escalada de privilegios; después, la máquina **Oopsie** (IDOR).
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]— Hack The Box, Post-Explotación, SSH
-- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]— Post-Explotación, SSH, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase32.md|resumen_master_clase32]— Hack The Box, SSH, XSS
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hack The Box, SSH, XSS
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — John / Hashcat, SQLMap, SSH
+- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — John / Hashcat, SQLMap, SSH
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Burp Suite, John / Hashcat, SSH
+- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, SQLMap, SSH
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Burp Suite, SQLMap, SSH
+- [[../../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — File Upload, Hydra, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SQLMap|SQLMap]]
@@ -300,7 +302,8 @@ Una vez recibida la shell, se «trata» para que sea interactiva y no se rompa. 
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #escalada-privilegios #file-upload #hack-the-box #hydra #idor #john #kali #linux #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows #xss
+> #burpsuite #certificaciones #escalada-privilegios #file-upload #hack-the-box #hydra #idor #john #kali #lfi #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub #windows #xss

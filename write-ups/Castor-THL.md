@@ -402,18 +402,19 @@ cat /root/root.txt
 
 *Write-up creado el 13 de Julio de 2026*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Castor.md|Informe_Castor]— Redes, SSH, XXE
-- [[Nike-THL.md|Nike-THL]— Escalada de Privilegios, SSH, XXE
-- [[Banco-THL.md|Banco-THL]— Escalada de Privilegios, Redes, SSH
-- [[Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]— Escalada de Privilegios, SSH, XXE
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Escalada de Privilegios, Redes, SSH
+- [[Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, XXE
+- [[Nike-THL.md|Nike-THL]] — Hydra, Path Traversal / LFI, XXE
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Path Traversal / LFI
+- [[Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, Path Traversal / LFI
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Path Traversal / LFI, XXE
 
 ### 🛠️ Herramientas
 
@@ -424,6 +425,7 @@ cat /root/root.txt
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #escalada-privilegios #hydra #john #linux #nmap #redes #ssh #xxe
+> #escalada-privilegios #hydra #john #lfi #linux #nmap #redes #ssh #xxe

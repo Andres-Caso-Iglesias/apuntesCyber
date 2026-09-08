@@ -72,18 +72,19 @@ todas las variantes con años del 2012 al 2025 y caracteres especiales, creando 
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]— GoBuster, Hydra, Kali Linux
-- [[resumen_clase17.md|resumen_clase17]— GoBuster, Hydra, Kali Linux
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]— GoBuster, Hydra, Kali Linux
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]— Hydra, Kali Linux, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]— GoBuster, Hydra, Kali Linux
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]— Hydra, Kali Linux, Pivoting / Movilidad Lateral
+- [[resumen_clase17.md|resumen_clase17]] — Empleabilidad, GoBuster, Hydra
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Hydra, Linux, Pivoting / Movilidad Lateral
+- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Hydra
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Hydra
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Hydra, Linux
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Linux, Pivoting / Movilidad Lateral, VulnHub
 
 ### 🛠️ Herramientas
 
@@ -93,4 +94,4 @@ todas las variantes con años del 2012 al 2025 y caracteres especiales, creando 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 
-> #burpsuite #dirsearch #empleabilidad #gobuster #hydra #ia #john #kali #osint #pivoting #vulnhub #windows
+> #burpsuite #dirsearch #empleabilidad #gobuster #hydra #ia #john #kali #linux #osint #pivoting #redes #vulnhub #windows

@@ -145,25 +145,26 @@ stty raw -echo; fg
 
 - [[comandos/WPScan]] "” Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Hydra, Reverse Shells, XSS
-- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Hydra, Reverse Shells, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]]— Hydra, Reverse Shells, XSS
-- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]]— Hydra, Reverse Shells, XSS
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Hydra, Reverse Shells, XSS
-- [[Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]]— Command Injection / RCE, Hydra, SQL Injection
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Metasploitable / DVWA, SQL Injection
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — File Upload, Metasploitable / DVWA, SQL Injection
+- [[Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — File Upload, Hydra, SQL Injection
+- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — File Upload, Hydra, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — File Upload, Metasploitable / DVWA, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — File Upload, Hydra, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -172,4 +173,4 @@ stty raw -echo; fg
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #command-injection #ffuf #file-upload #hydra #netcat #pentest #reverse-shell #sqli #wordpress #wpscan #xss
+> #burpsuite #command-injection #ffuf #file-upload #hydra #metasploitable #netcat #pentest #post-explotacion #redes #reverse-shell #sqli #wordpress #wpscan #xss

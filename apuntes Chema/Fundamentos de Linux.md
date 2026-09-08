@@ -105,21 +105,22 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 
 - [[comandos/Linux]] — Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash Scripting.md|Bash Scripting]— Forense Digital, Kali Linux, Nmap
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]— Escalada de Privilegios, Forense Digital, Linux
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Kali Linux, Linux, Nmap
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Forense Digital, Linux, Nmap
-- [[Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Linux, Nmap
-- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]— Escalada de Privilegios, Kali Linux, Linux
+- [[Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Windows
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #escalada-privilegios #forense #kali #linux #nmap
+> #escalada-privilegios #forense #kali #linux #nmap #redes #windows

@@ -533,18 +533,19 @@ cat /root/root.txt
 
 *Write-up creado el 13 de Julio de 2026*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]— Escalada de Privilegios, Redes, SSH
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]— Escalada de Privilegios, Redes, SSH
-- [[Castor-THL.md|Castor-THL]— Escalada de Privilegios, Redes, SSH
-- [[Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]— Escalada de Privilegios, Redes, SSH
-- [[../apuntes Chema/Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]— Escalada de Privilegios, Redes, SSH
+- [[Castor-THL.md|Castor-THL]] — Hydra, Linux, Path Traversal / LFI
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Path Traversal / LFI
+- [[../apuntes Chema/Repaso General II.md|Repaso General II]] — Hydra, Linux, Path Traversal / LFI
+- [[Nike-THL.md|Nike-THL]] — Hydra, Linux, Path Traversal / LFI
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Linux, Path Traversal / LFI
+- [[../apuntes Chema/Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]] — Hydra, Linux, Path Traversal / LFI
 
 ### 🛠️ Herramientas
 

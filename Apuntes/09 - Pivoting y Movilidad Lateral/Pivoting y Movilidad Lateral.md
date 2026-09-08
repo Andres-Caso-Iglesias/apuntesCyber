@@ -193,23 +193,28 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 > **Siguiente tema:** Redes WiFi y Hardware — Auditoría WiFi y Car Hacking
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]]— Escalada de Privilegios, Redes, SSH
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]]— Escalada de Privilegios, Post-Explotación, SSH
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]]— Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]]— Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../../apuntes Joselu/PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Post-Explotación, Windows
+- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Forense Digital, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #blue-team #escalada-privilegios #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+
+> #blue-team #escalada-privilegios #forense #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows #xxe

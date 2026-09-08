@@ -193,21 +193,23 @@ Ejemplo real del profesor: para una campaña de phishing a 600 empleados, el Gma
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase5.md|resumen_master_clase5]— Escalada de Privilegios, Kali Linux, Normativa / GRC
-- [[resumen_master_clase4.md|resumen_master_clase4]— Escalada de Privilegios, Kali Linux, Normativa / GRC
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]— Escalada de Privilegios, Redes, Windows
-- [[../PREWORK/resumen_clase10.md|resumen_clase10]— Normativa / GRC, Pivoting / Movilidad Lateral, Redes
-- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]— Escalada de Privilegios, Kali Linux, Redes
-- [[resumen_master_clase1.md|resumen_master_clase1]— Kali Linux, Normativa / GRC, Redes
+- [[resumen_master_clase5.md|resumen_master_clase5]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
+- [[resumen_master_clase4.md|resumen_master_clase4]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Reverse Shells
+- [[../PREWORK/resumen_clase10.md|resumen_clase10]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
-> #blue-team #escalada-privilegios #forense #ia #kali #linux #netcat #normativa #pivoting #redes #reverse-shell #windows
+> #blue-team #escalada-privilegios #forense #ia #kali #linux #metasploit #netcat #normativa #pivoting #redes #reverse-shell #windows

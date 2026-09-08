@@ -176,18 +176,19 @@ Para copiar a tu base de conocimiento tras validar en clase:
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— Feroxbuster, GoBuster, Google Dorks
-- [[../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]— Feroxbuster, GoBuster, Redes
-- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— GoBuster, Hack The Box, Redes
-- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]— GoBuster, Hack The Box, Redes
-- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]— GoBuster, Hack The Box, Redes
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]— GoBuster, Hack The Box, Redes
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — DirSearch, GoBuster, WPScan
+- [[../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, GoBuster
+- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — DirSearch, GoBuster, SQL Injection
+- [[Fuzzing Web.md|Fuzzing Web]] — Burp Suite, Path Traversal / LFI, SQL Injection
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Path Traversal / LFI, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Path Traversal / LFI, SQL Injection
 
 ### 🛠️ Herramientas
 

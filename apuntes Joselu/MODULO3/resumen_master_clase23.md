@@ -354,18 +354,19 @@ animab / N más **Nmap** -- escáner de puertos y servicios Metrasploid / MetaSp
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, Metasploit, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, Metasploit, SSH
-- [[resumen_master_clase21.md|resumen_master_clase21]— Kali Linux, Metasploit, SSH
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]— Escalada de Privilegios, Kali Linux, SSH
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Hydra, Metasploitable / DVWA, Telnet
+- [[resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[resumen_master_clase21.md|resumen_master_clase21]] — Metasploitable / DVWA, SMB / Impacket, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[resumen_master_clase35.md|resumen_master_clase35]] — Hydra, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -374,6 +375,7 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
@@ -384,4 +386,4 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #burpsuite #command-injection #escalada-privilegios #ffuf #hydra #ia #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #smb-impacket #ssh #telnet #windows
+> #burpsuite #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #ia #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #ssh #telnet #windows

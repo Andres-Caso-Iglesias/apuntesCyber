@@ -183,17 +183,18 @@ El script de unificación que hemos construido es el primer paso hacia una herra
 
 La práctica 1 del máster consistirá en construir una herramienta de est e tipo, elegida libremente, que demuestre la capacidad de automatizar un flujo completo de ciberseguridad con IA y código.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]— IA en Ciberseguridad, Kali Linux, Linux
-- [[resumen_master_clase9.md|resumen_master_clase9]— IA en Ciberseguridad, Kali Linux, Linux
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]— IA en Ciberseguridad, Kali Linux, Linux
-- [[resumen_master_clase13.md|resumen_master_clase13]— IA en Ciberseguridad, Linux, OSINT
-- [[resumen_master_clase8.md|resumen_master_clase8]— IA en Ciberseguridad, Linux, OSINT
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Kali Linux, Linux
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Kali Linux, Linux
+- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Linux, OSINT
+- [[resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Redes
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — IA en Ciberseguridad, Kali Linux, Linux
+- [[../../Apuntes/comandos/Linux.md|Linux]] — Linux, Redes
 
-> #ia #kali #linux #osint
+> #ia #kali #linux #osint #redes

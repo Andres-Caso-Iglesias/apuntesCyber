@@ -70,13 +70,23 @@ gobuster dns -d ejemplo.com -w /usr/share/wordlists/seclists/Discovery/DNS/subdo
 gobuster vhost -u http://10.10.10.x -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Enumeración Web]] — Fuzzing como fase de enumeración
-- [[Fuzzing Web con ffuf]] — Comparativa con FFUF
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, GoBuster, Redes
+- [[FFUF.md|FFUF]] — FFUF, Redes
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, GoBuster, Redes
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, GoBuster, Redes
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Redes
+- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, GoBuster, Redes
 
-> #gobuster #herramientas #fuzzing #web
+### 🛠️ Herramientas
+
+- [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
+
+> #ffuf #gobuster #redes

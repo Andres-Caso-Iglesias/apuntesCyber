@@ -100,18 +100,19 @@ A partir del primer 200 OK tras un payload con caracteres especiales, el atacant
 
 Al cerrar esta sesión hemos convertido en práctica real todo el marco teórico de las semanas anteriores. Sabemos que lo primero ante un PCAP es la jerarquía de protocolos y las conversaciones, no el análisis paquete a paquete. Sabemos leer un intercambio SMB y localizar en los paquetes NTLM el hostname y el usuario comprometido. Sabemos que HTTP en texto claro permite exportar objetos y reconstruir toda la actividad web, y que una comilla simple en los parámetros de búsqueda seguida de un 500 es la firma de una SQL Injection en curso. La próxima sesión continúa con más laboratorios de forense de redes, y en paralelo arranca ya la fase activa con Metasploitable: enumeración de servicios y las primeras explotaciones reales.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]— Post-Explotación, Redes, SMB / Impacket
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Hack The Box, Post-Explotación, Redes
-- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]— Hack The Box, Post-Explotación, Redes
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Redes, Windows, Wireshark
-- [[../MODULO3/resumen_master_clase17.md|resumen_master_clase17]— Hack The Box, Redes, Windows
-- [[../PREWORK/resumen_clase3.md|resumen_clase3]— Post-Explotación, Redes, Windows
+- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Post-Explotación, SMB / Impacket
+- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Metasploitable / DVWA, SQL Injection, SQLMap
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Forense Digital, Windows
+- [[../PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Post-Explotación, Windows
+- [[../MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — SMB / Impacket, SQL Injection, Windows
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Metasploitable / DVWA, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 

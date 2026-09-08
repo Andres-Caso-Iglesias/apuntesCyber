@@ -195,22 +195,23 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 
 #anonimato #vpn #tor #monero #ingenieria-social #phishing #qrishing #raas #fuzzing #blue-team #opsec
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]]— Hydra, Redes, WiFi / Hardware
-- [[../../comandos/Hydra.md|Hydra]]— Hydra, Redes, SSH
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]]— Hydra, OSINT, WiFi / Hardware
-- [[../../comandos/SSH.md|SSH]]— Hydra, Redes, SSH
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]]— Hydra, Redes, SSH
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]]— Redes, SSH, WiFi / Hardware
+- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, IA en Ciberseguridad, SSH
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Redes, WiFi / Hardware
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, IA en Ciberseguridad, Redes
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Hydra, OSINT, WiFi / Hardware
+- [[../../comandos/Hydra.md|Hydra]] — Hydra, IA en Ciberseguridad, Redes
+- [[../../comandos/SSH.md|SSH]] — Hydra, IA en Ciberseguridad, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 
-> #hydra #osint #redes #ssh #wifi
+> #hydra #ia #osint #redes #ssh #wifi

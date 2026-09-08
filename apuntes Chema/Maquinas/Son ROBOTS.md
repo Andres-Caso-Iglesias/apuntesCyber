@@ -292,18 +292,19 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Hack The Box, SSH, VulnHub
-- [[../../write-ups/Academy-THL.md|Academy-THL]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]— Hack The Box, SSH, VulnHub
-- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Kali Linux
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, SSH, VulnHub
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — SSH, VulnHub, WordPress
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Hydra, Metasploit, Post-Explotación
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Hydra, Metasploit, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -311,6 +312,7 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -319,4 +321,4 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #netcat #nmap #pentest #redes #ssh #vulnhub #windows #wordpress
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress

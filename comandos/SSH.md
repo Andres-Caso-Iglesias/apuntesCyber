@@ -407,22 +407,23 @@ ssh-keygen -t ed25519
 ssh-copy-id user@host
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Hydra.md|Hydra]— Hydra, Redes, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]— Hydra, Redes, SSH
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]— Hydra, Redes, SSH
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]— Metodología Pentest, Redes, SSH
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]— Hydra, Metodología Pentest, SSH
-- [[../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]— Hydra, Metodología Pentest, Redes
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
+- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
+- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Post-Explotación, SSH
+- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, IA en Ciberseguridad, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, IA en Ciberseguridad, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 
-> #hydra #pentest #pivoting #redes #ssh
+> #hydra #ia #pentest #pivoting #post-explotacion #redes #ssh

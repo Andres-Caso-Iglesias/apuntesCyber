@@ -327,29 +327,32 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Kali Linux, Post-Explotación, SSH
-- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]— Escalada de Privilegios, Hack The Box, Kali Linux
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]— Hack The Box, Post-Explotación, SSH
-- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]— Hack The Box, Post-Explotación, SSH
-- [[../../write-ups/Academy-THL.md|Academy-THL]— GoBuster, Kali Linux, SSH
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Hydra, Metasploit
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploit
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Hydra
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Hydra, Metasploit
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploit
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — File Upload, GoBuster, Hydra
 
 ### 🛠️ Herramientas
 
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
+- [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #file-upload #gobuster #hack-the-box #hydra #idor #kali #linux #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh
+> #command-injection #escalada-privilegios #file-upload #gobuster #hack-the-box #hydra #idor #kali #linux #metasploit #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan

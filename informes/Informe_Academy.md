@@ -306,18 +306,19 @@ id
 
 **FIN DEL INFORME**
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Academy-THL.md|Academy-THL]— Kali Linux, Reverse Shells, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]— Kali Linux, Post-Explotación, SSH
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]— Kali Linux, Reverse Shells, SSH
-- [[../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]— Post-Explotación, Reverse Shells, SSH
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]— Kali Linux, Post-Explotación, SSH
-- [[../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]— Post-Explotación, Reverse Shells, SSH
+- [[../write-ups/Academy-THL.md|Academy-THL]] — File Upload, Hydra, Metasploit
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploitable / DVWA, SSH, WordPress
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — File Upload, Hydra, Metasploitable / DVWA
+- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Hydra, Metasploit, Post-Explotación
+- [[../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploitable / DVWA
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -325,6 +326,7 @@ id
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -334,4 +336,4 @@ id
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #hydra #kali #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan

@@ -351,18 +351,19 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Recuerdo sanitizar diccionarios con `sort | uniq`?
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]]— Hack The Box, SSH, VulnHub
-- [[../../write-ups/Academy-THL.md|Academy-THL]]— Escalada de Privilegios, Kali Linux, SSH
-- [[../../informes/Informe_Academy.md|Informe_Academy]]— Kali Linux, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]]— Escalada de Privilegios, Hack The Box, Kali Linux
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — SSH, VulnHub, WordPress
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -370,7 +371,7 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 

@@ -171,27 +171,31 @@ DELETE /api/pets/{id} → Aceptado con token de administrador
 - Comparar respuesta, status code, longitud y contenido en cada prueba
 - Inventariar dependencias, mantenerlas actualizadas y vigilar vulnerabilidades conocidas
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Enumeración Web]] — Extensión natural de la enumeración web a APIs
-- [[Burp Suite - Framework de Auditoría]] — Herramienta central para interceptar tráfico API
-- [[OWASP Top 10 - CVE CVSS CWE]] — Framework web (diferente al API)
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — OWASP web como complemento
+- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — SQL Injection, SSRF, XXE
+- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Burp Suite, DirSearch, IDOR
+- [[XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, SQL Injection, SSRF
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, SQL Injection, XXE
+- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Burp Suite, IDOR, SQL Injection
+- [[../../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, Feroxbuster
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
+- [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[SSRF — Server-Side Request Forgery]] — API7: SSRF
-- [[SQL Injection]] — API8: Injection
-- [[XXE — XML External Entity]] — API8: Injection
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #api #burpsuite #idor #pentest #redes #owasp
+> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #idor #pentest #redes #sqli #ssrf #xxe

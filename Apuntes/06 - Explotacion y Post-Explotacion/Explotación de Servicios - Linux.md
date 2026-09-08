@@ -204,28 +204,29 @@ select * from users;
 - [[comandos/SMB_Impacket]] — Cheat sheet de comandos
 - [[comandos/John_Hashcat]] — Cheat sheet de comandos
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]]— Hack The Box, SSH, VulnHub
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]]— Escalada de Privilegios, Hack The Box, Post-Explotación
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]]— Hack The Box, Post-Explotación, VulnHub
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]]— Escalada de Privilegios, Post-Explotación, SSH
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Hydra, John / Hashcat, Post-Explotación
+- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Hydra, John / Hashcat, Post-Explotación
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #hack-the-box #hydra #john #linux #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub
+> #command-injection #escalada-privilegios #hack-the-box #hydra #john #linux #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows

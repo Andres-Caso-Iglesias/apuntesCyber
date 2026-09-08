@@ -358,23 +358,25 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 →’
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Hack The Box, Redes, SSH
-- [[../../informes/Informe_Castor.md|Informe_Castor]— Post-Explotación, Redes, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Hack The Box, Post-Explotación, SSH
-- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Post-Explotación, Redes, SSH
-- [[Vaccine.md|Vaccine]— Hack The Box, Redes, SSH
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[Vaccine.md|Vaccine]] — John / Hashcat, Post-Explotación, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, John / Hashcat, Post-Explotación
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
@@ -383,4 +385,4 @@ Bloque copiable a la base de conocimiento del proyecto:
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #hack-the-box #hydra #john #linux #metasploitable #nmap #post-explotacion #redes #sqli #ssh #wordpress
+> #command-injection #hack-the-box #hydra #john #linux #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress

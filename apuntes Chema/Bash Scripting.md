@@ -70,21 +70,22 @@ Un script es un fichero de texto con comandos Bash que se ejecutan secuencialmen
 
 - [[comandos/Linux]] — Comandos de referencia
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]— Linux, Nmap, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]— Blue Team / SOC, Forense Digital, Linux
-- [[Bash y PowerShell.md|Bash y PowerShell]— Kali Linux, Nmap, Redes
-- [[Fundamentos de Linux.md|Fundamentos de Linux]— Forense Digital, Kali Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]— Blue Team / SOC, Forense Digital, Linux
-- [[../informes/Informe_Banco.md|Informe_Banco]— Kali Linux, Nmap, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
+- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Linux, Windows
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #blue-team #forense #kali #linux #nmap #redes
+> #blue-team #forense #kali #linux #nmap #redes #windows

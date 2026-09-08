@@ -187,23 +187,25 @@ done
 > [!important] Relevancia
 > Dominar esto es la base para crear herramientas propias de auditoría, y más adelante para entender cómo se automatizan tanto ataques como defensas (ver SOAR en el Bloque 11).
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|20.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]— Escalada de Privilegios, Kali Linux, Redes
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]— Kali Linux, Metasploit, Redes
-- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]— Kali Linux, Metasploit, Redes
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]— Kali Linux, Metasploit, Redes
-- [[../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]— Escalada de Privilegios, Kali Linux, Linux
-- [[BLOQUE 15.md|BLOQUE 15]— Escalada de Privilegios, Metasploit, Redes
+- [[../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, SQL Injection
+- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
+- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Metasploit, Post-Explotación, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase17.md|resumen_master_clase17]] — Metasploit, Metasploitable / DVWA, Netcat / Reverse Shells
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SQLMap|SQLMap]]
 
@@ -211,4 +213,4 @@ done
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #escalada-privilegios #esteganografia #forense #hydra #kali #linux #metasploit #nmap #redes #sqli #sqlmap #windows
+> #escalada-privilegios #esteganografia #forense #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows

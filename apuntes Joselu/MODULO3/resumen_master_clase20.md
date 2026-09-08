@@ -216,21 +216,23 @@ Metaprotable / MetaFlowtable / metasproteico **Metasploitable 2** -- máquina Li
 
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase26.md|resumen_master_clase26]— Hack The Box, SSH, Telnet
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]— Hack The Box, SSH, Telnet
-- [[resumen_master_clase19.md|resumen_master_clase19]— Kali Linux, Redes, SSH
-- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]— Hack The Box, SSH, WiFi / Hardware
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]— Hack The Box, Kali Linux, SSH
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]— Hack The Box, Redes, SSH
+- [[resumen_master_clase26.md|resumen_master_clase26]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Netcat / Reverse Shells, Post-Explotación, Telnet
+- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Netcat / Reverse Shells, Post-Explotación, Telnet
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
@@ -239,4 +241,4 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploitable #nmap #pentest #pivoting #redes #ssh #telnet #wifi #windows
+> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploitable #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #telnet #wifi #windows

@@ -155,18 +155,19 @@ Y hemos cerrado el análisis forense del laboratorio web entendiendo por qué un
 
 La próxima sesión arranca con Metasploitable y las primeras explotac iones reales.
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]— Normativa / GRC, SQL Injection, Wireshark
-- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]— SQL Injection, SQLMap, Wireshark
-- [[../MODULO2/resumen_master_clase15.md|resumen_master_clase15]— Metasploitable / DVWA, SQL Injection, Wireshark
-- [[resumen_master_clase22.md|resumen_master_clase22]— Forense Digital, IA en Ciberseguridad, Wireshark
-- [[../PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]— Forense Digital, Linux, SQL Injection
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Normativa / GRC, SQL Injection
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Linux, SQL Injection, SQLMap
+- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Metasploitable / DVWA, SQL Injection, SQLMap
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — IA en Ciberseguridad, Linux, Normativa / GRC
+- [[resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Wireshark
+- [[../PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
 
 ### 🛠️ Herramientas
 
@@ -176,4 +177,4 @@ La próxima sesión arranca con Metasploitable y las primeras explotac iones rea
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #certificaciones #forense #ia #linux #metasploitable #normativa #sqli #sqlmap #wireshark
+> #certificaciones #forense #ia #linux #metasploitable #normativa #redes #sqli #sqlmap #wireshark

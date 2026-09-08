@@ -347,18 +347,19 @@ impacket-psexec administrator:'PASS'@IP
 - [ ] ¿Sé interpretar el informe de WinPEAS/LinPEAS (prioridad a lo rojo)?
 - [ ] ¿Sé usar `psexec.py` o `evil-winrm` con credenciales de Administrator?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]]— Hack The Box, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]]— Hack The Box, Post-Explotación, SSH
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]]— Hack The Box, Post-Explotación, SSH
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hack The Box, Post-Explotación, VulnHub
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]]— Hack The Box, Post-Explotación, SSH
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Post-Explotación, SMB / Impacket
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, Netcat / Reverse Shells, Post-Explotación
 
 ### 🛠️ Herramientas
 
@@ -366,7 +367,7 @@ impacket-psexec administrator:'PASS'@IP
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
-- [[comandos/Netcat|Netcat / Reverse Shells]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]

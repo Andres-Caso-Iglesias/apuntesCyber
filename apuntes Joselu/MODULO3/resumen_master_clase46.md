@@ -265,17 +265,18 @@ Término Explicación
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase9.md|resumen_clase9]— IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]— IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]— IA en Ciberseguridad, Redes
-- [[resumen_master_clase50.md|resumen_master_clase50]— IA en Ciberseguridad, Redes
-- [[resumen_master_clase51.md|resumen_master_clase51]— IA en Ciberseguridad, Redes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../PREWORK/resumen_clase9.md|resumen_clase9]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes
+- [[resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes
 
 > #ia #normativa #redes

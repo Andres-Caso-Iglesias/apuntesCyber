@@ -65,13 +65,22 @@ nc -lvnp <port>                  # Listen verbose, numeric, no DNS
 nc -k -lvnp <port>               # Keep alive (no cerrar después de conexión)
 ```
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Reverse Shells y Post-Explotación]] — Tipos de shell
-- [[Linux - Comandos Avanzados de Pentesting]] — Reverse shells en pentesting
+- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Netcat / Reverse Shells, Reverse Shells
 
-> #netcat #herramientas #reverse-shell #redes
+### 🛠️ Herramientas
+
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+
+> #linux #netcat #post-explotacion #redes #reverse-shell

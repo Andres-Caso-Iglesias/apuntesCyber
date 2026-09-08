@@ -168,22 +168,24 @@ curl -X POST http://target/api \
 - [ ] ¿Conozco el concepto de Error Base XXE?
 - [ ] ¿Entiendo cómo un file upload puede vector de XXE?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]]— SSRF, SSTI, XXE
-- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]]— Burp Suite, Command Injection / RCE, SSRF
-- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]]— File Upload, SSRF, XXE
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]]— SSRF, SSTI, XXE
-- [[Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]]— Burp Suite, Path Traversal / LFI, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]]— Burp Suite, SSRF, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Post-Explotación, SSTI, XXE
+- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Post-Explotación, SSTI, XXE
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Post-Explotación, SSTI, XXE
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — File Upload, Post-Explotación, SSTI
+- [[../../apuntes Chema/Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — File Upload, SSTI, XXE
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Post-Explotación, SSTI, XXE
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
@@ -192,4 +194,4 @@ curl -X POST http://target/api \
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #command-injection #file-upload #lfi #ssrf #ssti #xxe
+> #burpsuite #command-injection #file-upload #lfi #netcat #post-explotacion #redes #reverse-shell #ssrf #ssti #xxe

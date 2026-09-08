@@ -173,21 +173,22 @@ tshark -r captura.pcap -Y 'http.request.method == POST' \
 
 - [[Nmap - Escaneo y Enumeración]] — Escaneo de red complementario
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Wireshark.md|Wireshark]]— Post-Explotación, Redes, Wireshark
-- [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]]— Redes, WiFi / Hardware, Wireshark
-- [[../01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]]— Redes, WiFi / Hardware, Wireshark
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]]— Redes, WiFi / Hardware, Wireshark
-- [[../../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]]— Blue Team / SOC, Redes, Wireshark
-- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]]— Post-Explotación, Redes, WiFi / Hardware
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, WiFi / Hardware, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Post-Explotación, Wireshark
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotación, WiFi / Hardware
+- [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Redes, WiFi / Hardware, Wireshark
+- [[Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Blue Team / SOC, WiFi / Hardware, Wireshark
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Post-Explotación, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #blue-team #nmap #post-explotacion #redes #wifi #wireshark
+> #blue-team #nmap #pivoting #post-explotacion #redes #wifi #wireshark

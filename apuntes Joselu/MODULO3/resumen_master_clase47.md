@@ -303,22 +303,24 @@ Término en la transcripción Corrección / Aclaración
 
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase41.md|resumen_master_clase41]— Hack The Box, RFI, XSS
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]— CSRF, RFI, XSS
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]— CSRF, Hack The Box, XSS
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]— Hack The Box, Post-Explotación, XSS
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]— Hack The Box, RFI, XSS
-- [[resumen_master_clase36.md|resumen_master_clase36]— CSRF, Hack The Box, XSS
+- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — Burp Suite, Metodología Pentest, SSH
+- [[resumen_master_clase41.md|resumen_master_clase41]] — File Upload, RFI, SQL Injection
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — CSRF, File Upload, SQL Injection
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — CSRF, File Upload, SQL Injection
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -328,4 +330,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #pentest #pivoting #post-explotacion #redes #rfi #sqli #ssh #xss
+> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #xss

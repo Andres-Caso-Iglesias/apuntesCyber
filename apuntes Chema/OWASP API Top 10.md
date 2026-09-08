@@ -330,18 +330,19 @@ La sesión terminó indicando que el día siguiente se realizaría una máquina 
 | Resumen final · Una API es una superficie de ataque directamente conectada con la lógica y los datos del backend. Para estudiarla: identifica endpoints, entiende la petición, separa autenticación de autorización, no confíes en el cliente y comprueba que cada objeto y cada función están autorizados en servidor. |
 | --- |
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/FFUF.md|FFUF]— Burp Suite, FFUF, Redes
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]— Burp Suite, FFUF, Redes
-- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]— FFUF, Redes, Windows
-- [[../comandos/DirSearch.md|DirSearch]— FFUF, Feroxbuster, Redes
-- [[../comandos/Feroxbuster.md|Feroxbuster]— FFUF, Feroxbuster, Redes
-- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]— FFUF, Redes, Windows
+- [[../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, Feroxbuster
+- [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — Burp Suite, DirSearch, IDOR
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, DirSearch, Feroxbuster
+- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — DirSearch, Feroxbuster, Windows
+- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Blue Team / SOC, FFUF, Windows
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Burp Suite, DirSearch, Feroxbuster
 
 ### 🛠️ Herramientas
 
@@ -349,8 +350,9 @@ La sesión terminó indicando que el día siguiente se realizaría una máquina 
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/Nmap|Nmap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 
-> #blue-team #burpsuite #dirsearch #feroxbuster #ffuf #idor #pentest #redes #windows
+> #blue-team #burpsuite #dirsearch #feroxbuster #ffuf #idor #nmap #pentest #redes #windows

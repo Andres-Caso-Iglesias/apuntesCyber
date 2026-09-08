@@ -133,26 +133,28 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 Término en la transcripción Corrección / Aclaración azul Azure – plataforma cloud de Microsoft blockchain Blockchain – cadena de bloques; tecnología base de las criptomonedas on premise / on-premise On-premise – infraestructura tecnológica alojada físicamente en las instalaciones propias Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/John_Hashcat.md|John_Hashcat]— Hydra, John / Hashcat, Linux
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]— Command Injection / RCE, Escalada de Privilegios, Linux
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]— Escalada de Privilegios, Hydra, Windows
-- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]— Escalada de Privilegios, Hydra, John / Hashcat
-- [[resumen_clase15.md|resumen_clase15]— Escalada de Privilegios, Hydra, Windows
-- [[resumen_clase4.md|resumen_clase4]— Escalada de Privilegios, Hydra, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, John / Hashcat, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Hydra, John / Hashcat, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[resumen_clase6.md|resumen_clase6]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #hydra #ia #john #linux #pentest #windows
+> #command-injection #escalada-privilegios #hydra #ia #john #linux #netcat #pentest #post-explotacion #redes #reverse-shell #windows

@@ -95,21 +95,23 @@
 - [ ] Wordlists preparadas
 - [ ] Entorno de testing configurado
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— SSH, SSRF, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]]— Hydra, SSH, XSS
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]]— Hydra, SSH, XSS
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]]— Hydra, SSRF, XSS
-- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]]— Hydra, SMB / Impacket, SSH
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]]— SSH, SSRF, XSS
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, SMB / Impacket, SQL Injection
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, SMB / Impacket, SQL Injection
+- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — SMB / Impacket, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
@@ -123,4 +125,4 @@
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #feroxbuster #hydra #linux #pentest #smb-impacket #sqli #sqlmap #ssh #ssrf #windows #wordpress #wpscan #xss
+> #burpsuite #feroxbuster #hack-the-box #hydra #linux #pentest #post-explotacion #redes #smb-impacket #sqli #sqlmap #ssh #ssrf #vulnhub #windows #wordpress #wpscan #xss

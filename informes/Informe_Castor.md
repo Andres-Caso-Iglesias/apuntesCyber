@@ -319,18 +319,19 @@ ls -la /bin/bash
 
 **FIN DEL INFORME**
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Castor-THL.md|Castor-THL]— Redes, SSH, XXE
-- [[Informe_Banco.md|Informe_Banco]— Kali Linux, Post-Explotación, SSH
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]— Kali Linux, Post-Explotación, SSH
-- [[Informe_Rockstars.md|Informe_Rockstars]— Kali Linux, Post-Explotación, SSH
-- [[../write-ups/Nike-THL.md|Nike-THL]— Kali Linux, SSH, XXE
-- [[Informe_Nike.md|Informe_Nike]— Kali Linux, SSH, XXE
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, XXE
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Post-Explotación
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, Post-Explotación
+- [[Informe_Banco.md|Informe_Banco]] — Linux, Post-Explotación, SSH
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Post-Explotación, XXE
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Linux, Post-Explotación
 
 ### 🛠️ Herramientas
 

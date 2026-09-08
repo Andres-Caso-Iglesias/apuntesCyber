@@ -161,17 +161,18 @@ El trabajo de un consultor GRC se traduce en documentos muy concretos: matriz de
 3. **Plan de comunicación de crisis** (a quién se avisa, en qué orden, con qué mensaje)
 4. **Pruebas periódicas del plan** (simulacros) y actualización tras cada lección aprendida
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 14.md|BLOQUE 14]— Certificaciones, Metodología Pentest, Normativa / GRC
-- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]— Certificaciones, Normativa / GRC, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]— Metodología Pentest, Normativa / GRC, Redes
-- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]— Certificaciones, Normativa / GRC, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]— Metodología Pentest, Normativa / GRC, Redes
-- [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]— Normativa / GRC, Redes
+- [[BLOQUE 14.md|BLOQUE 14]] — Certificaciones, Normativa / GRC, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Normativa / GRC, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — Normativa / GRC, Redes
+- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, Normativa / GRC, Redes
 
 > #certificaciones #normativa #pentest #redes

@@ -138,23 +138,25 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [ ] ¿Entiendo la cascada OWASP → CWE → CVE → CVSS?
 - [ ] ¿Relaciono Log4Shell con su CWE y categoría OWASP?
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]]— Redes, SSRF, XSS
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]]— Normativa / GRC, SSRF, XSS
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]]— Normativa / GRC, SSRF, XSS
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]]— Redes, SSRF, XSS
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]]— Command Injection / RCE, Redes, SSRF
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]]— Normativa / GRC, Redes, XSS
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Post-Explotación, SQL Injection, SSRF
+- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Post-Explotación, SQL Injection, SQLMap
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Hydra, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -165,4 +167,4 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #burpsuite #command-injection #hydra #idor #lfi #normativa #pentest #redes #sqli #sqlmap #ssrf #xss
+> #blue-team #burpsuite #command-injection #hydra #idor #lfi #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss
