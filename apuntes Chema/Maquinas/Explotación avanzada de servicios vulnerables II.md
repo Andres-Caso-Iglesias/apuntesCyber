@@ -616,18 +616,19 @@ Para saber los nombres de los campos del formulario: click derecho en la página
 15. Hashcat usa la GPU (tarjeta gráfica), que puede hacer millones de operaciones en paralelo. John usa principalmente la CPU.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, John / Hashcat, SQL Injection
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Hydra, Metasploit, SQL Injection
-- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — John / Hashcat, Linux, Nmap
+- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]] — John / Hashcat, Linux, Nmap
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — John / Hashcat, Linux, Windows
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — John / Hashcat, Linux, Metasploit
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — John / Hashcat, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -645,4 +646,4 @@ Para saber los nombres de los campos del formulario: click derecho en la página
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #post-explotacion #redes #sqli #ssh #windows #xss
+> #burpsuite #certificaciones #escalada-privilegios #ffuf #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #post-explotacion #redes #sqli #ssh #windows #xss

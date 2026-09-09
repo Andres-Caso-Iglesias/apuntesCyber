@@ -172,18 +172,19 @@ DELETE /api/pets/{id} → Aceptado con token de administrador
 - Inventariar dependencias, mantenerlas actualizadas y vigilar vulnerabilidades conocidas
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — SQL Injection, SSRF, XXE
-- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Burp Suite, DirSearch, IDOR
-- [[XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, SQL Injection, SSRF
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, SQL Injection, XXE
-- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Burp Suite, IDOR, SQL Injection
-- [[../../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, Feroxbuster
+- [[XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — FFUF, Redes, SQL Injection
+- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — IDOR, Redes, SQL Injection
+- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — FFUF, Feroxbuster, IDOR
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, Feroxbuster, SQL Injection
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Burp Suite, Redes, SQL Injection
+- [[../08 - Metodologías/Metodologia - Aplicaciones Web.md|Metodologia - Aplicaciones Web]] — FFUF, Feroxbuster, IDOR
 
 ### 🛠️ Herramientas
 
@@ -196,6 +197,7 @@ DELETE /api/pets/{id} → Aceptado con token de administrador
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #idor #pentest #redes #sqli #ssrf #xxe
+> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #idor #pentest #redes #sqli #ssrf #xss #xxe

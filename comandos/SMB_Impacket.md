@@ -220,22 +220,23 @@ impacket-psexec -k -no-pass domain/user@target
 - [ ] Pass-the-Hash probado
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Metodología Pentest, Redes, SMB / Impacket
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, SMB / Impacket, Windows
 - [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes, Windows
-- [[Windows.md|Windows]] — Metodología Pentest, Redes, Windows
-- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes, Windows
-- [[../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Nmap, Redes, Windows
+- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #nmap #pentest #redes #smb-impacket #windows
+> #linux #nmap #pentest #redes #smb-impacket #windows

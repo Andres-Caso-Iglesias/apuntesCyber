@@ -382,18 +382,19 @@ Sección lista para copiar a la base de conocimiento del proyecto.
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — SMB / Impacket, SSRF, WordPress
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Burp Suite, SSH, WordPress
-- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, SSH, WordPress
-- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — SMB / Impacket, SSH, SSRF
-- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Burp Suite, WordPress
-- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, SSH, WordPress
+- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — FFUF, Metasploit, SSRF
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Blue Team / SOC, FFUF, Metasploit
+- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — FFUF, Metasploit, SSRF
+- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Metasploit, Nmap
+- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — FFUF, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 

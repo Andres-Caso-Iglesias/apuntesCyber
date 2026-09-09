@@ -431,18 +431,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — Hydra, Path Traversal / LFI, SQL Injection
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Hydra, SQL Injection
-- [[resumen_master_clase44.md|resumen_master_clase44]] — GoBuster, Hydra, SQL Injection
-- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Blue Team / SOC, Linux, Windows
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Hydra, Linux
-- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, SQL Injection
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
+- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — FFUF, Feroxbuster, Linux
+- [[resumen_master_clase44.md|resumen_master_clase44]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Nmap, OSINT
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Linux, Windows
 
 ### 🛠️ Herramientas
 

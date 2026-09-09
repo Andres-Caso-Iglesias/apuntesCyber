@@ -657,18 +657,19 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, Normativa / GRC, Post-Explotación
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, Normativa / GRC, SSH
-- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, Linux, Post-Explotación
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Normativa / GRC, Post-Explotación, SSH
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Empleabilidad, Normativa / GRC, Post-Explotación
-- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Post-Explotación, Windows
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, IA en Ciberseguridad, Windows
+- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
+- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, Windows
+- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, OSINT, Windows
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Post-Explotación
 
 ### 🛠️ Herramientas
 

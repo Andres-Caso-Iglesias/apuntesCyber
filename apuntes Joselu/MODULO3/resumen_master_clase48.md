@@ -174,18 +174,19 @@ Los tres vectores comparten la misma raíz: **una función del servidor acepta e
 La semana que viene se entra en **SQL Injection**, siguiendo la misma estructura progresiva: desde los casos más simples hasta blind SQLi y técnicas out-of-band.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — SSRF, SSTI, XXE
-- [[resumen_master_clase49.md|resumen_master_clase49]] — SQL Injection, SSTI, XXE
-- [[resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, IA en Ciberseguridad, SSRF
-- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Burp Suite, SSRF, SSTI
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — SQL Injection, SSTI, XXE
-- [[resumen_master_clase52.md|resumen_master_clase52]] — Path Traversal / LFI, SSRF, SSTI
+- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
+- [[resumen_master_clase53.md|resumen_master_clase53]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[resumen_master_clase49.md|resumen_master_clase49]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]] — Burp Suite, Redes, XXE
+- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Burp Suite, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 

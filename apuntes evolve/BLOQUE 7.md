@@ -94,18 +94,19 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 > Pivoting no es un paso único: es un ciclo repetitivo de enumeración → explotación → escalada → nuevo pivote hasta alcanzar el objetivo.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Nmap, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, Windows
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
@@ -114,4 +115,4 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows
+> #escalada-privilegios #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows

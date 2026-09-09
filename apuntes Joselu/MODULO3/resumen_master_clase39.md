@@ -347,18 +347,19 @@ Ej: `?q=verdad`
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — SMB / Impacket, SSH, SSRF
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploitable / DVWA, SSH, WordPress
-- [[resumen_master_clase38.md|resumen_master_clase38]] — Burp Suite, SSH, WordPress
-- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Burp Suite, SSH, WordPress
-- [[resumen_master_clase21.md|resumen_master_clase21]] — Metasploitable / DVWA, SMB / Impacket, SSH
+- [[resumen_master_clase38.md|resumen_master_clase38]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — FFUF, Metasploit, SSRF
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, FFUF, Metasploit
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[resumen_master_clase21.md|resumen_master_clase21]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Metasploit, Nmap, WordPress
 
 ### 🛠️ Herramientas
 

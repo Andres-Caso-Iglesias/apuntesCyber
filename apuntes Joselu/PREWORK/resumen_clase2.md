@@ -162,25 +162,27 @@ La próxima sesión abordará en detalle las diferentes líneas de la cibersegur
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración botnet Mirei Botnet Mirai – botnet masiva basada en dispositivos IoT CVS CVE (Common Vulnerabilities and Exposures ) – identificador estándar de vulnerabilidades Lock4G Log4Shell / Log4j – vulnerabilidad crítica en la librería Apache Log4j (2021) Vista (gusano 2003) Blaster – gusano de 2003 que afectó a millones de equipos Windows NSA (empresa israelí) NSO Group – empresa privada israelí creadora de Pegasus (distinta de la NSA estadounidense) Transunware Ransomware – software de secuestro y cifrado de datos WebSphere de Java Probable referencia a vulnerabilidades en Log4j (librería Java) o en Apache Struts Vedrola / Enaga Iberdrola y Enagás – empresas energéticas españolas afectadas por la vulnerabilidad de Fortinet NIDS o Team Bware TeamViewer / AnyDesk – herramientas de acceso remoto corporativo CHAP GPT ChatGPT – modelo de lenguaje de OpenAI jactivismo Hacktivismo – uso del hacking como activismo político o social Blueteam / Redteam Blue Team / Red Team – equipos de defensa y ataque en ciberseguridad Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase6.md|resumen_clase6]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_clase12.md|resumen_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_clase13.md|resumen_clase13]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase12.md|resumen_clase12]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase13.md|resumen_clase13]] — IA en Ciberseguridad, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #ia #netcat #normativa #post-explotacion #redes #reverse-shell #windows
+> #blue-team #command-injection #ia #metasploit #netcat #normativa #post-explotacion #redes #reverse-shell #windows

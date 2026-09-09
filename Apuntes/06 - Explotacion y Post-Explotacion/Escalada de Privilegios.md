@@ -152,23 +152,25 @@ chmod +x linpeas.sh
 - [[Prácticas CTF - HTB y VulnHub]] — Walkthroughs con escalada
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
-- [[Metodología de Explotación.md|Metodología de Explotación]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
-- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, VulnHub, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
+- [[../comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, VulnHub, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 
-> #forense #hack-the-box #linux #netcat #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows
+> #forense #hack-the-box #linux #metasploit #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows

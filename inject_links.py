@@ -34,6 +34,10 @@ def inject_links():
     skipped = 0
 
     for file_path, section in sections.items():
+        # Excluir MOCs y archivos de mapa de contenidos
+        if "MOC" in file_path or "Mapa de Contenidos" in file_path:
+            continue
+
         full_path = BASE_DIR / file_path
 
         if not full_path.exists():

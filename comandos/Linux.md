@@ -445,21 +445,22 @@ steghide extract -sf imagen.jpg
 - [ ] vi/vim con modos NORMAL, INSERT, COMMAND dominado
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, Linux
-- [[../Apuntes/comandos/SSH.md|SSH]] — Linux, Redes, SSH
+- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Linux, OSINT, Redes
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, Redes
+- [[../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, OSINT, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Redes
+- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Metodología Pentest, Redes
 - [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Linux, Redes
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Forense Digital, Linux, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Forense Digital, Linux, OSINT
 
 ### 🛠️ Herramientas
 
 - [[comandos/SSH|SSH]]
 
-> #esteganografia #forense #linux #osint #redes #ssh
+> #esteganografia #forense #linux #osint #pentest #redes #ssh

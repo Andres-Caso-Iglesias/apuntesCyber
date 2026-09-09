@@ -484,18 +484,19 @@ bash -p
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Hydra, Post-Explotación
-- [[Informe_Banco.md|Informe_Banco]] — Linux, Path Traversal / LFI, Post-Explotación
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
-- [[Informe_Castor.md|Informe_Castor]] — Hydra, Linux, Post-Explotación
-- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, Linux, Path Traversal / LFI
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Post-Explotación
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Linux, Nmap
+- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
+- [[Informe_Banco.md|Informe_Banco]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, Linux, Nmap
 
 ### 🛠️ Herramientas
 

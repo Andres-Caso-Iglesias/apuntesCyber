@@ -320,18 +320,19 @@ ls -la /bin/bash
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, XXE
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Post-Explotación
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, Post-Explotación
-- [[Informe_Banco.md|Informe_Banco]] — Linux, Post-Explotación, SSH
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Post-Explotación, XXE
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Linux, Post-Explotación
+- [[../write-ups/Castor-THL.md|Castor-THL]] — John / Hashcat, Linux, Nmap
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — John / Hashcat, Linux, Nmap
+- [[Informe_Banco.md|Informe_Banco]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Kali Linux, Linux, Nmap
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Kali Linux, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -342,6 +343,7 @@ ls -la /bin/bash
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #hydra #john #kali #linux #nmap #post-explotacion #redes #ssh #xxe
+> #hydra #john #kali #lfi #linux #nmap #post-explotacion #redes #ssh #xxe

@@ -201,24 +201,26 @@ Three introduce el fuzzing de subdominios y el acceso a buckets de AWS S3 mal co
 |**💡 INFO**|Instalar SecLists es prioritario: sudo git clone https://github.com/danielmiessler/SecLists /usr/share/seclists. Es el diccionario de referencia para fuzzing web, subdominios, usuarios y contraseñas.|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, Metasploitable / DVWA, Telnet
-- [[../OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Post-Explotación, SQL Injection, Telnet
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — John / Hashcat, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — FFUF, Metasploit, Telnet
+- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — Linux, Nmap, SSH
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Linux, SSH, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Nmap, SSH
+- [[../OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
+- [[../../transcripciones/Junio/04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3.md|04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -230,4 +232,4 @@ Three introduce el fuzzing de subdominios y el acceso a buckets de AWS S3 mal co
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #telnet #windows
+> #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #telnet #windows

@@ -139,22 +139,24 @@ Cuando no ves el output directamente (sin renderizado).
 - [ ] ¿He practicado los labs de PortSwigger?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — SQL Injection, SSTI, XXE
-- [[XXE — XML External Entity.md|XXE — XML External Entity]] — Post-Explotación, SSTI, XXE
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Post-Explotación, SQL Injection, XXE
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — SQL Injection, SSTI, XXE
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — SQL Injection, SSTI, XXE
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — SQL Injection, SSTI, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[XXE — XML External Entity.md|XXE — XML External Entity]] — Metasploit, Netcat / Reverse Shells, Redes
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Metasploit, Netcat / Reverse Shells, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
@@ -165,4 +167,4 @@ Cuando no ves el output directamente (sin renderizado).
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #netcat #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xss #xxe
+> #burpsuite #command-injection #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xss #xxe

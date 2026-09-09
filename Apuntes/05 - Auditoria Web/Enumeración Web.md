@@ -108,18 +108,19 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - [ ] ¿Entiendo cómo descubrir parámetros ocultos?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — DirSearch, GoBuster, WPScan
-- [[../../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, GoBuster
-- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Burp Suite, DirSearch, Feroxbuster
-- [[../../comandos/BurpSuite.md|BurpSuite]] — Burp Suite, WPScan, WordPress
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, Feroxbuster, GoBuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, Feroxbuster, GoBuster
+- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — GoBuster, Nmap, OSINT
+- [[../../comandos/FFUF.md|FFUF]] — FFUF, GoBuster, Nmap
+- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — FFUF, Feroxbuster, Nmap
+- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
+- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 

@@ -154,22 +154,24 @@ curl -s 'https://crt.sh/?q=empresa.com&output=json' | head # certs TLS
 > El seguimiento de auditorías (bitácora detallada de cada acción) permite justificar decisiones ante un cliente y detectar errores rápidamente — y es una de las habilidades "blandas" más valoradas en las entrevistas de trabajo del sector.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]] — Metodología Pentest, Nmap, Post-Explotación
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[BLOQUE 7.md|BLOQUE 7]] — Nmap, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Metodología Pentest, Nmap, OSINT
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Metodología Pentest, Nmap, OSINT
+- [[BLOQUE 7.md|BLOQUE 7]] — Metasploit, Nmap, Pivoting / Movilidad Lateral
+- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]] — Nmap, OSINT, Post-Explotación
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Nmap, OSINT, Post-Explotación
+- [[BLOQUE 15.md|BLOQUE 15]] — Metasploit, Nmap, OSINT
+- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Metodología Pentest, OSINT, Redes
+- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Nmap, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 
-> #escalada-privilegios #google-dorks #nmap #osint #pentest #pivoting #post-explotacion #redes
+> #escalada-privilegios #google-dorks #metasploit #nmap #osint #pentest #pivoting #post-explotacion #redes

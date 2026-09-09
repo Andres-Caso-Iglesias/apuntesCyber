@@ -361,18 +361,19 @@ Cambios de nivel derivados de esta sesión (para copiar a la base de conocimient
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Burp Suite, SSH, WordPress
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Metasploitable / DVWA, SSH, WordPress
-- [[../Auditoria web.md|Auditoria web]] — Metasploitable / DVWA, SSH, WordPress
-- [[../Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Burp Suite, SSH, WordPress
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Metasploitable / DVWA, SSH, WordPress
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Metasploit, Nmap, WordPress
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — FFUF, Metasploit, Nmap
+- [[../Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
+- [[../Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — FFUF, Metasploit, Nmap
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — FFUF, Metasploit, Nmap
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — FFUF, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 

@@ -127,18 +127,19 @@ pip install herramienta # paquetes Python
 - [ ] ¿Entiendo por qué la CLI es preferible al GUI en pentesting?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Kali Linux, Linux, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Kali Linux, Linux, Windows
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
 - [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Nmap, Redes, Windows
+- [[../comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
 
 ### 🛠️ Herramientas
 

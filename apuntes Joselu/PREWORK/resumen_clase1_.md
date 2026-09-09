@@ -118,17 +118,18 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase11.md|resumen_clase11]] — Normativa / GRC, Pivoting / Movilidad Lateral, Windows
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Normativa / GRC, Pivoting / Movilidad Lateral, VulnHub
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — IA en Ciberseguridad, Metodología Pentest, Normativa / GRC
+- [[resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — IA en Ciberseguridad, VulnHub, Windows
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
 - [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
-- [[resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Normativa / GRC, Windows
+- [[../MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Redes
 
 > #certificaciones #hack-the-box #ia #normativa #pentest #pivoting #redes #vulnhub #windows

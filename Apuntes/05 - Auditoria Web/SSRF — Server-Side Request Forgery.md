@@ -113,18 +113,19 @@ Cuando el servidor **no devuelve** la respuesta de la petición interna en la re
 - [ ] ¿Entiendo que SSRF está en OWASP Top 10 A01 (2025)?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — SSRF, SSTI, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Redes, SSRF
-- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Burp Suite, SSRF, SSTI
-- [[SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — SSRF, SSTI, XXE
-- [[XXE — XML External Entity.md|XXE — XML External Entity]] — SSRF, SSTI, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Open Redirect, Redes
 - [[Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]] — Burp Suite, Redes, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Open Redirect, Redes
+- [[XXE — XML External Entity.md|XXE — XML External Entity]] — Burp Suite, Redes, XXE
+- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Burp Suite, Open Redirect, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Burp Suite, Redes, XXE
 
 ### 🛠️ Herramientas
 
@@ -132,7 +133,8 @@ Cuando el servidor **no devuelve** la respuesta de la petición interna en la re
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #open-redirect #redes #ssrf #ssti #xxe
+> #burpsuite #lfi #open-redirect #redes #ssrf #ssti #xxe

@@ -403,18 +403,19 @@ cat /root/root.txt
 *Write-up creado el 13 de Julio de 2026*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, XXE
-- [[Nike-THL.md|Nike-THL]] — Hydra, Path Traversal / LFI, XXE
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Path Traversal / LFI
-- [[Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, Path Traversal / LFI
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Path Traversal / LFI, XXE
+- [[../informes/Informe_Castor.md|Informe_Castor]] — John / Hashcat, Linux, Nmap
+- [[Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Nmap
+- [[Nike-THL.md|Nike-THL]] — Hydra, Linux, Nmap
+- [[Rockstars-THL.md|Rockstars-THL]] — John / Hashcat, Linux, Nmap
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Linux, Nmap
 
 ### 🛠️ Herramientas
 

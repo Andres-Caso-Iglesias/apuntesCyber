@@ -101,18 +101,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración intelligence ex / inteligencia ex Intelligence X – plataforma de búsqueda de datos e información filtrada loc bit LockBit – grupo de ransomware de alto impacto mundial xss.its XSS.is – foro especializado en hacking ofensivo en la Deep Web carding Carding – fraude mediante clonación y uso ilícito de datos de tarjetas de crédito robadas con vos list Wordlists – diccionarios de contraseñas usados para ataques de fuerza bruta y cracking OPSEC OPSEC (Operational Security ) – técnicas para mantener el anonimato y evitar ser detectado durante una operación obsec OPSEC – misma corrección, variante de transcripción volve Wolf (Academy) – plataforma del máster nodos de salida Exit nodes – últimos nodos de la cadena TOR antes de salir a Internet; los más monitorizados por agencias gubernamentales Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Forense Digital, Hydra, Linux
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Burp Suite, Linux, Windows
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Linux, Post-Explotación
-- [[resumen_clase3.md|resumen_clase3]] — Forense Digital, Post-Explotación, Windows
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Windows
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — IA en Ciberseguridad, Linux, Windows
+- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Post-Explotación, Windows
+- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
+- [[../MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 

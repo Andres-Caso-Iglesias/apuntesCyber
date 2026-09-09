@@ -33,18 +33,19 @@ Si usas Obsidian abre directamente la carpeta como vault y te funciona todo con 
 Si quieres añadir algo o corregir algo mándalo directamente o abre un pull request. Todo lo que se mejore bienvenido es.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Apuntes/comandos/SQLMap.md|SQLMap]] — Burp Suite, SQL Injection, SQLMap
-- [[apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Normativa / GRC, SQL Injection
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
+- [[apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Nmap, Normativa / GRC, SQL Injection
+- [[Apuntes/comandos/SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
 - [[apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Normativa / GRC, SQL Injection, SQLMap
-- [[apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, SQL Injection, SQLMap
-- [[apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Hydra, SQL Injection, SQLMap
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Nmap, SQL Injection, SQLMap
+- [[apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Nmap, SQL Injection, SQLMap
+- [[Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Burp Suite, Hack The Box, Redes
 
 ### 🛠️ Herramientas
 

@@ -92,18 +92,19 @@ Los metadatos (EXIF) de imágenes pueden revelar información crítica para OSIN
 |**💡 OSINT**|Una foto de LinkedIn puede contener coordenadas GPS si fue tomada con móvil sin desactivar ubicación. Fundamental verificarlo antes de publicar.|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Nmap, WiFi / Hardware
-- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, WiFi / Hardware, Windows
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, WiFi / Hardware, Windows
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Metodología Pentest, Nmap, WiFi / Hardware
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Nmap, OSINT, WiFi / Hardware
+- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Nmap, OSINT
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, Windows
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
 - [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Nmap, WiFi / Hardware
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

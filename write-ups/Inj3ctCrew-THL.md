@@ -430,23 +430,25 @@ cat /root/root.txt
 *Write-up completado — Explotación verificada end-to-end*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
-- [[../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Linux, Nmap
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, Linux, Metasploit
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Linux, Nmap
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Linux, Nmap
 
 ### 🛠️ Herramientas
 
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -454,5 +456,6 @@ cat /root/root.txt
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #command-injection #escalada-privilegios #ffuf #gobuster #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh
+> #command-injection #escalada-privilegios #ffuf #gobuster #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh

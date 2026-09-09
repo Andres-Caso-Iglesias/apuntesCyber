@@ -206,18 +206,19 @@ shred -u ~/.bash_history # borrado seguro
 - [ ] ¿Puedo escribir una función con retorno?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Linux, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Linux, Redes, Windows
+- [[../comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
+- [[Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Redes
 - [[Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Redes
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

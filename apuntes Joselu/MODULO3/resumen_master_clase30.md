@@ -361,18 +361,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Hydra, XXE
-- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploit
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, Metasploit, XXE
-- [[../../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]] — File Upload, Hydra, Metasploit
-- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Hydra, XXE
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploit
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Linux, Metasploit, Nmap
+- [[resumen_master_clase19.md|resumen_master_clase19]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — IA en Ciberseguridad, Linux, Nmap
+- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Nmap
+- [[resumen_master_clase45.md|resumen_master_clase45]] — IA en Ciberseguridad, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -386,6 +387,7 @@ Término en la transcripción Corrección / Aclaración
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan #xxe
+> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan #xxe

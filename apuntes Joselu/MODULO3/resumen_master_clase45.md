@@ -287,18 +287,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Burp Suite, Metodología Pentest, SSH
-- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, SQL Injection, XXE
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, SQL Injection, XXE
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Metasploitable / DVWA, XXE
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Metasploitable / DVWA, SSH
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — File Upload, GoBuster, SQL Injection
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Metasploit, Nmap
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — FFUF, Metasploit, Nmap
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — IA en Ciberseguridad, Metasploit, Nmap
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — FFUF, Metasploit, Nmap
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
+- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, IA en Ciberseguridad, Linux
 
 ### 🛠️ Herramientas
 
@@ -307,6 +308,7 @@ Término en la transcripción Corrección / Aclaración
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -318,4 +320,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #xxe
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #xxe

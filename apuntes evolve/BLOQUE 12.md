@@ -162,6 +162,7 @@ El trabajo de un consultor GRC se traduce en documentos muy concretos: matriz de
 4. **Pruebas periódicas del plan** (simulacros) y actualización tras cada lección aprendida
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento

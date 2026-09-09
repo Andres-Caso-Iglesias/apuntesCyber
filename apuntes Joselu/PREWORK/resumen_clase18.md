@@ -73,18 +73,19 @@ todas las variantes con años del 2012 al 2025 y caracteres especiales, creando 
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase17.md|resumen_clase17]] — Empleabilidad, GoBuster, Hydra
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Hydra, Linux, Pivoting / Movilidad Lateral
-- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Hydra
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Hydra
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Hydra, Linux
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Linux, Pivoting / Movilidad Lateral, VulnHub
+- [[resumen_clase17.md|resumen_clase17]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — IA en Ciberseguridad, Linux, OSINT
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Linux, Windows
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — IA en Ciberseguridad, Linux, OSINT
 
 ### 🛠️ Herramientas
 

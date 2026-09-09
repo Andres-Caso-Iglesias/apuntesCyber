@@ -490,18 +490,19 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 15. Hashcat usa la **GPU** (millones de operaciones en paralelo). John usa principalmente la CPU.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, Metasploit, Metasploitable / DVWA
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hydra, Metasploit, SQL Injection
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, Metasploit, SQL Injection
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Hydra, Metasploit, SQL Injection
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — John / Hashcat, Linux, Nmap
+- [[Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — John / Hashcat, Linux, Windows
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — John / Hashcat, Linux, Nmap
+- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — John / Hashcat, Linux, Nmap
 
 ### 🛠️ Herramientas
 

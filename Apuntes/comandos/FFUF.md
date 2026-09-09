@@ -84,21 +84,25 @@ SecLists/Discovery/DNS/subdomains-top1million-5000.txt
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — FFUF, Redes
-- [[GoBuster.md|GoBuster]] — FFUF, Redes
-- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Redes
-- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Redes
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Redes
-- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — Redes
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
 
-> #ffuf #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #redes

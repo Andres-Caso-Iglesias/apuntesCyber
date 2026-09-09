@@ -149,18 +149,19 @@ ffuf -u http://target/FUZZ -w wordlist.txt -recursion -recursion-depth 2
 - [ ] Output guardado para análisis
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[DirSearch.md|DirSearch]] — DirSearch, Feroxbuster, GoBuster
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, Feroxbuster, GoBuster
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, DirSearch, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
 - [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Feroxbuster, GoBuster
-- [[../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Burp Suite, DirSearch, Feroxbuster
 
 ### 🛠️ Herramientas
 

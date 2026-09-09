@@ -455,18 +455,19 @@ En la máquina Rockstar se hicieron **cuatro saltos de usuario** (shark → wwwv
 > **Plataforma nueva:** The Hacking Labs (máquina Rockstar).
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Metasploitable / DVWA, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]] — GoBuster, Metasploitable / DVWA, XXE
-- [[../Auditoria web.md|Auditoria web]] — GoBuster, Hydra, Metasploitable / DVWA
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Metasploitable / DVWA, XXE
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase21.md|resumen_master_clase21]] — GoBuster, Linux, Nmap
+- [[../../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Metasploit, Nmap
+- [[../Auditoria web.md|Auditoria web]] — GoBuster, Linux, Nmap
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Linux, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 

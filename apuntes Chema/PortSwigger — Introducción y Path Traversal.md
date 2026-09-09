@@ -544,18 +544,19 @@ Cambios respecto al registro acumulado tras esta sesión (copiable a la base de 
 **Conceptos/técnicas nuevos consolidados:** Path Traversal (6 casos), URL encoding y doble encoding como bypass, null byte para extensión, distinción Path Traversal vs LFI, control de ruido con Resource pool.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — Burp Suite, Metodología Pentest, SSH
-- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Burp Suite, Metodología Pentest, SSH
-- [[../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Burp Suite, Hack The Box, SSH
-- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Burp Suite, Hack The Box, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Burp Suite, Metodología Pentest, SSH
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Burp Suite, Metodología Pentest, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Certificaciones, Metasploit, Post-Explotación
+- [[Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — FFUF, IA en Ciberseguridad, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -563,6 +564,7 @@ Cambios respecto al registro acumulado tras esta sesión (copiable a la base de 
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
@@ -574,4 +576,4 @@ Cambios respecto al registro acumulado tras esta sesión (copiable a la base de 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #hydra #ia #lfi #linux #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #windows #xss #xxe
+> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #hydra #ia #lfi #linux #metasploit #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #windows #xss #xxe

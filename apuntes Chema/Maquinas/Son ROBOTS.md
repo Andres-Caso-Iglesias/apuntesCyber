@@ -293,18 +293,19 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — SSH, VulnHub, WordPress
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, Post-Explotación
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Hydra, Metasploit, Post-Explotación
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Hydra, Metasploit, Post-Explotación
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Esteganografía, Metasploit, VulnHub
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, VulnHub
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Nmap, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, Nmap, VulnHub
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

@@ -321,18 +321,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase34.md|resumen_master_clase34]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, SQL Injection, SQLMap
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
-- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — File Upload, Metasploit, SQL Injection
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Metasploit, SQL Injection, SQLMap
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, SQL Injection, SQLMap
+- [[resumen_master_clase34.md|resumen_master_clase34]] — IA en Ciberseguridad, Linux, Metasploit
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Linux, Metasploit
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — Feroxbuster, Linux, Metasploit
+- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — Feroxbuster, Linux, Metasploit
+- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Linux, Metasploit
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, Metasploit, SQLMap
 
 ### 🛠️ Herramientas
 

@@ -83,6 +83,7 @@ site:ejemplo.com filetype:vcf
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -90,11 +91,11 @@ site:ejemplo.com filetype:vcf
 ### Documentos Relacionados
 
 - [[../../comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Google Dorks, OSINT, Redes
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Google Dorks, OSINT, Redes
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Metodología Pentest, OSINT, Redes
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Metodología Pentest, OSINT, Redes
 - [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Metodología Pentest, OSINT, Redes
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Google Dorks, OSINT, Redes
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Metodología Pentest, OSINT, Redes
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodología Pentest, OSINT, Redes
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Metodología Pentest, OSINT, Redes
 
 ### 🛠️ Herramientas
 

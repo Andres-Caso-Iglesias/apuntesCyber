@@ -224,18 +224,19 @@ A la vuelta: **Hack The Box**, ruta **eJPTv2 → OSCP**, **Blue Team** con Edu y
 | ✓  Bloque copiable Bloque para memoria acumulativa (texto plano): SSRF cerrado el 24/07/2026 con Carlos Castillo en la sesión 'Repaso Semanal III'. Resueltos dos labs de PortSwigger: (1) bypass por open redirect reapuntando el enlace 'nextProduct' a 192.168.0.12:8080/admin; (2) bypass de whitelist con http://localhost%2523@stock.weliketoshop.net/admin (fragmento # doble-encodeado). Herramientas practicadas: Burp Repeater/Intruder/Decoder/Proxy. Próximo tema anunciado: SSTI vía PortSwigger. |  |  |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Pivoting / Movilidad Lateral, SSRF, SSTI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — Path Traversal / LFI, SSRF, SSTI
-- [[PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — SSH, SSRF, SSTI
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Pivoting / Movilidad Lateral, SSRF, SSTI
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Pivoting / Movilidad Lateral, SSRF, SSTI
-- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Pivoting / Movilidad Lateral, SSRF, SSTI
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Certificaciones, Nmap, WiFi / Hardware
+- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — IA en Ciberseguridad, Nmap, Open Redirect
+- [[PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Certificaciones, IA en Ciberseguridad, Open Redirect
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Certificaciones, IA en Ciberseguridad, Nmap
+- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Certificaciones, Nmap, WiFi / Hardware
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — IA en Ciberseguridad, Nmap, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
@@ -246,8 +247,9 @@ A la vuelta: **Hack The Box**, ruta **eJPTv2 → OSCP**, **Blue Team** con Edu y
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #blue-team #burpsuite #certificaciones #dirsearch #hack-the-box #ia #lfi #nmap #open-redirect #pentest #pivoting #redes #ssh #ssrf #ssti #wifi
+> #blue-team #burpsuite #certificaciones #command-injection #dirsearch #hack-the-box #ia #lfi #nmap #open-redirect #pentest #pivoting #redes #ssh #ssrf #ssti #wifi

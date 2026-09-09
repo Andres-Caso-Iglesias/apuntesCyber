@@ -120,17 +120,24 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 | USB                    | 1.1/2.0/3.0           | 1.1/2.0/3.0/3.1       |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, Redes
-- [[../comandos/BurpSuite.md|BurpSuite]] — Redes
-- [[../comandos/DirSearch.md|DirSearch]] — Redes
-- [[../comandos/FFUF.md|FFUF]] — Redes
-- [[../comandos/Linux.md|Linux]] — Redes
-- [[../comandos/Nmap.md|Nmap]] — Redes
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, Nmap
+- [[../comandos/DirSearch.md|DirSearch]] — FFUF, Linux, Redes
+- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — FFUF, IA en Ciberseguridad, Linux
+- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Redes
+- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, FFUF, Redes
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, IA en Ciberseguridad, Linux
 
-> #hack-the-box #redes
+### 🛠️ Herramientas
+
+- [[comandos/DirSearch|DirSearch]]
+- [[comandos/FFUF|FFUF]]
+- [[comandos/Nmap|Nmap]]
+
+> #dirsearch #ffuf #hack-the-box #ia #linux #nmap #redes

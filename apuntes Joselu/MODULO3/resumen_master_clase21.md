@@ -364,18 +364,19 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase23.md|resumen_master_clase23]] — Metasploitable / DVWA, SMB / Impacket, SSH
-- [[resumen_master_clase39.md|resumen_master_clase39]] — Metasploitable / DVWA, SMB / Impacket, SSH
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Metasploitable / DVWA, SSH, WordPress
-- [[../../apuntes Chema/Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Metasploitable / DVWA, XXE
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Metasploitable / DVWA, SQL Injection
+- [[resumen_master_clase39.md|resumen_master_clase39]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[resumen_master_clase45.md|resumen_master_clase45]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, FFUF, Metasploit
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — IA en Ciberseguridad, Metasploit, Nmap
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
+- [[resumen_master_clase23.md|resumen_master_clase23]] — FFUF, IA en Ciberseguridad, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -397,4 +398,4 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress #xxe
+> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress #xxe

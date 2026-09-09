@@ -432,18 +432,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, Metasploit, SQL Injection
-- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, Metasploit, SQL Injection
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Metasploit, Post-Explotación, SQL Injection
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
-- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Linux, Metasploit
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Linux, Windows
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — IA en Ciberseguridad, Linux, Nmap
+- [[resumen_master_clase41.md|resumen_master_clase41]] — IA en Ciberseguridad, Linux, Nmap
 
 ### 🛠️ Herramientas
 

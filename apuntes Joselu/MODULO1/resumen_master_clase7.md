@@ -148,21 +148,26 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase1.md|resumen_master_clase1]] — Linux, Pivoting / Movilidad Lateral, Windows
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Hydra, Metasploitable / DVWA, Pivoting / Movilidad Lateral
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Metasploitable / DVWA, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hydra, Linux, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, Windows
-- [[../PREWORK/resumen_clase18.md|resumen_clase18]] — Hydra, Linux, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — IA en Ciberseguridad, Linux, Windows
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — IA en Ciberseguridad, Linux, OSINT
+- [[resumen_master_clase1.md|resumen_master_clase1]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, OSINT, Windows
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Linux, OSINT
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 
-> #certificaciones #esteganografia #hack-the-box #hydra #ia #kali #linux #metasploitable #osint #pivoting #redes #windows
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #certificaciones #esteganografia #hack-the-box #hydra #ia #kali #linux #metasploitable #osint #pivoting #redes #sqli #windows

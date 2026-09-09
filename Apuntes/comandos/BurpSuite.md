@@ -104,21 +104,30 @@ engine.run(queue, handle_response)
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[SQLMap.md|SQLMap]] — Burp Suite, Redes
-- [[../05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]] — Burp Suite, Redes
-- [[../../comandos/WPScan.md|WPScan]] — Burp Suite, Redes
-- [[../05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Redes
-- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — Redes
+- [[SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Redes, SQL Injection
+- [[../05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]] — Burp Suite, Path Traversal / LFI, Redes
+- [[../05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Path Traversal / LFI, Redes
+- [[../05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/SQLMap|SQLMap]]
+- [[comandos/WPScan|WPScan]]
 
-> #burpsuite #redes
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+
+> #burpsuite #lfi #redes #sqli #sqlmap #ssrf #wpscan

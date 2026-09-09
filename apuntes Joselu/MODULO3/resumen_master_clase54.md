@@ -324,18 +324,19 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — Pivoting / Movilidad Lateral, SQL Injection, SSTI
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, SQL Injection
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, SQL Injection, SSTI
-- [[../../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Metasploit, SQL Injection, SSTI
-- [[resumen_master_clase47.md|resumen_master_clase47]] — Pivoting / Movilidad Lateral, Post-Explotación, SQL Injection
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase47.md|resumen_master_clase47]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase49.md|resumen_master_clase49]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

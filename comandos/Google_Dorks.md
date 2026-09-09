@@ -113,6 +113,7 @@ site:ejemplo.com intext:"PHP Error"
 - [ ] Ética de uso recordada
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -120,14 +121,15 @@ site:ejemplo.com intext:"PHP Error"
 ### Documentos Relacionados
 
 - [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Google Dorks, OSINT, WordPress
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Google Dorks, OSINT, WordPress
-- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Google Dorks, OSINT, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Google Dorks, OSINT, Redes
-- [[../Apuntes/comandos/WPScan.md|WPScan]] — Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — OSINT, Redes, WordPress
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — OSINT, Redes, WordPress
+- [[WPScan.md|WPScan]] — Redes, WPScan, WordPress
+- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]] — OSINT, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Redes, WPScan, WordPress
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/WPScan|WPScan]]
 
-> #google-dorks #osint #redes #wordpress
+> #google-dorks #osint #redes #wordpress #wpscan

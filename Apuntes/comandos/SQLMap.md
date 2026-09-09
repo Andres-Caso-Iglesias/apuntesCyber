@@ -107,18 +107,19 @@ sqlmap -r request.txt --level=5 --risk=3 --batch
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BurpSuite.md|BurpSuite]] — Burp Suite, Redes
-- [[../../README.md|README]] — Burp Suite, SQL Injection, SQLMap
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Redes, SQL Injection, SQLMap
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Burp Suite, SQL Injection, SQLMap
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Redes, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — Redes, SQL Injection
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQLMap
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, SQL Injection, SQLMap
+- [[BurpSuite.md|BurpSuite]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -129,4 +130,4 @@ sqlmap -r request.txt --level=5 --risk=3 --batch
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #redes #sqli #sqlmap
+> #burpsuite #ia #redes #sqli #sqlmap

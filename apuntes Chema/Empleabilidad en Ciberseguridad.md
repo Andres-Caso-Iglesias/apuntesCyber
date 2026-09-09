@@ -121,18 +121,19 @@ La visibilidad en la comunidad de ciberseguridad es un multiplicador de oportuni
 |Evitar|Agosto (vacaciones) y Diciembre (cierre de año). Menor actividad de RRHH.|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Fuzzing Web.md|Fuzzing Web]] — Linux, Path Traversal / LFI, SQL Injection
-- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Path Traversal / LFI, SQL Injection
-- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Burp Suite, Empleabilidad, VulnHub
-- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Linux, SQL Injection, VulnHub
-- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Path Traversal / LFI, SQL Injection
-- [[../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Linux, Path Traversal / LFI, SQL Injection
+- [[Fuzzing Web.md|Fuzzing Web]] — Empleabilidad, Kali Linux, Linux
+- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Certificaciones, VulnHub, XSS
+- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Kali Linux, Linux, VulnHub
+- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Certificaciones, Kali Linux, Linux
+- [[../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Certificaciones, Kali Linux, Linux
+- [[../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Certificaciones, Kali Linux, Linux
 
 ### 🛠️ Herramientas
 

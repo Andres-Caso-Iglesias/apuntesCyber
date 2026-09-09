@@ -199,17 +199,18 @@ Y sabemos que los metadatos GPS de una imagen pueden llevar, en combinación con
 A partir de la próxima sesión arranca el hacking activo: enumeración de servicios, puertos y las primeras m áquinas vulnerables.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Forense Digital, Linux, WiFi / Hardware
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Linux
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, WiFi / Hardware, Windows
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
-- [[resumen_master_clase8.md|resumen_master_clase8]] — Forense Digital, IA en Ciberseguridad, Linux
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Linux, OSINT, WiFi / Hardware
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, OSINT, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — IA en Ciberseguridad, Linux, Windows
+- [[../../comandos/Linux.md|Linux]] — Linux, OSINT, Redes
+- [[resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, OSINT
 
 > #esteganografia #forense #ia #linux #osint #redes #wifi #windows

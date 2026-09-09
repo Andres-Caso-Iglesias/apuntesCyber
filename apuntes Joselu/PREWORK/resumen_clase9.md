@@ -157,6 +157,7 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración cross selling / lab selling Cross-selling – venta cruzada de servicios complementarios tiber ewe TIBER-EU – marco europeo de pruebas de Red Team para banca y seguros carding Carding – fraude basado en la duplicación y uso ilícito de datos de tarjetas de crédito bank inter / banquinter Bankinter – entidad bancaria española bb vea BBV A – entidad bancaria española ccn CCN-CERT (Centro Criptológico Nacional) – organismo español de ciberseguridad del CNI aiso / iso ISO/IEC 27001 – estándar internacional de seguridad de la información kit digital consulting Kit Digital – programa de ayudas de la UE para la digitalización de pymes pc y dss PCI DSS (Payment Card Industry Data Security Standard) Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -166,8 +167,8 @@ Término en la transcripción Corrección / Aclaración cross selling / lab sell
 - [[../MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
 - [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
 - [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Redes
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, IA en Ciberseguridad, Redes
+- [[resumen_clase1_.md|resumen_clase1_]] — Certificaciones, IA en Ciberseguridad, Redes
 
 > #certificaciones #ia #normativa #redes

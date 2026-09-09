@@ -130,22 +130,24 @@ Valor práctico para el hacker hoy: **bypass de firewall**. Si un servidor tiene
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, Post-Explotación
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Hydra, Post-Explotación
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — IA en Ciberseguridad, Nmap, Windows
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, Nmap, OSINT
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, OSINT
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — IA en Ciberseguridad, Nmap, Windows
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -154,4 +156,4 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #empleabilidad #hydra #ia #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wifi #windows #wireshark
+> #blue-team #command-injection #empleabilidad #hydra #ia #metasploit #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wifi #windows #wireshark

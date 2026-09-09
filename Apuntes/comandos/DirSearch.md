@@ -50,21 +50,24 @@ dirsearch -u http://10.10.10.x -p http://127.0.0.1:8080
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, Redes
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, Redes
-- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — Redes
-- [[BurpSuite.md|BurpSuite]] — Redes
-- [[FFUF.md|FFUF]] — Redes
-- [[Linux.md|Linux]] — Redes
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
+- [[FFUF.md|FFUF]] — FFUF, Feroxbuster, Redes
+- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, Redes
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
+- [[comandos/FFUF|FFUF]]
 
-> #dirsearch #redes
+> #dirsearch #feroxbuster #ffuf #linux #redes

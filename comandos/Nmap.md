@@ -256,22 +256,23 @@ nmap --reason <target>
 - [ ] Evasión de firewall con stealth scan
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Nmap, WiFi / Hardware
-- [[../Apuntes/comandos/Nmap.md|Nmap]] — Nmap, Redes
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, WiFi / Hardware
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, Redes, WiFi / Hardware
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Hydra, Nmap, WiFi / Hardware
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Redes, WiFi / Hardware
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, Redes, WiFi / Hardware
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Post-Explotación, Redes
+- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, WiFi / Hardware
+- [[../Apuntes/comandos/Telnet.md|Telnet]] — Hydra, Nmap, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
 
-> #hydra #nmap #redes #wifi
+> #hydra #nmap #post-explotacion #redes #wifi

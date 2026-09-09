@@ -204,23 +204,25 @@ Servidor web
 - [ ] ¿Sé instalar el certificado de PortSwigger desde http://burpsuite/?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hydra, SQL Injection, SSTI
-- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Post-Explotación, SQL Injection, SSTI
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Hydra, SQL Injection, SSTI
-- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, SQL Injection, SQLMap
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Linux, Metasploit, Nmap
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — IDOR, Metasploit, VulnHub
+- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Linux, Metasploit, Nmap
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Linux, Metasploit, SQLMap
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, SQLMap
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SQLMap|SQLMap]]
@@ -233,4 +235,4 @@ Servidor web
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #command-injection #forense #hack-the-box #hydra #idor #kali #lfi #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #ssti #vulnhub #xss
+> #burpsuite #command-injection #forense #hack-the-box #hydra #idor #kali #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #ssti #vulnhub #xss

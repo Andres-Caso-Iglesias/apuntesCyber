@@ -85,21 +85,24 @@ ssh -p 4444 <user>@127.0.0.1
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Linux.md|Linux]] — Linux, Redes
-- [[Hydra.md|Hydra]] — Linux, Redes, SSH
-- [[../../comandos/Linux.md|Linux]] — Linux, Redes, SSH
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Redes, SSH
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Redes, SSH
+- [[Hydra.md|Hydra]] — Hydra, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Linux, Redes
+- [[Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/SSH|SSH]]
 
-> #linux #pivoting #redes #ssh
+> #escalada-privilegios #hydra #linux #metasploit #pentest #pivoting #redes #ssh #windows

@@ -489,6 +489,7 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 | ⚠  Sobre lo no verificado Las cifras económicas mencionadas en clase (pérdidas de laboratorios, valoraciones bursátiles, el supuesto récord Guinness) no se han incluido como datos porque no ha sido posible verificarlas con fuentes fiables. Los nombres, precios y capacidades de los modelos cambian con rapidez: contrasta siempre con la documentación oficial del proveedor antes de usarlos como referencia. |  |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -497,10 +498,10 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 
 - [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQL Injection
 - [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes, SQL Injection
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — IA en Ciberseguridad, Metodología Pentest, Redes
 - [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Redes, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Redes
+- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, Redes, SQL Injection
+- [[../../comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, Redes, SQL Injection
 
 ### 🎯 Vulnerabilidades Relacionadas
 

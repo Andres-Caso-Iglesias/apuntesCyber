@@ -143,18 +143,19 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 | ℹ  Para la base de conocimiento Concepto/vulnerabilidad nuevo de la sesión: SSRF (Server Side Request Forgery), con variante Blind SSRF pendiente. Patrones mencionados de pasada: IDOR y robo de cookies vía XSS. |  |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Linux, SSRF, WordPress
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, Path Traversal / LFI, SSRF
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Hydra, Path Traversal / LFI, SSRF
-- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, Linux, SSRF
-- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Hydra, Linux, Path Traversal / LFI
-- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — IDOR, Linux, SSRF
+- [[../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Kali Linux, Linux, WordPress
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Kali Linux, Linux, Nmap
+- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Linux, Nmap, WordPress
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Kali Linux, Nmap, WordPress
+- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Linux, Nmap, Redes
 
 ### 🛠️ Herramientas
 

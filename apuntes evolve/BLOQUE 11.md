@@ -212,18 +212,19 @@ El EDR vigila directamente el endpoint, lo que resulta crítico en teletrabajo: 
 Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del sistema (PowerShell, certutil, mshta) reutilizadas con fines maliciosos precisamente para evitar levantar sospechas — el análisis de procesos debe distinguir siempre entre un uso legítimo y un uso anómalo de estas mismas herramientas.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Linux, SMB / Impacket
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, SSH
-- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, Linux, SSH
-- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Linux, Redes, Windows
+- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Linux, SQL Injection, Windows
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, SMB / Impacket, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Redes, Windows
+- [[BLOQUE 8.md|BLOQUE 8]] — Linux, SMB / Impacket, Windows
+- [[../apuntes Joselu/MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — SMB / Impacket, SQL Injection, Windows
 
 ### 🛠️ Herramientas
 
@@ -231,4 +232,8 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 
-> #blue-team #forense #hydra #linux #redes #smb-impacket #ssh #windows #wireshark
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #blue-team #forense #hydra #linux #redes #smb-impacket #sqli #ssh #windows #wireshark

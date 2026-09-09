@@ -304,18 +304,19 @@ nc 10.0.2.15 60000
 - [ ] ¿Recuerdo siempre guardar TODO: usuarios, contraseñas, hashes, rutas?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Feroxbuster, SSH, WordPress
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, SQL Injection
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, SSH, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — File Upload, GoBuster, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — File Upload, GoBuster, SQL Injection
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Post-Explotación
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Linux, Nmap
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — FFUF, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 
@@ -325,6 +326,7 @@ nc 10.0.2.15 60000
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -334,4 +336,4 @@ nc 10.0.2.15 60000
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #kali #linux #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress
+> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #kali #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress

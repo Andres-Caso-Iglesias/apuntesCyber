@@ -203,18 +203,19 @@ Explotación inicial (servicio vulnerable) → Shell regular → Escalada local 
 > No hay una sola técnica universal — la clave es entender el sistema y encontrar las debilidades específicas de cada configuración.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, John / Hashcat, Post-Explotación
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Hydra, John / Hashcat, Post-Explotación
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, SMB / Impacket
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Post-Explotación, SMB / Impacket
-- [[../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Metasploit, Post-Explotación, SMB / Impacket
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, VulnHub, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, VulnHub, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, VulnHub, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, VulnHub, Windows
 
 ### 🛠️ Herramientas
 

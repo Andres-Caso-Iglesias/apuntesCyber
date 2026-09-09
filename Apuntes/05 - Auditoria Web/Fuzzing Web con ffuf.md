@@ -134,25 +134,27 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 - [[comandos/Feroxbuster]] — Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, GoBuster, Hydra
-- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/FFUF.md|FFUF]] — Burp Suite, Feroxbuster, GoBuster
-- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — Burp Suite, Feroxbuster, Hydra
-- [[Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Burp Suite, Hack The Box, Hydra
+- [[../../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — FFUF, Feroxbuster, GoBuster
+- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
 - [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
 
-> #burpsuite #feroxbuster #ffuf #gobuster #hack-the-box #hydra #redes
+> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #hack-the-box #hydra #redes

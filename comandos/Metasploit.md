@@ -421,18 +421,19 @@ run post/windows/manage/persistence_exe
 - [ ] Post-explotación con módulos post/
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, SSH
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metasploit, Post-Explotación
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Post-Explotación, SSH
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Metasploit, Nmap
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, Windows
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
@@ -440,4 +441,4 @@ run post/windows/manage/persistence_exe
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #linux #metasploit #nmap #pentest #pivoting #post-explotacion #redes #ssh #windows #wireshark
+> #blue-team #linux #metasploit #nmap #pentest #pivoting #post-explotacion #redes #ssh #windows #wireshark

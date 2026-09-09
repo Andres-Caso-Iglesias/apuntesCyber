@@ -399,23 +399,25 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Post-Explotación
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Netcat / Reverse Shells, Post-Explotación
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — John / Hashcat, Netcat / Reverse Shells, Post-Explotación
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, John / Hashcat, Post-Explotación
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Linux, Nmap
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Metasploit, Nmap
+- [[Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Linux, Nmap
+- [[../apuntes Chema/Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Linux, Nmap
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — John / Hashcat, Linux, Nmap
 
 ### 🛠️ Herramientas
 
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -423,5 +425,6 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #command-injection #escalada-privilegios #gobuster #john #kali #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh
+> #command-injection #escalada-privilegios #gobuster #john #kali #lfi #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh

@@ -166,18 +166,19 @@ El sector afronta una escasez global de profesionales.
 | **Active Directory** | CRTP (Altered Security) | Retos avanzados de ataques a AD |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Normativa / GRC, Post-Explotación
-- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SQL Injection
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Normativa / GRC, Post-Explotación, SQL Injection
-- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Burp Suite, Empleabilidad, SQL Injection
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, Empleabilidad, Normativa / GRC
-- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Post-Explotación, SQL Injection, WiFi / Hardware
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Certificaciones, Normativa / GRC, Windows
+- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Certificaciones, Empleabilidad, SQL Injection
+- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, SQL Injection, Windows
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Empleabilidad, Normativa / GRC
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Certificaciones, WiFi / Hardware, Windows
+- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, WiFi / Hardware, Windows
 
 ### 🛠️ Herramientas
 

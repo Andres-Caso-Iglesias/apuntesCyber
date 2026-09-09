@@ -303,18 +303,19 @@ paros # Alternativa ligera
 - [ ] Control de acceso testeado
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Hydra, WPScan, WordPress
-- [[../Apuntes/comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Hydra, WPScan, WordPress
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, WPScan, WordPress
-- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Hydra, SSH, WPScan
+- [[WPScan.md|WPScan]] — FFUF, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Redes, WordPress
+- [[../Apuntes/comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — FFUF, Redes, WordPress
+- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Burp Suite, Redes, WordPress
 
 ### 🛠️ Herramientas
 

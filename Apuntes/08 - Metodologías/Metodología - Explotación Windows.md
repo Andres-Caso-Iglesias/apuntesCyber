@@ -261,22 +261,28 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 - [ ] Movimiento lateral realizado
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Post-Explotación, Windows
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Metasploit, Post-Explotación, SMB / Impacket
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Post-Explotación, SMB / Impacket
-- [[../../comandos/SQLMap.md|SQLMap]] — Linux, Metasploit, Post-Explotación
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Linux, Windows
-- [[../comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Metasploit, Post-Explotación
+- [[../../comandos/SQLMap.md|SQLMap]] — Linux, Metasploit, Windows
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, Windows
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Linux, Metasploit, Windows
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, SQLMap
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/SQLMap|SQLMap]]
 
-> #escalada-privilegios #linux #metasploit #post-explotacion #redes #smb-impacket #windows
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #escalada-privilegios #linux #metasploit #post-explotacion #redes #smb-impacket #sqli #sqlmap #windows

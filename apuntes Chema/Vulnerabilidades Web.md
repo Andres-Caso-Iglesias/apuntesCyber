@@ -291,18 +291,19 @@ Cambios y novedades tras esta sesión (para copiar a la base de conocimiento del
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, SQL Injection, SQLMap
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
-- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, SQL Injection, SQLMap
-- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — SQL Injection, SQLMap, XXE
-- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — SQL Injection, SQLMap, XXE
-- [[Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, SQL Injection, SQLMap
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Linux, Nmap, VulnHub
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Linux, Nmap, Windows
+- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Linux, VulnHub, Windows
+- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
+- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, SQLMap
+- [[Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Linux, Nmap, VulnHub
 
 ### 🛠️ Herramientas
 

@@ -199,18 +199,19 @@ dirsearch -u http://target --delay 2 --random-agents --quiet
 - [ ] Proxy configurado si es necesario
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
 - [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[FFUF.md|FFUF]] — DirSearch, Feroxbuster, GoBuster
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, GoBuster, Redes
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
+- [[FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 

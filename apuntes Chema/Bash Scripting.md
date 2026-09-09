@@ -71,18 +71,19 @@ Un script es un fichero de texto con comandos Bash que se ejecutan secuencialmen
 - [[comandos/Linux]] — Comandos de referencia
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Windows
-- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Linux, Windows
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Nmap, Windows
+- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Linux, Redes, Windows
+- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

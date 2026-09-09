@@ -221,18 +221,19 @@ sqlmap -u "URL" --os-pwn
 - [ ] Intentar acceso al sistema
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Linux, SQL Injection, SQLMap
-- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, SQL Injection, Windows
-- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, SQLMap
-- [[../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, SQL Injection, SQLMap
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Linux, Metasploit, Post-Explotación
-- [[../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Metasploit, SQL Injection, SQLMap
+- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Linux, Metasploit, Windows
+- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, Windows
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
+- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 
@@ -243,4 +244,4 @@ sqlmap -u "URL" --os-pwn
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #ia #linux #metasploit #post-explotacion #redes #sqli #sqlmap #windows
+> #ia #linux #metasploit #pentest #post-explotacion #redes #sqli #sqlmap #windows

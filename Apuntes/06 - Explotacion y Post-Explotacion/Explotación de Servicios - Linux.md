@@ -205,23 +205,25 @@ select * from users;
 - [[comandos/John_Hashcat]] — Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Hydra, John / Hashcat, Post-Explotación
-- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Hydra, John / Hashcat, Post-Explotación
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
+- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Windows
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, VulnHub, Windows
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, VulnHub, Windows
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, VulnHub, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, VulnHub, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
@@ -229,4 +231,4 @@ select * from users;
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #hack-the-box #hydra #john #linux #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows
+> #command-injection #escalada-privilegios #hack-the-box #hydra #john #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows

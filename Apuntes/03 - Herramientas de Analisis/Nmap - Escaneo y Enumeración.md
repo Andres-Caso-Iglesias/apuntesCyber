@@ -141,18 +141,19 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 - [[comandos/Nmap]] — Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, WiFi / Hardware, Wireshark
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, WiFi / Hardware, Windows
-- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Blue Team / SOC, Linux, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Blue Team / SOC, Linux, Windows
-- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Linux, Windows
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, Nmap, OSINT
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Linux, Nmap, OSINT
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Linux, Nmap, OSINT
+- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, OSINT
 
 ### 🛠️ Herramientas
 

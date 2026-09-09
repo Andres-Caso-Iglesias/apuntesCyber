@@ -134,27 +134,29 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración azul Azure – plataforma cloud de Microsoft blockchain Blockchain – cadena de bloques; tecnología base de las criptomonedas on premise / on-premise On-premise – infraestructura tecnológica alojada físicamente en las instalaciones propias Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, John / Hashcat, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Hydra, John / Hashcat, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[resumen_clase6.md|resumen_clase6]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Post-Explotación
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Windows
+- [[resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metasploit, Windows
+- [[../../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #hydra #ia #john #linux #netcat #pentest #post-explotacion #redes #reverse-shell #windows
+> #command-injection #escalada-privilegios #hydra #ia #john #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows

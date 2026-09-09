@@ -307,18 +307,19 @@ id
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Academy-THL.md|Academy-THL]] — File Upload, Hydra, Metasploit
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploitable / DVWA, SSH, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Hydra, Metasploit, Post-Explotación
-- [[../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../write-ups/Academy-THL.md|Academy-THL]] — Metasploit, Nmap, WordPress
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploit, Nmap, WordPress
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Linux, Metasploit, Nmap
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — Linux, Metasploit, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Metasploit, Nmap
+- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Linux, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 

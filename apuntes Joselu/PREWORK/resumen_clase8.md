@@ -163,18 +163,19 @@ SHA-256) ids y vps IDS/IPS (Intrusion Detection/Prevention Systems) – sistemas
 Término en la transcripción Corrección / Aclaración datos de tarjetas n map Nmap – herramienta de escaneo de puertos y servicios Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Forense Digital, Normativa / GRC, SQL Injection
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Forense Digital, Wireshark
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
-- [[resumen_clase3.md|resumen_clase3]] — Blue Team / SOC, Forense Digital, Normativa / GRC
-- [[../../README.md|README]] — Forense Digital, Normativa / GRC, SQL Injection
-- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Blue Team / SOC, Forense Digital, SQL Injection
+- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — IA en Ciberseguridad, Normativa / GRC, SQL Injection
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, IA en Ciberseguridad, Redes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Nmap, Normativa / GRC
+- [[../../README.md|README]] — Nmap, Normativa / GRC, SQL Injection
+- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — IA en Ciberseguridad, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 

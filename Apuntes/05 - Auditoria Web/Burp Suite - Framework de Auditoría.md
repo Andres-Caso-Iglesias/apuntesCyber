@@ -132,18 +132,19 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../../comandos/BurpSuite.md|BurpSuite]] — Hydra, WPScan, WordPress
-- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Hack The Box, Hydra
-- [[../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, Hack The Box, Hydra
-- [[../08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, VulnHub, WPScan
+- [[../../comandos/WPScan.md|WPScan]] — FFUF, Redes, WordPress
+- [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
+- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, FFUF, Redes
+- [[../comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, FFUF, Redes
+- [[../08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Redes, VulnHub, WordPress
 
 ### 🛠️ Herramientas
 

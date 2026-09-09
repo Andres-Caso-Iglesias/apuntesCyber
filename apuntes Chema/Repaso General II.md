@@ -368,18 +368,19 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 | Resumen final para examen/laboratorio No memorices una “receta de Fruit”. Memoriza el proceso: descubrir → enumerar → formular hipótesis → validar → aprovechar el hallazgo para obtener nueva información → repetir. Las herramientas cambian; la metodología es lo reutilizable. |  |  |  |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Hydra, Path Traversal / LFI, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Hydra, Path Traversal / LFI, SQL Injection
-- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Hydra, SQL Injection, SSTI
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hydra, SQL Injection, SSTI
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Hydra, Path Traversal / LFI, SQL Injection
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Linux, Nmap, SQL Injection
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Linux, Nmap, Windows
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Linux, Nmap, Windows
+- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Linux, Nmap, SQL Injection
 
 ### 🛠️ Herramientas
 

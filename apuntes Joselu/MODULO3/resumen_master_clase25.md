@@ -334,18 +334,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, Metasploitable / DVWA, SSH
-- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — John / Hashcat, Metasploitable / DVWA, SQL Injection
-- [[resumen_master_clase21.md|resumen_master_clase21]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — FFUF, Metasploit, WordPress
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Linux, Metasploit, SSH
+- [[resumen_master_clase23.md|resumen_master_clase23]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Linux, Nmap, SSH
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — FFUF, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 
@@ -366,4 +367,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #ia #john #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #windows #xss
+> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hack-the-box #hydra #ia #john #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #windows #wordpress #xss

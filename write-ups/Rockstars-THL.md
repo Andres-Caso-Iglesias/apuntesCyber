@@ -464,18 +464,19 @@ cat /root/root.txt
 *Write-up creado el 13 de Julio de 2026 — Explotación real verificada*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Hydra, Post-Explotación
-- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, Post-Explotación
-- [[Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, Path Traversal / LFI
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, John / Hashcat, Post-Explotación
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
+- [[../informes/Informe_Castor.md|Informe_Castor]] — John / Hashcat, Linux, Nmap
+- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — John / Hashcat, Linux, Nmap
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
+- [[Castor-THL.md|Castor-THL]] — John / Hashcat, Linux, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — John / Hashcat, Linux, Nmap
 
 ### 🛠️ Herramientas
 

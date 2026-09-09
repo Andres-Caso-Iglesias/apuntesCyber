@@ -104,18 +104,19 @@ Capa 7 — Aplicación La capa de aplicación es donde viven los protocolos que 
 Recapitulación integrada Al cerrar esta sesión sabemos organizar mentalmente cualquier comunicación de red en siete capas, y sabemos que cada capa tiene sus propias herramientas, sus propios ataques y sus propias defensas. En capa 1 controlamos el cable; en capa 2 manipulamos MACs y envenenamos ARP; en capa 3 trabajamos con IPs y ruteamos; en capa 4 identificamos puertos y servicios; en capas 5 y 6 gestionamos sesiones y cifrado; en capa 7 ata camos aplicaciones. La semana siguiente se empieza a aplicar todo esto en entornos reales: enumeración de servicios con Nmap, análisis de tráfico con Wireshark y las primeras máquinas vulnerables.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, WiFi / Hardware
-- [[resumen_master_clase15.md|resumen_master_clase15]] — Burp Suite, SQL Injection, SSH
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — IA en Ciberseguridad, SQL Injection, Wireshark
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Burp Suite, SQL Injection, SSH
-- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]] — CSRF, SQL Injection, SSH
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, SQL Injection, WiFi / Hardware
+- [[resumen_master_clase15.md|resumen_master_clase15]] — IA en Ciberseguridad, Nmap, SQL Injection
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, SQL Injection, WiFi / Hardware
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — IA en Ciberseguridad, Nmap, WiFi / Hardware
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — IA en Ciberseguridad, Nmap, SQL Injection
 
 ### 🛠️ Herramientas
 

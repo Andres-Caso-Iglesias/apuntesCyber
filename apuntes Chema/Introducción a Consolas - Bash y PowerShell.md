@@ -61,17 +61,18 @@ PowerShell es la shell de Windows, también disponible en Linux/macOS. En pentes
 |# APT — gestor de paquetes de Debian/Kali<br><br>sudo apt update                      # actualizar lista de paquetes<br><br>sudo apt upgrade -y                  # actualizar paquetes instalados<br><br>sudo apt install nombre-paquete      # instalar herramienta<br><br>sudo apt remove nombre-paquete       # desinstalar<br><br>sudo apt search herramienta          # buscar paquete<br><br>apt-cache show nombre-paquete        # info del paquete<br><br># También disponible en Kali:<br><br>pip install herramienta              # paquetes Python<br><br>gem install herramienta              # paquetes Ruby<br><br>go install ...                       # paquetes Go|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Post-Explotación, Windows
 - [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../comandos/Windows.md|Windows]] — Linux, Redes, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Linux, Post-Explotación, Windows
-- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Kali Linux, Linux, Windows
-- [[../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Kali Linux, Linux, Windows
-- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]] — Linux, Post-Explotación, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
+- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
 
 > #escalada-privilegios #kali #linux #pentest #post-explotacion #redes #windows

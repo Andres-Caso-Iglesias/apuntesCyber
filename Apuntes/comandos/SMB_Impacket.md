@@ -103,6 +103,7 @@ crackmapexec winrm <host> -u <user> -p <pass>
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -110,14 +111,14 @@ crackmapexec winrm <host> -u <user> -p <pass>
 ### Documentos Relacionados
 
 - [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Redes, SMB / Impacket, Windows
-- [[Windows.md|Windows]] — Redes, Windows
 - [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Windows
-- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Redes, SMB / Impacket, Windows
+- [[Windows.md|Windows]] — Metodología Pentest, Redes, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Metodología Pentest, Redes, Windows
+- [[Tmux.md|Tmux]] — Metodología Pentest, Redes, Windows
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Metodología Pentest, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #redes #smb-impacket #windows
+> #pentest #redes #smb-impacket #windows

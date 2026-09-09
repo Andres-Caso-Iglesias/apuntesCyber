@@ -222,18 +222,19 @@ credenciales filtradas → acceso SSH al servidor
 > Practicar esta cadena completa — desde la enumeración inicial hasta la explotación final — es el objetivo de los laboratorios integrales de web de este bloque.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, SQL Injection, SSRF
+- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Redes, SQL Injection, Windows
 - [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — SQL Injection, SQLMap, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — SQL Injection, SSRF, XXE
-- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — SQL Injection, SQLMap, SSRF
-- [[../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — SQL Injection, SQLMap, XXE
-- [[../transcripciones/Junio/04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3.md|04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3]] — File Upload, Path Traversal / LFI, SQL Injection
+- [[../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Redes, SQL Injection, SQLMap
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Redes, SQL Injection, SQLMap
+- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — SQL Injection, SQLMap, Windows
+- [[../Apuntes/05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -248,4 +249,4 @@ credenciales filtradas → acceso SSH al servidor
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #file-upload #lfi #pentest #redes #sqli #sqlmap #ssrf #windows #xss #xxe
+> #burpsuite #file-upload #hack-the-box #lfi #pentest #redes #sqli #sqlmap #ssrf #windows #xss #xxe

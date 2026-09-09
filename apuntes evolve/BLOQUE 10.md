@@ -137,17 +137,22 @@ sha256sum ./exhibits/malware.exe
 | Confiar solo en pslist sin comparar con psscan | Procesos ocultos quedan fuera del análisis |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Redes, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Redes, Windows
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
-- [[../comandos/Windows.md|Windows]] — Linux, Redes, Windows
-- [[../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Redes, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Tmux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Tmux, Windows
+- [[../comandos/Windows.md|Windows]] — Linux, Tmux, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
 
-> #forense #linux #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Tmux|Tmux]]
+
+> #forense #linux #pentest #redes #tmux #windows

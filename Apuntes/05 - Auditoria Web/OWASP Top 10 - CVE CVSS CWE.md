@@ -139,23 +139,25 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [ ] ¿Relaciono Log4Shell con su CWE y categoría OWASP?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Post-Explotación, SQL Injection, SSRF
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Post-Explotación, SQL Injection, SQLMap
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Hydra, Post-Explotación, SQL Injection
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IDOR, Metasploit, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — IDOR, Metasploit, SQLMap
+- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — IDOR, Netcat / Reverse Shells, Normativa / GRC
+- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — IDOR, Metasploit, SQLMap
+- [[SQL Injection.md|SQL Injection]] — Metasploit, Netcat / Reverse Shells, SQLMap
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
@@ -166,5 +168,6 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #burpsuite #command-injection #hydra #idor #lfi #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss
+> #blue-team #burpsuite #command-injection #hydra #idor #lfi #metasploit #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss #xxe

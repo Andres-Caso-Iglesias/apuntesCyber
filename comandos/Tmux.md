@@ -174,22 +174,24 @@ bind -n M-Down select-pane -D
 - [ ] Configuración personalizada en `.tmux.conf`
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Telnet.md|Telnet]] — Hydra, Post-Explotación, Telnet
+- [[Telnet.md|Telnet]] — Linux, Post-Explotación, Tmux
 - [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Linux, Tmux
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, SSH
-- [[Metasploit.md|Metasploit]] — Linux, Post-Explotación, SSH
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Path Traversal / LFI, Post-Explotación
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Telnet
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Redes
+- [[../Apuntes/comandos/SSH.md|SSH]] — Hydra, Linux, Metasploit
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Linux, Metasploit, Redes
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
 - [[comandos/Tmux|Tmux]]
@@ -198,4 +200,4 @@ bind -n M-Down select-pane -D
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #hydra #lfi #linux #pentest #post-explotacion #redes #ssh #telnet #tmux #wireshark
+> #escalada-privilegios #hydra #lfi #linux #metasploit #pentest #post-explotacion #redes #ssh #telnet #tmux #wireshark

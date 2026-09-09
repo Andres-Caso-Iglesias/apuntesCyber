@@ -203,18 +203,19 @@ Patrón común a todas: enumerar con Nmap → identificar el servicio → invest
 |**💡 RUTA**|Primero las bases sin IA. Una vez resuelta una máquina manualmente, repítela automatizándola con un script propio. Repasa y repite las máquinas: son tu laboratorio.|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
-- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Linux, SMB / Impacket
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Pivoting / Movilidad Lateral, SSH
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Linux, Metasploitable / DVWA, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Linux, Nmap, OSINT
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Linux, Nmap, OSINT
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Linux, Nmap, Windows
+- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, OSINT
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Nmap, OSINT
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Linux, OSINT, Windows
 
 ### 🛠️ Herramientas
 

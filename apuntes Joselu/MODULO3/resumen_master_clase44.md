@@ -340,18 +340,19 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, SQL Injection, XXE
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — GoBuster, SQL Injection, XXE
-- [[resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, SQL Injection, XXE
-- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, SQL Injection, XXE
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, SQL Injection, XXE
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — GoBuster, SQL Injection, XXE
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — GoBuster, Linux, Nmap
+- [[resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, IA en Ciberseguridad, Linux
+- [[resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — GoBuster, IA en Ciberseguridad, Linux
 
 ### 🛠️ Herramientas
 

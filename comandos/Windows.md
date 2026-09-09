@@ -302,17 +302,23 @@ Resolve-DnsName -Name google.com
 - [ ] PowerShell: Cmdlets `Verb-Noun` entendidos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Metodología Pentest, Redes, Windows
+- [[John_Hashcat.md|John_Hashcat]] — Linux, Tmux, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Tmux, Windows
+- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Tmux, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
 
-> #linux #pentest #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Tmux|Tmux]]
+
+> #hydra #linux #pentest #redes #tmux #windows

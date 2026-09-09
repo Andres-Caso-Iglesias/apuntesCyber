@@ -152,23 +152,25 @@ QUIT
 - [ ] Diagnóstico: refused vs timeout entendido
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Tmux.md|Tmux]] — Hydra, Post-Explotación, Telnet
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Telnet
-- [[../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Hydra, Linux, SSH
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, Linux, Post-Explotación
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, Redes
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Post-Explotación, Redes, Wireshark
+- [[Tmux.md|Tmux]] — Linux, Post-Explotación, Tmux
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Redes, Tmux
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Post-Explotación, Redes
+- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Redes
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Post-Explotación, Redes
+- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Telnet|Telnet]]
+- [[comandos/Tmux|Tmux]]
 
-> #hydra #linux #post-explotacion #redes #ssh #telnet #wireshark
+> #hydra #linux #post-explotacion #redes #ssh #telnet #tmux #wireshark

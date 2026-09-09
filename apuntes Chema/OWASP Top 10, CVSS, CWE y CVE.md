@@ -177,22 +177,24 @@ Cuatro marcos forman el lenguaje común de la seguridad de aplicaciones y encaja
 - [[comandos/BurpSuite]] — Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Post-Explotación, SQL Injection, SSRF
-- [[../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Post-Explotación, SQL Injection, XXE
-- [[../Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]] — Post-Explotación, SQL Injection, XXE
-- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Post-Explotación, SQL Injection, XXE
-- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Post-Explotación, SQL Injection, XXE
-- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Post-Explotación, SQL Injection, XXE
+- [[../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Metasploit, Netcat / Reverse Shells, SQL Injection
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 
@@ -202,7 +204,8 @@ Cuatro marcos forman el lenguaje común de la seguridad de aplicaciones y encaja
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #burpsuite #command-injection #escalada-privilegios #idor #lfi #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssrf #xss #xxe
+> #blue-team #burpsuite #command-injection #escalada-privilegios #idor #lfi #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xss #xxe

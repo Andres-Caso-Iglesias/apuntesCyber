@@ -64,18 +64,19 @@
 - [ ] Wiki-links funcionando
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Metasploitable / DVWA, SQL Injection
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — GoBuster, Hydra, SQL Injection
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Hydra, Metasploitable / DVWA
-- [[../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Hydra, Linux
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — GoBuster, Metasploitable / DVWA, SQL Injection
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, GoBuster, Linux
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — FFUF, GoBuster, Linux
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — FFUF, Linux, Windows
+- [[../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — FFUF, Feroxbuster, Linux
+- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — GoBuster, Linux, Windows
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, GoBuster, Linux
 
 ### 🛠️ Herramientas
 

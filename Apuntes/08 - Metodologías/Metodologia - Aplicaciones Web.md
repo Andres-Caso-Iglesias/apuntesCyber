@@ -123,18 +123,19 @@
 - PayloadsAllTheThings
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — GoBuster, SQL Injection, XXE
-- [[../../apuntes Chema/Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — File Upload, SQL Injection, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, SQL Injection, XXE
-- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — File Upload, SQL Injection, XXE
-- [[../05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — File Upload, GoBuster, SQL Injection
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — SSH, SSRF, SSTI
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — Metasploit, Post-Explotación, SSRF
+- [[../../apuntes Chema/Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Command Injection / RCE, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — FFUF, GoBuster, Metasploit
+- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — FFUF, Feroxbuster, Metasploit
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — FFUF, Feroxbuster, Metasploit
+- [[../05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, SQLMap
 
 ### 🛠️ Herramientas
 
@@ -144,6 +145,7 @@
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]
@@ -158,4 +160,4 @@
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #idor #lfi #metasploitable #netcat #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #sqlmap #ssh #ssrf #ssti #xss #xxe
+> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #idor #lfi #metasploit #metasploitable #netcat #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #sqlmap #ssh #ssrf #ssti #xss #xxe

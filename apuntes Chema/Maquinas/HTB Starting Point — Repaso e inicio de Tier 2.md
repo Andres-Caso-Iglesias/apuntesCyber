@@ -320,18 +320,19 @@ Cambios respecto a sesiones anteriores tras esta clase:
 •     **Pendiente para el lunes:** subida de archivos + webshell sobre la máquina con IDOR (continuación del Tier 2).
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — John / Hashcat, SQLMap, SSH
-- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, SQL Injection, SQLMap
-- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — John / Hashcat, SQLMap, SSH
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, SQL Injection, SQLMap
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — John / Hashcat, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — John / Hashcat, Metasploitable / DVWA, SQL Injection
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — IDOR, Metasploit, Nmap
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, Linux, Nmap
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — FFUF, IDOR, Metasploit
+- [[Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — IDOR, Metasploit, Nmap
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Linux, Metasploit, Nmap
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Linux, Nmap, SSH
 
 ### 🛠️ Herramientas
 
@@ -350,4 +351,4 @@ Cambios respecto a sesiones anteriores tras esta clase:
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #escalada-privilegios #feroxbuster #ffuf #file-upload #idor #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows
+> #burpsuite #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #idor #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows

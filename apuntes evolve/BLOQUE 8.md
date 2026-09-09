@@ -172,21 +172,23 @@ impacket-secretsdump dominio.local/administrador:contrasena@<IP_DC>
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Metodología Pentest, Redes, SMB / Impacket
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, SMB / Impacket, Windows
+- [[../comandos/Windows.md|Windows]] — Linux, Redes, Windows
 - [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
-- [[../comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Windows
-- [[../Apuntes/comandos/Windows.md|Windows]] — Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Metodología Pentest, Redes, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Metodología Pentest, Redes, Windows
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 
-> #pentest #redes #smb-impacket #windows
+> #hydra #linux #pentest #redes #smb-impacket #windows

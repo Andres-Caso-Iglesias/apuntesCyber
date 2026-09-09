@@ -426,22 +426,24 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — SQL Injection, Telnet, XXE
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Netcat / Reverse Shells, Reverse Shells, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Post-Explotación, SQL Injection, XXE
-- [[Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Post-Explotación, SQL Injection, Telnet
-- [[../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Post-Explotación, SQL Injection, XXE
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
+- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Linux, Nmap, Windows
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Nmap, Windows
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Linux, Nmap, Windows
+- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
+- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -453,4 +455,4 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #escalada-privilegios #hack-the-box #idor #kali #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #windows #xxe
+> #burpsuite #command-injection #escalada-privilegios #hack-the-box #idor #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #windows #xxe

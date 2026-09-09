@@ -322,18 +322,19 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — SMB / Impacket, SSH, WordPress
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Hydra, Metasploitable / DVWA
-- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
-- [[resumen_master_clase39.md|resumen_master_clase39]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploitable / DVWA
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[resumen_master_clase19.md|resumen_master_clase19]] — IA en Ciberseguridad, Linux, OSINT
+- [[resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

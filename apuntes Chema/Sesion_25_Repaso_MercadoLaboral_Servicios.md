@@ -208,18 +208,19 @@ Bloque copiable a la base de conocimiento del proyecto:
 **Fin de apuntes — Sesión 25**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Empleabilidad, Hydra, Metasploitable / DVWA
-- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, SMB / Impacket
-- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, Metasploitable / DVWA, SMB / Impacket
-- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploitable / DVWA, SMB / Impacket
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, SMB / Impacket
-- [[../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Metasploit, Post-Explotación, SMB / Impacket
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — IA en Ciberseguridad, Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — IA en Ciberseguridad, Linux, Nmap
+- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, Nmap, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — IA en Ciberseguridad, Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — IA en Ciberseguridad, Linux, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 

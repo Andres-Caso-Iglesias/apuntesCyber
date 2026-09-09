@@ -103,17 +103,22 @@ nltest /dclist:                  # Controladores de dominio
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Windows
-- [[SMB_Impacket.md|SMB_Impacket]] — Redes, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Windows
-- [[Tmux.md|Tmux]] — Redes, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Redes, Windows
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Redes, Windows
+- [[Tmux.md|Tmux]] — Metodología Pentest, Redes, Tmux
+- [[Linux.md|Linux]] — Metodología Pentest, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Metodología Pentest, Redes, Tmux
+- [[../../comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
+- [[SMB_Impacket.md|SMB_Impacket]] — Metodología Pentest, Redes, Windows
 
-> #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Tmux|Tmux]]
+
+> #pentest #redes #tmux #windows

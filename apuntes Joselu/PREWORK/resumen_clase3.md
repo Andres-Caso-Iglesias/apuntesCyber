@@ -134,18 +134,19 @@ El objetivo de Wolf Academy es que los alumnos puedan ingresar directamente en e
 Conceptos y términos clave corregidos Término en la transcripción Corrección / Aclaración ejercicios tiber.eu TIBER-EU – marco europeo de pruebas de ciberresiliencia para banca y seguros virginacia digital Vigilancia digital – monitorización de amenazas e imagen de marca en la red equipo de defir DeFIR (Digital Forensics and Incident Response) – equipo de forense y respuesta ante incidentes hackinético / haka en ético Hacker ético – profesional de seguridad ofensiva autorizado bruce aún BloodHound – herramienta de análisis y mapeo del Active Directory nesus / open bus Nessus y OpenV AS – escáneres de vulnerabilidades acu netics Acunetix – escáner de vulnerabilidades web eje o tapete eJPT v2 (eLearnSecurity Junior Penetration Tester) – certificación de entrada en pentesting sniper Referencia al uso de Responder para captura de hashes NTLM Mac Fluid MAC Flooding – técnica de saturación de tablas CAM en switches LANIS 2 NIS 2 – Directiva europea de seguridad de redes e información wonder eyes Probablemente OneDrive u otra herramienta de compartición de archivos “freezhunting” Threat Hunting – búsqueda proactiva de amenazas en la red PCI DSS PCI DSS (Payment Card Industry Data Security Standard) – norma de seguridad para datos de tarjetas de pago Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase7.md|resumen_clase7]] — Forense Digital, Normativa / GRC, Post-Explotación
-- [[resumen_clase11.md|resumen_clase11]] — Forense Digital, Normativa / GRC, Windows
-- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Forense Digital, Normativa / GRC, Post-Explotación
-- [[resumen_clase14.md|resumen_clase14]] — Blue Team / SOC, Post-Explotación, Windows
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Normativa / GRC, Post-Explotación, Windows
+- [[resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
+- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Certificaciones, Normativa / GRC, Windows
+- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, Windows
+- [[resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
 
 ### 🛠️ Herramientas
 

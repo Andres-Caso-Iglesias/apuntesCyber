@@ -393,23 +393,25 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Burp Suite, Hack The Box, SSH
-- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Post-Explotación, SQL Injection, XXE
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Burp Suite, Metodología Pentest, SSH
-- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Burp Suite, Hack The Box, SSH
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Burp Suite, Hack The Box, SSH
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — RFI, SQL Injection, XXE
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Metasploit, Nmap
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — IA en Ciberseguridad, Metasploit, Nmap
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/DirSearch|DirSearch]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -422,4 +424,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #wifi #windows #xss #xxe
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #wifi #windows #xss #xxe

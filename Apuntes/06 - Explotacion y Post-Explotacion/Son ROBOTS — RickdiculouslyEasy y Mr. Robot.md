@@ -352,18 +352,19 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — SSH, VulnHub, WordPress
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Esteganografía, Metasploit, VulnHub
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, VulnHub
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Nmap, Windows
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, Nmap, VulnHub
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
@@ -371,6 +372,7 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -379,4 +381,4 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress

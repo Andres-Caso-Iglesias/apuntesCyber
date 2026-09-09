@@ -2429,18 +2429,19 @@ Término en la transcripción Corrección / Aclaración KDBX .kdbx “ formato d
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]] — John / Hashcat, SMB / Impacket, SQLMap
-- [[resumen_clase17.md|resumen_clase17]] — John / Hashcat, SMB / Impacket, SQLMap
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Burp Suite, WordPress
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, SSH, SSRF
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — SQLMap, SSRF, WordPress
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, SSH, WordPress
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[resumen_clase17.md|resumen_clase17]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Certificaciones, Metasploit
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Blue Team / SOC, Metasploit, SSRF
 
 ### 🛠️ Herramientas
 

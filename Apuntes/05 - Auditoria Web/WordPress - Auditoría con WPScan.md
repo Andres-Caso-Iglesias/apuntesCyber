@@ -146,24 +146,26 @@ stty raw -echo; fg
 - [[comandos/WPScan]] "” Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — File Upload, Metasploitable / DVWA, SQL Injection
-- [[Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — File Upload, Hydra, SQL Injection
-- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — File Upload, Hydra, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — File Upload, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — File Upload, Hydra, SQL Injection
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — FFUF, Linux, Metasploit
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Linux, Metasploit
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — FFUF, Linux, Metasploit
+- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — FFUF, Linux, Metasploit
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
@@ -173,4 +175,4 @@ stty raw -echo; fg
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #command-injection #ffuf #file-upload #hydra #metasploitable #netcat #pentest #post-explotacion #redes #reverse-shell #sqli #wordpress #wpscan #xss
+> #burpsuite #command-injection #ffuf #file-upload #hydra #linux #metasploit #metasploitable #netcat #pentest #post-explotacion #redes #reverse-shell #sqli #wordpress #wpscan #xss

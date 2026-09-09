@@ -174,18 +174,19 @@ El cierre de la sesión deriva en un debate espontáneo sobre el uso de la IA en
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../PREWORK/resumen_clase1_.md|resumen_clase1_]] — Normativa / GRC, Pivoting / Movilidad Lateral, VulnHub
-- [[resumen_master_clase7.md|resumen_master_clase7]] — Linux, Pivoting / Movilidad Lateral, Windows
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — IA en Ciberseguridad, Linux, OSINT
+- [[../PREWORK/resumen_clase1_.md|resumen_clase1_]] — IA en Ciberseguridad, VulnHub, Windows
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, OSINT, Windows
+- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
+- [[resumen_master_clase7.md|resumen_master_clase7]] — IA en Ciberseguridad, Linux, OSINT
+- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
 
 ### 🛠️ Herramientas
 

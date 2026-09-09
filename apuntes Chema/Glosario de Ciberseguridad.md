@@ -240,18 +240,19 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 | ✓  Documento vivo Este glosario crece con cada sesión. Cuando un apunte introduzca un término nuevo, se añade también aquí para mantener una referencia única del proyecto. |  |  |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, SSRF, SSTI
-- [[../Apuntes/00 - Mapa de Contenidos/MOC - Ciberseguridad.md|MOC - Ciberseguridad]] — SSH, SSRF, SSTI
-- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — Burp Suite, SSH, SSRF
-- [[PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — Burp Suite, Metodología Pentest, SSH
-- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Blue Team / SOC, Burp Suite, SSH
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — SSH, SSRF, SSTI
+- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Certificaciones, Metasploit, SSRF
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
 
 ### 🛠️ Herramientas
 

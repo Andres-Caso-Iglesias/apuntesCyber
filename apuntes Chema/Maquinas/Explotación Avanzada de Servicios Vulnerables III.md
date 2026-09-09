@@ -455,18 +455,19 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 •       www-data. Siguiente paso: buscar escalada de privilegios con sudo -l, ficheros SUID, credenciales expuestas.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Hydra, Metasploit, Metasploitable / DVWA
-- [[../Auditoria web.md|Auditoria web]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — FFUF, Metasploit, WordPress
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Metasploit, SSH
+- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Linux, Metasploit
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Feroxbuster, Linux, Metasploit
+- [[../Auditoria web.md|Auditoria web]] — FFUF, Linux, Metasploit
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Feroxbuster, Linux, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -485,4 +486,4 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #xss
+> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #xss

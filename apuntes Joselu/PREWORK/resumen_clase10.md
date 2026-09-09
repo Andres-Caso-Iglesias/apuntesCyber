@@ -178,18 +178,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración en paralelo para cracking de hashes eJPT eJPT v2 (eLearnSecurity Junior Penetration Tester) – certificación de entrada en pentesting Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Hydra, Metasploit, Normativa / GRC
-- [[resumen_clase11.md|resumen_clase11]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — Hydra, Metasploit, Normativa / GRC
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hydra, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
 
 ### 🛠️ Herramientas
 
@@ -203,4 +204,4 @@ Término en la transcripción Corrección / Aclaración en paralelo para crackin
 
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #burpsuite #certificaciones #forense #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss
+> #blue-team #burpsuite #certificaciones #file-upload #forense #hack-the-box #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss

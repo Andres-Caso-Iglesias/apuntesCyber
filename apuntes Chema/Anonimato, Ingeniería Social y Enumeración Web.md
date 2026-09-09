@@ -372,18 +372,19 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 | Lovable / Emergent (IA) | Alta (clonado de UI) | Mencionada |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, GoBuster, Linux
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — DirSearch, GoBuster, Linux
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — DirSearch, GoBuster, Linux
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — DirSearch, GoBuster, Linux
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[Auditoria web.md|Auditoria web]] — DirSearch, GoBuster, Linux
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Linux, Nmap
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
+- [[Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -394,4 +395,4 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #kali #linux #nmap #pentest #redes #ssh #windows
+> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #kali #linux #nmap #pentest #post-explotacion #redes #ssh #windows

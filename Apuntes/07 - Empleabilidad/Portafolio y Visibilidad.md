@@ -71,18 +71,19 @@ Portafolio + presencia pública
 - [ ] ¿He compartido algún walkthrough o artículo recientemente?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Burp Suite, Empleabilidad, VulnHub
-- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Burp Suite, Empleabilidad, VulnHub
-- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Post-Explotación, Windows
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Esteganografía, Windows
-- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — Empleabilidad, VulnHub, Windows
-- [[../06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Post-Explotación, VulnHub, Windows
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, VulnHub
+- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, OSINT, VulnHub
+- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, OSINT, Windows
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, OSINT, Windows
+- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, Post-Explotación, Windows
+- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — OSINT, VulnHub, Windows
 
 ### 🛠️ Herramientas
 

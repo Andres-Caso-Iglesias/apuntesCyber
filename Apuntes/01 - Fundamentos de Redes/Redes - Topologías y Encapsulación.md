@@ -108,20 +108,22 @@ traceroute -I 8.8.8.8 # usando ICMP en lugar de UDP
 - [ ] ¿Conozco los tipos de mensaje ICMP más comunes?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Redes, WiFi / Hardware, Wireshark
-- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Redes, WiFi / Hardware, Wireshark
-- [[../../comandos/Nmap.md|Nmap]] — Redes, WiFi / Hardware
-- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Redes, WiFi / Hardware, Wireshark
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Redes, WiFi / Hardware, Wireshark
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Redes, WiFi / Hardware, Wireshark
+- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Redes, Wireshark
+- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, Wireshark
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, Wireshark
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, WiFi / Hardware
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, Redes, Wireshark
 
 ### 🛠️ Herramientas
 
+- [[comandos/Nmap|Nmap]]
 
-> #redes #wifi #wireshark
+> #nmap #redes #wifi #wireshark

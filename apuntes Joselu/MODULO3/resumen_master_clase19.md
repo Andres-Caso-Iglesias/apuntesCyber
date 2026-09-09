@@ -159,18 +159,19 @@ Sabemos que ir por fases genera menos ruido que lanzar todo de golpe, que la reu
 La próxima sesión continúa con la explotación de los servicios restantes de Metasploitable y la escalada de privilegios.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Hydra, Metasploit
-- [[resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Hydra, Metasploit
-- [[../../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]] — File Upload, Hydra, Metasploit
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Metasploitable / DVWA, SSH, WordPress
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, Metasploit, Post-Explotación
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Certificaciones, Metasploit, Nmap
+- [[resumen_master_clase30.md|resumen_master_clase30]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Certificaciones, Metasploit, Nmap
+- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Nmap
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 
@@ -184,5 +185,6 @@ La próxima sesión continúa con la explotación de los servicios restantes de 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #certificaciones #command-injection #escalada-privilegios #file-upload #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan
+> #blue-team #certificaciones #command-injection #escalada-privilegios #file-upload #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan

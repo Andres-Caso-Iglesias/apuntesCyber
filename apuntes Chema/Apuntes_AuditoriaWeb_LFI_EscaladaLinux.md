@@ -463,18 +463,19 @@ Herramientas nuevas y cambios de nivel respecto al registro acumulado:
 En la sesión de auditoría web + escalada Linux (Carlos Gómez Pintado, 08/07/2026) se resolvió la máquina Banco de TheHackerLabs. Vector web: LFI en `descargar.php` (parámetro `archivo`) → lectura de `config.php` → credenciales de BBDD → SSH con usuario de sistema. Escalada: binario SUID inesperado `chstr` hallado con `find -perm -4000` y confirmado en GTFOBins; se quita inmutabilidad de `backup.sh` con `chstr -i`, se inyecta `chmod +s /bin/bash` y un cron que corre como root lo ejecuta; root con `/bin/bash -p`. Conceptos: permisos 4-2-1, SUID vs sudoers, atributo inmutable (`chstr`/`lsattr`), IDOR, Path Traversal/LFI/RFI. Nuevas: GTFOBins, `chstr`/`lsattr`, FoxyProxy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Hydra, Path Traversal / LFI
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Hydra, Path Traversal / LFI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, Hydra, RFI
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Path Traversal / LFI
-- [[Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Hydra, RFI
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — DirSearch, GoBuster, Hydra
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, Linux, Nmap
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
+- [[Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Linux, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — GoBuster, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -491,4 +492,4 @@ En la sesión de auditoría web + escalada Linux (Carlos Gómez Pintado, 08/07/2
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #idor #lfi #linux #nmap #redes #rfi #ssh #wifi
+> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #idor #lfi #linux #nmap #post-explotacion #redes #rfi #ssh #wifi

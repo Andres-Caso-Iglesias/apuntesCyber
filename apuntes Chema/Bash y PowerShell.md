@@ -75,18 +75,19 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 |ip a                    # ver interfaces de red (moderno)<br><br>ifconfig                # ver interfaces (legacy, aún disponible en Kali)<br><br>ip route                # tabla de rutas<br><br>ss -tulnp               # puertos abiertos y procesos (moderno)<br><br>netstat -tulnp          # igual pero legacy<br><br>ping -c4 8.8.8.8        # test de conectividad<br><br>curl ifconfig.me        # ver IP pública<br><br>wget URL                # descargar fichero<br><br>curl -s URL             # petición HTTP silenciosa<br><br># Netcat — navaja suiza de red:<br><br>nc -lvnp 4444           # escuchar en puerto 4444<br><br>nc IP 4444              # conectar a IP:4444<br><br>nc -z IP 80             # comprobar si puerto está abierto|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
-- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO1/resumen_master_clase4.md|resumen_master_clase4]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Nmap, Windows
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
+- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Linux, Nmap, Windows
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

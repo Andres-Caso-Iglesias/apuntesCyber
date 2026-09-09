@@ -232,18 +232,19 @@ Oisin / o Sint / o cintas **OSINT** (*Open Source Intelligence*) Ossint / Ossint
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase13.md|resumen_master_clase13]] — Forense Digital, IA en Ciberseguridad, Linux
+- [[../../Apuntes/02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — IA en Ciberseguridad, Linux, Nmap
+- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Linux, OSINT
 - [[resumen_master_clase10.md|resumen_master_clase10]] — IA en Ciberseguridad, Linux, OSINT
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Nmap
-- [[../../comandos/Linux.md|Linux]] — Forense Digital, Linux, OSINT
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Redes
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Redes
+- [[resumen_master_clase11.md|resumen_master_clase11]] — IA en Ciberseguridad, Nmap, OSINT
 
 ### 🛠️ Herramientas
 

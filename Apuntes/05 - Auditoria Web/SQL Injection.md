@@ -235,21 +235,23 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 #web #sqli #owasp #injection #prepared-statements #sqlmap #blue-team
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Post-Explotación, SQL Injection, XXE
-- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Post-Explotación, SQL Injection, XXE
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Post-Explotación, SQL Injection, XXE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — Post-Explotación, SQL Injection, XXE
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Post-Explotación, SQL Injection, XXE
-- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Post-Explotación, SQL Injection, XXE
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
@@ -257,6 +259,7 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #command-injection #escalada-privilegios #lfi #linux #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #xxe
+> #blue-team #command-injection #escalada-privilegios #lfi #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xxe

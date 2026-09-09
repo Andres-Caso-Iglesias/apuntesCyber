@@ -146,18 +146,19 @@
 - [ ] ¿He practicado los labs de PortSwigger?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../write-ups/Banco-THL.md|Banco-THL]] — Burp Suite, Path Traversal / LFI, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Path Traversal / LFI, XXE
-- [[../../write-ups/Castor-THL.md|Castor-THL]] — Path Traversal / LFI, Redes, XXE
-- [[../comandos/BurpSuite.md|BurpSuite]] — Burp Suite, Redes
 - [[SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Redes, XXE
-- [[../../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Path Traversal / LFI, SSH, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Redes, XXE
+- [[../comandos/BurpSuite.md|BurpSuite]] — Burp Suite, Path Traversal / LFI, Redes
+- [[../../write-ups/Banco-THL.md|Banco-THL]] — Burp Suite, Path Traversal / LFI, Redes
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Burp Suite, Redes, XXE
+- [[../../write-ups/Castor-THL.md|Castor-THL]] — Path Traversal / LFI, Redes, XXE
 
 ### 🛠️ Herramientas
 
@@ -166,6 +167,7 @@
 
 ### 🎯 Vulnerabilidades Relacionadas
 
+- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #lfi #redes #ssh #xxe
+> #burpsuite #lfi #redes #ssh #ssrf #xxe

@@ -318,18 +318,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, SQL Injection, XXE
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, SQL Injection, XXE
-- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, SQL Injection, XXE
-- [[resumen_master_clase21.md|resumen_master_clase21]] — GoBuster, SQL Injection, XXE
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Metasploit, SQL Injection, XXE
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — GoBuster, SQL Injection, XXE
+- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Linux, Metasploit
+- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Windows
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 

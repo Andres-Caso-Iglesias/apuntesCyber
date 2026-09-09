@@ -126,18 +126,19 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 - [ ] ¿Distingo el modelo OSI del TCP/IP?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, WiFi / Hardware
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Burp Suite, SQL Injection, SSH
-- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, WiFi / Hardware, Wireshark
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Redes, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Nmap, SQL Injection, WiFi / Hardware
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, SQL Injection, WiFi / Hardware
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Nmap, Redes, SQL Injection
+- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
 - [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, WiFi / Hardware
+- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
 
 ### 🛠️ Herramientas
 

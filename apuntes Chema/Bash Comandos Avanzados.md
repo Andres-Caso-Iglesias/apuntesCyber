@@ -67,18 +67,19 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash y PowerShell.md|Bash y PowerShell]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
-- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO1/resumen_master_clase4.md|resumen_master_clase4]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Nmap, Windows
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
+- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Linux, Nmap, Windows
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 

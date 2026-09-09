@@ -113,18 +113,19 @@ mkdir exploits
 - [ ] ¿Sé estructurar el trabajo en carpetas?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[Escalada de Privilegios.md|Escalada de Privilegios]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Nmap, VulnHub
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Linux, Nmap, VulnHub
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
+- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, Nmap, VulnHub
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
@@ -139,4 +140,4 @@ mkdir exploits
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #burpsuite #command-injection #dirsearch #hack-the-box #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #hack-the-box #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows

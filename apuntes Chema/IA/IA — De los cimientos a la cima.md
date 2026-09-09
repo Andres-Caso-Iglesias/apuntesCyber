@@ -505,18 +505,19 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, Post-Explotación, SSH
-- [[../../comandos/SQLMap.md|SQLMap]] — Post-Explotación, SQL Injection, SQLMap
-- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Linux, Post-Explotación
-- [[../../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Post-Explotación, SQL Injection, SQLMap
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Linux, Post-Explotación, SQL Injection
-- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Empleabilidad, SQL Injection, SQLMap
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Windows
+- [[../../comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, Linux, Windows
+- [[../../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Linux, Windows, XSS
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — IA en Ciberseguridad, Linux, XSS
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, SQLMap, Windows
+- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 
@@ -529,4 +530,4 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #empleabilidad #ia #linux #pentest #post-explotacion #redes #sqli #sqlmap #ssh #windows #xss
+> #burpsuite #empleabilidad #hack-the-box #ia #linux #pentest #post-explotacion #redes #sqli #sqlmap #ssh #windows #xss

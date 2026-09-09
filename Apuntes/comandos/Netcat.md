@@ -66,21 +66,23 @@ nc -k -lvnp <port>               # Keep alive (no cerrar después de conexión)
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Netcat / Reverse Shells, Reverse Shells
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metasploit, Windows
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
+- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
-> #linux #netcat #post-explotacion #redes #reverse-shell
+> #forense #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows

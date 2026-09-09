@@ -188,18 +188,19 @@ done
 > Dominar esto es la base para crear herramientas propias de auditoría, y más adelante para entender cómo se automatizan tanto ataques como defensas (ver SOAR en el Bloque 11).
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, SQL Injection
-- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
-- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Metasploit, Post-Explotación, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase17.md|resumen_master_clase17]] — Metasploit, Metasploitable / DVWA, Netcat / Reverse Shells
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hydra, Metasploit, Post-Explotación
+- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Linux, Metasploit, Windows
+- [[../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Nmap, Windows
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, Metasploit, Windows
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, Nmap
+- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
@@ -213,4 +214,4 @@ done
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #escalada-privilegios #esteganografia #forense #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows
+> #escalada-privilegios #esteganografia #forense #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows

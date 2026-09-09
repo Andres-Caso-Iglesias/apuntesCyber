@@ -213,18 +213,19 @@ Cambios de nivel y conceptos nuevos consolidados en esta sesión (copiable a la 
 | SSTI (Server-Side Template Injection) | Mencionada |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]] — SSH, SSRF, SSTI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — SSH, SSRF, SSTI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, IA en Ciberseguridad, SSRF
-- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — SSH, SSRF, SSTI
-- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, SSRF, SSTI
-- [[../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, SSRF, SSTI
+- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]] — Certificaciones, IA en Ciberseguridad, Open Redirect
+- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Certificaciones, Open Redirect, Redes
 
 ### 🛠️ Herramientas
 

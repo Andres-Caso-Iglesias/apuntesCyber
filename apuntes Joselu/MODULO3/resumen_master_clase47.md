@@ -304,22 +304,24 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — Burp Suite, Metodología Pentest, SSH
-- [[resumen_master_clase41.md|resumen_master_clase41]] — File Upload, RFI, SQL Injection
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — CSRF, File Upload, SQL Injection
-- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — CSRF, File Upload, SQL Injection
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — File Upload, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase41.md|resumen_master_clase41]] — IA en Ciberseguridad, IDOR, Metasploit
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Certificaciones, Metasploit, Post-Explotación
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Certificaciones, IDOR, Metasploit
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
@@ -328,6 +330,7 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #xss
+> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #file-upload #hack-the-box #ia #idor #kali #lfi #metasploit #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssti #xss

@@ -111,18 +111,19 @@ host google.com # simple y rápido
 - [ ] ¿Relaciono el DNS con el OSINT y la enumeración web?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Metodología Pentest, Nmap, WiFi / Hardware
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, WiFi / Hardware, Wireshark
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, WiFi / Hardware, Wireshark
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Metodología Pentest, Nmap, WiFi / Hardware
-- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Redes, WiFi / Hardware, Wireshark
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Metodología Pentest, Nmap, Wireshark
+- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Nmap, OSINT, WiFi / Hardware
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, OSINT, WiFi / Hardware
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, OSINT, WiFi / Hardware
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Nmap, OSINT, WiFi / Hardware
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Nmap, OSINT, Redes
 
 ### 🛠️ Herramientas
 

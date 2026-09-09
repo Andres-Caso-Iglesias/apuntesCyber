@@ -257,22 +257,24 @@ impacket-psexec -hashes :HASH user@IP
 - [ ] Credenciales obtenidas
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, Windows
-- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — John / Hashcat, Linux, Redes
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
-- [[Windows.md|Windows]] — Linux, Redes, Windows
+- [[Windows.md|Windows]] — Linux, Tmux, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Tmux, Windows
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Tmux, Windows
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Tmux|Tmux]]
 
-> #hydra #john #linux #redes #windows
+> #hydra #john #linux #pentest #redes #tmux #windows

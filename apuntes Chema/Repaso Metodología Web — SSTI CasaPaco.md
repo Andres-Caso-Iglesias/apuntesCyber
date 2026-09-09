@@ -248,24 +248,26 @@ Cambios de nivel respecto al registro acumulado (copiar a la base de conocimient
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — File Upload, SQL Injection, XXE
-- [[../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Hydra, SQL Injection, XXE
-- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — File Upload, SQL Injection, XXE
-- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — File Upload, Hydra, SQL Injection
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — File Upload, Hydra, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — File Upload, SQL Injection, XXE
+- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — Metasploit, Netcat / Reverse Shells, Nmap
+- [[../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Linux, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -279,4 +281,4 @@ Cambios de nivel respecto al registro acumulado (copiar a la base de conocimient
 - [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #burpsuite #certificaciones #command-injection #dirsearch #file-upload #hydra #lfi #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti #xxe
+> #burpsuite #certificaciones #command-injection #dirsearch #file-upload #hydra #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti #xxe

@@ -422,18 +422,19 @@ ls -la /bin/bash
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Linux, Path Traversal / LFI, Post-Explotación
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, SSH
-- [[Informe_Castor.md|Informe_Castor]] — Linux, Post-Explotación, SSH
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Metasploit, Path Traversal / LFI
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Linux, Path Traversal / LFI, Post-Explotación
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Post-Explotación
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Metasploit, Nmap
+- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Linux, Nmap
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Linux, Nmap
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Nmap
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Linux, Metasploit, Nmap
+- [[../comandos/Tmux.md|Tmux]] — Linux, Metasploit, Redes
 
 ### 🛠️ Herramientas
 
@@ -445,4 +446,4 @@ ls -la /bin/bash
 
 - [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #kali #lfi #linux #metasploit #nmap #post-explotacion #redes #ssh
+> #kali #lfi #linux #metasploit #nmap #post-explotacion #redes #ssh #wireshark

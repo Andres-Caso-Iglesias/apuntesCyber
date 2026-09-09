@@ -358,18 +358,19 @@
 | **Zombie** | Máquina comprometida controlada por un atacante (botnet) |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, SSRF, SSTI
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Blue Team / SOC, Burp Suite, John / Hashcat
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — Blue Team / SOC, Burp Suite, WordPress
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, SQL Injection, XXE
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Blue Team / SOC, Burp Suite, Metodología Pentest
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Blue Team / SOC, Burp Suite, WordPress
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — IA en Ciberseguridad, IDOR, WiFi / Hardware
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Metasploit, SSRF, WiFi / Hardware
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — IA en Ciberseguridad, Metasploit, SSRF
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — IA en Ciberseguridad, IDOR, Metasploit
 
 ### 🛠️ Herramientas
 

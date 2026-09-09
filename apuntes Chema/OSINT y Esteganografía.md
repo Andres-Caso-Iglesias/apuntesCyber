@@ -92,21 +92,22 @@ La esteganografía oculta información **dentro** de otro fichero (imagen, audio
 |zsteg|Esteganografía en PNG y BMP|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Forense Digital, Linux, WiFi / Hardware
-- [[../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Linux
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Forense Digital, Hydra, WiFi / Hardware
-- [[../Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Forense Digital, Hydra, WiFi / Hardware
-- [[Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Linux, WiFi / Hardware
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, OSINT, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — OSINT, Post-Explotación, WiFi / Hardware
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, WiFi / Hardware
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — OSINT, Redes, WiFi / Hardware
+- [[../comandos/Linux.md|Linux]] — Linux, OSINT, Redes
+- [[../Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — OSINT, Redes, WiFi / Hardware
+- [[../comandos/Nmap.md|Nmap]] — Hydra, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 
-> #esteganografia #forense #hydra #linux #osint #redes #wifi
+> #esteganografia #forense #hydra #linux #osint #post-explotacion #redes #wifi

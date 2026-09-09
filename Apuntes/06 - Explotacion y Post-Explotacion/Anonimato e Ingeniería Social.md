@@ -196,22 +196,23 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 #anonimato #vpn #tor #monero #ingenieria-social #phishing #qrishing #raas #fuzzing #blue-team #opsec
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, IA en Ciberseguridad, SSH
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Redes, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — OSINT, Redes, WiFi / Hardware
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — IA en Ciberseguridad, Redes, WiFi / Hardware
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, IA en Ciberseguridad, Redes
 - [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, IA en Ciberseguridad, Redes
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Hydra, OSINT, WiFi / Hardware
-- [[../../comandos/Hydra.md|Hydra]] — Hydra, IA en Ciberseguridad, Redes
-- [[../../comandos/SSH.md|SSH]] — Hydra, IA en Ciberseguridad, Redes
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — OSINT, Redes, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 
-> #hydra #ia #osint #redes #ssh #wifi
+> #esteganografia #hydra #ia #osint #redes #ssh #wifi

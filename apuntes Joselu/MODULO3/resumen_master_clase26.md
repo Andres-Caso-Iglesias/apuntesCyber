@@ -320,22 +320,25 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 â†’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
-- [[resumen_master_clase20.md|resumen_master_clase20]] — Metasploitable / DVWA, Pivoting / Movilidad Lateral, Telnet
-- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploitable / DVWA
-- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — Empleabilidad, File Upload, Hydra
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Empleabilidad, File Upload, Metasploitable / DVWA
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Hydra, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — IA en Ciberseguridad, Linux, OSINT
+- [[resumen_master_clase20.md|resumen_master_clase20]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Nmap, OSINT
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — IA en Ciberseguridad, Linux, Nmap
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -344,4 +347,4 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 ### 🎯 Vulnerabilidades Relacionadas
 
 
-> #blue-team #certificaciones #empleabilidad #file-upload #forense #hack-the-box #hydra #ia #kali #linux #metasploitable #netcat #nmap #osint #pentest #pivoting #redes #reverse-shell #ssh #telnet #windows
+> #blue-team #burpsuite #certificaciones #empleabilidad #file-upload #forense #hack-the-box #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #pivoting #redes #reverse-shell #ssh #telnet #windows

@@ -116,18 +116,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración conectados a internet mariade ve MariaDB – sistema de gestión de bases de datos poc PoC (Proof of Concept) – prueba de concepto de explotación de una vulnerabilidad google docking Google Dorking – uso de operadores avanzados de Google para encontrar información sensible 4.4.3 / HTTPS Puerto 443 – HTTPS 3.3.8.9 / RDP Puerto 3389 – RDP (Remote Desktop Protocol) Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 5
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, IA en Ciberseguridad, SSH
-- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, SSH, Windows
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, SSH, Windows
-- [[../../apuntes Chema/Repaso General II.md|Repaso General II]] — Hydra, SSH, Windows
-- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, Windows
-- [[../MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Windows
+- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Post-Explotación, Windows
+- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Redes, Windows
+- [[../../comandos/Hydra.md|Hydra]] — IA en Ciberseguridad, Nmap, Post-Explotación
+- [[../../comandos/SSH.md|SSH]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, OSINT
 
 ### 🛠️ Herramientas
 
@@ -135,4 +136,4 @@ Término en la transcripción Corrección / Aclaración conectados a internet ma
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #hydra #ia #nmap #osint #pentest #redes #ssh #windows
+> #escalada-privilegios #hydra #ia #nmap #osint #pentest #post-explotacion #redes #ssh #windows

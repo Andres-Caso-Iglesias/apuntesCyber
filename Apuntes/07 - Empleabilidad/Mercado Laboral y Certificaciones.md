@@ -128,18 +128,19 @@
 - [ ] ¿Conozco las plataformas de práctica y sé cómo diferenciar?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Hydra, VulnHub
-- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Burp Suite, Empleabilidad, VulnHub
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Burp Suite, Empleabilidad, VulnHub
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Metodología Pentest, Normativa / GRC
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Hydra, Normativa / GRC
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Normativa / GRC, Redes, VulnHub
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, VulnHub
+- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, OSINT, VulnHub
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Certificaciones, Empleabilidad, OSINT
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Certificaciones, VulnHub, XSS
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Certificaciones, Empleabilidad, OSINT
+- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, VulnHub
 
 ### 🛠️ Herramientas
 

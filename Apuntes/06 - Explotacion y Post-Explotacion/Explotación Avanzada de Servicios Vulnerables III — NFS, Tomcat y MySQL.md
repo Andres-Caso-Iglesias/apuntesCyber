@@ -465,18 +465,19 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 - [ ] ¿Reconozco un SQL Injection y sé extraer datos con UNION SELECT?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — John / Hashcat, Metasploitable / DVWA, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Hydra, John / Hashcat, Metasploitable / DVWA
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — FFUF, Metasploit, WordPress
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — FFUF, Metasploit, WordPress
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, WordPress
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Linux, SSH, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Linux, SSH, Windows
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
@@ -495,4 +496,4 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 - [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xss
+> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hack-the-box #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #xss

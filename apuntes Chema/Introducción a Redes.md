@@ -111,18 +111,19 @@ Permite correr múltiples sistemas operativos dentro del mismo equipo físico. F
 |**💡 LABS**|Para este máster: 2 VMs máximo simultáneas en una máquina con 8GB RAM. Con 16GB+ puedes levantar un directorio activo completo.|
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, WiFi / Hardware
-- [[IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, SSH
-- [[../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Post-Explotación, SQL Injection, SSH
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, SSH, WiFi / Hardware
-- [[../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Post-Explotación, SQL Injection, WiFi / Hardware
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, SQL Injection, WiFi / Hardware
+- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Nmap, SQL Injection, WiFi / Hardware
+- [[../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Nmap, Post-Explotación, SQL Injection
+- [[IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, Windows
+- [[../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — SQL Injection, WiFi / Hardware, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Nmap, OSINT, Windows
 
 ### 🛠️ Herramientas
 

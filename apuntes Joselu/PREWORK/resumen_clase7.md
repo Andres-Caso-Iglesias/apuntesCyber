@@ -174,21 +174,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración de atacantes avanzados y persistentes TTPs TTPs (Tactics, Techniques and Procedures ) – tácticas, técnicas y procedimientos de los atacantes CAN Bus / Cambus CAN Bus (Controller Area Network ) – bus de datos interno del vehículo ECUs / EQUUS ECUs (Electronic Control Units ) – centralitas electrónicas del vehículo ADAS ADAS (Advanced Driver Assistance Systems ) – sistemas avanzados de asistencia a la conducción OTA OTA (Over-the-Air) – actualizaciones remotas de firmware en vehículos OBD2 OBD2 (On-Board Diagnostics II ) – puerto de diagnóstico estándar de los vehículos fliper 0 Flipper Zero – dispositivo de hacking de radiofrecuencia y protocolos inalámbricos Blueborn BlueBorne – ataque de RCE a través del protocolo Bluetooth Bluetooth BLE Bluetooth Low Energy (BLE) – versión de Bluetooth optimizada para IoT sniping / snifar Sniffing – captura y análisis de tráfico de red o bus de datos fuzzing de protocolos Protocol Fuzzing – técnica de inyección de datos malformados para encontrar vulnerabilidades reversing Reverse Engineering – ingeniería inversa de software o firmware EDR EDR (Endpoint Detection and Response ) – solución de seguridad en endpoints Tarlogic Tarlogic – empresa española de ciberseguridad destacada en Red Team Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 7
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_clase3.md|resumen_clase3]] — Forense Digital, Normativa / GRC, Post-Explotación
-- [[resumen_clase6.md|resumen_clase6]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_clase12.md|resumen_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, OSINT
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — IA en Ciberseguridad, OSINT, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 
@@ -196,4 +198,4 @@ Término en la transcripción Corrección / Aclaración de atacantes avanzados y
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #blue-team #command-injection #escalada-privilegios #forense #ia #netcat #nmap #normativa #osint #post-explotacion #redes #reverse-shell #windows
+> #blue-team #command-injection #escalada-privilegios #forense #ia #metasploit #netcat #nmap #normativa #osint #post-explotacion #redes #reverse-shell #windows

@@ -210,26 +210,28 @@ Pimais / Pimai / PinMy **PimEyes** (pimeyes.com) -- motor de búsqueda por recon
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Empleabilidad, Netcat / Reverse Shells, Post-Explotación
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Post-Explotación
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Netcat / Reverse Shells, Normativa / GRC, Reverse Shells
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, OSINT, Windows
+- [[resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #netcat #normativa #osint #post-explotacion #redes #reverse-shell #wifi #windows
+> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #metasploit #netcat #normativa #osint #post-explotacion #redes #reverse-shell #wifi #windows

@@ -549,18 +549,19 @@ find / -perm -u=s 2>/dev/null
 **FIN DEL INFORME**
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Metasploit, Netcat / Reverse Shells, XXE
-- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
+- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Nmap, Windows
+- [[../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
@@ -573,4 +574,4 @@ find / -perm -u=s 2>/dev/null
 
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe
+> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe

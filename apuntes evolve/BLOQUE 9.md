@@ -135,18 +135,19 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 > Interceptación de señales de llaves electrónicas para desbloquear vehículos (BMW en Alemania), y manipulación de sensores para provocar frenadas automáticas. El impacto no es solo económico: pone en riesgo directo la vida de las personas.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Nmap.md|Nmap]] — Hydra, Nmap, WiFi / Hardware
-- [[../comandos/Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, Post-Explotación, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, Redes, WiFi / Hardware
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Post-Explotación, Redes
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, Redes
+- [[../comandos/Hydra.md|Hydra]] — IA en Ciberseguridad, Nmap, Post-Explotación
+- [[../comandos/Nmap.md|Nmap]] — Nmap, Redes, WiFi / Hardware
+- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, Post-Explotación, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
@@ -154,4 +155,4 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #hydra #nmap #post-explotacion #redes #ssh #wifi
+> #hydra #ia #nmap #post-explotacion #redes #ssh #wifi #wireshark

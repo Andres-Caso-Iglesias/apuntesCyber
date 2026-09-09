@@ -125,6 +125,9 @@ def get_all_markdown_files() -> List[Path]:
         dirs[:] = [d for d in dirs if not d.startswith('.') and d != "_neural_network"]
         for f in filenames:
             if f.endswith('.md'):
+                # Excluir MOCs y archivos de mapa de contenidos
+                if "MOC" in f or "Mapa de Contenidos" in root:
+                    continue
                 files.append(Path(root) / f)
     return sorted(files)
 

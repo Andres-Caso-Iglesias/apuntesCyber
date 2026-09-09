@@ -377,18 +377,19 @@ Término en la transcripción Corrección / Aclaración
 *Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase19.md|resumen_master_clase19]] — Hydra, Metasploit, Metasploitable / DVWA
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Hydra, Metasploitable / DVWA
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Hydra, Metasploitable / DVWA
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Hydra, Metasploit
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Hydra, Metasploitable / DVWA
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Linux, Nmap
+- [[resumen_master_clase19.md|resumen_master_clase19]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, Metasploit, Nmap
+- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — GoBuster, Linux, Nmap
 
 ### 🛠️ Herramientas
 
@@ -406,5 +407,6 @@ Término en la transcripción Corrección / Aclaración
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #post-explotacion #redes #reverse-shell #ssh #telnet
+> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet

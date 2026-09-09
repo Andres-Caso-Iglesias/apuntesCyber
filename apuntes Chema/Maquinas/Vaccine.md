@@ -233,18 +233,19 @@ HackTricks — Guías de pentesting:
   https://boo
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, SQL Injection, SQLMap
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Metasploit, SQL Injection, SQLMap
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Metasploit, SQL Injection, SQLMap
-- [[Reactor_HTB.md|Reactor_HTB]] — John / Hashcat, Post-Explotación, SQL Injection
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — Metasploit, SQL Injection, SQLMap
-- [[../../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, Linux, Nmap
+- [[Reactor_HTB.md|Reactor_HTB]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, SQLMap
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — Linux, Metasploit, SQLMap
+- [[../../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

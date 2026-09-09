@@ -107,21 +107,22 @@ hashcat -m 0 hash.txt wordlist.txt -o out.txt  # Output
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Linux, Redes
-- [[../../comandos/John_Hashcat.md|John_Hashcat]] — John / Hashcat, Linux, Redes
-- [[Linux.md|Linux]] — Linux, Redes
-- [[../../write-ups/Castor-THL.md|Castor-THL]] — Escalada de Privilegios, John / Hashcat, Linux
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes
-- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Escalada de Privilegios, Linux, Redes
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Redes, Windows
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
+- [[Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
+- [[Metasploit.md|Metasploit]] — Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/John_Hashcat|John / Hashcat]]
 
-> #escalada-privilegios #john #linux #redes
+> #escalada-privilegios #john #linux #pentest #redes #windows

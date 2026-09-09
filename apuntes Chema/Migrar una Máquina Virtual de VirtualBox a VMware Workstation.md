@@ -191,21 +191,22 @@ Proceso completo en menos de 5 minutos una vez se tienen los archivos localizado
 •      Usar red Host-only para máquinas CTF / laboratorio
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[Bash Scripting.md|Bash Scripting]] — Kali Linux, Linux, Windows
-- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Kali Linux, Linux, Windows
-- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Kali Linux, Linux, Windows
-- [[Bash y PowerShell.md|Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Windows
+- [[Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
+- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
+- [[Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #kali #linux #nmap #redes #windows
+> #kali #linux #nmap #pentest #redes #windows

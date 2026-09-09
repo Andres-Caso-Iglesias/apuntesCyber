@@ -194,21 +194,23 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 > **Siguiente tema:** Redes WiFi y Hardware — Auditoría WiFi y Car Hacking
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Netcat / Reverse Shells, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes Joselu/PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Post-Explotación, Windows
-- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Forense Digital, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Nmap, Windows
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
+- [[../06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -217,4 +219,4 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 - [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
 
-> #blue-team #escalada-privilegios #forense #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows #xxe
+> #blue-team #escalada-privilegios #forense #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows #xxe

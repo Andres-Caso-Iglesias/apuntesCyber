@@ -154,23 +154,25 @@ gobuster vhost -u http://target.com -w /usr/share/wordlists/seclists/Discovery/D
 > GoBuster se usa en la máquina **castor** para enumeración de directorios. FFUF y Feroxbuster son alternativas más modernas para dir fuzzing. GoBuster brilla en modo DNS y VHOST.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
 - [[DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
 - [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, GoBuster, Redes
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
 - [[FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
+- [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/GoBuster|GoBuster]]
 
-> #feroxbuster #ffuf #gobuster #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #redes

@@ -98,21 +98,22 @@ msfconsole -r script.rc
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Escalada de Privilegios, Metasploit, Post-Explotación
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Metodología Pentest, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Metodología Pentest, Post-Explotación
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, Redes
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Post-Explotación, Windows
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metasploit, Windows
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 
-> #escalada-privilegios #metasploit #pentest #post-explotacion #redes
+> #escalada-privilegios #linux #metasploit #pentest #post-explotacion #redes #windows #wireshark

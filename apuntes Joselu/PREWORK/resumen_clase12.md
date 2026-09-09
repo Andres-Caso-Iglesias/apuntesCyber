@@ -135,21 +135,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración data link y physical layer Capa de enlace de datos (L2) y capa física (L1) del modelo OSI Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[resumen_clase2.md|resumen_clase2]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[resumen_clase7.md|resumen_clase7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, Windows
+- [[resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Nmap, Windows
+- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Nmap, Windows
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -158,4 +160,4 @@ Término en la transcripción Corrección / Aclaración data link y physical lay
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #ia #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark
+> #command-injection #ia #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark

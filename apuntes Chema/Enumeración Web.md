@@ -177,18 +177,19 @@ Para copiar a tu base de conocimiento tras validar en clase:
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — DirSearch, GoBuster, WPScan
-- [[../comandos/FFUF.md|FFUF]] — Burp Suite, DirSearch, GoBuster
-- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — DirSearch, GoBuster, SQL Injection
-- [[Fuzzing Web.md|Fuzzing Web]] — Burp Suite, Path Traversal / LFI, SQL Injection
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Path Traversal / LFI, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Path Traversal / LFI, SQL Injection
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — GoBuster, Nmap, OSINT
+- [[../comandos/FFUF.md|FFUF]] — FFUF, GoBuster, Nmap
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, GoBuster, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Nmap, OSINT
+- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — GoBuster, Nmap, OSINT
 
 ### 🛠️ Herramientas
 

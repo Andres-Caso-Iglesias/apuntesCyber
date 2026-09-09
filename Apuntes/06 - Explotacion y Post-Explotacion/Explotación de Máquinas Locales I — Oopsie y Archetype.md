@@ -348,18 +348,19 @@ impacket-psexec administrator:'PASS'@IP
 - [ ] ¿Sé usar `psexec.py` o `evil-winrm` con credenciales de Administrator?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Post-Explotación, SMB / Impacket
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, SMB / Impacket
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Hydra, Netcat / Reverse Shells, Post-Explotación
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, Netcat / Reverse Shells, Post-Explotación
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, VulnHub, Windows
+- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Nmap, VulnHub
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Linux, Nmap, VulnHub
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, VulnHub
 
 ### 🛠️ Herramientas
 
@@ -367,6 +368,7 @@ impacket-psexec administrator:'PASS'@IP
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
@@ -375,4 +377,4 @@ impacket-psexec administrator:'PASS'@IP
 ### 🎯 Vulnerabilidades Relacionadas
 
 
-> #dirsearch #escalada-privilegios #feroxbuster #gobuster #hack-the-box #hydra #idor #linux #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows
+> #dirsearch #escalada-privilegios #feroxbuster #gobuster #hack-the-box #hydra #idor #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows

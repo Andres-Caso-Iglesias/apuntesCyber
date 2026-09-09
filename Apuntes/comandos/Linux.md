@@ -107,17 +107,23 @@ chown user:group <file>          # Cambiar propietario
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes
-- [[John_Hashcat.md|John_Hashcat]] — Linux, Redes
-- [[SSH.md|SSH]] — Linux, Redes
-- [[Tmux.md|Tmux]] — Linux, Redes
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes
+- [[Tmux.md|Tmux]] — Linux, Tmux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
+- [[../../comandos/Windows.md|Windows]] — Linux, Tmux, Windows
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
+- [[Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
+- [[Hydra.md|Hydra]] — Linux, Redes, Windows
 
-> #linux #redes
+### 🛠️ Herramientas
+
+- [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
+
+> #linux #pentest #redes #ssh #tmux #windows

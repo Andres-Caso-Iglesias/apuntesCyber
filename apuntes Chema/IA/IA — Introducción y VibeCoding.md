@@ -351,21 +351,23 @@ Anthropic — investigación de interpretabilidad (dictionary learning, features
 | --- |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Normativa / GRC, Post-Explotación, SSH
-- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Linux, Normativa / GRC, Post-Explotación
-- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Linux, SSH, Windows
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Post-Explotación, SSH, Windows
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Normativa / GRC, SSH, Windows
-- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Linux, Post-Explotación, SSH
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Post-Explotación
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Windows
+- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../../comandos/SSH.md|SSH]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Post-Explotación, Windows
+- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — IA en Ciberseguridad, Linux, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 
-> #ia #linux #normativa #pentest #post-explotacion #redes #ssh #windows
+> #hydra #ia #linux #normativa #pentest #post-explotacion #redes #ssh #windows

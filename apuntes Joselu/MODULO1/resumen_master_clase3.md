@@ -210,21 +210,23 @@ Se mencionan por primera vez las herramientas de escalada de privilegios automá
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
-- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
-- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
-- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Netcat / Reverse Shells, Post-Explotación, SQL Injection
-- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — IA en Ciberseguridad, Linux, Windows
+- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — IA en Ciberseguridad, Linux, Metasploit
+- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — IA en Ciberseguridad, Linux, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Linux, Metasploit, Windows
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
@@ -233,4 +235,4 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #escalada-privilegios #forense #hack-the-box #ia #kali #linux #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows
+> #command-injection #escalada-privilegios #forense #hack-the-box #ia #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows

@@ -79,18 +79,19 @@ Término Corrección
 El resumen detallado está en el documento de la Clase 52.*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — Burp Suite, IA en Ciberseguridad, SSRF
-- [[resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, IA en Ciberseguridad, SSRF
-- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Redes, SSRF
-- [[../../Apuntes/05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Redes, SSRF
-- [[resumen_master_clase52.md|resumen_master_clase52]] — Burp Suite, IA en Ciberseguridad, SSRF
-- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[../../apuntes Chema/PortSwigger — SSRF y cierre SSTI.md|PortSwigger — SSRF y cierre SSTI]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../../Apuntes/05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Metodología Pentest, Redes
+- [[resumen_master_clase48.md|resumen_master_clase48]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../../Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — IA en Ciberseguridad, Open Redirect, Redes
+- [[../../apuntes Chema/Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]] — IA en Ciberseguridad, Open Redirect, Redes
 
 ### 🛠️ Herramientas
 
@@ -99,5 +100,7 @@ El resumen detallado está en el documento de la Clase 52.*
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #ia #open-redirect #pentest #redes #ssrf
+> #burpsuite #ia #open-redirect #pentest #redes #ssrf #ssti #xss

@@ -315,18 +315,19 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Sesión 30 — Burp Suite y WordPress.md|Sesión 30 — Burp Suite y WordPress]] — Burp Suite, Feroxbuster, WordPress
-- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, Metodología Pentest, WordPress
-- [[../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, GoBuster, Hydra
-- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, GoBuster, Hydra
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — File Upload, GoBuster, Hydra
-- [[../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Hydra, Metasploit
+- [[Sesión 30 — Burp Suite y WordPress.md|Sesión 30 — Burp Suite y WordPress]] — IA en Ciberseguridad, Metasploit, WordPress
+- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — IA en Ciberseguridad, Metasploit, WordPress
+- [[../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — GoBuster, IA en Ciberseguridad, Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — IA en Ciberseguridad, Linux, Windows
+- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — GoBuster, Linux, WPScan
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — GoBuster, Linux, WPScan
 
 ### 🛠️ Herramientas
 

@@ -148,18 +148,19 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 - [[comandos/SQLMap]] — Cheat sheet de comandos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, SQL Injection, SQLMap
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Metasploit, SQL Injection, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Metasploit, SQL Injection, SQLMap
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hydra, SQL Injection, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Hydra, SQL Injection, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, VulnHub, Windows
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Metasploit, Windows
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
+- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, VulnHub, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
 
 ### 🛠️ Herramientas
 
@@ -173,4 +174,4 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #escalada-privilegios #hack-the-box #hydra #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub
+> #escalada-privilegios #hack-the-box #hydra #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub #windows

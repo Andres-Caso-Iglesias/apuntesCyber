@@ -208,25 +208,27 @@ Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el 
 ---
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Windows
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Windows
+- [[BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #escalada-privilegios #linux #netcat #post-explotacion #redes #reverse-shell #windows #wordpress
+> #command-injection #escalada-privilegios #forense #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows #wordpress

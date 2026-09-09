@@ -158,18 +158,19 @@ El profesor demuestra en directo cómo crear scripts complejos sin saber program
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
-- [[resumen_master_clase5.md|resumen_master_clase5]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
-- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Metasploit, Normativa / GRC, Path Traversal / LFI
-- [[../../write-ups/Nike-THL.md|Nike-THL]] — Metasploit, Path Traversal / LFI, Reverse Shells
+- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
+- [[resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
+- [[../../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
 
 ### 🛠️ Herramientas
 

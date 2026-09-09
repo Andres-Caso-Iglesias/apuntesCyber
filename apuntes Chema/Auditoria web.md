@@ -322,18 +322,19 @@ Con los usuarios extraídos de /etc/passwd y la contraseña encontrada en passwo
 - [[Explotación de Servicios - Linux]] — Explotación SSH y servicios
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — Feroxbuster, SSH, WordPress
-- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploitable / DVWA, SSH, WordPress
-- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Metasploitable / DVWA, SSH, WordPress
-- [[../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, SQL Injection
-- [[../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploitable / DVWA
-- [[Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, GoBuster, SQL Injection
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — FFUF, Metasploit, Nmap
+- [[Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[../write-ups/Academy-THL.md|Academy-THL]] — Metasploit, Nmap, WordPress
+- [[Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — FFUF, Metasploit, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — FFUF, Metasploit, Nmap
+- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — FFUF, Metasploit, Nmap
 
 ### 🛠️ Herramientas
 

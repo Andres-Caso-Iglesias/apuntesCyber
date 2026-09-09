@@ -219,23 +219,25 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 > **Siguiente tema:** [[Normativa - ISO 27001, GDPR, ENS]] — Marco regulatorio y gestión de riesgos
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Forense Digital, Linux, SMB / Impacket
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Normativa / GRC, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Linux, SMB / Impacket
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Forense Digital, Post-Explotación, SMB / Impacket
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Blue Team / SOC, Linux, Windows
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Post-Explotación, SSH
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Nmap, OSINT
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Nmap, OSINT
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
+- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Nmap, OSINT
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 
-> #blue-team #forense #hack-the-box #linux #nmap #normativa #osint #pentest #post-explotacion #redes #smb-impacket #ssh #windows #wireshark
+> #blue-team #forense #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #post-explotacion #redes #smb-impacket #ssh #windows #wireshark

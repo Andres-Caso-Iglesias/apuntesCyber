@@ -62,22 +62,25 @@ feroxbuster -u http://10.10.10.x -s 200 301 302 -d 2
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
-- [[FFUF.md|FFUF]] — FFUF, Redes
-- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, Redes
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[GoBuster.md|GoBuster]] — FFUF, Redes
-- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Redes
+- [[FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 
+- [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
 
-> #feroxbuster #ffuf #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #redes

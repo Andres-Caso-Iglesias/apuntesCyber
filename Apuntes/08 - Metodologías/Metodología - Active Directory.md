@@ -239,17 +239,22 @@ Get-DomainComputer
 - [ ] Domain Admin obtenido
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Windows
-- [[../comandos/Linux.md|Linux]] — Linux, Redes
-- [[../comandos/Windows.md|Windows]] — Redes, Windows
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
+- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../comandos/Linux.md|Linux]] — Linux, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../comandos/Windows.md|Windows]] — Redes, Tmux, Windows
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Tmux
 
-> #linux #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Tmux|Tmux]]
+
+> #linux #redes #tmux #windows

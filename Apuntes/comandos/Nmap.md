@@ -79,21 +79,23 @@ nmap -p 445 --script=smb-enum-shares,smb-enum-users 10.10.10.x
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Telnet.md|Telnet]] — Nmap, Redes
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Nmap, Redes
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes
-- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Redes
+- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Nmap, Redes
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Redes
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Redes
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Redes
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
+- [[comandos/Telnet|Telnet]]
 
-> #nmap #redes
+> #linux #nmap #redes #telnet #windows

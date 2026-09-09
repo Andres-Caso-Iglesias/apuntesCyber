@@ -177,18 +177,19 @@ En auditorías, ambas sirven y se puede saltar entre una y otra. La elección de
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Wolf Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
-- [[resumen_master_clase4.md|resumen_master_clase4]] — Metasploit, Netcat / Reverse Shells, Normativa / GRC
-- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[../PREWORK/resumen_clase10.md|resumen_clase10]] — Hydra, Metasploit, Normativa / GRC
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Netcat / Reverse Shells, Normativa / GRC
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Metasploit, Normativa / GRC
+- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
+- [[resumen_master_clase4.md|resumen_master_clase4]] — IA en Ciberseguridad, Linux, Windows
+- [[../PREWORK/resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
 
 ### 🛠️ Herramientas
 

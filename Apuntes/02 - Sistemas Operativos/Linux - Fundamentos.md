@@ -176,17 +176,18 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 - [ ] ¿Conozco los permisos SUID y por qué importan?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Redes, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Linux, Windows
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Windows
-- [[Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Redes
-- [[../08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Escalada de Privilegios, Linux, Windows
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Forense Digital, Linux, Redes
+- [[../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
+- [[../comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Escalada de Privilegios, Linux, Windows
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Redes, Windows
+- [[../comandos/Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
 
-> #escalada-privilegios #forense #linux #redes #windows
+> #escalada-privilegios #forense #linux #pentest #redes #windows

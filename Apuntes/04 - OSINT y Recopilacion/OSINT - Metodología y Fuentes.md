@@ -175,18 +175,19 @@ LinkedIn como fuente:
 - [ ] ¿Distingo qué es legal y qué no en OSINT?
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Nmap, WiFi / Hardware
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Metodología Pentest, Nmap, WiFi / Hardware
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Nmap, WiFi / Hardware
-- [[Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, WiFi / Hardware
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Metodología Pentest, Nmap
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Metodología Pentest, Nmap, WiFi / Hardware
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Nmap, OSINT, WiFi / Hardware
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, OSINT, WiFi / Hardware
+- [[Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, WiFi / Hardware
+- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Nmap, OSINT
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodología Pentest, OSINT, Redes
 
 ### 🛠️ Herramientas
 

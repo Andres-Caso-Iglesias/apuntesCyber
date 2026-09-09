@@ -89,18 +89,19 @@ acceso a esa red y Wireshark abierto puede captu rar las credenciales de cualqui
 Recapitulación integrada Con esta sesión cerramos el modelo OSI. Sabemos que cada capa tiene su responsabilidad y sus vulnerabilidades, que un ataque r eal encadena capas distintas, y que la defensa funciona solo si es también por capas. Hemos visto el cifrado TLS como el mecanismo que protege la capa de presentación, las sesiones y tokens como solución al problema de memoria de HTTP, y hemos comprobado e n vivo con Wireshark que la diferencia entre HTTP y HTTPS no es teórica: es la diferencia entre ver unas credenciales en texto claro o ver datos ilegibles. A partir de aquí arranca la fase activa: Metasploitable, enumeración de servicios y las primeras máq uinas vulnerables.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase14.md|resumen_master_clase14]] — Burp Suite, SQL Injection, SSH
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Burp Suite, SQL Injection, SSH
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Linux, Post-Explotación, SQL Injection
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Post-Explotación, SQL Injection, SSH
-- [[../MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
+- [[resumen_master_clase14.md|resumen_master_clase14]] — IA en Ciberseguridad, Nmap, SQL Injection
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, SQL Injection
+- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, SQL Injection
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Nmap, Post-Explotación
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, Post-Explotación, SQL Injection
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Linux, Nmap, SQL Injection
 
 ### 🛠️ Herramientas
 

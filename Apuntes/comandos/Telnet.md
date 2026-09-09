@@ -30,22 +30,24 @@ nmap -sC -p <port> <host>         # Scripts por defecto
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Nmap.md|Nmap]] — Nmap, Redes
-- [[../../comandos/Hydra.md|Hydra]] — Nmap, Redes, Telnet
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Nmap, Redes
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes
+- [[../../comandos/Hydra.md|Hydra]] — Hydra, Redes, Telnet
+- [[Nmap.md|Nmap]] — Nmap, Redes, Telnet
+- [[../../comandos/Nmap.md|Nmap]] — Hydra, Nmap, Redes
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Nmap, Redes
+- [[../../comandos/Telnet.md|Telnet]] — Hydra, Redes, Telnet
+- [[../../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Nmap, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/Telnet|Telnet]]
 
-> #nmap #redes #telnet
+> #hydra #nmap #redes #telnet

@@ -328,18 +328,19 @@ Bloque copiable a la base de conocimiento del proyecto:
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Hydra, Metasploit
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Hydra, Metasploit
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Hydra
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Hydra, Metasploit
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploit
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — File Upload, GoBuster, Hydra
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Linux, Nmap, OSINT
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — Linux, Nmap, OSINT
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Linux, Nmap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — Linux, Metasploit, Nmap
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Linux, OSINT
 
 ### 🛠️ Herramientas
 

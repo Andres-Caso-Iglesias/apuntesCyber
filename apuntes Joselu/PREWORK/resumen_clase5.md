@@ -145,18 +145,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración aplicación foca de ser FOCA – herramienta de extracción de metadatos de documentos webgoat WebGoat – aplicación vulnerable deliberadamente para práctica de pentesting web querberos / querberos Kerberos – protocolo de autenticación en redes corporativas servidor de radios Servidor RADIUS – servidor de autenticación para redes Wi-Fi empresariales crack (ataque wpa2) KRACK (Key Reinstallation Attack ) – ataque al handshake de WPA2 kiss me Kismet – herramienta de detección de redes y dispositivos inalámbricos oswp / ofensiv security wireless pen test OSWP (Offensive Security Wireless Professional) – certificación de redes Wi-Fi wifi labs Wi-Fi Labs – plataforma virtual de práctica en auditorías Wi-Fi rc de RCE (Remote Code Execution ) – ejecución remota de código emt guión bajo madrid EMT_Madrid – SSID de la red Wi-Fi gratuita de los autobuses de Madrid Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Metasploit, Post-Explotación, SSTI
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — CSRF, Post-Explotación, SSTI
-- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — CSRF, Metasploit, SSTI
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Post-Explotación, SSTI
-- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — Post-Explotación, SSRF, SSTI
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Metasploit, Post-Explotación, SSTI
+- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
 
 ### 🛠️ Herramientas
 

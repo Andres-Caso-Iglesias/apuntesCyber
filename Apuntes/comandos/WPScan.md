@@ -75,26 +75,29 @@ wpscan --url http://10.10.10.x --proxy http://127.0.0.1:8080 --enumerate ap
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Hydra, WPScan, WordPress
-- [[../../comandos/BurpSuite.md|BurpSuite]] — Hydra, WPScan, WordPress
-- [[../05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Command Injection / RCE, Hydra, WPScan
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Command Injection / RCE, Hydra, WPScan
-- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Redes, WordPress
+- [[../05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
+- [[../../apuntes Andres/30.06.2026 Explotación web PortSwigger.md|30.06.2026 Explotación web PortSwigger]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
+- [[../../comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Burp Suite, Redes, WordPress
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #hydra #redes #wordpress #wpscan
+> #burpsuite #command-injection #hydra #netcat #post-explotacion #redes #reverse-shell #wordpress #wpscan

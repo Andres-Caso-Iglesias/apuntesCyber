@@ -128,6 +128,7 @@ que se te ha configurado.
 →
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -136,9 +137,9 @@ que se te ha configurado.
 
 - [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
 - [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
-- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
-- [[../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, IA en Ciberseguridad, Normativa / GRC
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, IA en Ciberseguridad, Redes
 - [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
 
 > #blue-team #ia #normativa #redes

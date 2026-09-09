@@ -355,18 +355,19 @@ animab / N más **Nmap** -- escáner de puertos y servicios Metrasploid / MetaSp
 Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial -- Evolve Academy.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Hydra, Metasploitable / DVWA, Telnet
-- [[resumen_master_clase25.md|resumen_master_clase25]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[resumen_master_clase21.md|resumen_master_clase21]] — Metasploitable / DVWA, SMB / Impacket, SSH
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hydra, John / Hashcat, Metasploitable / DVWA
-- [[resumen_master_clase35.md|resumen_master_clase35]] — Hydra, Metasploit, Post-Explotación
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — FFUF, Metasploit, Telnet
+- [[resumen_master_clase25.md|resumen_master_clase25]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[resumen_master_clase21.md|resumen_master_clase21]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Linux, SSH, Windows
+- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — Linux, Nmap, SSH
 
 ### 🛠️ Herramientas
 

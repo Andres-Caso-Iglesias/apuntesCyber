@@ -215,22 +215,24 @@ systemctl enable backdoor
 - [ ] Persistencia configurada
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Netcat.md|Netcat]] — Linux, Netcat / Reverse Shells, Post-Explotación
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
-- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Netcat / Reverse Shells, Post-Explotación, Reverse Shells
+- [[../comandos/Netcat.md|Netcat]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #forense #linux #netcat #post-explotacion #redes #reverse-shell #ssh
+> #escalada-privilegios #forense #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #ssh

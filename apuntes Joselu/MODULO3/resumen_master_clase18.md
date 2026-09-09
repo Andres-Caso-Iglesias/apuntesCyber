@@ -156,18 +156,19 @@ Y hemos cerrado el análisis forense del laboratorio web entendiendo por qué un
 La próxima sesión arranca con Metasploitable y las primeras explotac iones reales.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Normativa / GRC, SQL Injection
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Linux, SQL Injection, SQLMap
-- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Metasploitable / DVWA, SQL Injection, SQLMap
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — IA en Ciberseguridad, Linux, Normativa / GRC
-- [[resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Linux, Wireshark
-- [[../PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — IA en Ciberseguridad, Normativa / GRC, SQL Injection
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Linux, SQLMap
+- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — IA en Ciberseguridad, SQL Injection, SQLMap
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, IA en Ciberseguridad, Linux
+- [[resumen_master_clase22.md|resumen_master_clase22]] — IA en Ciberseguridad, Linux, Redes
+- [[../PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Redes
 
 ### 🛠️ Herramientas
 

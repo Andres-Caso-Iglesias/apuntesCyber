@@ -183,23 +183,25 @@ wpscan --url http://target --cookie-string "session=abc"
 - [ ] XML-RPC verificado
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/WPScan.md|WPScan]] — Hydra, WPScan, WordPress
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Hydra, WPScan, WordPress
-- [[BurpSuite.md|BurpSuite]] — Hydra, WPScan, WordPress
-- [[../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Burp Suite, Redes
-- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Hydra, WPScan, WordPress
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, Hydra, Redes
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Redes, WordPress
+- [[BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
+- [[../Apuntes/comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, FFUF, Redes
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Redes, WordPress
+- [[Google_Dorks.md|Google_Dorks]] — Redes, WPScan, WordPress
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/FFUF|FFUF]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/WPScan|WPScan]]
 
-> #burpsuite #hydra #redes #wordpress #wpscan
+> #burpsuite #ffuf #hydra #redes #wordpress #wpscan

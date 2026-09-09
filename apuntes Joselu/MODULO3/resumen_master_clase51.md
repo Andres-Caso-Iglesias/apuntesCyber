@@ -163,17 +163,18 @@ La cadena completa:
 El proyecto del **ajedrez con machine learning** queda abierto para la siguiente sesión, donde se construirá la arquitectura completa con orquestador, agentes especializados, grafo vectorial en Neo4J y algoritmo de aprendizaje reforzado.
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/comandos/Windows.md|Windows]] — Redes, Windows
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, Windows
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Redes, Windows
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Redes, Windows
-- [[../../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Windows
-- [[../../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, Windows
+- [[../../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Metodología Pentest, Redes, Windows
+- [[../../Apuntes/comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Windows
+- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[../../Apuntes/comandos/Tmux.md|Tmux]] — Metodología Pentest, Redes, Windows
+- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Metodología Pentest, Redes
 
-> #ia #redes #windows
+> #ia #pentest #redes #windows

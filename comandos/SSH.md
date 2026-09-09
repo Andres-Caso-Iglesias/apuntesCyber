@@ -408,18 +408,19 @@ ssh-copy-id user@host
 ```
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
-- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Post-Explotación, SSH
 - [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Post-Explotación, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, IA en Ciberseguridad, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Hydra, IA en Ciberseguridad, Redes
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[Hydra.md|Hydra]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Post-Explotación, Redes
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — IA en Ciberseguridad, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 

@@ -187,17 +187,18 @@ Se aplicó `x8_lite.py` sobre `index.php` (POST) de la máquina rockstar. El scr
 | valfuzz.py | Introducida (nueva) |
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, GoBuster, Hydra
-- [[../Fuzzing Web.md|Fuzzing Web]] — Burp Suite, Hydra, Linux
-- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Burp Suite, GoBuster, Linux
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Hydra, Linux
-- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — GoBuster, Hydra, Linux
+- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
+- [[../Fuzzing Web.md|Fuzzing Web]] — FFUF, Feroxbuster, Linux
+- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — GoBuster, Kali Linux, Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Linux, Windows
+- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — GoBuster, Linux, Windows
 - [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — GoBuster, Linux, Windows
 
 ### 🛠️ Herramientas

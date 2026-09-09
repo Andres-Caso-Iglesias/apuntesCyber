@@ -378,18 +378,19 @@ cat /root/root.txt
 *Write-up creado el 13 de Julio de 2026*
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Hydra, Metasploit
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Burp Suite, SSH, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — File Upload, GoBuster, SQL Injection
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — File Upload, GoBuster, SQL Injection
-- [[../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Burp Suite, SSH, WordPress
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — File Upload, GoBuster, SQL Injection
+- [[../informes/Informe_Academy.md|Informe_Academy]] — Metasploit, Nmap, WordPress
+- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploit, Nmap, WordPress
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Metasploit, Nmap, WordPress
+- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Metasploit, Nmap, WordPress
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — GoBuster, Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Metasploit, Nmap, WordPress
 
 ### 🛠️ Herramientas
 
@@ -409,4 +410,4 @@ cat /root/root.txt
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #gobuster #hydra #kali #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #gobuster #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan

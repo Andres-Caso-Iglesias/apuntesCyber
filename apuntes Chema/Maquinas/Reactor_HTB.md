@@ -359,23 +359,25 @@ Bloque copiable a la base de conocimiento del proyecto:
 →’
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — Hydra, Metasploitable / DVWA, SQL Injection
-- [[Vaccine.md|Vaccine]] — John / Hashcat, Post-Explotación, SQL Injection
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, John / Hashcat, Post-Explotación
-- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Netcat / Reverse Shells, Post-Explotación
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Metasploitable / DVWA, Post-Explotación, SQL Injection
-- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploitable / DVWA, SQL Injection
+- [[Vaccine.md|Vaccine]] — John / Hashcat, Linux, Nmap
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — John / Hashcat, Linux, Metasploit
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — John / Hashcat, Linux, Nmap
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — John / Hashcat, Linux, Metasploit
+- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — John / Hashcat, Linux, Nmap
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — John / Hashcat, Linux, Metasploit
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -385,4 +387,4 @@ Bloque copiable a la base de conocimiento del proyecto:
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #hack-the-box #hydra #john #linux #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress
+> #command-injection #hack-the-box #hydra #john #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress

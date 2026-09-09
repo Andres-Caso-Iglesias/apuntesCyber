@@ -122,18 +122,19 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 Término en la transcripción Corrección / Aclaración explotación y post-explotación bridge forums BreachForums – foro de la Deep Web para filtración de bases de datos de haced Dehashed – plataforma de búsqueda de credenciales filtradas Resumen elaborado para uso académico en el Máster de Ciberseguridad e Inteligencia Artificial – Wolf Academy. 6
 
 
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Burp Suite, John / Hashcat, SSH
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — John / Hashcat, Post-Explotación, SQL Injection
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Pivoting / Movilidad Lateral, SQL Injection
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Metasploit, Pivoting / Movilidad Lateral, SQL Injection
-- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Blue Team / SOC, Burp Suite, John / Hashcat
-- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]] — John / Hashcat, Pivoting / Movilidad Lateral, SQL Injection
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — Certificaciones, IDOR, Metasploit
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, SSH
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Certificaciones, IA en Ciberseguridad, Metasploit
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — John / Hashcat, Linux, Nmap
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Nmap, OSINT
+- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, IDOR, Metasploit
 
 ### 🛠️ Herramientas
 
