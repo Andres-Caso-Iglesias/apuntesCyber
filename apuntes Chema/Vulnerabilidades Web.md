@@ -1,6 +1,6 @@
-| **Campo** | **Detalle** |
-| ------------- | -------------------------------------------------------------------- |
-| Sesión | Vulnerabilidades Web — OWASP Top 10 2025 + Introducción a Burp Suite |
+| **Campo** | **Detalle**                                                          |
+| --------- | -------------------------------------------------------------------- |
+| Sesión    | Vulnerabilidades Web — OWASP Top 10 2025 + Introducción a Burp Suite |
 
 > →’
 | Instructor | Carlos (Castillo) |
