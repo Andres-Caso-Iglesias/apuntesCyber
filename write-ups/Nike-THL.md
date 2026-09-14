@@ -504,18 +504,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Nmap, Windows
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Metasploit, Nmap
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../apuntes Joselu/MODULO1/resumen_master_clase4.md|resumen_master_clase4]] — Linux, Nmap, Windows
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Linux, Metasploit, Nmap
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Metasploit, Netcat / Reverse Shells, SSH
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Redes
 
 ### 🛠️ Herramientas
 
@@ -527,7 +531,7 @@ cat /root/root.txt
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #escalada-privilegios #hydra #kali #lfi #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe

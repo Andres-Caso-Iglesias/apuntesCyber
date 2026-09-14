@@ -211,18 +211,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, OSINT, Windows
-- [[resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Linux, Windows
+- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Empleabilidad, Forense Digital, Netcat / Reverse Shells
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Empleabilidad, Netcat / Reverse Shells, Normativa / GRC
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Forense Digital, Metasploit, Normativa / GRC
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Empleabilidad, Netcat / Reverse Shells, Normativa / GRC
 
 ### 🛠️ Herramientas
 
@@ -233,5 +237,6 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #metasploit #netcat #normativa #osint #post-explotacion #redes #reverse-shell #wifi #windows
+> #blue-team #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #metasploit #netcat #normativa #osint #post-explotacion #redes #reverse-shell #sqli #wifi #windows

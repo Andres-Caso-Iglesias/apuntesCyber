@@ -109,18 +109,22 @@ traceroute -I 8.8.8.8 # usando ICMP en lugar de UDP
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, Wireshark
 - [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
-- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Redes, Wireshark
 - [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, Wireshark
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Redes, Wireshark
 - [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, Wireshark
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, WiFi / Hardware
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, Redes, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Redes, Wireshark
 
 ### 🛠️ Herramientas
 

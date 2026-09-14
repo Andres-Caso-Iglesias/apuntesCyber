@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Banco" (The Hacker Labs)
 **IP Objetivo:** 192.168.231.161
 **Fecha:** 23 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -417,9 +416,7 @@ ls -la /bin/bash
 └────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -429,21 +426,22 @@ ls -la /bin/bash
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Metasploit, Nmap
-- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Linux, Nmap
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Linux, Nmap
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Nmap
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Linux, Metasploit, Nmap
-- [[../comandos/Tmux.md|Tmux]] — Linux, Metasploit, Redes
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, SSH, Wireshark
+- [[Informe_Castor.md|Informe_Castor]] — Post-Explotación, Redes, SSH
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Post-Explotación, Redes, SSH
+- [[../comandos/Tmux.md|Tmux]] — Metasploit, SSH, Wireshark
+- [[Informe_Cap.md|Informe_Cap]] — Metasploit, SSH, Wireshark
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Metasploit, Post-Explotación, SSH
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #kali #lfi #linux #metasploit #nmap #post-explotacion #redes #ssh #wireshark
+> #kali #lfi #linux #metasploit #nmap #post-explotacion #redes #ssh #tmux #wireshark

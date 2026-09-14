@@ -301,20 +301,25 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Linux, Redes, Windows
-- [[../PREWORK/resumen_clase15.md|resumen_clase15]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Linux, Windows
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, IA en Ciberseguridad, Redes
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Metasploit, Redes
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Metasploit, Wireshark
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Redes, Wireshark
+- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Wireshark
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Metasploit, Wireshark
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 
-> #blue-team #forense #ia #linux #redes #windows #wireshark
+> #blue-team #forense #ia #linux #metasploit #redes #windows #wireshark

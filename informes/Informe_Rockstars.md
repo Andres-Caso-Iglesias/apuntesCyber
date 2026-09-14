@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Rockstars" (The Hacker Labs)
 **IP Objetivo:** 192.168.231.162
 **Fecha:** 23 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -462,26 +461,24 @@ bash -p
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│ FLAGS OBTENIDAS │
+│ FLAGS OBTENIDAS                                            │
 ├────────────────────────────────────────────────────────────┤
-│ USER (shark): [FLAG_USER] │
-│ ROOT: [FLAG_ROOT] │
+│ USER (shark): [FLAG_USER]                                  │
+│ ROOT: [FLAG_ROOT]                                          │
 └────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────┐
-│ ACCESOS LOGRADOS │
+│ ACCESOS LOGRADOS                                           │
 ├────────────────────────────────────────────────────────────┤
-│ ✓ SSH como shark (LFI → db.php → credenciales) │
-│ ✓ Escalada a wvverez (binario bof escribible + sudo) │
-│ ✓ Escalada a loseey (zip2john + John + Hydra SSH) │
-│ ✓ Escalada a username3 (PATH hijacking psutil.py) │
-│ ✓ Escalada a root (BeanShell exec → chmod +s /bin/bash) │
+│ ✓ SSH como shark (LFI → db.php → credenciales)             │
+│ ✓ Escalada a wvverez (binario bof escribible + sudo)       │
+│ ✓ Escalada a loseey (zip2john + John + Hydra SSH)          │
+│ ✓ Escalada a username3 (PATH hijacking psutil.py)          │
+│ ✓ Escalada a root (BeanShell exec → chmod +s /bin/bash)    │
 └────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -491,12 +488,12 @@ bash -p
 
 ### Documentos Relacionados
 
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Linux, Nmap
-- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Linux, Nmap
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
-- [[Informe_Banco.md|Informe_Banco]] — Kali Linux, Linux, Nmap
-- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, Linux, Nmap
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[Informe_Castor.md|Informe_Castor]] — Hydra, Post-Explotación, SSH
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Post-Explotación, SSH
+- [[Informe_Banco.md|Informe_Banco]] — Post-Explotación, Redes, SSH
 
 ### 🛠️ Herramientas
 
@@ -507,6 +504,6 @@ bash -p
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
 > #escalada-privilegios #gobuster #hydra #kali #lfi #linux #nmap #post-explotacion #redes #ssh

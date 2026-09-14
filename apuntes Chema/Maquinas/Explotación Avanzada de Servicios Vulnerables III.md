@@ -456,18 +456,22 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — FFUF, Metasploit, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Metasploit, SSH
-- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Linux, Metasploit
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Feroxbuster, Linux, Metasploit
-- [[../Auditoria web.md|Auditoria web]] — FFUF, Linux, Metasploit
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Feroxbuster, Linux, Metasploit
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Feroxbuster, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -484,6 +488,6 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #xss

@@ -109,18 +109,22 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — GoBuster, Nmap, OSINT
-- [[../../comandos/FFUF.md|FFUF]] — FFUF, GoBuster, Nmap
-- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — FFUF, Feroxbuster, Nmap
-- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
+- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
+- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — DirSearch, FFUF, Feroxbuster
+- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, FFUF, Feroxbuster
 - [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
-- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
 
 ### 🛠️ Herramientas
 

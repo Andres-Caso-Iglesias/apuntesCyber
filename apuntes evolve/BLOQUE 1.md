@@ -167,18 +167,22 @@ El sector afronta una escasez global de profesionales.
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Certificaciones, Normativa / GRC, Windows
-- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Certificaciones, Empleabilidad, SQL Injection
-- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, SQL Injection, Windows
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Empleabilidad, Normativa / GRC
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Certificaciones, WiFi / Hardware, Windows
-- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, WiFi / Hardware, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Metodología Pentest, Post-Explotación
+- [[../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Empleabilidad, Forense Digital, Metodología Pentest
+- [[../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SQL Injection
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Empleabilidad, Normativa / GRC, Redes
+- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Empleabilidad, Redes, SQL Injection
+- [[../README.md|README]] — Empleabilidad, Forense Digital, Metodología Pentest
 
 ### 🛠️ Herramientas
 
@@ -187,6 +191,6 @@ El sector afronta una escasez global de profesionales.
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #blue-team #burpsuite #certificaciones #empleabilidad #forense #normativa #pentest #post-explotacion #redes #sqli #wifi #windows #xss

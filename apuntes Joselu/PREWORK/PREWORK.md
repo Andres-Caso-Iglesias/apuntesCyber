@@ -2430,18 +2430,22 @@ Término en la transcripción Corrección / Aclaración KDBX .kdbx “ formato d
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[resumen_clase17.md|resumen_clase17]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Certificaciones, Metasploit
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Blue Team / SOC, Metasploit, SSRF
+- [[resumen_clase17.md|resumen_clase17]] — Burp Suite, WiFi / Hardware, WordPress
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Command Injection / RCE, WiFi / Hardware, WordPress
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, Hack The Box, WordPress
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Hack The Box, WiFi / Hardware, WordPress
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Command Injection / RCE, Hack The Box, WordPress
 
 ### 🛠️ Herramientas
 
@@ -2464,7 +2468,7 @@ Término en la transcripción Corrección / Aclaración KDBX .kdbx “ formato d
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #blue-team #burpsuite #certificaciones #command-injection #csrf #dirsearch #empleabilidad #escalada-privilegios #esteganografia #file-upload #forense #gobuster #google-dorks #hack-the-box #hydra #ia #idor #john #kali #linux #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #ssrf #telnet #vulnhub #wifi #windows #wireshark #wordpress #wpscan #xss

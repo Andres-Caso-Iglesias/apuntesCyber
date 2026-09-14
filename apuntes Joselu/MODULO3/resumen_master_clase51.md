@@ -164,17 +164,25 @@ El proyecto del **ajedrez con machine learning** queda abierto para la siguiente
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Metodología Pentest, Redes, Windows
-- [[../../Apuntes/comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Windows
-- [[../../apuntes Chema/IA/IA — Redes Neuronales.md|IA — Redes Neuronales]] — IA en Ciberseguridad, Metodología Pentest, Redes
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Metodología Pentest, Redes
-- [[../../Apuntes/comandos/Tmux.md|Tmux]] — Metodología Pentest, Redes, Windows
-- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Metodología Pentest, Redes
+- [[../../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
 
-> #ia #pentest #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Tmux|Tmux]]
+
+> #ia #linux #pentest #redes #tmux #windows

@@ -213,22 +213,27 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Linux, Redes, Windows
-- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Linux, SQL Injection, Windows
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, SMB / Impacket, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Redes, Windows
-- [[BLOQUE 8.md|BLOQUE 8]] — Linux, SMB / Impacket, Windows
-- [[../apuntes Joselu/MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — SMB / Impacket, SQL Injection, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Metasploit, Wireshark
+- [[../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Wireshark
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Metasploit, Wireshark
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Metasploit, Redes
+- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Forense Digital, Hydra, Metasploit
+- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, SQL Injection, SSH
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 
@@ -236,4 +241,4 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #forense #hydra #linux #redes #smb-impacket #sqli #ssh #windows #wireshark
+> #blue-team #forense #hydra #linux #metasploit #redes #smb-impacket #sqli #ssh #windows #wireshark

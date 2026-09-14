@@ -322,18 +322,22 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase34.md|resumen_master_clase34]] — IA en Ciberseguridad, Linux, Metasploit
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Linux, Metasploit
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — Feroxbuster, Linux, Metasploit
-- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — Feroxbuster, Linux, Metasploit
-- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Linux, Metasploit
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, Metasploit, SQLMap
+- [[resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — File Upload, IDOR, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, IDOR, Netcat / Reverse Shells
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, IDOR, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -348,4 +352,4 @@ Término en la transcripción Corrección / Aclaración
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh
+> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub

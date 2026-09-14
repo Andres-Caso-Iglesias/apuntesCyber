@@ -241,18 +241,22 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — FFUF, IA en Ciberseguridad, Metasploit
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Certificaciones, IA en Ciberseguridad, Metasploit
-- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Certificaciones, Metasploit, SSRF
-- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
+- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
+- [[PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Blue Team / SOC, Burp Suite, Command Injection / RCE
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Blue Team / SOC, Burp Suite, Command Injection / RCE
+- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
@@ -268,11 +272,11 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #blue-team #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #esteganografia #ffuf #file-upload #google-dorks #hydra #ia #idor #lfi #linux #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssrf #ssti #wifi #windows #wireshark #xss #xxe

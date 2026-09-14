@@ -108,22 +108,27 @@ chown user:group <file>          # Cambiar propietario
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Tmux.md|Tmux]] — Linux, Tmux, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
-- [[../../comandos/Windows.md|Windows]] — Linux, Tmux, Windows
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
-- [[Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
-- [[Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
+- [[Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Hydra, Linux
+- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
+- [[SSH.md|SSH]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 - [[comandos/Tmux|Tmux]]
 
-> #linux #pentest #redes #ssh #tmux #windows
+> #escalada-privilegios #hydra #linux #pentest #redes #ssh #tmux #windows

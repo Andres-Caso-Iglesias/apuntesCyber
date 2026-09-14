@@ -102,18 +102,22 @@ Al cerrar esta sesión hemos convertido en práctica real todo el marco teórico
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, SQLMap, Windows
-- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Post-Explotación, SMB / Impacket, Windows
-- [[../../comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, SQLMap, Windows
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, SQLMap, Windows
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — SMB / Impacket, SQL Injection, Windows
-- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — IA en Ciberseguridad, SQL Injection, SQLMap
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, SQL Injection, SQLMap
+- [[../../comandos/SQLMap.md|SQLMap]] — Hack The Box, SQL Injection, SQLMap
+- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, SMB / Impacket, Wireshark
+- [[../../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Hack The Box, SMB / Impacket, SQLMap
+- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Forense Digital, SQLMap, Wireshark
+- [[../../informes/Informe_vaccine.md|Informe_vaccine]] — Hack The Box, SQL Injection, SQLMap
 
 ### 🛠️ Herramientas
 

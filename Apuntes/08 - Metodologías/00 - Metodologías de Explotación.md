@@ -97,18 +97,22 @@
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, VulnHub, Windows
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Linux, Windows, XSS
-- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Linux, VulnHub, Windows
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Linux, Windows, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Windows, WordPress
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Linux, Windows, WordPress
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, SMB / Impacket, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, SMB / Impacket, SQLMap
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, Linux, SQLMap
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, Linux, SMB / Impacket
+- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Linux, SQL Injection, SQLMap
+- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, Linux, SMB / Impacket
 
 ### 🛠️ Herramientas
 
@@ -123,7 +127,7 @@
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #feroxbuster #hack-the-box #hydra #linux #pentest #post-explotacion #redes #smb-impacket #sqli #sqlmap #ssh #ssrf #vulnhub #windows #wordpress #wpscan #xss

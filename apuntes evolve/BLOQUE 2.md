@@ -189,18 +189,22 @@ done
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Linux, Metasploit, Windows
-- [[../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Nmap, Windows
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, Windows
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, Metasploit, Windows
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, Nmap
-- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Linux, Metasploit, Windows
+- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
+- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -214,4 +218,4 @@ done
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #escalada-privilegios #esteganografia #forense #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows
+> #escalada-privilegios #esteganografia #forense #hack-the-box #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows

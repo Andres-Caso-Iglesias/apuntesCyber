@@ -211,18 +211,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — IA en Ciberseguridad, Linux, Metasploit
-- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — IA en Ciberseguridad, Linux, Windows
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Linux, Metasploit, Windows
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, Windows
-- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Linux, Metasploit, Windows
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

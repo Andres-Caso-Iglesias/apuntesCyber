@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Castor" (The Hacker Labs)
 **IP Objetivo:** IP_DE_LA_MAQUINA
 **Fecha:** 23 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -315,9 +314,7 @@ ls -la /bin/bash
 └────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -327,12 +324,12 @@ ls -la /bin/bash
 
 ### Documentos Relacionados
 
-- [[../write-ups/Castor-THL.md|Castor-THL]] — John / Hashcat, Linux, Nmap
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Linux, Nmap
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — John / Hashcat, Linux, Nmap
-- [[Informe_Banco.md|Informe_Banco]] — Kali Linux, Linux, Nmap
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Kali Linux, Linux, Nmap
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Kali Linux, Linux, Nmap
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, SSH
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Post-Explotación, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, SSH
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Post-Explotación, SSH
+- [[Informe_Banco.md|Informe_Banco]] — Post-Explotación, Redes, SSH
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Hydra, Redes, SSH
 
 ### 🛠️ Herramientas
 
@@ -343,7 +340,7 @@ ls -la /bin/bash
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #hydra #john #kali #lfi #linux #nmap #post-explotacion #redes #ssh #xxe

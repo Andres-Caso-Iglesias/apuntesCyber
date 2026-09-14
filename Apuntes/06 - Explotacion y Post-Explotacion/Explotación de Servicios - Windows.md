@@ -134,18 +134,22 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
-- [[Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, VulnHub, Windows
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, VulnHub, Windows
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, VulnHub, Windows
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, VulnHub, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

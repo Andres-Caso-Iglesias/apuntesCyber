@@ -182,18 +182,22 @@ La teoría de este máster (Bloques 2 a 10) te da la base, pero el eJPT se aprue
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Nmap, OSINT
-- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Linux, Nmap, OSINT
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, OSINT
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, Windows
-- [[BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Normativa / GRC, Pivoting / Movilidad Lateral, SQLMap
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Linux, SQLMap
+- [[BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Linux, SQLMap
 
 ### 🛠️ Herramientas
 

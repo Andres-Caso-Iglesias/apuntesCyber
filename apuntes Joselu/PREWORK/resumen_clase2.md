@@ -163,18 +163,22 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase12.md|resumen_clase12]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase13.md|resumen_clase13]] — IA en Ciberseguridad, Metasploit, Windows
+- [[resumen_clase6.md|resumen_clase6]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[resumen_clase7.md|resumen_clase7]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[resumen_clase12.md|resumen_clase12]] — Metasploit, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 
@@ -184,5 +188,6 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #command-injection #ia #metasploit #netcat #normativa #post-explotacion #redes #reverse-shell #windows
+> #blue-team #command-injection #ia #metasploit #netcat #normativa #post-explotacion #redes #reverse-shell #sqli #windows

@@ -85,18 +85,22 @@ SecLists/Discovery/DNS/subdomains-top1million-5000.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 

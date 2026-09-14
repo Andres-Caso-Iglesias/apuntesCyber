@@ -175,26 +175,31 @@ La prÃ³xima sesiÃ³n entrarÃ¡ en el modelo OSI y en Wireshark, donde todo l
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[resumen_master_clase9.md|resumen_master_clase9]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — IA en Ciberseguridad, Metasploit, OSINT
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Empleabilidad, Metasploit, Wireshark
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Metasploit, WiFi / Hardware
+- [[../../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Empleabilidad, Metasploit, WiFi / Hardware
+- [[resumen_master_clase9.md|resumen_master_clase9]] — Empleabilidad, Metasploit, WiFi / Hardware
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, Post-Explotación, Wireshark
+- [[../../Apuntes/comandos/WPScan.md|WPScan]] — Metasploit, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #empleabilidad #ia #metasploit #netcat #osint #post-explotacion #redes #reverse-shell #wifi #wireshark #wordpress
+> #command-injection #empleabilidad #ia #metasploit #netcat #osint #post-explotacion #redes #reverse-shell #wifi #wireshark #wordpress #wpscan

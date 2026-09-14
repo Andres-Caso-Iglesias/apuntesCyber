@@ -140,18 +140,22 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IDOR, Metasploit, SQLMap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — IDOR, Metasploit, SQLMap
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — IDOR, Netcat / Reverse Shells, Normativa / GRC
-- [[Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — IDOR, Metasploit, SQLMap
-- [[SQL Injection.md|SQL Injection]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — IDOR, Netcat / Reverse Shells, Normativa / GRC
+- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — IDOR, Metasploit, SQL Injection
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Septiembre/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Metasploit, Metodología Pentest, SQLMap
 
 ### 🛠️ Herramientas
 
@@ -164,10 +168,10 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #blue-team #burpsuite #command-injection #hydra #idor #lfi #metasploit #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss #xxe
+> #blue-team #burpsuite #command-injection #hack-the-box #hydra #idor #lfi #metasploit #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss #xxe

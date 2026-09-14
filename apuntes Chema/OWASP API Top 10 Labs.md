@@ -427,18 +427,22 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Linux, Nmap, Windows
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Nmap, Windows
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Nmap, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Linux, Nmap, Windows
-- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
-- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Linux, Metasploit, Windows
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
+- [[../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — IDOR, Linux, Netcat / Reverse Shells
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase41.md|resumen_master_clase41]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
+- [[../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -453,6 +457,6 @@ Estas correcciones se incluyen separadas del contenido de clase para no mezclar 
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #burpsuite #command-injection #escalada-privilegios #hack-the-box #idor #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #windows #xxe

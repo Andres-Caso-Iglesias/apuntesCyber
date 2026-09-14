@@ -90,18 +90,22 @@ Recapitulación integrada Con esta sesión cerramos el modelo OSI. Sabemos que c
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase14.md|resumen_master_clase14]] — IA en Ciberseguridad, Nmap, SQL Injection
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, SQL Injection
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, SQL Injection
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Nmap, Post-Explotación
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, Post-Explotación, SQL Injection
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Linux, Nmap, SQL Injection
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, Wireshark
+- [[resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, Wireshark
+- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Post-Explotación, SQL Injection, SSH
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Post-Explotación, SSH, Wireshark
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Post-Explotación, SQL Injection, SSH
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, SSH, Wireshark
 
 ### 🛠️ Herramientas
 
@@ -112,7 +116,7 @@ Recapitulación integrada Con esta sesión cerramos el modelo OSI. Sabemos que c
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #ia #linux #metasploitable #nmap #post-explotacion #redes #sqli #ssh #ssrf #wireshark #xss

@@ -174,17 +174,21 @@ Obligatorio para bancos y empresas que procesan pagos con tarjeta:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Certificaciones, Empleabilidad, Normativa / GRC
-- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Metodología Pentest, Redes
 - [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Redes
-- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[../../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
+- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, Certificaciones, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]] — Certificaciones, Normativa / GRC, Redes
 
 > #blue-team #certificaciones #empleabilidad #ia #normativa #pentest #redes

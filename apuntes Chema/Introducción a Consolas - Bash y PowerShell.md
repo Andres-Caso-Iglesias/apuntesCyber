@@ -62,17 +62,28 @@ PowerShell es la shell de Windows, también disponible en Linux/macOS. En pentes
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Post-Explotación, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Linux, Metasploit
 
-> #escalada-privilegios #kali #linux #pentest #post-explotacion #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[comandos/SSH|SSH]]
+
+> #escalada-privilegios #hydra #kali #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #windows

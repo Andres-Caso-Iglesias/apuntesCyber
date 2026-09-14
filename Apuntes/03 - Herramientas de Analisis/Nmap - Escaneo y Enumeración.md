@@ -142,22 +142,32 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, Nmap, OSINT
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
-- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Linux, Nmap, OSINT
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Linux, Nmap, OSINT
-- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, OSINT
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Linux, Metasploit, Wireshark
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — FFUF, Linux, Wireshark
+- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Wireshark
+- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Metasploit, Normativa / GRC
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Metasploit, Normativa / GRC
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Linux, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 
 - [[comandos/FFUF|FFUF]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 
-> #blue-team #ffuf #linux #nmap #osint #pentest #redes #wifi #windows #wireshark
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #blue-team #ffuf #hack-the-box #lfi #linux #metasploit #nmap #normativa #osint #pentest #redes #sqli #wifi #windows #wireshark

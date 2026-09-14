@@ -432,18 +432,22 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
-- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — FFUF, Feroxbuster, Linux
-- [[resumen_master_clase44.md|resumen_master_clase44]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Nmap, OSINT
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — GoBuster, Linux, Windows
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Feroxbuster, Linux, Wireshark
+- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — FFUF, Linux, Wireshark
+- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hack The Box, Hydra, SQL Injection
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, Hydra, Linux
+- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — FFUF, Hydra, Linux
+- [[resumen_master_clase44.md|resumen_master_clase44]] — FFUF, Hydra, Linux
 
 ### 🛠️ Herramientas
 
@@ -456,7 +460,7 @@ Término en la transcripción Corrección / Aclaración
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
 > #blue-team #feroxbuster #ffuf #gobuster #hack-the-box #hydra #ia #kali #lfi #linux #nmap #osint #pentest #redes #smb-impacket #sqli #windows #wireshark

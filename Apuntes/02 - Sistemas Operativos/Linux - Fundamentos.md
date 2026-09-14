@@ -177,17 +177,26 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Windows
-- [[../comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Escalada de Privilegios, Linux, Windows
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Redes, Windows
-- [[../comandos/Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
+- [[../comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Metodología Pentest, Redes
+- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
+- [[../comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
 
-> #escalada-privilegios #forense #linux #pentest #redes #windows
+### 🛠️ Herramientas
+
+- [[comandos/Hydra|Hydra]]
+- [[comandos/Tmux|Tmux]]
+
+> #escalada-privilegios #forense #hydra #linux #pentest #redes #tmux #windows

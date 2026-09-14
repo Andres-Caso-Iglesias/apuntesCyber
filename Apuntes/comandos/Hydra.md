@@ -74,18 +74,22 @@ hydra -L users.txt -p admin 10.10.10.x ssh
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[SSH.md|SSH]] — Hydra, Linux, Windows
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Linux, Redes
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
-- [[John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[Linux.md|Linux]] — Linux, Redes, Windows
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, Windows
+- [[Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Hydra, Linux
+- [[SSH.md|SSH]] — Escalada de Privilegios, Hydra, Linux
+- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
+- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Hydra, Linux, SSH
 
 ### 🛠️ Herramientas
 

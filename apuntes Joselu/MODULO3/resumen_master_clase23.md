@@ -356,18 +356,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — FFUF, Metasploit, Telnet
-- [[resumen_master_clase25.md|resumen_master_clase25]] — FFUF, IA en Ciberseguridad, Metasploit
-- [[resumen_master_clase21.md|resumen_master_clase21]] — FFUF, IA en Ciberseguridad, Metasploit
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — Linux, SSH, Windows
-- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../apuntes Chema/Maquinas/HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — Linux, Nmap, SSH
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Command Injection / RCE, Hack The Box, Metasploitable / DVWA
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Burp Suite, Command Injection / RCE, Hack The Box
+- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Burp Suite, Command Injection / RCE, Hack The Box
+- [[resumen_master_clase25.md|resumen_master_clase25]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase21.md|resumen_master_clase21]] — Command Injection / RCE, Metasploitable / DVWA, Path Traversal / LFI
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, Hydra, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -385,6 +389,6 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
 > #burpsuite #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #ia #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #ssh #telnet #windows

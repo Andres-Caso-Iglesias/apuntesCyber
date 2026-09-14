@@ -379,18 +379,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Academy.md|Informe_Academy]] — Metasploit, Nmap, WordPress
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploit, Nmap, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Metasploit, Nmap, WordPress
-- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Metasploit, Nmap, WordPress
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — GoBuster, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Metasploit, Nmap, WordPress
+- [[../informes/Informe_Academy.md|Informe_Academy]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
 
 ### 🛠️ Herramientas
 

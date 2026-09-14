@@ -76,18 +76,22 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Linux, Nmap, Windows
-- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
-- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Linux, Nmap, Windows
-- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Nmap, Windows
+- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Linux, Metasploit
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Hack The Box, Linux, Metasploit
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Linux, Metasploit
+- [[../informes/Informe_Blue.md|Informe_Blue]] — Hack The Box, Metasploit, Redes
+- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, Linux, Metasploit
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Linux, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -95,4 +99,4 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 
-> #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #windows
+> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #windows

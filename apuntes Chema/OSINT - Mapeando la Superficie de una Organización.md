@@ -88,18 +88,22 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Nmap, OSINT
-- [[../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, OSINT
-- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Empleabilidad, Nmap, OSINT
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Nmap, OSINT
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Metodología Pentest, OSINT, Redes
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Nmap, OSINT, WordPress
+- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Metodología Pentest, Redes
+- [[../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Empleabilidad, Metodología Pentest, SSH
+- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, Metodología Pentest, Redes
+- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Nmap, Redes, SSH
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Nmap, Redes
 
 ### 🛠️ Herramientas
 

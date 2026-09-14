@@ -179,18 +179,22 @@ Término en la transcripción Corrección / Aclaración en paralelo para crackin
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — File Upload, Forense Digital, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, Forense Digital, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — File Upload, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Escalada de Privilegios, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
@@ -202,6 +206,6 @@ Término en la transcripción Corrección / Aclaración en paralelo para crackin
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #burpsuite #certificaciones #file-upload #forense #hack-the-box #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss
+> #blue-team #burpsuite #certificaciones #escalada-privilegios #file-upload #forense #hack-the-box #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss

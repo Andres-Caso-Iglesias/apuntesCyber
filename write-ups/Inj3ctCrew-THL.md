@@ -431,18 +431,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Linux, Nmap
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — GoBuster, Linux, Metasploit
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Linux, Nmap
-- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Linux, Nmap
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -456,6 +460,7 @@ cat /root/root.txt
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #command-injection #escalada-privilegios #ffuf #gobuster #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh
+> #command-injection #escalada-privilegios #ffuf #gobuster #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #xxe

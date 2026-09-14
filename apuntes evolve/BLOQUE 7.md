@@ -95,18 +95,22 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Nmap, Windows
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, Windows
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -115,4 +119,4 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows
+> #escalada-privilegios #forense #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows

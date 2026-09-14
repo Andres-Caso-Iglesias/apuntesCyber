@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Inj3ctCrew" (The Hacker Labs)
 **IP Objetivo:** 192.168.231.163
 **Fecha:** 14 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -394,9 +393,7 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 └────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -406,12 +403,12 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 
 ### Documentos Relacionados
 
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Linux, Nmap
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Linux, Metasploit, Nmap
-- [[Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
-- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Linux, Nmap
-- [[../apuntes Chema/Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Linux, Nmap
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — John / Hashcat, Linux, Nmap
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -425,6 +422,7 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #command-injection #escalada-privilegios #gobuster #john #kali #lfi #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh
+> #command-injection #escalada-privilegios #gobuster #john #kali #lfi #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #xxe

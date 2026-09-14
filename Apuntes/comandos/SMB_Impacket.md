@@ -104,21 +104,26 @@ crackmapexec winrm <host> -u <user> -p <pass>
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Redes, SMB / Impacket, Windows
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
-- [[Windows.md|Windows]] — Metodología Pentest, Redes, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Metodología Pentest, Redes, Windows
-- [[Tmux.md|Tmux]] — Metodología Pentest, Redes, Windows
-- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Metodología Pentest, Redes, Windows
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, SMB / Impacket
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
+- [[Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
 
 ### 🛠️ Herramientas
 
 - [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/Tmux|Tmux]]
 
-> #pentest #redes #smb-impacket #windows
+> #linux #pentest #redes #smb-impacket #tmux #windows

@@ -658,18 +658,22 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, IA en Ciberseguridad, Windows
-- [[IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
-- [[IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, Windows
-- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, OSINT, Windows
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Post-Explotación
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, Redes, SSH
+- [[IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Linux, Post-Explotación, SSH
+- [[IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SSH
+- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Post-Explotación, Redes
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Post-Explotación, Redes, Windows
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Post-Explotación, Redes, SSH
 
 ### 🛠️ Herramientas
 

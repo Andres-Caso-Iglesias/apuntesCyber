@@ -371,6 +371,10 @@ def agente_auditoria(url):
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -378,11 +382,11 @@ def agente_auditoria(url):
 ### Documentos Relacionados
 
 - [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, IA en Ciberseguridad, Redes
-- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
+- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, Certificaciones, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, Linux, Redes
 - [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Certificaciones, IA en Ciberseguridad, Linux
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Certificaciones, IA en Ciberseguridad, Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Certificaciones, Linux, Redes
 
 ### 🛠️ Herramientas
 

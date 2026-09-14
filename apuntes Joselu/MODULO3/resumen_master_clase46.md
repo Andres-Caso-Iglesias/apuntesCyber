@@ -267,6 +267,10 @@ Término Explicación
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -277,7 +281,7 @@ Término Explicación
 - [[../PREWORK/resumen_clase9.md|resumen_clase9]] — IA en Ciberseguridad, Normativa / GRC, Redes
 - [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
 - [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes
-- [[resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — IA en Ciberseguridad, Normativa / GRC, Redes
 
 > #ia #normativa #redes

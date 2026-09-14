@@ -126,18 +126,22 @@ Término en la transcripción Corrección / Aclaración cherry tree CherryTree �
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Nmap, Windows
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Nmap, OSINT, Post-Explotación
-- [[../../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
+- [[resumen_clase4.md|resumen_clase4]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Escalada de Privilegios, IDOR, Linux
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Metodología Pentest, Post-Explotación, Redes
+- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 

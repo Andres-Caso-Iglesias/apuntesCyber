@@ -373,18 +373,22 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — GoBuster, Linux, Nmap
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
-- [[Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — GoBuster, Linux, Nmap
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Escalada de Privilegios, FFUF, Feroxbuster
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Feroxbuster, Linux
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Post-Explotación, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, FFUF, SSH
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Escalada de Privilegios, FFUF, Linux
+- [[../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — FFUF, Feroxbuster, Linux
 
 ### 🛠️ Herramientas
 

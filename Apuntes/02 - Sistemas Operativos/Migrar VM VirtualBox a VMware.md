@@ -121,23 +121,28 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, Nmap
-- [[../comandos/DirSearch.md|DirSearch]] — FFUF, Linux, Redes
-- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — FFUF, IA en Ciberseguridad, Linux
-- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Redes
-- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, FFUF, Redes
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, IA en Ciberseguridad, Linux
+- [[../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Hack The Box
+- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
+- [[../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, Redes
+- [[../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/DirSearch|DirSearch]]
+- [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
 - [[comandos/Nmap|Nmap]]
 
-> #dirsearch #ffuf #hack-the-box #ia #linux #nmap #redes
+> #dirsearch #feroxbuster #ffuf #hack-the-box #linux #nmap #redes

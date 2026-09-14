@@ -218,18 +218,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Linux, Nmap, WiFi / Hardware
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[resumen_master_clase19.md|resumen_master_clase19]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[resumen_master_clase26.md|resumen_master_clase26]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Hack The Box, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -242,5 +246,6 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploit #metasploitable #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #telnet #wifi #windows
+> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploit #metasploitable #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #wifi #windows

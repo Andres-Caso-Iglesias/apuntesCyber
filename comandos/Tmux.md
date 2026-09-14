@@ -175,18 +175,22 @@ bind -n M-Down select-pane -D
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Telnet.md|Telnet]] — Linux, Post-Explotación, Tmux
-- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Hydra, Linux, Tmux
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Redes
-- [[../Apuntes/comandos/SSH.md|SSH]] — Hydra, Linux, Metasploit
-- [[../informes/Informe_Banco.md|Informe_Banco]] — Linux, Metasploit, Redes
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Post-Explotación
+- [[../Apuntes/comandos/SSH.md|SSH]] — Escalada de Privilegios, Linux, Metasploit
+- [[Telnet.md|Telnet]] — Escalada de Privilegios, Hydra, Wireshark
+- [[../informes/Informe_Cap.md|Informe_Cap]] — Escalada de Privilegios, Metasploit, Wireshark
+- [[../Apuntes/comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
+- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -198,6 +202,6 @@ bind -n M-Down select-pane -D
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
-> #escalada-privilegios #hydra #lfi #linux #metasploit #pentest #post-explotacion #redes #ssh #telnet #tmux #wireshark
+> #escalada-privilegios #hydra #lfi #linux #metasploit #pentest #post-explotacion #redes #ssh #telnet #tmux #windows #wireshark

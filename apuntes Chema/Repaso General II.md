@@ -369,18 +369,22 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Linux, Nmap, SQL Injection
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Linux, Nmap, Windows
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Linux, Nmap, Windows
-- [[Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Linux, Nmap, SQL Injection
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Hydra, Linux
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Escalada de Privilegios, Hydra, SSH
+- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, Hydra, Linux
+- [[Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — Hydra, Linux, SSH
 
 ### 🛠️ Herramientas
 
@@ -392,8 +396,8 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
 
 > #burpsuite #dirsearch #escalada-privilegios #hydra #lfi #linux #nmap #pentest #redes #sqli #ssh #ssti #windows

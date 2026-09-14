@@ -135,18 +135,22 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
-- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
-- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Certificaciones, Normativa / GRC, Windows
-- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, Windows
-- [[resumen_clase4.md|resumen_clase4]] — IA en Ciberseguridad, Nmap, Windows
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
+- [[resumen_clase11.md|resumen_clase11]] — Forense Digital, Metodología Pentest, Redes
+- [[resumen_clase7.md|resumen_clase7]] — Escalada de Privilegios, Forense Digital, Post-Explotación
+- [[../../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Forense Digital, Metodología Pentest, Post-Explotación
+- [[resumen_clase14.md|resumen_clase14]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[resumen_clase4.md|resumen_clase4]] — Escalada de Privilegios, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 

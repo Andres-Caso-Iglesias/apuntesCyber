@@ -195,18 +195,22 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
-- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Nmap, Windows
-- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
-- [[../06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, Windows
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
+- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -217,6 +221,6 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #blue-team #escalada-privilegios #forense #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows #xxe

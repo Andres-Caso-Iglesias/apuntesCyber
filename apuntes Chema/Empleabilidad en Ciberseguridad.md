@@ -122,18 +122,22 @@ La visibilidad en la comunidad de ciberseguridad es un multiplicador de oportuni
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Fuzzing Web.md|Fuzzing Web]] — Empleabilidad, Kali Linux, Linux
-- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Certificaciones, VulnHub, XSS
-- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Kali Linux, Linux, VulnHub
-- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Certificaciones, Kali Linux, Linux
-- [[../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Certificaciones, Kali Linux, Linux
-- [[../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Certificaciones, Kali Linux, Linux
+- [[Fuzzing Web.md|Fuzzing Web]] — Empleabilidad, Hack The Box, Linux
+- [[../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hack The Box, Linux, SQL Injection
+- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hack The Box, Linux, SQL Injection
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Hack The Box, Linux
+- [[../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Linux, SQL Injection
+- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Empleabilidad, Hack The Box, Linux
 
 ### 🛠️ Herramientas
 
@@ -141,8 +145,9 @@ La visibilidad en la comunidad de ciberseguridad es un multiplicador de oportuni
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #blue-team #burpsuite #certificaciones #empleabilidad #hack-the-box #kali #lfi #linux #pentest #redes #sqli #vulnhub #xss
+> #blue-team #burpsuite #certificaciones #empleabilidad #hack-the-box #kali #lfi #linux #pentest #redes #sqli #ssti #vulnhub #xss

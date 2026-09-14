@@ -173,22 +173,27 @@ impacket-secretsdump dominio.local/administrador:contrasena@<IP_DC>
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, SMB / Impacket, Windows
-- [[../comandos/Windows.md|Windows]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, SMB / Impacket, Windows
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Linux, Redes, Windows
-- [[../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
+- [[../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
+- [[../comandos/John_Hashcat.md|John_Hashcat]] — Hydra, Linux, Redes
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[comandos/Tmux|Tmux]]
 
-> #hydra #linux #pentest #redes #smb-impacket #windows
+> #hydra #linux #pentest #redes #smb-impacket #tmux #windows

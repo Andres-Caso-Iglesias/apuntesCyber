@@ -220,18 +220,22 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Nmap, OSINT
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Nmap, OSINT
-- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Windows
-- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Nmap, Windows
-- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Nmap, OSINT
+- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
+- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Metasploit, Normativa / GRC, Wireshark
 
 ### 🛠️ Herramientas
 
@@ -240,4 +244,4 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SSH|SSH]]
 
-> #blue-team #forense #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #post-explotacion #redes #smb-impacket #ssh #windows #wireshark
+> #blue-team #forense #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #smb-impacket #ssh #windows #wireshark

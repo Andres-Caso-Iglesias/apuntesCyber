@@ -195,22 +195,26 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_master_clase4.md|resumen_master_clase4]] — IA en Ciberseguridad, Linux, Windows
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metasploit, Windows
+- [[resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[resumen_master_clase4.md|resumen_master_clase4]] — Escalada de Privilegios, Metasploit, Normativa / GRC
+- [[../../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
-> #blue-team #escalada-privilegios #forense #ia #kali #linux #metasploit #netcat #normativa #pivoting #redes #reverse-shell #windows
+> #blue-team #escalada-privilegios #forense #ia #kali #linux #metasploit #netcat #normativa #pentest #pivoting #redes #reverse-shell #windows

@@ -64,35 +64,35 @@
 
 ## 06 — Explotación y Post-Explotación
 
-- [[06 - Explotacion y Post-Explotacion/Metodolog\u00eda de Explotaci\u00f3n|Metodolog\u00eda de Explotaci\u00f3n]]
-- [[06 - Explotacion y Post-Explotacion/Explotaci\u00f3n de Servicios - Linux|Explotaci\u00f3n de Servicios Linux]]
-- [[06 - Explotacion y Post-Explotacion/Explotaci\u00f3n de Servicios - Windows|Explotaci\u00f3n de Servicios Windows]]
-- [[06 - Explotacion y Post-Explotacion/Explotaci\u00f3n Avanzada de Servicios Vulnerables II - Metasploitable|Explotaci\u00f3n Avanzada II]]
-- [[06 - Explotacion y Post-Explotacion/Explotaci\u00f3n Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL|Explotaci\u00f3n Avanzada III]]
-- [[06 - Explotacion y Post-Explotacion/Explotaci\u00f3n de M\u00e1quinas Locales I - Oopsie y Archetype|M\u00e1quinas Locales I]]
+- [[06 - Explotacion y Post-Explotacion/Metodología de Explotación|Metodología de Explotación]]
+- [[06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux|Explotación de Servicios Linux]]
+- [[06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows|Explotación de Servicios Windows]]
+- [[06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable|Explotación Avanzada II]]
+- [[06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL|Explotación Avanzada III]]
+- [[06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype|Máquinas Locales I]]
 - [[06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot|Son ROBOTS]]
-- [[06 - Explotacion y Post-Explotacion/Pr\u00e1cticas CTF - HTB y VulnHub|Pr\u00e1cticas CTF]]
-- [[06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotaci\u00f3n|Reverse Shells y Post-Explotaci\u00f3n]]
+- [[06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub|Prácticas CTF]]
+- [[06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación|Reverse Shells y Post-Explotación]]
 - [[06 - Explotacion y Post-Explotacion/Escalada de Privilegios|Escalada de Privilegios]]
-- [[06 - Explotacion y Post-Explotacion/Anonimato e Ingenier\u00eda Social|Anonimato e Ingenier\u00eda Social]]
+- [[06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social|Anonimato e Ingeniería Social]]
 
 ---
 
-## 07 — Metodolog\u00edas
+## 07 — Metodologías
 
-- [[08 - Metodolog\u00edas/00 - Metodolog\u00edas de Explotaci\u00f3n|Metodolog\u00edas de Explotaci\u00f3n]]
-- [[08 - Metodolog\u00edas/Metodolog\u00eda - Aplicaciones Web|Metodolog\u00eda Aplicaciones Web]]
-- [[08 - Metodolog\u00edas/Metodolog\u00eda - Explotaci\u00f3n Linux|Metodolog\u00eda Explotaci\u00f3n Linux]]
-- [[08 - Metodolog\u00edas/Metodolog\u00eda - Explotaci\u00f3n Windows|Metodolog\u00eda Explotaci\u00f3n Windows]]
-- [[08 - Metodolog\u00edas/Metodolog\u00eda - Active Directory|Metodolog\u00eda Active Directory]]
+- [[08 - Metodologías/00 - Metodologías de Explotación|Metodologías de Explotación]]
+- [[08 - Metodologías/Metodologia - Aplicaciones Web|Metodología Aplicaciones Web]]
+- [[08 - Metodologías/Metodología - Explotación Linux|Metodología Explotación Linux]]
+- [[08 - Metodologías/Metodología - Explotación Windows|Metodología Explotación Windows]]
+- [[08 - Metodologías/Metodología - Active Directory|Metodología Active Directory]]
 - [[09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral|Pivoting y Movilidad Lateral]]
 
 ---
 
 ## 08 — Especializaciones
 
-- [[10 - Redes WiFi y Hardware/Auditor\u00eda WiFi y Car Hacking|Auditor\u00eda WiFi y Car Hacking]]
-- [[11 - Forense Digital/An\u00e1lisis Forense y Memoria|An\u00e1lisis Forense y Memoria]]
+- [[10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking|Auditoría WiFi y Car Hacking]]
+- [[11 - Forense Digital/Análisis Forense y Memoria|Análisis Forense y Memoria]]
 - [[12 - Blue Team y SOC/Blue Team - SOC e Incidentes|Blue Team, SOC e Incidentes]]
 - [[13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS|Normativa y GRC]]
 - [[14 - IA en Ciberseguridad/IA en Ciberseguridad|IA en Ciberseguridad]]
@@ -112,8 +112,8 @@
 | Herramienta | Comando |
 |-------------|---------|
 | [[comandos/Nmap\|Nmap]] | Escaneo de puertos |
-| [[comandos/Metasploit\|Metasploit]] | Explotaci\u00f3n |
-| [[comandos/BurpSuite\|Burp Suite]] | Auditor\u00eda web |
+| [[comandos/Metasploit\|Metasploit]] | Explotación |
+| [[comandos/BurpSuite\|Burp Suite]] | Auditoría web |
 | [[comandos/Hydra\|Hydra]] | Fuerza bruta |
 | [[comandos/SQLMap\|SQLMap]] | SQL Injection |
 | [[comandos/FFUF\|FFUF]] | Fuzzing |
@@ -129,4 +129,4 @@
 | [[comandos/Tmux\|Tmux]] | Terminal multiplexer |
 | [[comandos/Linux\|Linux]] | Comandos generales |
 | [[comandos/Windows\|Windows]] | Comandos Windows |
-| [[comandos/Google_Dorks\|Google Dorks]] | B\u00fasqueda avanzada |
+| [[comandos/Google_Dorks\|Google Dorks]] | Búsqueda avanzada |

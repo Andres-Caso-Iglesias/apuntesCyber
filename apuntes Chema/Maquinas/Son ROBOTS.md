@@ -294,18 +294,22 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Esteganografía, Metasploit, VulnHub
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Linux, Nmap, VulnHub
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Nmap, Windows
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, Nmap, VulnHub
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Linux, Nmap, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Feroxbuster, Hack The Box, WordPress
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

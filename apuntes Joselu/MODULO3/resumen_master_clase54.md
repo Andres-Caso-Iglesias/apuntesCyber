@@ -325,18 +325,22 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase47.md|resumen_master_clase47]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase49.md|resumen_master_clase49]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[resumen_master_clase52.md|resumen_master_clase52]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Post-Explotación, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -349,6 +353,7 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
 
-> #burpsuite #command-injection #hack-the-box #ia #metasploit #metasploitable #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #ssti
+> #burpsuite #command-injection #hack-the-box #ia #metasploit #metasploitable #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti

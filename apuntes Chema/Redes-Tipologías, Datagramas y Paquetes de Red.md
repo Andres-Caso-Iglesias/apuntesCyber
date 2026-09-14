@@ -93,18 +93,22 @@ Los metadatos (EXIF) de imágenes pueden revelar información crítica para OSIN
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Nmap, OSINT, WiFi / Hardware
-- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Nmap, OSINT
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, Windows
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Esteganografía, Metodología Pentest
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, WiFi / Hardware
+- [[OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Linux, WiFi / Hardware
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Linux, WiFi / Hardware
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Redes, WiFi / Hardware
 
 ### 🛠️ Herramientas
 

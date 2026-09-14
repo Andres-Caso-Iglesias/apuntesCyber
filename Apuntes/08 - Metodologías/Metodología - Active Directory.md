@@ -240,18 +240,22 @@ Get-DomainComputer
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../comandos/Linux.md|Linux]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../comandos/Tmux.md|Tmux]] — Redes, Tmux, Windows
 - [[../comandos/Windows.md|Windows]] — Redes, Tmux, Windows
-- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Tmux
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, Tmux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Redes, Tmux, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Tmux, Windows
+- [[../../comandos/Windows.md|Windows]] — Redes, Tmux, Windows
 
 ### 🛠️ Herramientas
 

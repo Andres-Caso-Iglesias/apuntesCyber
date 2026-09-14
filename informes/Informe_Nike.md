@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Nike" (The Hacker Labs)
 **IP Objetivo:** 192.168.231.160
 **Fecha:** 23 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -544,9 +543,7 @@ find / -perm -u=s 2>/dev/null
 └────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -556,12 +553,12 @@ find / -perm -u=s 2>/dev/null
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Linux, Nmap, Windows
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Nmap, Windows
-- [[../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Linux, Metasploit
+- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Hack The Box, Linux, Metasploit
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Metasploit, Netcat / Reverse Shells, SSH
+- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Hack The Box, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -572,6 +569,7 @@ find / -perm -u=s 2>/dev/null
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe
+> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #sqli #ssh #windows #xxe

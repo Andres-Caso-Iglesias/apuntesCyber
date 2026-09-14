@@ -216,18 +216,22 @@ systemctl enable backdoor
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Netcat.md|Netcat]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Metasploit
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
+- [[../comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -235,4 +239,4 @@ systemctl enable backdoor
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #forense #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #ssh
+> #escalada-privilegios #forense #linux #metasploit #netcat #pivoting #post-explotacion #redes #reverse-shell #ssh

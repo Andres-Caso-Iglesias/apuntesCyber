@@ -160,18 +160,22 @@ La próxima sesión continúa con la explotación de los servicios restantes de 
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Certificaciones, Metasploit, Nmap
-- [[resumen_master_clase30.md|resumen_master_clase30]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Certificaciones, Metasploit, Nmap
-- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Linux, Metasploit, Nmap
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, Metasploit, Nmap
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, OSINT, WordPress
+- [[resumen_master_clase30.md|resumen_master_clase30]] — Command Injection / RCE, Escalada de Privilegios, WordPress
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
+- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Command Injection / RCE, WordPress
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
 
 ### 🛠️ Herramientas
 
@@ -187,4 +191,4 @@ La próxima sesión continúa con la explotación de los servicios restantes de 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #certificaciones #command-injection #escalada-privilegios #file-upload #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan
+> #blue-team #certificaciones #command-injection #escalada-privilegios #file-upload #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan

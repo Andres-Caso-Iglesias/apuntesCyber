@@ -222,26 +222,31 @@ sqlmap -u "URL" --os-pwn
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Linux, Metasploit, Windows
-- [[../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — IA en Ciberseguridad, Linux, Windows
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
-- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
-- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, Linux, SQLMap
+- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Metasploit, Netcat / Reverse Shells, SQLMap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/SQLMap|SQLMap]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #ia #linux #metasploit #pentest #post-explotacion #redes #sqli #sqlmap #windows
+> #hack-the-box #ia #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows

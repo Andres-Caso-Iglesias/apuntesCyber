@@ -319,18 +319,22 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Linux, Metasploit
-- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Windows
-- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — IA en Ciberseguridad, Linux, Windows
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase45.md|resumen_master_clase45]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -344,8 +348,8 @@ Término en la transcripción Corrección / Aclaración
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #burpsuite #command-injection #escalada-privilegios #ffuf #gobuster #ia #lfi #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xxe

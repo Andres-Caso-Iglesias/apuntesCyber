@@ -129,18 +129,22 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, VulnHub, Windows
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) — Repaso en profundidad.md|Vaccine (Tier 2) — Repaso en profundidad]] — IDOR, Metasploit, VulnHub
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, VulnHub, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, VulnHub, Windows
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, VulnHub, Windows
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Burp Suite, Command Injection / RCE, Hack The Box
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — IDOR, Linux, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, IDOR, Netcat / Reverse Shells
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, Netcat / Reverse Shells, SQLMap
 
 ### 🛠️ Herramientas
 

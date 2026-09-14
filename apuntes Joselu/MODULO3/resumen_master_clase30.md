@@ -362,18 +362,22 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Linux, Metasploit, Nmap
-- [[resumen_master_clase19.md|resumen_master_clase19]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — IA en Ciberseguridad, Linux, Nmap
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — IA en Ciberseguridad, Linux, Nmap
-- [[resumen_master_clase35.md|resumen_master_clase35]] — IA en Ciberseguridad, Linux, Nmap
-- [[resumen_master_clase45.md|resumen_master_clase45]] — IA en Ciberseguridad, Linux, Nmap
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, Escalada de Privilegios, WordPress
+- [[resumen_master_clase19.md|resumen_master_clase19]] — Command Injection / RCE, Escalada de Privilegios, WordPress
+- [[resumen_master_clase35.md|resumen_master_clase35]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -388,6 +392,6 @@ Término en la transcripción Corrección / Aclaración
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan #xxe
+> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan #xxe

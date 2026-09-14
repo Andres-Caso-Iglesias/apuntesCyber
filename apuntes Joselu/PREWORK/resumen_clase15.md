@@ -102,18 +102,22 @@ Término en la transcripción Corrección / Aclaración intelligence ex / inteli
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Post-Explotación, Windows
-- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Linux, Windows
-- [[../MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — IA en Ciberseguridad, Linux, Windows
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Burp Suite, Escalada de Privilegios, Redes
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Hydra
+- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Forense Digital, Post-Explotación
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Forense Digital, Hydra
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Forense Digital, Redes
+- [[resumen_clase10.md|resumen_clase10]] — Escalada de Privilegios, Forense Digital, Hydra
 
 ### 🛠️ Herramientas
 
@@ -122,6 +126,6 @@ Término en la transcripción Corrección / Aclaración intelligence ex / inteli
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #blue-team #burpsuite #escalada-privilegios #forense #hydra #ia #linux #post-explotacion #redes #windows #xss

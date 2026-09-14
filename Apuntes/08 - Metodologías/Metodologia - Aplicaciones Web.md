@@ -124,18 +124,22 @@
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — Metasploit, Post-Explotación, SSRF
-- [[../../apuntes Chema/Repaso Metodología Web — SSTI CasaPaco.md|Repaso Metodología Web — SSTI CasaPaco]] — Command Injection / RCE, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — FFUF, GoBuster, Metasploit
-- [[../../apuntes Chema/PortSwigger — Introducción y Path Traversal.md|PortSwigger — Introducción y Path Traversal]] — FFUF, Feroxbuster, Metasploit
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — FFUF, Feroxbuster, Metasploit
-- [[../05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
+- [[../../apuntes Chema/Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — File Upload, Metasploit, Metodología Pentest
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — Burp Suite, Command Injection / RCE, Feroxbuster
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — Burp Suite, Command Injection / RCE, Feroxbuster
+- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — File Upload, IDOR, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
@@ -153,11 +157,11 @@
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #idor #lfi #metasploit #metasploitable #netcat #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #sqlmap #ssh #ssrf #ssti #xss #xxe

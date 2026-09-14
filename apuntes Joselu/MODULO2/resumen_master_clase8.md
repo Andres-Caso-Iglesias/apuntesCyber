@@ -233,22 +233,26 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — IA en Ciberseguridad, Linux, Nmap
-- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Linux, OSINT
-- [[resumen_master_clase10.md|resumen_master_clase10]] — IA en Ciberseguridad, Linux, OSINT
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Linux, Redes
-- [[resumen_master_clase11.md|resumen_master_clase11]] — IA en Ciberseguridad, Nmap, OSINT
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
+- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Linux
+- [[resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, Post-Explotación
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — Metodología Pentest, Post-Explotación, Redes
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, Redes
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
 - [[comandos/Nmap|Nmap]]
 
-> #forense #google-dorks #hack-the-box #ia #linux #nmap #osint #redes
+> #esteganografia #forense #google-dorks #hack-the-box #ia #linux #nmap #osint #pentest #post-explotacion #redes

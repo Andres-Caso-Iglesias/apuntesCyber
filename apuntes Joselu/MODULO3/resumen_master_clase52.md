@@ -284,22 +284,27 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Netcat / Reverse Shells, Nmap
-- [[../../apuntes Chema/Repaso Semanal III — SSRF.md|Repaso Semanal III — SSRF]] — IA en Ciberseguridad, Nmap, Open Redirect
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, IA en Ciberseguridad, Netcat / Reverse Shells
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Netcat / Reverse Shells, Open Redirect
-- [[resumen_master_clase49.md|resumen_master_clase49]] — Empleabilidad, IA en Ciberseguridad, Netcat / Reverse Shells
-- [[../../apuntes Chema/SSTI — PortSwigger.md|SSTI — PortSwigger]] — IA en Ciberseguridad, Netcat / Reverse Shells, Redes
+- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase54.md|resumen_master_clase54]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase49.md|resumen_master_clase49]] — Empleabilidad, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SSH|SSH]]
@@ -307,8 +312,8 @@ Término en la transcripción Corrección / Aclaración
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
 
-> #blue-team #burpsuite #command-injection #empleabilidad #hack-the-box #ia #lfi #netcat #nmap #open-redirect #pentest #post-explotacion #redes #reverse-shell #ssh #ssrf #ssti
+> #blue-team #burpsuite #command-injection #empleabilidad #hack-the-box #ia #lfi #metasploit #netcat #nmap #open-redirect #pentest #post-explotacion #redes #reverse-shell #ssh #ssrf #ssti

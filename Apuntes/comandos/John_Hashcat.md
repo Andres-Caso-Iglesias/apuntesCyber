@@ -108,21 +108,28 @@ hashcat -m 0 hash.txt wordlist.txt -o out.txt  # Output
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
-- [[Hydra.md|Hydra]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Redes, Windows
-- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[Tmux.md|Tmux]] — Linux, Metodología Pentest, Redes
-- [[Metasploit.md|Metasploit]] — Linux, Redes, Windows
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Hydra, John / Hashcat, Linux
+- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
+- [[Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Hydra, Linux, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/Metasploit|Metasploit]]
+- [[comandos/Tmux|Tmux]]
 
-> #escalada-privilegios #john #linux #pentest #redes #windows
+> #hydra #john #linux #metasploit #pentest #redes #tmux #windows

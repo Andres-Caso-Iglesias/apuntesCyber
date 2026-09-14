@@ -365,18 +365,22 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase39.md|resumen_master_clase39]] — FFUF, IA en Ciberseguridad, Metasploit
-- [[resumen_master_clase45.md|resumen_master_clase45]] — FFUF, IA en Ciberseguridad, Metasploit
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Certificaciones, FFUF, Metasploit
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — IA en Ciberseguridad, Metasploit, Nmap
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
-- [[resumen_master_clase23.md|resumen_master_clase23]] — FFUF, IA en Ciberseguridad, Metasploit
+- [[resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[resumen_master_clase45.md|resumen_master_clase45]] — Command Injection / RCE, Metasploitable / DVWA, Path Traversal / LFI
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
 
 ### 🛠️ Herramientas
 
@@ -394,8 +398,8 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress #xxe

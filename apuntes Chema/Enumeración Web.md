@@ -178,18 +178,22 @@ Para copiar a tu base de conocimiento tras validar en clase:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — GoBuster, Nmap, OSINT
-- [[../comandos/FFUF.md|FFUF]] — FFUF, GoBuster, Nmap
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, GoBuster
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, GoBuster, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — GoBuster, Nmap, OSINT
-- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — GoBuster, Nmap, OSINT
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — DirSearch, FFUF, Feroxbuster
+- [[../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Hack The Box
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, FFUF, Feroxbuster
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — FFUF, Feroxbuster, Hack The Box
+- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — FFUF, Feroxbuster, Hack The Box
 
 ### 🛠️ Herramientas
 
@@ -204,7 +208,7 @@ Para copiar a tu base de conocimiento tras validar en clase:
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
 > #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #google-dorks #hack-the-box #lfi #nmap #osint #pentest #redes #sqli #wordpress #wpscan

@@ -175,21 +175,26 @@ tshark -r captura.pcap -Y 'http.request.method == POST' \
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
+- [[../../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, Wireshark
+- [[../../comandos/Nmap.md|Nmap]] — Post-Explotación, WiFi / Hardware, Wireshark
 - [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../../comandos/Metasploit.md|Metasploit]] — Nmap, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotación, WiFi / Hardware
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Post-Explotación, Redes
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
-- [[Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Nmap, Redes, WiFi / Hardware
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 
-> #blue-team #nmap #pivoting #post-explotacion #redes #wifi #wireshark
+> #blue-team #metasploit #nmap #pivoting #post-explotacion #redes #wifi #wireshark

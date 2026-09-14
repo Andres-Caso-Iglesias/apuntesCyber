@@ -129,18 +129,22 @@
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, VulnHub
-- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, OSINT, VulnHub
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Certificaciones, Empleabilidad, OSINT
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Certificaciones, VulnHub, XSS
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Certificaciones, Empleabilidad, OSINT
-- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, VulnHub
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Hydra
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Empleabilidad, Esteganografía, Hydra
+- [[../../README.md|README]] — Empleabilidad, Esteganografía, Metodología Pentest
+- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Esteganografía, Hack The Box
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Empleabilidad, Hack The Box, Redes
 
 ### 🛠️ Herramientas
 
@@ -149,6 +153,6 @@
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #certificaciones #empleabilidad #esteganografia #hack-the-box #hydra #normativa #osint #pentest #redes #vulnhub #xss

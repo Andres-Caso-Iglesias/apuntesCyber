@@ -51,23 +51,28 @@ dirsearch -u http://10.10.10.x -p http://127.0.0.1:8080
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[FFUF.md|FFUF]] — FFUF, Feroxbuster, Redes
-- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
-- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, Redes
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[../../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 
 - [[comandos/DirSearch|DirSearch]]
 - [[comandos/Feroxbuster|Feroxbuster]]
 - [[comandos/FFUF|FFUF]]
+- [[comandos/GoBuster|GoBuster]]
 
-> #dirsearch #feroxbuster #ffuf #linux #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #linux #redes

@@ -192,21 +192,26 @@ Proceso completo en menos de 5 minutos una vez se tienen los archivos localizado
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Windows
-- [[Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
-- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
-- [[Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Tmux
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
+- [[comandos/Tmux|Tmux]]
 
-> #kali #linux #nmap #pentest #redes #windows
+> #kali #linux #nmap #pentest #redes #tmux #windows

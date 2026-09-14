@@ -133,18 +133,22 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/WPScan.md|WPScan]] — FFUF, Redes, WordPress
-- [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
-- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, FFUF, Redes
-- [[../comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — Burp Suite, FFUF, Redes
-- [[../08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Redes, VulnHub, WordPress
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Hydra
+- [[../../comandos/WPScan.md|WPScan]] — FFUF, Hydra, WordPress
+- [[../07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Esteganografía, Hack The Box
+- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Hydra
+- [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Hydra, WordPress
+- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
 
 ### 🛠️ Herramientas
 
@@ -153,4 +157,4 @@ Reenvía y repite una misma petición modificándola. Ideal para "conocer" la we
 - [[comandos/Hydra|Hydra]]
 - [[comandos/WPScan|WPScan]]
 
-> #burpsuite #ffuf #hack-the-box #hydra #redes #vulnhub #wordpress #wpscan
+> #burpsuite #empleabilidad #esteganografia #ffuf #hack-the-box #hydra #osint #redes #vulnhub #wordpress #wpscan

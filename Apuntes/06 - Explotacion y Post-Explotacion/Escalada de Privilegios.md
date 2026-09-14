@@ -153,18 +153,22 @@ chmod +x linpeas.sh
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, VulnHub, Windows
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
-- [[../comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
-- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, VulnHub, Windows
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[Metodología de Explotación.md|Metodología de Explotación]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 

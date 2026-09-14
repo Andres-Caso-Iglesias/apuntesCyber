@@ -143,17 +143,21 @@ a) DMAIC &emsp; b) PDCA (Plan-Do-Check-Act) &emsp; c) OODA &emsp; d) Kanban
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Empleabilidad, Normativa / GRC
-- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Certificaciones, Empleabilidad, OSINT
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Normativa / GRC, OSINT
-- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Normativa / GRC, OSINT
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Metodología Pentest, OSINT, Redes
+- [[BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Metodología Pentest, Redes
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Empleabilidad, Normativa / GRC, Redes
+- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Normativa / GRC, Redes
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Normativa / GRC, Redes
+- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Normativa / GRC, Redes
+- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Metodología Pentest, OSINT, Redes
 
 > #certificaciones #empleabilidad #normativa #osint #pentest #redes

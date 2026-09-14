@@ -206,18 +206,22 @@ select * from users;
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, VulnHub, Windows
-- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Windows
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, VulnHub, Windows
-- [[Metodología de Explotación.md|Metodología de Explotación]] — Linux, VulnHub, Windows
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, VulnHub, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Linux, VulnHub, Windows
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

@@ -105,28 +105,33 @@ Recapitulación integrada Al cerrar esta sesión sabemos organizar mentalmente c
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, SQL Injection, WiFi / Hardware
-- [[resumen_master_clase15.md|resumen_master_clase15]] — IA en Ciberseguridad, Nmap, SQL Injection
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, SQL Injection, WiFi / Hardware
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — IA en Ciberseguridad, Nmap, WiFi / Hardware
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — IA en Ciberseguridad, Nmap, SQL Injection
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SSH, WiFi / Hardware, Wireshark
+- [[resumen_master_clase15.md|resumen_master_clase15]] — SQL Injection, SSH, Wireshark
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — SSH, WiFi / Hardware, Wireshark
+- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — SQL Injection, SQLMap, SSH
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Nmap|Nmap]]
+- [[comandos/SQLMap|SQLMap]]
 - [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #csrf #ia #nmap #redes #sqli #ssh #wifi #wireshark #xss
+> #burpsuite #csrf #ia #nmap #redes #sqli #sqlmap #ssh #wifi #wireshark #xss

@@ -378,18 +378,22 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Linux, Nmap
-- [[resumen_master_clase19.md|resumen_master_clase19]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, Metasploit, Nmap
-- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, IA en Ciberseguridad, Linux
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — GoBuster, Linux, Nmap
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, Metasploitable / DVWA
+- [[resumen_master_clase19.md|resumen_master_clase19]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[resumen_master_clase45.md|resumen_master_clase45]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

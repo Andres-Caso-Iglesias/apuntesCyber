@@ -7,9 +7,108 @@ Analiza todos los .md, extrae conceptos, y genera enlaces bidireccionales.
 import os
 import re
 import json
+import sys
+import hashlib
 from pathlib import Path
-from collections import defaultdict
-from typing import Dict, List, Set, Tuple
+from collections import defaultdict, OrderedDict
+from typing import Dict, List, Set, Tuple, Any, Optional
+
+# ============================================================
+# LRU CACHE — Least Recently Used
+# ============================================================
+
+class LRUCache:
+    """
+    Cache LRU (Least Recently Used) con capacidad fija.
+    
+    Usa OrderedDict para operaciones O(1):
+    - get: busca y mueve al frente (más reciente)
+    - put: inserta/actualiza, elimina el menos usado si está lleno
+    
+    Caso de uso en neural_linker:
+    - Cache de texto extraído de archivos (I/O pesado)
+    - Cache de conceptos detectados (regex costoso)
+    - Cache de similitud entre pares de archivos
+    """
+    
+    def __init__(self, capacity: int = 500):
+        """Inicializa el cache con capacidad fija."""
+        self.capacity = capacity
+        self._cache = OrderedDict()
+        self._hits = 0
+        self._misses = 0
+    
+    def get(self, key: Any) -> Optional[Any]:
+        """
+        Busca un valor en el cache.
+        Si existe: lo mueve al frente (más reciente) y retorna el valor.
+        Si no existe: retorna None y cuenta como miss.
+        """
+        if key in self._cache:
+            self._cache.move_to_end(key)
+            self._hits += 1
+            return self._cache[key]
+        self._misses += 1
+        return None
+    
+    def put(self, key: Any, value: Any) -> None:
+        """
+        Inserta o actualiza un valor en el cache.
+        Si el cache está lleno, elimina el elemento menos usado.
+        """
+        if key in self._cache:
+            self._cache.move_to_end(key)
+        self._cache[key] = value
+        if len(self._cache) > self.capacity:
+            self._cache.popitem(last=False)  # Elimina el menos reciente
+    
+    def get_or_compute(self, key: Any, compute_fn, *args, **kwargs) -> Any:
+        """
+        Busca en cache; si no existe, ejecuta compute_fn y guarda el resultado.
+        Patrón memoize: ideal para funciones costosas.
+        """
+        value = self.get(key)
+        if value is not None:
+            return value
+        value = compute_fn(*args, **kwargs)
+        self.put(key, value)
+        return value
+    
+    @property
+    def stats(self) -> Dict[str, Any]:
+        """Retorna estadísticas del cache."""
+        total = self._hits + self._misses
+        return {
+            "capacity": self.capacity,
+            "size": len(self._cache),
+            "hits": self._hits,
+            "misses": self._misses,
+            "hit_rate": f"{(self._hits / total * 100):.1f}%" if total > 0 else "0%",
+        }
+    
+    def reset_stats(self) -> None:
+        """Resetea estadísticas sin limpiar el cache."""
+        self._hits = 0
+        self._misses = 0
+    
+    def clear(self) -> None:
+        """Limpia el cache y las estadísticas."""
+        self._cache.clear()
+        self._hits = 0
+        self._misses = 0
+    
+    def __len__(self) -> int:
+        return len(self._cache)
+    
+    def __contains__(self, key: Any) -> bool:
+        return key in self._cache
+
+
+# Instancias globales de cache
+_text_cache = LRUCache(capacity=500)      # Cache de texto extraído
+_concepts_cache = LRUCache(capacity=500)  # Cache de conceptos detectados
+_similarity_cache = LRUCache(capacity=1000)  # Cache de similitud entre pares
+
 
 # ============================================================
 # CONFIGURACIÓN
@@ -133,7 +232,15 @@ def get_all_markdown_files() -> List[Path]:
 
 
 def extract_text_content(filepath: Path) -> str:
-    """Extrae el contenido de texto de un .md (sin código)."""
+    """
+    Extrae el contenido de texto de un .md (sin código).
+    Usa LRU cache para evitar re-leer archivos del disco.
+    """
+    cache_key = str(filepath)
+    cached = _text_cache.get(cache_key)
+    if cached is not None:
+        return cached
+    
     try:
         with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
             content = f.read()
@@ -144,17 +251,31 @@ def extract_text_content(filepath: Path) -> str:
     content = re.sub(r'```[\s\S]*?```', '', content)
     # Remover inline code
     content = re.sub(r'`[^`]+`', '', content)
-    return content.lower()
+    result = content.lower()
+    
+    _text_cache.put(cache_key, result)
+    return result
 
 
 def detect_concepts(text: str) -> Set[str]:
-    """Detecta qué conceptos están presentes en el texto usando regex."""
+    """
+    Detecta qué conceptos están presentes en el texto usando regex.
+    Usa LRU cache para evitar re-evaluar patrones regex.
+    """
+    # Usar hash del texto como key (textos largos se hashean)
+    cache_key = hashlib.md5(text.encode('utf-8', errors='ignore')).hexdigest()
+    cached = _concepts_cache.get(cache_key)
+    if cached is not None:
+        return cached
+    
     found = set()
     for concept, patterns in CONCEPT_MAP.items():
         for pattern in patterns:
             if re.search(pattern, text, re.IGNORECASE):
                 found.add(concept)
                 break
+    
+    _concepts_cache.put(cache_key, found)
     return found
 
 
@@ -187,12 +308,27 @@ def get_relative_path(from_file: Path, to_file: Path) -> str:
 
 
 def compute_file_similarity(concepts_a: Set[str], concepts_b: Set[str]) -> float:
-    """Calcula similitud Jaccard entre dos conjuntos de conceptos."""
+    """
+    Calcula similitud Jaccard entre dos conjuntos de conceptos.
+    Usa LRU cache para evitar recalcular pares ya procesados.
+    """
+    # Key ordenado para que (A,B) y (B,A) den el mismo resultado
+    key = tuple(sorted([frozenset(concepts_a), frozenset(concepts_b)]))
+    cache_key = str(key)
+    
+    cached = _similarity_cache.get(cache_key)
+    if cached is not None:
+        return cached
+    
     if not concepts_a or not concepts_b:
-        return 0.0
-    intersection = concepts_a & concepts_b
-    union = concepts_a | concepts_b
-    return len(intersection) / len(union)
+        result = 0.0
+    else:
+        intersection = concepts_a & concepts_b
+        union = concepts_a | concepts_b
+        result = len(intersection) / len(union)
+    
+    _similarity_cache.put(cache_key, result)
+    return result
 
 
 def find_related_files(
@@ -332,11 +468,11 @@ def generate_link_section(
     current_filename = current_file.stem.lower()
     vuln_file_map = {
         "sqli": ("Apuntes/05 - Auditoria Web/SQL Injection.md", "SQL Injection"),
-        "xss": ("Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md", "XSS"),
-        "xxe": ("Apuntes/05 - Auditoria Web/XXE — XML External Entity.md", "XXE"),
-        "ssrf": ("Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md", "SSRF"),
-        "ssti": ("Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md", "SSTI"),
-        "lfi": ("Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md", "Path Traversal / LFI"),
+        "xss": ("Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md", "XSS"),
+        "xxe": ("Apuntes/05 - Auditoria Web/XXE - XML External Entity.md", "XXE"),
+        "ssrf": ("Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md", "SSRF"),
+        "ssti": ("Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md", "SSTI"),
+        "lfi": ("Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md", "Path Traversal / LFI"),
         "command-injection": ("Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md", "Command Injection / RCE"),
     }
     if mentioned_vulns:
@@ -389,10 +525,18 @@ def tool_map_filename(tool: str) -> str:
 # PROCESAMIENTO PRINCIPAL
 # ============================================================
 
-def process_all_files():
+def process_all_files(use_cache: bool = True):
     """Procesa todos los archivos y genera el grafo de conocimiento."""
     import sys, io
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    
+    # Deshabilitar cache si se solicita
+    if not use_cache:
+        _text_cache.clear()
+        _concepts_cache.clear()
+        _similarity_cache.clear()
+        print("[NEURAL] Cache deshabilitado (--no-cache)")
+    
     print("[NEURAL] Neural Linker — Analizando red de conocimiento...")
     print(f"   Directorio base: {BASE_DIR}")
     print()
@@ -430,6 +574,13 @@ def process_all_files():
     print("📊 Conceptos más frecuentes:")
     for concept, count in sorted(concept_counter.items(), key=lambda x: -x[1])[:15]:
         print(f"   {get_concept_display_name(concept)}: {count} archivos")
+    print()
+
+    # Estadísticas del cache
+    print("💾 Estadísticas del LRU Cache:")
+    print(f"   Texto extraído: {_text_cache.stats['hits']} hits / {_text_cache.stats['misses']} misses ({_text_cache.stats['hit_rate']})")
+    print(f"   Conceptos detectados: {_concepts_cache.stats['hits']} hits / {_concepts_cache.stats['misses']} misses ({_concepts_cache.stats['hit_rate']})")
+    print(f"   Similitud calculada: {_similarity_cache.stats['hits']} hits / {_similarity_cache.stats['misses']} misses ({_similarity_cache.stats['hit_rate']})")
     print()
 
     # 4. Generar relaciones
@@ -520,4 +671,6 @@ def process_all_files():
 
 
 if __name__ == "__main__":
-    process_all_files()
+    # Flags de línea de comandos
+    use_cache = "--no-cache" not in sys.argv
+    process_all_files(use_cache=use_cache)

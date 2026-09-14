@@ -80,18 +80,22 @@ nmap -p 445 --script=smb-enum-shares,smb-enum-users 10.10.10.x
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Redes
-- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Nmap, Redes
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Redes
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Redes
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Redes
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Redes
+- [[../../informes/Informe_Blue.md|Informe_Blue]] — Linux, Redes, Windows
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Windows
+- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Redes, Windows
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 

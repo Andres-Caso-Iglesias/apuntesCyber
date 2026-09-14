@@ -148,18 +148,22 @@ Término en la transcripción Corrección / Aclaración “ análisis dinámico 
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase3.md|resumen_clase3]] — Certificaciones, IA en Ciberseguridad, Windows
-- [[resumen_clase1_.md|resumen_clase1_]] — Certificaciones, IA en Ciberseguridad, Windows
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Normativa / GRC
-- [[resumen_clase10.md|resumen_clase10]] — Certificaciones, IA en Ciberseguridad, Windows
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Certificaciones, IA en Ciberseguridad, Windows
+- [[resumen_clase3.md|resumen_clase3]] — Forense Digital, Metodología Pentest, Redes
+- [[resumen_clase1_.md|resumen_clase1_]] — Metodología Pentest, Pivoting / Movilidad Lateral, Redes
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Forense Digital, Metodología Pentest, Pivoting / Movilidad Lateral
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Normativa / GRC, Redes
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Forense Digital, Pivoting / Movilidad Lateral, Redes
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Metodología Pentest, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 

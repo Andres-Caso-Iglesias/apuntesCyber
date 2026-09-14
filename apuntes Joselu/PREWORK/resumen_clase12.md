@@ -136,18 +136,22 @@ Término en la transcripción Corrección / Aclaración data link y physical lay
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, Windows
-- [[resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Nmap, Windows
-- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Nmap, Windows
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Metasploit, SSH, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, SSH, Wireshark
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Metasploit, Netcat / Reverse Shells, SSH
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Netcat / Reverse Shells, SSH
+- [[resumen_clase13.md|resumen_clase13]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Netcat / Reverse Shells, Wireshark
 
 ### 🛠️ Herramientas
 
@@ -160,4 +164,4 @@ Término en la transcripción Corrección / Aclaración data link y physical lay
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
 
-> #command-injection #ia #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark
+> #command-injection #ia #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark

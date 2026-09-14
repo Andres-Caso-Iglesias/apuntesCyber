@@ -209,18 +209,22 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — IA en Ciberseguridad, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — IA en Ciberseguridad, Linux, Nmap
-- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, Nmap, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — IA en Ciberseguridad, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — IA en Ciberseguridad, Linux, Nmap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Windows
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Metasploit, Netcat / Reverse Shells, SMB / Impacket
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, Netcat / Reverse Shells, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

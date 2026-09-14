@@ -360,18 +360,22 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Vaccine.md|Vaccine]] — John / Hashcat, Linux, Nmap
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — John / Hashcat, Linux, Metasploit
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — John / Hashcat, Linux, Nmap
-- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — John / Hashcat, Linux, Metasploit
-- [[HackTheBox Starting Point — Tier 1.md|HackTheBox Starting Point — Tier 1]] — John / Hashcat, Linux, Nmap
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — John / Hashcat, Linux, Metasploit
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

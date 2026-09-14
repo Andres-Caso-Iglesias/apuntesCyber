@@ -197,22 +197,26 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — OSINT, Redes, WiFi / Hardware
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — IA en Ciberseguridad, Redes, WiFi / Hardware
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, IA en Ciberseguridad, Redes
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, IA en Ciberseguridad, Redes
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — OSINT, Redes, WiFi / Hardware
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Linux, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Hydra, Linux
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Linux, WiFi / Hardware
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Hydra, Linux
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Metodología Pentest, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/SSH|SSH]]
 
-> #esteganografia #hydra #ia #osint #redes #ssh #wifi
+> #esteganografia #hydra #linux #osint #pentest #redes #ssh #wifi

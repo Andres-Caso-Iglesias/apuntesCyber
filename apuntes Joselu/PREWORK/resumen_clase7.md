@@ -175,18 +175,22 @@ Término en la transcripción Corrección / Aclaración de atacantes avanzados y
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — IA en Ciberseguridad, OSINT, Windows
+- [[resumen_clase2.md|resumen_clase2]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[resumen_clase6.md|resumen_clase6]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Forense Digital, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Metasploit, Post-Explotación, Redes
+- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Forense Digital, Post-Explotación
 
 ### 🛠️ Herramientas
 

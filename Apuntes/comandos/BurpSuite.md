@@ -105,18 +105,22 @@ engine.run(queue, handle_response)
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
 - [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Redes, SQL Injection, SQLMap
+- [[../05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
+- [[SQLMap.md|SQLMap]] — Burp Suite, Redes, SQLMap
 - [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Redes, SQL Injection
-- [[../05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal — 6 Casos y Bypasses]] — Burp Suite, Path Traversal / LFI, Redes
-- [[../05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF — Server-Side Request Forgery]] — Burp Suite, Path Traversal / LFI, Redes
-- [[../05 - Auditoria Web/XSS — Cross-Site Scripting.md|XSS — Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
+- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Redes, SQL Injection, SQLMap
+- [[../05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Burp Suite, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -126,8 +130,9 @@ engine.run(queue, handle_response)
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
-> #burpsuite #lfi #redes #sqli #sqlmap #ssrf #wpscan
+> #burpsuite #lfi #redes #sqli #sqlmap #ssrf #wpscan #xss

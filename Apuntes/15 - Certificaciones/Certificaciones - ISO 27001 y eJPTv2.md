@@ -176,18 +176,22 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Nmap, OSINT
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Linux, Nmap, OSINT
-- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Linux, Nmap, OSINT
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Nmap, OSINT
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Linux, Nmap, OSINT
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, Nmap, OSINT
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Normativa / GRC, Pivoting / Movilidad Lateral, SQLMap
+- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Linux, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Metasploit, Normativa / GRC
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Linux, Metasploit, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Normativa / GRC, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
@@ -201,4 +205,4 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #certificaciones #empleabilidad #google-dorks #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #redes #sqli #sqlmap #ssh #windows
+> #blue-team #certificaciones #empleabilidad #google-dorks #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #redes #sqli #sqlmap #ssh #windows

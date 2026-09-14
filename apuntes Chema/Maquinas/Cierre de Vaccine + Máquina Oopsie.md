@@ -230,18 +230,22 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Auditoria web.md|Auditoria web]] — FFUF, Metasploit, Nmap
-- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
-- [[HTB Starting Point — Repaso e inicio de Tier 2.md|HTB Starting Point — Repaso e inicio de Tier 2]] — FFUF, IDOR, Metasploit
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Linux, Nmap
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — FFUF, Metasploit, Nmap
-- [[Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — FFUF, Metasploit, Nmap
+- [[../Auditoria web.md|Auditoria web]] — Feroxbuster, Metasploitable / DVWA, WordPress
+- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Feroxbuster, Hack The Box, Metasploitable / DVWA
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, Hack The Box, WordPress
+- [[Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Feroxbuster, Metasploitable / DVWA, WordPress
 
 ### 🛠️ Herramientas
 

@@ -175,18 +175,22 @@ La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bl
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI — Server-Side Template Injection]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE — XML External Entity]] — Metasploit, Netcat / Reverse Shells, Redes
-- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — IA en Ciberseguridad, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Netcat / Reverse Shells, SQL Injection
+- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Empleabilidad, Metasploit, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Metasploit, Post-Explotación, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE - XML External Entity]] — Command Injection / RCE, Metasploit, Post-Explotación
+- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Metasploit, Post-Explotación, SQL Injection
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Empleabilidad, Metasploit, SQL Injection
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Metasploit, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -197,10 +201,10 @@ La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bl
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF — Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI — Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #burpsuite #command-injection #empleabilidad #ia #lfi #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xxe

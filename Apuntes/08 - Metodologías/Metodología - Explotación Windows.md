@@ -262,18 +262,22 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/SQLMap.md|SQLMap]] — Linux, Metasploit, Windows
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Metasploit, Windows
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Windows
-- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Linux, Metasploit, Windows
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Linux, Metasploit, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, SMB / Impacket, SQLMap
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, SMB / Impacket
+- [[../../comandos/SQLMap.md|SQLMap]] — Hack The Box, Metasploit, SQLMap
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Metasploit, SQLMap
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Metasploit, SQLMap
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Metasploit, SMB / Impacket
 
 ### 🛠️ Herramientas
 
@@ -285,4 +289,4 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #escalada-privilegios #linux #metasploit #post-explotacion #redes #smb-impacket #sqli #sqlmap #windows
+> #escalada-privilegios #hack-the-box #linux #metasploit #post-explotacion #redes #smb-impacket #sqli #sqlmap #windows

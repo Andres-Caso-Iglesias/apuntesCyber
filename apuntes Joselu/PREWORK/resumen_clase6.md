@@ -155,18 +155,22 @@ Término en la transcripción Corrección / Aclaración monitorización de Amazo
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase13.md|resumen_clase13]] — IA en Ciberseguridad, Metasploit, Windows
-- [[resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Metasploit, Netcat / Reverse Shells, Windows
+- [[resumen_clase13.md|resumen_clase13]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[resumen_clase2.md|resumen_clase2]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
+- [[resumen_clase7.md|resumen_clase7]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Esteganografía, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
 
 ### 🛠️ Herramientas
 

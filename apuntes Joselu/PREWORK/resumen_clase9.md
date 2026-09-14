@@ -158,6 +158,10 @@ Término en la transcripción Corrección / Aclaración cross selling / lab sell
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -167,8 +171,8 @@ Término en la transcripción Corrección / Aclaración cross selling / lab sell
 - [[../MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
 - [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
 - [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, IA en Ciberseguridad, Redes
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, IA en Ciberseguridad, Redes
-- [[resumen_clase1_.md|resumen_clase1_]] — Certificaciones, IA en Ciberseguridad, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Normativa / GRC, Redes
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, Normativa / GRC, Redes
+- [[resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, Redes
 
 > #certificaciones #ia #normativa #redes

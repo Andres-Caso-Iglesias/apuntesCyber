@@ -242,18 +242,22 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[PREWORK.md|PREWORK]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — IA en Ciberseguridad, Metasploit, WiFi / Hardware
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — IA en Ciberseguridad, Linux, OSINT
-- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — GoBuster, Linux, OSINT
+- [[PREWORK.md|PREWORK]] — Burp Suite, WiFi / Hardware, WordPress
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, WiFi / Hardware, WordPress
+- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Burp Suite, OSINT, WordPress
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Burp Suite, WiFi / Hardware, WordPress
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Burp Suite, OSINT, WordPress
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Forense Digital, WordPress
 
 ### 🛠️ Herramientas
 
@@ -263,6 +267,7 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
 - [[comandos/Metasploit|Metasploit]]
+- [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/Nmap|Nmap]]
 - [[comandos/SMB_Impacket|SMB / Impacket]]
 - [[comandos/SQLMap|SQLMap]]
@@ -273,4 +278,4 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #certificaciones #dirsearch #empleabilidad #esteganografia #forense #gobuster #hydra #ia #john #kali #linux #metasploit #nmap #osint #pivoting #post-explotacion #redes #smb-impacket #sqli #sqlmap #ssh #wifi #windows #wireshark #wordpress #wpscan
+> #burpsuite #certificaciones #dirsearch #empleabilidad #esteganografia #file-upload #forense #gobuster #hydra #ia #john #kali #linux #metasploit #netcat #nmap #osint #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #wifi #windows #wireshark #wordpress #wpscan

@@ -178,18 +178,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_master_clase4.md|resumen_master_clase4]] — IA en Ciberseguridad, Linux, Windows
-- [[../PREWORK/resumen_clase6.md|resumen_clase6]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metasploit, Windows
+- [[resumen_master_clase2.md|resumen_master_clase2]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
+- [[resumen_master_clase4.md|resumen_master_clase4]] — Escalada de Privilegios, Metasploit, Normativa / GRC
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Forense Digital, Metasploit, Normativa / GRC
+- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Metasploit, Normativa / GRC
+- [[resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Metasploit
 
 ### 🛠️ Herramientas
 
@@ -197,4 +201,8 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 
-> #blue-team #escalada-privilegios #forense #hydra #ia #kali #linux #metasploit #netcat #normativa #redes #reverse-shell #windows
+### 🎯 Vulnerabilidades Relacionadas
+
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
+
+> #blue-team #escalada-privilegios #forense #hydra #ia #kali #linux #metasploit #netcat #normativa #redes #reverse-shell #sqli #windows

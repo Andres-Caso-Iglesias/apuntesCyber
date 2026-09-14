@@ -31,6 +31,10 @@ nmap -sC -p <port> <host>         # Scripts por defecto
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
@@ -38,11 +42,11 @@ nmap -sC -p <port> <host>         # Scripts por defecto
 ### Documentos Relacionados
 
 - [[../../comandos/Hydra.md|Hydra]] — Hydra, Redes, Telnet
+- [[../../comandos/Nmap.md|Nmap]] — Hydra, Redes, Telnet
 - [[Nmap.md|Nmap]] — Nmap, Redes, Telnet
-- [[../../comandos/Nmap.md|Nmap]] — Hydra, Nmap, Redes
 - [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Nmap, Redes
-- [[../../comandos/Telnet.md|Telnet]] — Hydra, Redes, Telnet
 - [[../../write-ups/Banco-THL.md|Banco-THL]] — Hydra, Nmap, Redes
+- [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes
 
 ### 🛠️ Herramientas
 

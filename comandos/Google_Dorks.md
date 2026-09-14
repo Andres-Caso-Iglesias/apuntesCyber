@@ -114,22 +114,27 @@ site:ejemplo.com intext:"PHP Error"
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, Redes, WordPress
+- [[WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
 - [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — OSINT, Redes, WordPress
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — OSINT, Redes, WordPress
-- [[WPScan.md|WPScan]] — Redes, WPScan, WordPress
-- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]] — OSINT, Redes, WordPress
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Redes, WPScan, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Burp Suite, Redes, WordPress
+- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]] — Burp Suite, Redes, WordPress
+- [[BurpSuite.md|BurpSuite]] — Burp Suite, Redes, WordPress
 
 ### 🛠️ Herramientas
 
+- [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Google_Dorks|Google Dorks]]
 - [[comandos/WPScan|WPScan]]
 
-> #google-dorks #osint #redes #wordpress #wpscan
+> #burpsuite #google-dorks #osint #redes #wordpress #wpscan

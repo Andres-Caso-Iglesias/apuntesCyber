@@ -153,18 +153,22 @@ xxd imagen.jpg | head -20 # ver bytes en hex (magic bytes)
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, OSINT, VulnHub
-- [[../07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, OSINT, VulnHub
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — OSINT, Redes, WiFi / Hardware
-- [[OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, OSINT, WiFi / Hardware
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — OSINT, Redes, WiFi / Hardware
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, OSINT, WiFi / Hardware
+- [[../../README.md|README]] — Empleabilidad, Esteganografía, Forense Digital
+- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Hydra
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Empleabilidad, Esteganografía, Hydra
+- [[../07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Esteganografía, Hack The Box
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Hydra
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Hydra
 
 ### 🛠️ Herramientas
 

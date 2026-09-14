@@ -184,18 +184,22 @@ wpscan --url http://target --cookie-string "session=abc"
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Redes, WordPress
-- [[BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
-- [[../Apuntes/comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Burp Suite, FFUF, Redes
+- [[BurpSuite.md|BurpSuite]] — FFUF, Hydra, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Hydra, WordPress
+- [[Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Hydra, Redes
 - [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Redes, WordPress
-- [[Google_Dorks.md|Google_Dorks]] — Redes, WPScan, WordPress
+- [[../Apuntes/comandos/WPScan.md|WPScan]] — Hydra, Redes, WordPress
 
 ### 🛠️ Herramientas
 

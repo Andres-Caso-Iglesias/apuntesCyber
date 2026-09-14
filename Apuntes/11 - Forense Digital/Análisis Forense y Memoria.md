@@ -175,18 +175,22 @@ sha256sum ./exhibits/malware.exe
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metasploit, Windows
-- [[../comandos/Netcat.md|Netcat]] — Linux, Metasploit, Windows
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metasploit, Windows
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Linux, Metasploit, Windows
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
+- [[../comandos/Metasploit.md|Metasploit]] — Forense Digital, Netcat / Reverse Shells, Wireshark
+- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 

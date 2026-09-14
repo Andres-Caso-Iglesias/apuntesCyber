@@ -223,18 +223,22 @@ Prueba una sola contraseña contra todos los usuarios de la lista. Especialmente
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Certificaciones, IA en Ciberseguridad, Metasploit
-- [[Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — IA en Ciberseguridad, Nmap, Windows
-- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Metasploit, Nmap, WiFi / Hardware
-- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Metasploit, Nmap, Windows
+- [[../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Command Injection / RCE, WiFi / Hardware, WordPress
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Burp Suite, Command Injection / RCE, WordPress
+- [[Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Empleabilidad, Hydra, Metasploit
+- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Empleabilidad, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../apuntes Joselu/PREWORK/resumen_clase17.md|resumen_clase17]] — Burp Suite, WiFi / Hardware, WordPress
 
 ### 🛠️ Herramientas
 

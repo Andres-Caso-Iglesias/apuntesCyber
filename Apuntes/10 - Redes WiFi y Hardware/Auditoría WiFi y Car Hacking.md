@@ -182,22 +182,26 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — OSINT, Post-Explotación, WiFi / Hardware
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Nmap, OSINT, WiFi / Hardware
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — OSINT, Redes, WiFi / Hardware
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotación, WiFi / Hardware
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, Wireshark
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Hydra, Linux
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Esteganografía, Forense Digital, Metodología Pentest
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
 
-> #esteganografia #forense #hydra #nmap #osint #pentest #post-explotacion #redes #wifi #wireshark
+> #esteganografia #forense #hydra #linux #nmap #osint #pentest #post-explotacion #redes #wifi #wireshark

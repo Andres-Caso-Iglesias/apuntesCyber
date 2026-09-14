@@ -136,18 +136,22 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Hydra.md|Hydra]] — IA en Ciberseguridad, Nmap, Post-Explotación
-- [[../comandos/Nmap.md|Nmap]] — Nmap, Redes, WiFi / Hardware
-- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Post-Explotación, Redes
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Redes
-- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — IA en Ciberseguridad, Nmap, WiFi / Hardware
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, Post-Explotación, WiFi / Hardware
+- [[../comandos/Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
+- [[../comandos/Nmap.md|Nmap]] — Hydra, WiFi / Hardware, Wireshark
+- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, Post-Explotación, SSH
+- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
+- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Hydra, WiFi / Hardware, Wireshark
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, Post-Explotación, SSH
 
 ### 🛠️ Herramientas
 

@@ -112,18 +112,22 @@ Permite correr múltiples sistemas operativos dentro del mismo equipo físico. F
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, SQL Injection, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Nmap, SQL Injection, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Nmap, Post-Explotación, SQL Injection
-- [[IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Post-Explotación, SQL Injection, Windows
-- [[../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — SQL Injection, WiFi / Hardware, Windows
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Nmap, OSINT, Windows
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, WiFi / Hardware
+- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, WiFi / Hardware
+- [[IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Post-Explotación, SQL Injection, SSH
+- [[../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Post-Explotación, SQL Injection, SSH
+- [[../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Post-Explotación, SQL Injection, WiFi / Hardware
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Post-Explotación, Redes, SSH
 
 ### 🛠️ Herramientas
 
@@ -135,6 +139,6 @@ Permite correr múltiples sistemas operativos dentro del mismo equipo físico. F
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #nmap #osint #post-explotacion #redes #sqli #ssh #telnet #wifi #windows #xss

@@ -176,21 +176,25 @@ LinkedIn como fuente:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Nmap, OSINT, WiFi / Hardware
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, OSINT, WiFi / Hardware
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, OSINT, WiFi / Hardware
-- [[Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, WiFi / Hardware
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Nmap, OSINT
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodología Pentest, OSINT, Redes
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Esteganografía, Metodología Pentest
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Linux, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
 
-> #empleabilidad #esteganografia #nmap #osint #pentest #redes #wifi
+> #empleabilidad #esteganografia #linux #nmap #osint #pentest #redes #wifi

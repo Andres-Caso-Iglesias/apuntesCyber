@@ -164,18 +164,22 @@ Término en la transcripción Corrección / Aclaración datos de tarjetas n map 
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — IA en Ciberseguridad, Normativa / GRC, SQL Injection
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, IA en Ciberseguridad, Redes
+- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Forense Digital, Linux, Wireshark
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Redes, Wireshark
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, Linux, Redes
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
 - [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[resumen_clase3.md|resumen_clase3]] — IA en Ciberseguridad, Nmap, Normativa / GRC
-- [[../../README.md|README]] — Nmap, Normativa / GRC, SQL Injection
-- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — IA en Ciberseguridad, Redes, SQL Injection
 
 ### 🛠️ Herramientas
 
@@ -185,4 +189,4 @@ Término en la transcripción Corrección / Aclaración datos de tarjetas n map 
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #forense #ia #nmap #normativa #redes #sqli #wireshark
+> #blue-team #forense #ia #linux #nmap #normativa #redes #sqli #wireshark

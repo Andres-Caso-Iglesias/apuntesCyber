@@ -404,18 +404,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Castor.md|Informe_Castor]] — John / Hashcat, Linux, Nmap
-- [[Banco-THL.md|Banco-THL]] — Hydra, Linux, Nmap
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Nmap
-- [[Nike-THL.md|Nike-THL]] — Hydra, Linux, Nmap
-- [[Rockstars-THL.md|Rockstars-THL]] — John / Hashcat, Linux, Nmap
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Linux, Nmap
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, SSH
+- [[Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
+- [[Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, Hydra, John / Hashcat
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, John / Hashcat, SSH
 
 ### 🛠️ Herramientas
 
@@ -426,7 +430,7 @@ cat /root/root.txt
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE — XML External Entity.md|XXE]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
 > #escalada-privilegios #hydra #john #lfi #linux #nmap #redes #ssh #xxe

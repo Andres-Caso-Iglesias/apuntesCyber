@@ -65,18 +65,22 @@
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — FFUF, GoBuster, Linux
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — FFUF, GoBuster, Linux
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III — NFS, Tomcat y MySQL]] — FFUF, Linux, Windows
-- [[../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — FFUF, Feroxbuster, Linux
-- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — GoBuster, Linux, Windows
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, GoBuster, Linux
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Hydra, Linux, Pivoting / Movilidad Lateral
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — FFUF, Feroxbuster, Hydra
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — Hydra, Linux, Pivoting / Movilidad Lateral
+- [[../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Feroxbuster, Hydra
+- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — FFUF, Feroxbuster, Linux
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, Hydra, John / Hashcat
 
 ### 🛠️ Herramientas
 
@@ -85,9 +89,10 @@
 - [[comandos/GoBuster|GoBuster]]
 - [[comandos/Hydra|Hydra]]
 - [[comandos/John_Hashcat|John / Hashcat]]
+- [[comandos/SSH|SSH]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #feroxbuster #ffuf #gobuster #hydra #john #kali #linux #metasploitable #pentest #pivoting #post-explotacion #redes #sqli #windows #wordpress
+> #feroxbuster #ffuf #gobuster #hydra #john #kali #linux #metasploitable #pentest #pivoting #post-explotacion #redes #sqli #ssh #windows #wordpress

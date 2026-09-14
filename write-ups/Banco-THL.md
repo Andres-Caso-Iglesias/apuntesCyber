@@ -535,18 +535,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Castor-THL.md|Castor-THL]] — Hydra, Linux, Nmap
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Linux, Nmap
-- [[../apuntes Chema/Repaso General II.md|Repaso General II]] — Hydra, Linux, Nmap
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Hydra, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Hydra, Linux, Nmap
-- [[Nike-THL.md|Nike-THL]] — Hydra, Linux, Nmap
+- [[Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Chema/Repaso General II.md|Repaso General II]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Escalada de Privilegios, Hydra, SSH
+- [[Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Hydra, SSH
 
 ### 🛠️ Herramientas
 
@@ -557,6 +561,6 @@ cat /root/root.txt
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
 > #burpsuite #escalada-privilegios #hydra #lfi #linux #nmap #redes #ssh

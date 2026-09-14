@@ -1,7 +1,6 @@
 # Informe de Explotación - Máquina "Academy" (The Hacker Labs)
 **IP Objetivo:** IP_DE_LA_MAQUINA
 **Fecha:** 23 Julio 2026
-**Autor:** Kali (opencode)
 
 ---
 
@@ -212,61 +211,61 @@ id
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                   CADENA DE EXPLOTACIÓN                       │
+│                   CADENA DE EXPLOTACIÓN                      │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
 │  [1] RECONOCIMIENTO                                          │
-│  ┌─ Nmap ──────────────────────┐                              │
-│  │ Puertos: 22(SSH), 80(HTTP)  │                              │
-│  └─────────────────────────────┘                              │
+│  ┌─ Nmap ──────────────────────┐                             │
+│  │ Puertos: 22(SSH), 80(HTTP)  │                             │
+│  └─────────────────────────────┘                             │
 │        │                                                     │
 │        ▼                                                     │
 │  [2] ENUMERACIÓN WEB                                         │
-│  ┌─ dirsearch -r ──────────────┐  ┌─ /wordpress (301) ──┐   │
-│  │ Fuzzing recursivo            │──│ Redirección dominio  │   │
-│  └──────────────────────────────┘  └────────────────────┘   │
+│  ┌─ dirsearch -r  ──────────────┐  ┌─ /wordpress (301) ──┐   │
+│  │ Fuzzing recursivo            │──│ Redirección dominio │   │
+│  └──────────────────────────────┘  └─────────────────────┘   │
 │        │                                                     │
 │        ▼                                                     │
 │  [3] CONFIGURACIÓN DOMINIO                                   │
 │  ┌─ /etc/hosts ─────────────────┐  ┌─ academy.thehackerlabs ┐│
-│  │ IP → dominio                  │──│ Resolución DNS local   ││
-│  └───────────────────────────────┘  └────────────────────────┘│
+│  │ IP → dominio                 │──│ Resolución DNS local   ││
+│  └──────────────────────────────┘  └────────────────────────┘│
 │        │                                                     │
 │        ▼                                                     │
 │  [4] ENUMERACIÓN CMS                                         │
-│  ┌─ WPScan ─────────────────────┐  ┌─ WordPress 6.5.3 ────┐ │
-│  │ Versión + plugins             │──│ Elementor detectado   │ │
+│  ┌─ WPScan  ─────────────────────┐  ┌─ WordPress 6.5.3 ────┐ │
+│  │ Versión + plugins             │──│ Elementor detectado  │ │
 │  └───────────────────────────────┘  └──────────────────────┘ │
 │        │                                                     │
 │        ▼                                                     │
 │  [5] CRACKING DE CREDENCIALES                                │
-│  ┌─ WPScan brute force ─────────┐  ┌─ Dylan / password1 ──┐ │
-│  │ rockyou.txt                   │──│ Credenciales halladas │ │
+│  ┌─ WPScan brute force ──────────┐  ┌─ Dylan / password1 ──┐ │
+│  │ rockyou.txt                   │──│ Credenciales halladas│ │
 │  └───────────────────────────────┘  └──────────────────────┘ │
 │        │                                                     │
 │        ▼                                                     │
 │  [6] ACCESO AL PANEL                                         │
-│  ┌─ /wp-admin ──────────────────┐  ┌─ Editor de temas ────┐ │
+│  ┌─ /wp-admin ───────────────────┐  ┌─ Editor de temas ────┐ │
 │  │ Login con Dylan               │──│ 404.php → rev shell  │ │
 │  └───────────────────────────────┘  └──────────────────────┘ │
 │        │                                                     │
 │        ▼                                                     │
 │  [7] REVERSE SHELL                                           │
-│  ┌─ nc -lvnp 1234 ─────────────┐  ┌─ www-data shell ─────┐ │
+│  ┌─ nc -lvnp 1234 ───────────────┐  ┌─ www-data shell ─────┐ │
 │  │ TCP connection                │──│ HTTP→TCP bypass WAF  │ │
 │  └───────────────────────────────┘  └──────────────────────┘ │
 │        │                                                     │
 │        ▼                                                     │
 │  [8] ESTABILIZACIÓN                                          │
-│  ┌─ python3 pty ────────────────┐  ┌─ Shell estable ──────┐ │
-│  │ TTY spawn                     │──│ Acceso inicial logrado│ │
+│  ┌─ python3 pty ────────────────┐   ┌─ Shell estable ──────┐ │
+│  │ TTY spawn                     │──│Acceso inicial logrado│ │
 │  └───────────────────────────────┘  └──────────────────────┘ │
 │        │                                                     │
 │        ▼                                                     │
 │  [9] ESTADO FINAL                                            │
 │  ┌──────────────────────────────────────────────────────────┐│
-│  │ USER (www-data): Acceso logrado                           ││
-│  │ ROOT: PENDIENTE (módulo de escalada)                      ││
+│  │ USER (www-data): Acceso logrado                          ││
+│  │ ROOT: PENDIENTE (módulo de escalada)                     ││
 │  └──────────────────────────────────────────────────────────┘│
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
@@ -278,33 +277,31 @@ id
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                       FLAGS OBTENIDAS                         │
+│                       FLAGS OBTENIDAS                        │
 ├──────────────────────────────────────────────────────────────┤
-│ USER (www-data): Acceso logrado                               │
-│ ROOT: PENDIENTE (módulo de escalada)                          │
+│ USER (www-data): Acceso logrado                              │
+│ ROOT: PENDIENTE (módulo de escalada)                         │
 └──────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────────┐
-│                     ACCESOS LOGRADOS                          │
+│                     ACCESOS LOGRADOS                         │
 ├──────────────────────────────────────────────────────────────┤
 │ ✓ WPScan → Enumeración de usuarios y plugins                 │
 │ ✓ Brute force → Dylan / password1                            │
 │ ✓ Login wp-admin → Panel de administración                   │
 │ ✓ Editor de temas → Reverse shell PHP en 404.php             │
-│ ✓ Shell www-data estabilizada con python3 pty                 │
+│ ✓ Shell www-data estabilizada con python3 pty                │
 └──────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────────┐
-│                          NOTA                                 │
+│                          NOTA                                │
 ├──────────────────────────────────────────────────────────────┤
-│ La escalada de privilegios a root NO fue completada           │
-│ en esta sesión. Queda pendiente para un módulo posterior.     │
+│ La escalada de privilegios a root NO fue completada          │
+│ en esta sesión. Queda pendiente para un módulo posterior.    │
 └──────────────────────────────────────────────────────────────┘
 ```
 
----
 
-**FIN DEL INFORME**
 
 
 
@@ -314,12 +311,12 @@ id
 
 ### Documentos Relacionados
 
-- [[../write-ups/Academy-THL.md|Academy-THL]] — Metasploit, Nmap, WordPress
-- [[../apuntes Chema/Maquinas/Auditoría de CMS — WordPress (máquina Academy).md|Auditoría de CMS — WordPress (máquina Academy)]] — Metasploit, Nmap, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Linux, Metasploit, Nmap
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web — Práctica con Metasploitable.md|Auditoria Web — Práctica con Metasploitable]] — Linux, Metasploit, Nmap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Metasploit, Nmap
-- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Linux, Metasploit, Nmap
+- [[../write-ups/Academy-THL.md|Academy-THL]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

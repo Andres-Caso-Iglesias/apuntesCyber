@@ -72,18 +72,22 @@ Portafolio + presencia pública
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, OSINT, VulnHub
-- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, OSINT, VulnHub
-- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, OSINT, Windows
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, OSINT, Windows
-- [[../../apuntes Chema/IA/IA — De los cimientos a la cima.md|IA — De los cimientos a la cima]] — Empleabilidad, Post-Explotación, Windows
-- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — OSINT, VulnHub, Windows
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Hack The Box
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Empleabilidad, Esteganografía, Hack The Box
+- [[Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Hack The Box
+- [[../../apuntes Chema/IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Post-Explotación, Redes
+- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — Empleabilidad, Hack The Box, Redes
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Esteganografía, Redes
 
 ### 🛠️ Herramientas
 

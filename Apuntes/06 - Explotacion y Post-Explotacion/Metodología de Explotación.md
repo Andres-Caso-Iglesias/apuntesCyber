@@ -114,18 +114,22 @@ mkdir exploits
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Son ROBOTS — RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS — RickdiculouslyEasy y Mr. Robot]] — Linux, Nmap, VulnHub
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Linux, Nmap, VulnHub
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Nmap, Windows
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, VulnHub, Windows
-- [[Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — Linux, Nmap, VulnHub
-- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Linux, Nmap, Windows
+- [[Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -139,5 +143,6 @@ mkdir exploits
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #hack-the-box #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows
+> #burpsuite #command-injection #dirsearch #escalada-privilegios #hack-the-box #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #vulnhub #windows

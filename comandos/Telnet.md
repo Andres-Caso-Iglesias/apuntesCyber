@@ -153,18 +153,22 @@ QUIT
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Tmux.md|Tmux]] — Linux, Post-Explotación, Tmux
-- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Linux, Redes, Tmux
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Linux, Post-Explotación, Redes
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Redes
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Post-Explotación, Redes
-- [[../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — Linux, Post-Explotación, Redes
+- [[Tmux.md|Tmux]] — Escalada de Privilegios, Hydra, Wireshark
+- [[../informes/Informe_Cap.md|Informe_Cap]] — Escalada de Privilegios, SSH, Wireshark
+- [[../Apuntes/comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, SSH
+- [[../Apuntes/comandos/SSH.md|SSH]] — Escalada de Privilegios, Hydra, SSH
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Post-Explotación, SSH, Wireshark
 
 ### 🛠️ Herramientas
 
@@ -173,4 +177,4 @@ QUIT
 - [[comandos/Telnet|Telnet]]
 - [[comandos/Tmux|Tmux]]
 
-> #hydra #linux #post-explotacion #redes #ssh #telnet #tmux #wireshark
+> #escalada-privilegios #hydra #linux #post-explotacion #redes #ssh #telnet #tmux #wireshark

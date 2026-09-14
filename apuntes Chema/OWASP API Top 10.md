@@ -332,18 +332,22 @@ La sesión terminó indicando que el día siguiente se realizaría una máquina 
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, Nmap
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Feroxbuster, Nmap
+- [[../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — DirSearch, FFUF, Feroxbuster
 - [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — FFUF, Feroxbuster, IDOR
-- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — FFUF, Nmap, Windows
-- [[../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — FFUF, Nmap, Windows
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, Feroxbuster, Nmap
+- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — DirSearch, FFUF, Feroxbuster
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 

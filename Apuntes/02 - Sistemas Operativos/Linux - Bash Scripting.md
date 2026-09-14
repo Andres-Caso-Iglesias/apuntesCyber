@@ -207,21 +207,26 @@ shred -u ~/.bash_history # borrado seguro
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Linux, Redes, Windows
-- [[../comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
-- [[Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Nmap, Redes
-- [[Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Redes
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Metasploit, Redes
+- [[../../informes/Informe_Blue.md|Informe_Blue]] — Metasploit, Nmap, Redes
+- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Redes
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Nmap, Redes
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Metasploit, Redes
 
 ### 🛠️ Herramientas
 
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
 
-> #blue-team #forense #linux #nmap #redes #windows
+> #blue-team #forense #linux #metasploit #nmap #redes #windows

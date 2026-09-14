@@ -138,18 +138,22 @@ sha256sum ./exhibits/malware.exe
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Tmux, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Tmux, Windows
-- [[../comandos/Windows.md|Windows]] — Linux, Tmux, Windows
-- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Metodología Pentest, Redes
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
+- [[../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
 
 ### 🛠️ Herramientas
 

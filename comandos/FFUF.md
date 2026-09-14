@@ -150,18 +150,22 @@ ffuf -u http://target/FUZZ -w wordlist.txt -recursion -recursion-depth 2
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[../Apuntes/comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
-- [[Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 

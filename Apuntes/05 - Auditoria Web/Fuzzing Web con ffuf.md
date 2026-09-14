@@ -135,18 +135,22 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 — Rockstar.md|Fuzzing de parámetros con x8 — Rockstar]] — FFUF, Feroxbuster, GoBuster
-- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, GoBuster
-- [[../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, GoBuster
-- [[../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, GoBuster
-- [[../../comandos/DirSearch.md|DirSearch]] — FFUF, Feroxbuster, GoBuster
+- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
+- [[../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
 
 ### 🛠️ Herramientas
 

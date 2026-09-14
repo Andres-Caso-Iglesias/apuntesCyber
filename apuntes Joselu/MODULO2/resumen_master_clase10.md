@@ -185,17 +185,21 @@ La práctica 1 del máster consistirá en construir una herramienta de est e tip
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Kali Linux, Linux
-- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Linux, OSINT
-- [[resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, OSINT
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — IA en Ciberseguridad, Linux, OSINT
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Redes
+- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Redes, Windows
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Kali Linux, Redes
+- [[../MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — IA en Ciberseguridad, Redes, Windows
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Kali Linux, Redes, Windows
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — Kali Linux, Redes, Windows
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Kali Linux, Redes, Windows
 
-> #ia #kali #linux #osint #redes
+> #ia #kali #linux #osint #redes #windows

@@ -200,17 +200,21 @@ A partir de la próxima sesión arranca el hacking activo: enumeración de servi
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Linux, OSINT, WiFi / Hardware
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, OSINT, Windows
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — IA en Ciberseguridad, Linux, Windows
-- [[../../comandos/Linux.md|Linux]] — Linux, OSINT, Redes
-- [[resumen_master_clase8.md|resumen_master_clase8]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, WiFi / Hardware
+- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, WiFi / Hardware
+- [[resumen_master_clase8.md|resumen_master_clase8]] — Esteganografía, Forense Digital, Post-Explotación
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Redes, WiFi / Hardware
+- [[resumen_master_clase10.md|resumen_master_clase10]] — IA en Ciberseguridad, Redes, Windows
 
-> #esteganografia #forense #ia #linux #osint #redes #wifi #windows
+> #esteganografia #forense #ia #linux #osint #post-explotacion #redes #wifi #windows

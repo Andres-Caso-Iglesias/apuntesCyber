@@ -175,18 +175,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — IA en Ciberseguridad, Linux, OSINT
-- [[../PREWORK/resumen_clase1_.md|resumen_clase1_]] — IA en Ciberseguridad, VulnHub, Windows
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, OSINT, Windows
-- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_master_clase7.md|resumen_master_clase7]] — IA en Ciberseguridad, Linux, OSINT
-- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Certificaciones, IA en Ciberseguridad, Windows
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
+- [[../PREWORK/resumen_clase1_.md|resumen_clase1_]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
+- [[resumen_master_clase7.md|resumen_master_clase7]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
+- [[resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
+- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Forense Digital, Pivoting / Movilidad Lateral, Redes
 
 ### 🛠️ Herramientas
 

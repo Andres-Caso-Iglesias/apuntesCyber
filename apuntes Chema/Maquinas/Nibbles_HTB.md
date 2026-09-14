@@ -329,18 +329,22 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Linux, Nmap, OSINT
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Linux, Metasploit, Nmap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — Linux, Nmap, OSINT
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Linux, Nmap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — Linux, Metasploit, Nmap
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Linux, OSINT
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 

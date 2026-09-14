@@ -76,28 +76,36 @@ wpscan --url http://10.10.10.x --proxy http://127.0.0.1:8080 --enumerate ap
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
-- [[../../apuntes Andres/30.06.2026 Explotación web PortSwigger.md|30.06.2026 Explotación web PortSwigger]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
-- [[../../comandos/WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Command Injection / RCE, Netcat / Reverse Shells, WordPress
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Burp Suite, Redes, WordPress
+- [[../05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Command Injection / RCE, Metasploit, Post-Explotación
+- [[../../apuntes Andres/30.06.2026 Explotación web PortSwigger.md|30.06.2026 Explotación web PortSwigger]] — Hydra, Metasploit, Post-Explotación
+- [[../05 - Auditoria Web/XXE - XML External Entity.md|XXE - XML External Entity]] — Command Injection / RCE, Metasploit, Post-Explotación
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Command Injection / RCE, Metasploit, Post-Explotación
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Hydra, Metasploit, Post-Explotación
+- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Hydra, Metasploit, Post-Explotación
 
 ### 🛠️ Herramientas
 
 - [[comandos/BurpSuite|Burp Suite]]
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Metasploit|Metasploit]]
 - [[comandos/Metasploit|Netcat / Reverse Shells]]
 - [[comandos/WPScan|WPScan]]
 
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
+- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
+- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
+- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
 
-> #burpsuite #command-injection #hydra #netcat #post-explotacion #redes #reverse-shell #wordpress #wpscan
+> #burpsuite #command-injection #hydra #metasploit #netcat #post-explotacion #redes #reverse-shell #ssrf #ssti #wordpress #wpscan #xxe

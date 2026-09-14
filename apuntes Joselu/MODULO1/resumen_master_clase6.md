@@ -131,18 +131,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — IA en Ciberseguridad, Nmap, Windows
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — IA en Ciberseguridad, OSINT, WiFi / Hardware
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, OSINT
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — IA en Ciberseguridad, Nmap, Windows
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — IA en Ciberseguridad, Metasploit, Windows
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, SSH, Wireshark
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Metasploit, Wireshark
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, Metasploit
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Metasploit, Post-Explotación, Redes
+- [[../../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Empleabilidad, Hydra, Metasploit
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Hydra, Metasploit
 
 ### 🛠️ Herramientas
 

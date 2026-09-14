@@ -93,21 +93,26 @@ La esteganografía oculta información **dentro** de otro fichero (imagen, audio
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — OSINT, Post-Explotación, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, WiFi / Hardware
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — OSINT, Redes, WiFi / Hardware
-- [[../comandos/Linux.md|Linux]] — Linux, OSINT, Redes
-- [[../Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — OSINT, Redes, WiFi / Hardware
-- [[../comandos/Nmap.md|Nmap]] — Hydra, Post-Explotación, Redes
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Linux
+- [[../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, WiFi / Hardware
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Hydra, Linux
+- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Esteganografía, Forense Digital, Linux
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
+- [[comandos/Nmap|Nmap]]
 
-> #esteganografia #forense #hydra #linux #osint #post-explotacion #redes #wifi
+> #esteganografia #forense #hydra #linux #nmap #osint #pentest #post-explotacion #redes #wifi

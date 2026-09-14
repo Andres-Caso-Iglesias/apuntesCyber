@@ -258,18 +258,22 @@ impacket-psexec -hashes :HASH user@IP
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Windows.md|Windows]] — Linux, Tmux, Windows
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Tmux, Windows
-- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Redes, Windows
-- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Tmux, Windows
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, Windows
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Hydra, John / Hashcat, Linux
+- [[Windows.md|Windows]] — Hydra, Linux, Redes
+- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Hydra, Linux, Redes
 
 ### 🛠️ Herramientas
 

@@ -464,18 +464,22 @@ En la sesión de auditoría web + escalada Linux (Carlos Gómez Pintado, 08/07/2
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Linux, Nmap
-- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — GoBuster, Linux, Nmap
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Linux, Nmap
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Linux, Nmap
-- [[Maquinas/Rockstar — Escalada Linux y LFI.md|Rockstar — Escalada Linux y LFI]] — GoBuster, Linux, Nmap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I — Oopsie y Archetype.md|Explotación de Máquinas Locales I — Oopsie y Archetype]] — GoBuster, Linux, Nmap
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Escalada de Privilegios, Feroxbuster, Hydra
+- [[Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — Escalada de Privilegios, Feroxbuster, Hydra
+- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — Escalada de Privilegios, FFUF, Hydra
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Feroxbuster, Hydra
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Escalada de Privilegios, Feroxbuster, IDOR
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Escalada de Privilegios, Hydra, IDOR
 
 ### 🛠️ Herramientas
 
@@ -490,6 +494,6 @@ En la sesión de auditoría web + escalada Linux (Carlos Gómez Pintado, 08/07/2
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
 > #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #idor #lfi #linux #nmap #post-explotacion #redes #rfi #ssh #wifi

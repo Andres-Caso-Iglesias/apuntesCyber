@@ -86,23 +86,28 @@ ssh -p 4444 <user>@127.0.0.1
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Hydra.md|Hydra]] — Hydra, Linux, Windows
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metasploit, Windows
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Linux, Redes
-- [[Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
-- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Windows
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Windows
+- [[Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
+- [[../../comandos/Tmux.md|Tmux]] — Escalada de Privilegios, Linux, Metasploit
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
+- [[Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/SSH|SSH]]
+- [[comandos/Tmux|Tmux]]
 
-> #escalada-privilegios #hydra #linux #metasploit #pentest #pivoting #redes #ssh #windows
+> #escalada-privilegios #hydra #linux #metasploit #pentest #pivoting #post-explotacion #redes #ssh #tmux #windows

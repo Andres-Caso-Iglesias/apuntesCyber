@@ -465,18 +465,22 @@ cat /root/root.txt
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Linux, Nmap
-- [[../informes/Informe_Castor.md|Informe_Castor]] — John / Hashcat, Linux, Nmap
-- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — John / Hashcat, Linux, Nmap
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Linux, Nmap
-- [[Castor-THL.md|Castor-THL]] — John / Hashcat, Linux, Nmap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II — Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II — Metasploitable]] — John / Hashcat, Linux, Nmap
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, SSH
+- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, FFUF, Hydra
+- [[Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, John / Hashcat
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, John / Hashcat, SSH
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — Escalada de Privilegios, FFUF, Hydra
 
 ### 🛠️ Herramientas
 
@@ -489,6 +493,6 @@ cat /root/root.txt
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
 
 > #escalada-privilegios #ffuf #gobuster #hydra #john #kali #lfi #linux #metasploitable #nmap #post-explotacion #redes #ssh

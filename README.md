@@ -34,18 +34,22 @@ Si quieres añadir algo o corregir algo mándalo directamente o abre un pull req
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Nmap, Normativa / GRC, SQL Injection
-- [[Apuntes/comandos/SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
-- [[apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Normativa / GRC, SQL Injection, SQLMap
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web — OWASP Top 10 y Burp Suite]] — Nmap, SQL Injection, SQLMap
-- [[apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Nmap, SQL Injection, SQLMap
-- [[Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Burp Suite, Hack The Box, Redes
+- [[Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Forense Digital
+- [[Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Metodología Pentest
+- [[apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Hydra
+- [[Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Hydra
+- [[Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Esteganografía, WiFi / Hardware
+- [[transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Empleabilidad, Forense Digital, Metodología Pentest
 
 ### 🛠️ Herramientas
 
@@ -58,4 +62,4 @@ Si quieres añadir algo o corregir algo mándalo directamente o abre un pull req
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #burpsuite #forense #hack-the-box #hydra #nmap #normativa #redes #sqli #sqlmap
+> #burpsuite #empleabilidad #esteganografia #forense #hack-the-box #hydra #nmap #normativa #osint #pentest #redes #sqli #sqlmap #wifi

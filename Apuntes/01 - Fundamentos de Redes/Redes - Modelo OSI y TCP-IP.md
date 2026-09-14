@@ -127,18 +127,22 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Nmap, SQL Injection, WiFi / Hardware
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Nmap, SQL Injection, WiFi / Hardware
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Nmap, Redes, SQL Injection
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SSH, WiFi / Hardware, Wireshark
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — SQL Injection, SSH, Wireshark
 - [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, WiFi / Hardware
-- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — SSH, WiFi / Hardware, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Redes, Wireshark
 
 ### 🛠️ Herramientas
 
@@ -149,6 +153,6 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 ### 🎯 Vulnerabilidades Relacionadas
 
 - [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web — OWASP Top 10 y Burp Suite.md|XSS]]
+- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
 
 > #burpsuite #nmap #redes #sqli #ssh #wifi #wireshark #xss

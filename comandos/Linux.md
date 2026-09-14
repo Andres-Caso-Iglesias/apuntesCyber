@@ -446,21 +446,25 @@ steghide extract -sf imagen.jpg
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Linux, OSINT, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Linux, OSINT, Redes
-- [[../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Linux, OSINT, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Linux, Redes
-- [[../Apuntes/comandos/Linux.md|Linux]] — Linux, Metodología Pentest, Redes
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Linux, Redes
+- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Linux, WiFi / Hardware
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, WiFi / Hardware
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Linux, WiFi / Hardware
 
 ### 🛠️ Herramientas
 
 - [[comandos/SSH|SSH]]
 
-> #esteganografia #forense #linux #osint #pentest #redes #ssh
+> #esteganografia #forense #linux #osint #pentest #post-explotacion #redes #ssh #wifi

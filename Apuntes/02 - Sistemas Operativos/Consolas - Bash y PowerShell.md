@@ -128,21 +128,26 @@ pip install herramienta # paquetes Python
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Nmap, Windows
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
-- [[../comandos/Nmap.md|Nmap]] — Linux, Nmap, Redes
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Tmux
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
+- [[../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
 
 ### 🛠️ Herramientas
 
 - [[comandos/Nmap|Nmap]]
+- [[comandos/Tmux|Tmux]]
 
-> #kali #linux #nmap #pentest #redes #windows
+> #kali #linux #nmap #pentest #redes #tmux #windows

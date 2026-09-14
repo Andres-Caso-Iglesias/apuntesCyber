@@ -117,18 +117,22 @@ Término en la transcripción Corrección / Aclaración conectados a internet ma
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Post-Explotación, Windows
-- [[../../apuntes Chema/IA/IA — Introducción y VibeCoding.md|IA — Introducción y VibeCoding]] — IA en Ciberseguridad, Post-Explotación, Windows
-- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Redes, Windows
-- [[../../comandos/Hydra.md|Hydra]] — IA en Ciberseguridad, Nmap, Post-Explotación
-- [[../../comandos/SSH.md|SSH]] — IA en Ciberseguridad, Post-Explotación, Redes
-- [[resumen_clase14.md|resumen_clase14]] — IA en Ciberseguridad, Nmap, OSINT
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
+- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Hydra, Post-Explotación, SSH
+- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, SSH
+- [[../../comandos/Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
+- [[../../comandos/SSH.md|SSH]] — Hydra, Post-Explotación, SSH
+- [[resumen_clase14.md|resumen_clase14]] — Escalada de Privilegios, Post-Explotación, Redes
 
 ### 🛠️ Herramientas
 

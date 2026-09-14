@@ -155,23 +155,28 @@ curl -s 'https://crt.sh/?q=empresa.com&output=json' | head # certs TLS
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 7.md|BLOQUE 7]] — Metasploit, Nmap, Pivoting / Movilidad Lateral
-- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]] — Nmap, OSINT, Post-Explotación
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Nmap, OSINT, Post-Explotación
-- [[BLOQUE 15.md|BLOQUE 15]] — Metasploit, Nmap, OSINT
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Metodología Pentest, OSINT, Redes
-- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Nmap, Pivoting / Movilidad Lateral
+- [[BLOQUE 15.md|BLOQUE 15]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Metasploit, Post-Explotación
+- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, SSH
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Pivoting / Movilidad Lateral, SSH
+- [[BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
 
 ### 🛠️ Herramientas
 
 - [[comandos/Google_Dorks|Google Dorks]]
 - [[comandos/Metasploit|Metasploit]]
 - [[comandos/Nmap|Nmap]]
+- [[comandos/SSH|SSH]]
 
-> #escalada-privilegios #google-dorks #metasploit #nmap #osint #pentest #pivoting #post-explotacion #redes
+> #blue-team #escalada-privilegios #google-dorks #metasploit #nmap #osint #pentest #pivoting #post-explotacion #redes #ssh

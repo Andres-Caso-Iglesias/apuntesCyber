@@ -54,18 +54,22 @@ setw -g pane-base-index 1
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Linux.md|Linux]] — Linux, Tmux, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Tmux, Windows
-- [[../../comandos/Windows.md|Windows]] — Linux, Tmux, Windows
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Redes, Tmux
-- [[Windows.md|Windows]] — Metodología Pentest, Redes, Tmux
-- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Tmux, Windows
+- [[Windows.md|Windows]] — Linux, Redes, Tmux
+- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
+- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
 
 ### 🛠️ Herramientas
 

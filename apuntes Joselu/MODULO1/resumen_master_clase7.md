@@ -149,18 +149,22 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — IA en Ciberseguridad, Linux, Windows
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — IA en Ciberseguridad, Linux, OSINT
-- [[resumen_master_clase1.md|resumen_master_clase1]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — IA en Ciberseguridad, Linux, OSINT
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point — Tier 0.md|Hack The Box- Starting Point — Tier 0]] — Linux, OSINT, Windows
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — IA en Ciberseguridad, Linux, OSINT
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
+- [[resumen_master_clase1.md|resumen_master_clase1]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
+- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hack The Box, Hydra, SQL Injection
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
+- [[../PREWORK/resumen_clase18.md|resumen_clase18]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
+- [[../MODULO2/resumen_master_clase10.md|resumen_master_clase10]] — Kali Linux, Redes, Windows
 
 ### 🛠️ Herramientas
 

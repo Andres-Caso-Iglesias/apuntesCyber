@@ -100,18 +100,22 @@ Wireshark muestra perfectamente el proceso de establecimiento de conexión TCP:
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Banco.md|Informe_Banco]] — Linux, Metasploit, Nmap
-- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Nmap
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metasploit, Nmap
-- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, Nmap, Post-Explotación
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metasploit, Redes
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotación, Redes
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Metasploit, SSH, Wireshark
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, SSH, Wireshark
+- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, SSH, Wireshark
+- [[../informes/Informe_Cap.md|Informe_Cap]] — Metasploit, SSH, Wireshark
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Metasploit, Post-Explotación, Wireshark
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, SSH, Wireshark
 
 ### 🛠️ Herramientas
 

@@ -257,22 +257,27 @@ nmap --reason <target>
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, WiFi / Hardware
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Nmap, Redes, WiFi / Hardware
-- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Post-Explotación, Redes
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, WiFi / Hardware, Wireshark
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
+- [[../Apuntes/comandos/Telnet.md|Telnet]] — Hydra, Redes, Telnet
 - [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Redes
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, WiFi / Hardware
-- [[../Apuntes/comandos/Telnet.md|Telnet]] — Hydra, Nmap, Redes
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Hydra, WiFi / Hardware, Wireshark
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Post-Explotación, WiFi / Hardware, Wireshark
 
 ### 🛠️ Herramientas
 
 - [[comandos/Hydra|Hydra]]
 - [[comandos/Nmap|Nmap]]
+- [[comandos/Telnet|Telnet]]
 
-> #hydra #nmap #post-explotacion #redes #wifi
+> #hydra #nmap #post-explotacion #redes #telnet #wifi #wireshark

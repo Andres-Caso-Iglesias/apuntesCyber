@@ -159,18 +159,22 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]] — IA en Ciberseguridad, Linux, Windows
-- [[resumen_master_clase5.md|resumen_master_clase5]] — IA en Ciberseguridad, Linux, Windows
-- [[../../write-ups/Nike-THL.md|Nike-THL]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Nmap, Windows
-- [[../../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Linux, Nmap, Windows
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — IA en Ciberseguridad, Nmap, Windows
+- [[resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Metasploit, Normativa / GRC
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
+- [[resumen_master_clase2.md|resumen_master_clase2]] — Escalada de Privilegios, Metasploit, Normativa / GRC
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
+- [[../../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
 
 ### 🛠️ Herramientas
 
@@ -180,6 +184,7 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 ### 🎯 Vulnerabilidades Relacionadas
 
-- [[Apuntes/05 - Auditoria Web/Path Traversal — 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
+- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
 
-> #blue-team #certificaciones #escalada-privilegios #ia #kali #lfi #linux #metasploit #netcat #nmap #normativa #redes #reverse-shell #windows
+> #blue-team #certificaciones #escalada-privilegios #ia #kali #lfi #linux #metasploit #netcat #nmap #normativa #redes #reverse-shell #sqli #windows
