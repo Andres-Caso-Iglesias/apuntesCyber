@@ -102,6 +102,23 @@ net config workstation            # Info de estación
 nltest /dclist:                  # Controladores de dominio
 ```
 
+## Equivalencias CMD ↔ Linux
+
+```cmd
+dir /a                           # Listar (incl. ocultos)
+dir /s *.txt                     # Recursivo
+findstr "texto" fichero          # grep
+doskey /history                  # history
+cls                              # clear
+rd /s /q <dir>                   # rm -rf (sin alertas)
+pushd <ruta> / popd              # guardar/volver de directorio
+whoami /all                      # usuario + SID + grupos + privilegios
+whoami /priv                     # solo privilegios (SeImpersonatePrivilege)
+whoami /groups                   # grupos
+```
+
+
+
 
 
 
@@ -114,15 +131,15 @@ nltest /dclist:                  # Controladores de dominio
 
 ### Documentos Relacionados
 
-- [[Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
+- [[Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/Arduino/librerias_arduino.md|librerias_arduino]] — Programacion: Linux, Redes
+- [[../../../redes/vlans_segmentacion.md|vlans_segmentacion]] — Redes: Linux, Redes
 
-> #linux #pentest #redes #tmux #windows
+> #linux #linux_ciber #pentest #redes #tmux #windows_ciber

@@ -154,26 +154,23 @@ ffuf -u http://target/FUZZ -w wordlist.txt -recursion -recursion-depth 2
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Desarrollo Web, DirSearch, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[DirSearch.md|DirSearch]] — Desarrollo Web, DirSearch, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, Redes, SQL
 
-> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #nmap #redes
+> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #nmap #redes #sql #web

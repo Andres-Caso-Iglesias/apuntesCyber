@@ -107,7 +107,56 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 
 ---
 
-## ⑥ Wordlists recomendadas
+## ⑥ Fuzzing de parámetros: dos fases (nombre y valor)
+
+No basta con probar valores de parámetros conocidos: a veces el parámetro **no aparece en la interfaz**. Se resuelve en dos fases consecutivas:
+
+| Fase | Incógnita | Herramienta típica | Diccionario |
+|------|-----------|-------------------|-------------|
+| **1. Descubrir NOMBRE** | ¿Qué parámetro oculto procesa el backend? | x8 / x8_lite.py | Nombres de parámetro (`burp-parameter-names.txt`) |
+| **2. Descubrir VALOR** | ¿Qué valor activa ese parámetro? | ffuf / valfuzz.py | Valores (contextuales, `rockyou.txt` si aplica) |
+
+```
+1. index.php responde pero no muestra nada útil (500)
+ ↓
+2. x8 → descubre el NOMBRE del parámetro: 'backdoor'
+ ↓
+3. ffuf → fuzzea el VALOR de 'backdoor' (500 → 200)
+ ↓
+4. La respuesta revela usuario y contraseña
+ ↓
+5. Acceso con esas credenciales
+```
+
+> [!important] No confundir una fase con otra
+> **x8** consume nombres de parámetro (¿existe este campo?). **ffuf/valfuzz** usan un nombre fijo y prueban valores (¿este valor hace algo?). Son fases consecutivas, no alternativas.
+
+> [!warning] Señal de éxito: cambio 500 → 200
+> Si una petición devolvía 500 y con un valor concreto pasa a 200 (o cambia la longitud de respuesta), has encontrado el valor que el backend procesa.
+
+### Verificación manual con curl
+
+```bash
+curl -X POST http://OBJETIVO/index.php --data "parametro=valor"
+```
+
+### Fases internas de x8
+
+| Fase | Qué hace |
+|------|----------|
+| **LEARN** | Aprende la respuesta baseline (ruta inexistente o parámetro inexistente) |
+| **BATCH** | Lanza muchos nombres de parámetro a la vez |
+| **COMPARE** | Diferencia cada respuesta contra el baseline |
+| **BISECT** | Búsqueda binaria para aislar el parámetro que cambia la respuesta |
+| **CUSTOM** | Prueba pares típicos: `admin=true`, `debug=1`, `id=1` |
+| **VERIFY** | Reconfirma uno a uno los hallazgos |
+
+> [!warning] x8 con Docker puede fallar
+> Si `docker build -t x8 .` falla, alternativas: compilar con Cargo (`cargo build --release`) o escribir un fuzzer propio en Python (pattern `LEARN → BATCH → COMPARE → VERIFY`).
+
+---
+
+## ⑧ Wordlists recomendadas
 
 | Diccionario | Uso |
 |------------|-----|
@@ -125,6 +174,9 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 - [ ] ¿Sé establecer un baseline antes de fuzzear?
 - [ ] ¿Puedo fuzzear directorios, vhosts y parámetros?
 - [ ] ¿Sé cuándo usar [[FFUF]] y cuándo [[Hydra]] para credenciales?
+- [ ] ¿Diferencio la fase de descubrir NOMBRE de parámetro de la de descubrir VALOR?
+- [ ] ¿Reconozco la señal 500 → 200 como indicador de parámetro procesado?
+- [ ] ¿Conozco las fases internas de x8 (LEARN, BATCH, COMPARE, VERIFY)?
 
 ---
 
@@ -139,26 +191,26 @@ Envío **automatizado** de entradas a una aplicación para descubrir comportamie
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — DirSearch, GoBuster, Hack The Box
+- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — x8, Fuzzing, Kali Linux
+- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — Fuzzing, GoBuster, Kali Linux
+- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Fuzzing, Directory Listing, GoBuster
+- [[../../comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — DirSearch, GoBuster, Hack The Box
+- [[../../comandos/DirSearch.md|DirSearch]] — Desarrollo Web, DirSearch, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
+- [[../../../programacion/CSS/fundamentos_css.md|fundamentos_css]] — Programacion: Bases de Datos, Desarrollo Web, Redes
+- [[../../../programacion/PHP/seguridad_php.md|seguridad_php]] — Programacion: Bases de Datos, Desarrollo Web, Redes
 
-> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #hack-the-box #hydra #redes
+> #burpsuite #database #dirsearch #feroxbuster #ffuf #gobuster #hack_the_box #hydra #redes #web

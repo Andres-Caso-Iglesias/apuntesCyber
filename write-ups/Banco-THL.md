@@ -539,28 +539,23 @@ cat /root/root.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
-- [[../apuntes Chema/Repaso General II.md|Repaso General II]] — Escalada de Privilegios, Hydra, SSH
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Hydra, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Escalada de Privilegios, Hydra, SSH
-- [[Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Hydra, SSH
+- [[../apuntes Chema/Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]] — Linux, Path Traversal / LFI, Seguridad
+- [[Rockstars-THL.md|Rockstars-THL]] — Desarrollo Web, Linux, Path Traversal / LFI
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Desarrollo Web, Linux, Path Traversal / LFI
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Desarrollo Web, Linux, Path Traversal / LFI
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Linux, Path Traversal / LFI
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #burpsuite #escalada-privilegios #hydra #lfi #linux #nmap #redes #ssh
+> #burpsuite #escalada_privilegios #git #hydra #java #javascript #lfi #linux #linux_ciber #nmap #redes #redes_ciber #seguridad #sql #ssh_tool #web

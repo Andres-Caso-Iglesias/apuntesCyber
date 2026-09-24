@@ -12,6 +12,15 @@ ssh <user>@<host> -p <port>     # Puerto personalizado
 ssh -i key.pem <user>@<host>    # Con llave privada
 ```
 
+## Generación de llaves
+
+```bash
+ssh-keygen -t rsa -b 4096       # Generar par de llaves
+chmod 600 id_rsa                 # Permisos obligatorios de la llave
+ssh-copy-id <user>@<host>        # Copiar llave pública al servidor
+cat clave.txt | base64 -d > id_rsa  # Decodificar llave filtrada (base64)
+```
+
 ## Túneles SSH
 
 ```bash
@@ -90,24 +99,23 @@ ssh -p 4444 <user>@127.0.0.1
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
-- [[../../comandos/Tmux.md|Tmux]] — Escalada de Privilegios, Linux, Metasploit
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
-- [[Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../comandos/SSH.md|SSH]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../comandos/Tmux.md|Tmux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[Hydra.md|Hydra]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Redes
+- [[../../../cloud/azure_functions.md|azure_functions]] — Cloud: Desarrollo Web, Linux, Redes
 
-> #escalada-privilegios #hydra #linux #metasploit #pentest #pivoting #post-explotacion #redes #ssh #tmux #windows
+> #cloud_base #escalada_privilegios #hydra #linux #linux_ciber #metasploit #pentest #pivoting #redes #ssh_tool #tmux #web

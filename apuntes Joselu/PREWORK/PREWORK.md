@@ -2434,41 +2434,23 @@ Término en la transcripción Corrección / Aclaración KDBX .kdbx “ formato d
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase17.md|resumen_clase17]] — Burp Suite, WiFi / Hardware, WordPress
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Command Injection / RCE, WiFi / Hardware, WordPress
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, Hack The Box, WordPress
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Hack The Box, WiFi / Hardware, WordPress
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Command Injection / RCE, Hack The Box, WordPress
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Kali Linux, Seguridad, Windows
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — GoBuster, Hack The Box, Kali Linux
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, Windows
+- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, Windows
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Hack The Box, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Conceptos Transversales/Seguridad - Buenas Prácticas.md|Seguridad - Buenas Prácticas]] — Programacion: Arquitectura, Docker, Seguridad
+- [[../../../programacion/Conceptos Transversales/Arquitectura de Software.md|Arquitectura de Software]] — Programacion: Arquitectura, Criptografia, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #blue-team #burpsuite #certificaciones #command-injection #csrf #dirsearch #empleabilidad #escalada-privilegios #esteganografia #file-upload #forense #gobuster #google-dorks #hack-the-box #hydra #ia #idor #john #kali #linux #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #ssrf #telnet #vulnhub #wifi #windows #wireshark #wordpress #wpscan #xss
+> #arquitectura #blue_team #burpsuite #certificaciones #cli #cloud_base #command_injection #crypto #csrf #database #devops #dirsearch #docker #empleabilidad #escalada_privilegios #esteganografia #file_upload #forense #funcional #git #go #gobuster #google_dorks #hack_the_box #hydra #ia_ml #idor #java #javascript #john_hashcat #kali #kubernetes #linux #linux_ciber #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #sql #sqli #sqlmap_tool #ssh_tool #ssrf #telnet #testing #vulnhub #web #wifi #windows_ciber #wireshark #wordpress #wpscan #xss

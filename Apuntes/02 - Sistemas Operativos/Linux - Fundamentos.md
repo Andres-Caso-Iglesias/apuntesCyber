@@ -121,11 +121,28 @@ ls -la | sort -k5 -n # ordenar por tamaño
 ```bash
 [[Linux#grep|grep]] 'patrón' fichero.txt # buscar patrón
 [[Linux#grep|grep]] -r 'patrón' directorio/ # recursivo
+[[Linux#grep|grep]] -r 'password' /ruta/ 2>/dev/null # suprime "Permission denied"
 [[Linux#find|find]] / -name 'fichero.txt' # buscar por nombre
+[[Linux#find|find]] / -name '*.txt' 2>/dev/null # por extensión (comodines)
+[[Linux#find|find]] / -type f # solo ficheros | -type d solo directorios
+[[Linux#find|find]] / -size +10M # más de 10 MB
+[[Linux#find|find]] / -mtime -7 # modificados en los últimos 7 días
+[[Linux#find|find]] / -perm u+x # ejecutables por el propietario
 [[Linux#find|find]] / -perm -4000 2>/dev/null # ficheros con SUID ← ESCALADA
+[[Linux#find|find]] / -name 'user.txt' 2>/dev/null # flags de HTB
+[[Linux#find|find]] /home -name '*.tmp' -delete # borrar resultados
 which python3 # ruta del ejecutable
 [[Linux#locate|locate]] fichero.txt # búsqueda rápida en DB
+file nombre_archivo # tipo REAL por magic bytes
 ```
+
+> [!important] Extensiones en Linux
+> En Windows las extensiones (`.txt`, `.exe`) determinan cómo se trata el archivo; **en Linux no significan nada para el sistema**. Lo que importa es el **tipo real**: el primer carácter de `ls -l` (`-` fichero, `d` directorio, `l` enlace) y los **magic bytes**. Los scripts se identifican por el *shebang* (`#!/bin/bash`).
+>
+> **Implicación ofensiva**: se puede nombrar un `.jpg` con contenido de script y el sistema lo ejecutará — técnica habitual para ocultar malware o reverse shells.
+
+> [!tip] Case sensitivity
+> Linux es **case sensitive** (`find / -name "Antonio"` ≠ `"antonio"`); Windows no. Truco para detectar el SO de un servidor web: cambiar una letra de la URL a mayúscula — si carga, es Windows; si da error, Linux.
 
 ---
 
@@ -150,6 +167,15 @@ export PATH=$PATH:/nueva # añadir ruta al PATH
 echo $PATH # ver rutas de búsqueda
 ```
 
+### PATH Hijacking (escalada)
+
+El `PATH` se lee **de izquierda a derecha**: si colocas un ejecutable con el mismo nombre que un comando legítimo en una carpeta que aparece **antes**, el sistema ejecutará el tuyo. Aplicación ofensiva: si un **cron job** corre como root y llama a un comando por nombre relativo (sin ruta absoluta) y existe una carpeta del PATH escribible por el usuario → shell como root.
+
+```bash
+# Persistencia de alias y configuración entre sesiones:
+# ~/.bashrc y ~/.bash_profile
+```
+
 ---
 
 ## ⑨ Historial y limpieza
@@ -163,7 +189,15 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 ```
 
 > [!info] FORENSE
-> El historial se guarda en varios sitios (`~/.bash_history`, `/var/log/auth.log`). Conocer dónde es clave tanto para atacar como para defender.
+> El historial se guarda en varios sitios (`~/.bash_history`, `/var/log/auth.log`). Conocer dónde es clave tanto para atacar como para defender. **Enfoque ofensivo**: al comprometer una máquina, revisar el `history` puede revelar credenciales, rutas y conexiones SSH escritas en texto claro. **Enfoque forense**: un atacante que no borra su historial deja un rastro completo — caso real: un hacker español famoso permitió reconstruir toda su actividad.
+
+```bash
+# Descomprimir el diccionario de Kali (viene comprimido):
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+
+# tail -f para monitorizar logs en tiempo real (post-explotación):
+[[Linux#tail|tail]] -f /var/log/auth.log
+```
 
 ---
 
@@ -181,22 +215,23 @@ export HISTFILE=/dev/null # deshabilitar en sesión
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Forense Digital, Metodología Pentest, Redes
-- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
-- [[../comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
+- [[../comandos/Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
 
-> #escalada-privilegios #forense #hydra #linux #pentest #redes #tmux #windows
+> #cli #escalada_privilegios #forense #hydra #linux #linux_ciber #pentest #redes #tmux #web #windows_ciber

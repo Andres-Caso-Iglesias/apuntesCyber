@@ -65,9 +65,40 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 | Más lento (control de errores) | Más rápido, menor overhead |
 | HTTP, HTTPS, SSH, FTP, SMTP | DNS, DHCP, streaming, VoIP |
 
+| | |
+|---|---|
+| **Contexto de uso** | TCP se usa el 99 % de las veces en auditorías IT; UDP aparece en CTFs con puertos UDP y en entornos OT/industriales (Modbus, SCADA, CAN Bus). Detectar tráfico UDP inesperado en una red IT es señal de anomalía para un SOC. |
+
 ---
 
-## ⑤ TCP Three-Way Handshake
+## ⑤ Puertos y servicios
+
+Los puertos identifican servicios dentro de un host. Rango 0–65535; los conocidos (**well-known**) son 0–1023.
+
+| Puerto | Servicio | Importancia ofensiva |
+|--------|----------|---------------------|
+| 20/21 | FTP | Transferencia de ficheros, a veces credenciales en claro |
+| 22 | SSH | Acceso remoto seguro; objetivo de fuerza bruta |
+| 23 | Telnet | Remota sin cifrar — ¡no usar! |
+| 25 | SMTP | Envío de correo |
+| 53 | DNS | Resolución de nombres |
+| 80 | HTTP | Web sin cifrar; Man-in-the-Middle trivial |
+| 110/143 | POP3/IMAP | Recepción/acceso a correo |
+| 443 | HTTPS | Web cifrada |
+| 445 | SMB/Samba | Compartición de recursos; EternalBlue |
+| 3306 | MySQL | |
+| 3389 | RDP | Escritorio remoto Windows; BlueKeep, fuerza bruta |
+| 8080 | HTTP alternativo / proxies | |
+
+> [!important] Regla clave
+> **En un puerto solo puede correr un servicio a la vez**, y **lo vulnerable es el servicio, no el servidor**: un Windows Server 2008 R2 sin SMB expuesto no es vulnerable a EternalBlue.
+
+> [!tip] NMAP
+> `nmap -sV -p- <IP>` descubre qué servicios corren en cada puerto abierto. Primer paso de cualquier auditoría.
+
+---
+
+## ⑥ TCP Three-Way Handshake
 
 ```
  Cliente Servidor
@@ -89,11 +120,30 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 
 ---
 
-## ⑥ Cierre de conexión
+## ⑦ Cierre de conexión
 
 ```
- FIN → ACK → FIN → ACK (4 mensajes)
+FIN → ACK → FIN → ACK (4 mensajes)
 ```
+
+---
+
+## ⑧ Fingerprinting de SO con ping (TTL)
+
+El campo **TTL** (Time To Live) del paquete ICMP revela el sistema operativo de origen:
+
+| TTL inicial observado | SO probable |
+|----------------------|-------------|
+| ~64 | Linux |
+| ~128 | Windows |
+| ~256 | Solaris / macOS |
+
+```bash
+ping 8.8.8.8 # ver TTL en la respuesta
+```
+
+> [!info] Capa 8
+> La "capa 8" del modelo OSI es la **capa humana**: el 90 % de las brechas vienen del error humano.
 
 ---
 
@@ -131,28 +181,23 @@ En la práctica se usa el modelo **TCP/IP de 4 capas**:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SSH, WiFi / Hardware, Wireshark
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — SQL Injection, SSH, Wireshark
-- [[Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — SSH, WiFi / Hardware, Wireshark
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Redes, Wireshark
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Desarrollo Web, SQL Injection, XSS
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Desarrollo Web, SQL Injection, XSS
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Criptografia, Nmap, Redes
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Desarrollo Web, Nmap, SQL
+- [[../../comandos/Hydra.md|Hydra]] — Desarrollo Web, Nmap, SQL
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #nmap #redes #sqli #ssh #wifi #wireshark #xss
+> #burpsuite #crypto #nmap #redes #redes_ciber #sql #sqli #ssh_tool #web #wifi #wireshark #xss

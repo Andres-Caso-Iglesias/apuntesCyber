@@ -120,6 +120,31 @@ shodan host 1.2.3.4
 > [!tip] SHODAN
 > No solo encuentra cámaras y routers: también servidores con versiones vulnerables, bases de datos abiertas y paneles sin autenticación.
 
+### Consultas avanzadas de Shodan
+
+```bash
+# Cámaras IP y paneles
+title:'webcamXP 5' # cámaras con panel web
+product:'Hikvision' # marca específica
+port:554 has_screenshot:true # cámaras RTSP con captura
+
+# Bases de datos expuestas
+product:MongoDB port:27017 # MongoDB sin autenticación
+product:Elasticsearch # Elasticsearch expuesto
+
+# ICS/SCADA (infraestructura crítica)
+product:'Siemens' # PLCs Siemens
+```
+
+> [!warning] CÁMARAS "PÚBLICAS"
+> Son accesibles porque están **mal configuradas**. Acceder puede ser legal (son públicas), pero:
+> - **Manipularlas es ilegal**
+> - Usarlas para vigilancia sin consentimiento es ilegal
+> - En auditorías: **documenta y notifica, no manipules**
+
+> [!important] FOOTPRINTING
+> En una auditoría externa real: buscar en Shodan los activos del cliente revela cámaras, paneles de administración y servicios desconocidos que el propio cliente **olvidó** que tenía expuestos.
+
 ---
 
 ## ⑦ HIBP "” Bases de datos filtradas
@@ -180,21 +205,23 @@ LinkedIn como fuente:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Empleabilidad, Esteganografía, Metodología Pentest
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, WiFi / Hardware
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Linux, WiFi / Hardware
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografia, Linux, Metodologia Pentest
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Rust
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Rust
 
-> #empleabilidad #esteganografia #linux #nmap #osint #pentest #redes #wifi
+> #empleabilidad #esteganografia #linux #linux_ciber #nmap #osint #pentest #redes #rust #sql #web #wifi

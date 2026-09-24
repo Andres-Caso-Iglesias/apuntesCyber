@@ -116,29 +116,23 @@ Permite correr múltiples sistemas operativos dentro del mismo equipo físico. F
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, WiFi / Hardware
-- [[IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Post-Explotación, SQL Injection, SSH
-- [[../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Post-Explotación, SQL Injection, SSH
-- [[../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Post-Explotación, SQL Injection, WiFi / Hardware
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Post-Explotación, Redes, SSH
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Desarrollo Web, SQL Injection, XSS
+- [[../apuntes Joselu/MODULO2/resumen_master_clase14.md|resumen_master_clase14]] — Desarrollo Web, SQL Injection, XSS
+- [[../comandos/Hydra.md|Hydra]] — Desarrollo Web, Nmap, SQL
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Desarrollo Web, Nmap, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — Desarrollo Web, SQL Injection, XSS
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #nmap #osint #post-explotacion #redes #sqli #ssh #telnet #wifi #windows #xss
+> #burpsuite #crypto #hydra #nmap #osint #redes #redes_ciber #sql #sqli #ssh_tool #telnet #web #wifi #windows_ciber #xss

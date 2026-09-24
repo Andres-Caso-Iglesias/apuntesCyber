@@ -147,17 +147,23 @@ a) DMAIC &emsp; b) PDCA (Plan-Do-Check-Act) &emsp; c) OODA &emsp; d) Kanban
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Metodología Pentest, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Empleabilidad, Normativa / GRC, Redes
-- [[../Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Normativa / GRC, Redes
-- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Empleabilidad, Normativa / GRC, Redes
-- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Normativa / GRC, Redes
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Metodología Pentest, OSINT, Redes
+- [[BLOQUE 12.md|BLOQUE 12]] — Metodologia Pentest, Seguridad, Testing
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Metodologia Pentest, Seguridad, Testing
+- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Metodologia Pentest, Seguridad, Windows
+- [[BLOQUE 1.md|BLOQUE 1]] — Metodologia Pentest, Seguridad, Windows
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Metodologia Pentest, Testing, Windows
 
-> #certificaciones #empleabilidad #normativa #osint #pentest #redes
+### 🌐 Cross-Dominio
+
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Redes, Seguridad, Testing
+- [[../../redes/curl_wget.md|curl_wget]] — Redes: Redes, Seguridad, Testing
+
+> #certificaciones #crypto #empleabilidad #normativa #osint #pentest #redes #seguridad #testing #windows_ciber

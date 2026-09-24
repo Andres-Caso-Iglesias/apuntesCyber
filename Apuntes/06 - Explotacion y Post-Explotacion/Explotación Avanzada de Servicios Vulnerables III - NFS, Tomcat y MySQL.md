@@ -328,7 +328,14 @@ feroxbuster --url http://<IP>/ --status-codes 200
 
 ## ⑧ Command Injection — Introducción (DVWA)
 
-En DVWA (Damn Vulnerable Web App), la sección "Command Execution" permite enviar una IP y la página hace un ping. Si la entrada no está correctamente sanitizada se pueden inyectar comandos.
+Una vulnerabilidad que permite al atacante **ejecutar comandos del sistema operativo** desde una aplicación web. En DVWA, la sección "Command Execution" permite enviar una IP y la página hace un ping. Si la entrada no está correctamente sanitizada se pueden inyectar comandos.
+
+### Diferencia fundamental con SSTI (repaso 28.07)
+
+| Técnica | Qué inyecta | Dónde se ejecuta |
+|---------|-------------|------------------|
+| **SSTI** | Plantilla (código de lenguaje) | Motor de plantillas |
+| **Command Injection** | Comando del SO | Terminal del servidor |
 
 ### Técnica básica — separadores de comandos
 
@@ -364,6 +371,21 @@ En DVWA (Damn Vulnerable Web App), la sección "Command Execution" permite envia
 
 > [!danger] OWASP TOP 10
 > La validación insuficiente de inputs que se pasan a funciones del SO (`exec`, `system`, `popen`...) es uno de los vectores más peligrosos. OWASP lo incluye como "Injection".
+
+### Blind Command Injection (BLOQUE 6)
+
+No se ve la salida del comando, pero se confirma su ejecución por **tiempos de respuesta**:
+
+```bash
+# Payload típico — medir el retraso
+127.0.0.1; sleep 10
+# Si la respuesta tarda ~10s → la inyección funciona (aunque no veas stdout)
+```
+
+| Tipo | Se ve la salida | Cómo confirmar |
+|------|----------------|----------------|
+| **Inyección directa** | Sí (`whoami` se muestra en la página) | Salida visible en el response |
+| **Blind** | No | Timing (`sleep`), redirects o DNS out-of-band |
 
 ---
 
@@ -462,7 +484,11 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 - [ ] ¿Sé encontrar credenciales de MySQL en `robots.txt` / `config.inc.php`?
 - [ ] ¿Uso Feroxbuster para fuzzing recursivo?
 - [ ] ¿Reconozco un Command Injection y sé explotarlo con los 4 separadores?
+- [ ] ¿Diferencio Command Injection de SSTI?
+- [ ] ¿Sé confirmar un Blind Command Injection con `sleep`?
 - [ ] ¿Reconozco un SQL Injection y sé extraer datos con UNION SELECT?
+
+
 
 
 
@@ -476,28 +502,15 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — FFUF, Kali Linux, Post-Explotacion
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — FFUF, Post-Explotacion, Windows
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — Kali Linux, Post-Explotacion, Windows
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Kali Linux, Windows
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Kali Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #xss
+> #cli #command_injection #crypto #escalada_privilegios #feroxbuster #ffuf #hydra #java #john_hashcat #kali #linux #linux_ciber #metasploit #metasploitable #netcat #post_explotacion #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #windows_ciber #wordpress #xss

@@ -662,23 +662,23 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Empleabilidad, Redes, SSH
-- [[IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Linux, Post-Explotación, SSH
-- [[IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SSH
-- [[../../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Post-Explotación, Redes
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Post-Explotación, Redes, Windows
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Post-Explotación, Redes, SSH
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Arquitectura, Seguridad, Windows
+- [[IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Post-Explotacion, Seguridad, Windows
+- [[../../transcripciones/Septiembre/14.09.2026 SQLi - Inyecciones - Labs - Avanzado I.md|14.09.2026 SQLi - Inyecciones - Labs - Avanzado I]] — Linux, Seguridad, Windows
+- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Post-Explotacion, Seguridad, Windows
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Arquitectura, Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Funcional, Rust, Testing
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: DevOps, Rust, Testing
 
-> #burpsuite #empleabilidad #ffuf #ia #linux #normativa #osint #post-explotacion #redes #ssh #windows
+> #arquitectura #burpsuite #cli #cloud_base #crypto #database #devops #empleabilidad #error_handling #ffuf #funcional #git #ia_ml #javascript #linux #linux_ciber #normativa #osint #post_explotacion #python #redes #redes_ciber #rust #seguridad #sql #sqli #ssh_tool #testing #web #windows_ciber

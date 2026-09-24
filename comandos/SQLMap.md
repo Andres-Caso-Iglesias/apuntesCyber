@@ -226,27 +226,23 @@ sqlmap -u "URL" --os-pwn
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, Linux, SQLMap
-- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #hack-the-box #ia #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows
+> #arquitectura #cli #database #go #hack_the_box #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #reverse_shell #sql #sqli #sqlmap_tool #testing #web #windows_ciber

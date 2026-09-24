@@ -42,17 +42,20 @@ www-data (RCE web) → summer (SSH:22222) → Robo de ficheros → [[Hydra]] →
 
 ## ③ Mr. Robot (VulnHub)
 
-### Cadena (hasta ahora)
+### Cadena completa (clase 16.06 — ver [[Son ROBOTS - RickdiculouslyEasy y Mr. Robot|detalle completo]])
 
 ```
-[[Nmap]] (80/443) → robots.txt → fsocity.dic → Limpiar diccionario → Enumerar usuario: Elliot → Fuerza bruta pwd (pendiente)
+Nmap (80/443) → robots.txt → fsocity.dic → sort | uniq (~11K) → WP login: elliot (Intruder, length + cookie WP) → editor 404.php → reverse shell → daemon → password.raw-md5 (CrackStation) → diccionario a-z → robot → SUID nmap --interactive → !sh → root
 ```
 
 ### Técnicas clave
 
 - **robots.txt** → diccionario de ~858K líneas → limpiar con `sort | uniq` → ~11K
-- **Enumeración por longitud de respuesta** en Intruder de Burp
-- **Information disclosure** en login de WordPress
+- **Enumeración por longitud de respuesta** en Intruder de Burp (cookie WP distinta en login OK)
+- **Information disclosure** en login de WordPress (invalid username vs invalid password)
+- **File upload 3 vías**: WP File Manager / editor de temas / editor 404.php
+- **Lateral**: hash MD5 → CrackStation → diccionario contextual (`abcdefghijklmnopqrstuvwxyz`)
+- **Escalada**: SUID `nmap --interactive` → `!sh` → root
 
 ---
 
@@ -107,15 +110,71 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 
 ---
 
-## ⑦ Resumen de máquinas
+## ⑦ Crocodile (HTB Tier 2)
+
+### Cadena completa (fuente: Andres 12.06)
+
+```
+FTP Anonymous → backup.zip → zip2john + John → hash MD5 en index.php → CrackStation → admin:password789 → SQLMap → os-shell → reverse shell (netcat) → SSH con credenciales reutilizadas → sudo -l (vi) → root
+```
+
+### Escalada con VI + sudo
+
+```bash
+sudo -l
+# → ALL · Allowed: /usr/bin/vi /etc/postgresql/11/main/pg_hba.conf
+
+sudo vi /etc/postgresql/11/main/pg_hba.conf
+# Dentro de VI:
+:!sh
+# → Shell como root
+```
+
+> [!important] VI COMO VECTOR
+> El usuario puede ejecutar VI como **cualquier usuario** (incluido root). VI no es solo un editor: `:!sh` lanza shell. Siempre consultar **GTFOBins** para cada binario con sudo.
+
+---
+
+## ⑧ Tier 0 — HTB Starting Point (Chema)
+
+| Máquina | Puerto / Servicio | Vector | Acceso |
+|---------|-------------------|--------|--------|
+| **Meow** | 23 / Telnet | Login `root` sin contraseña | root directo |
+| **Fawn** | 21 / FTP | Login anónimo (`anonymous`) | Lectura de ficheros (`get flag.txt`) |
+| **Dancing** | 445 / SMB | Null session + share `WorkShares` (READ,WRITE) | Ficheros del share |
+| **Redeemer** | 6379 / Redis | Sin autenticación → `select 0` → `keys *` → `get flag` | Lectura de la BD |
+
+```bash
+# Fawn
+ftp <IP> → anonymous → ls → get flag.txt
+# Dancing
+smbclient -N -L //<IP>          # listar shares
+netexec smb <IP> -u '' -p '' --shares   # ver permisos
+smbclient -N //<IP>/WorkShares  # conectar
+# Redeemer
+nmap -p- -Pn <IP>               # el top-1000 NO encuentra 6379
+redis-cli -h <IP> → info → select 0 → keys * → get flag
+```
+
+> [!tip] PATRÓN TIER 0
+> Enumerar con Nmap → identificar el servicio → HackTricks → explotar una **mala configuración** (credenciales por defecto, acceso anónimo, falta de autenticación) → leer la flag. *Los servicios son siempre los mismos: a la quincuagésima vez los explotas con los ojos cerrados.*
+
+> [!info] FLAGS EN HTB
+> Casi siempre en el escritorio o home: `/root/flag.txt` o `/home/<usuario>/...`. Acostúmbrate a `pwd` y `ls` nada más entrar. Las flags suelen ser dinámicas por usuario.
+
+---
+
+## ⑨ Resumen de máquinas
 
 | Máquina | OS | Cadena resumida |
 |---------|----|----------------|
+| **Meow / Fawn / Dancing / Redeemer** | Linux/Windows | Tier 0: mala configuración → flag directa (Telnet/FTP anon/SMB/Redis) |
 | **RickdiculouslyEasy** | Linux | RCE web → SSH → Robo ficheros → Hydra → sudo su |
-| **Mr. Robot** | Linux | robots.txt → Diccionario → Enumerar usuario → Fuerza bruta |
+| **Mr. Robot** | Linux | robots.txt → Diccionario → Enumerar usuario → Fuerza bruta → 404.php → SUID nmap |
 | **Oopsie** | Linux | IDOR → Cookie → Webshell → db.php → bugtracker SUID |
 | **Archetype** | Windows | SMB → MSSQL → xp_cmdshell → WinPEAS → psexec |
 | **Vaccine** | Linux | FTP → zip2john → SQLi → [[SQLMap]] → GTFOBins vi |
+| **Crocodile** | Linux | FTP anon → zip2john → CrackStation → SQLMap → GTFOBins vi (`:!sh`) |
 
 ---
 
@@ -126,6 +185,11 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 - [ ] ¿Entiendo el secuestro de PATH y GTFOBins?
 - [ ] ¿Sé usar [[SMB_Impacket]] sesión nula y MSSQL con [[SMB_Impacket]]?
 - [ ] ¿Recuerdo siempre dejar el listener antes de la reverse shell?
+- [ ] ¿Sé escalar con `sudo vi` + `:!sh` (Crocodile / Vaccine)?
+- [ ] ¿Conozco las 4 máquinas del Tier 0 y sus vectores de mala configuración?
+- [ ] ¿Sé usar Redis (`redis-cli`, `keys *`, `get`) y enumerar shares con NetExec?
+
+
 
 
 
@@ -139,26 +203,15 @@ FTP anon → backup.zip → zip2john + [[John_Hashcat]] → MD5 → login admin:
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — IDOR, Linux, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, IDOR, Netcat / Reverse Shells
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Linux, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Post-Explotacion, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Post-Explotacion, Windows
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Hack The Box, Linux, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Hack The Box, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Post-Explotacion, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #command-injection #escalada-privilegios #file-upload #hack-the-box #hydra #idor #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #vulnhub #windows #wordpress
+> #burpsuite #cli #command_injection #escalada_privilegios #file_upload #hack_the_box #hydra #idor #java #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #redes_ciber #reverse_shell #smb_impacket #sql #sqli #sqlmap_tool #ssh_tool #vulnhub #web #windows_ciber #wordpress

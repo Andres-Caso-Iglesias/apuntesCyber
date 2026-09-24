@@ -245,38 +245,23 @@ Referencia acumulativa de la colección de apuntes  ·  Actualizado 28/07/2026
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
-- [[PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Blue Team / SOC, Burp Suite, Command Injection / RCE
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Blue Team / SOC, Burp Suite, Command Injection / RCE
-- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
+- [[../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, XXE
+- [[../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — File Upload, Seguridad, Windows
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — File Upload, Seguridad, XXE
+- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, Seguridad, Windows
+- [[PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — File Upload, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Ciberseguridad/diccionario_ciberseguridad.md|diccionario_ciberseguridad]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/Ciberseguridad/fundamentals_ciberseguridad.md|fundamentals_ciberseguridad]] — Programacion: Funcional, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #esteganografia #ffuf #file-upload #google-dorks #hydra #ia #idor #lfi #linux #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #ssrf #ssti #wifi #windows #wireshark #xss #xxe
+> #arquitectura #blue_team #certificaciones #cli #cloud_base #command_injection #crypto #csrf #database #docker #escalada_privilegios #esteganografia #ffuf #file_upload #funcional #google_dorks #hydra #ia_ml #idor #javascript #kubernetes #lfi #linux #linux_ciber #metasploit #netcat #nmap #normativa #osint #pentest #pivoting #post_explotacion #redes #redes_ciber #reverse_shell #rfi #seguridad #sql #sqli #ssh_tool #ssrf #ssti #testing #web #wifi #windows_ciber #wireshark #xss #xxe

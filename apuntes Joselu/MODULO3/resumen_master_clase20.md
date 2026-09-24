@@ -222,30 +222,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[resumen_master_clase19.md|resumen_master_clase19]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[resumen_master_clase26.md|resumen_master_clase26]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Mayo/22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios.md|22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Hack The Box, Kali Linux, Seguridad
+- [[resumen_master_clase26.md|resumen_master_clase26]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Hack The Box, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #certificaciones #command-injection #hack-the-box #ia #kali #linux #metasploit #metasploitable #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #telnet #wifi #windows
+> #blue_team #certificaciones #cli #cloud_base #command_injection #crypto #funcional #git #hack_the_box #ia_ml #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #telnet #web #wifi #windows_ciber

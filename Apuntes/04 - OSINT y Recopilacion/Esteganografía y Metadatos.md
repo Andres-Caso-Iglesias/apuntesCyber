@@ -98,6 +98,23 @@ stegcracker imagen.jpg /usr/share/wordlists/rockyou.txt
 
 ---
 
+## ④bis Geolocalización por imagen — caso 4chan/Forza
+
+Técnica real de OSINT visual: localizar una ubicación analizando **solo el cielo** de una foto.
+
+```
+1. Analizar objetos (señales, edificios, vegetación)
+2. Analizar patrones de estrellas → hora y latitud aproximadas
+3. Rastrear aviones sobrevolando (flightradar24)
+4. Cruzar con mapas de satélite (Google Earth)
+→ En <48 horas encontraron la bandera en un campo de Tennessee
+```
+
+> [!info] GEO-OSINT
+> Cielo, sombras, matrículas, carteles, enchufes y enchufes de luz: todo es identificable. La esteganografía oculta datos *dentro* del archivo; el geo-OSINT los lee *sobre* la imagen.
+
+---
+
 ## ⑤ binwalk — Análisis forense
 
 ```bash
@@ -140,6 +157,8 @@ xxd imagen.jpg | head -20 # ver bytes en hex (magic bytes)
 | **Google Lens / Yandex** | Búsqueda inversa, reconocimiento facial |
 | **Shodan** | Dispositivos IoT, cámaras, servicios expuestos |
 | **stegcracker** | Fuerza bruta contraseña de steghide |
+| **pngcheck** | Validar/análizar PNGs (CTFs) |
+| **zsteg** | Esteganografía en PNG y BMP |
 
 ---
 
@@ -157,22 +176,23 @@ xxd imagen.jpg | head -20 # ver bytes en hex (magic bytes)
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../README.md|README]] — Empleabilidad, Esteganografía, Forense Digital
-- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Hydra
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Empleabilidad, Esteganografía, Hydra
-- [[../07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Esteganografía, Hack The Box
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Hydra
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Hydra
+- [[../../README.md|README]] — Esteganografia, Hack The Box, Redes
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Desarrollo Web, Esteganografia, Hack The Box
+- [[../07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Esteganografia, Hack The Box, Redes
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Desarrollo Web, Esteganografia, Hack The Box
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
+- [[../../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, IA/ML, Redes
+- [[../../../ia/langchain_llamaindex.md|langchain_llamaindex]] — IA: Desarrollo Web, IA/ML, Redes
 
-> #burpsuite #empleabilidad #esteganografia #forense #hack-the-box #hydra #osint #pentest #redes #vulnhub #wifi
+> #burpsuite #empleabilidad #esteganografia #forense #hack_the_box #hydra #ia_ml #osint #pentest #redes #redes_ciber #vulnhub #web #wifi

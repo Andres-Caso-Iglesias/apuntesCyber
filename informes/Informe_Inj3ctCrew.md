@@ -397,32 +397,23 @@ ssh -i /tmp/nolen11_key nolen11@192.168.231.163 "echo 'cat /root/root.txt' | sud
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase43.md|resumen_master_clase43]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Netcat / Reverse Shells, XXE
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Netcat / Reverse Shells, XXE
+- [[../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — GoBuster, Post-Explotacion, XXE
+- [[Informe_Rockstars.md|Informe_Rockstars]] — GoBuster, Kali Linux, XXE
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Kali Linux, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Criptografia, Desarrollo Web, Linux
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Criptografia, Desarrollo Web, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #command-injection #escalada-privilegios #gobuster #john #kali #lfi #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #xxe
+> #cli #command_injection #crypto #escalada_privilegios #gobuster #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #post_explotacion #redes #redes_ciber #reverse_shell #ssh_tool #web #xxe

@@ -437,31 +437,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — File Upload, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[resumen_master_clase41.md|resumen_master_clase41]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Hack The Box, Kali Linux, Seguridad
+- [[resumen_master_clase32.md|resumen_master_clase32]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Hack The Box, Kali Linux, Seguridad
+- [[resumen_master_clase41.md|resumen_master_clase41]] — File Upload, Hack The Box, Kali Linux
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Hack The Box, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #command-injection #dirsearch #escalada-privilegios #file-upload #forense #ia #kali #lfi #linux #metasploit #netcat #nmap #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #windows
+> #cli #cloud_base #command_injection #crypto #database #dirsearch #escalada_privilegios #file_upload #forense #git #hack_the_box #ia_ml #javascript #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #testing #web #windows_ciber

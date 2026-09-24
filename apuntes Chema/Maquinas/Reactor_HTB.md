@@ -364,31 +364,23 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Hydra, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hydra, Metasploit, Netcat / Reverse Shells
+- [[Explotación Avanzada de Servicios Vulnerables III.md|Explotación Avanzada de Servicios Vulnerables III]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hack The Box, Post-Explotacion, Seguridad
+- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Hack The Box, Post-Explotacion, Seguridad
+- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hack The Box, Nmap, Post-Explotacion
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Nmap, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #command-injection #hack-the-box #hydra #john #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress
+> #cli #command_injection #crypto #database #docker #git #hack_the_box #hydra #java #javascript #john_hashcat #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #web #wordpress

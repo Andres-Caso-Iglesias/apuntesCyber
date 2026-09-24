@@ -327,33 +327,23 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Burp Suite, Command Injection / RCE, WordPress
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Burp Suite, Command Injection / RCE, WordPress
-- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Command Injection / RCE, WordPress
-- [[../PREWORK/resumen_clase17.md|resumen_clase17]] — Burp Suite, OSINT, WordPress
+- [[../../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Nmap, Seguridad, Windows
+- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Nmap, Seguridad, Windows
+- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Nmap, Seguridad, Windows
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Nmap, Seguridad
+- [[resumen_master_clase39.md|resumen_master_clase39]] — File Upload, Nmap, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Tmux|Tmux]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Python, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #burpsuite #certificaciones #command-injection #empleabilidad #file-upload #hydra #ia #linux #metasploit #metasploitable #netcat #nmap #osint #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #ssh #tmux #windows #wordpress #wpscan
+> #burpsuite #certificaciones #cli #cloud_base #command_injection #crypto #devops #docker #empleabilidad #file_upload #hydra #ia_ml #java #kubernetes #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #osint #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #ssh_tool #tmux #web #windows_ciber #wordpress #wpscan

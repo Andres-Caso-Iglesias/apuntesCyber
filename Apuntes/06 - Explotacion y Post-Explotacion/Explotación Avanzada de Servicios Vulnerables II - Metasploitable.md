@@ -46,6 +46,8 @@ Puertos ya vistos en la sesión anterior (21, 22, 23, 80, 139/445). Esta sesión
 
 El diccionario medium tarda más pero encuentra más cosas (ej. `phpinfo`).
 
+Otras alternativas equivalentes: **DirBuster** (con módulo en Metasploit: `dir_scanner`), **Gobuster** y **Feroxbuster** — hacen básicamente lo mismo; la diferencia está en velocidad, output y opciones de configuración.
+
 **Buscar subdominios** → FUZZ al principio de la URL:
 
 ```bash
@@ -373,11 +375,21 @@ vncviewer 10.0.2.5
 
 ### ¿Qué es Burp Suite?
 
-Un **proxy** que se interpone entre tu navegador y el servidor web. Captura todas las peticiones HTTP antes de que salgan.
+Un **proxy** que se interpone entre tu navegador y el servidor web. Captura todas las peticiones HTTP antes de que salgan. El proxy estándar de la industria para hacking web (`127.0.0.1:8080`).
 
 ```
 Navegador → [Burp Suite] → Servidor web
 ```
+
+Permite:
+
+- Ver exactamente qué se está enviando (campos de formulario, cabeceras, cookies)
+- Modificar cualquier parte de la petición antes de enviarla
+- Repetir peticiones modificadas sin recargar el navegador
+- Automatizar ataques de fuerza bruta con el módulo **Intruder**
+
+> [!important] CASO PRÁCTICO: VALIDACIÓN JAVASCRIPT (27.05)
+> Si una web valida en JavaScript que el teléfono solo acepta números, Burp intercepta la petición POST y cambia el número por un nombre de usuario — **la validación del front-end no existe en el back-end**. Irrelevante si no interceptas: con Intercept desactivado, HTTP History lo registra igual.
 
 ### Configuración inicial
 
@@ -489,6 +501,23 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 14. `www-data`, porque es el usuario que ejecuta Apache. Siguiente paso: escalar a un usuario local y después a root con `sudo -l` o GTFOBins.
 15. Hashcat usa la **GPU** (millones de operaciones en paralelo). John usa principalmente la CPU.
 
+---
+
+## 🗺️ Plan de recreación paso a paso (fuente: Chema, Plan de estudio)
+
+1. Lanzar `nmap -sCV <IP> -p-` y anotar todos los puertos.
+2. **SMTP (25):** lanzar `smtp_enum` en Metasploit y guardar los usuarios en `usuarios_smtp.txt`.
+3. **Servicios R:** intentar `rlogin -l root <IP>`. Comprobar que funciona y entender por qué.
+4. **NFS:** `rpcinfo -p` → `showmount -e` → `mkdir` + `mount` → explorar el sistema montado.
+5. **Hashes:** `cat /etc/shadow` desde la carpeta montada → guardar hashes → romper con John y Hashcat.
+6. **Claves SSH:** buscar `.ssh` en los usuarios → robar `id_rsa` → `chmod 600` → `ssh -i` como root.
+7. **Persistencia SSH:** `ssh-keygen` → `cat pub >> authorized_keys` → conectar con la nueva clave.
+8. **VNC:** Hydra fuerza bruta → `vncviewer` → escritorio remoto.
+9. **Web:** buscar `robots.txt` manualmente → anotar lo que encuentres.
+10. **Burp Suite:** configurar FoxyProxy → capturar una petición de login → inspeccionarla.
+
+
+
 
 
 
@@ -501,27 +530,15 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.0.2.5 http-post-form \
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Hydra, Metasploit
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Escalada de Privilegios, Hydra, Metasploit
-- [[Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Escalada de Privilegios, Hydra, Metasploit
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Hack The Box, Kali Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — FFUF, Hack The Box, Kali Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — FFUF, Nmap, Windows
+- [[Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — FFUF, Kali Linux, Windows
+- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, Kali Linux, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #redes #sqli #ssh #windows #xss
+> #burpsuite #certificaciones #cli #crypto #database #escalada_privilegios #ffuf #hack_the_box #hydra #java #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #metasploitable #nmap #redes #redes_ciber #sql #sqli #ssh_tool #web #windows_ciber #xss

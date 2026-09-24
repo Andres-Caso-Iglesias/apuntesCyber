@@ -142,21 +142,23 @@ sha256sum ./exhibits/malware.exe
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Forense Digital, Metodología Pentest, Redes
-- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
-- [[../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Linux, Windows
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../redes/wpa2_wpa3.md|wpa2_wpa3]] — Redes: Criptografia, Linux, Redes
+- [[../../redes/snmp.md|snmp]] — Redes: Criptografia, Linux, Redes
 
-> #forense #linux #pentest #redes #tmux #windows
+> #crypto #forense #linux #linux_ciber #pentest #redes #tmux #windows_ciber

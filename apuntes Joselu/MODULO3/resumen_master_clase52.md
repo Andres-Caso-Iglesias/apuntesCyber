@@ -288,32 +288,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase54.md|resumen_master_clase54]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase49.md|resumen_master_clase49]] — Empleabilidad, Metasploit, Post-Explotación
+- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Blue Team / SOC, Hack The Box, Open Redirect
+- [[../../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Hack The Box, Nmap, Post-Explotacion
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Metodologia Pentest, Open Redirect, XXE
+- [[resumen_master_clase49.md|resumen_master_clase49]] — Desarrollo Web, Netcat / Reverse Shells, XXE
+- [[resumen_master_clase55.md|resumen_master_clase55]] — Hack The Box, Metodologia Pentest, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/xamarin_maui.md|xamarin_maui]] — Programacion: Async/Await, Desarrollo Web, SQL
+- [[../../../ia/mlflow.md|mlflow]] — IA: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #blue-team #burpsuite #command-injection #empleabilidad #hack-the-box #ia #lfi #metasploit #netcat #nmap #open-redirect #pentest #post-explotacion #redes #reverse-shell #ssh #ssrf #ssti
+> #async #blue_team #burpsuite #cli #empleabilidad #hack_the_box #ia_ml #lfi #metasploit #netcat #nmap #open_redirect #pentest #post_explotacion #redes #redes_ciber #sql #ssh_tool #ssrf #ssti #web #xxe

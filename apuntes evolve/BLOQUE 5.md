@@ -208,25 +208,23 @@ Explotación inicial (servicio vulnerable) → Shell regular → Escalada local 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Desarrollo Web, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[../../programacion/Docker/seguridad_docker.md|seguridad_docker]] — Programacion: Desarrollo Web, Kubernetes, Linux
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Criptografia, Desarrollo Web, Linux
 
-> #escalada-privilegios #hack-the-box #hydra #john #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #vulnhub #windows
+> #cli #crypto #docker #escalada_privilegios #hack_the_box #hydra #john_hashcat #kubernetes #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #reverse_shell #smb_impacket #vulnhub #web #windows_ciber

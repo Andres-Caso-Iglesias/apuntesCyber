@@ -320,32 +320,23 @@ Para copiar a la base de conocimiento del proyecto. Cambios de esta sesión:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Sesión 30 - Burp Suite y WordPress.md|Sesión 30 - Burp Suite y WordPress]] — Feroxbuster, Hack The Box, WordPress
-- [[../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, Hack The Box, WordPress
-- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Netcat / Reverse Shells, Wireshark
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[Sesión 30 - Burp Suite y WordPress.md|Sesión 30 - Burp Suite y WordPress]] — GoBuster, Hack The Box, Kali Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase37.md|resumen_master_clase37]] — Hack The Box, Kali Linux, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]] — Hack The Box, Kali Linux, Seguridad
+- [[../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Kali Linux, Windows
+- [[../Apuntes/05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — GoBuster, Hack The Box, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #dirsearch #feroxbuster #file-upload #gobuster #hack-the-box #hydra #ia #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #windows #wireshark #wordpress #wpscan #xss
+> #burpsuite #cli #crypto #dirsearch #feroxbuster #file_upload #git #gobuster #hack_the_box #hydra #java #kali #linux #linux_ciber #metasploit #netcat #pentest #redes #redes_ciber #reverse_shell #seguridad #web #windows_ciber #wireshark #wordpress #wpscan #xss

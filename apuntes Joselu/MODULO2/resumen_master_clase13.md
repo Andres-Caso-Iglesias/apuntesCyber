@@ -204,17 +204,23 @@ A partir de la próxima sesión arranca el hacking activo: enumeración de servi
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, WiFi / Hardware
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, WiFi / Hardware
-- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, WiFi / Hardware
-- [[resumen_master_clase8.md|resumen_master_clase8]] — Esteganografía, Forense Digital, Post-Explotación
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Redes, WiFi / Hardware
-- [[resumen_master_clase10.md|resumen_master_clase10]] — IA en Ciberseguridad, Redes, Windows
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografia, Linux, Windows
+- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Linux
+- [[../../comandos/Linux.md|Linux]] — Desarrollo Web, Esteganografia, Linux
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Linux
+- [[resumen_master_clase8.md|resumen_master_clase8]] — Desarrollo Web, Esteganografia, Linux
 
-> #esteganografia #forense #ia #linux #osint #post-explotacion #redes #wifi #windows
+### 🌐 Cross-Dominio
+
+- [[../../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Criptografia, Desarrollo Web, Linux
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Linux
+
+> #crypto #docker #esteganografia #forense #funcional #git #ia_ml #linux #linux_ciber #osint #redes #redes_ciber #web #wifi #windows_ciber

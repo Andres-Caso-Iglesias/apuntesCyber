@@ -468,32 +468,23 @@ En la sesión de auditoría web + escalada Linux (Carlos Gómez Pintado, 08/07/2
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Escalada de Privilegios, Feroxbuster, Hydra
-- [[Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — Escalada de Privilegios, Feroxbuster, Hydra
-- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — Escalada de Privilegios, FFUF, Hydra
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Feroxbuster, Hydra
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Escalada de Privilegios, Feroxbuster, IDOR
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Escalada de Privilegios, Hydra, IDOR
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — FFUF, GoBuster, Hack The Box
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, GoBuster, Path Traversal / LFI
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Hack The Box, Seguridad
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Linux, Path Traversal / LFI, Seguridad
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Linux, Path Traversal / LFI
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #idor #lfi #linux #nmap #post-explotacion #redes #rfi #ssh #wifi
+> #burpsuite #cli #dirsearch #escalada_privilegios #feroxbuster #ffuf #gobuster #hack_the_box #hydra #idor #java #lfi #linux #linux_ciber #nmap #post_explotacion #redes #redes_ciber #rfi #seguridad #sql #ssh_tool #web #wifi

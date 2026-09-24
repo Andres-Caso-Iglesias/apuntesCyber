@@ -369,37 +369,23 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[resumen_master_clase45.md|resumen_master_clase45]] — Command Injection / RCE, Metasploitable / DVWA, Path Traversal / LFI
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[resumen_master_clase39.md|resumen_master_clase39]] — GoBuster, Kali Linux, XXE
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Kali Linux, Seguridad, XXE
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — GoBuster, Kali Linux, XXE
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — GoBuster, Kali Linux, Seguridad
+- [[resumen_master_clase38.md|resumen_master_clase38]] — GoBuster, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #certificaciones #command-injection #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssh #telnet #windows #wordpress #xxe
+> #certificaciones #cli #command_injection #crypto #escalada_privilegios #feroxbuster #ffuf #file_upload #git #go #gobuster #hydra #ia_ml #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #sql #sqli #ssh_tool #telnet #web #windows_ciber #wordpress #wpscan #xxe

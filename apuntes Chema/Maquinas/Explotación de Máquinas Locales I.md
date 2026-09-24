@@ -345,32 +345,23 @@ Sección lista para copiar a la base de conocimiento del proyecto. Cambios de ni
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — Escalada de Privilegios, FFUF, Feroxbuster
-- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — GoBuster, Hack The Box, Windows
+- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Hack The Box, Kali Linux, Seguridad
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Hack The Box, Kali Linux
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — GoBuster, Hack The Box, Kali Linux
+- [[Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — FFUF, GoBuster, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #idor #kali #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #ssh #windows
+> #cli #crypto #dirsearch #escalada_privilegios #feroxbuster #ffuf #git #gobuster #hack_the_box #idor #java #javascript #kali #linux #linux_ciber #metasploit #netcat #nmap #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #sql #ssh_tool #web #windows_ciber

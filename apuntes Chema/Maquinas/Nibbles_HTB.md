@@ -333,31 +333,23 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Kali Linux, Nmap
+- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — GoBuster, Hack The Box, Kali Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Kali Linux, Nmap
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Kali Linux, Nmap
+- [[../../write-ups/Nike-THL.md|Nike-THL]] — Netcat / Reverse Shells, Python, WPScan
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Desarrollo Web, Docker, Linux
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Docker, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #escalada-privilegios #file-upload #gobuster #hack-the-box #hydra #idor #kali #linux #metasploit #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan
+> #cli #command_injection #docker #escalada_privilegios #file_upload #gobuster #hack_the_box #hydra #idor #kali #linux #linux_ciber #metasploit #netcat #nmap #osint #post_explotacion #python #redes #redes_ciber #reverse_shell #ssh_tool #web #wordpress #wpscan

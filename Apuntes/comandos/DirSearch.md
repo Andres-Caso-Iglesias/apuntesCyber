@@ -55,24 +55,23 @@ dirsearch -u http://10.10.10.x -p http://127.0.0.1:8080
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, GoBuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, GoBuster
+- [[../02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — DirSearch, GoBuster, Linux
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — DirSearch, GoBuster, Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: Linux, Python, Redes
+- [[../../../cloud/github_actions.md|github_actions]] — Cloud: Linux, Python, Redes
 
-> #dirsearch #feroxbuster #ffuf #gobuster #linux #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #linux #linux_ciber #python #redes

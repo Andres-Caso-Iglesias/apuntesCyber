@@ -58,21 +58,23 @@ setw -g pane-base-index 1
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Windows.md|Windows]] — Linux, Redes, Tmux
-- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
+- [[Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #linux #pentest #redes #tmux #windows
+> #cli #linux #linux_ciber #pentest #redes #tmux #windows_ciber

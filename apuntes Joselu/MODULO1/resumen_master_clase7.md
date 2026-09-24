@@ -153,25 +153,23 @@ Resumen elaborado para uso acadÃ©mico en el MÃ¡ster de Ciberseguridad e Inte
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
-- [[resumen_master_clase1.md|resumen_master_clase1]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
-- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hack The Box, Hydra, SQL Injection
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
-- [[../PREWORK/resumen_clase18.md|resumen_clase18]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
-- [[../MODULO2/resumen_master_clase10.md|resumen_master_clase10]] — Kali Linux, Redes, Windows
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, IA/ML, SQL Injection
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, IA/ML, SQL Injection
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Esteganografia, Hack The Box, SQL Injection
+- [[../../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Kali Linux, SQL Injection
+- [[../../apuntes Andres/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Hack The Box, Kali Linux, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #certificaciones #esteganografia #hack-the-box #hydra #ia #kali #linux #metasploitable #osint #pivoting #redes #sqli #windows
+> #certificaciones #cli #cloud_base #esteganografia #git #hack_the_box #hydra #ia_ml #java #kali #linux #linux_ciber #metasploitable #osint #pivoting #redes #seguridad #sql #sqli #web #windows_ciber

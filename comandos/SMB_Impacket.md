@@ -225,23 +225,23 @@ impacket-psexec -k -no-pass domain/user@target
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Tmux
-- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Tmux
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, SMB / Impacket
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Metodologia Pentest, Windows
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Linux, Redes
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
 
-> #linux #nmap #pentest #redes #smb-impacket #tmux #windows
+> #cli #crypto #linux #linux_ciber #nmap #pentest #redes #smb_impacket #tmux #windows_ciber

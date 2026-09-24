@@ -47,8 +47,17 @@ nmap --min-rate 1000 <target>    # Mínimo de paquetes/segundo
 
 ```bash
 nmap -oN scan.txt <target>       # Output normal
+nmap -oG scan.gnmap <target>     # Output grepeable (grep-able)
 nmap -oX scan.xml <target>       # Output XML
 nmap -oA scan <target>           # Todos los formatos
+```
+
+## UDP y descubrimiento
+
+```bash
+nmap -sU --top-ports 20 <target>     # Top 20 puertos UDP
+nmap -sn 10.10.10.0/24               # Hosts vivos en rango
+sudo nmap -sS <target>               # SYN stealth (root)
 ```
 
 ## Scripts NSE
@@ -84,22 +93,23 @@ nmap -p 445 --script=smb-enum-shares,smb-enum-users 10.10.10.x
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../informes/Informe_Blue.md|Informe_Blue]] — Linux, Redes, Windows
-- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Windows
-- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Redes, Windows
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Windows
+- [[../../informes/Informe_Blue.md|Informe_Blue]] — Linux, Linux, Windows
+- [[../02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Linux, Windows
+- [[../02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Linux, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Linux, Linux, Windows
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #linux #nmap #redes #telnet #windows
+> #cli #linux #linux_ciber #nmap #redes #redes_ciber #telnet #windows_ciber

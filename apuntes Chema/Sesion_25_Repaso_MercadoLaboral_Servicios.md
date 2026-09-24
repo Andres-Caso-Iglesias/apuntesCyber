@@ -213,31 +213,23 @@ Bloque copiable a la base de conocimiento del proyecto:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Metasploit, Netcat / Reverse Shells, SMB / Impacket
-- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, Netcat / Reverse Shells, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Linux, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Nmap, Seguridad, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[Maquinas/Reactor_HTB.md|Reactor_HTB]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Nmap, Seguridad, Windows
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Hack The Box, Post-Explotacion, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #empleabilidad #hack-the-box #hydra #ia #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #tmux #windows
+> #cli #cloud_base #command_injection #devops #docker #empleabilidad #hack_the_box #hydra #java #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #sql #ssh_tool #tmux #web #windows_ciber

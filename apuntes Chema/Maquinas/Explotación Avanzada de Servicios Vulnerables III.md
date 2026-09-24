@@ -460,34 +460,23 @@ En DVWA, la sección de búsqueda de usuarios ejecuta una consulta SQL con el in
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Feroxbuster, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — FFUF, Kali Linux, Post-Explotacion
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hack The Box, Kali Linux, Seguridad
+- [[Reactor_HTB.md|Reactor_HTB]] — Hack The Box, Post-Explotacion, Seguridad
+- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Hack The Box, Kali Linux, Seguridad
+- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Hack The Box, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #command-injection #escalada-privilegios #feroxbuster #ffuf #hydra #john #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #xss
+> #cli #command_injection #crypto #database #escalada_privilegios #feroxbuster #ffuf #git #hack_the_box #hydra #java #john_hashcat #kali #kubernetes #linux #linux_ciber #metasploit #metasploitable #netcat #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #testing #web #wordpress #xss

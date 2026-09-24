@@ -401,34 +401,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, File Upload, Linux
-- [[resumen_master_clase45.md|resumen_master_clase45]] — Escalada de Privilegios, File Upload, Metodología Pentest
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Escalada de Privilegios, Hydra, Metodología Pentest
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, File Upload, Metodología Pentest
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Escalada de Privilegios, Hydra, Metodología Pentest
-- [[resumen_master_clase41.md|resumen_master_clase41]] — Escalada de Privilegios, File Upload, Metodología Pentest
+- [[../../transcripciones/Junio/04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3.md|04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3]] — GoBuster, Hack The Box, XXE
+- [[resumen_master_clase41.md|resumen_master_clase41]] — Hack The Box, Kali Linux, XXE
+- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Kali Linux, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Hack The Box, XXE
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Kali Linux, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Ciberseguridad/diccionario_ciberseguridad.md|diccionario_ciberseguridad]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #dirsearch #escalada-privilegios #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #nmap #pentest #post-explotacion #redes #rfi #sqli #ssh #xss #xxe
+> #burpsuite #cli #cloud_base #crypto #dirsearch #docker #escalada_privilegios #ffuf #file_upload #gobuster #hack_the_box #hydra #ia_ml #javascript #kali #kubernetes #lfi #linux #linux_ciber #nmap #pentest #post_explotacion #python #redes #redes_ciber #rfi #sql #sqli #ssh_tool #testing #web #xss #xxe

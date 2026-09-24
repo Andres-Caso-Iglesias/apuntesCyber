@@ -193,29 +193,23 @@ done
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Nmap, Windows
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Kali Linux, Windows
+- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Netcat / Reverse Shells, SQL Injection, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]] — Hack The Box, Kali Linux, Seguridad
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Kali Linux, Post-Explotacion, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #escalada-privilegios #esteganografia #forense #hack-the-box #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #sqlmap #windows
+> #cli #crypto #escalada_privilegios #esteganografia #forense #hack_the_box #hydra #java #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #sqlmap_tool #web #windows_ciber

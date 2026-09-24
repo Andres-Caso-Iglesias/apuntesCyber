@@ -38,28 +38,23 @@ Si quieres añadir algo o corregir algo mándalo directamente o abre un pull req
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Forense Digital
-- [[Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Empleabilidad, Esteganografía, Metodología Pentest
-- [[apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Hydra
-- [[Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Hydra
-- [[Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Esteganografía, WiFi / Hardware
-- [[transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Empleabilidad, Forense Digital, Metodología Pentest
+- [[Apuntes/04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Esteganografia, Hack The Box, Redes
+- [[Apuntes/07 - Empleabilidad/Mercado Laboral y Certificaciones.md|Mercado Laboral y Certificaciones]] — Esteganografia, Hack The Box, Redes
+- [[Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Hack The Box, Redes, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../programacion/Csharp/xamarin_maui.md|xamarin_maui]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../programacion/PLSQL/triggers_plsql.md|triggers_plsql]] — Programacion: Git, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #empleabilidad #esteganografia #forense #hack-the-box #hydra #nmap #normativa #osint #pentest #redes #sqli #sqlmap #wifi
+> #burpsuite #empleabilidad #esteganografia #forense #git #hack_the_box #hydra #nmap #normativa #osint #pentest #redes #sql #sqli #sqlmap_tool #web #wifi

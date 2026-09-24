@@ -326,30 +326,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — File Upload, IDOR, Netcat / Reverse Shells
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — File Upload, IDOR, Netcat / Reverse Shells
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — File Upload, IDOR, Netcat / Reverse Shells
+- [[resumen_master_clase34.md|resumen_master_clase34]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Hack The Box, Kali Linux, Seguridad
+- [[resumen_master_clase40.md|resumen_master_clase40]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #command-injection #escalada-privilegios #feroxbuster #file-upload #hack-the-box #ia #idor #kali #linux #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub
+> #cli #cloud_base #command_injection #escalada_privilegios #feroxbuster #file_upload #funcional #git #hack_the_box #ia_ml #idor #kali #linux #linux_ciber #metasploit #netcat #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #sqlmap_tool #ssh_tool #vulnhub #web

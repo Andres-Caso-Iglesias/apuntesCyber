@@ -621,33 +621,23 @@ Para saber los nombres de los campos del formulario: click derecho en la página
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Hydra, Metasploit
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Escalada de Privilegios, Hydra, Metasploit
-- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Escalada de Privilegios, Hydra, Metasploit
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Escalada de Privilegios, Hydra, Metasploit
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — FFUF, Hack The Box, Kali Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — FFUF, Hack The Box, Kali Linux
+- [[../../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, Kali Linux, Nmap
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Hack The Box, Kali Linux
+- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — FFUF, Hack The Box, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #nmap #post-explotacion #redes #sqli #ssh #windows #xss
+> #burpsuite #certificaciones #cli #crypto #database #escalada_privilegios #ffuf #git #hack_the_box #hydra #java #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #metasploitable #nmap #post_explotacion #redes #redes_ciber #sql #sqli #ssh_tool #web #windows_ciber #xss

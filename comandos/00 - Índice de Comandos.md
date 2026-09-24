@@ -69,30 +69,23 @@
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Hydra, Linux, Pivoting / Movilidad Lateral
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — FFUF, Feroxbuster, Hydra
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — Hydra, Linux, Pivoting / Movilidad Lateral
-- [[../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Feroxbuster, Hydra
-- [[../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — FFUF, Feroxbuster, Linux
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — FFUF, Hydra, John / Hashcat
+- [[../apuntes Chema/Maquinas/Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — FFUF, GoBuster, Kali Linux
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL.md|Explotación Avanzada de Servicios Vulnerables III - NFS, Tomcat y MySQL]] — Desarrollo Web, Kali Linux, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase25.md|resumen_master_clase25]] — Desarrollo Web, Metodologia Pentest, SQL Injection
+- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — GoBuster, SQL Injection, Testing
+- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — FFUF, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #feroxbuster #ffuf #gobuster #hydra #john #kali #linux #metasploitable #pentest #pivoting #post-explotacion #redes #sqli #ssh #windows #wordpress
+> #cli #feroxbuster #ffuf #go #gobuster #hydra #john_hashcat #kali #linux #linux_ciber #metasploitable #pentest #pivoting #post_explotacion #python #redes #redes_ciber #sql #sqli #testing #web #windows_ciber #wordpress

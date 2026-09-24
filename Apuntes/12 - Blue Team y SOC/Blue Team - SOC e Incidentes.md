@@ -16,6 +16,29 @@ Un SOC (Security Operations Center) vigila, analiza y responde a incidentes 24/7
 
 > **Diferencia con pentesting:** El SOC es operaciones continuas (defensa), el pentesting es un proyecto puntual (ofensiva). Un buen profesional de ciberseguridad entiende ambos lados.
 
+### Operativa del SOC: modalidades, fuentes y ciclo
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Modalidades** | SOC **24/7** (365 días a cualquier hora) · SOC **8x5** (solo horario laboral de lunes a viernes) |
+| **Fuentes de datos** | endpoints, dispositivos IoT, aplicaciones internas y externas, logs de todos los servidores y trazabilidad de patrones de comportamiento de la organización |
+| **Principio** | No basta con monitorizar el perímetro externo: también se monitoriza el interior (**Assumed Breach**) |
+
+**Ciclo operativo en 4 fases continuas:**
+
+1. **Monitorización:** recopilación y análisis en tiempo real de todas las fuentes; el dato bruto sin tratar no tiene valor por sí solo — debe correlacionarse para generar información útil.
+2. **Detección avanzada (Threat Intelligence):** análisis de comportamiento (actividades inusuales), correlación de eventos (patrones complejos que individualmente parecen inofensivos) e IA/ML para anomalías — herramientas relacionadas: **NDR** y **UEBA**.
+3. **Respuesta:** contención (bloqueo de IPs, desconexión de dispositivos, suspensión de cuentas), remediación y recuperación (restauración segura desde backup verificando que el malware no persiste).
+4. **Prevención:** nuevos IOCs, reglas de firewall, arquitecturas mejoradas, formación de usuarios — cuanto mejor la prevención, menos respuesta será necesaria.
+
+**Reporting y métricas:** informes mensuales con alertas detectadas y su resolución, vulnerabilidades recurrentes con recomendaciones y **KPIs/SLAs** (tiempos límite de actuación comprometidos contractualmente). Herramienta habitual de visualización: **Kibana** (panel de estado de seguridad en tiempo real).
+
+> **Perspectiva de carrera:** empezar en Blue Team, concretamente en un SOC como N1, lejos de ser un paso atrás, es una de las mejores escuelas para un futuro pentester — permite entender qué se monitoriza y cómo reaccionan las organizaciones ante los ataques, conocimiento imprescindible para después romper esas defensas. El N1, aunque el trabajo parezca mecánico (hojas de ruta/playbooks), gana visibilidad enorme sobre patrones de ataque reales: qué IPs atacan, qué técnicas usan, qué formularios son objetivos frecuentes.
+
+### Vigilancia digital
+
+Línea del Blue Team orientada a amenazas externas en internet: monitoreo de **dark web y foros** de ciberdelincuentes, grupos de Discord y Telegram, con listados de keywords generados por cliente. En el ámbito del phishing, se generan masivamente iteraciones del dominio del cliente y se vigilan **comprobaciones DNS** para detectar registros fraudulentos → **takedown** vía el contacto `abuse@` del registrador (solo procede con motivo: dominio fraudulento). Cruce con **LeakRadar** para credenciales filtradas de empleados. En los ejercicios **TIBER-EU**, la vigilancia digital es el equipo que proporciona al Red Team toda la superficie de exposición de la organización. El **Purple Team** puentea ambos lados: traduce las lecciones del Red Team en mejoras defensivas para el Blue Team y viceversa.
+
 ---
 
 ## 2. Modelo operativo de detección
@@ -98,6 +121,14 @@ icmpv6.type==2
 
 > **Diferencia clave:** El IOC confirma; el IOA anticipa.
 
+### IOC y C2 en la práctica
+
+Un IOC puede ser: dirección IP conocida maliciosa, **hash** de un fichero malicioso (inmutable: dos ficheros con el mismo hash son el mismo fichero), nombre/ruta de fichero o cadena de texto (string) concreta. Los antivirus/EDR/IPS/IDS extraen estos IOC y los envían a una base de datos de firmas compartida entre fabricantes.
+
+El **C2** (Command & Control) es el servidor intermediario que recibe los comandos del atacante y los replica a todos los nodos comprometidos — con cientos de miles de equipos no se va uno por uno a ejecutar `ls`. Más allá de dominios/IPs dedicados, en la práctica se observan C2 sobre infraestructura legítima: **webhooks de Discord** (~3 años de uso), **Telegram** (sobre el webhook, que es simplemente un listener), **subforos de Reddit** (un watcher correlaciona lo publicado con comandos en una base de datos y responde en comentarios) — cualquier servicio con conectividad sirve de C2 si se le da conectividad.
+
+**Caso Yellow Cockatoo (RAT):** se comunicaba con su C2 en el dominio `gogohide.com` (parametrizado con la info del host ya codificada); identificar el dominio C2 y **bloquearlo** corta la comunicación del atacante — prioridad sobre bloquear IPs sueltas, porque al atacante le da igual que le bloqueen una IP si no pierde el C2.
+
 ---
 
 ## 6. MITRE ATT&CK: tácticas, técnicas y subtécnicas
@@ -113,6 +144,10 @@ MITRE no detecta por sí mismo: clasifica lo ya detectado por otras herramientas
 | **Command and Control** | Web Protocols | Un host interno conectando a una IP externa por el puerto 443 |
 | **Lateral Movement** | Pass the Hash | Autenticación usando hash NTLM sin crackear la contraseña |
 | **Exfiltration** | Exfiltration Over C2 Channel | Datos subidos a través del mismo canal C2 used for command and control |
+
+### Técnica en profundidad: T1555
+
+**T1555 — Credentials from Password Stores** (táctica Credential Access): robo de credenciales almacenadas en el password store del navegador y del sistema. Sub-técnica observada en laboratorio: **Steal Web Session Cookie** (robo de cookies de sesión). En el análisis dinámico con Any.run, los IDs MITRE se asignan directamente a cada comportamiento detectado, cruzando las acciones observadas con la taxonomía estándar del sector.
 
 ---
 
@@ -183,6 +218,14 @@ Un playbook combina: **disparador** (la alerta inicial) → **clasificador** (qu
 
 > **Relacionado con:** [[Anonimato, Ingeniería Social y Enumeración Web]]
 
+### Formación y concienciación: el Red Team como formador
+
+La formación en ingeniería social debe impartirla el **Red Team**, no un Blue Team teórico: ya ejecuta phishing, smishing y vishing en sus auditorías, puede diseñar ataques simulados personalizados y, mostrando después a los empleados los resultados reales de la campaña sobre ellos mismos, el impacto es mucho mayor que cualquier presentación teórica.
+
+> **Caso real:** auditoría externa completada en **6 minutos** mediante ingeniería social, obteniendo credenciales válidas para acceder a la organización.
+
+Objetivos: convertir a los empleados en la **primera línea de defensa** (no en el eslabón más débil), reforzar buenas prácticas (no abrir correos fraudulentos, no conectar USB desconocidos, contraseñas robustas) y cumplir normativa — la formación periódica en ciberseguridad es un control exigido por **ISO 27001, ENS, NIS 2 y DORA**. Se personaliza según sector, madurez de los empleados y riesgos específicos de la organización.
+
 ---
 
 ## 10. EDR, LOLBins y firewalls
@@ -203,7 +246,29 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 ---
 
-## 11. Checklist de repaso
+## 11. Arquitecturas seguras y defensa en profundidad
+
+Una arquitectura segura es el diseño estructural de sistemas, redes y aplicaciones que integra la seguridad desde su concepción (**Security by Design**), no como añadido posterior — planificarla desde el inicio hace cualquier cambio menos costoso y evita generar nuevas vulnerabilidades. Muchas empresas aprovechan las migraciones a cloud para rediseñar con enfoque Zero Trust, cumpliendo ISO 27001, NIS 2 o ENS.
+
+### Pilares
+
+| Pilar | Detalle |
+|-------|---------|
+| **Mínimo privilegio** | Cada usuario, sistema o proceso solo con los permisos estrictamente necesarios. Hallazgo habitual en auditorías: **9-15 cuentas de Domain Admin cuando debería haber 1-2 como máximo** |
+| **Zero Trust** | No confiar automáticamente en nada ni en nadie, dentro ni fuera de la red; verificación constante de identidad y contexto. En la práctica se implementa mediante **Kerberos**, que autentica y autoriza los accesos a todos los servicios sin requerir una contraseña nueva en cada uno |
+| **Defense in Depth** | Múltiples capas de seguridad superpuestas: si una capa falla, las siguientes contienen el ataque |
+
+### Segmentación, datos y perímetro
+
+- **Segmentación de red:** dividir la red en zonas aisladas (usuarios, servidores críticos, IoT, red legacy, DMZ) para limitar el impacto — un ransomware bien contenido por segmentación no se propaga al resto de la infraestructura ni a los servidores de backup. Complementar con MFA y autorización basada en roles.
+- **Protección de datos:** cifrado en tránsito y reposo con **AES-256** y **TLS 1.2/1.3**. Algoritmos obsoletos que no deben usarse: **MD5, DES, CBC** (en configuraciones débiles) — tener contraseñas cifradas con MD5 es equivalente a tenerlas en texto plano, ya que se rompe en segundos. PCI DSS exige protección específica de nombre, número, caducidad y CVV de tarjetas.
+- **Firewalls:** solo deberían modificarlos el perfil especializado; configuración óptima en modo **whitelist** (todo bloqueado por defecto, solo se permite lo necesario). Acompañar de IDS/IPS, balanceadores (DDoS) y VPN/portales seguros de acceso remoto.
+- **Caso real:** compromiso completo de la infraestructura interna de un cliente a través de un **portal Citrix mal configurado** que permitía reutilización de credenciales.
+- **SIEM + EDR:** centralización y análisis de logs para detección de amenazas en tiempo real, sobre la arquitectura anterior.
+
+---
+
+## 12. Checklist de repaso
 
 - [ ] Conozco la estructura de un SOC (N1/N2/N3)
 - [ ] Aplico el modelo hipótesis → evidencia → verificación → acción
@@ -224,24 +289,23 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
-- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Metasploit, Normativa / GRC, Wireshark
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Hack The Box, Seguridad, Windows
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Hack The Box, Seguridad, Windows
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Blue Team / SOC, Hack The Box, Metodologia Pentest
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Hack The Box, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #blue-team #forense #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #smb-impacket #ssh #windows #wireshark
+> #blue_team #crypto #error_handling #forense #go #hack_the_box #javascript #kubernetes #lfi #linux #linux_ciber #metasploit #nmap #normativa #osint #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #smb_impacket #sqli #ssh_tool #web #windows_ciber #wireshark

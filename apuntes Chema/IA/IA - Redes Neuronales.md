@@ -494,25 +494,23 @@ El contenido de clase es la **fuente primaria**. Lo siguiente respalda únicamen
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Redes, SQL Injection, SQLMap
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Desarrollo Web, SQL Injection, Testing
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — SQL Injection, Seguridad, Testing
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Funcional, SQL Injection, Testing
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Funcional, Rust, Testing
+- [[IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Funcional, SQL Injection, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Rust, Seguridad, Testing
+- [[../../../programacion/Python/seguridad_python.md|seguridad_python]] — Programacion: Rust, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #ia #pentest #redes #sqli #sqlmap
+> #arquitectura #cli #database #funcional #go #ia_ml #pentest #python #redes #rust #seguridad #sql #sqli #testing #web

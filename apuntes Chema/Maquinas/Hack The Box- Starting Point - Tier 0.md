@@ -208,24 +208,23 @@ Patrón común a todas: enumerar con Nmap → identificar el servicio → invest
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../../apuntes Joselu/MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Mayo/22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios.md|22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Blue Team / SOC, Hack The Box, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #blue-team #certificaciones #forense #hack-the-box #kali #linux #metasploitable #nmap #normativa #osint #pentest #pivoting #redes #smb-impacket #ssh #telnet #windows
+> #blue_team #certificaciones #cli #cloud_base #crypto #database #forense #hack_the_box #java #kali #linux #linux_ciber #metasploitable #nmap #normativa #osint #pentest #pivoting #redes #redes_ciber #seguridad #smb_impacket #ssh_tool #telnet #web #windows_ciber

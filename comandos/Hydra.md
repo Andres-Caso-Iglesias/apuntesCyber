@@ -182,24 +182,23 @@ echo -e "admin:password\nroot:123456" > credentials.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, Post-Explotación, SSH
-- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, Post-Explotación, SSH
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[../Apuntes/comandos/Telnet.md|Telnet]] — Hydra, Redes, Telnet
-- [[Nmap.md|Nmap]] — Hydra, Post-Explotación, Redes
-- [[SSH.md|SSH]] — Hydra, Post-Explotación, SSH
+- [[../Apuntes/comandos/Telnet.md|Telnet]] — Nmap, Redes, Redes
+- [[../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Desarrollo Web, Nmap, SQL
+- [[Telnet.md|Telnet]] — Desarrollo Web, Redes, SQL
+- [[Nmap.md|Nmap]] — Nmap, Redes, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Desarrollo Web, Nmap, SQL
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, Redes, SQL
 
-> #hydra #ia #nmap #post-explotacion #redes #ssh #telnet
+> #hydra #nmap #redes #redes_ciber #sql #ssh_tool #telnet #web

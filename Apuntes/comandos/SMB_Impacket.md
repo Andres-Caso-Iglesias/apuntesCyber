@@ -11,6 +11,8 @@ smbclient -L //<host>              # Listar shares
 smbclient //<host>/<share>         # Conectar a share
 smbclient //<host>/<share> -U <user>  # Con usuario
 smbclient //<host>/<share> -N      # Anónimo
+showmount -e <host>                # Exports NFS
+mount -t cifs //<host>/<share> /mnt -o username=<user>  # Montar share
 ```
 
 ## Enumeración SMB
@@ -108,22 +110,23 @@ crackmapexec winrm <host> -u <user> -p <pass>
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Linux, Redes, SMB / Impacket
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
-- [[Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Linux, Redes, Tmux
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Metodologia Pentest
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Linux, Windows
+- [[Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../redes/wpa2_wpa3.md|wpa2_wpa3]] — Redes: Criptografia, Linux, Redes
+- [[../../../redes/snmp.md|snmp]] — Redes: Criptografia, Linux, Redes
 
-> #linux #pentest #redes #smb-impacket #tmux #windows
+> #crypto #linux #linux_ciber #pentest #redes #smb_impacket #tmux #windows_ciber

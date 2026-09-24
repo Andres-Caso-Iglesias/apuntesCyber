@@ -78,22 +78,23 @@ hydra -L users.txt -p admin 10.10.10.x ssh
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Hydra, Linux
-- [[SSH.md|SSH]] — Escalada de Privilegios, Hydra, Linux
-- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
-- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Hydra, Linux, SSH
+- [[Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[SSH.md|SSH]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Redes, SQL
 
-> #escalada-privilegios #hydra #linux #pentest #redes #ssh #windows
+> #escalada_privilegios #hydra #linux #linux_ciber #pentest #redes #sql #ssh_tool #web #windows_ciber

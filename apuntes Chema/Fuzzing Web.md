@@ -152,29 +152,23 @@ El fuzzing web automatiza el descubrimiento sustituyendo una parte de la petici�
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — FFUF, Feroxbuster, Hydra
-- [[Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Empleabilidad, Hack The Box, Linux
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, Hydra, Linux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — FFUF, Hydra, Linux
-- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — FFUF, Hydra, Linux
-- [[../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Hack The Box, Linux, SQL Injection
+- [[Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Hack The Box, Redes, SQL Injection
+- [[../apuntes Andres/15.09.2026 SQLi - Inyecciones - Labs - Avanzado II.md|15.09.2026 SQLi - Inyecciones - Labs - Avanzado II]] — Kali Linux, Redes, SQL Injection
+- [[../apuntes Andres/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Kali Linux, Metodologia Pentest, SQL Injection
+- [[../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Hack The Box, Kali Linux, Redes
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Hack The Box, Redes, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #empleabilidad #feroxbuster #ffuf #hack-the-box #hydra #kali #lfi #linux #pentest #redes #sqli
+> #burpsuite #database #empleabilidad #feroxbuster #ffuf #hack_the_box #hydra #java #kali #lfi #linux #linux_ciber #pentest #redes #seguridad #sql #sqli #web

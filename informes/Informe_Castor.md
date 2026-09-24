@@ -318,29 +318,23 @@ ls -la /bin/bash
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Castor-THL.md|Castor-THL]] — Hydra, John / Hashcat, SSH
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Hydra, Post-Explotación, SSH
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Hydra, John / Hashcat, SSH
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — John / Hashcat, Post-Explotación, SSH
-- [[Informe_Banco.md|Informe_Banco]] — Post-Explotación, Redes, SSH
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Hydra, Redes, SSH
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Funcional, Path Traversal / LFI, XXE
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Desarrollo Web, Funcional, Linux
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Path Traversal / LFI, XXE
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Kali Linux, Path Traversal / LFI, XXE
+- [[Informe_Banco.md|Informe_Banco]] — Kali Linux, Linux, Path Traversal / LFI
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../redes/dns_profundo.md|dns_profundo]] — Redes: Desarrollo Web, Funcional, Linux
+- [[../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #hydra #john #kali #lfi #linux #nmap #post-explotacion #redes #ssh #xxe
+> #crypto #funcional #hydra #john_hashcat #kali #lfi #linux #linux_ciber #nmap #post_explotacion #redes #redes_ciber #ssh_tool #web #wireshark #xxe

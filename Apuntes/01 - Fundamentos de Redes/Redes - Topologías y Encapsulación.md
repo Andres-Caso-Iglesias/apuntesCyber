@@ -58,6 +58,21 @@ Cada capa OSI añade su cabecera:
 
 ---
 
+## ③bis Cabecera IP — campos clave
+
+| Campo | Tamaño | Función |
+|-------|--------|---------|
+| Version | 4 bits | IPv4 = 4 |
+| TTL | 8 bits | Time To Live: se decrementa en cada router; 0 → paquete descartado (evita bucles infinitos) |
+| Protocol | 8 bits | 6=TCP, 17=UDP, 1=ICMP |
+| Source IP | 32 bits | IP origen |
+| Destination IP | 32 bits | IP destino |
+
+> [!tip] Fingerprinting
+> El TTL inicial revela el origen: **64 → Linux/Unix**, **128 → Windows**, **255 → Cisco / algunos dispositivos de red**.
+
+---
+
 ## ④ ARP — Resolución de direcciones
 
 ARP traduce **IP → MAC** en la red local (capa 2).
@@ -99,6 +114,44 @@ traceroute -I 8.8.8.8 # usando ICMP en lugar de UDP
 
 ---
 
+## ⑥ MTU: por qué Ethernet y WiFi fragmentan distinto
+
+El **MTU** (Maximum Transmission Unit) es el tamaño máximo del paquete que admite un medio:
+
+| Medio | MTU típico |
+|-------|-----------|
+| Ethernet | ~1500 bytes |
+| WiFi (wireless) | ~2300 bytes |
+
+Los paquetes se **fragmentan de manera diferente** según el medio de transporte, y las cabeceras Ethernet y wireless son distintas: una antena WiFi es físicamente tangible, pero la conectividad que llega al equipo es *wireless*.
+
+---
+
+## ⑦ Tipos de adaptador de red en VirtualBox
+
+| Modo | Comportamiento |
+|------|---------------|
+| **NAT** | Salida a internet + visibilidad con el resto de máquinas de la red NAT |
+| **Puente (Bridge)** | La VM recibe IP del router: expande la red local del host |
+| **Red interna** | Solo visibilidad interna entre VMs, **sin salida a internet** (ideal para sandboxes: el "bicho" no se escapa) |
+| **NAT Network** | Red interna propia creada por nosotros + salida a internet vía NAT; con DHCP activo las VMs se autoasignan IP y "se van a ver" |
+
+> [!important] Sandbox aislada
+> Para analizar malware o hacer un forense de un ransomware **no interesa que la VM tenga conectividad con el host**: si no, el bicho podría salir e infectar la máquina real. Corta las interfaces de red.
+
+---
+
+## ⑧ VPN y proxy: dos cosas distintas
+
+| | Proxy | VPN |
+|---|-------|-----|
+| Mecanismo | Haces las peticiones a través de un servidor que las reenvía a internet | Túnel cifrado punto a punto; enmascara tu tráfico |
+| Alcance | Un salto desde un punto | Puede dar varios saltos (una VPN es un conglomerado de proxies) |
+
+**VPN doméstica** (Mullvad, Proton, Nord): encapsulan y te sueltan en internet anónimo. **VPN corporativa**: túnel para entrar en la red interna de la empresa con autenticación contra el servidor (p. ej. OpenVPN con certificado). Una VPN crea una **interfaz virtual TUN/TAP** en el sistema.
+
+---
+
 ## Checklist de repaso
 
 - [ ] ¿Puedo nombrar los tipos de red por alcance?
@@ -113,21 +166,23 @@ traceroute -I 8.8.8.8 # usando ICMP en lugar de UDP
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, Wireshark
-- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Wireshark
-- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, Wireshark
-- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Redes, Wireshark
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, Wireshark
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Nmap, Redes, Wireshark
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Redes, Redes
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Redes, Redes
+- [[../03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Redes, Redes
+- [[Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Nmap, Redes, Redes
+- [[Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Nmap, Redes, Redes
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../../ia/ia_pentesting.md|ia_pentesting]] — IA: Redes
+- [[../../../ia/wandb.md|wandb]] — IA: Redes
 
-> #nmap #redes #wifi #wireshark
+> #nmap #redes #redes_ciber #wifi #wireshark

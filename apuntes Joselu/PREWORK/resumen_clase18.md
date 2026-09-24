@@ -78,25 +78,23 @@ todas las variantes con años del 2012 al 2025 y caracteres especiales, creando 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Hack The Box, Hydra, Pivoting / Movilidad Lateral
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
-- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — GoBuster, Hack The Box, Hydra
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Empleabilidad, Hydra, Pivoting / Movilidad Lateral
-- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Hydra
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Empleabilidad, GoBuster, Hydra
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — DirSearch, GoBuster, Kali Linux
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — IA/ML, Kali Linux, Seguridad
+- [[../MODULO2/resumen_master_clase10.md|resumen_master_clase10]] — Kali Linux, Linux, Seguridad
+- [[resumen_clase17.md|resumen_clase17]] — DirSearch, GoBuster, IA/ML
+- [[../../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — DirSearch, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #burpsuite #dirsearch #empleabilidad #gobuster #hack-the-box #hydra #ia #john #kali #linux #osint #pivoting #redes #vulnhub #windows
+> #burpsuite #cloud_base #crypto #dirsearch #empleabilidad #git #gobuster #hydra #ia_ml #john_hashcat #kali #linux #linux_ciber #osint #pivoting #python #redes #seguridad #vulnhub #web #windows_ciber

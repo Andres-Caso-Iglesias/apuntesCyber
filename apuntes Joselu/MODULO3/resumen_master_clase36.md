@@ -358,35 +358,23 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Netcat / Reverse Shells, Normativa / GRC
-- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — File Upload, IDOR, Metasploit
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Command Injection / RCE, Normativa / GRC, WordPress
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — File Upload, Hydra, Metasploit
-- [[../../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Forense Digital, IDOR, Metasploit
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, IDOR, Metasploit
+- [[../../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Post-Explotacion, Seguridad, XXE
+- [[../../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Hack The Box, Post-Explotacion, Seguridad
+- [[resumen_master_clase55.md|resumen_master_clase55]] — Hack The Box, Seguridad, XXE
+- [[../PREWORK/resumen_clase5.md|resumen_clase5]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../programacion/MongoDB/seguridad_mongodb.md|seguridad_mongodb]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #certificaciones #command-injection #csrf #file-upload #forense #hack-the-box #hydra #ia #idor #lfi #metasploit #netcat #normativa #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #ssti #wordpress #xss #xxe
+> #burpsuite #certificaciones #cli #command_injection #crypto #csrf #database #devops #file_upload #forense #hack_the_box #hydra #ia_ml #idor #java #javascript #lfi #metasploit #netcat #normativa #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #sqlmap_tool #ssrf #ssti #web #wordpress #xss #xxe

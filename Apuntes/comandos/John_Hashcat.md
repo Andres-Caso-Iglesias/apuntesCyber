@@ -112,24 +112,23 @@ hashcat -m 0 hash.txt wordlist.txt -o out.txt  # Output
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Hydra, John / Hashcat, Linux
-- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
-- [[Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Hydra, Linux, Redes
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/John_Hashcat.md|John_Hashcat]] — Linux, Metodologia Pentest, Windows
+- [[SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Metodologia Pentest
+- [[../08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Linux, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../redes/wpa2_wpa3.md|wpa2_wpa3]] — Redes: Criptografia, Linux, Redes
+- [[../../../redes/snmp.md|snmp]] — Redes: Criptografia, Linux, Redes
 
-> #hydra #john #linux #metasploit #pentest #redes #tmux #windows
+> #crypto #hydra #john_hashcat #linux #linux_ciber #metasploit #pentest #redes #tmux #windows_ciber

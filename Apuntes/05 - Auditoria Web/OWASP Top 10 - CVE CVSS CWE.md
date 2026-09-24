@@ -111,6 +111,20 @@ CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
 > [!warning] CAMBIOS vs 2021
 > Dos categorías nuevas (A03, A10), SSRF absorbido en A01, Injection y Cryptographic bajan. Si ves material con Injection en #3, es de 2021.
 
+> [!info] Notas de detalle
+> - **A02** (Security Misconfiguration) incluye también problemas de **XXE** por configuración del parser XML.
+> - **A10** en 2025 = *Mishandling of Exceptional Conditions* (manejo deficiente de excepciones). Material anticuado puede etiquetar A10 como *SSRF* (nombre de 2021); en 2025 SSRF está **absorbido en A01**. Desconfía de tablas mixtas (nombre viejo + descripción nueva).
+
+### Evolución temporal
+
+| Año | Enfoque principal |
+|---|---|
+| **2017** | Injection, XXE, XSS, deserialization |
+| **2021** | Access control, crypto, injection |
+| **2025** | Supply chain, integridad del software (refleja desarrollo masivo con IA) |
+
+> [!important] Metáfora
+> Comparar 2017, 2021 y 2025 es como ver **fotografías de la misma ciudad en distintas décadas**: las calles principales siguen siendo las mismas (inyección, control de acceso), pero aparecen barrios nuevos (cadena de suministro, integridad del software).
 
 ---
 
@@ -128,6 +142,22 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 > [!tip] BUENA PRÁCTICA
 > En tus informes, acostúmbrate a etiquetar cada hallazgo con su categoría OWASP y su CWE. Es exactamente lo que se espera en una auditoría web junior.
 
+### Calculadora oficial de CVSS
+
+```bash
+https://www.first.org/cvss/calculator/3.1
+```
+
+### Doble uso del Top 10
+
+| Uso | Para qué sirve | Peso real |
+|---|---|---|
+| **Comunicación con el cliente** | Justificar que se revisaron las categorías más relevantes | Alto (burocrático) |
+| **Metodología técnica del auditor** | Clasificar hallazgos en categorías | Bajo (la IA lo hace en segundos) |
+
+> [!important] Las vulnerabilidades reales son cadenas
+> Un fallo de autenticación habilita una configuración incorrecta que a su vez habilita una inyección. Clasificar cada eslabón en una sola categoría es artificial: el Top 10 es el **lenguaje del informe**, no la lógica del hacker.
+
 ---
 
 ## Checklist de repaso
@@ -137,6 +167,11 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 - [ ] ¿Sé leer un vector CVSS?
 - [ ] ¿Entiendo la cascada OWASP → CWE → CVE → CVSS?
 - [ ] ¿Relaciono Log4Shell con su CWE y categoría OWASP?
+- [ ] ¿Señalo cuándo una tabla mezcla el nombre A10 de 2021 con la descripción de 2025?
+- [ ] ¿Sé que A02 incluye XXE y que SSRF (2021) cae en A01 (2025)?
+- [ ] ¿Diferencio el uso burocrático del Top 10 (cliente) del uso técnico (auditor)?
+
+
 
 
 
@@ -150,28 +185,16 @@ OWASP Top 10 → CWE → CVE → CVSS → Priorización
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — IDOR, Netcat / Reverse Shells, Normativa / GRC
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — IDOR, Metasploit, SQL Injection
-- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Septiembre/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Metasploit, Metodología Pentest, SQLMap
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Post-Explotacion, Seguridad, XXE
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Post-Explotacion, Seguridad, XXE
+- [[Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Post-Explotacion, Seguridad, XXE
+- [[../../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Command Injection / RCE, Post-Explotacion, XXE
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — SQL Injection, XSS, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Bases de Datos, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #command-injection #hack-the-box #hydra #idor #lfi #metasploit #netcat #normativa #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #xss #xxe
+> #blue_team #burpsuite #cli #command_injection #crypto #database #devops #go #hydra #idor #java #lfi #metasploit #netcat #normativa #pentest #post_explotacion #redes #seguridad #sql #sqli #sqlmap_tool #ssrf #web #xss #xxe

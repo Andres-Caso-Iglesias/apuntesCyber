@@ -1,7 +1,7 @@
 # Anonimato e Ingeniería Social
 
 > [!info] Nota consolidada del contenido de Chema (sesión completa, ~372 líneas originales)
-> Anonimato, ingeniería social y técnicas de匿anonymización aplicadas al pentesting ético.
+> Anonimato, ingeniería social y técnicas de anonimización aplicadas al pentesting ético.
 
 ---
 
@@ -145,6 +145,17 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 
 ---
 
+## Si eres víctima de una ciberestafa (Chema)
+
+1. **Denuncia policial** — imprescindible para cualquier reclamación posterior
+2. **Movimientos bancarios sellados** — extraer y sellar los extractos con los cargos fraudulentos
+3. **Reclamar al banco**
+
+> [!important] CIBERRESPONSABILIDAD BANCARIA
+> Los bancos suelen tener un ciberseguro con **ciberresponsabilidad** asociada. Si aportas la denuncia policial + los movimientos bancarios sellados, el banco puede tener que **reintegrar el dinero**. Aplica a casos como pagos falsos de la "DGT", reservas de piso falsas o compras fraudulentas.
+
+---
+
 ## Fuzzing de parámetros
 
 > [!info] Dos herramientas complementarias para fuzzing web
@@ -164,6 +175,8 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 > [!tip] Diferencia clave
 > `x8_lite` pregunta: **¿qué parámetros existen?**
 > `valfuzz` pregunta: **¿qué valores son vulnerables?**
+>
+> En el laboratorio Rockstar, `valfuzz` se afina marcando como **HIT** solo si la respuesta contiene `uid=` — filtrar por el indicador real del éxito, no por tamaño.
 
 ---
 
@@ -201,22 +214,23 @@ Tu PC ──▶ Nodo de entrada ──▶ Nodo medio ──▶ Nodo de salida �
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Linux, WiFi / Hardware
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Hydra, Linux
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Linux, WiFi / Hardware
-- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Hydra, Linux
-- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografía, Metodología Pentest, WiFi / Hardware
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../../comandos/Linux.md|Linux]] — Esteganografia, Metodologia Pentest, Seguridad
+- [[../10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Metodologia Pentest
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Desarrollo Web, Esteganografia, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #esteganografia #hydra #linux #osint #pentest #redes #ssh #wifi
+> #crypto #esteganografia #hydra #kubernetes #linux #linux_ciber #osint #pentest #python #redes #seguridad #ssh_tool #web #wifi

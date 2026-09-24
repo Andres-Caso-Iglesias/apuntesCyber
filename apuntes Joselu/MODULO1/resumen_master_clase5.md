@@ -182,27 +182,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
-- [[resumen_master_clase4.md|resumen_master_clase4]] — Escalada de Privilegios, Metasploit, Normativa / GRC
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Forense Digital, Metasploit, Normativa / GRC
-- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Metasploit, Normativa / GRC
-- [[resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Metasploit
+- [[resumen_master_clase4.md|resumen_master_clase4]] — Blue Team / SOC, IA/ML, SQL Injection
+- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Blue Team / SOC, Normativa / GRC, SQL Injection
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Netcat / Reverse Shells, SQL Injection, Seguridad
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Kali Linux, Seguridad, Windows
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Kali Linux, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #escalada-privilegios #forense #hydra #ia #kali #linux #metasploit #netcat #normativa #redes #reverse-shell #sqli #windows
+> #blue_team #cli #crypto #escalada_privilegios #forense #hydra #ia_ml #java #javascript #kali #linux #linux_ciber #metasploit #netcat #normativa #redes #reverse_shell #seguridad #sql #sqli #web #windows_ciber

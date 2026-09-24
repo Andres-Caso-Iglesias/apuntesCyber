@@ -261,23 +261,23 @@ nmap --reason <target>
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Hydra, WiFi / Hardware, Wireshark
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../Apuntes/comandos/Telnet.md|Telnet]] — Hydra, Redes, Telnet
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, Redes
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Hydra, WiFi / Hardware, Wireshark
-- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Post-Explotación, WiFi / Hardware, Wireshark
+- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotacion, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Redes
+- [[../Apuntes/comandos/Telnet.md|Telnet]] — Nmap, Redes, Redes
+- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Nmap, Post-Explotacion, Redes
+- [[Hydra.md|Hydra]] — Nmap, Redes, Redes
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/Telnet|Telnet]]
+- [[../../ia/ia_pentesting.md|ia_pentesting]] — IA: Redes
+- [[../../ia/wandb.md|wandb]] — IA: Redes
 
-> #hydra #nmap #post-explotacion #redes #telnet #wifi #wireshark
+> #hydra #nmap #post_explotacion #redes #redes_ciber #telnet #wifi #wireshark

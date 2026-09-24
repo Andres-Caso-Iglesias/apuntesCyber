@@ -148,30 +148,23 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Hydra, IDOR, Linux
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Hydra, IDOR, Linux
-- [[Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, IDOR, Linux
-- [[../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Linux, Redes, WordPress
-- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hydra, IDOR, Linux
-- [[Repaso General II.md|Repaso General II]] — Hydra, Linux, Redes
+- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Kali Linux, Linux, Seguridad
+- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Funcional, Kali Linux, Metodologia Pentest
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Funcional, Kali Linux, Metodologia Pentest
+- [[../apuntes Andres/30.06.2026 Explotación web PortSwigger.md|30.06.2026 Explotación web PortSwigger]] — Funcional, Kali Linux, Metodologia Pentest
+- [[../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Funcional, Metodologia Pentest, XSS
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../programacion/Docker/compose_avanzado.md|compose_avanzado]] — Programacion: Funcional, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #hydra #idor #kali #lfi #linux #nmap #pentest #redes #ssrf #ssti #wordpress #xss
+> #burpsuite #cli #cloud_base #docker #funcional #hydra #idor #kali #lfi #linux #linux_ciber #nmap #pentest #redes #redes_ciber #seguridad #ssrf #ssti #web #wordpress #xss

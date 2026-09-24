@@ -188,24 +188,23 @@ wpscan --url http://target --cookie-string "session=abc"
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BurpSuite.md|BurpSuite]] — FFUF, Hydra, WordPress
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Hydra, WordPress
-- [[Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
-- [[../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Hydra, Redes
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Redes, WordPress
-- [[../Apuntes/comandos/WPScan.md|WPScan]] — Hydra, Redes, WordPress
+- [[BurpSuite.md|BurpSuite]] — Desarrollo Web, WPScan, WordPress
+- [[Google_Dorks.md|Google_Dorks]] — Desarrollo Web, WPScan, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Desarrollo Web, WPScan, WordPress
+- [[FFUF.md|FFUF]] — Desarrollo Web, FFUF, SQL
+- [[../Apuntes/comandos/WPScan.md|WPScan]] — Desarrollo Web, WPScan, WordPress
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, Redes, SQL
 
-> #burpsuite #ffuf #hydra #redes #wordpress #wpscan
+> #burpsuite #ffuf #hydra #redes #sql #web #wordpress #wpscan

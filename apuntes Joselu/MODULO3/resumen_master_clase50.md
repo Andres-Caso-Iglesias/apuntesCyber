@@ -194,25 +194,23 @@ La siguiente sesión completará la demostración llevando el grafo de coches a 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — IA en Ciberseguridad, Redes, SQLMap
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Desarrollo Web, SQL Injection, Testing
+- [[../../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — SQL Injection, Seguridad, Testing
+- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — Desarrollo Web, SQL Injection, SQLMap
+- [[resumen_master_clase18.md|resumen_master_clase18]] — SQL Injection, Seguridad, Testing
+- [[../../informes/Informe_vaccine.md|Informe_vaccine]] — SQL Injection, Seguridad, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Ruby/rails_fundamentos.md|rails_fundamentos]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #ia #redes #sqli #sqlmap
+> #arquitectura #database #go #ia_ml #redes #seguridad #sql #sqli #sqlmap_tool #testing #web

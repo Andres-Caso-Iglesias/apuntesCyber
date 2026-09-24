@@ -460,37 +460,23 @@ En la máquina Rockstar se hicieron **cuatro saltos de usuario** (shark → wwwv
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — FFUF, GoBuster, XXE
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — FFUF, GoBuster, XXE
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Post-Explotacion, XXE
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — GoBuster, Nmap, Post-Explotacion
+- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — FFUF, GoBuster, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Criptografia, Desarrollo Web, Linux
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Criptografia, Desarrollo Web, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #john #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #rfi #smb-impacket #ssh #xxe
+> #cli #command_injection #crypto #dirsearch #escalada_privilegios #feroxbuster #ffuf #gobuster #hydra #java #javascript #john_hashcat #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #python #redes #redes_ciber #reverse_shell #rfi #smb_impacket #ssh_tool #web #xxe

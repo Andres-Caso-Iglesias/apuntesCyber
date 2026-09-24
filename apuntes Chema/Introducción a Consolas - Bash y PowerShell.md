@@ -66,24 +66,23 @@ PowerShell es la shell de Windows, también disponible en Linux/macOS. En pentes
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Linux, Metasploit
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Kali Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: Linux, Python, Redes
+- [[../../programacion/C/fundamentos_c.md|fundamentos_c]] — Programacion: Linux, Python, Redes
 
-> #escalada-privilegios #hydra #kali #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #windows
+> #cli #escalada_privilegios #go #hydra #kali #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #python #redes #reverse_shell #windows_ciber

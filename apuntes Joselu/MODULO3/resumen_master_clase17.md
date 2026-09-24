@@ -9,8 +9,6 @@
 
 ---
 
-```
-
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -subj "/CN=localhost"
 
 # Levantar servidor en HTTP o HTTPS
@@ -187,26 +185,23 @@ Y tenemos ya instalado Metasploitable 2, que será el campo de entrenamiento de 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/comandos/Metasploit.md|Metasploit]] — Forense Digital, Netcat / Reverse Shells, Wireshark
-- [[../../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Wireshark
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Wireshark
-- [[../MODULO1/resumen_master_clase3.md|resumen_master_clase3]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Hack The Box, Seguridad
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Hack The Box, Netcat / Reverse Shells, Seguridad
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Sesión 30 - Burp Suite y WordPress.md|Sesión 30 - Burp Suite y WordPress]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #escalada-privilegios #file-upload #forense #hack-the-box #ia #linux #metasploit #metasploitable #netcat #nmap #pentest #redes #reverse-shell #windows #wireshark
+> #cli #crypto #escalada_privilegios #file_upload #forense #git #hack_the_box #ia_ml #java #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #python #redes #redes_ciber #reverse_shell #seguridad #web #windows_ciber #wireshark

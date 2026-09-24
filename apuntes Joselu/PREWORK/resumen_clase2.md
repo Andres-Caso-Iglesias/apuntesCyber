@@ -167,27 +167,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase6.md|resumen_clase6]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[resumen_clase7.md|resumen_clase7]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[resumen_clase12.md|resumen_clase12]] — Metasploit, Post-Explotación, Redes
+- [[resumen_clase6.md|resumen_clase6]] — Blue Team / SOC, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, Normativa / GRC, SQL Injection
+- [[resumen_clase7.md|resumen_clase7]] — Blue Team / SOC, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Blue Team / SOC, Normativa / GRC, SQL Injection
+- [[../MODULO1/resumen_master_clase4.md|resumen_master_clase4]] — Blue Team / SOC, Normativa / GRC, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../programacion/SQL/optimizacion_sql.md|optimizacion_sql]] — Programacion: Arquitectura, Desarrollo Web, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #command-injection #ia #metasploit #netcat #normativa #post-explotacion #redes #reverse-shell #sqli #windows
+> #arquitectura #blue_team #cli #command_injection #crypto #ia_ml #java #metasploit #netcat #normativa #redes #reverse_shell #seguridad #sql #sqli #web #windows_ciber

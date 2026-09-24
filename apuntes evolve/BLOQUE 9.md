@@ -140,23 +140,23 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
-- [[../comandos/Nmap.md|Nmap]] — Hydra, WiFi / Hardware, Wireshark
-- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, Post-Explotación, SSH
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[../apuntes Joselu/MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Hydra, WiFi / Hardware, Wireshark
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, Post-Explotación, SSH
+- [[../comandos/Nmap.md|Nmap]] — Nmap, Post-Explotacion, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Redes
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Criptografia, Nmap, Redes
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Criptografia, Nmap, Post-Explotacion
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Criptografia, Nmap, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/R/fundamentos_r.md|fundamentos_r]] — Programacion: Criptografia, Redes
+- [[../../programacion/Perl/fundamentos_perl.md|fundamentos_perl]] — Programacion: Criptografia, Redes
 
-> #hydra #ia #nmap #post-explotacion #redes #ssh #wifi #wireshark
+> #crypto #hydra #nmap #post_explotacion #redes #redes_ciber #ssh_tool #wifi #wireshark

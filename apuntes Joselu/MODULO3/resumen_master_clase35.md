@@ -359,32 +359,23 @@ Robot
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Command Injection / RCE, Hack The Box, WordPress
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[resumen_master_clase30.md|resumen_master_clase30]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Command Injection / RCE, Hack The Box, WordPress
-- [[../../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Kali Linux, XXE
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Kali Linux, Seguridad, XXE
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Hack The Box, Kali Linux, XXE
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Hack The Box, Kali Linux, XXE
+- [[resumen_master_clase21.md|resumen_master_clase21]] — Kali Linux, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #command-injection #escalada-privilegios #file-upload #hack-the-box #hydra #ia #kali #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #windows #wordpress #xxe
+> #burpsuite #cli #command_injection #crypto #escalada_privilegios #file_upload #git #hack_the_box #hydra #ia_ml #java #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #web #windows_ciber #wordpress #xxe

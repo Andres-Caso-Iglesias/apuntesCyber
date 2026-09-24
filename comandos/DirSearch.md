@@ -204,24 +204,23 @@ dirsearch -u http://target --delay 2 --random-agents --quiet
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[Feroxbuster.md|Feroxbuster]] — Desarrollo Web, DirSearch, GoBuster
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[../Apuntes/comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
+- [[../../programacion/Algoritmos/fundamentos_algoritmos.md|fundamentos_algoritmos]] — Programacion: Criptografia, Python, Redes
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, Python, Redes
 
-> #dirsearch #feroxbuster #ffuf #gobuster #redes
+> #crypto #dirsearch #feroxbuster #ffuf #gobuster #python #redes #web

@@ -252,32 +252,23 @@ Cambios de nivel y nuevas entradas respecto al registro acumulado (copiable a la
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE - XML External Entity]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Post-Explotación, SQL Injection
-- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, IDOR, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Hack The Box, SQL Injection, XXE
+- [[../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Netcat / Reverse Shells, SQL Injection, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #command-injection #file-upload #hack-the-box #ia #idor #lfi #metasploit #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xxe
+> #burpsuite #cli #command_injection #docker #file_upload #hack_the_box #idor #java #javascript #lfi #metasploit #netcat #pentest #pivoting #post_explotacion #python #redes #seguridad #sql #sqli #ssrf #ssti #web #xxe

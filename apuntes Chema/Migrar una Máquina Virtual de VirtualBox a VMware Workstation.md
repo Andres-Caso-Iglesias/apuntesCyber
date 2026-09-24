@@ -196,22 +196,23 @@ Proceso completo en menos de 5 minutos una vez se tienen los archivos localizado
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Linux, Redes, Tmux
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Redes
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Redes
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/Arduino/librerias_arduino.md|librerias_arduino]] — Programacion: Linux, Redes
+- [[../../redes/vlans_segmentacion.md|vlans_segmentacion]] — Redes: Linux, Redes
 
-> #kali #linux #nmap #pentest #redes #tmux #windows
+> #kali #linux #linux_ciber #nmap #pentest #redes #tmux #windows_ciber

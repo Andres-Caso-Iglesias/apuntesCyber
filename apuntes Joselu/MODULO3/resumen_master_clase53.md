@@ -84,27 +84,23 @@ El resumen detallado está en el documento de la Clase 52.*
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/PortSwigger - SSRF y cierre SSTI.md|PortSwigger - SSRF y cierre SSTI]] — Burp Suite, Open Redirect, Redes
-- [[../../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Burp Suite, Redes, SSTI
-- [[resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Open Redirect, Redes
-- [[../../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Burp Suite, Redes, XSS
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Burp Suite, Open Redirect, Redes
+- [[../../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Desarrollo Web, Metodologia Pentest, XSS
+- [[../../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Desarrollo Web, SSRF, XSS
+- [[../../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Desarrollo Web, Open Redirect, SSRF
+- [[../../apuntes Chema/PortSwigger - SSRF y cierre SSTI.md|PortSwigger - SSRF y cierre SSTI]] — Desarrollo Web, Metodologia Pentest, Open Redirect
+- [[resumen_master_clase52.md|resumen_master_clase52]] — Desarrollo Web, Metodologia Pentest, Open Redirect
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
+- [[../../../ia/mlflow.md|mlflow]] — IA: CLI/Scripting, Desarrollo Web, Redes
+- [[../../../programacion/Csharp/xamarin_maui.md|xamarin_maui]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #ia #open-redirect #pentest #redes #ssrf #ssti #xss
+> #burpsuite #cli #ia_ml #open_redirect #pentest #redes #ssrf #ssti #web #xss

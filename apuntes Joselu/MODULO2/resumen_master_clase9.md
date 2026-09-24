@@ -215,28 +215,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Empleabilidad, Forense Digital, Netcat / Reverse Shells
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Empleabilidad, Netcat / Reverse Shells, Normativa / GRC
-- [[../PREWORK/resumen_clase2.md|resumen_clase2]] — Metasploit, Netcat / Reverse Shells, SQL Injection
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Forense Digital, Metasploit, Normativa / GRC
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Forense Digital, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Empleabilidad, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Kali Linux, Seguridad, Windows
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
+- [[../PREWORK/resumen_clase6.md|resumen_clase6]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Kali Linux, Seguridad, Windows
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Kali Linux, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #command-injection #empleabilidad #forense #google-dorks #ia #kali #linux #metasploit #netcat #normativa #osint #post-explotacion #redes #reverse-shell #sqli #wifi #windows
+> #blue_team #cli #cloud_base #command_injection #crypto #empleabilidad #forense #git #google_dorks #ia_ml #java #kali #linux #linux_ciber #metasploit #netcat #normativa #osint #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #web #wifi #windows_ciber

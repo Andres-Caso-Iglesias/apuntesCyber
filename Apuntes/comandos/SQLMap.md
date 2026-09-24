@@ -72,12 +72,14 @@ sqlmap -r request.txt --batch
 --level=5                          # Nivel de testing (1-5)
 --risk=3                           # Riesgo (1-3)
 --technique=BEUST                  # Técnicas a usar
+-p <param>                         # Parámetro concreto
 --proxy=<proxy>                    # Proxy
 --tor                              # Tor
 --check-tor                       # Verificar Tor
 --forms                            # Testear formularios
 --crawl=3                          # Crawlear sitio
 --output-dir=<dir>                 # Directorio de output
+--dump-all                         # Todas las tablas de todas las BDs
 ```
 
 ## Técnicas SQLi
@@ -112,26 +114,23 @@ sqlmap -r request.txt --level=5 --risk=3 --batch
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Redes, SQLMap
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Redes, SQL Injection, SQLMap
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Redes, SQL Injection, SQLMap
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Desarrollo Web, SQL Injection, SQLMap
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase50.md|resumen_master_clase50]] — Desarrollo Web, SQL Injection, SQLMap
+- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Desarrollo Web, SQL Injection, SQLMap
+- [[BurpSuite.md|BurpSuite]] — Desarrollo Web, SQL Injection, SQLMap
+- [[../../apuntes Andres/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Desarrollo Web, SQL Injection, SQLMap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Csharp/xamarin_maui.md|xamarin_maui]] — Programacion: Arquitectura, Desarrollo Web, SQL
+- [[../../../ia/mlflow.md|mlflow]] — IA: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #ia #redes #sqli #sqlmap
+> #arquitectura #burpsuite #cli #ia_ml #redes #sql #sqli #sqlmap_tool #web

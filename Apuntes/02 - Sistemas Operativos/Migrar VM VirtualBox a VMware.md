@@ -93,7 +93,7 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 ### Verificar controladores
 
 - **VMware Tools**: Instalar para mejor rendimiento (drag & drop, clipboard compartido)
-- **Adaptador de red**: Cambiar a桥接 o NAT según necesidad
+- **Adaptador de red**: Cambiar a **Bridged** o NAT según necesidad
 - **USB**: Configurar filtrados USB si es necesario
 
 ### Solucionar problemas comunes
@@ -101,7 +101,7 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 | Problema | Solución |
 |----------|----------|
 | VM no arranca | Revisar configuración de BIOS/UEFI en VMware |
-| Sin red | Cambiar adaptador de red a桥接 o NAT |
+| Sin red | Cambiar adaptador de red a Bridged o NAT |
 | Pantalla pequeña | Instalar VMware Tools |
 | USB no funciona | Configurar filtrados USB en VMware |
 | Snapshots no funcionan | Recrear snapshots en VMware |
@@ -119,8 +119,18 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 | Red                    | NAT, Host-Only        |  NAT, Host-Only       |
 | USB                    | 1.1/2.0/3.0           | 1.1/2.0/3.0/3.1       |
 
+### Formatos de disco — recordatorio rápido
 
+| Formato | Hipervisor | Notas |
+|---------|-----------|-------|
+| **VDI** | VirtualBox | Formato nativo de VirtualBox |
+| **VMDK** | VMware | También genera VirtualBox; conversión directa con `qemu-img` |
+| **OVA/OVF** | Ambos | Paquete exportable (disco + configuración); **doble clic para importar** |
 
+> [!example] Caso Metasploitable
+> Metasploitable2 se distribuye **solo como `.vmdk`** (sin `.ova`): hay que crear la VM a mano en VMware/VirtualBox y elegir *"Usar un disco duro virtual existente"*. Truco de laboratorio: si ves que un `.vmdk` de 1 GB no arranca, casi siempre falta indicar que es disco de tipo **IDE/SCSI legacy** en la configuración de la nueva VM.
+
+---
 
 
 
@@ -131,18 +141,15 @@ vmware-vdiskmanager -r nombre_vm.vmdk -t 0 nombre_vm_optimizado.vmdk
 
 ### Documentos Relacionados
 
-- [[../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Hack The Box
-- [[../comandos/Feroxbuster.md|Feroxbuster]] — FFUF, Feroxbuster, Redes
-- [[../comandos/FFUF.md|FFUF]] — FFUF, Feroxbuster, Redes
-- [[../comandos/GoBuster.md|GoBuster]] — FFUF, Feroxbuster, Redes
+- [[../comandos/DirSearch.md|DirSearch]] — DirSearch, GoBuster, Linux
+- [[../../apuntes Chema/Maquinas/Fuzzing de parámetros con x8 - Rockstar.md|Fuzzing de parámetros con x8 - Rockstar]] — DirSearch, GoBuster, Hack The Box
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, GoBuster, Hack The Box
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Redes
+- [[../../../cloud/azure_functions.md|azure_functions]] — Cloud: Desarrollo Web, Linux, Redes
 
-> #dirsearch #feroxbuster #ffuf #hack-the-box #linux #nmap #redes
+> #cloud_base #dirsearch #feroxbuster #ffuf #gobuster #hack_the_box #linux #linux_ciber #nmap #redes #web

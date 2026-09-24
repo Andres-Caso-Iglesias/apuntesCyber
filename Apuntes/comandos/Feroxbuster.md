@@ -67,24 +67,23 @@ feroxbuster -u http://10.10.10.x -s 200 301 302 -d 2
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[FFUF.md|FFUF]] — DirSearch, FFUF, GoBuster
+- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
+- [[../../../ia/ia_pentesting.md|ia_pentesting]] — IA: Redes
+- [[../../../ia/wandb.md|wandb]] — IA: Redes
 
 > #dirsearch #feroxbuster #ffuf #gobuster #redes

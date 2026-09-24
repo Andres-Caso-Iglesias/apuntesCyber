@@ -104,23 +104,23 @@ Wireshark muestra perfectamente el proceso de establecimiento de conexión TCP:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Banco.md|Informe_Banco]] — Metasploit, SSH, Wireshark
-- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, SSH, Wireshark
-- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, SSH, Wireshark
-- [[../informes/Informe_Cap.md|Informe_Cap]] — Metasploit, SSH, Wireshark
-- [[../Apuntes/03 - Herramientas de Analisis/Wireshark - Análisis de Tráfico.md|Wireshark - Análisis de Tráfico]] — Metasploit, Post-Explotación, Wireshark
-- [[../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, SSH, Wireshark
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Desarrollo Web, Funcional, Linux
+- [[../apuntes Joselu/PREWORK/resumen_clase12.md|resumen_clase12]] — Desarrollo Web, Funcional, Linux
+- [[../informes/Informe_Banco.md|Informe_Banco]] — Desarrollo Web, Linux, Post-Explotacion
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Post-Explotacion
+- [[../informes/Informe_Cap.md|Informe_Cap]] — Desarrollo Web, Linux, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Redes
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Linux, Redes
 
-> #linux #metasploit #nmap #post-explotacion #redes #ssh #wireshark
+> #crypto #funcional #linux #linux_ciber #metasploit #nmap #post_explotacion #redes #redes_ciber #ssh_tool #web #wireshark

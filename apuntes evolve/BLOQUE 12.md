@@ -167,17 +167,23 @@ El trabajo de un consultor GRC se traduce en documentos muy concretos: matriz de
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 14.md|BLOQUE 14]] — Certificaciones, Metodología Pentest, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Metodología Pentest, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Metodología Pentest, Redes
-- [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — Normativa / GRC, Redes
-- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, Normativa / GRC, Redes
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Metodologia Pentest, Seguridad, Testing
+- [[BLOQUE 14.md|BLOQUE 14]] — Metodologia Pentest, Seguridad, Testing
+- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Criptografia, Redes, Seguridad
+- [[../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Criptografia, Metodologia Pentest, Seguridad
+- [[BLOQUE 1.md|BLOQUE 1]] — Criptografia, Metodologia Pentest, Seguridad
 
-> #certificaciones #normativa #pentest #redes
+### 🌐 Cross-Dominio
+
+- [[../../ia/ia_payloads.md|ia_payloads]] — IA: Redes, Seguridad, Testing
+- [[../../programacion/PLSQL/seguridad_plsql.md|seguridad_plsql]] — Programacion: Cloud, Redes, Seguridad
+
+> #certificaciones #cloud_base #crypto #normativa #pentest #redes #seguridad #testing

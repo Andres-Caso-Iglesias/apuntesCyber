@@ -150,31 +150,23 @@ Término en la transcripción Corrección / Aclaración aplicación foca de ser 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Metasploit, Netcat / Reverse Shells, SSRF
-- [[../../apuntes Andres/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Metasploit, Netcat / Reverse Shells, WiFi / Hardware
+- [[../MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../../Apuntes/00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Post-Explotacion, Seguridad, Windows
+- [[../../apuntes Chema/OWASP Top 10, CVSS, CWE y CVE.md|OWASP Top 10, CVSS, CWE y CVE]] — Netcat / Reverse Shells, Seguridad, XSS
+- [[../MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Metodologia Pentest, Netcat / Reverse Shells, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #command-injection #csrf #ia #idor #lfi #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssrf #ssti #wifi #windows #xss
+> #burpsuite #certificaciones #cli #command_injection #crypto #csrf #ia_ml #idor #java #javascript #lfi #metasploit #netcat #pentest #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #ssrf #ssti #testing #web #wifi #windows_ciber #xss

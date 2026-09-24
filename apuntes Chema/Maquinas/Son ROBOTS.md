@@ -298,32 +298,23 @@ En Intruder se marca el campo de usuario como payload y se prueban candidatos. T
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Feroxbuster, Hack The Box, WordPress
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Metodología de Explotación.md|Metodología de Explotación]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Hack The Box, Kali Linux, Windows
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Kali Linux, Nmap, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Hack The Box, Kali Linux, Windows
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Kali Linux, Nmap, Post-Explotacion
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Hack The Box, Nmap, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Funcional, Rust
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Funcional, Rust
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress
+> #burpsuite #cli #command_injection #crypto #dirsearch #escalada_privilegios #esteganografia #feroxbuster #funcional #hack_the_box #hydra #kali #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #rust #ssh_tool #vulnhub #web #windows_ciber #wordpress

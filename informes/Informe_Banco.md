@@ -420,28 +420,23 @@ ls -la /bin/bash
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, SSH, Wireshark
-- [[Informe_Castor.md|Informe_Castor]] — Post-Explotación, Redes, SSH
-- [[Informe_Rockstars.md|Informe_Rockstars]] — Post-Explotación, Redes, SSH
-- [[../comandos/Tmux.md|Tmux]] — Metasploit, SSH, Wireshark
-- [[Informe_Cap.md|Informe_Cap]] — Metasploit, SSH, Wireshark
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Metasploit, Post-Explotación, SSH
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Desarrollo Web, Linux, Post-Explotacion
+- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Linux, Path Traversal / LFI
+- [[../write-ups/Banco-THL.md|Banco-THL]] — Desarrollo Web, Linux, Path Traversal / LFI
+- [[Informe_Rockstars.md|Informe_Rockstars]] — Kali Linux, Linux, Path Traversal / LFI
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Kali Linux, Linux, Path Traversal / LFI
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #kali #lfi #linux #metasploit #nmap #post-explotacion #redes #ssh #tmux #wireshark
+> #java #javascript #kali #lfi #linux #linux_ciber #metasploit #nmap #post_explotacion #redes #redes_ciber #sql #ssh_tool #tmux #web #wireshark

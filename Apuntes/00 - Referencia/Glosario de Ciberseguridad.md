@@ -17,6 +17,7 @@
 | **AES** | Advanced Encryption Standard. Algoritmo de cifrado simétrico ampliamente utilizado |
 | **ARP** | Address Resolution Protocol. Protocolo para resolver direcciones IP a direcciones MAC |
 | **Asset** | Activo. Cualquier recurso de valor (datos, hardware, software, servicios) |
+| **Alucinación** | Hallucination. Salida plausible pero falsa generada por un modelo de IA |
 
 ---
 
@@ -31,6 +32,8 @@
 | **Bash** | Bourne Again Shell. Intérprete de comandos estándar en Linux |
 | **Bypas** | Evadir un mecanismo de seguridad o control |
 | **Backdoor** | Puerta trasera: acceso oculto al sistema para evadir autenticación |
+| **Backpropagation** | Retropropagación. Propaga el error hacia atrás capa por capa para ajustar cada peso de una red neuronal |
+| **Bias (Sesgo de datos)** | Desequilibrio del dataset que el modelo aprende y reproduce; también: término añadido antes de la activación en una neurona |
 
 ---
 
@@ -49,6 +52,8 @@
 | **CNAME** | Canonical Name. Registro DNS que alias un nombre a otro |
 | **CGI** | Common Gateway Interface. Protocolo para ejecutar scripts en el servidor web |
 | **Cookie** | Pequeño archivo que el servidor envía al navegador para almacenar estado |
+| **CTF** | Capture The Flag. Reto de ciberseguridad en el que se busca una 'flag' explotando vulnerabilidades |
+| **Certificación (por servicio)** | En normativa ISO, no se certifica la empresa entera sino un servicio/departamento concreto; una misma empresa puede tener múltiples ISO 27001 |
 
 ---
 
@@ -64,6 +69,9 @@
 | **Default Credentials** | Credenciales por defecto que vienen con software o dispositivos |
 | **Decoy** | Honeypot o señuelo. Sistema que imita uno real para detectar atacantes |
 | **Dashboard** | Panel de control. Interfaz con métricas y estado del sistema |
+| **Dataset** | Conjunto de datos de entrenamiento; Train/Validation/Test lo particionan para ajustar, afinar y medir el acierto final |
+| **Descenso del gradiente** | Método que ajusta los pesos de una red neuronal en la dirección que reduce el error |
+| **DORA** | Digital Operational Resilience Act. Reglamento europeo de resiliencia operativa digital para el sector financiero |
 
 ---
 
@@ -79,6 +87,8 @@
 | **Evasion** | Técnica para evadir controles de seguridad (WAF, antivirus, IDS) |
 | **ELK** | Elasticsearch, Logstash, Kibana. Stack para búsqueda, logs y visualización |
 | **Escrow** | Depósito en custodia. En software: código fuente bajo tercero hasta cumplir condiciones |
+| **ENS** | Esquema Nacional de Seguridad. Normativa española de seguridad para el sector público y sus proveedores; ~80 % de controles comunes con ISO 27001 |
+| **EXIF** | Metadatos incrustados en imágenes (cámara, fecha, a veces GPS); se extraen con exiftool |
 
 ---
 
@@ -92,6 +102,7 @@
 | **Footprinting** | Recopilación inicial de información sobre un objetivo |
 | **Foothold** | Punto de acceso establecido en un sistema tras una explotación |
 | **Fail2ban** | Herramienta que bloquea IPs que muestran patrones de ataque |
+| **Fingerprinting** | Huella tecnológica: identificación de tecnologías y versiones (Wappalyzer/WhatWeb o por mensajes de error) |
 
 ---
 
@@ -105,6 +116,9 @@
 | **GCP** | Google Cloud Platform. Plataforma en la nube de Google |
 | **GitOps** | Modelo de operaciones donde Git es la fuente de verdad para infraestructura |
 | **Gherkin** | Lenguaje de especificación para tests de aceptación (Given/When/Then) |
+| **Grafo de conocimiento** | Knowledge graph: nodos y aristas con significado explícito (Neo4j, ontologías); razona por lógica simbólica y NO es una red neuronal |
+| **GTFOBins** | Catálogo de binarios Unix legítimos que pueden abusarse para escalar privilegios o evadir restricciones |
+| **GoPhish** | Framework de campañas de phishing (plantillas, envío, captura de credenciales) para red team/concienciación |
 
 ---
 
@@ -115,12 +129,13 @@
 | **HSTS** | HTTP Strict Transport Security. Fuerza al navegador a usar HTTPS |
 | **Honeypot** | Sistema señuelo para atraer y detectar atacantes |
 | **Hashing** | Transformación unidireccional de datos (SHA256, bcrypt, argon2) |
-| **Hashcat** | Herramienta para crackear hashes con GPU |
-| **Hashcat** | Versión GPU de john the ripper, más rápido |
+| **Hashcat** | Herramienta para crackear hashes con GPU (versión GPU de John the Ripper) |
 | **Header** | Cabecera HTTP. Metadatos de petición o respuesta |
 | **Hijacking** | Secuestro de sesiones, conexiones o procesos |
 | **Hook** | Punto de enganche en código para interceptar o modificar comportamiento |
 | **Heuristic** | Análisis basado en reglas o patrones, no en firmas exactas |
+| **HIBP** | Have I Been Pwned. Servicio que indica si un correo/credencial aparece en filtraciones de datos conocidas |
+| **HUMINT** | Human Intelligence. Variante del OSINT centrada en personas: perfil social para personalizar el ataque |
 
 ---
 
@@ -136,7 +151,11 @@
 | **IV** | Initialization Vector. Valor aleatorio usado en cifrado simétrico |
 | **IaC** | Infrastructure as Code. Infraestructura gestionada con código versionado |
 | **Ingress** | Punto de entrada a un cluster Kubernetes |
-| **Inference** | En ML: proceso de hacer predicciones con un modelo entrenado |
+| **Inference** | En ML: proceso de hacer predicciones con un modelo entrenado (pesos fijos); distinto de entrenar |
+| **ISO/IEC 27001** | Estándar internacional para un Sistema de Gestión de la Seguridad de la Información (SGSI); 93 controles |
+| **ISO 42001** | Estándar ISO de gestión de IA; 38 controles |
+| **ISO 27002** | Norma que dice cómo implementar los controles que exige la 27001 |
+| **ISO 31000** | Norma de gestión de riesgos (análisis de riesgos) |
 
 ---
 
@@ -175,6 +194,7 @@
 | **LDAP** | Lightweight Directory Access Protocol. Protocolo para directorios |
 | **LLM** | Large Language Model. Modelo de lenguaje grande (GPT, Claude, etc.) |
 | **Listener** | Servidor que escucha conexiones entrantes (netcat, Burp) |
+| **LM hash** | LAN Manager hash. Hash heredado y muy débil de Windows antiguo (trivial de romper) |
 
 ---
 
@@ -189,8 +209,10 @@
 | **Mass Assignment** | Asignación masiva: el backend acepta campos extras del cliente |
 | **Microservice** | Arquitectura de servicios pequeños e independientes |
 | **MITRE ATT&CK** | Marco de tácticas y técnicas de ataque cibernético |
-| **ML** | Machine Learning. Aprendizaje automático |
+| **ML** | Machine Learning. Aprendizaje automático. IA es el campo general; ML aprende de datos; Deep Learning es ML con redes neuronales profundas |
 | **ModSecurity** | WAF open source para Apache/Nginx/IIS |
+| **MCP** | Model Context Protocol. Protocolo que conecta modelos de IA con herramientas y datos externos |
+| **Modelo vs Agente vs Herramienta** | El modelo (LLM) predice tokens; el agente es modelo + herramientas + objetivo en bucle; la herramienta es algo que el modelo invoca. Un chatbot NO es un agente |
 
 ---
 
@@ -204,7 +226,10 @@
 | **NFS** | Network File System. Sistema de archivos en red |
 | **Nginx** | Servidor web y proxy inverso de alto rendimiento |
 | **Nonce** | Número usado una sola vez. Previene repetición de peticiones |
-| **NTLM** | Protocolo de autenticación de Microsoft basado en hash |
+| **NTLM** | Protocolo de autenticación de Microsoft basado en hash; NTLMv2 es el reto-respuesta actual, crackeable por diccionario |
+| **NVD** | National Vulnerability Database. Base del NIST que enriquece cada CVE con CWE, CVSS y productos afectados |
+| **NIS 2** | Directiva europea (2024) de ciberseguridad para sectores esenciales; obligatoria, actualiza la NIS 1 |
+| **Neurona artificial** | Multiplica entradas por pesos, suma, añade sesgo y aplica una función de activación; analogía de la biológica, no equivalente |
 
 ---
 
@@ -218,6 +243,7 @@
 | **OOB** | Out-of-Band. Comunicación por canal auxiliar (para ciegos) |
 | **Obfuscation** | Técnica para hacer código difícil de leer/analizar |
 | **Origin Server** | Servidor de origen al que llega la petición original |
+| **Ontología** | Traducción a lenguaje natural del sentido de una relación entre dos nodos de un grafo de conocimiento |
 
 ---
 
@@ -233,6 +259,11 @@
 | **Proxychains** | Herramienta que fuerza tráfico a pasar por proxies SOCKS/HTTP |
 | **Phishing** | Ingeniería social para robar credenciales |
 | **PHPSESSID** | Cookie de sesión de PHP |
+| **Polyglot** | Cadena interpretable por varios motores a la vez; en SSTI fuerza un error que identifica el motor |
+| **Prompt** | Instrucción/entrada a un modelo de IA; distinguir prompt de usuario y de sistema |
+| **PATH** | Variable de entorno con los directorios donde el shell busca los ejecutables (se recorre de izquierda a derecha → PATH Hijacking) |
+| **PCI DSS** | Payment Card Industry Data Security Standard. Estándar de seguridad para el tratamiento de datos de tarjetas de pago |
+| **Purple Team** | combinación/coordinación de Red Team (ofensiva) y Blue Team (defensa) |
 
 ---
 
@@ -259,6 +290,10 @@
 | **Regex** | Expresión regular. Patrón para búsqueda/manipulación de texto |
 | **RDP** | Remote Desktop Protocol. Protocolo de escritorio remoto de Microsoft |
 | **Recon** | Reconocimiento. Fase inicial de un pentest |
+| **RFI** | Remote File Inclusion. Variante de LFI en la que el fichero se carga desde una URL remota controlada por el atacante |
+| **RAG** | Retrieval-Augmented Generation. Inyecta documentos en el contexto en inferencia (no cambia pesos); el fine-tuning reentrena y sí ajusta pesos |
+| **Responder** | Herramienta que envenena LLMNR/NBT-NS/mDNS y captura hashes NTLMv2 en la red local |
+| **RGPD / GDPR** | Reglamento General de Protección de Datos. Normativa europea de protección de datos personales |
 
 ---
 
@@ -276,6 +311,12 @@
 | **Sandbox** | Entorno aislado para ejecutar código sospechoso |
 | **Subdomain** | Subdominio. Parte del dominio principal |
 | **Subnet** | Subred. División de una red IP |
+| **SGSI** | Sistema de Gestión de la Seguridad de la Información. Marco de políticas y controles de la ISO 27001 |
+| **SUID** | Set User ID. Bit que ejecuta un binario con los privilegios de su propietario; vector clásico de escalada (`find / -perm -4000`) |
+| **SGID** | Set Group ID. Como SUID pero con los permisos del grupo propietario |
+| **Shodan** | Buscador de dispositivos conectados a Internet (servidores, cámaras, IoT) y sus servicios/vulnerabilidades |
+| **Sniffer** | Herramienta que captura y analiza el tráfico de red (p. ej. Wireshark) |
+| **Sobreajuste** | Overfitting. El modelo memoriza el entrenamiento y falla con datos nuevos |
 
 ---
 
@@ -290,6 +331,11 @@
 | **TLS** | Transport Layer Security. Protocolo de cifrado en transporte |
 | **Tabnabbing** | Ataque que cambia el contenido de una pestaña inactiva |
 | **Threat Model** | Modelo de amenazas. Identificación y evaluación de riesgos |
+| **TTL** | Time To Live. Saltos que puede dar un paquete antes de descartarse; 64≈Linux, 128≈Windows → estimar SO con ping |
+| **Token (LLM)** | Unidad mínima en que el modelo trocea el texto; se factura y razona por tokens. La ventana de contexto NO es memoria permanente |
+| **Tríada CIA** | Confidentiality, Integrity, Availability. Los tres pilares de la seguridad; base del impacto en CVSS |
+| **Transformer** | Arquitectura de IA basada en atención; el LLM predice el siguiente token para generar texto |
+| **TIBER-EU** | Threat Intelligence-Based Ethical Red Teaming. Marco europeo de ejercicios de Red Team basados en inteligencia de amenazas (banca/seguros) |
 
 ---
 
@@ -301,6 +347,7 @@
 | **URL Encoding** | Codificación de caracteres especiales en una URL |
 | **UDP** | User Datagram Protocol. Protocolo de transporte sin conexión |
 | **Upstream Server** | Servidor al que se reenvía la petición (proxy → upstream) |
+| **Vibe coding** | Programar describiendo la intención en lenguaje natural y dejando que la IA genere el código |
 
 ---
 
@@ -327,6 +374,8 @@
 | **Webshell** | Script malicioso subido a un servidor web |
 | **WPSec** | WordPress Security. Auditoría de WordPress |
 | **WiFi Pineapple** | Dispositivo de auditoría WiFi |
+| **WinRM** | Windows Remote Management (5985/5986); evil-winrm da una shell PowerShell con credenciales válidas |
+| **www-data** | Cuenta de servicio con la que corre Apache en Linux; usuario limitado tras un RCE web, punto de partida para escalar |
 
 ---
 
@@ -337,7 +386,6 @@
 | **XSS** | Cross-Site Scripting. Inyección de scripts en el navegador |
 | **XXE** | XML External Entity. Entidades externas en XML para SSRF/lectura de archivos |
 | **XML** | Extensible Markup Language. Formato de datos estructurado |
-| **XSS** | Inyección de código en el navegador del usuario |
 
 ---
 
@@ -353,9 +401,14 @@
 
 | Término | Definición |
 |---------|-----------|
-| **Zero-Day** | Vulnerabilidad desconocida para el vendor, sin parche disponible |
 | **Zero Trust** | Modelo de seguridad que no confía en ningún usuario o dispositivo por defecto |
 | **Zombie** | Máquina comprometida controlada por un atacante (botnet) |
+| **Zero-Day** | Vulnerabilidad desconocida para el vendor, sin parche disponible |
+
+> [!important] Términos de IA añadidos (bloque IA del máster)
+> **Embedding**: representación numérica (vector) de un texto/entidad; lo parecido queda cerca en el espacio vectorial. **Fine-tuning**: reentrenar el modelo ajustando pesos (a diferencia de RAG). **Human in the loop / XAI**: supervisión humana obligatoria en el ciclo; IA explicable — no basta con acertar, hay que saber por qué. **Envenenamiento de datos**: inyectar datos falsos en el dataset para que el modelo aprenda mal. **Correlación espuria**: el modelo acierta por un patrón equivocado. **Colapso del modelo**: degradación por entrenar recursivamente con contenido generado por modelos. **Anonimización vs. seudonimización**: anonimizar hace el dato irreversiblemente no reidentificable (fuera del RGPD); seudonimizar lo codifica de forma reversible (sigue siendo dato personal).
+
+
 
 
 
@@ -369,30 +422,15 @@
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — Burp Suite, Command Injection / RCE, WiFi / Hardware
-- [[../../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Command Injection / RCE, WiFi / Hardware, WordPress
-- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Blue Team / SOC, Burp Suite, Command Injection / RCE
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase35.md|resumen_master_clase35]] — Burp Suite, Command Injection / RCE, WordPress
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Command Injection / RCE, WiFi / Hardware, WordPress
-- [[../../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Command Injection / RCE, WiFi / Hardware, WordPress
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, XXE
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, Seguridad, Windows
+- [[../../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Seguridad, Windows, XXE
+- [[../../apuntes Joselu/PREWORK/PREWORK.md|PREWORK]] — File Upload, Seguridad, Windows
+- [[../../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — File Upload, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/JavaScript/seguridad_javascript.md|seguridad_javascript]] — Programacion: DevOps, Seguridad, Testing
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: DevOps, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #command-injection #csrf #escalada-privilegios #file-upload #hydra #ia #idor #john #lfi #linux #metasploit #netcat #nmap #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #wifi #windows #wordpress #xss #xxe
+> #arquitectura #blue_team #burpsuite #cli #cloud_base #command_injection #crypto #csrf #database #devops #escalada_privilegios #file_upload #git #hydra #ia_ml #idor #javascript #john_hashcat #kubernetes #lfi #linux #linux_ciber #metasploit #netcat #nmap #osint #pentest #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssrf #ssti #testing #web #wifi #windows_ciber #wordpress #xss #xxe

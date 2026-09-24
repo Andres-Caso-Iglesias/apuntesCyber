@@ -218,27 +218,23 @@ Cambios de nivel y conceptos nuevos consolidados en esta sesión (copiable a la 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Open Redirect, Redes
-- [[Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Hack The Box, Redes, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — Hack The Box, Redes, SSH
-- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Open Redirect, Redes
-- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Hack The Box, Redes, SSH
-- [[../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
+- [[Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Funcional, Hack The Box, Open Redirect
+- [[../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Funcional, Open Redirect, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Funcional, Open Redirect, Seguridad
+- [[../Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal - 6 Casos y Bypasses]] — Desarrollo Web, SSTI, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase53.md|resumen_master_clase53]] — Desarrollo Web, Metodologia Pentest, Open Redirect
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/SSH|SSH]]
+- [[../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Funcional, Seguridad
+- [[../../programacion/Angular/routing_angular.md|routing_angular]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #burpsuite #certificaciones #hack-the-box #ia #open-redirect #pentest #redes #ssh #ssrf #ssti
+> #burpsuite #certificaciones #database #funcional #hack_the_box #open_redirect #pentest #redes #redes_ciber #seguridad #ssh_tool #ssrf #ssti #web

@@ -179,32 +179,23 @@ La próxima sesión abre el módulo de **SQL Injection**, el más extenso del bl
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Empleabilidad, Metasploit, SQL Injection
-- [[../../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Metasploit, Post-Explotación, SQL Injection
-- [[../../Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE - XML External Entity]] — Command Injection / RCE, Metasploit, Post-Explotación
-- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Metasploit, Post-Explotación, SQL Injection
-- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Empleabilidad, Metasploit, SQL Injection
-- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Empleabilidad, Metasploit, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Desarrollo Web, Netcat / Reverse Shells, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../programacion/XML/xquery_basex.md|xquery_basex]] — Programacion: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #command-injection #empleabilidad #ia #lfi #metasploit #netcat #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xxe
+> #burpsuite #cli #command_injection #empleabilidad #ia_ml #java #javascript #lfi #metasploit #netcat #post_explotacion #python #redes #sql #sqli #ssrf #ssti #web #xxe

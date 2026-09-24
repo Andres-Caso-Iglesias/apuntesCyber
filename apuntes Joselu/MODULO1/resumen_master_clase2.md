@@ -199,22 +199,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[resumen_master_clase4.md|resumen_master_clase4]] — Escalada de Privilegios, Metasploit, Normativa / GRC
-- [[../../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Blue Team / SOC, Metodologia Pentest, Netcat / Reverse Shells
+- [[resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Kali Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Metodologia Pentest, Netcat / Reverse Shells, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Arquitectura, Linux, Seguridad
+- [[../../../programacion/Linux/fundamentos_linux.md|fundamentos_linux]] — Programacion: Linux, Redes, Seguridad
 
-> #blue-team #escalada-privilegios #forense #ia #kali #linux #metasploit #netcat #normativa #pentest #pivoting #redes #reverse-shell #windows
+> #arquitectura #blue_team #cli #cloud_base #escalada_privilegios #forense #go #ia_ml #kali #linux #linux_ciber #metasploit #netcat #normativa #pentest #pivoting #redes #reverse_shell #seguridad #windows_ciber

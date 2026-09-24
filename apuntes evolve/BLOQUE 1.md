@@ -171,26 +171,23 @@ El sector afronta una escasez global de profesionales.
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Forense Digital, Metodología Pentest, Post-Explotación
-- [[../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Empleabilidad, Forense Digital, Metodología Pentest
-- [[../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Empleabilidad, Post-Explotación, SQL Injection
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Empleabilidad, Normativa / GRC, Redes
-- [[../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Empleabilidad, Redes, SQL Injection
-- [[../README.md|README]] — Empleabilidad, Forense Digital, Metodología Pentest
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../Curiosidades Septiembre 2026.md|Curiosidades Septiembre 2026]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../apuntes Joselu/MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Blue Team / SOC, Redes, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
+- [[../../programacion/PLSQL/seguridad_plsql.md|seguridad_plsql]] — Programacion: Criptografia, SQL, Seguridad
+- [[../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #blue-team #burpsuite #certificaciones #empleabilidad #forense #normativa #pentest #post-explotacion #redes #sqli #wifi #windows #xss
+> #blue_team #burpsuite #certificaciones #cloud_base #crypto #empleabilidad #forense #normativa #pentest #post_explotacion #redes #seguridad #sql #sqli #web #wifi #windows_ciber #xss

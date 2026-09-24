@@ -159,24 +159,23 @@ curl -s 'https://crt.sh/?q=empresa.com&output=json' | head # certs TLS
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[BLOQUE 15.md|BLOQUE 15]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
-- [[../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Metasploit, Post-Explotación
-- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, SSH
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Pivoting / Movilidad Lateral, SSH
-- [[BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
+- [[../informes/Informr_legacy.md|Informr_legacy]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[BLOQUE 15.md|BLOQUE 15]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../apuntes Joselu/PREWORK/resumen_clase14.md|resumen_clase14]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Blue Team / SOC, Desarrollo Web, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Criptografia, Desarrollo Web, Seguridad
+- [[../../redes/curl_wget.md|curl_wget]] — Redes: Criptografia, Desarrollo Web, Seguridad
 
-> #blue-team #escalada-privilegios #google-dorks #metasploit #nmap #osint #pentest #pivoting #post-explotacion #redes #ssh
+> #blue_team #cli #crypto #escalada_privilegios #google_dorks #metasploit #nmap #osint #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #web #windows_ciber

@@ -352,6 +352,147 @@ def agente_auditoria(url):
 
 ---
 
+## 10bis. Fundamentos que hay que tener claros
+
+### IA · Machine Learning · Deep Learning
+
+| Campo | Qué es |
+|-------|--------|
+| **IA** | Campo general de sistemas que toman decisiones |
+| **Machine Learning** | Subconjunto que aprende de datos en lugar de reglas escritas |
+| **Deep Learning** | Subconjunto del ML que usa redes neuronales de muchas capas |
+
+Los LLM son deep learning.
+
+### Entrenamiento vs. inferencia
+
+| Entrenamiento | Inferencia |
+|--------------|-----------|
+| Ajusta los pesos con un dataset | Los pesos ya están fijos |
+| Backprop + descenso del gradiente | Solo cálculo hacia delante (forward) |
+| Caro y lento; lo hacen grandes empresas | Lo que ocurre cada vez que consultas el modelo |
+
+> [!important] Crear agentes ≠ entrenar un modelo
+> Usar un LLM preentrenado (Claude, GPT) y darle instrucciones/skills/agentes **no es entrenar**. Entrenar = reajustar pesos con tus propios datos (fine-tuning o red nueva). Casi todo lo que se construye con LLMs es inferencia.
+
+### Tipos de aprendizaje
+
+| Tipo | Cómo aprende | Ejemplo |
+|------|-------------|---------|
+| **Supervisado** | Datos **etiquetados** (entrada → salida correcta) | Clasificar spam con correos ya marcados |
+| **No supervisado** | Sin etiquetas; encuentra estructura por sí solo | Clustering de tráfico anómalo |
+| **Por refuerzo** | Agente actúa → recibe recompensa/castigo → ajusta | Agente que aprende a jugar |
+
+> [!warning] REFUERZO ≠ A/B TESTING
+> El aprendizaje por refuerzo ajusta comportamiento maximizando una recompensa. El **A/B testing** es comparar dos variantes (web, mensaje) con usuarios reales: es una técnica de marketing/experimentación, **no** de entrenamiento de modelos.
+
+### Tres niveles de uso de la IA
+
+| Nivel | Qué es | Qué puede | Su límite |
+|-------|--------|----------|----------|
+| **IA de navegador** | Chat web (claude.ai, ChatGPT) | Responder, sintetizar, redactar, generar scripts sueltos | **No ejecuta ni comprueba** lo que produce; sin acceso al sistema |
+| **Aplicación de escritorio** | Cliente instalado | Trabajar con ficheros y programas locales | Intermedio: más que el navegador, menos control que la terminal |
+| **IA especializada** (agente de terminal) | Interfaz CLI con acceso a herramientas del equipo | Crear proyectos completos, ejecutar, probar, corregir e iterar | Requiere criterio de arquitectura y control de permisos |
+
+> [!info] EL BUCLE DE VERIFICACIÓN
+> La diferencia entre chat y agente **no es que uno sea más listo**: es que el agente puede **cerrar el bucle** — ejecuta, observa el error real, corrige y vuelve a probar. Sin ese bucle, el modelo solo predice código *plausible*.
+
+### Enrutado de modelos (model routing)
+
+**Elegir el modelo más óptimo para cada tarea, no el más potente por defecto.**
+
+- Para clasificar, extraer datos o resumir texto corto: modelo pequeño y rápido (coste y latencia menores)
+- Para planificar, investigar o refactorizar complejo: modelo potente
+- Diferencia de precio de entrada entre el más caro y el más económico: **hasta 10x**
+
+Analogía: encender una bombilla con un reactor nuclear. Funciona, pero es un desperdicio.
+
+### Temperatura
+
+Parámetro que regula la **aleatoriedad** al elegir el siguiente token:
+
+| Temperatura | Efecto |
+|------------|--------|
+| **Baja** | Respuestas más deterministas y repetibles |
+| **Alta** | Más variadas, pero más propensas a divagar |
+
+No es un dial de "creatividad" ni de "inteligencia".
+
+### Grafo de conocimiento ≠ red neuronal
+
+| | Grafo de conocimiento | Red neuronal |
+|--|----------------------|--------------|
+| **Estructura** | Nodos + aristas con **significado explícito** legible | Capas de unidades conectadas por **pesos numéricos** |
+| **Razonamiento** | Lógica simbólica y consultas | Backprop + descenso del gradiente sobre un dataset |
+| **Ejemplo** | Neo4j, ontologías, Obsidian | PyTorch, TensorFlow, el propio LLM |
+
+Pedirle a un modelo que construya nodos y ontologías produce un **grafo** excelente, pero eso **no es entrenar una red neuronal**.
+
+### Adulación (sycophancy)
+
+Tendencia a priorizar la **conformidad del usuario** sobre la exactitud. Se origina en el entrenamiento con retroalimentación humana (las respuestas que agradan puntúan mejor).
+
+- Está **mitigada, no eliminada** en modelos recientes
+- Cambiar de opinión con datos nuevos es razonable; ceder ante la simple insistencia, no
+- **Consecuencia práctica:** no uses la conformidad del modelo como confirmación de que tienes razón
+
+### Alucinación vs. no lo sé
+
+Una alucinación es una afirmación **plausible y bien redactada pero falsa**. Los modelos modernos a veces prefieren admitir "no lo sé" antes que inventar — ese es el hábito correcto. Si un modelo da cifras concretas (precios, fechas, CVEs) sin consultar una fuente, **verifícalas**.
+
+### Técnica de prompting: pedir preguntas antes del entregable
+
+```
+"Hazme tantas preguntas como consideres necesarias para definir
+correctamente los requisitos, propón mejoras para crear algo mejor
+que lo que te propongo, y el resultado debe ser [entregable]."
+```
+
+Reduce la **ambigüedad**, principal causa de que el resultado no se parezca a lo que querías.
+
+---
+
+## 10ter. Seguridad de agentes de IA
+
+Una arquitectura de agentes es una **superficie de ataque**: si un agente con acceso a shell, ficheros y red lee contenido no confiable (repo, fichero descargado, web), ese contenido puede contener instrucciones dirigidas al modelo → **prompt injection** (equivalente clásico a SQLi/XSS: datos interpretados como instrucciones).
+
+### Privilege mínimo aplicado a agentes
+
+| Regla | Detalle |
+|-------|---------|
+| **Tools mínimas** | Solo las herramientas necesarias para el rol; si necesita otra, que la pida y se autorice |
+| **Revisar lo que lee** | Desconfianza ante todo contenido externo |
+| **Zero trust** | Mismos principios que una arquitectura de red segura |
+
+> [!danger] --dangerously-skip-permissions
+> Desactiva **todas** las pausas de aprobación. La documentación oficial es explícita: **no ofrece ninguna protección** frente a prompt injection ni acciones no deseadas. Riesgos: borrado irreversibles de ficheros, ejecución de comandos dañinos, acceso a credenciales (`.env`, claves SSH, tokens) y exfiltración de datos.
+>
+> Está pensado **solo para entornos desechables y aislados** (contenedor/VM, sin credenciales de producción) — nunca para el portátil de trabajo. De hecho, no puede usarse con root/sudo.
+>
+> **Alternativas seguras:** auto mode (clasificadores aprueban lo seguro), `acceptEdits` (autoaprueba ficheros, mantiene control en shell), permisos con lista blanca, modo plan. Y en cualquier caso: **commit antes de empezar** una sesión larga.
+
+### Jerarquía de instrucciones persistentes (CLAUDE.md)
+
+De menor a mayor especificidad (lo más específico **prevalece**):
+
+1. Política de la organización
+2. Instrucciones de usuario (`~/.claude/CLAUDE.md`)
+3. Instrucciones de proyecto (`./CLAUDE.md`)
+4. Instrucciones locales (`./CLAUDE.local.md`)
+
+No se sobrescriben: se **concatenan** en el contexto, y lo que se lee al final pesa más. CLAUDE.md es **contexto**, no configuración obligatoria: orienta el comportamiento, pero no lo garantiza (para bloquear acciones hacen falta hooks/permisos).
+
+### Distinción agente vs. skill vs. script
+
+| Concepto | Define |
+|----------|--------|
+| **Agente** | **Quién** hace el trabajo: personalidad, objetivo, límites, herramientas permitidas |
+| **Skill** | **Cómo** se hace un tipo de tarea (estilo, restricciones, procedimiento) |
+| **Script** | Secuencia fija de instrucciones: hace siempre lo mismo |
+| **Agente vs. chatbot** | El chatbot responde; el agente recibe un objetivo, decide pasos, usa herramientas, observa y **itera** hasta cumplirlo |
+
+---
+
 ## 11. Checklist de repaso
 
 - [ ] Entiendo cómo ML clásico detecta spam sin firmas exactas
@@ -375,21 +516,23 @@ def agente_auditoria(url):
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
-- [[../13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, Certificaciones, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, Linux, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Certificaciones, Linux, Redes
+- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, Desarrollo Web, Normativa / GRC
+- [[../../Curiosidades Septiembre 2026.md|Curiosidades Septiembre 2026]] — Blue Team / SOC, Linux, Seguridad
+- [[../../apuntes Joselu/MODULO1/resumen_master_clase4.md|resumen_master_clase4]] — Blue Team / SOC, Normativa / GRC, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Linux, Normativa / GRC, Seguridad
+- [[../../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, Normativa / GRC, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/FFUF|FFUF]]
+- [[../../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/CSS/fundamentos_css.md|fundamentos_css]] — Programacion: Arquitectura, Desarrollo Web, Seguridad
 
-> #blue-team #certificaciones #ffuf #ia #linux #normativa #redes
+> #arquitectura #blue_team #certificaciones #ffuf #ia_ml #javascript #linux #linux_ciber #normativa #redes #seguridad #sql #web

@@ -206,34 +206,23 @@ Three introduce el fuzzing de subdominios y el acceso a buckets de AWS S3 mal co
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — Command Injection / RCE, Hack The Box, Metasploitable / DVWA
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Command Injection / RCE, Hack The Box, Metasploitable / DVWA
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Command Injection / RCE, Hack The Box, Metasploitable / DVWA
-- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3.md|04.06.2026 HTB Starting Point Tier 1 Repaso y Tier 2 Responder en Profundidad y Hacking Cloud con AWS S3]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, Hydra, Metasploit
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — FFUF, Hack The Box, Kali Linux
+- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hack The Box, Kali Linux, Seguridad
+- [[Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Hack The Box, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #telnet #windows
+> #cli #cloud_base #command_injection #crypto #database #escalada_privilegios #ffuf #funcional #git #hack_the_box #hydra #john_hashcat #kali #kubernetes #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #rfi #seguridad #sql #sqli #ssh_tool #telnet #web #windows_ciber

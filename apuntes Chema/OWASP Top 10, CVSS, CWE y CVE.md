@@ -182,34 +182,23 @@ Cuatro marcos forman el lenguaje común de la seguridad de aplicaciones y encaja
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Metasploit, Post-Explotación, SQL Injection
-- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, SQL Injection
-- [[../apuntes Joselu/MODULO3/resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Post-Explotación, SQL Injection
-- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Metasploit, Post-Explotación, SQL Injection
-- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — Escalada de Privilegios, Metasploit, SQL Injection
-- [[../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — IDOR, Metasploit, SQL Injection
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Post-Explotacion, Seguridad, XXE
+- [[../apuntes Andres/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Netcat / Reverse Shells, SQL Injection, XXE
+- [[../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — SQL Injection, XSS, XXE
+- [[../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Post-Explotacion, Seguridad, XXE
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Nmap, Post-Explotacion, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../programacion/PHP/seguridad_php.md|seguridad_php]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #command-injection #escalada-privilegios #idor #lfi #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssrf #ssti #xss #xxe
+> #blue_team #burpsuite #cli #command_injection #crypto #database #escalada_privilegios #idor #java #lfi #metasploit #netcat #nmap #post_explotacion #redes #seguridad #sql #sqli #ssrf #ssti #web #xss #xxe

@@ -436,31 +436,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Feroxbuster, Linux, Wireshark
-- [[../../Apuntes/03 - Herramientas de Analisis/Nmap - Escaneo y Enumeración.md|Nmap - Escaneo y Enumeración]] — FFUF, Linux, Wireshark
-- [[../../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hack The Box, Hydra, SQL Injection
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, Hydra, Linux
-- [[../../apuntes Chema/Fuzzing Web.md|Fuzzing Web]] — FFUF, Hydra, Linux
-- [[resumen_master_clase44.md|resumen_master_clase44]] — FFUF, Hydra, Linux
+- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — GoBuster, Hack The Box, Kali Linux
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Hack The Box, Kali Linux, Seguridad
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — FFUF, Hack The Box, Kali Linux
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #feroxbuster #ffuf #gobuster #hack-the-box #hydra #ia #kali #lfi #linux #nmap #osint #pentest #redes #smb-impacket #sqli #windows #wireshark
+> #blue_team #cli #crypto #database #feroxbuster #ffuf #funcional #gobuster #hack_the_box #hydra #ia_ml #java #kali #lfi #linux #linux_ciber #nmap #osint #pentest #redes #redes_ciber #seguridad #smb_impacket #sql #sqli #ssh_tool #web #windows_ciber #wireshark

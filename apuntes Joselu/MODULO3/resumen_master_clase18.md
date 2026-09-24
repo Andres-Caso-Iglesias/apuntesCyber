@@ -161,25 +161,23 @@ La próxima sesión arranca con Metasploitable y las primeras explotac iones rea
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Linux, Wireshark
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Redes, SQL Injection, SQLMap
-- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Forense Digital, SQLMap, Wireshark
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, Linux, Redes
-- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — IA en Ciberseguridad, Redes, SQLMap
-- [[resumen_master_clase50.md|resumen_master_clase50]] — IA en Ciberseguridad, Redes, SQLMap
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Desarrollo Web, SQL Injection, Testing
+- [[resumen_master_clase50.md|resumen_master_clase50]] — SQL Injection, Seguridad, Testing
+- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Linux, Normativa / GRC, Seguridad
+- [[../MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — SQL Injection, SQLMap, Seguridad
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Normativa / GRC, SQL Injection, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/XML/xquery_basex.md|xquery_basex]] — Programacion: Desarrollo Web, SQL, Testing
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #certificaciones #forense #ia #linux #metasploitable #normativa #redes #sqli #sqlmap #wireshark
+> #certificaciones #database #forense #ia_ml #linux #linux_ciber #metasploitable #normativa #python #redes #seguridad #sql #sqli #sqlmap_tool #testing #web #wireshark

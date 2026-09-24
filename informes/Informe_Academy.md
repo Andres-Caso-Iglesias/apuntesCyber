@@ -305,33 +305,23 @@ id
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Academy-THL.md|Academy-THL]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../write-ups/Academy-THL.md|Academy-THL]] — File Upload, Kali Linux, Nmap
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Kali Linux, Netcat / Reverse Shells
+- [[../apuntes Chema/Maquinas/Nibbles_HTB.md|Nibbles_HTB]] — File Upload, Kali Linux, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Kali Linux, Nmap, Post-Explotacion
+- [[../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Kali Linux, Nmap, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #wordpress #wpscan
+> #burpsuite #cli #command_injection #dirsearch #escalada_privilegios #feroxbuster #file_upload #hydra #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #redes #redes_ciber #reverse_shell #ssh_tool #web #wordpress #wpscan

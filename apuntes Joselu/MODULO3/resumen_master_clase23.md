@@ -360,35 +360,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — Command Injection / RCE, Hack The Box, Metasploitable / DVWA
-- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[resumen_master_clase25.md|resumen_master_clase25]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase21.md|resumen_master_clase21]] — Command Injection / RCE, Metasploitable / DVWA, Path Traversal / LFI
-- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, Hydra, Metasploit
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Hack The Box, Kali Linux
+- [[resumen_master_clase25.md|resumen_master_clase25]] — FFUF, Nmap, Windows
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — FFUF, Hack The Box, Kali Linux
+- [[../../apuntes Chema/Maquinas/HackTheBox Starting Point - Tier 1.md|HackTheBox Starting Point - Tier 1]] — FFUF, Hack The Box, Kali Linux
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — FFUF, Hack The Box, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #burpsuite #command-injection #escalada-privilegios #ffuf #hack-the-box #hydra #ia #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #smb-impacket #ssh #telnet #windows
+> #burpsuite #cli #command_injection #crypto #escalada_privilegios #ffuf #git #hack_the_box #hydra #ia_ml #java #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #python #redes #redes_ciber #smb_impacket #sql #ssh_tool #telnet #web #windows_ciber

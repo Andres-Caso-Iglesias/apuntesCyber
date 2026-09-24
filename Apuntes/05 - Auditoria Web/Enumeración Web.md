@@ -96,6 +96,80 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - **No respetar el scope**: ilegal
 - **Ignorar el fingerprint**: wordlists genéricas reducen hallazgos
 - **No filtrar respuestas**: el ruido de 404 esconde lo importante
+- **No mirar el código fuente del front**: comentarios, rutas sensibles y endpoints desconocidos quedan ahí
+- **Omitir robots.txt**: dice qué NO indexar — para el pentester son los directorios más interesantes
+
+---
+
+## ⑤ Auditoría manual paso a paso (antes de las herramientas)
+
+```
+Ver código fuente → robots.txt → DirSearch/ffuf → Analizar funcionalidades → Explotar
+```
+
+| Paso | Qué buscar |
+|------|-----------|
+| **Código fuente del front** | Comentarios con rutas sensibles, referencias a APIs, endpoints olvidados |
+| **robots.txt** | Directorios ocultos (probar también en subdirectorios: `/twiki/robots.txt`) |
+| **Enumeración con diccionario** | DirSearch / ffuf / Feroxbuster — la diferencia está en el diccionario |
+| **Fingerprint (Wappalyzer)** | Tecnología detectada → elegir herramienta (WordPress → WPScan) |
+
+> [!info] robots.txt como segundo paso
+> Siempre es el segundo paso en cualquier auditoría web. Revela exactamente los directorios que el propietario quiere esconder.
+
+### Cabeceras HTTP a inspeccionar
+
+| Cabecera | Qué revela |
+|----------|-----------|
+| `Server` | Servidor web y versión |
+| `X-Powered-By` | Lenguaje/framework (PHP, ASP.NET…) |
+| `Set-Cookie` flags | `HttpOnly`, `Secure`, `SameSite` — ausencia = sesión vulnerable a robo vía XSS |
+| `Location` | Redirecciones (301/302) → rutas internas |
+| `Content-Security-Policy` | Política de seguridad del front |
+
+```bash
+curl -vI http://OBJETIVO   # verbose: muestra headers completos + redirecciones
+curl -sI http://OBJETIVO    # solo cabeceras
+```
+
+### Herramientas complementarias
+
+| Herramienta | Uso |
+|-------------|-----|
+| **Nikto** | Escáner genérico de servidor (config débil, ficheros peligrosos, versiones) |
+| **Wappalyzer** | Fingerprint visual desde el navegador |
+| **whatweb** | Fingerprint desde CLI |
+
+> [!warning] HTTP 500 como señal
+> Un 500 Internal Server Error durante la enumeración puede indicar que procesaste input de forma inesperada (posible SQLi, error de path…). No lo descartes: anota la ruta y prueba payloads.
+
+### El bucle de auditoría
+
+```
+Enviar → Observar → Comparar → Documentar → Hipótesis → Evaluar
+```
+
+> [!important] Cada respuesta se compara con la anterior
+> Sin una línea base (baseline), no puedes saber qué es anómalo. Documenta TODO aunque parezca irrelevante.
+
+### Labs de PortSwigger para practicar
+
+- **Web Cache Detection** — cómo detectar qué respuestas sirve la caché
+- **HTTP Request Smuggling** — desincronización front/back
+- **Information disclosure** — headers y respuestas que filtran datos
+
+---
+
+## ⑥ Casos de éxito típicos
+
+| Hallazgo en enumeración | Siguiente paso |
+|------------------------|----------------|
+| `backup.zip` / `backup.php` | Descargar, crackear hashes (zip2john + John) |
+| Formulario de login | Probar SQLi con comilla |
+| `/uploads` | File upload → webshell |
+| `/wp-login.php` (302) | WPScan + fuerza bruta de login |
+| Comentarios HTML con usuarios | Candidatos a spraying |
+| Versión antigua de software | Buscar CVE público |
 
 ---
 
@@ -106,6 +180,13 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 - [ ] ¿Sé enumerar subdominios con Subfinder y [[FFUF]]?
 - [ ] ¿Domino [[Feroxbuster]]/Gobuster/[[FFUF]] para directorios?
 - [ ] ¿Entiendo cómo descubrir parámetros ocultos?
+- [ ] ¿Reviso siempre código fuente y robots.txt antes de lanzar diccionarios?
+- [ ] ¿Inspecciono cabeceras (Server, Set-Cookie, Location) con curl?
+- [ ] ¿Sé cuándo un 500 es una pista y no un fallo?
+- [ ] ¿Aplico el bucle: Enviar → Observar → Comparar → Documentar?
+- [ ] ¿Conozco Nikto como escáner complementario?
+
+
 
 
 
@@ -119,22 +200,18 @@ gobuster dir -u http://OBJETIVO -w common.txt -x php,txt,bak,old
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
-- [[../../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — DirSearch, FFUF, Feroxbuster
-- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/BurpSuite.md|BurpSuite]] — FFUF, Redes, WordPress
+- [[../../apuntes Chema/Enumeración Web.md|Enumeración Web]] — DirSearch, GoBuster, WPScan
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Robots.txt, Command Injection, Nmap
+- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — DirSearch, GoBuster, WAF
+- [[../../comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — Desarrollo Web, DirSearch, GoBuster
+- [[Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../apuntes Chema/Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — GoBuster, Kali Linux, Fuzzing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Perl/fundamentos_perl.md|fundamentos_perl]] — Programacion: Criptografia, Java, Redes
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, Java, Redes
 
-> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #google-dorks #nmap #osint #pentest #redes #wordpress #wpscan
+> #burpsuite #crypto #dirsearch #feroxbuster #ffuf #gobuster #google_dorks #java #nmap #nikto #osint #pentest #redes #web #wordpress #wpscan #headers #curl

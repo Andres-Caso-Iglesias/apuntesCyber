@@ -133,17 +133,23 @@ que se te ha configurado.
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, Desarrollo Web, Normativa / GRC
+- [[../Apuntes/comandos/SQLMap.md|SQLMap]] — Desarrollo Web, Redes, SQL
+- [[../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Desarrollo Web, IA/ML, Redes
+- [[../apuntes Joselu/PREWORK/resumen_clase2.md|resumen_clase2]] — Blue Team / SOC, Desarrollo Web, Normativa / GRC
+- [[../apuntes Andres/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Desarrollo Web, Redes, SQL
 
-> #blue-team #ia #normativa #redes
+### 🌐 Cross-Dominio
+
+- [[../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, Redes, SQL
+- [[../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+
+> #blue_team #ia_ml #normativa #redes #sql #web

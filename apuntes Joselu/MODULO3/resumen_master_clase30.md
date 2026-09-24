@@ -366,32 +366,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, Escalada de Privilegios, WordPress
-- [[resumen_master_clase19.md|resumen_master_clase19]] — Command Injection / RCE, Escalada de Privilegios, WordPress
-- [[resumen_master_clase35.md|resumen_master_clase35]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Kali Linux, XXE
+- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Kali Linux, XXE
+- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — File Upload, Kali Linux, XXE
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, Kali Linux, Nmap
+- [[resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Kali Linux, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #command-injection #escalada-privilegios #esteganografia #file-upload #hydra #ia #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan #xxe
+> #cli #command_injection #escalada_privilegios #esteganografia #file_upload #git #hydra #ia_ml #java #kali #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #windows_ciber #wordpress #wpscan #xxe

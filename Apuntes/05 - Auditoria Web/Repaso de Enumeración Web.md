@@ -405,7 +405,49 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 
 ---
 
-## ⑭ Checklist de repaso
+## ⑭ WAF: detección y evitación
+
+El **WAF (Web Application Firewall)** filtra tráfico sospechoso antes de llegar al servidor. En la analogía de la discoteca, es el **portero**.
+
+### Cómo detectarlo
+
+- Cabecera `Server: cloudflare`, `X-CDN`, `X-WAF` en la respuesta
+- Respuesta **403/406** o página de bloqueo ante payloads benignos pero con caracteres especiales
+- Compañías típicas: **Cloudflare, Imperva (SecureSphere), F5 (ASM), AWS WAF, ModSecurity**
+
+### Evitación (WAF bypass)
+
+| Técnica | Ejemplo |
+|---------|---------|
+| **Case variation** | `SeLeCt` en vez de `SELECT` |
+| **Comentarios SQL** | `SE/**/LECT`, `UN/**/ION` |
+| **Encoding** | URL-encode, doble encoding (`%2527`) |
+| **Hex/Unicode** | `0x61646d696e` en vez de `'admin'` |
+| **Variantes de comillas** | `%27`, backtick, comilla larga `´` |
+| **Rotación de payloads** | Variar entre equivalentes (`AND`, `&&`, `LIKE`) |
+
+> [!warning] Evitar el rate limit del WAF
+> WAFs también cuentan peticiones. Un ataque muy rápido dispara el bloqueo aunque el payload sea evadido. Alterna payloads y añade delays.
+
+> [!info] Vendor-specific CVEs
+> Imperva y F5 ASM han tenido vulnerabilidades que permiten bypass directo. Merece la pena investigar la versión del WAF detectada.
+
+---
+
+## ⑮ Ejercicio práctico: PortSwinger (PortSwigger lab)
+
+> [!example] Laboratorio guiado
+> Aplica las técnicas de esta sesión en un entorno seguro y legal de PortSwigger Academy.
+
+**Pasos típicos:**
+1. Enumerar directorios con ffuf/gobuster
+2. Identificar parámetros ocultos
+3. Probar inyecciones (SQLi, XSS) con payloads
+4. Documentar hallazgos siguiendo el bucle: Enviar → Observar → Comparar → Documentar
+
+---
+
+## ⑯ Checklist de repaso
 
 - [ ] Sé identificar protocolo, dominio, directorio, parámetro y variable en una URL
 - [ ] Explico qué es un endpoint y por qué es la clave de rate limit/spraying
@@ -417,11 +459,13 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 - [ ] Sé leer las señales del recon web (buscador→SQLi, uploads→webshell, etc.)
 - [ ] Reproduzco la cadena de Bashed: phpbash → www-data → scriptmanager → root
 - [ ] Sé transferir ficheros con http.server + wget y montar reverse shells con nc
+- [ ] Detecto un WAF por cabeceras y sé aplicar técnicas de bypass básicas
+- [ ] Resuelvo un laboratorio de PortSwigger aplicando el bucle de auditoría
 
 
 ---
 
-## ⑮ Actualización del registro de herramientas
+## ⑰ Actualización del registro de herramientas
 
 ### Herramientas nuevas incorporadas
 
@@ -446,39 +490,23 @@ La sesión fija los cimientos de la **enumeración web**: leer una URL como quie
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Feroxbuster, Hack The Box, WordPress
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, Hack The Box, WordPress
-- [[../../transcripciones/Julio/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Command Injection / RCE, Hack The Box, WordPress
-- [[../../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Feroxbuster, Hack The Box, WordPress
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — GoBuster, Hack The Box, XXE
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — GoBuster, Hack The Box, Seguridad
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — FFUF, GoBuster, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — FFUF, GoBuster, XXE
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hack-the-box #hydra #linux #metasploit #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #smb-impacket #sqli #ssrf #windows #wordpress #wpscan #xss #xxe
+> #blue_team #burpsuite #cli #cloud_base #command_injection #database #dirsearch #escalada_privilegios #feroxbuster #ffuf #file_upload #git #gobuster #hack_the_box #hydra #java #linux #linux_ciber #metasploit #netcat #nmap #osint #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #smb_impacket #sql #sqli #ssrf #web #windows_ciber #wordpress #wpscan #xss #xxe

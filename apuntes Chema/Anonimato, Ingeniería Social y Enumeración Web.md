@@ -377,26 +377,23 @@ En la segunda mitad se resuelve la máquina Rockstar de HackerLabs: descubrimien
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Escalada de Privilegios, FFUF, Feroxbuster
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Feroxbuster, Linux
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Post-Explotación, SSH
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, FFUF, SSH
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Escalada de Privilegios, FFUF, Linux
-- [[../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — FFUF, Feroxbuster, Linux
+- [[../apuntes Andres/06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros, Ingeniería Social y Anonimato]] — GoBuster, Kali Linux, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase42.md|resumen_master_clase42]] — FFUF, GoBuster, Kali Linux
+- [[../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Kali Linux, Seguridad, Windows
+- [[Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Kali Linux, Seguridad
+- [[OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Kali Linux, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/C++/fundamentos_cpp.md|fundamentos_cpp]] — Programacion: Funcional, Rust, Seguridad
+- [[../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Rust, Seguridad
 
-> #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #kali #linux #nmap #pentest #post-explotacion #redes #ssh #windows
+> #arquitectura #cloud_base #crypto #dirsearch #docker #escalada_privilegios #feroxbuster #ffuf #funcional #gobuster #kali #kubernetes #linux #linux_ciber #nmap #pentest #post_explotacion #python #redes #redes_ciber #rust #seguridad #sql #sqli #ssh_tool #web #windows_ciber

@@ -106,6 +106,23 @@ chmod 777 <file>                 # Total (inseguro)
 chown user:group <file>          # Cambiar propietario
 ```
 
+## Historial y entorno
+
+```bash
+history                          # Historial de comandos
+history | grep nmap              # Buscar en historial
+history -c                       # Limpiar historial
+alias ll='ls -la'                # Atajo
+export PATH=$PATH:/nueva         # Añadir ruta al PATH
+echo $PATH                       # Ver rutas
+file <file>                      # Tipo real (magic bytes)
+which <cmd>                      # Ruta del ejecutable
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz  # Descomprimir wordlist
+tail -f /var/log/auth.log        # Monitorizar logs en vivo
+```
+
+
+
 
 
 
@@ -118,17 +135,15 @@ chown user:group <file>          # Cambiar propietario
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
-- [[Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
-- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Hydra, Linux
-- [[../../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
-- [[SSH.md|SSH]] — Escalada de Privilegios, Hydra, Linux
-- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
+- [[SSH.md|SSH]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[Hydra.md|Hydra]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Redes
+- [[../../../cloud/azure_functions.md|azure_functions]] — Cloud: Desarrollo Web, Linux, Redes
 
-> #escalada-privilegios #hydra #linux #pentest #redes #ssh #tmux #windows
+> #cloud_base #escalada_privilegios #hydra #linux #linux_ciber #pentest #redes #ssh_tool #tmux #web #windows_ciber

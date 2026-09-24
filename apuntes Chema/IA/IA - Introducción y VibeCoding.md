@@ -356,22 +356,23 @@ Anthropic — investigación de interpretabilidad (dictionary learning, features
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, Post-Explotación, SSH
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Hydra, Linux, SSH
-- [[../../comandos/SSH.md|SSH]] — Hydra, Post-Explotación, SSH
-- [[../../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, Post-Explotación, SSH
-- [[../../Apuntes/comandos/Linux.md|Linux]] — Hydra, Linux, SSH
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Funcional, Rust, Testing
+- [[IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Funcional, Rust, Testing
+- [[IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Funcional, Rust, Testing
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Funcional, Rust, Testing
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Funcional, IA/ML, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Funcional, Rust, Testing
+- [[../../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-> #hydra #ia #linux #normativa #pentest #post-explotacion #redes #ssh #windows
+> #arquitectura #cli #devops #docker #funcional #git #hydra #ia_ml #linux #linux_ciber #normativa #pentest #post_explotacion #python #redes #rust #seguridad #ssh_tool #testing #web

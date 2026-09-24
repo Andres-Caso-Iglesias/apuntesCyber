@@ -246,36 +246,23 @@ Término en la transcripción Corrección / Aclaración InPacket Impacket “ co
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[PREWORK.md|PREWORK]] — Burp Suite, WiFi / Hardware, WordPress
-- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Burp Suite, WiFi / Hardware, WordPress
-- [[../MODULO3/resumen_master_clase24.md|resumen_master_clase24]] — Burp Suite, OSINT, WordPress
-- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Burp Suite, WiFi / Hardware, WordPress
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Burp Suite, OSINT, WordPress
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Forense Digital, WordPress
+- [[PREWORK.md|PREWORK]] — GoBuster, Kali Linux, Windows
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — GoBuster, Kali Linux, Windows
+- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Kali Linux, Windows
+- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — File Upload, Kali Linux, Nmap
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, Kali Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Funcional, Rust
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #certificaciones #dirsearch #empleabilidad #esteganografia #file-upload #forense #gobuster #hydra #ia #john #kali #linux #metasploit #netcat #nmap #osint #pivoting #post-explotacion #redes #reverse-shell #smb-impacket #sqli #sqlmap #ssh #wifi #windows #wireshark #wordpress #wpscan
+> #burpsuite #certificaciones #cli #crypto #dirsearch #empleabilidad #esteganografia #file_upload #forense #funcional #git #gobuster #hydra #ia_ml #john_hashcat #kali #linux #linux_ciber #metasploit #netcat #nmap #osint #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #rust #smb_impacket #sql #sqli #sqlmap_tool #ssh_tool #web #wifi #windows_ciber #wireshark #wordpress #wpscan

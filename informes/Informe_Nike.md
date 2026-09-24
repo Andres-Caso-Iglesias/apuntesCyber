@@ -547,29 +547,23 @@ find / -perm -u=s 2>/dev/null
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Linux, Metasploit
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Hack The Box, Linux, Metasploit
-- [[../write-ups/Nike-THL.md|Nike-THL]] — Metasploit, Netcat / Reverse Shells, SSH
-- [[../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Netcat / Reverse Shells, SQL Injection
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Netcat / Reverse Shells, SQL Injection
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Kali Linux, Netcat / Reverse Shells
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Netcat / Reverse Shells, SQL Injection
+- [[../write-ups/Nike-THL.md|Nike-THL]] — Funcional, Netcat / Reverse Shells, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Linux
+- [[../../programacion/TypeScript/seguridad_typescript.md|seguridad_typescript]] — Programacion: Desarrollo Web, Funcional, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #sqli #ssh #windows #xxe
+> #cli #cloud_base #funcional #hack_the_box #java #kali #linux #linux_ciber #metasploit #netcat #nmap #python #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #windows_ciber #xxe

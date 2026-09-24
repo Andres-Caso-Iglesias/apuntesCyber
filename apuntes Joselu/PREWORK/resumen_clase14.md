@@ -130,25 +130,23 @@ Término en la transcripción Corrección / Aclaración cherry tree CherryTree �
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase4.md|resumen_clase4]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes Andres/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Escalada de Privilegios, IDOR, Linux
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Metodología Pentest, Post-Explotación, Redes
-- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[resumen_clase4.md|resumen_clase4]] — Metodologia Pentest, Seguridad, Testing
+- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — Kali Linux, Post-Explotacion, Seguridad
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Blue Team / SOC, Metodologia Pentest, Testing
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[resumen_clase16.md|resumen_clase16]] — Blue Team / SOC, Metodologia Pentest, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #blue-team #escalada-privilegios #google-dorks #ia #idor #kali #linux #nmap #osint #pentest #post-explotacion #redes #windows
+> #blue_team #cli #cloud_base #crypto #database #escalada_privilegios #go #google_dorks #ia_ml #idor #kali #linux #linux_ciber #nmap #osint #pentest #post_explotacion #redes #redes_ciber #seguridad #sql #testing #web

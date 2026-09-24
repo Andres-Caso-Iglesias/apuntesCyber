@@ -44,6 +44,22 @@ aircrack-ng -w /usr/share/wordlists/rockyou.txt captura-01.cap
 
 > **Tip:** Si el handshake no se captura bien, intenta con menos deauths (-0 3) o espera a que un cliente se conecte naturalmente.
 
+### Panorama de cifrado y marco de pruebas
+
+| Protocolo | Estado | Observaciones |
+|-----------|--------|---------------|
+| **WEP** | Obsoleto y roto | Se rompe en ~15 minutos con ataque de diccionario |
+| **WPA** | Débil | Mejor que WEP pero vulnerable |
+| **WPA2-PSK** | Estándar doméstico | Seguro si la contraseña es robusta; vulnerable a KRACK |
+| **WPA2-Enterprise** | Estándar corporativo | Autenticación con credenciales corporativas contra servidor RADIUS + Kerberos (Active Directory) |
+| **WPA3** | Más seguro | Incluso con WPS activo, WPA3 puede ser vulnerable |
+
+> **Regla práctica:** WPS activo invalida cualquier nivel de cifrado y es un vector de ataque inmediato.
+
+El **OWASP Wi-Fi Testing Guide** es el análogo del OWASP Top 10 para redes inalámbricas: define las pruebas mínimas e indispensables que deben realizarse sobre cualquier infraestructura Wi-Fi.
+
+**KRACK (Key Reinstallation Attack):** ataque al protocolo WPA2 que explota el proceso del four-way handshake. Solo es viable bajo configuraciones muy específicas; no es una vulnerabilidad generalizada del protocolo.
+
 ---
 
 ## 2. WPA/WPA2-Enterprise (EAP): playbook completo
@@ -141,6 +157,20 @@ hashcat -m 5500 hash.txt -a 3 ?l?l?l?l?l?l?d?d --force
 | **802.1X** | Autenticación por puerto en switches corporativos |
 | **Monitorización** | WIDS/WIPS para detectar APs rouges y deauths anómalos |
 
+### Inseguridad por diseño, alcance y detección de rogues
+
+Toda comunicación inalámbrica es **insegura por definición**: cualquier señal que viaje por ondas puede ser interceptarse — el cifrado puede romperse, solo es cuestión de tiempo y recursos. Además, las auditorías WiFi **no se pueden realizar de forma remota**: el alcance de las redes inalámbricas es de 50 a 200 metros, lo que obliga al auditor a desplazarse físicamente a las instalaciones del cliente.
+
+Para identificar dispositivos no autorizados y rogue access points se usa **Kismet** (detección de redes y dispositivos inalámbricos), junto con verificaciones de MAC para detectar si dispositivos legítimos se han conectado a una red que suplanta la corporativa.
+
+**Caso real:** se levantó una red con el SSID `EMT_Madrid` (red Wi-Fi de los autobuses públicos de Madrid) en la Puerta del Sol y en segundos se conectaron más de 200 dispositivos, actuando el atacante como proxy entre ellos e internet — Evil Twin + deautenticación en acción.
+
+### Certificación OSWP y hardware de auditoría
+
+**OSWP** (Offensive Security Wireless Professional), de Offensive Security, es la certificación dedicada exclusivamente a redes inalámbricas. El examen exige vulnerar **tres máquinas**: una con WEP, una con WPA2 y una con WPA2-Enterprise mediante falsificación de certificados y servidor de autenticación propio. Plataforma de práctica recomendada: **Wi-Fi Labs**, entorno virtual que simula antenas y comunicaciones inalámbricas sin necesidad de hardware real.
+
+El **WiFi Pineapple** (dispositivo de Hak5) es hardware habitual de auditoría WiFi; en clase se usó conectado vía cable a **Claude Code** para automatizar ataques.
+
 ---
 
 ## 4. Car Hacking: una línea emergente
@@ -186,22 +216,23 @@ El Car Hacking evalúa los sistemas de un vehículo conectado aplicando la misma
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, Wireshark
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Metodología Pentest
-- [[../04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Hydra, Linux
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Esteganografía, Forense Digital, Metodología Pentest
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografia, Linux, Metodologia Pentest
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografia, Linux, Metodologia Pentest
+- [[../../apuntes Chema/Redes-Tipologías, Datagramas y Paquetes de Red.md|Redes-Tipologías, Datagramas y Paquetes de Red]] — Esteganografia, Linux, Metodologia Pentest
+- [[../../comandos/Linux.md|Linux]] — Esteganografia, Linux, Metodologia Pentest
+- [[../06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografia, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../redes/wpa2_wpa3.md|wpa2_wpa3]] — Redes: Criptografia, Linux, Redes
+- [[../../../redes/snmp.md|snmp]] — Redes: Criptografia, Linux, Redes
 
-> #esteganografia #forense #hydra #linux #nmap #osint #pentest #post-explotacion #redes #wifi #wireshark
+> #crypto #esteganografia #forense #hydra #linux #linux_ciber #nmap #osint #pentest #redes #redes_ciber #wifi #wireshark

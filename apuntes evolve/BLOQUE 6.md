@@ -213,26 +213,23 @@ Pertenecer al grupo `lxd` permite crear un contenedor privilegiado que monta el 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[BLOQUE 7.md|BLOQUE 7]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../apuntes Joselu/PREWORK/resumen_clase13.md|resumen_clase13]] — Desarrollo Web, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Desarrollo Web, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../cloud/docker_compose_cloud.md|docker_compose_cloud]] — Cloud: Docker, Linux, Seguridad
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #escalada-privilegios #forense #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows #wordpress
+> #cli #command_injection #docker #escalada_privilegios #forense #linux #linux_ciber #metasploit #netcat #pentest #redes #reverse_shell #seguridad #web #windows_ciber #wordpress

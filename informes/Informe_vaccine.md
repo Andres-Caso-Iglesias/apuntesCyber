@@ -398,28 +398,23 @@ Obtenido: credenciales `postgres:P@s5w0rd!`
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, John / Hashcat, SQLMap
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, John / Hashcat, SQLMap
-- [[../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, SQL Injection, SQLMap
-- [[../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — Redes, SQL Injection, SQLMap
-- [[../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — SQL Injection, SQLMap, SSH
-- [[../comandos/SQLMap.md|SQLMap]] — Hack The Box, SQL Injection, SQLMap
+- [[../apuntes Andres/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Metodologia Pentest, SQL Injection, Testing
+- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metodologia Pentest, SQL Injection, Testing
+- [[../transcripciones/Septiembre/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Metodologia Pentest, SQL Injection, Testing
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../apuntes Joselu/MODULO2/resumen_master_clase16.md|resumen_master_clase16]] — Hack The Box, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/GraphQL/fundamentos_graphql.md|fundamentos_graphql]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/NestJS/patrones_nestjs.md|patrones_nestjs]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #hack-the-box #ia #john #nmap #pentest #post-explotacion #redes #sqli #sqlmap #ssh
+> #arquitectura #crypto #database #hack_the_box #john_hashcat #nmap #pentest #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #sqlmap_tool #ssh_tool #testing #web

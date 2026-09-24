@@ -109,29 +109,23 @@ Recapitulación integrada Al cerrar esta sesión sabemos organizar mentalmente c
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SSH, WiFi / Hardware, Wireshark
-- [[resumen_master_clase15.md|resumen_master_clase15]] — SQL Injection, SSH, Wireshark
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — SQL Injection, SSH, WiFi / Hardware
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — SSH, WiFi / Hardware, Wireshark
-- [[../../Apuntes/comandos/SQLMap.md|SQLMap]] — Redes, SQL Injection, SQLMap
-- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — SQL Injection, SQLMap, SSH
+- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Desarrollo Web, SQL Injection, XSS
+- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Desarrollo Web, SQL Injection, XSS
+- [[resumen_master_clase15.md|resumen_master_clase15]] — SQL Injection, Seguridad, XSS
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Criptografia, Nmap, Redes
+- [[../../informes/Informe_vaccine.md|Informe_vaccine]] — Desarrollo Web, SQL Injection, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/SQL/optimizacion_sql.md|optimizacion_sql]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #csrf #ia #nmap #redes #sqli #sqlmap #ssh #wifi #wireshark #xss
+> #burpsuite #crypto #csrf #ia_ml #nmap #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #web #wifi #wireshark #xss

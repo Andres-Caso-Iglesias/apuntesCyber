@@ -325,30 +325,23 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Empleabilidad, Forense Digital, Pivoting / Movilidad Lateral
-- [[resumen_master_clase20.md|resumen_master_clase20]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, Forense Digital, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Hack The Box, Metasploitable / DVWA
-- [[../../transcripciones/Septiembre/04.09.2026 OWASP API Top 10 Labs.md|04.09.2026 OWASP API Top 10 Labs]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
+- [[../../transcripciones/Mayo/22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios.md|22.05.2026 Explotación de Máquina Vulnerable II Descubrimiento de Red y Enumeración de Servicios]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Hack The Box, Kali Linux, Seguridad
+- [[resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Hack The Box, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #blue-team #burpsuite #certificaciones #empleabilidad #file-upload #forense #hack-the-box #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #pivoting #redes #reverse-shell #ssh #telnet #windows
+> #blue_team #certificaciones #cli #cloud_base #crypto #empleabilidad #file_upload #forense #funcional #hack_the_box #hydra #ia_ml #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #osint #pentest #pivoting #redes #redes_ciber #reverse_shell #seguridad #ssh_tool #telnet #testing #web #windows_ciber

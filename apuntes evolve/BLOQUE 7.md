@@ -99,24 +99,23 @@ plink.exe -ssh -L 3389:192.168.10.20:3389 usuario@pivote_IP
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../Apuntes/08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Windows
+- [[../Apuntes/comandos/Netcat.md|Netcat]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #escalada-privilegios #forense #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #windows
+> #cli #escalada_privilegios #forense #linux #linux_ciber #metasploit #netcat #nmap #pentest #pivoting #redes #redes_ciber #reverse_shell #ssh_tool #windows_ciber

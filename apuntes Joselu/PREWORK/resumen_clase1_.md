@@ -123,17 +123,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase11.md|resumen_clase11]] — Metodología Pentest, Pivoting / Movilidad Lateral, Redes
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Metodología Pentest, Redes
-- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Metodología Pentest, Redes
-- [[resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
-- [[resumen_clase3.md|resumen_clase3]] — Certificaciones, Metodología Pentest, Redes
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Metodologia Pentest, Normativa / GRC, Seguridad
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Criptografia, Metodologia Pentest, Seguridad
+- [[resumen_clase11.md|resumen_clase11]] — Hack The Box, Metodologia Pentest, Normativa / GRC
+- [[resumen_clase9.md|resumen_clase9]] — Criptografia, Normativa / GRC, Seguridad
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodologia Pentest, Seguridad, Windows
 
-> #certificaciones #hack-the-box #ia #normativa #pentest #pivoting #redes #vulnhub #windows
+### 🌐 Cross-Dominio
+
+- [[../../../cloud/cspm.md|cspm]] — Cloud: Criptografia, Kubernetes, Seguridad
+- [[../../../cloud/docker_networking.md|docker_networking]] — Cloud: Criptografia, Kubernetes, Seguridad
+
+> #certificaciones #cloud_base #crypto #hack_the_box #ia_ml #kubernetes #normativa #pentest #pivoting #redes #seguridad #vulnhub #windows_ciber

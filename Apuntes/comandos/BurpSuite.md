@@ -96,12 +96,14 @@ Gzip decompress                  # Descompresión
 
 ```python
 # Ejemplo: fuzzing de directorios
-engine = TurboIntruder	attackívate糕点
+engine = TurboIntruder.basicRequests()
 queue = RequestQueue(base_request)
 for word in open('/usr/share/wordlists/dirb/common.txt'):
     queue.add(base_request.shorten(word))
 engine.run(queue, handle_response)
 ```
+
+
 
 
 
@@ -115,24 +117,15 @@ engine.run(queue, handle_response)
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Redes, SQL Injection, SQLMap
-- [[../05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
-- [[SQLMap.md|SQLMap]] — Burp Suite, Redes, SQLMap
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase48.md|resumen_master_clase48]] — Burp Suite, Redes, SQL Injection
-- [[../../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Redes, SQL Injection, SQLMap
-- [[../05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Burp Suite, Redes, SQL Injection
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Path Traversal / LFI, SQL Injection, XSS
+- [[../05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Desarrollo Web, SQL Injection, XSS
+- [[SQLMap.md|SQLMap]] — Desarrollo Web, SQL Injection, SQLMap
+- [[../../transcripciones/Septiembre/15.09.2026 SQLi - Inyecciones - Labs - Avanzado II.md|15.09.2026 SQLi - Inyecciones - Labs - Avanzado II]] — Path Traversal / LFI, SQL Injection, XSS
+- [[../05 - Auditoria Web/XXE - XML External Entity.md|XXE - XML External Entity]] — Desarrollo Web, Path Traversal / LFI, WPScan
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../ia/mlflow.md|mlflow]] — IA: Desarrollo Web, Redes, SQL
+- [[../../../programacion/PHP/seguridad_php.md|seguridad_php]] — Programacion: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #lfi #redes #sqli #sqlmap #ssrf #wpscan #xss
+> #burpsuite #cli #lfi #redes #sql #sqli #sqlmap_tool #ssrf #ssti #web #wpscan #xss

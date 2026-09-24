@@ -47,14 +47,18 @@ site:ejemplo.com inurl:login | inurl:admin
 site:ejemplo.com intitle:"index of" "parent directory"
 ```
 
-### Errores y漏洞
+### Errores y vulnerabilidades
 
 ```
 site:ejemplo.com intext:"error"
 site:ejemplo.com intext:"warning"
 site:ejemplo.com intext:"mysql_fetch"
 site:ejemplo.com intext:"syntax error"
+site:github.com "password" "ejemplo.com"
 ```
+
+> [!tip] GHDB
+> Base de datos de dorks: `exploit-db.com/google-hacking-database`
 
 ### Directorios abiertos
 
@@ -88,21 +92,23 @@ site:ejemplo.com filetype:vcf
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Google Dorks, Metodología Pentest, Redes
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodología Pentest, OSINT, Redes
-- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Google Dorks, Metodología Pentest, Redes
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Google Dorks, Metodología Pentest, Redes
-- [[../../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Google Dorks, Metodología Pentest, Redes
+- [[../../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Desarrollo Web, Metodologia Pentest, OSINT
+- [[../05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Desarrollo Web, Metodologia Pentest, OSINT
+- [[../../comandos/Google_Dorks.md|Google_Dorks]] — Desarrollo Web, Google Dorks, Redes
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Desarrollo Web, Metodologia Pentest, OSINT
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Desarrollo Web, Metodologia Pentest, Redes
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes
+- [[../../../cloud/aws_route53.md|aws_route53]] — Cloud: Desarrollo Web, Redes
 
-> #google-dorks #osint #pentest #redes
+> #google_dorks #osint #pentest #redes #web

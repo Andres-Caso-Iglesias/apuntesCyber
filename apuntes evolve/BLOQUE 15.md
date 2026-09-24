@@ -186,28 +186,23 @@ La teoría de este máster (Bloques 2 a 10) te da la base, pero el eJPT se aprue
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Normativa / GRC, Pivoting / Movilidad Lateral, SQLMap
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Linux, SQLMap
-- [[BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
-- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Linux, SQLMap
+- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Hack The Box, Nmap, Windows
+- [[../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Hack The Box, Seguridad, Windows
+- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Hack The Box, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #certificaciones #escalada-privilegios #hack-the-box #linux #metasploit #nmap #normativa #osint #pentest #pivoting #post-explotacion #redes #sqli #sqlmap #ssh #windows
+> #blue_team #certificaciones #cli #crypto #escalada_privilegios #hack_the_box #linux #linux_ciber #metasploit #nmap #normativa #osint #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #sqlmap_tool #ssh_tool #testing #web #windows_ciber

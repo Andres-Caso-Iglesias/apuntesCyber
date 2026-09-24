@@ -127,31 +127,23 @@ Término en la transcripción Corrección / Aclaración explotación y post-expl
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Burp Suite, Hack The Box, XSS
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Blue Team / SOC, Burp Suite, Hack The Box
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Escalada de Privilegios, Metasploit, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Hack The Box, Seguridad, Windows
+- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Hack The Box, Nmap, Windows
+- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Hack The Box, Seguridad, Windows
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Nmap, Windows
+- [[../MODULO3/resumen_master_clase32.md|resumen_master_clase32]] — Hack The Box, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #blue-team #burpsuite #certificaciones #escalada-privilegios #hack-the-box #ia #idor #john #linux #metasploit #netcat #nmap #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #windows #xss
+> #blue_team #certificaciones #cli #crypto #escalada_privilegios #hack_the_box #ia_ml #idor #java #john_hashcat #linux #linux_ciber #metasploit #netcat #nmap #osint #pentest #pivoting #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #web #windows_ciber #xss

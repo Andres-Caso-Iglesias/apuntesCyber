@@ -139,28 +139,23 @@ Término en la transcripción Corrección / Aclaración azul Azure – plataform
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[resumen_clase6.md|resumen_clase6]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Desarrollo Web, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[resumen_clase6.md|resumen_clase6]] — Desarrollo Web, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Criptografia, Desarrollo Web, Linux
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Criptografia, Desarrollo Web, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #escalada-privilegios #hydra #ia #john #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows
+> #cli #cloud_base #command_injection #crypto #escalada_privilegios #hydra #ia_ml #john_hashcat #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #reverse_shell #web #windows_ciber

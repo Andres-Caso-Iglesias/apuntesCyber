@@ -80,23 +80,23 @@ El máster utiliza una plataforma de ejercicios (**ejercicios.academy**) donde s
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Linux, Metasploit
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Hack The Box, Linux, Metasploit
-- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Linux, Metasploit
-- [[../informes/Informe_Blue.md|Informe_Blue]] — Hack The Box, Metasploit, Redes
-- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, Linux, Metasploit
-- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Linux, Metasploit
+- [[Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Netcat / Reverse Shells, Testing
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Desarrollo Web, Hack The Box, Netcat / Reverse Shells
+- [[../apuntes Andres/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Desarrollo Web, Hack The Box, Netcat / Reverse Shells
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Desarrollo Web, Hack The Box, Netcat / Reverse Shells
+- [[../apuntes Andres/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Desarrollo Web, Hack The Box, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../programacion/Bash/scripting_avanzado_bash.md|scripting_avanzado_bash]] — Programacion: Desarrollo Web, Linux, Testing
 
-> #hack-the-box #kali #linux #metasploit #netcat #nmap #redes #reverse-shell #windows
+> #cli #hack_the_box #kali #linux #linux_ciber #metasploit #netcat #nmap #python #redes #redes_ciber #reverse_shell #testing #web

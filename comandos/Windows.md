@@ -307,22 +307,23 @@ Resolve-DnsName -Name google.com
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
-- [[John_Hashcat.md|John_Hashcat]] — Hydra, Linux, Redes
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Hydra, Linux, Redes
-- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Hydra, Linux, Redes
+- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/Arduino/librerias_arduino.md|librerias_arduino]] — Programacion: Linux, Redes
+- [[../../redes/vlans_segmentacion.md|vlans_segmentacion]] — Redes: Linux, Redes
 
-> #hydra #linux #pentest #redes #tmux #windows
+> #hydra #linux #linux_ciber #pentest #redes #tmux #windows_ciber

@@ -177,23 +177,23 @@ impacket-secretsdump dominio.local/administrador:contrasena@<IP_DC>
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
-- [[../comandos/Windows.md|Windows]] — Hydra, Linux, Redes
-- [[../comandos/John_Hashcat.md|John_Hashcat]] — Hydra, Linux, Redes
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, SMB / Impacket
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Linux, Redes, Seguridad
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Linux, Redes, Seguridad
 
-> #hydra #linux #pentest #redes #smb-impacket #tmux #windows
+> #escalada_privilegios #hydra #linux #linux_ciber #pentest #redes #redes_ciber #seguridad #smb_impacket #tmux #web #windows_ciber

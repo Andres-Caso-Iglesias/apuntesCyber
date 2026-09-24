@@ -450,21 +450,23 @@ steghide extract -sf imagen.jpg
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Metodología Pentest
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Linux, WiFi / Hardware
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Metodología Pentest
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, WiFi / Hardware
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografía, Linux, WiFi / Hardware
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografia, Metodologia Pentest, Seguridad
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Metodologia Pentest
+- [[../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Linux, Metodologia Pentest, Seguridad
+- [[../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../apuntes Joselu/MODULO2/resumen_master_clase8.md|resumen_master_clase8]] — Desarrollo Web, Esteganografia, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #esteganografia #forense #linux #osint #pentest #post-explotacion #redes #ssh #wifi
+> #cli #crypto #database #esteganografia #forense #java #linux #linux_ciber #osint #pentest #post_explotacion #redes #redes_ciber #seguridad #ssh_tool #web #wifi

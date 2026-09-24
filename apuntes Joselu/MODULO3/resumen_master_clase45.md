@@ -292,36 +292,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — Burp Suite, Metasploitable / DVWA, Path Traversal / LFI
-- [[../../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Command Injection / RCE, Metasploitable / DVWA
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Escalada de Privilegios, Metasploitable / DVWA
-- [[resumen_master_clase42.md|resumen_master_clase42]] — Escalada de Privilegios, File Upload, Metodología Pentest
+- [[resumen_master_clase55.md|resumen_master_clase55]] — GoBuster, Seguridad, XXE
+- [[../../apuntes Chema/Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Kali Linux, XXE
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — GoBuster, Kali Linux, XXE
+- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — GoBuster, Kali Linux, XXE
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #xxe
+> #arquitectura #burpsuite #cli #command_injection #database #dirsearch #error_handling #escalada_privilegios #ffuf #file_upload #gobuster #hydra #ia_ml #java #javascript #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #web #xxe

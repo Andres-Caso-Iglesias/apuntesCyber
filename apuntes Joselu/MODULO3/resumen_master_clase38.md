@@ -347,37 +347,23 @@ Twenty Twenty Four)
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Command Injection / RCE, WordPress
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — Feroxbuster, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[resumen_master_clase39.md|resumen_master_clase39]] — File Upload, GoBuster, Kali Linux
+- [[resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — GoBuster, Kali Linux, Seguridad
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — GoBuster, Kali Linux, Seguridad
+- [[../../transcripciones/Julio/06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato.md|06.07.2026 Fuzzing de Parámetros I Ingeniería Social y Anonimato]] — GoBuster, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #command-injection #csrf #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #ia #kali #lfi #linux #metasploit #metasploitable #netcat #osint #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress #wpscan #xss
+> #arquitectura #burpsuite #certificaciones #cli #command_injection #csrf #dirsearch #feroxbuster #ffuf #file_upload #git #gobuster #hydra #ia_ml #java #javascript #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #osint #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #web #wordpress #wpscan #xss

@@ -121,23 +121,23 @@ Término en la transcripción Corrección / Aclaración conectados a internet ma
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Hydra, Post-Explotación, SSH
-- [[../../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, SSH
-- [[../../comandos/Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
-- [[../../comandos/SSH.md|SSH]] — Hydra, Post-Explotación, SSH
-- [[resumen_clase14.md|resumen_clase14]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[resumen_clase14.md|resumen_clase14]] — Metodologia Pentest, Seguridad, Testing
+- [[resumen_clase3.md|resumen_clase3]] — Desarrollo Web, Metodologia Pentest, Seguridad
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Metodologia Pentest, Seguridad, Testing
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Desarrollo Web, Metodologia Pentest, Seguridad
+- [[../../informes/Informr_legacy.md|Informr_legacy]] — Metodologia Pentest, Seguridad, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Ciberseguridad/fundamentals_ciberseguridad.md|fundamentals_ciberseguridad]] — Programacion: Funcional, Seguridad, Testing
+- [[../../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Funcional, Seguridad
 
-> #escalada-privilegios #hydra #ia #nmap #osint #pentest #post-explotacion #redes #ssh #windows
+> #cloud_base #crypto #escalada_privilegios #funcional #hydra #ia_ml #nmap #osint #pentest #post_explotacion #redes #redes_ciber #seguridad #sql #ssh_tool #testing #web #windows_ciber

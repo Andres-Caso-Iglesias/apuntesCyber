@@ -153,28 +153,23 @@ Nmap Scan
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/Tmux.md|Tmux]] — Escalada de Privilegios, Metasploit, Wireshark
-- [[../comandos/Telnet.md|Telnet]] — Escalada de Privilegios, SSH, Wireshark
-- [[../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, SSH, Wireshark
-- [[Informe_Banco.md|Informe_Banco]] — Metasploit, SSH, Wireshark
-- [[../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Escalada de Privilegios, IDOR, Metasploit
-- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, IDOR, Metasploit
+- [[../apuntes Chema/Wireshark.md|Wireshark]] — Desarrollo Web, Linux, Post-Explotacion
+- [[../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Desarrollo Web, Hack The Box, Linux
+- [[Informe_Banco.md|Informe_Banco]] — Desarrollo Web, Linux, Post-Explotacion
+- [[../comandos/Telnet.md|Telnet]] — Desarrollo Web, Linux, Tmux
+- [[../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — Hack The Box, Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/C/build_systems_c.md|build_systems_c]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/TypeScript/seguridad_typescript.md|seguridad_typescript]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #escalada-privilegios #hack-the-box #idor #linux #metasploit #nmap #post-explotacion #redes #ssh #telnet #tmux #windows #wireshark
+> #escalada_privilegios #hack_the_box #idor #linux #linux_ciber #metasploit #nmap #post_explotacion #python #redes #redes_ciber #seguridad #ssh_tool #telnet #tmux #web #windows_ciber #wireshark

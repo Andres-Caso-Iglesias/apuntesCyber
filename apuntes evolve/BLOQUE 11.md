@@ -217,28 +217,23 @@ Los **LOLBins** (Living Off the Land Binaries) son herramientas legítimas del s
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Metasploit, Wireshark
-- [[../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Wireshark
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Metasploit, Wireshark
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Metasploit, Redes
-- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Forense Digital, Hydra, Metasploit
-- [[../transcripciones/Septiembre/07.09.2026 SQLi - Fundamentos de SQL.md|07.09.2026 SQLi - Fundamentos de SQL]] — Hydra, SQL Injection, SSH
+- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Linux, Seguridad
+- [[../apuntes Joselu/PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../apuntes Joselu/MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Blue Team / SOC, SQL Injection, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #forense #hydra #linux #metasploit #redes #smb-impacket #sqli #ssh #windows #wireshark
+> #blue_team #cli #crypto #error_handling #forense #hydra #kubernetes #linux #linux_ciber #metasploit #redes #redes_ciber #seguridad #smb_impacket #sql #sqli #ssh_tool #web #windows_ciber #wireshark

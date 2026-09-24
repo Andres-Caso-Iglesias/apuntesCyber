@@ -508,30 +508,23 @@ cat /root/root.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
-- [[../informes/Informe_Nike.md|Informe_Nike]] — Metasploit, Netcat / Reverse Shells, SSH
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Linux, Metasploit, Redes
+- [[../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Kali Linux, XXE
+- [[../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — File Upload, Kali Linux, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Kali Linux, XXE
+- [[../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Netcat / Reverse Shells, XXE
+- [[../informes/Informe_Nike.md|Informe_Nike]] — Funcional, Netcat / Reverse Shells, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Linux
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #escalada-privilegios #hydra #kali #lfi #linux #metasploit #netcat #nmap #redes #reverse-shell #ssh #windows #xxe
+> #cli #escalada_privilegios #file_upload #funcional #git #hydra #java #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #python #redes #redes_ciber #reverse_shell #sql #ssh_tool #web #wordpress #wpscan #xxe

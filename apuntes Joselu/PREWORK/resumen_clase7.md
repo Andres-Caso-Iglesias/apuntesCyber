@@ -179,27 +179,23 @@ Término en la transcripción Corrección / Aclaración de atacantes avanzados y
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase2.md|resumen_clase2]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[resumen_clase6.md|resumen_clase6]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Forense Digital, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Mayo/26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware.md|26.05.2026 Introducción Blue Team IV — Threat Intelligence y Análisis de Malware]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Metasploit, Post-Explotación, Redes
-- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Forense Digital, Post-Explotación
+- [[resumen_clase6.md|resumen_clase6]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
+- [[resumen_clase2.md|resumen_clase2]] — Blue Team / SOC, Netcat / Reverse Shells, Normativa / GRC
+- [[../MODULO2/resumen_master_clase9.md|resumen_master_clase9]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Blue Team / SOC, Netcat / Reverse Shells, Seguridad
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, IA/ML, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Criptografia, Desarrollo Web, Seguridad
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Criptografia, Desarrollo Web, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #blue-team #command-injection #escalada-privilegios #forense #ia #metasploit #netcat #nmap #normativa #osint #post-explotacion #redes #reverse-shell #windows
+> #blue_team #cli #cloud_base #command_injection #crypto #escalada_privilegios #forense #ia_ml #java #metasploit #netcat #nmap #normativa #osint #redes #redes_ciber #reverse_shell #seguridad #web #windows_ciber

@@ -118,23 +118,23 @@ site:ejemplo.com intext:"PHP Error"
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — Burp Suite, Redes, WordPress
-- [[WPScan.md|WPScan]] — Burp Suite, Redes, WordPress
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, OSINT, Redes
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Burp Suite, Redes, WordPress
-- [[../apuntes Chema/Enumeración Web.md|Enumeración Web]] — Burp Suite, Redes, WordPress
-- [[BurpSuite.md|BurpSuite]] — Burp Suite, Redes, WordPress
+- [[../Apuntes/07 - Empleabilidad/Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Desarrollo Web, OSINT, Seguridad
+- [[WPScan.md|WPScan]] — Desarrollo Web, WPScan, WordPress
+- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Desarrollo Web, Seguridad, WPScan
+- [[../apuntes Chema/OSINT - Mapeando la Superficie de una Organización.md|OSINT - Mapeando la Superficie de una Organización]] — Desarrollo Web, Seguridad, WordPress
+- [[../apuntes Joselu/MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Desarrollo Web, Seguridad, WPScan
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/PLSQL/triggers_plsql.md|triggers_plsql]] — Programacion: Redes, SQL, Seguridad
+- [[../../programacion/SQL/vistas_sql.md|vistas_sql]] — Programacion: Redes, SQL, Seguridad
 
-> #burpsuite #google-dorks #osint #redes #wordpress #wpscan
+> #burpsuite #empleabilidad #git #google_dorks #osint #redes #seguridad #sql #web #wordpress #wpscan

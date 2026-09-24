@@ -549,35 +549,23 @@ Cambios respecto al registro acumulado tras esta sesión (copiable a la base de 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../transcripciones/Julio/08.07.2026 Owasp Top 10 LFI Fundamentos.md|08.07.2026 Owasp Top 10 LFI Fundamentos]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Burp Suite, Command Injection / RCE, Hack The Box
+- [[../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — File Upload, Hack The Box, Seguridad
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Hack The Box, Seguridad, XXE
+- [[../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Hack The Box, Seguridad, XXE
+- [[Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — File Upload, Hack The Box, Seguridad
+- [[Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Ciberseguridad/diccionario_ciberseguridad.md|diccionario_ciberseguridad]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #certificaciones #command-injection #csrf #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #hydra #ia #lfi #linux #metasploit #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #ssh #windows #xss #xxe
+> #arquitectura #burpsuite #certificaciones #cli #command_injection #crypto #csrf #docker #escalada_privilegios #feroxbuster #ffuf #file_upload #hack_the_box #hydra #javascript #lfi #linux #linux_ciber #metasploit #netcat #pentest #pivoting #post_explotacion #redes #rfi #seguridad #sql #sqli #ssh_tool #testing #web #windows_ciber #xss #xxe

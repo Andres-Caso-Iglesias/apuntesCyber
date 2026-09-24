@@ -238,30 +238,23 @@ HackTricks — Guías de pentesting:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Netcat / Reverse Shells, SQLMap
-- [[../../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Linux, Netcat / Reverse Shells, SQLMap
-- [[../../comandos/SQLMap.md|SQLMap]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Nmap, Windows
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Post-Explotacion, Windows
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Hack The Box, Nmap, Windows
+- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Hack The Box, Nmap, Windows
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #escalada-privilegios #hack-the-box #john #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows
+> #cli #crypto #escalada_privilegios #git #hack_the_box #java #john_hashcat #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #sql #sqli #sqlmap_tool #ssh_tool #web #windows_ciber

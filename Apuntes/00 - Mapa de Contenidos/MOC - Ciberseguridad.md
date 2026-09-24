@@ -1,6 +1,6 @@
 # Mapa de Contenidos — Ciberseguridad
 
-> **Archivos:** 60 apuntes | **Herramientas:** 19 cheat sheets | **Última actualización:** Septiembre 2026
+> **Archivos:** 54 apuntes | **Herramientas:** 19 cheat sheets | **Última actualización:** Septiembre 2026
 
 ---
 
@@ -85,6 +85,7 @@
 - [[08 - Metodologías/Metodología - Explotación Linux|Metodología Explotación Linux]]
 - [[08 - Metodologías/Metodología - Explotación Windows|Metodología Explotación Windows]]
 - [[08 - Metodologías/Metodología - Active Directory|Metodología Active Directory]]
+- [[08 - Metodologías/Metodología General - Máquinas CTF (HTB, THL, VulnHub)|Metodología General - Máquinas CTF]]
 - [[09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral|Pivoting y Movilidad Lateral]]
 
 ---

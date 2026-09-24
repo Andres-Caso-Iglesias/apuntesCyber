@@ -111,21 +111,23 @@ Cada fichero tiene tres grupos de permisos: propietario (u), grupo (g) y otros (
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Bash Scripting.md|Bash Scripting]] — Forense Digital, Nmap, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Nmap, Redes
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes, Windows
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Forense Digital, Redes
-- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Redes, Windows
+- [[Bash Scripting.md|Bash Scripting]] — Kali Linux, Linux, Seguridad
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Nmap, Windows
+- [[../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Linux, Seguridad, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Linux, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../cloud/docker_compose_cloud.md|docker_compose_cloud]] — Cloud: Docker, Linux, Seguridad
+- [[../../programacion/Linux/fundamentos_linux.md|fundamentos_linux]] — Programacion: Docker, Linux, Seguridad
 
-> #escalada-privilegios #forense #kali #linux #nmap #redes #windows
+> #cli #docker #escalada_privilegios #forense #kali #linux #linux_ciber #nmap #redes #seguridad #windows_ciber

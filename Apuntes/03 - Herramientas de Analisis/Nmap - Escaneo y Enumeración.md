@@ -89,6 +89,27 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 
 ---
 
+## ④bis Tipos de escaneo — qué está pasando por la red
+
+| Flag | Tipo | Cómo funciona | Notas |
+|------|------|--------------|-------|
+| `-sS` | **TCP SYN** (stealth) | SYN → SYN/ACK → **RST** (no completa el handshake) | Requiere root; el "puerto abierto" se deduce por el SYN/ACK |
+| `-sT` | TCP Connect | Completa el handshake 3WHS con `connect()` | Lo usan usuarios sin root; más ruidoso y deja log de conexión |
+| `-sU` | UDP | Envía datagrama UDP y espera ICMP *port unreachable* | **Lento**; imprescindible para DNS(53), SNMP(161), NTP(123) |
+| `-sn` | Ping sweep | Solo descubrimiento de hosts, sin puertos | Reconocimiento inicial |
+| `-Pn` | No ping | Trata el host como si respondiera a ping | Cuando hay firewalls que bloquean ICMP |
+
+```bash
+sudo [[Nmap]] -sS -sV <IP> # SYN stealth + versiones (recomendado con root)
+[[Nmap]] -sT <IP> # TCP connect completo (sin root)
+sudo [[Nmap]] -sU -p 53,161,123 <IP> # puertos UDP (siempre añadir en fase 2)
+```
+
+> [!info] SEÑALES
+> El escaneo SYN funciona porque el kernel responde al SYN/ACK aunque la aplicación no tenga `accept()`: Nmap envía RST para no dejar la conexión "colgada" en el objetivo. Un IDS puede correlacionar SYN→RST anómalo como escaneo.
+
+---
+
 ## ⑤ Scripts útiles
 
 ```bash
@@ -123,6 +144,25 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 > - **Lanzar `vuln` sin `-Pn`**: si el host no responde a ping, Nmap lo descarta.
 > - **No guardar resultados**: pierdes el trabajo de enumeración.
 > - **Confundir servicio esperado con real**: sin `-sCV`, Nmap muestra el servicio por defecto del puerto, no el real.
+> - **Ignorar UDP**: servicios críticos (DNS, SNMP) viven en UDP; un pentest sin `-sU` está incompleto.
+> - **Ejecutar `vuln` sin autorización**: los scripts de vulnerabilidades son intrusivos y pueden tumbar servicios; siempre con scope firmado.
+
+---
+
+## Puertos comunes de referencia
+
+| Puerto | Servicio | Puerto | Servicio |
+|--------|----------|--------|----------|
+| 21 | FTP | 3306 | MySQL |
+| 22 | SSH | 3389 | RDP |
+| 23 | Telnet | 5432 | PostgreSQL |
+| 25 | SMTP | 5985/5986 | WinRM |
+| 53 | DNS | 6379 | Redis |
+| 80 | HTTP | 8080/8443 | Proxy/Alt HTTPS |
+| 110 | POP3 | 8000/8888 | HTTP alternativo |
+| 143 | IMAP | 5900 | VNC |
+| 443 | HTTPS | 9200 | Elasticsearch |
+| 445 | SMB | 11211 | Memcached |
 
 ---
 
@@ -146,28 +186,23 @@ sudo netdiscover -r 10.0.2.0/24 # por ARP (más sigiloso)
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows.md|03.06.2026 HTB Starting Point Tier 1 - SQLi, Responder y LFI en Windows]] — Linux, Metasploit, Wireshark
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — FFUF, Linux, Wireshark
-- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Metasploit, Normativa / GRC, Wireshark
-- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Linux, Metasploit, Normativa / GRC
-- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Linux, Metasploit, Normativa / GRC
-- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Linux, WiFi / Hardware, Wireshark
+- [[../15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Hack The Box, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #ffuf #hack-the-box #lfi #linux #metasploit #nmap #normativa #osint #pentest #redes #sqli #wifi #windows #wireshark
+> #ffuf #hack_the_box #lfi #linux #linux_ciber #metasploit #nmap #normativa #osint #pentest #redes #redes_ciber #sql #sqli #web #wifi #windows_ciber #wireshark

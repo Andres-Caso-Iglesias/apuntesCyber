@@ -140,28 +140,23 @@ Término en la transcripción Corrección / Aclaración data link y physical lay
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Metasploit, SSH, Wireshark
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, SSH, Wireshark
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Metasploit, Netcat / Reverse Shells, SSH
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Metasploit, Netcat / Reverse Shells, SSH
-- [[resumen_clase13.md|resumen_clase13]] — Metasploit, Netcat / Reverse Shells, Post-Explotación
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Metasploit, Netcat / Reverse Shells, Wireshark
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Desarrollo Web, Funcional, Linux
+- [[../../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Desarrollo Web, Linux, Netcat / Reverse Shells
+- [[../MODULO1/resumen_master_clase6.md|resumen_master_clase6]] — Desarrollo Web, Netcat / Reverse Shells, Windows
+- [[resumen_clase13.md|resumen_clase13]] — Desarrollo Web, Linux, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Desarrollo Web, Funcional, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Linux
+- [[../../../ia/mlflow.md|mlflow]] — IA: Desarrollo Web, Docker, Kubernetes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #ia #linux #metasploit #netcat #nmap #post-explotacion #redes #reverse-shell #ssh #windows #wireshark
+> #cli #command_injection #crypto #docker #funcional #ia_ml #kubernetes #linux #linux_ciber #metasploit #netcat #nmap #post_explotacion #redes #redes_ciber #reverse_shell #ssh_tool #web #windows_ciber #wireshark

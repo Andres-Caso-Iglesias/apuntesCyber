@@ -18,6 +18,44 @@
 > [!warning] REALIDAD
 > En ciberseguridad, el simple hecho de "haber aprendido" no basta. Necesitas **evidencia visible** de tus habilidades.
 
+> [!important] LOS 6 SEGUNDOS
+> Un reclutador toma la decisión de seguir leyendo o descartar tu perfil en los **primeros 6 segundos**. Lo que diferencia: evidencia real, no el CV.
+
+| Elemento | Impacto en selección |
+|---------|---------------------|
+| CV + LinkedIn | Mínimo indispensable. Si solo tienes esto, eres uno más |
+| Portafolio técnico | Te coloca automáticamente en el top de candidatos |
+| CTFs y certificaciones | Demuestra habilidad práctica verificable |
+| Contribuciones Open Source | Código real, visible, verificable |
+| Artículos técnicos | Visibilidad y demostración de conocimiento |
+
+### Salarios de referencia (mercado español)
+
+| Nivel | Salario |
+|-------|---------|
+| Junior 1 (con eJPT) | 24.500 – 28.000€ iniciales |
+| Junior (pocos años) | ~30.000€ |
+| Senior / Gestión | 55.000€+ |
+| Dirección | 120.000€+ |
+
+---
+
+## ②bis Proceso de selección en ciberseguridad
+
+```
+CV/LinkedIn filtra → Prueba técnica / CTF → Entrevista técnica → Entrevista cultural → Oferta
+```
+
+| Fase | Qué evalúan |
+|------|-----------|
+| Prueba técnica | CTF corto, análisis de vulnerabilidades, ejercicio de código |
+| Entrevista técnica | Herramientas, metodologías, CVEs conocidos, laboratorios |
+| Entrevista cultural | Soft skills, trabajo en equipo, comunicación con clientes |
+| Negociación | Conoce tu valor: investiga salarios del sector antes |
+
+> [!tip] PREPARACIÓN
+> Para entrevistas técnicas: estudia el **OWASP Top 10**, practica explicar vulnerabilidades (XSS, SQLi, LFI) **en voz alta**, y ten 2-3 laboratorios de HTB que puedas explicar en detalle.
+
 ---
 
 ## ② Nivel junior en ciberseguridad
@@ -93,14 +131,33 @@
 | **Para qué** | Puerta de entrada, muchas empresas lo exigen |
 | **Qué cubre** | Conceptos básicos de seguridad |
 
-### Otras
+### Ruta recomendada de certificaciones ofensivas
+
+```
+eJPT → PNPT o eCPPT → OSCP
+```
+
+- **eJPT** (INE): primera cert ofensiva práctica, objetivo inmediato del máster
+- **PNPT** (TCM Security): práctica, asequible, muy valorada en la comunidad
+- **eCPPT** (eLearnSecurity): siguiente paso al eJPT
+- **OSCP** (Offensive Security): **estándar de oro** del pentesting; objetivo a 1-2 años
+
+### Otras por área
 
 | Certificación | Nivel | Enfoque |
 |--------------|-------|---------|
 | **OSCP** | Avanzado | Pentesting práctico (el más respetado) |
+| **OSEP** | Avanzado | Evasión y desarrollo de herramientas propias |
+| **OSWE** | Avanzado | Pentesting web |
+| **OSWP** | Avanzado | WiFi |
+| **CompTIA PenTest+** | Intermedio | Ofensivo general |
 | **CISSP** | Senior/Gestión | Seguridad empresarial |
 | **CISM** | Gestión | Gestión de seguridad |
-| **CompTIA CySA+** | Analista | Análisis de seguridad |
+| **CompTIA CySA+** | Analista | Análisis de seguridad (defensivo) |
+| **GSEC / GCFA / GCIH (SANS)** | Defensiva | Entrada / Forense / Incidentes y threat hunting |
+| **BSCP (Burp Suite)** | Web | Explotación XSS y SQLi con Burp |
+| **CRTP (Altered Security)** | AD | Ataques avanzados a Active Directory |
+| **Cloud (AWS/GCP/Azure Security)** | Cloud | Especialización cloud |
 
 ---
 
@@ -114,8 +171,29 @@
 | **PentesterLab** | Ejercicios web | Pago |
 | **Bug Bounty** | Programas reales | Pago si encuentras bugs |
 
-> [!tip] IMPORTANCIA DE LOS CDF
+### Otras plataformas y eventos
+
+| Plataforma | Nota |
+|-----------|------|
+| **CTFtime.org** | Calendario de competiciones CTF a nivel mundial |
+| **PicoCTF** | Orientada a estudiantes, buena para empezar |
+| **PortSwigger Web Academy** | La mejor para aprender y practicar hacking web |
+| **Bug Bounty (HackerOne, Bugcrowd)** | Un CVE propio tiene muchísimo valor en el CV |
+
+### Momentos clave para buscar trabajo
+
+| Momento | Observación |
+|---------|------------|
+| Enero–Febrero | Presupuestos nuevos, mucho contratar a inicio de año |
+| Septiembre–Octubre | Vuelta de vacaciones, segundo pico |
+| Ferias / conferencias | Networking presencial (RootedCON, NavajaNegra); conecta en LinkedIn ese mismo día |
+| **Evitar** | Agosto y diciembre: menor actividad de RRHH |
+
+> [!tip] IMPORTANCIA DE LOS CTF
 > No es solo aprender: es **demostrar** que puedes resolver problemas en entornos reales. Las empresas los valoran muchísimo. **Las certificaciones son el primer paso para que las empresas vean lo que sabes.**
+
+> [!important] WRITEUPS
+> Resolver un CTF y **documentar el proceso** (writeup) demuestra mucho más que solo resolver el reto. Publicar writeups en blog o GitHub = visibilidad + portafolio.
 
 ---
 
@@ -133,26 +211,23 @@
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Empleabilidad, Esteganografía, Hydra
-- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Empleabilidad, Esteganografía, Hydra
-- [[../../README.md|README]] — Empleabilidad, Esteganografía, Metodología Pentest
-- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Empleabilidad, Esteganografía, Hack The Box
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
-- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Empleabilidad, Hack The Box, Redes
+- [[Portafolio y Visibilidad.md|Portafolio y Visibilidad]] — Esteganografia, Hack The Box, Seguridad
+- [[../../README.md|README]] — Esteganografia, Hack The Box, Redes
+- [[../04 - OSINT y Recopilacion/Esteganografía y Metadatos.md|Esteganografía y Metadatos]] — Esteganografia, Hack The Box, Redes
+- [[../05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — Esteganografia, Hack The Box, Seguridad
+- [[../../apuntes Chema/Empleabilidad en Ciberseguridad.md|Empleabilidad en Ciberseguridad]] — Hack The Box, Redes, XSS
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
+- [[../../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Docker/compose_avanzado.md|compose_avanzado]] — Programacion: Docker, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #empleabilidad #esteganografia #hack-the-box #hydra #normativa #osint #pentest #redes #vulnhub #xss
+> #burpsuite #certificaciones #docker #empleabilidad #esteganografia #funcional #git #hack_the_box #hydra #normativa #osint #pentest #redes #seguridad #vulnhub #web #xss

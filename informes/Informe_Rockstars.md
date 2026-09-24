@@ -482,28 +482,23 @@ bash -p
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[Informe_Castor.md|Informe_Castor]] — Hydra, Post-Explotación, SSH
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[../write-ups/Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, Post-Explotación, SSH
-- [[Informe_Banco.md|Informe_Banco]] — Post-Explotación, Redes, SSH
+- [[../write-ups/Rockstars-THL.md|Rockstars-THL]] — Desarrollo Web, GoBuster, Kali Linux
+- [[Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — GoBuster, Kali Linux, XXE
+- [[../write-ups/Inj3ctCrew-THL.md|Inj3ctCrew-THL]] — GoBuster, Path Traversal / LFI, XXE
+- [[../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — GoBuster, Path Traversal / LFI, XXE
+- [[Informe_Castor.md|Informe_Castor]] — Kali Linux, Path Traversal / LFI, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Criptografia, Desarrollo Web, Redes
+- [[../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Criptografia, Desarrollo Web, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #escalada-privilegios #gobuster #hydra #kali #lfi #linux #nmap #post-explotacion #redes #ssh
+> #cli #crypto #escalada_privilegios #gobuster #hydra #java #javascript #kali #lfi #linux #linux_ciber #nmap #post_explotacion #python #redes #redes_ciber #ssh_tool #web #xxe

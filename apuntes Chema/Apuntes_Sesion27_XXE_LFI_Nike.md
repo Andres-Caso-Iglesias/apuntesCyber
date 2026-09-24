@@ -338,36 +338,23 @@ Bloque copiable a la base de conocimiento del proyecto. Entradas nuevas y cambio
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — Burp Suite, Metasploitable / DVWA, Path Traversal / LFI
-- [[Auditoria web.md|Auditoria web]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — Burp Suite, Feroxbuster, Hack The Box
-- [[Maquinas/HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Kali Linux, XXE
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — GoBuster, Kali Linux, XXE
+- [[../apuntes Andres/09.07.2026 XXE - XML External Entity y Máquina Castor.md|09.07.2026 XXE - XML External Entity y Máquina Castor]] — GoBuster, Kali Linux, XXE
+- [[../write-ups/Academy-THL.md|Academy-THL]] — GoBuster, Kali Linux, Post-Explotacion
+- [[../apuntes Andres/02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking.md|02.07.2026 Fuzzing, Directory Listing y Escalada por Script Hijacking]] — GoBuster, Hack The Box, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #dirsearch #escalada-privilegios #feroxbuster #ffuf #gobuster #hack-the-box #hydra #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #xxe
+> #burpsuite #cli #dirsearch #escalada_privilegios #feroxbuster #ffuf #git #gobuster #hack_the_box #hydra #java #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #xxe

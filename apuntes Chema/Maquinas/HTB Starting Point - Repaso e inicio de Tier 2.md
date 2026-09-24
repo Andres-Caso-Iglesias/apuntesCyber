@@ -325,34 +325,23 @@ Cambios respecto a sesiones anteriores tras esta clase:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Linux, Netcat / Reverse Shells, SQLMap
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Burp Suite, Feroxbuster, Hack The Box
-- [[Cierre de Vaccine + Máquina Oopsie.md|Cierre de Vaccine + Máquina Oopsie]] — Feroxbuster, Hack The Box, Metasploitable / DVWA
-- [[../../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Linux, Netcat / Reverse Shells, SQLMap
-- [[Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Burp Suite, Hack The Box, Path Traversal / LFI
-- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Burp Suite, Feroxbuster, Hack The Box
+- [[Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Kali Linux, Windows
+- [[../../transcripciones/Mayo/27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web.md|27.05.2026 Explotación de Servicios Vulnerables SMTP, NFS, Servicios R, SSH y Reconocimiento Web]] — Hack The Box, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #escalada-privilegios #feroxbuster #ffuf #file-upload #hack-the-box #idor #john #kali #lfi #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows
+> #burpsuite #cli #cloud_base #crypto #escalada_privilegios #feroxbuster #ffuf #file_upload #git #hack_the_box #idor #javascript #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #sqlmap_tool #ssh_tool #testing #web #windows_ciber

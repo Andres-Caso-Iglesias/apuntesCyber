@@ -114,6 +114,16 @@ Documentación e informe
 > [!warning] Scope y ruido importan
 > Aunque un servicio bloquee la fuerza bruta, con Burp Suite se puede simular la secuencia más lenta (tardando horas en vez de minutos) imitando a una persona haciendo clic. Pero hay que valorar siempre si la denegación de servicio entra o no en el alcance: cada cliente es un mundo.
 
+### Producción vs preproducción
+
+| Entorno | Nivel de ruido permitido | Riesgo |
+|---------|-------------------------|--------|
+| **Preproducción** | Generalmente más permisivo | Bajo (no afecta usuarios reales) |
+| **Producción** | Muy restrictivo | Alto (puede tumbar el servicio) |
+
+> [!important] Adaptar la agresividad al cliente
+> Algunos clientes dan libertad total ("revéntalo y avísame después"). Otros se ponen nerviosos con la mínima ralentización. **Saber adaptar la agresividad de las pruebas al contexto es tan importante como la técnica de explotación.**
+
 ---
 
 ## ⑤ Burp Suite "” Proxy man-in-the-middle
@@ -146,6 +156,19 @@ Servidor web
 3. Ir haciendo **Forward** para dejar pasar las que no interesan
 4. Cuando aparece una petición interesante → **clic derecho → Send to Repeater**
 5. En el **Repeater**, pulsar **Send** y analizar/modificar parámetros y respuestas
+
+### La analogía del portero de discoteca (Intercept)
+
+Las peticiones forman una **cola**. Mientras **Intercept** está activado, ninguna petición avanza hasta que el usuario decide:
+
+| Acción | Qué hace |
+|--------|----------|
+| **Forward** | Dejarla pasar (el portero deja entrar) |
+| **Drop** | Bloquearla (el portero echa al de fuera) |
+
+> [!important] Forward vs Repeater
+> - **Forward**: la petición sigue su flujo normal (no es de interés)
+> - **Repeater**: la guardas para reenviarla modificada después (análisis en profundidad)
 
 ### Dos formas de enrutar el tráfico
 
@@ -191,6 +214,26 @@ Servidor web
 
 ---
 
+## ⑥ Qué va en el informe
+
+| Sección | Qué contiene |
+|---------|-------------|
+| **Resumen ejecutivo** | Visión general para directivos |
+| **Alcance** | Qué se auditará (scope) |
+| **Metodología** | Cómo se realizó la auditoría |
+| **Hallazgos** | Vulnerabilidades con evidencia y CVSS |
+| **Pruebas realizadas** | Intentos sin éxito (demuestra trabajo) |
+| **Recomendaciones** | Cómo mitigar cada vulnerabilidad |
+| **Anexo** | Evidencias técnicas, capturas, logs |
+
+> [!important] Lo que no se documenta no existe
+> "Me da igual lo que hackeéis. Si en el informe es una mierda, os van a crujir." Un profesional puede ser excelente técnicamente, pero si el informe es deficiente, el cliente no valora el trabajo.
+
+> [!warning] Aspecto legal
+> Modificar el flujo de una aplicación web (cambiar parámetros, añadir datos) **constituye un delito** fuera de un entorno autorizado. La línea entre observar pasivamente y alterar activamente marca la frontera entre reconocimiento y explotación no autorizada.
+
+---
+
 ## Checklist de repaso
 
 - [ ] ¿Sé explicar qué es el OWASP Top 10 y para qué sirve realmente?
@@ -202,6 +245,12 @@ Servidor web
 - [ ] ¿Sé interceptar, hacer Forward y enviar una petición al Repeater?
 - [ ] ¿Entiendo la diferencia entre Open Browser y FoxyProxy?
 - [ ] ¿Sé instalar el certificado de PortSwigger desde http://burpsuite/?
+- [ ] ¿Distinguo Forward, Drop y Send to Repeater?
+- [ ] ¿Sé adaptar el ruido de las pruebas a producción vs preproducción?
+- [ ] ¿Conozco la estructura de un informe y el apartado "pruebas realizadas"?
+- [ ] ¿Recuerdo que modificar peticiones fuera de scope es ilegal?
+
+
 
 
 
@@ -215,28 +264,17 @@ Servidor web
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Septiembre/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Metasploit, Netcat / Reverse Shells, SQLMap
-- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — IDOR, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Kali Linux, Post-Explotacion, Seguridad
+- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Sesión 30 - Burp Suite y WordPress.md|Sesión 30 - Burp Suite y WordPress]] — Burp Suite, WordPress, WPScan
+- [[OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../../transcripciones/Septiembre/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — SQL Injection, XSS, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #burpsuite #command-injection #forense #hack-the-box #hydra #idor #kali #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssrf #ssti #vulnhub #xss
+> #burpsuite #cli #command_injection #crypto #database #devops #forense #go #hack_the_box #hydra #idor #java #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #sqlmap_tool #ssrf #ssti #vulnhub #web #xss

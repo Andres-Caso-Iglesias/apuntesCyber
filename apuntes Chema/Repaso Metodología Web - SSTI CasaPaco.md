@@ -253,36 +253,23 @@ Cambios de nivel respecto al registro acumulado (copiar a la base de conocimient
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — File Upload, Metasploit, Metodología Pentest
-- [[../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[../apuntes Andres/21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI.md|21.07.2026 PortSwigger Cierre SSRF + Introduccion SSTI]] — Linux, Post-Explotacion, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — File Upload, Seguridad, XXE
+- [[../apuntes Andres/11.07.2026 Owasp Top 10 XXE Labs II.md|11.07.2026 Owasp Top 10 XXE Labs II]] — File Upload, Post-Explotacion, XXE
+- [[../transcripciones/Julio/21.07.2026 PortSwigger SSTI + cierre SSRF.md|21.07.2026 PortSwigger SSTI + cierre SSRF]] — Post-Explotacion, Seguridad, XXE
+- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — File Upload, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #certificaciones #command-injection #dirsearch #file-upload #hydra #lfi #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti #xxe
+> #burpsuite #certificaciones #cli #command_injection #dirsearch #file_upload #go #hydra #lfi #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #ssrf #ssti #web #xxe

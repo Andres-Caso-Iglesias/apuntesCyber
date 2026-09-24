@@ -262,23 +262,23 @@ impacket-psexec -hashes :HASH user@IP
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Hydra, John / Hashcat, Linux
-- [[Windows.md|Windows]] — Hydra, Linux, Redes
-- [[../apuntes evolve/BLOQUE 8.md|BLOQUE 8]] — Hydra, Linux, Redes
-- [[../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Hydra, Linux, Redes
+- [[../Apuntes/comandos/John_Hashcat.md|John_Hashcat]] — Linux, Metodologia Pentest, Windows
+- [[Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Metodologia Pentest
+- [[../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Criptografia, Desarrollo Web, SQL
 
-> #hydra #john #linux #pentest #redes #tmux #windows
+> #crypto #hydra #java #john_hashcat #linux #linux_ciber #pentest #redes #sql #tmux #web #windows_ciber

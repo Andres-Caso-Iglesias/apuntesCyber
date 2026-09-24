@@ -164,31 +164,23 @@ La próxima sesión continúa con la explotación de los servicios restantes de 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Command Injection / RCE, OSINT, WordPress
-- [[resumen_master_clase30.md|resumen_master_clase30]] — Command Injection / RCE, Escalada de Privilegios, WordPress
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
-- [[../../transcripciones/Junio/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — Blue Team / SOC, Command Injection / RCE, WordPress
-- [[../../transcripciones/Junio/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Command Injection / RCE, Metasploitable / DVWA, WordPress
+- [[../../apuntes Andres/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Kali Linux, Nmap
+- [[resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Kali Linux, Nmap
+- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — File Upload, Kali Linux, Nmap
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — File Upload, Nmap, Windows
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — File Upload, Kali Linux, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Funcional, Rust
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Rust, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #certificaciones #command-injection #escalada-privilegios #file-upload #hydra #ia #kali #linux #metasploit #metasploitable #netcat #nmap #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan
+> #blue_team #certificaciones #cli #command_injection #escalada_privilegios #file_upload #funcional #hydra #ia_ml #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #osint #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #rust #sql #sqli #ssh_tool #web #windows_ciber #wordpress #wpscan

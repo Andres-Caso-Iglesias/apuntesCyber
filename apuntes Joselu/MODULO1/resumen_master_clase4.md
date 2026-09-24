@@ -163,28 +163,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Metasploit, Normativa / GRC
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Escalada de Privilegios, Metasploit, Normativa / GRC
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Escalada de Privilegios, Netcat / Reverse Shells, Normativa / GRC
-- [[../../write-ups/Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, IA/ML, SQL Injection
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Kali Linux, Seguridad, Windows
+- [[../MODULO3/resumen_master_clase19.md|resumen_master_clase19]] — Kali Linux, Nmap, Windows
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Kali Linux, Seguridad, Windows
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — Kali Linux, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #certificaciones #escalada-privilegios #ia #kali #lfi #linux #metasploit #netcat #nmap #normativa #redes #reverse-shell #sqli #windows
+> #blue_team #certificaciones #cli #escalada_privilegios #ia_ml #javascript #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #normativa #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #web #windows_ciber

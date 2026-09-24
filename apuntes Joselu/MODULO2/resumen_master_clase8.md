@@ -237,22 +237,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Forense Digital, Linux
-- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Forense Digital, Linux
-- [[resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Forense Digital, Post-Explotación
-- [[../../comandos/Linux.md|Linux]] — Esteganografía, Forense Digital, Metodología Pentest
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — Metodología Pentest, Post-Explotación, Redes
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Metodología Pentest, Redes
+- [[../../apuntes Chema/OSINT y Esteganografía.md|OSINT y Esteganografía]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Desarrollo Web, Esteganografia, Metodologia Pentest
+- [[../../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Metodologia Pentest
+- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../../comandos/Linux.md|Linux]] — Desarrollo Web, Esteganografia, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Bases de Datos, Linux, SQL
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, SQL
 
-> #esteganografia #forense #google-dorks #hack-the-box #ia #linux #nmap #osint #pentest #post-explotacion #redes
+> #crypto #database #esteganografia #forense #go #google_dorks #hack_the_box #ia_ml #linux #linux_ciber #nmap #osint #pentest #python #redes #sql #web #wifi

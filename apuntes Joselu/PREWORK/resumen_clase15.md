@@ -106,26 +106,23 @@ Término en la transcripción Corrección / Aclaración intelligence ex / inteli
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Burp Suite, Escalada de Privilegios, Redes
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Hydra
-- [[resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Forense Digital, Post-Explotación
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Escalada de Privilegios, Forense Digital, Hydra
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Forense Digital, Redes
-- [[resumen_clase10.md|resumen_clase10]] — Escalada de Privilegios, Forense Digital, Hydra
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Blue Team / SOC, Linux, Seguridad
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Desarrollo Web, Linux, Windows
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Linux, Seguridad
+- [[resumen_clase3.md|resumen_clase3]] — Blue Team / SOC, Desarrollo Web, Seguridad
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
+- [[../../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #blue-team #burpsuite #escalada-privilegios #forense #hydra #ia #linux #post-explotacion #redes #windows #xss
+> #arquitectura #blue_team #escalada_privilegios #forense #go #hydra #ia_ml #linux #linux_ciber #post_explotacion #redes #seguridad #web #windows_ciber #xss

@@ -159,24 +159,23 @@ gobuster vhost -u http://target.com -w /usr/share/wordlists/seclists/Discovery/D
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, GoBuster
+- [[../Apuntes/comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, GoBuster, Rust
+- [[../Apuntes/comandos/FFUF.md|FFUF]] — DirSearch, FFUF, GoBuster
+- [[../Apuntes/comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
+- [[../../programacion/C/fundamentos_c.md|fundamentos_c]] — Programacion: Go, Redes, Rust
+- [[../../programacion/PLSQL/packages_plsql.md|packages_plsql]] — Programacion: Go, Redes, Rust
 
-> #dirsearch #feroxbuster #ffuf #gobuster #redes
+> #dirsearch #feroxbuster #ffuf #go #gobuster #redes #rust

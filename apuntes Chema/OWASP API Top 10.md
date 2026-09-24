@@ -336,28 +336,23 @@ La sesión terminó indicando que el día siguiente se realizaría una máquina 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../comandos/FFUF.md|FFUF]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — FFUF, Feroxbuster, IDOR
-- [[Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — DirSearch, FFUF, Feroxbuster
-- [[../Apuntes/02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — DirSearch, FFUF, Feroxbuster
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, FFUF, Feroxbuster
+- [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — DirSearch, Redes, XSS
+- [[../transcripciones/Septiembre/14.09.2026 SQLi - Inyecciones - Labs - Avanzado I.md|14.09.2026 SQLi - Inyecciones - Labs - Avanzado I]] — Blue Team / SOC, DirSearch, Testing
+- [[../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Metodologia Pentest, Seguridad, XSS
+- [[../Curiosidades Septiembre 2026.md|Curiosidades Septiembre 2026]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Blue Team / SOC, DirSearch, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/JavaScript/seguridad_javascript.md|seguridad_javascript]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #blue-team #burpsuite #dirsearch #feroxbuster #ffuf #idor #nmap #pentest #redes #windows
+> #arquitectura #blue_team #burpsuite #cli #crypto #database #dirsearch #feroxbuster #ffuf #git #idor #javascript #nmap #pentest #redes #seguridad #sql #testing #web #windows_ciber #xss

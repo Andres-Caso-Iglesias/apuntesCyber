@@ -413,22 +413,23 @@ ssh-copy-id user@host
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Hydra, Post-Explotación, SSH
-- [[../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Hydra, Post-Explotación, SSH
-- [[../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Hydra, Post-Explotación, SSH
-- [[Hydra.md|Hydra]] — Hydra, Post-Explotación, SSH
-- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Hydra, Post-Explotación, SSH
-- [[../Apuntes/comandos/SSH.md|SSH]] — Hydra, Pivoting / Movilidad Lateral, SSH
+- [[../Apuntes/comandos/SSH.md|SSH]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Post-Explotacion
+- [[Tmux.md|Tmux]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
+- [[../../cloud/docker_compose_cloud.md|docker_compose_cloud]] — Cloud: Linux, Redes, Seguridad
+- [[../../cloud/azure_ad_conditional.md|azure_ad_conditional]] — Cloud: Linux, Redes, Seguridad
 
-> #hydra #ia #pentest #pivoting #post-explotacion #redes #ssh
+> #cli #cloud_base #escalada_privilegios #hydra #linux #linux_ciber #metasploit #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #ssh_tool #web

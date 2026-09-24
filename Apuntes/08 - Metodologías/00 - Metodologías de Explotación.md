@@ -18,6 +18,9 @@
 
 ¿Es una aplicación web?
 └── Sí → [[Metodologia - Aplicaciones Web]]
+
+¿Es una práctica CTF (HTB/THL/VulnHub)?
+└── Sí → [[Metodología General - Máquinas CTF (HTB, THL, VulnHub)]]
 ```
 
 ---
@@ -30,6 +33,7 @@
 | 2   | [[Metodología - Explotación Windows]] | Explotación Windows | Máquinas Windows standalone | Recon → Enum → Explot → Escalar → PSExec   |
 | 3   | [[Metodologia - Aplicaciones Web]]    | Aplicaciones Web    | Auditar y explotar webapps  | Recon → Enum → Fuzz → SQLi/XSS/SSRF        |
 | 4   | [[Metodología - Active Directory]]    | Active Directory    | Entornos AD corporativos    | Enum → Kerberoast → DCSync → Golden Ticket |
+| 5   | [[Metodología General - Máquinas CTF (HTB, THL, VulnHub)]] | Máquinas CTF | HTB, THL, VulnHub | Recon → Enum → Explot → Escalar → Flag |
 
 ---
 
@@ -101,33 +105,23 @@
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, SMB / Impacket, SQLMap
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Linux, SMB / Impacket, SQLMap
-- [[../../apuntes Chema/Vulnerabilidades Web.md|Vulnerabilidades Web]] — Hydra, Linux, SQLMap
-- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, Linux, SMB / Impacket
-- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Linux, SQL Injection, SQLMap
-- [[../05 - Auditoria Web/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hydra, Linux, SMB / Impacket
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Desarrollo Web, Hack The Box, SQL Injection
+- [[../../apuntes Andres/08.09.2026 SQLi Inyecciones - Labs I.md|08.09.2026 SQLi Inyecciones - Labs I]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Hack The Box, Post-Explotacion, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #feroxbuster #hack-the-box #hydra #linux #pentest #post-explotacion #redes #smb-impacket #sqli #sqlmap #ssh #ssrf #vulnhub #windows #wordpress #wpscan #xss
+> #burpsuite #feroxbuster #hack_the_box #hydra #linux #linux_ciber #pentest #post_explotacion #redes #smb_impacket #sql #sqli #sqlmap_tool #ssh_tool #ssrf #testing #vulnhub #web #windows_ciber #wordpress #wpscan #xss

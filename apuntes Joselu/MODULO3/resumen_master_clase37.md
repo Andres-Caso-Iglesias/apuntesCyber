@@ -454,32 +454,23 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase35.md|resumen_master_clase35]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/17.07.2026 PortSwigger Intro y 6 Casos Path Traversal.md|17.07.2026 PortSwigger Intro y 6 Casos Path Traversal]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Sesión 30 - Burp Suite y WordPress.md|Sesión 30 - Burp Suite y WordPress]] — File Upload, Metasploit, Netcat / Reverse Shells
+- [[../../transcripciones/Julio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/30.06.2026 Explotación web Port Swinger.md|30.06.2026 Explotación web Port Swinger]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Septiembre/03.09.2026 OWASP API Top 10 La API habla de más.md|03.09.2026 OWASP API Top 10 La API habla de más]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Chema/Burp Suite a fondo · Auditoría web · WordPress.md|Burp Suite a fondo · Auditoría web · WordPress]] — Hack The Box, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #command-injection #file-upload #hack-the-box #hydra #ia #kali #lfi #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #ssh #windows #wordpress #wpscan #xss
+> #arquitectura #burpsuite #cli #cloud_base #crypto #devops #file_upload #funcional #git #hack_the_box #hydra #ia_ml #java #javascript #kali #lfi #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #redes_ciber #seguridad #ssh_tool #web #windows_ciber #wordpress #wpscan #xss

@@ -84,6 +84,15 @@ Gestión de no conformidades y acciones correctivas, dentro de un ciclo de mejor
 | Fallo de backup no detectado | Media | Alto | Alto | Mitigar (test restauración) |
 | Acceso físico no autorizado | Baja | Medio | Bajo | Aceptar (control OK) |
 
+### Riesgo inherente vs. residual
+
+| Tipo | Definición |
+|------|-----------|
+| **Inherente** | Nivel de riesgo **antes** de aplicar ningún control (estado natural) |
+| **Residual** | Nivel que **queda después** de aplicar los controles del tratamiento |
+
+Las 4 estrategias de tratamiento: **Mitigar** (aplicar controles), **Transferir** (seguro), **Aceptar** (riesgo residual tolerable y documentado), **Evitar** (suprimir la actividad que genera el riesgo).
+
 ### Documentos exigidos por la norma
 
 Alcance del SGSI, política de seguridad, metodología de evaluación de riesgos, objetivos de seguridad medibles, Declaración de Aplicabilidad, Plan de Tratamiento de Riesgos, procedimiento de auditoría interna, procedimiento de gestión de no conformidades y registro de incidentes.
@@ -114,6 +123,14 @@ Alcance del SGSI, política de seguridad, metodología de evaluación de riesgos
 Marco obligatorio para la administración pública española y sus proveedores, categorizado por niveles: **Básico**, **Medio** y **Alto**.
 
 ISO 27001 y ENS están ampliamente alineados: buena parte de la evidencia recopilada para uno sirve para el otro.
+
+### Normativas españolas complementarias
+
+| Marco | Ámbito |
+|-------|--------|
+| **CCN-CERT** | Guías de configuración segura (hardening) para administración pública |
+| **Retención de logs** | Mínimo **3 años** según normativa española |
+| **LOPDGDD** | Desarrollo español del RGPD |
 
 ---
 
@@ -178,17 +195,23 @@ Obligatorio para bancos y empresas que procesan pagos con tarjeta:
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
-- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Metodología Pentest, Redes
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Certificaciones, Normativa / GRC, Redes
-- [[../14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, Certificaciones, Redes
-- [[../../apuntes Joselu/PREWORK/resumen_clase11.md|resumen_clase11]] — Certificaciones, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Metodologia Pentest, Seguridad, Testing
+- [[../../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Metodologia Pentest, Seguridad, Testing
+- [[../../apuntes Joselu/PREWORK/resumen_clase9.md|resumen_clase9]] — Criptografia, Normativa / GRC, Seguridad
+- [[../../apuntes Joselu/PREWORK/resumen_clase1_.md|resumen_clase1_]] — Metodologia Pentest, Normativa / GRC, Seguridad
+- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Blue Team / SOC, Metodologia Pentest, Seguridad
 
-> #blue-team #certificaciones #empleabilidad #ia #normativa #pentest #redes
+### 🌐 Cross-Dominio
+
+- [[../../../ia/ia_payloads.md|ia_payloads]] — IA: Redes, Seguridad, Testing
+- [[../../../programacion/PLSQL/seguridad_plsql.md|seguridad_plsql]] — Programacion: Cloud, Redes, Seguridad
+
+> #blue_team #certificaciones #cloud_base #crypto #empleabilidad #ia_ml #normativa #pentest #redes #seguridad #testing

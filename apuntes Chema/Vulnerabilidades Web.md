@@ -296,32 +296,23 @@ Cambios y novedades tras esta sesión (para copiar a la base de conocimiento del
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Forense Digital, IDOR, Linux
-- [[../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hydra, Metodología Pentest, SQLMap
-- [[Maquinas/Vaccine (Tier 2) - Repaso en profundidad.md|Vaccine (Tier 2) - Repaso en profundidad]] — IDOR, Linux, SQLMap
-- [[../transcripciones/Julio/17.07.2026 PortSwigger Introduccion y repaso Path Traversal.md|17.07.2026 PortSwigger Introduccion y repaso Path Traversal]] — Hack The Box, Hydra, Metodología Pentest
-- [[../transcripciones/Julio/20.07.2026 PortSwigger SSRF (Server-Side Request Forgery).md|20.07.2026 PortSwigger SSRF (Server-Side Request Forgery)]] — Hydra, IDOR, Metodología Pentest
-- [[../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Forense Digital, IDOR, SQLMap
+- [[../Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|Vulnerabilidades Web - OWASP Top 10 y Burp Suite]] — Hack The Box, Kali Linux, Seguridad
+- [[../apuntes Andres/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — Kali Linux, Seguridad, XXE
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Post-Explotacion, Seguridad, XXE
+- [[../apuntes Joselu/MODULO3/resumen_master_clase36.md|resumen_master_clase36]] — Hack The Box, Seguridad, XXE
+- [[Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hack The Box, Kali Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #certificaciones #forense #hack-the-box #hydra #idor #kali #lfi #linux #metasploitable #nmap #pentest #post-explotacion #redes #sqli #sqlmap #ssrf #vulnhub #windows #wordpress #xss #xxe
+> #blue_team #burpsuite #certificaciones #crypto #database #devops #forense #go #hack_the_box #hydra #idor #java #kali #lfi #linux #linux_ciber #metasploitable #nmap #pentest #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #sqlmap_tool #ssrf #vulnhub #web #windows_ciber #wordpress #xss #xxe

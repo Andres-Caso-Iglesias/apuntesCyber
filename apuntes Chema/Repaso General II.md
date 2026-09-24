@@ -373,31 +373,23 @@ Carlos recomendó repetir la máquina Fruit a quienes estuvieran oxidados. El ob
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../write-ups/Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, Hydra, Linux
-- [[../Apuntes/comandos/Hydra.md|Hydra]] — Escalada de Privilegios, Hydra, Linux
-- [[../apuntes Joselu/MODULO3/resumen_master_clase44.md|resumen_master_clase44]] — Escalada de Privilegios, Hydra, SSH
-- [[../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, Hydra, Linux
-- [[Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — Hydra, Linux, SSH
+- [[../write-ups/Castor-THL.md|Castor-THL]] — Desarrollo Web, Funcional, Path Traversal / LFI
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Linux, Nmap, Windows
+- [[../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — DirSearch, Metodologia Pentest, SQL Injection
+- [[Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — DirSearch, Metodologia Pentest, SQL Injection
+- [[Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — DirSearch, Metodologia Pentest, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Linux
+- [[../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #burpsuite #dirsearch #escalada-privilegios #hydra #lfi #linux #nmap #pentest #redes #sqli #ssh #ssti #windows
+> #burpsuite #cli #dirsearch #docker #escalada_privilegios #funcional #git #hydra #lfi #linux #linux_ciber #nmap #pentest #python #redes #redes_ciber #sql #sqli #ssh_tool #ssti #web #windows_ciber

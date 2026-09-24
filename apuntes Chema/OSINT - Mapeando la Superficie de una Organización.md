@@ -92,23 +92,23 @@ OSINT (Open Source Intelligence) es la recopilación de información **desde fue
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO2/resumen_master_clase11.md|resumen_master_clase11]] — Empleabilidad, Metodología Pentest, Redes
-- [[../apuntes evolve/BLOQUE 14.md|BLOQUE 14]] — Empleabilidad, Normativa / GRC, Redes
-- [[../Apuntes/15 - Certificaciones/Certificaciones - ISO 27001 y eJPTv2.md|Certificaciones - ISO 27001 y eJPTv2]] — Empleabilidad, Metodología Pentest, SSH
-- [[../Apuntes/comandos/Google_Dorks.md|Google_Dorks]] — Google Dorks, Metodología Pentest, Redes
-- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Nmap, Redes, SSH
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Nmap, Redes
+- [[../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Hack The Box, Metodologia Pentest, Rust
+- [[../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Desarrollo Web, Hack The Box, Seguridad
+- [[Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Hack The Box, Metodologia Pentest, Seguridad
+- [[../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Cloud, Desarrollo Web, Seguridad
+- [[IA/IA - Practica 1 - Grafos, Subagentes e Infraestructura.md|IA - Practica 1 - Grafos, Subagentes e Infraestructura]] — Cloud, Rust, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Google_Dorks|Google Dorks]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/XML/json_avanzado.md|json_avanzado]] — Programacion: Desarrollo Web, Rust, Seguridad
+- [[../../programacion/JavaScript/seguridad_javascript.md|seguridad_javascript]] — Programacion: Desarrollo Web, Rust, Seguridad
 
-> #empleabilidad #google-dorks #nmap #normativa #osint #pentest #redes #ssh #wordpress
+> #cli #cloud_base #database #empleabilidad #git #google_dorks #hack_the_box #java #nmap #normativa #osint #pentest #python #redes #redes_ciber #rust #seguridad #sql #ssh_tool #web #wordpress

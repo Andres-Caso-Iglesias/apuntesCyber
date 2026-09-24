@@ -426,23 +426,23 @@ run post/windows/manage/persistence_exe
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
-- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
-- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Pivoting / Movilidad Lateral, Wireshark
-- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Metasploit, Redes
+- [[../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metodologia Pentest, Windows
+- [[../Apuntes/09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Linux, Metodologia Pentest, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metodologia Pentest, Post-Explotacion
+- [[../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Windows
+- [[../Apuntes/comandos/Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Post-Explotacion
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #blue-team #forense #linux #metasploit #nmap #pentest #pivoting #post-explotacion #redes #ssh #windows #wireshark
+> #cli #forense #linux #linux_ciber #metasploit #nmap #pentest #pivoting #post_explotacion #redes #redes_ciber #ssh_tool #windows_ciber #wireshark

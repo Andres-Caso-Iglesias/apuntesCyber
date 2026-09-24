@@ -281,35 +281,23 @@ Una vez recibida la shell, se «trata» para que sea interactiva y no se rompa. 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../transcripciones/Junio/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Burp Suite, Hack The Box, Path Traversal / LFI
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase47.md|resumen_master_clase47]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Burp Suite, Command Injection / RCE, Hack The Box
+- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Hack The Box, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/10.06.2026 HTB Starting Point 2 Repaso.md|10.06.2026 HTB Starting Point 2 Repaso]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Kali Linux, Windows
+- [[../../transcripciones/Junio/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Joselu/PREWORK/resumen_clase16.md|resumen_clase16]] — Hack The Box, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #certificaciones #command-injection #escalada-privilegios #file-upload #hack-the-box #hydra #idor #john #kali #lfi #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub #windows #xss
+> #burpsuite #certificaciones #cli #crypto #escalada_privilegios #file_upload #hack_the_box #hydra #idor #javascript #john_hashcat #kali #lfi #linux #linux_ciber #metasploit #netcat #nmap #pentest #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #sqlmap_tool #ssh_tool #testing #vulnhub #web #windows_ciber #xss

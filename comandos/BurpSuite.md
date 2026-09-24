@@ -308,25 +308,23 @@ paros # Alternativa ligera
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[WPScan.md|WPScan]] — FFUF, Hydra, WordPress
-- [[../Apuntes/05 - Auditoria Web/Burp Suite - Framework de Auditoría.md|Burp Suite - Framework de Auditoría]] — FFUF, Hydra, WordPress
-- [[../Apuntes/05 - Auditoria Web/Enumeración Web.md|Enumeración Web]] — FFUF, Redes, WordPress
-- [[Google_Dorks.md|Google_Dorks]] — Burp Suite, Redes, WordPress
-- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — FFUF, Hydra, WordPress
-- [[../Apuntes/08 - Metodologías/00 - Metodologías de Explotación.md|00 - Metodologías de Explotación]] — Hydra, SSH, WordPress
+- [[WPScan.md|WPScan]] — Desarrollo Web, WPScan, WordPress
+- [[../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Metodologia Pentest, Seguridad, XSS
+- [[../Apuntes/05 - Auditoria Web/WordPress - Auditoría con WPScan.md|WordPress - Auditoría con WPScan]] — Metodologia Pentest, WPScan, XSS
+- [[../apuntes Chema/OWASP API Top 10.md|OWASP API Top 10]] — Metodologia Pentest, Testing, XSS
+- [[../apuntes Chema/SSRF - PortSwigger.md|SSRF - PortSwigger]] — Funcional, Metodologia Pentest, XSS
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/HTML/seguridad_html.md|seguridad_html]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../programacion/Angular/routing_angular.md|routing_angular]] — Programacion: Funcional, Seguridad, Testing
 
-> #burpsuite #ffuf #hydra #pentest #redes #ssh #wordpress #wpscan
+> #burpsuite #cli #ffuf #funcional #hydra #javascript #pentest #redes #seguridad #testing #web #wordpress #wpscan #xss

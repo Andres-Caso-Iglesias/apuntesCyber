@@ -179,29 +179,23 @@ La semana que viene se entra en **SQL Injection**, siguiendo la misma estructura
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Burp Suite, Open Redirect, Redes
-- [[resumen_master_clase53.md|resumen_master_clase53]] — Burp Suite, Open Redirect, Redes
-- [[resumen_master_clase49.md|resumen_master_clase49]] — Burp Suite, Redes, SQL Injection
-- [[../../Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal - 6 Casos y Bypasses]] — Burp Suite, Path Traversal / LFI, Redes
-- [[../../apuntes Chema/PortSwigger - SSRF y cierre SSTI.md|PortSwigger - SSRF y cierre SSTI]] — Burp Suite, Open Redirect, Redes
-- [[../../apuntes evolve/BLOQUE 4.md|BLOQUE 4]] — Burp Suite, Redes, SQL Injection
+- [[../../Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF - Server-Side Request Forgery]] — Funcional, Open Redirect, XXE
+- [[../../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Funcional, SQL Injection, XXE
+- [[../../transcripciones/Septiembre/15.09.2026 SQLi - Inyecciones - Labs - Avanzado II.md|15.09.2026 SQLi - Inyecciones - Labs - Avanzado II]] — Funcional, Path Traversal / LFI, SQL Injection
+- [[../../apuntes Chema/PortSwigger - SSRF y cierre SSTI.md|PortSwigger - SSRF y cierre SSTI]] — Funcional, Open Redirect, Seguridad
+- [[resumen_master_clase52.md|resumen_master_clase52]] — Open Redirect, Path Traversal / LFI, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
+- [[../../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/PLSQL/fundamentos_plsql.md|fundamentos_plsql]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #ia #lfi #open-redirect #redes #sqli #ssrf #ssti #xxe
+> #burpsuite #cloud_base #funcional #ia_ml #lfi #open_redirect #redes #redes_ciber #seguridad #sql #sqli #ssrf #ssti #web #xxe

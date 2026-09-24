@@ -234,33 +234,23 @@ La máquina de HTB **no tiene Internet**, así que no puede descargar herramient
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Auditoria web.md|Auditoria web]] — Feroxbuster, Metasploitable / DVWA, WordPress
-- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — Feroxbuster, Hack The Box, Metasploitable / DVWA
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, File Upload, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Feroxbuster, Hack The Box, WordPress
-- [[Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Feroxbuster, Metasploitable / DVWA, WordPress
+- [[Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Hack The Box, Kali Linux
+- [[../Auditoria web.md|Auditoria web]] — File Upload, GoBuster, Kali Linux
+- [[HTB Starting Point - Repaso e inicio de Tier 2.md|HTB Starting Point - Repaso e inicio de Tier 2]] — File Upload, Hack The Box, Kali Linux
+- [[../Apuntes_Sesion27_XXE_LFI_Nike.md|Apuntes_Sesion27_XXE_LFI_Nike]] — GoBuster, Hack The Box, Kali Linux
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #gobuster #hack-the-box #idor #kali #linux #metasploit #metasploitable #netcat #nmap #pivoting #post-explotacion #redes #reverse-shell #sqli #sqlmap #ssh #windows #wordpress
+> #cli #dirsearch #docker #escalada_privilegios #feroxbuster #ffuf #file_upload #go #gobuster #hack_the_box #idor #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pivoting #post_explotacion #python #redes #redes_ciber #reverse_shell #sql #sqli #sqlmap_tool #ssh_tool #web #windows_ciber #wordpress

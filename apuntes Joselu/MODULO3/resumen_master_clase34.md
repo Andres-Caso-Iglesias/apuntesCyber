@@ -418,29 +418,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase33.md|resumen_master_clase33]] — Escalada de Privilegios, IDOR, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — IDOR, Linux, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
+- [[resumen_master_clase33.md|resumen_master_clase33]] — Hack The Box, Kali Linux, Seguridad
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Hack The Box, Post-Explotacion, Windows
+- [[../../apuntes Chema/OWASP API Top 10 Labs.md|OWASP API Top 10 Labs]] — Hack The Box, Kali Linux, Seguridad
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Kali Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Funcional, Rust, Seguridad
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Rust, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #command-injection #escalada-privilegios #feroxbuster #hack-the-box #ia #idor #kali #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows
+> #cli #command_injection #crypto #database #escalada_privilegios #feroxbuster #funcional #hack_the_box #ia_ml #idor #kali #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #rust #seguridad #smb_impacket #sql #ssh_tool #vulnhub #web #windows_ciber

@@ -135,29 +135,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Metasploit, SSH, Wireshark
-- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Empleabilidad, Metasploit, Wireshark
-- [[../../apuntes Chema/Mercado Laboral y Servicios.md|Mercado Laboral y Servicios]] — Empleabilidad, Hydra, Metasploit
-- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Metasploit, Post-Explotación, Redes
-- [[../../transcripciones/Mayo/28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque.md|28.05.2026 Repaso de Servicios, Mercado Laboral y Marco Mental de Ataque]] — Empleabilidad, Hydra, Metasploit
-- [[../../apuntes Chema/Sesion_25_Repaso_MercadoLaboral_Servicios.md|Sesion_25_Repaso_MercadoLaboral_Servicios]] — Empleabilidad, Hydra, Metasploit
+- [[../PREWORK/resumen_clase7.md|resumen_clase7]] — Blue Team / SOC, Netcat / Reverse Shells, Seguridad
+- [[../MODULO2/resumen_master_clase12.md|resumen_master_clase12]] — Desarrollo Web, Netcat / Reverse Shells, Seguridad
+- [[../PREWORK/resumen_clase12.md|resumen_clase12]] — Desarrollo Web, Netcat / Reverse Shells, Windows
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Nmap, Seguridad, Windows
+- [[../PREWORK/resumen_clase6.md|resumen_clase6]] — Blue Team / SOC, Netcat / Reverse Shells, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Ciberseguridad/fundamentals_ciberseguridad.md|fundamentals_ciberseguridad]] — Programacion: Arquitectura, Desarrollo Web, Seguridad
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Arquitectura, Desarrollo Web, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #blue-team #command-injection #empleabilidad #hydra #ia #metasploit #netcat #nmap #osint #post-explotacion #redes #reverse-shell #ssh #wifi #windows #wireshark
+> #arquitectura #blue_team #cli #cloud_base #command_injection #crypto #empleabilidad #hydra #ia_ml #kubernetes #metasploit #netcat #nmap #osint #redes #redes_ciber #reverse_shell #seguridad #ssh_tool #web #wifi #windows_ciber #wireshark

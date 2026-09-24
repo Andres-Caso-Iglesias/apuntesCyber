@@ -179,29 +179,23 @@ bind -n M-Down select-pane -D
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/SSH.md|SSH]] — Escalada de Privilegios, Linux, Metasploit
-- [[Telnet.md|Telnet]] — Escalada de Privilegios, Hydra, Wireshark
-- [[../informes/Informe_Cap.md|Informe_Cap]] — Escalada de Privilegios, Metasploit, Wireshark
-- [[../Apuntes/comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, Linux
-- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, Linux
-- [[../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Linux, Metasploit
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/SSH.md|SSH]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[Telnet.md|Telnet]] — Desarrollo Web, Linux, Tmux
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Fundamentos.md|Linux - Fundamentos]] — Desarrollo Web, Linux, Metodologia Pentest
+- [[../Apuntes/comandos/Linux.md|Linux]] — Desarrollo Web, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #escalada-privilegios #hydra #lfi #linux #metasploit #pentest #post-explotacion #redes #ssh #telnet #tmux #windows #wireshark
+> #cli #escalada_privilegios #hydra #lfi #linux #linux_ciber #metasploit #pentest #redes #ssh_tool #telnet #tmux #web #wireshark

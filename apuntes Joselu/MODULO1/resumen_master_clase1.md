@@ -179,21 +179,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../PREWORK/resumen_clase1_.md|resumen_clase1_]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
-- [[resumen_master_clase7.md|resumen_master_clase7]] — Hack The Box, Pivoting / Movilidad Lateral, Redes
-- [[resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Linux, Pivoting / Movilidad Lateral
-- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Forense Digital, Pivoting / Movilidad Lateral, Redes
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — Blue Team / SOC, Funcional, Hack The Box
+- [[../../apuntes Chema/Maquinas/Hack The Box- Starting Point - Tier 0.md|Hack The Box- Starting Point - Tier 0]] — Blue Team / SOC, Hack The Box, Kali Linux
+- [[resumen_master_clase2.md|resumen_master_clase2]] — Blue Team / SOC, IA/ML, Kali Linux
+- [[resumen_master_clase7.md|resumen_master_clase7]] — Hack The Box, Kali Linux, Seguridad
+- [[../PREWORK/resumen_clase11.md|resumen_clase11]] — Blue Team / SOC, Funcional, Hack The Box
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/Docker/compose_avanzado.md|compose_avanzado]] — Programacion: Funcional, Linux, Seguridad
+- [[../../../programacion/PowerShell/fundamentos_powershell.md|fundamentos_powershell]] — Programacion: Linux, Seguridad, Testing
 
-> #blue-team #certificaciones #forense #hack-the-box #ia #kali #linux #normativa #osint #pivoting #redes #tmux #vulnhub #windows
+> #blue_team #certificaciones #cli #cloud_base #forense #funcional #hack_the_box #ia_ml #kali #linux #linux_ciber #normativa #osint #pivoting #redes #seguridad #testing #tmux #vulnhub #windows_ciber

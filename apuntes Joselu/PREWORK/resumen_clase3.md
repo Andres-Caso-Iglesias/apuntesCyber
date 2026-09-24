@@ -139,21 +139,23 @@ Conceptos y términos clave corregidos Término en la transcripción Corrección
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase11.md|resumen_clase11]] — Forense Digital, Metodología Pentest, Redes
-- [[resumen_clase7.md|resumen_clase7]] — Escalada de Privilegios, Forense Digital, Post-Explotación
-- [[../../informes/Informr_legacy.md|Informr_legacy]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Forense Digital, Metodología Pentest, Post-Explotación
-- [[resumen_clase14.md|resumen_clase14]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[resumen_clase4.md|resumen_clase4]] — Escalada de Privilegios, Post-Explotación, Redes
+- [[resumen_clase7.md|resumen_clase7]] — Blue Team / SOC, Normativa / GRC, Seguridad
+- [[../../apuntes evolve/BLOQUE 1.md|BLOQUE 1]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[resumen_clase4.md|resumen_clase4]] — Desarrollo Web, Metodologia Pentest, Seguridad
+- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../../informes/Informr_legacy.md|Informr_legacy]] — Blue Team / SOC, Metodologia Pentest, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../../cloud/azure_nsg.md|azure_nsg]] — Cloud: Desarrollo Web, Redes, Seguridad
+- [[../../../cloud/azure_blob.md|azure_blob]] — Cloud: Desarrollo Web, Redes, Seguridad
 
-> #blue-team #certificaciones #escalada-privilegios #forense #ia #nmap #normativa #pentest #post-explotacion #redes #windows
+> #blue_team #certificaciones #cloud_base #escalada_privilegios #forense #ia_ml #nmap #normativa #pentest #post_explotacion #redes #redes_ciber #seguridad #web #windows_ciber

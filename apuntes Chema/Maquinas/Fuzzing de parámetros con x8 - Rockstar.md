@@ -192,26 +192,23 @@ Se aplicó `x8_lite.py` sobre `index.php` (POST) de la máquina rockstar. El scr
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — FFUF, Feroxbuster, Hydra
-- [[../Fuzzing Web.md|Fuzzing Web]] — FFUF, Feroxbuster, Hydra
-- [[../../comandos/00 - Índice de Comandos.md|00 - Índice de Comandos]] — FFUF, Feroxbuster, Hydra
-- [[../Anonimato, Ingeniería Social y Enumeración Web.md|Anonimato, Ingeniería Social y Enumeración Web]] — FFUF, Feroxbuster, GoBuster
-- [[../Apuntes_AuditoriaWeb_LFI_EscaladaLinux.md|Apuntes_AuditoriaWeb_LFI_EscaladaLinux]] — FFUF, Feroxbuster, Hydra
-- [[../../apuntes Andres/22.06.2026 Metodologías de Enumeración Web.md|22.06.2026 Metodologías de Enumeración Web]] — Feroxbuster, Hack The Box, Redes
+- [[../../Apuntes/05 - Auditoria Web/Fuzzing Web con ffuf.md|Fuzzing Web con ffuf]] — DirSearch, GoBuster, Hack The Box
+- [[../../Apuntes/comandos/DirSearch.md|DirSearch]] — DirSearch, GoBuster, Linux
+- [[../../Apuntes/02 - Sistemas Operativos/Migrar VM VirtualBox a VMware.md|Migrar VM VirtualBox a VMware]] — DirSearch, GoBuster, Hack The Box
+- [[../../comandos/DirSearch.md|DirSearch]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../apuntes Joselu/PREWORK/resumen_clase18.md|resumen_clase18]] — DirSearch, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: Linux, Python, Redes
+- [[../../../cloud/github_actions.md|github_actions]] — Cloud: Linux, Python, Redes
 
-> #burpsuite #feroxbuster #ffuf #gobuster #hack-the-box #hydra #kali #linux #redes #ssh #windows
+> #burpsuite #dirsearch #feroxbuster #ffuf #gobuster #hack_the_box #hydra #kali #linux #linux_ciber #python #redes #web #windows_ciber

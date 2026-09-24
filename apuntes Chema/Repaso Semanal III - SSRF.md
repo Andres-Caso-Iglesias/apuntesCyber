@@ -229,33 +229,23 @@ A la vuelta: **Hack The Box**, ruta **eJPTv2 → OSCP**, **Blue Team** con Edu y
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Command Injection / RCE, Hack The Box, WiFi / Hardware
-- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Burp Suite, Command Injection / RCE, Hack The Box
-- [[../apuntes Joselu/MODULO3/resumen_master_clase54.md|resumen_master_clase54]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Metasploit, Metodología Pentest, Pivoting / Movilidad Lateral
-- [[Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — Metasploit, Metodología Pentest, SSH
+- [[../transcripciones/Julio/24.07.2026 Repaso Semanal III.md|24.07.2026 Repaso Semanal III]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../transcripciones/Julio/28.07.2026 Repaso General Metodologia Web y Command Injection.md|28.07.2026 Repaso General Metodologia Web y Command Injection]] — Hack The Box, Nmap, Post-Explotacion
+- [[../apuntes Andres/20.07.2026 PortSwigger SSRF.md|20.07.2026 PortSwigger SSRF]] — Command Injection / RCE, Post-Explotacion, Seguridad
+- [[../apuntes Joselu/MODULO3/resumen_master_clase52.md|resumen_master_clase52]] — Blue Team / SOC, Hack The Box, Open Redirect
+- [[../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Post-Explotacion, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Funcional, Seguridad, Testing
+- [[../../cloud/gcp_cloudsql.md|gcp_cloudsql]] — Cloud: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #blue-team #burpsuite #certificaciones #command-injection #dirsearch #hack-the-box #ia #lfi #metasploit #netcat #nmap #open-redirect #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #ssrf #ssti #wifi
+> #blue_team #burpsuite #certificaciones #cli #cloud_base #command_injection #database #dirsearch #funcional #hack_the_box #lfi #metasploit #netcat #nmap #open_redirect #pentest #pivoting #post_explotacion #redes #redes_ciber #seguridad #sql #ssh_tool #ssrf #ssti #testing #web #wifi

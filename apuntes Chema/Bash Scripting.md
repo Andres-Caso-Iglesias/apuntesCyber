@@ -76,21 +76,23 @@ Un script es un fichero de texto con comandos Bash que se ejecutan secuencialmen
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
-- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Nmap, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Nmap, Redes, Windows
-- [[Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Nmap, Redes, Windows
-- [[../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Forense Digital, Redes
-- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Redes, Windows
+- [[Fundamentos de Linux.md|Fundamentos de Linux]] — Kali Linux, Linux, Seguridad
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Linux, Windows
+- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Consolas - Bash y PowerShell.md|Consolas - Bash y PowerShell]] — Kali Linux, Linux, Windows
+- [[../informes/Informe_Blue.md|Informe_Blue]] — Linux, Nmap, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../cloud/docker_compose_cloud.md|docker_compose_cloud]] — Cloud: Docker, Linux, Seguridad
+- [[../../programacion/Linux/fundamentos_linux.md|fundamentos_linux]] — Programacion: Docker, Linux, Seguridad
 
-> #blue-team #forense #kali #linux #nmap #redes #windows
+> #blue_team #cli #docker #forense #kali #linux #linux_ciber #nmap #redes #redes_ciber #seguridad #windows_ciber

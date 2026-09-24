@@ -305,21 +305,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Forense Digital, Metasploit, Redes
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Metasploit, Wireshark
-- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Forense Digital, Redes, Wireshark
-- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Wireshark
-- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Metasploit, Wireshark
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Blue Team / SOC, Linux, Seguridad
+- [[../PREWORK/resumen_clase8.md|resumen_clase8]] — Blue Team / SOC, Linux, Seguridad
+- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Linux, Windows
+- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Blue Team / SOC, Linux, Seguridad
+- [[../../Apuntes/11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Blue Team / SOC, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
+- [[../../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Rust, Seguridad
+- [[../../../programacion/C/Networking_c.md|Networking_c]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-> #blue-team #forense #ia #linux #metasploit #redes #windows #wireshark
+> #blue_team #cli #cloud_base #crypto #forense #ia_ml #linux #linux_ciber #metasploit #redes #rust #seguridad #web #windows_ciber #wireshark

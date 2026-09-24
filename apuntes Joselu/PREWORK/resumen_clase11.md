@@ -152,21 +152,23 @@ Término en la transcripción Corrección / Aclaración “ análisis dinámico 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_clase3.md|resumen_clase3]] — Forense Digital, Metodología Pentest, Redes
-- [[resumen_clase1_.md|resumen_clase1_]] — Metodología Pentest, Pivoting / Movilidad Lateral, Redes
-- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Forense Digital, Metodología Pentest, Pivoting / Movilidad Lateral
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Normativa / GRC, Redes
-- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Forense Digital, Pivoting / Movilidad Lateral, Redes
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Metodología Pentest, Pivoting / Movilidad Lateral
+- [[resumen_clase1_.md|resumen_clase1_]] — Hack The Box, Metodologia Pentest, Normativa / GRC
+- [[../MODULO1/resumen_master_clase1.md|resumen_master_clase1]] — Blue Team / SOC, Funcional, Hack The Box
+- [[../../transcripciones/Junio/02.06.2026 Introducción a HackTheBox Starting Point Tier0.md|02.06.2026 Introducción a HackTheBox Starting Point Tier0]] — Funcional, Hack The Box, Testing
+- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Blue Team / SOC, IA/ML, Metodologia Pentest
+- [[../../transcripciones/Septiembre/01.09.2026 Repaso General I.md|01.09.2026 Repaso General I]] — Blue Team / SOC, Funcional, Hack The Box
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
+- [[../../../programacion/Go/fundamentos_go.md|fundamentos_go]] — Programacion: Funcional, Seguridad, Testing
+- [[../../../programacion/UML/desarrollo_software.md|desarrollo_software]] — Programacion: Funcional, Seguridad, Testing
 
-> #blue-team #certificaciones #forense #hydra #ia #normativa #pentest #pivoting #redes #windows #wordpress
+> #arquitectura #blue_team #certificaciones #cloud_base #devops #forense #funcional #go #hack_the_box #hydra #ia_ml #java #kubernetes #normativa #pentest #pivoting #redes #seguridad #testing #windows_ciber #wordpress

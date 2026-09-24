@@ -366,37 +366,23 @@ Cambios de nivel derivados de esta sesión (para copiar a la base de conocimient
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Andres/16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking.md|16.06.2026 Mr. Robot Explotación Web Completa File Upload, Reverse Shell y SUID Hijacking]] — Burp Suite, Command Injection / RCE, WordPress
+- [[../Auditoria web.md|Auditoria web]] — GoBuster, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Kali Linux, Seguridad
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — GoBuster, Kali Linux, Seguridad
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Kali Linux
+- [[../../transcripciones/Julio/01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress.md|01.07.2026 Explotación Web WPScan File Upload y Reverse Shell en WordPress]] — GoBuster, Kali Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #ffuf #file-upload #forense #gobuster #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan #xss
+> #burpsuite #cli #cloud_base #command_injection #dirsearch #escalada_privilegios #feroxbuster #ffuf #file_upload #forense #funcional #go #gobuster #hydra #java #javascript #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #web #windows_ciber #wordpress #wpscan #xss

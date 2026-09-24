@@ -157,24 +157,23 @@ QUIT
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Tmux.md|Tmux]] — Escalada de Privilegios, Hydra, Wireshark
-- [[../informes/Informe_Cap.md|Informe_Cap]] — Escalada de Privilegios, SSH, Wireshark
-- [[../Apuntes/comandos/Linux.md|Linux]] — Escalada de Privilegios, Hydra, SSH
-- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Hydra, SSH
-- [[../Apuntes/comandos/SSH.md|SSH]] — Escalada de Privilegios, Hydra, SSH
-- [[../informes/Informe_Banco.md|Informe_Banco]] — Post-Explotación, SSH, Wireshark
+- [[../apuntes Andres/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Desarrollo Web, Linux, Linux
+- [[Tmux.md|Tmux]] — Desarrollo Web, Linux, Tmux
+- [[../Apuntes/comandos/Hydra.md|Hydra]] — Desarrollo Web, Linux, Linux
+- [[../Apuntes/comandos/Linux.md|Linux]] — Desarrollo Web, Linux, Linux
+- [[Hydra.md|Hydra]] — Desarrollo Web, Redes, SQL
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
-- [[comandos/Tmux|Tmux]]
+- [[../../programacion/SQL/fundamentos_sql.md|fundamentos_sql]] — Programacion: Desarrollo Web, Linux, Testing
+- [[../../programacion/Ciberseguridad/wordpress_security.md|wordpress_security]] — Programacion: Desarrollo Web, Linux, Testing
 
-> #escalada-privilegios #hydra #linux #post-explotacion #redes #ssh #telnet #tmux #wireshark
+> #escalada_privilegios #hydra #linux #linux_ciber #redes #redes_ciber #sql #ssh_tool #telnet #testing #tmux #web #wireshark

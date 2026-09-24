@@ -271,17 +271,23 @@ Término Explicación
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../PREWORK/resumen_clase9.md|resumen_clase9]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — IA en Ciberseguridad, Normativa / GRC, Redes
+- [[../../transcripciones/Julio/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Funcional, Normativa / GRC, Testing
+- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Funcional, Normativa / GRC, Testing
+- [[../../transcripciones/Julio/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — DevOps, Funcional, Testing
+- [[../../apuntes Andres/29.07.2026 Presentación Práctica 1.md|29.07.2026 Presentación Práctica 1]] — Desarrollo Web, Normativa / GRC, Testing
+- [[../../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — Funcional, Seguridad, Testing
 
-> #ia #normativa #redes
+### 🌐 Cross-Dominio
+
+- [[../../../programacion/Rust/patrones_rust.md|patrones_rust]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Python/testing_python.md|testing_python]] — Programacion: Python, Seguridad, Testing
+
+> #arquitectura #database #devops #funcional #git #ia_ml #javascript #kubernetes #normativa #python #redes #seguridad #testing #web

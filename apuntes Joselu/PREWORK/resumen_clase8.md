@@ -168,25 +168,23 @@ Término en la transcripción Corrección / Aclaración datos de tarjetas n map 
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Forense Digital, Linux, Wireshark
-- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Redes, Wireshark
-- [[../../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Blue Team / SOC, Linux, Redes
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — Blue Team / SOC, IA en Ciberseguridad, Redes
+- [[../../transcripciones/Septiembre/14.09.2026 SQLi - Inyecciones - Labs - Avanzado I.md|14.09.2026 SQLi - Inyecciones - Labs - Avanzado I]] — Blue Team / SOC, Funcional, SQL Injection
+- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Linux, Nmap, Seguridad
+- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Blue Team / SOC, SQL Injection, Seguridad
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Blue Team / SOC, Linux, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/Ciberseguridad/fundamentals_ciberseguridad.md|fundamentals_ciberseguridad]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Ciberseguridad/diccionario_ciberseguridad.md|diccionario_ciberseguridad]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #forense #ia #linux #nmap #normativa #redes #sqli #wireshark
+> #arquitectura #blue_team #cli #cloud_base #crypto #docker #forense #funcional #ia_ml #kubernetes #linux #linux_ciber #nmap #normativa #redes #redes_ciber #seguridad #sql #sqli #web #wireshark

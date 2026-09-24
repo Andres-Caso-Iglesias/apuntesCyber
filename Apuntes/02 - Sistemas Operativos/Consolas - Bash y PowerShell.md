@@ -16,6 +16,43 @@
 
 ---
 
+## ①bis Terminal vs Shell — no son lo mismo
+
+| Concepto | Qué es | Ejemplos |
+|----------|--------|---------|
+| **Terminal** | El programa que muestra la ventana donde escribimos | GNOME Terminal, iTerm2, Windows Terminal |
+| **Shell** | El intérprete que corre *dentro* de la terminal | **Bash**, **Zsh**, **PowerShell**, **CMD** |
+
+Bash y PowerShell son dos shells distintas que pueden abrirse dentro del mismo programa Windows Terminal.
+
+**Bash** (*Bourne Again Shell*) es el intérprete estándar de la gran mayoría de distribuciones Linux; fue el shell por defecto de macOS hasta Catalina (2019), cuando fue sustituido por **Zsh** (sintaxis prácticamente idéntica).
+
+> [!info] Kali moderno
+> Las versiones nuevas de Kali usan **ZSH** por defecto, pero el 99 % de los servidores que auditarás usan Bash. Especificar `#!/bin/bash` en el shebang garantiza que el script se interprete como Bash independientemente del shell activo.
+
+---
+
+## ②bis Estructura de un comando
+
+```
+comando [opciones] [argumento1] [argumento2]
+```
+
+- **Opciones cortas**: un guion + letra (`ls -l`); se pueden combinar (`ls -la` = `ls -l -a`).
+- **Opciones largas**: dos guiones + palabra (`--help`, `--verbose`); no se combinan.
+- Para ver todas las opciones: `comando --help` o `man comando`.
+
+### Editores de texto en terminal
+
+| Editor | Estilo | Guardar y salir |
+|--------|--------|-----------------|
+| **vi / vim** | Old school | `i` insertar, Esc, `:wq` guardar y salir, `:q!` salir sin guardar |
+| **nano** | Moderno y sencillo | `Ctrl+X` para salir, confirmar guardado |
+| **micro** | Más moderno con colores | Instalación necesaria; intuitivo |
+| `touch` / `cat` | **No son editores** | `touch` solo crea el fichero; `cat` solo muestra |
+
+---
+
 ## ② Anatomía de la terminal Bash
 
 ```
@@ -58,6 +95,45 @@ kali@kali:~$
 
 > [!tip] PENTEST
 > PowerShell permite ejecutar código en memoria, descargar payloads y moverse lateralmente. Por eso muchas empresas restringen su ejecución.
+
+---
+
+## ③bis CMD vs PowerShell (Windows)
+
+| Característica | CMD | PowerShell |
+|----------------|-----|-----------|
+| Antigüedad | Heredado de MS-DOS | Moderno (2006) |
+| Comandos Linux | No (solo `ls` en versiones recientes) | Sí (`ls`, `cat`, `cd`...) |
+| Cmdlets propios | No | Sí (`Get-Process`, `Set-Item`...) |
+| Scripting avanzado | Limitado | Completo (bucles, objetos, .NET) |
+| Ejecutar `.exe` | Directamente por nombre | Con `.\ejecutable.exe` o ruta completa |
+| Monitorización EDR | Menor | **PowerShell es más potente pero más monitorizado** |
+
+| Acción | Linux | CMD Windows |
+|--------|-------|-------------|
+| Listar | `ls` / `ls -la` | `dir` / `dir /a` |
+| Listar recursivo | `find / -name "*.txt"` | `dir /s *.txt` |
+| Limpiar pantalla | `clear` | `cls` |
+| Filtrar texto | `grep "texto" fichero` | `findstr "texto" fichero` |
+| Historial | `history` | `doskey /history` |
+| Borrar recursivo (silencioso) | `rm -rf` | `rd /s /q` (el `/q` evita alertas en el SIEM) |
+| Guardar/volver de directorio | — | `pushd ruta` / `popd` |
+
+- Desde CMD se puede lanzar `powershell.exe` y viceversa (`cmd.exe`).
+- `sudo !!` (en Bash) repite el último comando con privilegios; en Windows: clic derecho → "Ejecutar como administrador".
+- **Trampa de PowerShell**: también acepta `ls`, por lo que en ejercicios "¿Windows acepta ls?" la respuesta es sí.
+
+### Equivalencias clave whoami
+
+```powershell
+whoami # máquina\usuario actual
+whoami /all # usuario, SID, grupos y privilegios
+whoami /priv # solo privilegios (buscar SeImpersonatePrivilege)
+whoami /groups # grupos a los que pertenece
+```
+
+> [!important] SID
+> El **SID** (*Security Identifier*) es el DNI de Windows: el nombre puede cambiar pero el SID es permanente; muchas técnicas exigen especificar el SID.
 
 ---
 
@@ -106,6 +182,19 @@ pip install herramienta # paquetes Python
 | **VMware** | Más rendimiento. Preferido en el máster. |
 | **WSL2** | Bash en Windows. No recomendado para el máster. |
 
+### Formatos de disco virtual
+
+| Formato | Hipervisor |
+|---------|-----------|
+| **VDI** | VirtualBox |
+| **VMDK** | VMware (también lo genera VirtualBox) |
+| **OVA/OVF** | Paquete exportable con VM + configuración (doble clic para importar) |
+
+Una VM descargada puede venir solo como `.vmdk` (disco con todo el sistema dentro) sin `.ova`: en VirtualBox se monta creando la VM a mano y eligendo **"Usar un disco duro virtual existente"**.
+
+> [!tip] Instantáneas
+> En VirtualBox: botón derecho sobre la máquina → *Instantáneas* → *Tomar instantánea* (con la máquina encendida o apagada). Es una "foto" del estado: permite volver a él si rompes algo (p. ej. con `rm -rf`). Complemento ideal: guardar siempre una imagen base limpia como `.ova`.
+
 ### Red en VMs
 
 | Modo | Comunicación | Uso |
@@ -132,22 +221,23 @@ pip install herramienta # paquetes Python
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Linux, Redes, Tmux
-- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
+- [[../../apuntes Chema/Migrar una Máquina Virtual de VirtualBox a VMware Workstation.md|Migrar una Máquina Virtual de VirtualBox a VMware Workstation]] — Kali Linux, Linux, Redes
+- [[../comandos/Tmux.md|Tmux]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Metodologia Pentest, Windows
+- [[../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Metodologia Pentest
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #kali #linux #nmap #pentest #redes #tmux #windows
+> #cli #kali #linux #linux_ciber #nmap #pentest #redes #tmux #windows_ciber

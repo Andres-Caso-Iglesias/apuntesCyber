@@ -189,17 +189,23 @@ La práctica 1 del máster consistirá en construir una herramienta de est e tip
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[resumen_master_clase13.md|resumen_master_clase13]] — IA en Ciberseguridad, Redes, Windows
-- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — IA en Ciberseguridad, Kali Linux, Redes
-- [[../MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — IA en Ciberseguridad, Redes, Windows
-- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Kali Linux, Redes, Windows
-- [[../PREWORK/resumen_clase14.md|resumen_clase14]] — Kali Linux, Redes, Windows
-- [[../../apuntes Andres/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Kali Linux, Redes, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Kali Linux, Linux, Seguridad
+- [[../MODULO1/resumen_master_clase7.md|resumen_master_clase7]] — Kali Linux, Linux, Seguridad
+- [[../PREWORK/resumen_clase18.md|resumen_clase18]] — Kali Linux, Linux, Seguridad
+- [[../../apuntes Andres/15.07.2026 IA Introducción y Vibe Coding.md|15.07.2026 IA Introducción y Vibe Coding]] — Desarrollo Web, Kali Linux, Linux
+- [[../../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Desarrollo Web, Kali Linux, Linux
 
-> #ia #kali #linux #osint #redes #windows
+### 🌐 Cross-Dominio
+
+- [[../../../programacion/C/seguridad_c.md|seguridad_c]] — Programacion: Arquitectura, Linux, Seguridad
+- [[../../../ia/jupyter_setup.md|jupyter_setup]] — IA: Python, Redes, Seguridad
+
+> #arquitectura #cli #ia_ml #kali #linux #linux_ciber #osint #python #redes #seguridad #web #windows_ciber

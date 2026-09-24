@@ -162,17 +162,23 @@ Término en la transcripción Corrección / Aclaración cross selling / lab sell
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase46.md|resumen_master_clase46]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Certificaciones, Normativa / GRC, Redes
-- [[../../apuntes evolve/BLOQUE 13.md|BLOQUE 13]] — IA en Ciberseguridad, Normativa / GRC, Redes
-- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Certificaciones, Normativa / GRC, Redes
-- [[../../Apuntes/14 - IA en Ciberseguridad/IA en Ciberseguridad.md|IA en Ciberseguridad]] — Certificaciones, Normativa / GRC, Redes
-- [[resumen_clase1_.md|resumen_clase1_]] — Certificaciones, Normativa / GRC, Redes
+- [[../../apuntes evolve/BLOQUE 12.md|BLOQUE 12]] — Criptografia, Redes, Seguridad
+- [[../../Apuntes/13 - Normativa y GRC/Normativa - ISO 27001, GDPR, ENS.md|Normativa - ISO 27001, GDPR, ENS]] — Criptografia, Normativa / GRC, Seguridad
+- [[resumen_clase1_.md|resumen_clase1_]] — Criptografia, Normativa / GRC, Seguridad
+- [[../MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Criptografia, Desarrollo Web, Seguridad
+- [[resumen_clase3.md|resumen_clase3]] — Desarrollo Web, Normativa / GRC, Seguridad
 
-> #certificaciones #ia #normativa #redes
+### 🌐 Cross-Dominio
+
+- [[../../../cloud/azure_blob.md|azure_blob]] — Cloud: Criptografia, Desarrollo Web, Seguridad
+- [[../../../iot/iot_security.md|iot_security]] — IoT: Criptografia, Desarrollo Web, Seguridad
+
+> #certificaciones #cli #cloud_base #crypto #ia_ml #normativa #redes #seguridad #web

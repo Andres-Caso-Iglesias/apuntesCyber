@@ -96,22 +96,23 @@ Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Escalada de Privilegios, Metasploit, Post-Explotación
-- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Escalada de Privilegios, Post-Explotación, Redes
-- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Escalada de Privilegios, Hack The Box, Metasploit
-- [[../apuntes Chema/Maquinas/Vaccine.md|Vaccine]] — Escalada de Privilegios, Hack The Box, Metasploit
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Hack The Box, Metasploit
-- [[../comandos/Metasploit.md|Metasploit]] — Metasploit, Post-Explotación, Redes
+- [[../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[../apuntes evolve/BLOQUE 15.md|BLOQUE 15]] — Blue Team / SOC, Metodologia Pentest, Testing
+- [[../apuntes Joselu/PREWORK/resumen_clase4.md|resumen_clase4]] — Metodologia Pentest, Seguridad, Testing
+- [[../apuntes Joselu/PREWORK/resumen_clase3.md|resumen_clase3]] — Blue Team / SOC, Metodologia Pentest, Seguridad
+- [[Informe_vaccine.md|Informe_vaccine]] — Hack The Box, Metodologia Pentest, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: Redes, Seguridad, Testing
+- [[../../redes/curl_wget.md|curl_wget]] — Redes: Redes, Seguridad, Testing
 
-> #blue-team #escalada-privilegios #hack-the-box #metasploit #nmap #pentest #post-explotacion #redes #windows
+> #blue_team #crypto #escalada_privilegios #hack_the_box #metasploit #nmap #pentest #post_explotacion #redes #redes_ciber #seguridad #testing #windows_ciber

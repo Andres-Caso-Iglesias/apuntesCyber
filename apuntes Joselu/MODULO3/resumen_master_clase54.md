@@ -329,31 +329,23 @@ Django) que, si se extrae via SSTI, permite falsificar tokens de sesión
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[resumen_master_clase52.md|resumen_master_clase52]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/Repaso Semanal III - SSRF.md|Repaso Semanal III - SSRF]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Metasploit, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../apuntes Andres/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hack The Box, Metasploit, Netcat / Reverse Shells
-- [[resumen_master_clase49.md|resumen_master_clase49]] — Metasploit, Post-Explotación, SQL Injection
+- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../../Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI - Server-Side Template Injection]] — Netcat / Reverse Shells, SQL Injection, Testing
+- [[resumen_master_clase55.md|resumen_master_clase55]] — Hack The Box, Post-Explotacion, Seguridad
+- [[../../transcripciones/Julio/27.07.2026 PortSwigger SSTI.md|27.07.2026 PortSwigger SSTI]] — Hack The Box, Post-Explotacion, Seguridad
+- [[resumen_master_clase47.md|resumen_master_clase47]] — Hack The Box, Post-Explotacion, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Seguridad, Testing
+- [[../../../programacion/Rust/patrones_rust.md|patrones_rust]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-
-> #burpsuite #command-injection #hack-the-box #ia #metasploit #metasploitable #netcat #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #ssrf #ssti
+> #burpsuite #cli #command_injection #database #docker #hack_the_box #ia_ml #java #javascript #metasploit #metasploitable #netcat #pentest #pivoting #post_explotacion #python #redes #reverse_shell #seguridad #sql #sqli #ssh_tool #ssrf #ssti #testing #web

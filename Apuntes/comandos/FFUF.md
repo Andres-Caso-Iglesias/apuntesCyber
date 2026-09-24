@@ -89,24 +89,23 @@ SecLists/Discovery/DNS/subdomains-top1million-5000.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, Feroxbuster
-- [[../../comandos/GoBuster.md|GoBuster]] — DirSearch, FFUF, Feroxbuster
-- [[DirSearch.md|DirSearch]] — DirSearch, FFUF, Feroxbuster
+- [[../../comandos/FFUF.md|FFUF]] — Desarrollo Web, DirSearch, GoBuster
+- [[Feroxbuster.md|Feroxbuster]] — DirSearch, FFUF, GoBuster
+- [[GoBuster.md|GoBuster]] — DirSearch, FFUF, GoBuster
+- [[../../comandos/DirSearch.md|DirSearch]] — Desarrollo Web, DirSearch, GoBuster
+- [[../../comandos/Feroxbuster.md|Feroxbuster]] — Desarrollo Web, DirSearch, GoBuster
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../programacion/Arduino/fundamentos_arduino.md|fundamentos_arduino]] — Programacion: Redes, SQL
 
-> #dirsearch #feroxbuster #ffuf #gobuster #redes
+> #dirsearch #feroxbuster #ffuf #gobuster #redes #sql #web

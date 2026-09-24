@@ -469,30 +469,23 @@ cat /root/root.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, SSH
-- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — Escalada de Privilegios, FFUF, Hydra
-- [[Castor-THL.md|Castor-THL]] — Escalada de Privilegios, Hydra, John / Hashcat
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, John / Hashcat, SSH
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — Escalada de Privilegios, FFUF, Hydra
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Desarrollo Web, GoBuster, Kali Linux
+- [[../apuntes Chema/Maquinas/Explotación avanzada de servicios vulnerables II.md|Explotación avanzada de servicios vulnerables II]] — FFUF, Kali Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase23.md|resumen_master_clase23]] — FFUF, Kali Linux, Nmap
+- [[../Apuntes/06 - Explotacion y Post-Explotacion/Explotación Avanzada de Servicios Vulnerables II - Metasploitable.md|Explotación Avanzada de Servicios Vulnerables II - Metasploitable]] — FFUF, Kali Linux, Nmap
+- [[../apuntes Chema/Maquinas/Rockstar - Escalada Linux y LFI.md|Rockstar - Escalada Linux y LFI]] — FFUF, GoBuster, Nmap
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../programacion/SQL/inyeccion_sql.md|inyeccion_sql]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-
-> #escalada-privilegios #ffuf #gobuster #hydra #john #kali #lfi #linux #metasploitable #nmap #post-explotacion #redes #ssh
+> #cli #crypto #database #escalada_privilegios #ffuf #git #gobuster #hydra #java #javascript #john_hashcat #kali #lfi #linux #linux_ciber #metasploitable #nmap #post_explotacion #python #redes #redes_ciber #sql #ssh_tool #web

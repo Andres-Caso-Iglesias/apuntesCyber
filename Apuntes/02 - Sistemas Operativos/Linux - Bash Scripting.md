@@ -19,6 +19,21 @@
 > [!important] SHEBANG
 > `#!/bin/bash` al inicio es **obligatorio**. Sin él, puede interpretarse con `sh` (shell básica) con diferencias de sintaxis.
 
+> [!warning] ERRORES COMUNES (vistos en clase)
+> - Escribir `*` en lugar de `#` al inicio del shebang: `*` se interpreta como comodín, no como comentario.
+> - No mover el script al PATH: funciona con `./nombre` desde su carpeta, pero no es un "comando" hasta que se mueve a una ruta del PATH.
+> - Ruta destino incorrecta al mover (ej. `bin` en vez de `/usr/local/bin`): usar `echo $PATH` para confirmar rutas.
+> - `sudo su` innecesario: basta `sudo` delante del comando concreto.
+
+### Comando personalizado completo
+
+```bash
+# 1. Crear con nano: primera línea #!/bin/bash
+# 2. chmod +x nombre_comando
+# 3. Mover al PATH: sudo mv nombre_comando /usr/local/bin/
+# 4. Invocar desde cualquier parte escribiendo su nombre
+```
+
 ---
 
 ## ② Variables
@@ -197,6 +212,34 @@ shred -u ~/.bash_history # borrado seguro
 
 ---
 
+## ⑨ Inyección de comandos — donde el scripting se vuelve ataque
+
+Los operadores de Bash son exactamente los que se explotan en **Command Injection**:
+
+```bash
+# Escenario: el servidor ejecuta
+find /home/web -name "$INPUT"
+
+# Ataque con punto y coma (si no sanitiza):
+INPUT="hola.txt ; id"
+# → find /home/web -name "hola.txt" ; id  → ejecuta id como el usuario web
+```
+
+| Operador | Comportamiento |
+|----------|---------------|
+| `\|` (pipe) | La salida del primero es la entrada del segundo |
+| `;` | Ejecuta ambos **siempre** → base de la inyección |
+| `&&` | El segundo solo si el primero tuvo éxito (salida 0) |
+| `\|\|` | El segundo solo si el primero falló |
+| `&` | Ejecuta en segundo plano |
+
+**Defensa**: envolver la entrada en comillas dobles (`"$INPUT"`) hace que el `;` se interprete como texto literal. Mecanismo análogo a la SQL Injection: se altera el flujo introduciendo caracteres con significado propio en el lenguaje subyacente.
+
+> [!info] LinPEAS / WinPEAS
+> Scripts de enumeración automática de escalada de privilegios (autor: **Carlos Polop**). Lanzan decenas de comandos `find`, `uname` y comprobaciones de permisos, y colorean los resultados según criticidad.
+
+---
+
 ## Checklist de repaso
 
 - [ ] ¿Sé crear y ejecutar un script con shebang?
@@ -211,22 +254,23 @@ shred -u ~/.bash_history # borrado seguro
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Forense Digital, Redes
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase22.md|resumen_master_clase22]] — Forense Digital, Metasploit, Redes
-- [[../../informes/Informe_Blue.md|Informe_Blue]] — Metasploit, Nmap, Redes
-- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Redes
-- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Forense Digital, Nmap, Redes
-- [[../../apuntes evolve/BLOQUE 11.md|BLOQUE 11]] — Forense Digital, Metasploit, Redes
+- [[../../informes/Informe_Blue.md|Informe_Blue]] — Linux, Nmap, Windows
+- [[../../apuntes Chema/Bash Scripting.md|Bash Scripting]] — Blue Team / SOC, Linux, Windows
+- [[../comandos/Netcat.md|Netcat]] — Linux, Linux, Windows
+- [[../comandos/Nmap.md|Nmap]] — Linux, Linux, Windows
+- [[../../apuntes Chema/Fundamentos de Linux.md|Fundamentos de Linux]] — Linux, Nmap, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #blue-team #forense #linux #metasploit #nmap #redes #windows
+> #blue_team #cli #forense #linux #linux_ciber #metasploit #nmap #redes #windows_ciber

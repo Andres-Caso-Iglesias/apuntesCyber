@@ -133,12 +133,53 @@ tcp.flags.syn == 1 && ip.dst == 192.168.1.1
 
 ## ⑦ Protocolos específicos
 
+### HTTP — Ver contraseñas en texto plano
+
+```bash
+http.request.method == 'POST'
+# → Follow → TCP Stream para ver credenciales
+http.cookie
+# Cookies de sesión → session hijacking
+```
+
 ### DNS — Tunelización
 
 ```bash
 dns.qry.name contains '.'
 # Nombres como 'aGVsbG8gd29ybGQ=.malware.com' → DNS tunneling
 ```
+
+---
+
+## ⑦bis Caso práctico — forense de SQL Injection en captura HTTP
+
+Flujo real de auditoría (clase Blue Team III) para rastrear una inyección SQL y un acceso no autorizado a directorios en una captura:
+
+```bash
+# 1. Filtrar solo HTTP del atacante
+ip.addr == <IP_atacante> && http
+
+# 2. Exportar los objetos HTTP (ficheros descargados)
+# Archivo → Exportar objetos → HTTP
+
+# 3. Rastrear la inyección: buscar el paquete que consulta information_schema
+http contains 'information_schema'
+# information_schema es la tabla común a cualquier BBDD que muestra
+# todas las columnas y tablas de la base de datos.
+# Clic derecho → Follow → HTTP Stream (o "seguir el flujo upstream")
+
+# 4. En la respuesta aparecen las tablas (p. ej. admin, books, customers)
+#    → la tabla con 'user data' es el objetivo
+
+# 5. Buscar directorios accedidos sin autorización (enumeración)
+http.request.method == "GET"
+# GET /directorio → si no acaba en extensión es una carpeta (directorio)
+# Códigos: 200 = existe y accedible · 403 = existe pero prohibido
+#          404 = no existe
+```
+
+> [!important] Enumeración con diccionario
+> La secuencia de GET a rutas como `/bash_history`, `/etc`... es una **fuerza bruta con diccionario** (directory busting). El diccionario debe ajustarse al SO sospechado: PHP suele indicar Linux; .NET, Windows. Un **403 Forbidden** apuntado para más tarde puede volverse útil al escalar privilegios.
 
 ---
 
@@ -179,22 +220,23 @@ tshark -r captura.pcap -Y 'http.request.method == POST' \
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../comandos/Metasploit.md|Metasploit]] — Metasploit, Pivoting / Movilidad Lateral, Wireshark
-- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Metasploit, Post-Explotación, Wireshark
-- [[../../comandos/Nmap.md|Nmap]] — Post-Explotación, WiFi / Hardware, Wireshark
-- [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Wireshark
-- [[../../apuntes evolve/BLOQUE 3.md|BLOQUE 3]] — Metasploit, Pivoting / Movilidad Lateral, Post-Explotación
-- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Post-Explotación, WiFi / Hardware, Wireshark
+- [[../../comandos/Nmap.md|Nmap]] — Nmap, Post-Explotacion, Redes
+- [[../01 - Fundamentos de Redes/Redes - Topologías y Encapsulación.md|Redes - Topologías y Encapsulación]] — Nmap, Redes, Redes
+- [[../01 - Fundamentos de Redes/Redes - Modelo OSI y TCP-IP.md|Redes - Modelo OSI y TCP-IP]] — Desarrollo Web, Nmap, SQL
+- [[../../apuntes Chema/Wireshark.md|Wireshark]] — Desarrollo Web, Nmap, Post-Explotacion
+- [[../../apuntes evolve/BLOQUE 9.md|BLOQUE 9]] — Nmap, Post-Explotacion, Redes
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
+- [[../../../programacion/SQL/cursores_sql.md|cursores_sql]] — Programacion: Desarrollo Web, Redes, SQL
+- [[../../../ia/mlflow_tool.md|mlflow_tool]] — IA: Desarrollo Web, Redes, SQL
 
-> #blue-team #metasploit #nmap #pivoting #post-explotacion #redes #wifi #wireshark
+> #blue_team #metasploit #nmap #pivoting #post_explotacion #redes #redes_ciber #sql #web #wifi #wireshark

@@ -408,29 +408,23 @@ cat /root/root.txt
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../informes/Informe_Castor.md|Informe_Castor]] — Hydra, John / Hashcat, SSH
-- [[Banco-THL.md|Banco-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Escalada de Privilegios, Hydra, SSH
-- [[Nike-THL.md|Nike-THL]] — Escalada de Privilegios, Hydra, SSH
-- [[Rockstars-THL.md|Rockstars-THL]] — Escalada de Privilegios, Hydra, John / Hashcat
-- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Escalada de Privilegios, John / Hashcat, SSH
+- [[../informes/Informe_Castor.md|Informe_Castor]] — Funcional, Path Traversal / LFI, XXE
+- [[../informes/Informe_Rockstars.md|Informe_Rockstars]] — Desarrollo Web, Path Traversal / LFI, XXE
+- [[../apuntes Chema/Repaso General II.md|Repaso General II]] — Desarrollo Web, Funcional, Path Traversal / LFI
+- [[../informes/Informe_Inj3ctCrew.md|Informe_Inj3ctCrew]] — Desarrollo Web, Path Traversal / LFI, XXE
+- [[Nike-THL.md|Nike-THL]] — Funcional, Path Traversal / LFI, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: Criptografia, Desarrollo Web, Linux
+- [[../../programacion/Docker/containers_seguridad.md|containers_seguridad]] — Programacion: Desarrollo Web, Funcional, Linux
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #escalada-privilegios #hydra #john #lfi #linux #nmap #redes #ssh #xxe
+> #cli #crypto #docker #escalada_privilegios #funcional #git #hydra #john_hashcat #lfi #linux #linux_ciber #nmap #redes #redes_ciber #ssh_tool #web #xxe

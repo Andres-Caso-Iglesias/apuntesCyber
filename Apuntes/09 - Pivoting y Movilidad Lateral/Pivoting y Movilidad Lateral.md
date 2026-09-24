@@ -174,9 +174,12 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 |-------|-------------|
 | No verificar todas las interfaces de la máquina pivote | Se pierden subredes internas |
 | Usar `-sS` con ProxyChains | No funciona (Solo TCP connect con `-sT`) |
-| Olvidar que el tráfico queda registr logs del pivote | Detección por SOC o EDR |
+| Olvidar que el tráfico queda registrado en los logs del pivote | Detección por SOC o EDR |
 | No verificar conectividad antes de escanear | Falsos negativos en enumeración |
 | Confiar solo en SSH para pivoting | Hay alternativas (socat, sshuttle, plink) cuando SSH no está disponible |
+
+> [!important] EXCEPCIÓN METASPLOIT (28.05)
+> En certificaciones como OSCP/eCPPT Metasploit está prohibido o muy limitado, **pero los escenarios de pivoting son la excepción**: Metasploit centraliza bien las sesiones entre múquinas y tiene sentido usarlo (`sessions`, routear through `meterpreter`).
 
 ---
 
@@ -188,10 +191,13 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 - [ ] Uso socat cuando SSH no está disponible
 - [ ] Verifico conectividad antes de escanear a través de un túnel
 - [ ] Recuerdo que pivoting es un ciclo, no un paso único
+- [ ] Sé que en escenarios de pivoting Metasploit es la excepción permitida y centraliza sesiones
 
 ---
 
 > **Siguiente tema:** Redes WiFi y Hardware — Auditoría WiFi y Car Hacking
+
+
 
 
 
@@ -205,22 +211,15 @@ sshuttle -r usuario@pivote_IP 192.168.10.0/24
 
 ### Documentos Relacionados
 
-- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Forense Digital, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../comandos/Metasploit.md|Metasploit]] — Forense Digital, Metasploit, Pivoting / Movilidad Lateral
-- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Escalada de Privilegios, Forense Digital, Pivoting / Movilidad Lateral
-- [[../comandos/Netcat.md|Netcat]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
+- [[../../apuntes evolve/BLOQUE 7.md|BLOQUE 7]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../11 - Forense Digital/Análisis Forense y Memoria.md|Análisis Forense y Memoria]] — Blue Team / SOC, Metodologia Pentest, Netcat / Reverse Shells
+- [[../../comandos/Metasploit.md|Metasploit]] — Linux, Metodologia Pentest, Windows
+- [[../02 - Sistemas Operativos/Linux - Comandos Avanzados de Pentesting.md|Linux - Comandos Avanzados de Pentesting]] — Linux, Metodologia Pentest, Netcat / Reverse Shells
+- [[../08 - Metodologías/Metodología - Explotación Linux.md|Metodología - Explotación Linux]] — Desarrollo Web, Linux, Netcat / Reverse Shells
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/PowerShell/seguridad_powershell.md|seguridad_powershell]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
+- [[../../../programacion/Ciberseguridad/hacking_etico.md|hacking_etico]] — Programacion: CLI/Scripting, Desarrollo Web, Redes
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #escalada-privilegios #forense #linux #metasploit #netcat #nmap #pentest #pivoting #post-explotacion #redes #reverse-shell #ssh #wifi #windows #xxe
+> #blue_team #cli #escalada_privilegios #forense #linux #linux_ciber #metasploit #netcat #nmap #pentest #pivoting #post_explotacion #redes #redes_ciber #reverse_shell #ssh_tool #web #wifi #windows_ciber #xxe

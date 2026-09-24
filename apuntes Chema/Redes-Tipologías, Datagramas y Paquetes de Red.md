@@ -97,21 +97,23 @@ Los metadatos (EXIF) de imágenes pueden revelar información crítica para OSIN
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Empleabilidad, Esteganografía, Metodología Pentest
-- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografía, Linux, WiFi / Hardware
-- [[OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografía, Linux, WiFi / Hardware
-- [[../Apuntes/06 - Explotacion y Post-Explotacion/Anonimato e Ingeniería Social.md|Anonimato e Ingeniería Social]] — Esteganografía, Metodología Pentest, WiFi / Hardware
-- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografía, Linux, WiFi / Hardware
-- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografía, Redes, WiFi / Hardware
+- [[../Apuntes/01 - Fundamentos de Redes/Redes - Direccionamiento IP y DNS.md|Redes - Direccionamiento IP y DNS]] — Esteganografia, Linux, Metodologia Pentest
+- [[../Apuntes/04 - OSINT y Recopilacion/OSINT - Metodología y Fuentes.md|OSINT - Metodología y Fuentes]] — Esteganografia, Linux, Metodologia Pentest
+- [[../Apuntes/10 - Redes WiFi y Hardware/Auditoría WiFi y Car Hacking.md|Auditoría WiFi y Car Hacking]] — Esteganografia, Linux, Metodologia Pentest
+- [[OSINT y Esteganografía.md|OSINT y Esteganografía]] — Esteganografia, Linux, Metodologia Pentest
+- [[../apuntes Joselu/MODULO2/resumen_master_clase13.md|resumen_master_clase13]] — Esteganografia, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Nmap|Nmap]]
+- [[../../ia/cuda_cudnn.md|cuda_cudnn]] — IA: IA/ML, Linux, Redes
+- [[../../ia/lab_anomalias_logs.md|lab_anomalias_logs]] — IA: IA/ML, Redes
 
-> #empleabilidad #esteganografia #linux #nmap #osint #pentest #redes #wifi #windows
+> #empleabilidad #esteganografia #ia_ml #linux #linux_ciber #nmap #osint #pentest #redes #redes_ciber #wifi #windows_ciber

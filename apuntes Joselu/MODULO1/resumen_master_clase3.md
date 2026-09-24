@@ -215,28 +215,23 @@ Resumen elaborado para uso académico en el Máster de Ciberseguridad e Intelige
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../transcripciones/Septiembre/09.09.2026 SQLi - Inyecciones - Labs II.md|09.09.2026 SQLi - Inyecciones - Labs II]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../../apuntes evolve/BLOQUE 2.md|BLOQUE 2]] — Escalada de Privilegios, Forense Digital, Netcat / Reverse Shells
-- [[../MODULO3/resumen_master_clase33.md|resumen_master_clase33]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../MODULO3/resumen_master_clase34.md|resumen_master_clase34]] — Escalada de Privilegios, Metasploit, Netcat / Reverse Shells
-- [[../MODULO3/resumen_master_clase20.md|resumen_master_clase20]] — Hack The Box, Metasploit, Netcat / Reverse Shells
+- [[../../Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Reverse Shells y Post-Explotación]] — Hack The Box, Netcat / Reverse Shells, SQL Injection
+- [[../../apuntes Andres/15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows.md|15.06.2026 Repaso Semanal II Archetype Completa, SMB y Primera Máquina Windows]] — Hack The Box, Kali Linux, Windows
+- [[../../apuntes Andres/11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad.md|11.06.2026 HTB Starting Point Tier 2 Appointment Completa y SQL Injection en Profundidad]] — Hack The Box, Python, SQL Injection
+- [[../../apuntes Andres/12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype.md|12.06.2026 HTB Starting Point Tier 2 Crocodile Completa y Tres Nuevos Conceptos en Archetype]] — Hack The Box, Python, SQL Injection
+- [[../MODULO3/resumen_master_clase40.md|resumen_master_clase40]] — Hack The Box, Kali Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Arquitectura, Desarrollo Web, Linux
+- [[../../../programacion/Python/seguridad_python.md|seguridad_python]] — Programacion: Arquitectura, Linux, SQL
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #command-injection #escalada-privilegios #forense #hack-the-box #ia #kali #linux #metasploit #metasploitable #netcat #post-explotacion #redes #reverse-shell #sqli #ssh #windows
+> #arquitectura #cli #command_injection #escalada_privilegios #forense #go #hack_the_box #ia_ml #kali #linux #linux_ciber #metasploit #metasploitable #netcat #post_explotacion #python #redes #redes_ciber #reverse_shell #sql #sqli #ssh_tool #web #windows_ciber

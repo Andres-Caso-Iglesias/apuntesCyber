@@ -168,21 +168,23 @@ El proyecto del **ajedrez con machine learning** queda abierto para la siguiente
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../Apuntes/comandos/Tmux.md|Tmux]] — Linux, Redes, Tmux
-- [[../../Apuntes/comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../../Apuntes/comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Redes, Tmux
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Redes, Tmux
-- [[../../comandos/Windows.md|Windows]] — Linux, Redes, Tmux
-- [[../../Apuntes/08 - Metodologías/Metodología - Active Directory.md|Metodología - Active Directory]] — Redes, Tmux, Windows
+- [[../../transcripciones/Julio/23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes.md|23.07.2026 IA De los cimientos a la Cima- LLMs, Tokens, Claude Code y Arquitectura de Agentes]] — Funcional, Rust, Testing
+- [[../../apuntes Chema/IA/IA - De los cimientos a la cima.md|IA - De los cimientos a la cima]] — Funcional, Rust, Testing
+- [[../../apuntes Chema/IA/IA - Redes Neuronales.md|IA - Redes Neuronales]] — Funcional, Rust, Testing
+- [[../../apuntes Chema/IA/IA - Introducción y VibeCoding.md|IA - Introducción y VibeCoding]] — Funcional, Rust, Testing
+- [[../../apuntes Andres/22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento.md|22.07.2026 IA Redes Neuronales, Machine Learning y Arquitecturas de Conocimiento]] — Arquitectura, Desarrollo Web, Testing
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../../programacion/Rust/seguridad_rust.md|seguridad_rust]] — Programacion: Funcional, Rust, Testing
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Rust, Testing
 
-> #ia #linux #pentest #redes #tmux #windows
+> #arquitectura #database #docker #error_handling #funcional #go #ia_ml #linux #linux_ciber #pentest #python #redes #rust #sql #testing #tmux #web #windows_ciber

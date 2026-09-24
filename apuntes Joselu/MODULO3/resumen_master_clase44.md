@@ -345,32 +345,23 @@ TÃ©rmino en la transcripciÃ³n CorrecciÃ³n / AclaraciÃ³n
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — Escalada de Privilegios, FFUF, Hydra
-- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — Escalada de Privilegios, Hydra, Linux
-- [[resumen_master_clase43.md|resumen_master_clase43]] — Escalada de Privilegios, FFUF, Linux
-- [[resumen_master_clase42.md|resumen_master_clase42]] — Escalada de Privilegios, FFUF, Hydra
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Escalada de Privilegios, Hydra, Linux
-- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — Escalada de Privilegios, Hydra, Linux
+- [[../../transcripciones/Julio/11.07.2026 Owasp Top 10 XXE  Labs II.md|11.07.2026 Owasp Top 10 XXE  Labs II]] — GoBuster, Seguridad, XXE
+- [[../../apuntes Andres/10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor.md|10.07.2026 Repaso y Explotación Avanzada Máquinas Nike y Castor]] — FFUF, GoBuster, XXE
+- [[../../transcripciones/Julio/09.07.2026 Owasp Top 10 XXE  Labs with Castor.md|09.07.2026 Owasp Top 10 XXE  Labs with Castor]] — GoBuster, Seguridad, XXE
+- [[resumen_master_clase21.md|resumen_master_clase21]] — GoBuster, Seguridad, XXE
+- [[resumen_master_clase43.md|resumen_master_clase43]] — SQL Injection, Testing, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Go/testing_go.md|testing_go]] — Programacion: Linux, Seguridad, Testing
+- [[../../../programacion/Go/seguridad_go.md|seguridad_go]] — Programacion: Desarrollo Web, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #blue-team #burpsuite #escalada-privilegios #ffuf #gobuster #hydra #ia #lfi #linux #nmap #redes #sqli #ssh #windows #wordpress #xxe
+> #blue_team #burpsuite #cli #escalada_privilegios #ffuf #go #gobuster #hydra #ia_ml #lfi #linux #linux_ciber #nmap #python #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #testing #web #windows_ciber #wordpress #xxe

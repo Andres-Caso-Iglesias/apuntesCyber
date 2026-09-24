@@ -183,29 +183,23 @@ Término en la transcripción Corrección / Aclaración en paralelo para crackin
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — File Upload, Forense Digital, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, Forense Digital, Netcat / Reverse Shells
-- [[../MODULO1/resumen_master_clase2.md|resumen_master_clase2]] — Forense Digital, Normativa / GRC, Pivoting / Movilidad Lateral
-- [[../MODULO1/resumen_master_clase5.md|resumen_master_clase5]] — Escalada de Privilegios, Forense Digital, Normativa / GRC
-- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — File Upload, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
-- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Escalada de Privilegios, Netcat / Reverse Shells, Pivoting / Movilidad Lateral
+- [[../MODULO3/resumen_master_clase26.md|resumen_master_clase26]] — File Upload, Hack The Box, Seguridad
+- [[../../transcripciones/Septiembre/02.09.2026 Repaso General II.md|02.09.2026 Repaso General II]] — Hack The Box, Seguridad, Windows
+- [[../../transcripciones/Julio/07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote.md|07.07.2026 Explotación Avanzada Fuzzing de Parámetros II y Escalada de Privilegios MultiPivote]] — File Upload, Hack The Box, Seguridad
+- [[../../transcripciones/Junio/08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell.md|08.06.2026 HTB Starting Point Tier 1 y 2 Burp Suite, Webshell y Reverse Shell]] — File Upload, Hack The Box, Seguridad
+- [[../../transcripciones/Junio/29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web.md|29.06.2026 Vulnerabilidades Web OWASP Top 10 y Reconocimiento Web]] — File Upload, Seguridad, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/BurpSuite|Burp Suite]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/PLSQL/fundamentos_plsql.md|fundamentos_plsql]] — Programacion: Desarrollo Web, Funcional, Seguridad
+- [[../../../programacion/Node/seguridad_node.md|seguridad_node]] — Programacion: Desarrollo Web, Funcional, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/05 - Auditoria Web/Vulnerabilidades Web - OWASP Top 10 y Burp Suite.md|XSS]]
-
-> #blue-team #burpsuite #certificaciones #escalada-privilegios #file-upload #forense #hack-the-box #hydra #ia #metasploit #netcat #normativa #pivoting #redes #reverse-shell #telnet #windows #xss
+> #arquitectura #blue_team #burpsuite #certificaciones #cli #cloud_base #crypto #escalada_privilegios #file_upload #forense #funcional #hack_the_box #hydra #ia_ml #javascript #metasploit #netcat #normativa #pivoting #redes #redes_ciber #reverse_shell #seguridad #sql #telnet #web #windows_ciber #xss

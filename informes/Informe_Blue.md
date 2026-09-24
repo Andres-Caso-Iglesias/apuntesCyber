@@ -183,22 +183,23 @@ Nmap Scan
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Metasploit, Redes
-- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Hack The Box, Metasploit, Redes
-- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Metasploit, Nmap, Redes
-- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Redes, Windows
-- [[Informe_Nike.md|Informe_Nike]] — Hack The Box, Metasploit, Redes
-- [[Informr_legacy.md|Informr_legacy]] — Hack The Box, Metasploit, Redes
+- [[../Apuntes/comandos/Nmap.md|Nmap]] — Linux, Linux, Windows
+- [[../Apuntes/02 - Sistemas Operativos/Linux - Bash Scripting.md|Linux - Bash Scripting]] — Linux, Nmap, Windows
+- [[../apuntes Chema/Bash Comandos Avanzados.md|Bash Comandos Avanzados]] — Hack The Box, Linux, Windows
+- [[../apuntes Chema/Bash y PowerShell.md|Bash y PowerShell]] — Hack The Box, Linux, Linux
+- [[../comandos/Metasploit.md|Metasploit]] — Linux, Nmap, Windows
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Nmap|Nmap]]
+- [[../../programacion/XML/xpath_xslt.md|xpath_xslt]] — Programacion: CLI/Scripting, Linux, Redes
+- [[../../redes/dig_nslookup.md|dig_nslookup]] — Redes: CLI/Scripting, Linux, Redes
 
-> #hack-the-box #linux #metasploit #nmap #redes #windows
+> #cli #hack_the_box #linux #linux_ciber #metasploit #nmap #redes #redes_ciber #windows_ciber

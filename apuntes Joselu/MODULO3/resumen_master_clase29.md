@@ -382,35 +382,23 @@ Término en la transcripción Corrección / Aclaración
 
 
 
+
+
 ---
 
 ## 🔗 Red de Conocimiento
 
 ### Documentos Relacionados
 
-- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — Command Injection / RCE, Feroxbuster, Metasploitable / DVWA
-- [[resumen_master_clase19.md|resumen_master_clase19]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[resumen_master_clase45.md|resumen_master_clase45]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[../../transcripciones/Julio/14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab).md|14.07.2026 Fundamentos Web y SQL Injection Máquina Injected (HackerLab)]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
-- [[../../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — Metasploit, Metodología Pentest, Netcat / Reverse Shells
+- [[../../apuntes Chema/Auditoria web.md|Auditoria web]] — GoBuster, Kali Linux, Seguridad
+- [[../../transcripciones/Mayo/21.05.2026 Introducción Blue Team III Análisis de protocolos.md|21.05.2026 Introducción Blue Team III Análisis de protocolos]] — Kali Linux, Linux, Seguridad
+- [[../../transcripciones/Junio/05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy.md|05.06.2026 Hacking Web y Enumeración Completa Máquina Ridiculously Easy]] — GoBuster, Kali Linux, Seguridad
+- [[../../Apuntes/05 - Auditoria Web/Auditoria Web - Práctica con Metasploitable.md|Auditoria Web - Práctica con Metasploitable]] — GoBuster, Kali Linux, Seguridad
+- [[../../transcripciones/Junio/01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web.md|01.06.2026 Explotación de Servicios Vulnerables III NFS, Hashes, SSH y Primeros Pasos en Web]] — Kali Linux, Post-Explotacion, Seguridad
 
-### 🛠️ Herramientas
+### 🌐 Cross-Dominio
 
-- [[comandos/DirSearch|DirSearch]]
-- [[comandos/Feroxbuster|Feroxbuster]]
-- [[comandos/GoBuster|GoBuster]]
-- [[comandos/Hydra|Hydra]]
-- [[comandos/John_Hashcat|John / Hashcat]]
-- [[comandos/Metasploit|Metasploit]]
-- [[comandos/Metasploit|Netcat / Reverse Shells]]
-- [[comandos/Nmap|Nmap]]
-- [[comandos/SSH|SSH]]
-- [[comandos/Telnet|Telnet]]
+- [[../../../programacion/Csharp/seguridad_csharp.md|seguridad_csharp]] — Programacion: Desarrollo Web, Linux, Seguridad
+- [[../../../programacion/Ruby/seguridad_ruby.md|seguridad_ruby]] — Programacion: Desarrollo Web, SQL, Seguridad
 
-### 🎯 Vulnerabilidades Relacionadas
-
-- [[Apuntes/06 - Explotacion y Post-Explotacion/Reverse Shells y Post-Explotación.md|Command Injection / RCE]]
-- [[Apuntes/05 - Auditoria Web/SQL Injection.md|SQL Injection]]
-
-> #blue-team #command-injection #dirsearch #feroxbuster #gobuster #hydra #ia #john #kali #linux #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #post-explotacion #redes #reverse-shell #sqli #ssh #telnet
+> #blue_team #cli #cloud_base #command_injection #dirsearch #feroxbuster #gobuster #hydra #ia_ml #java #javascript #john_hashcat #kali #kubernetes #linux #linux_ciber #metasploit #metasploitable #netcat #nmap #normativa #osint #pentest #post_explotacion #python #redes #redes_ciber #seguridad #sql #sqli #ssh_tool #telnet #web
